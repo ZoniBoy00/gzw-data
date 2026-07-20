@@ -1,139 +1,149 @@
-// GZW Data API — Minimal Vercel serverless
-// Serves all game data with CORS + rate limiting
+// GZW Data API — Vercel serverless
+// Uses createRequire for maximum Node.js compatibility
 
-import { readFileSync, existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
 
-// Find where JSON files live
-const CWD = process.cwd();
-let ROOT = CWD;
-for (const p of [CWD, join(CWD, '..')]) {
-  if (existsSync(join(p, 'armor.json'))) { ROOT = p; break; }
-}
+const armor = require('../armor.json');
+const weapons = require('../weapons.json');
+const backpacks = require('../backpacks.json');
+const rigs = require('../rigs.json');
+const keys = require('../keys.json');
+const tasks = require('../tasks.json');
+const throwables = require('../throwables.json');
+const images = require('../images.json');
 
-// Data loaders
-const load = (f) => { try { return JSON.parse(readFileSync(join(ROOT, f), 'utf-8')); } catch { return null; } };
-const D = {
-  armor: () => load('armor.json'),
-  weapons: () => load('weapons.json'),
-  bps: () => load('backpacks.json'),
-  rigs: () => load('rigs.json'),
-  keys: () => load('keys.json'),
-  tasks: () => load('tasks.json'),
-  throws: () => load('throwables.json'),
-  images: () => load('images.json'),
-};
-
-// Rate limiter (simple, per-instance)
-const RATE = { limit: 100, window: 60000 };
+// Rate limiter
+const RATE = { max: 100, ms: 60000 };
 const hits = new Map();
 
-function checkRate(ip) {
+function rate(ip) {
   const now = Date.now();
-  const rec = hits.get(ip);
-  if (!rec || now - rec.t > RATE.window) {
-    hits.set(ip, { t: now, c: 1 });
-    return { ok: true, remain: RATE.limit - 1, reset: now + RATE.window };
-  }
-  rec.c++;
-  if (rec.c > RATE.limit) return { ok: false, remain: 0, reset: rec.t + RATE.window };
-  return { ok: true, remain: RATE.limit - rec.c, reset: rec.t + RATE.window };
+  let r = hits.get(ip);
+  if (!r || now - r.t > RATE.ms) { hits.set(ip, { t: now, c: 1 }); return { rem: RATE.max - 1, reset: now + RATE.ms }; }
+  r.c++;
+  if (r.c > RATE.max) return { rem: 0, reset: r.t + RATE.ms };
+  return { rem: RATE.max - r.c, reset: r.t + RATE.ms };
 }
 
-// Helpers
-const H = (s, h) => new Response(s, { headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'public, max-age=3600', ...h } });
+const j = (data, s = 200, extra = {}) => new Response(JSON.stringify({ data, count: Array.isArray(data) ? data.length : undefined, source: 'GZW Data API', timestamp: new Date().toISOString() }), {
+  status: s,
+  headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'public, max-age=3600', ...extra },
+});
 
-function respond(data, status = 200, extra = {}) {
-  return H(JSON.stringify({ data, count: Array.isArray(data) ? data.length : undefined, source: 'GZW Data API', timestamp: new Date().toISOString() }), { status, ...extra });
+function pathAndQuery(url) {
+  const i = url.indexOf('?');
+  return { path: (i === -1 ? url : url.slice(0, i)).replace(/^\/api\/?/, '').replace(/\/$/, '') || 'root', params: new URLSearchParams(i === -1 ? '' : url.slice(i)) };
+}
+
+function filterBy(arr, params, fields) {
+  let d = [...arr];
+  for (const f of fields) {
+    const v = params.get(f);
+    if (v) d = d.filter(x => (x[f] || '').toLowerCase() === v.toLowerCase());
+  }
+  return d;
 }
 
 export default async function handler(req) {
   try {
-    // Parse path from req.url
-    const qIdx = req.url.indexOf('?');
-    const p = (qIdx === -1 ? req.url : req.url.slice(0, qIdx)).replace(/^\/api\/?/, '').replace(/\/$/, '') || 'r';
-    const params = new URLSearchParams(qIdx === -1 ? '' : req.url.slice(qIdx));
+    const { path, params } = pathAndQuery(req.url || '/');
 
-    // CORS
-    if (req.method === 'OPTIONS') {
-      return new Response(null, { headers: { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': '*', 'Access-Control-Max-Age': '86400' } });
+    if (req.method === 'OPTIONS') return new Response(null, { headers: { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': '*', 'Access-Control-Max-Age': '86400' } });
+
+    const r = rate(req.headers.get('x-forwarded-for')?.split(',')[0] || req.headers.get('x-real-ip') || 'anon');
+    const rl = { 'X-RateLimit-Limit': RATE.max, 'X-RateLimit-Remaining': r.rem, 'X-RateLimit-Reset': Math.ceil(r.reset / 1000) };
+    if (r.rem === 0) return j({ error: 'Rate limit exceeded' }, 429, rl);
+
+    if (path === 'spec') {
+      return new Response(JSON.stringify({
+        openapi: '3.0.3', info: { title: 'GZW Data API', version: '1.0.0' },
+        servers: [{ url: 'https://gzw-data.vercel.app' }],
+        paths: {
+          '/api': { get: { summary: 'API root' } },
+          '/api/armor': { get: { summary: 'Armor (61 items)', parameters: [{ name: 'type', in: 'query' }, { name: 'material', in: 'query' }, { name: 'nij', in: 'query' }] } },
+          '/api/weapons': { get: { summary: 'Weapons (51)', parameters: [{ name: 'type', in: 'query' }, { name: 'caliber', in: 'query' }, { name: 'search', in: 'query' }] } },
+          '/api/backpacks': { get: { summary: 'Backpacks & rigs', parameters: [{ name: 'type', in: 'query' }] } },
+          '/api/keys': { get: { summary: 'Keys (124)', parameters: [{ name: 'location', in: 'query' }] } },
+          '/api/tasks': { get: { summary: 'Tasks (278)', parameters: [{ name: 'vendor', in: 'query' }, { name: 'area', in: 'query' }, { name: 'search', in: 'query' }] } },
+          '/api/throwables': { get: { summary: 'Throwables (8)' } },
+          '/api/images': { get: { summary: 'Image URLs (199)' } },
+          '/api/stats': { get: { summary: 'Statistics' } },
+          '/api/search': { get: { summary: 'Search', parameters: [{ name: 'q', in: 'query', required: true }] } },
+        },
+      }), { headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'public, max-age=3600', ...rl } });
     }
 
-    // Rate limit
-    const ip = req.headers.get('x-forwarded-for')?.split(',')[0] || req.headers.get('x-real-ip') || 'anon';
-    const rate = checkRate(ip);
-    const rlHeaders = { 'X-RateLimit-Limit': RATE.limit, 'X-RateLimit-Remaining': rate.remain, 'X-RateLimit-Reset': Math.ceil(rate.reset / 1000) };
-    if (!rate.ok) return respond({ error: 'Rate limit exceeded' }, 429, rlHeaders);
+    if (path === 'health' || path === 'debug') return j({ ok: true, version: '1.0.0', dataLoaded: { armor: !!armor, weapons: !!weapons, backpacks: !!backpacks, keys: !!keys, tasks: !!tasks } }, 200, rl);
+    if (path === 'root') return j({ name: 'GZW Data API', version: '1.0.0', endpoints: ['armor', 'weapons', 'backpacks', 'keys', 'tasks', 'throwables', 'images', 'stats', 'search'] }, 200, rl);
 
-    // ── Routes ──
-    if (p === 'spec' || p === 'openapi.json') {
-      return H(JSON.stringify({ openapi: '3.0.3', info: { title: 'GZW Data API', version: '1.0.0' }, servers: [{ url: 'https://gzw-data.vercel.app' }], paths: { '/api': { get: { summary: 'Root' } }, '/api/armor': { get: { summary: 'Armor items' } }, '/api/weapons': { get: { summary: 'Weapons' } }, '/api/backpacks': { get: { summary: 'Backpacks & rigs' } }, '/api/keys': { get: { summary: 'Keys' } }, '/api/tasks': { get: { summary: 'Tasks' } }, '/api/throwables': { get: { summary: 'Throwables' } }, '/api/images': { get: { summary: 'Image lookup' } }, '/api/stats': { get: { summary: 'Stats' } }, '/api/search': { get: { summary: 'Search' } } } }), rlHeaders);
-    }
+    if (path === 'armor') return j(filterBy(armor, params, ['type', 'material', 'nij']), 200, rl);
 
-    if (p === 'debug' || p === 'health') {
-      return respond({ ok: true, root: ROOT, cwd: CWD, files: ['armor.json', 'weapons.json', 'backpacks.json', 'keys.json', 'tasks.json'].map(f => ({ f, exists: existsSync(join(ROOT, f)) })) }, 200, rlHeaders);
-    }
-
-    if (p === 'r') return respond({ name: 'GZW Data API', version: '1.0.0' }, 200, rlHeaders);
-
-    if (p === 'armor') {
-      let d = D.armor() || [];
-      ['type', 'material', 'nij'].forEach(k => { const v = params.get(k); if (v) d = d.filter(x => (x[k] || '').toLowerCase() === v.toLowerCase()); });
-      return respond(d, 200, rlHeaders);
-    }
-
-    if (p === 'weapons') {
-      let d = D.weapons() || [];
+    if (path === 'weapons') {
+      let d = [...weapons];
       const t = params.get('type'), c = params.get('caliber'), s = params.get('search');
       if (t) d = d.filter(x => x.type?.toLowerCase() === t.toLowerCase());
       if (c) d = d.filter(x => x.caliber === c);
       if (s) { const q = s.toLowerCase(); d = d.filter(x => x.name.toLowerCase().includes(q) || (x.caliber || '').includes(q)); }
-      return respond(d, 200, rlHeaders);
+      return j(d, 200, rl);
     }
 
-    if (p === 'backpacks') {
-      const bps = D.bps() || [], rigs = (D.rigs() || []).filter(r => r.weight);
+    if (path === 'backpacks') {
+      const bps = [...backpacks], rgs = rigs.filter(r => r.weight);
       const t = params.get('type');
-      if (t === 'Backpack') return respond(bps, 200, rlHeaders);
-      if (t === 'Tactical Rig') return respond(rigs, 200, rlHeaders);
-      return respond({ backpacks: bps, rigs }, 200, rlHeaders);
+      if (t === 'Backpack') return j(bps, 200, rl);
+      if (t === 'Tactical Rig') return j(rgs, 200, rl);
+      return j({ backpacks: bps, rigs: rgs }, 200, rl);
     }
 
-    if (p === 'keys') {
-      let d = D.keys() || [];
+    if (path === 'keys') {
+      let d = [...keys];
       const l = params.get('location');
       if (l) d = d.filter(x => x.location?.toLowerCase() === l.toLowerCase());
-      return respond({ keys: d, locations: [...new Set((D.keys() || []).map(k => k.location))].sort() }, 200, rlHeaders);
+      return j({ keys: d, locations: [...new Set(keys.map(k => k.location))].sort() }, 200, rl);
     }
 
-    if (p === 'tasks') {
-      let d = D.tasks() || [];
+    if (path === 'tasks') {
+      let d = [...tasks];
       const v = params.get('vendor'), a = params.get('area'), s = params.get('search');
       if (v) d = d.filter(x => x.vendor?.toLowerCase() === v.toLowerCase());
       if (a) d = d.filter(x => (x.area || '').toLowerCase().includes(a.toLowerCase()));
       if (s) { const q = s.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q) || (x.area || '').toLowerCase().includes(q)); }
-      return respond(d, 200, rlHeaders);
+      return j(d, 200, rl);
     }
 
-    if (p === 'throwables') return respond(D.throws() || [], 200, rlHeaders);
-    if (p === 'images') return respond(D.images() || {}, 200, rlHeaders);
+    if (path === 'throwables') return j(throwables, 200, rl);
+    if (path === 'images') return j(images, 200, rl);
 
-    if (p === 'stats') {
-      const a = D.armor() || [], w = D.weapons() || [], b = D.bps() || [], r = (D.rigs() || []).filter(x => x.weight), k = D.keys() || [], t = D.tasks() || [];
-      return respond({ armor: { total: a.length, vests: a.filter(x => x.category === 'vests').length, helmets: a.filter(x => x.category === 'helmets').length, plateCarriers: a.filter(x => x.category === 'plate_carriers').length }, weapons: { total: w.length, types: [...new Set(w.map(x => x.type))] }, backpacks: { total: b.length }, rigs: { total: r.length }, keys: { total: k.length, locations: [...new Set(k.map(x => x.location))].sort() }, tasks: { total: t.length, vendors: [...new Set(t.map(x => x.vendor).filter(Boolean))] }, images: { total: Object.keys(D.images() || {}).length } }, 200, rlHeaders);
+    if (path === 'stats') {
+      return j({
+        armor: { total: armor.length, vests: armor.filter(x => x.category === 'vests').length, helmets: armor.filter(x => x.category === 'helmets').length, plateCarriers: armor.filter(x => x.category === 'plate_carriers').length },
+        weapons: { total: weapons.length, types: [...new Set(weapons.map(x => x.type))] },
+        backpacks: { total: backpacks.length },
+        rigs: { total: rigs.filter(r => r.weight).length },
+        keys: { total: keys.length, locations: [...new Set(keys.map(k => k.location))].sort() },
+        tasks: { total: tasks.length, vendors: [...new Set(tasks.map(t => t.vendor).filter(Boolean))] },
+        images: { total: Object.keys(images).length },
+      }, 200, rl);
     }
 
-    if (p === 'search') {
+    if (path === 'search') {
       const q = params.get('q');
-      if (!q) return respond({ error: 'Missing ?q' }, 400, rlHeaders);
+      if (!q) return j({ error: 'Missing ?q' }, 400, rl);
       const query = q.toLowerCase();
-      return respond({ query: q, weapons: (D.weapons() || []).filter(x => x.name.toLowerCase().includes(query)), armor: (D.armor() || []).filter(x => x.name.toLowerCase().includes(query)), keys: (D.keys() || []).filter(x => x.name.toLowerCase().includes(query) || (x.location || '').toLowerCase().includes(query)), tasks: (D.tasks() || []).filter(x => (x.name || '').toLowerCase().includes(query) || (x.area || '').toLowerCase().includes(query)) }, 200, rlHeaders);
+      return j({
+        query: q,
+        weapons: weapons.filter(x => x.name.toLowerCase().includes(query)),
+        armor: armor.filter(x => x.name.toLowerCase().includes(query)),
+        keys: keys.filter(x => x.name.toLowerCase().includes(query) || (x.location || '').toLowerCase().includes(query)),
+        tasks: tasks.filter(x => (x.name || '').toLowerCase().includes(query) || (x.area || '').toLowerCase().includes(query)),
+      }, 200, rl);
     }
 
-    return respond({ error: 'Not found', path: `/api/${p}` }, 404, rlHeaders);
+    return j({ error: `Not found: /api/${path}` }, 404, rl);
 
   } catch (err) {
-    console.error('GZW API Error:', err.message);
+    console.error('GZW API Error:', err.stack);
     return new Response(JSON.stringify({ error: 'Internal error', message: err.message }), {
       status: 500, headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'no-cache' },
     });
