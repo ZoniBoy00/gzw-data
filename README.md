@@ -2,13 +2,13 @@
 
 **Gray Zone Warfare** — Fan-made game data repository.
 
-Structured JSON data scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com).
+Structured JSON data in `data/` directory, scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com).
 
 ## Quick Start
 
 ```bash
 # Raw data (no API needed)
-curl https://raw.githubusercontent.com/ZoniBoy00/gzw-data/main/armor.json
+curl https://raw.githubusercontent.com/ZoniBoy00/gzw-data/main/data/armor.json
 
 # Or use the API (when deployed)
 curl https://gzw-data.vercel.app/api/weapons

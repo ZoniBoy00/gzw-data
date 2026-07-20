@@ -2,14 +2,14 @@
 const { createRequire } = require('node:module');
 const require2 = createRequire(__filename);
 
-const armor = require2('../armor.json');
-const weapons = require2('../weapons.json');
-const backpacks = require2('../backpacks.json');
-const rigs = require2('../rigs.json');
-const keys = require2('../keys.json');
-const tasks = require2('../tasks.json');
-const throwables = require2('../throwables.json');
-const images = require2('../images.json');
+const armor = require2('../data/armor.json');
+const weapons = require2('../data/weapons.json');
+const backpacks = require2('../data/backpacks.json');
+const rigs = require2('../data/rigs.json');
+const keys = require2('../data/keys.json');
+const tasks = require2('../data/tasks.json');
+const throwables = require2('../data/throwables.json');
+const images = require2('../data/images.json');
 
 // Rate limiter
 const RATE = { max: 100, ms: 60000 };

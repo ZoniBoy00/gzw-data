@@ -1,0 +1,114 @@
+name: Weekly Data Scrape
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday at 06:00 UTC
+  workflow_dispatch:       # Manual trigger
+  repository_dispatch:     # Trigger from gzw-tools scraper
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      # ── Checkout gzw-tools (scraper source) ──
+      - uses: actions/checkout@v4
+        with:
+          repository: ZoniBoy00/gzw-tools
+          path: gzw-tools
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Checkout gzw-data (target repo — current) ──
+      - uses: actions/checkout@v4
+        with:
+          path: gzw-data
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml 2>&1 | tail -5
+
+      # ── Run scraper ──
+      - name: Scrape wiki data
+        run: |
+          cd gzw-tools/scripts/scraper
+          python scrape.py --all 2>&1
+        continue-on-error: true
+
+      - name: Enrich task data
+        run: |
+          cd gzw-tools/scripts/scraper
+          python enrich_tasks.py 2>&1
+        continue-on-error: true
+
+      - name: Categorize tasks
+        run: |
+          cd gzw-tools/scripts/scraper
+          python categorize_tasks.py 2>&1
+        continue-on-error: true
+
+      - name: Generate frontend data
+        run: |
+          cd gzw-tools/scripts/scraper
+          python gen_frontend_data.py 2>&1
+
+      # ── Copy scraped data to gzw-data ──
+      - name: Copy data to gzw-data/data/
+        run: |
+          SRC="gzw-tools/scripts/scraper/data"
+          DST="gzw-data/data"
+          mkdir -p "$DST"
+          for f in armor.json weapons.json backpacks.json rigs.json \
+                   keys.json tasks.json throwables.json \
+                   item_images.json vests.json; do
+            if [ -f "$SRC/$f" ]; then
+              cp "$SRC/$f" "$DST/$f"
+              echo "  ✅ $f"
+            else
+              echo "  ⚠️  $f not found in scraper output"
+            fi
+          done
+
+          # Also copy images.json if generated
+          if [ -f "$SRC/images.json" ]; then
+            cp "$SRC/images.json" "$DST/images.json"
+            echo "  ✅ images.json"
+          fi
+
+          echo "---"
+          echo "Files in gzw-data/data/:"
+          ls -la "$DST/"
+
+      # ── Normalise data (add id, reorder fields) ──
+      - name: Normalise data
+        run: |
+          cd gzw-data
+          if [ -f scripts/normalise_data.py ]; then
+            python3 scripts/normalise_data.py 2>&1 || echo "⚠️ normalise_data.py failed"
+          fi
+          if [ -f scripts/reorder_data.py ]; then
+            python3 scripts/reorder_data.py 2>&1 || echo "⚠️ reorder_data.py failed"
+          fi
+
+      # ── Commit and push ──
+      - name: Commit and push changes
+        run: |
+          cd gzw-data
+          git config user.name "gzw-bot"
+          git config user.email "bot@gzw-data.dev"
+
+          # Check for changes
+          if git status --porcelain data/ | grep -q .; then
+            echo "Data files changed. Committing..."
+            git add data/
+            git commit -m "auto: update scraped data ($(date +%Y-%m-%d))"
+            git push
+            echo "✅ Pushed to gzw-data main"
+          else
+            echo "No data changes detected."
+          fi
