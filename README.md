@@ -26,7 +26,31 @@ curl https://gzw-data.vercel.app/api/keys?location=Ban%20Pa
 | `keys.json` | 124 | Keys & keycards with location, wiki link, task flag |
 | `tasks.json` | 278 | Mission database with vendor, area, objectives, rewards |
 | `throwables.json` | 8 | Grenades: frag, smoke, stun |
-| `images.json` | 199 | Item image URL lookup by name |
+| `images.json` | 199+ | Item image URL lookup by name |
+| `medical.json` | — | Medical items (bandages, splints, surgery kits) |
+| `gear.json` | — | Miscellaneous gear items |
+| `containers.json` | — | Storage containers (ammo boxes, weapon cases) |
+| `loot_containers.json` | — | World-spawn loot containers |
+| `loot.json` | — | Lootable items |
+| `provisions.json` | — | Food & drink provisions |
+| `food.json` | — | Food items |
+| `drinks.json` | — | Drink items |
+| `magazines.json` | — | Weapon magazines |
+| `barrels.json` | — | Weapon barrels |
+| `muzzle_devices.json` | — | Muzzle attachments |
+| `suppressors.json` | — | Suppressors |
+| `stocks.json` | — | Weapon stocks |
+| `stock_adapters.json` | — | Stock adapters |
+| `pistol_grips.json` | — | Pistol grips |
+| `foregrips.json` | — | Foregrips |
+| `night_vision.json` | — | Night vision devices |
+| `helmet_mods.json` | — | Helmet modifications |
+| `helmet_mounts.json` | — | Helmet mounts |
+| `repair_kits.json` | — | Weapon repair kits |
+| `tools.json` | — | Tools |
+| `military_equipment.json` | — | Military equipment |
+| `task_items.json` | — | Task-specific items |
+| `weapon_camos.json` | — | Weapon camouflage skins |
 | `map_data.json` | — | Interactive map data (POIs, grid, COPs) |
 | `vendor_images.json` | 7 | Vendor avatar/image URLs |
 
