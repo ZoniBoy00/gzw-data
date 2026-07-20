@@ -51,8 +51,13 @@ module.exports = (req, res) => {
 
     const { path, params } = pathAndQuery(req.url || '/');
 
+    // Handle case where Vercel rewrite changes req.url
+    const forwardedUrl = req.headers['x-vercel-forwarded-url'];
+    const actualPath = forwardedUrl ? pathAndQuery(forwardedUrl).path : path;
+    const p = actualPath;
+
     // ── Routes ──
-    if (path === 'spec' || path === 'openapi.json') {
+    if (p === 'spec' || p === 'openapi.json') {
       return res.json({
         openapi: '3.0.3', info: { title: 'GZW Data API', version: '1.0.0', description: 'Gray Zone Warfare game data API.' },
         servers: [{ url: 'https://gzw-data.vercel.app' }],
@@ -71,10 +76,10 @@ module.exports = (req, res) => {
       });
     }
 
-    if (path === 'health' || path === 'debug') return res.json({ ok: true, version: '1.0.0', dataLoaded: { armor: !!armor, weapons: !!weapons, backpacks: !!backpacks, keys: !!keys, tasks: !!tasks } });
-    if (path === 'root') return res.json({ name: 'GZW Data API', version: '1.0.0', endpoints: ['armor', 'weapons', 'backpacks', 'keys', 'tasks', 'throwables', 'images', 'stats', 'search'] });
+    if (p === 'health' || p === 'debug') return res.json({ ok: true, version: '1.0.0', dataLoaded: { armor: !!armor, weapons: !!weapons, backpacks: !!backpacks, keys: !!keys, tasks: !!tasks } });
+    if (p === 'root') return res.json({ name: 'GZW Data API', version: '1.0.0', endpoints: ['armor', 'weapons', 'backpacks', 'keys', 'tasks', 'throwables', 'images', 'stats', 'search'] });
 
-    if (path === 'armor') {
+    if (p === 'armor') {
       let d = [...armor];
       for (const k of ['type', 'material', 'nij']) {
         const v = params.get(k);
@@ -83,7 +88,7 @@ module.exports = (req, res) => {
       return json(res, d);
     }
 
-    if (path === 'weapons') {
+    if (p === 'weapons') {
       let d = [...weapons];
       const t = params.get('type'), c = params.get('caliber'), s = params.get('search');
       if (t) d = d.filter(x => x.type?.toLowerCase() === t.toLowerCase());
@@ -92,7 +97,7 @@ module.exports = (req, res) => {
       return json(res, d);
     }
 
-    if (path === 'backpacks') {
+    if (p === 'backpacks') {
       const bps = [...backpacks], rgs = rigs.filter(r => r.weight);
       const t = params.get('type');
       if (t === 'Backpack') return json(res, bps);
@@ -100,14 +105,14 @@ module.exports = (req, res) => {
       return json(res, { backpacks: bps, rigs: rgs });
     }
 
-    if (path === 'keys') {
+    if (p === 'keys') {
       let d = [...keys];
       const l = params.get('location');
       if (l) d = d.filter(x => x.location?.toLowerCase() === l.toLowerCase());
       return json(res, { keys: d, locations: [...new Set(keys.map(k => k.location))].sort() });
     }
 
-    if (path === 'tasks') {
+    if (p === 'tasks') {
       let d = [...tasks];
       const v = params.get('vendor'), a = params.get('area'), s = params.get('search');
       if (v) d = d.filter(x => x.vendor?.toLowerCase() === v.toLowerCase());
@@ -116,10 +121,10 @@ module.exports = (req, res) => {
       return json(res, d);
     }
 
-    if (path === 'throwables') return json(res, throwables);
-    if (path === 'images') return json(res, images);
+    if (p === 'throwables') return json(res, throwables);
+    if (p === 'images') return json(res, images);
 
-    if (path === 'stats') {
+    if (p === 'stats') {
       return json(res, {
         armor: { total: armor.length, vests: armor.filter(x => x.category === 'vests').length, helmets: armor.filter(x => x.category === 'helmets').length, plateCarriers: armor.filter(x => x.category === 'plate_carriers').length },
         weapons: { total: weapons.length, types: [...new Set(weapons.map(x => x.type))] },
@@ -131,7 +136,7 @@ module.exports = (req, res) => {
       });
     }
 
-    if (path === 'search') {
+    if (p === 'search') {
       const q = params.get('q');
       if (!q) return res.status(400).json({ error: 'Missing ?q' });
       const query = q.toLowerCase();
@@ -144,7 +149,7 @@ module.exports = (req, res) => {
       });
     }
 
-    res.status(404).json({ error: `Not found: /api/${path}` });
+    res.status(404).json({ error: `Not found: /api/${p}` });
 
   } catch (err) {
     console.error('GZW API Error:', err);
