@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GZW Data API — Docs</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #080a0a;
+      background-image:
+        radial-gradient(ellipse 80% 60% at 50% 0%, rgba(240,180,41,0.04) 0%, transparent 60%);
+      color: #c8c8c8;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+    }
+
+    .topbar {
+      background: rgba(18,20,22,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(240,180,41,0.08);
+      padding: 14px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .topbar h1 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .topbar h1 .logo {
+      width: 32px; height: 32px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, rgba(240,180,41,0.15), rgba(240,180,41,0.05));
+      border: 1px solid rgba(240,180,41,0.2);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .topbar h1 .gzw { color: #f0b429; }
+    .topbar nav { display: flex; gap: 20px; }
+    .topbar nav a {
+      color: #666; text-decoration: none; font-size: 13px; font-weight: 500;
+      transition: color 0.15s;
+    }
+    .topbar nav a:hover { color: #f0b429; }
+    .topbar nav a.active { color: #f0b429; }
+
+    .wrap { max-width: 900px; margin: 0 auto; padding: 32px 24px 60px; }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #eee;
+      margin: 40px 0 16px;
+      letter-spacing: -0.3px;
+    }
+    h2:first-of-type { margin-top: 0; }
+    h2 .hash { color: #f0b429; margin-right: 8px; }
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #ddd;
+      margin: 28px 0 10px;
+    }
+
+    p, li { font-size: 14px; line-height: 1.7; color: #999; }
+    a { color: #f0b429; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(240,180,41,0.06), transparent);
+      border: 1px solid rgba(240,180,41,0.08);
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: 28px; font-weight: 800; color: #fff;
+      margin-bottom: 8px;
+    }
+    .hero h1 span { color: #f0b429; }
+    .hero p { font-size: 15px; color: #888; }
+    .hero .badge {
+      display: inline-block;
+      background: rgba(240,180,41,0.1);
+      color: #f0b429;
+      border: 1px solid rgba(240,180,41,0.15);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 12px;
+    }
+
+    .card {
+      background: rgba(18,20,22,0.6);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+    }
+    .card code, .inline-code {
+      background: rgba(240,180,41,0.08);
+      color: #d4b06a;
+      padding: 2px 8px;
+      border-radius: 5px;
+      font-size: 13px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+    }
+    .card pre {
+      background: rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.04);
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 12px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      overflow-x: auto;
+      color: #c8c8c8;
+      line-height: 1.6;
+      margin-top: 10px;
+    }
+
+    .endpoint {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .endpoint:last-child { border-bottom: none; }
+    .endpoint .method {
+      background: linear-gradient(135deg, #61affe, #4a8ed8);
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 5px;
+      min-width: 46px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .endpoint .info { flex: 1; }
+    .endpoint .info .path { font-family: monospace; font-size: 14px; font-weight: 600; color: #e8e8e8; }
+    .endpoint .info .desc { font-size: 12px; color: #888; margin-top: 2px; }
+    .endpoint .info .filters { font-size: 11px; color: #666; margin-top: 4px; }
+    .endpoint .info .filters code { background: rgba(255,255,255,0.04); padding: 1px 5px; border-radius: 3px; color: #777; }
+
+    .badge-blue { background: rgba(74,158,255,0.12); color: #4a9eff; border: 1px solid rgba(74,158,255,0.15); }
+    .badge-green { background: rgba(80,200,120,0.12); color: #50c878; border: 1px solid rgba(80,200,120,0.15); }
+    .badge-purple { background: rgba(168,85,247,0.12); color: #a855f7; border: 1px solid rgba(168,85,247,0.15); }
+    .badge-orange { background: rgba(245,158,11,0.12); color: #f59e0b; border: 1px solid rgba(245,158,11,0.15); }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-right: 4px;
+    }
+
+    ul { list-style: none; padding: 0; }
+    ul li { padding: 4px 0; padding-left: 16px; position: relative; }
+    ul li::before { content: '→'; position: absolute; left: 0; color: #555; }
+
+    .footer {
+      text-align: center; padding: 32px; color: #444; font-size: 12px;
+      border-top: 1px solid rgba(255,255,255,0.04);
+    }
+    .footer a { color: #f0b429; opacity: 0.7; }
+    .footer a:hover { opacity: 1; }
+
+    @media (max-width: 600px) {
+      .topbar { padding: 12px 16px; }
+      .wrap { padding: 24px 16px; }
+      .hero { padding: 20px; }
+      .hero h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <h1>
+      <span class="logo">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3" fill="#f0b429"/>
+          <line x1="2" y1="12" x2="7" y2="12"/><line x1="17" y1="12" x2="22" y2="12"/>
+          <line x1="12" y1="2" x2="12" y2="7"/><line x1="12" y1="17" x2="12" y2="22"/>
+        </svg>
+      </span>
+      <span><span class="gzw">GZW</span> Data API</span>
+    </h1>
+    <nav>
+      <a href="/">Playground</a>
+      <a href="/docs" class="active">Docs</a>
+      <a href="https://github.com/ZoniBoy00/gzw-data" target="_blank">GitHub</a>
+    </nav>
+  </div>
+
+  <div class="wrap">
+
+    <!-- Hero -->
+    <div class="hero">
+      <h1><span>GZW</span> Data API</h1>
+      <p>Gray Zone Warfare — complete game data API. 40+ datasets, auto-scraped weekly from the official wiki.</p>
+      <span class="badge">v2.0 · 100 req/min · MIT</span>
+    </div>
+
+    <!-- Base URL -->
+    <h2><span class="hash">#</span> Base URL</h2>
+    <div class="card">
+      <code style="font-size:16px;">https://gzw-data.vercel.app</code>
+      <p style="margin-top:8px;">All endpoints are prefixed with <code>/api/</code>. Every response includes CORS headers, so you can call the API directly from the browser.</p>
+    </div>
+
+    <!-- Authentication -->
+    <h2><span class="hash">#</span> Authentication</h2>
+    <div class="card">
+      <p>No authentication required. The API is fully open and free to use.</p>
+    </div>
+
+    <!-- Rate Limiting -->
+    <h2><span class="hash">#</span> Rate Limiting</h2>
+    <div class="card">
+      <p><strong>100 requests per minute</strong> per IP address. Rate limit info is returned in response headers:</p>
+      <pre>X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 87
+X-RateLimit-Reset: 1721234567</pre>
+      <p style="margin-top:8px;">If you exceed the limit, the API returns <strong style="color:#e05252;">HTTP 429</strong>. Reset your limit by waiting for the next window.</p>
+    </div>
+
+    <!-- Response Format -->
+    <h2><span class="hash">#</span> Response Format</h2>
+    <div class="card">
+      <p>All endpoints return JSON with this structure:</p>
+      <pre>{
+  "data": [ ... ],       <span style="color:#555;">// Array of items or object</span>
+  "count": 44,           <span style="color:#555;">// Number of items (arrays only)</span>
+  "source": "GZW Data API",
+  "timestamp": "2026-07-20T12:00:00.000Z"
+}</pre>
+    </div>
+
+    <!-- Endpoints -->
+    <h2><span class="hash">#</span> Endpoints</h2>
+    <p style="margin-bottom:16px;">Every data file is automatically available as <code>/api/&lt;name&gt;</code>. No registration needed.</p>
+
+    <div class="card">
+      <h3 style="margin-top:0;">🗂️ Smart Routes (combined datasets)</h3>
+
+      <div class="endpoint">
+        <span class="method">GET</span>
+        <div class="info">
+          <div class="path">/api/armor</div>
+          <div class="desc">Combined armor: vests (35) + helmets (42) + glasses (14) = <strong>91 items</strong></div>
+          <div class="filters"><code>?type=</code> <code>?nij=</code> <code>?material=</code> <code>?category=vest|helmet|glasses</code></div>
+        </div>
+      </div>
+
+      <div class="endpoint">
+        <span class="method">GET</span>
+        <div class="info">
+          <div class="path">/api/weapon_parts</div>
+          <div class="desc">Combined weapon parts: barrels, stocks, grips, suppressors, mags, etc. — <strong>268+ items</strong></div>
+          <div class="filters"><code>?search=</code></div>
+        </div>
+      </div>
+
+      <div class="endpoint">
+        <span class="method">GET</span>
+        <div class="info">
+          <div class="path">/api/helmet_mods</div>
+          <div class="desc">Combined helmet mods: night vision (5) + mounts (3) = <strong>8 items</strong></div>
+          <div class="filters"><code>?mod_type=night_vision|mount</code> <code>?search=</code></div>
+        </div>
+      </div>
+
+      <div class="endpoint">
+        <span class="method">GET</span>
+        <div class="info">
+          <div class="path">/api/loot</div>
+          <div class="desc"><strong>120 loot items</strong> — alcohol, jewellery, electronics, intel, etc.</div>
+          <div class="filters"><code>?search=</code></div>
+        </div>
+      </div>
+
+      <div class="endpoint">
+        <span class="method">GET</span>
+        <div class="info">
+          <div class="path">/api/apparel</div>
+          <div class="desc"><strong>63 apparel items</strong> — tactical clothing, shirts, trousers, gloves, boots</div>
+          <div class="filters"><code>?search=</code> <code>?type=</code></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">🎒 Equipment</h3>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/weapons</div><div class="desc">44 weapons — type, caliber, mag size, fire rate, image</div><div class="filters"><code>?type=</code> <code>?caliber=</code> <code>?search=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/ammo</div><div class="desc">67 ammo types — penetration data by armor class</div><div class="filters"><code>?caliber=</code> <code>?search=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/vests</div><div class="desc">35 armor vests &amp; plate carriers — NIJ rating, material, grid</div><div class="filters"><code>?nij=</code> <code>?material=</code> <code>?type=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/helmets</div><div class="desc">42 helmets &amp; head protection</div><div class="filters"><code>?material=</code> <code>?type=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/backpacks</div><div class="desc">17 backpacks — weight, grid, image</div><div class="filters"><code>?capacity=</code> <code>?type=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/rigs</div><div class="desc">12 tactical rigs — weight, grid, image</div><div class="filters"><code>?capacity=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/throwables</div><div class="desc">8 grenades — frag, smoke, stun</div><div class="filters">—</div></div></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">🛡️ Wearables</h3>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/glasses</div><div class="desc">14 eyewear items</div><div class="filters"><code>?type=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/face_cover</div><div class="desc">5 face covers &amp; masks</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/headsets</div><div class="desc">8 headsets &amp; earmuffs</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/headwear_items</div><div class="desc">40 caps, helmets, headwear</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/belts</div><div class="desc">9 belts &amp; belt accessories</div><div class="filters">—</div></div></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">💊 Medical &amp; Supplies</h3>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/medical</div><div class="desc">34 medical items — bandages, splints, surgery kits, stims</div><div class="filters"><code>?type=</code> <code>?effect=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/provisions</div><div class="desc">37 food &amp; drink provisions</div><div class="filters"><code>?type=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/food</div><div class="desc">19 food items</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/drinks</div><div class="desc">18 drink items</div><div class="filters">—</div></div></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">📦 Containers &amp; Loot</h3>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/containers</div><div class="desc">29 storage containers — ammo boxes, weapon cases</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/loot_containers</div><div class="desc">4 world-spawn loot containers</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/gear</div><div class="desc">27 miscellaneous gear items</div><div class="filters">—</div></div></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">🔧 Weapon Parts (individual categories)</h3>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/barrels</div><div class="desc">28 barrels</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/muzzle_devices</div><div class="desc">45 muzzle devices</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/suppressors</div><div class="desc">23 suppressors</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/stocks</div><div class="desc">58 stocks</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/stock_adapters</div><div class="desc">10 stock adapters</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/pistol_grips</div><div class="desc">25 pistol grips</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/foregrips</div><div class="desc">19 foregrips</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/magazines</div><div class="desc">51 magazines</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/night_vision</div><div class="desc">5 night vision devices</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/helmet_mounts</div><div class="desc">3 helmet mounts</div><div class="filters">—</div></div></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">🔑 Game Items</h3>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/keys</div><div class="desc">127 keys across all locations</div><div class="filters"><code>?location=</code> <code>?type=</code></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/keycards</div><div class="desc">8 keycards</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/task_items</div><div class="desc">101 task-specific items</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/weapon_camos</div><div class="desc">Weapon camouflage skins</div><div class="filters">—</div></div></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">📋 Reference</h3>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/factions</div><div class="desc">6 factions with lore &amp; logos</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/info_pages</div><div class="desc">10 reference pages — Health, Ballistics, Trading, etc.</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/tasks</div><div class="desc">467 tasks — vendor, area, objectives</div><div class="filters"><code>?vendor=</code> <code>?area=</code> <code>?search=</code></div></div></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">🔧 Utility</h3>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/stats</div><div class="desc">Dataset statistics with item counts for every endpoint</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/search?q=</div><div class="desc">Cross-dataset search — finds matching items across all datasets</div><div class="filters"><code>?q=</code> <span style="color:#e05252;">required</span></div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/images</div><div class="desc">Item image URL lookup (JSON object, 400+ entries)</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/spec</div><div class="desc">OpenAPI 3.0 specification (JSON)</div><div class="filters">—</div></div></div>
+      <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/health</div><div class="desc">Health check — shows loaded datasets and their status</div><div class="filters">—</div></div></div>
+    </div>
+
+    <!-- Query Parameters -->
+    <h2><span class="hash">#</span> Query Parameters</h2>
+    <p>Every endpoint supports these query parameters for filtering and pagination:</p>
+
+    <div class="card">
+      <h3 style="margin-top:0;">🔍 Field filters</h3>
+      <p>Filter by any string field in the dataset. The filter is case-insensitive.</p>
+      <pre>curl "/api/vests?nij=III&material=Ceramic"
+curl "/api/ammo?caliber=5.56x45mm%20NATO"
+curl "/api/keys?location=Ban%20Pa"</pre>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">📝 Free text search</h3>
+      <p>Search across all fields in a dataset with <code>?search=</code>.</p>
+      <pre>curl "/api/weapons?search=AK"
+curl "/api/tasks?search=artifact"</pre>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">📊 Sorting</h3>
+      <p>Sort by any field with <code>?sort=field:asc|desc</code>.</p>
+      <pre>curl "/api/weapons?sort=name:asc"
+curl "/api/tasks?sort=name:desc"</pre>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0;">🔢 Limit results</h3>
+      <p>Cap the number of returned items with <code>?limit=</code>.</p>
+      <pre>curl "/api/tasks?limit=5"
+curl "/api/weapons?limit=10"</pre>
+    </div>
+
+    <!-- Full Example -->
+    <h2><span class="hash">#</span> Full Example</h2>
+    <div class="card">
+      <p>Find all ceramic III vests, sorted by name:</p>
+      <pre>curl "https://gzw-data.vercel.app/api/vests?nij=III&material=Ceramic&sort=name:asc"</pre>
+      <p style="margin-top:8px;">Response:</p>
+      <pre>{
+  "data": [
+    {
+      "name": "CGPC3 TQS",
+      "nij": "III",
+      "material": "Ceramic",
+      "weight": 3.2,
+      "grid": "4x3",
+      "image": "https://static.wikia.nocookie.net/..."
+    }
+  ],
+  "count": 9,
+  "source": "GZW Data API",
+  "timestamp": "2026-07-20T12:00:00.000Z"
+}</pre>
+    </div>
+
+    <!-- Data Sources -->
+    <h2><span class="hash">#</span> Data Sources</h2>
+    <div class="card">
+      <p>All data is automatically scraped from the <a href="https://gray-zone-warfare.fandom.com" target="_blank">GZW Fandom Wiki</a> every Monday at 06:00 UTC.</p>
+      <ul style="margin-top:8px;">
+        <li><a href="https://github.com/ZoniBoy00/gzw-scraper">gzw-scraper</a> — Python-based wiki scraper</li>
+        <li><a href="https://github.com/ZoniBoy00/gzw-data">gzw-data</a> — Data repository + API (this project)</li>
+        <li><a href="https://github.com/ZoniBoy00/gzw-tools">gzw-tools</a> — Frontend reference tools</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    Data from <a href="https://gray-zone-warfare.fandom.com" target="_blank">GZW Fandom Wiki</a> ·
+    Not affiliated with M.A.G. Studios ·
+    <a href="https://github.com/ZoniBoy00/gzw-data/blob/main/LICENSE" target="_blank">MIT License</a>
+  </div>
+
+</body>
+</html>
