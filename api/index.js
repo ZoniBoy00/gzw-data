@@ -33,17 +33,37 @@ function asArray(key) {
   return [];
 }
 
-// ─── Rate limiter ───
+// ─── Rate limiter (sliding window) ───
 const RATE = { max: 100, ms: 60000 };
 const hits = {};
 
 function rate(ip) {
   const now = Date.now();
-  const r = hits[ip];
-  if (!r || now - r.t > RATE.ms) { hits[ip] = { t: now, c: 1 }; return { rem: RATE.max - 1, reset: now + RATE.ms }; }
-  r.c++;
-  if (r.c > RATE.max) return { rem: 0, reset: r.t + RATE.ms };
-  return { rem: RATE.max - r.c, reset: r.t + RATE.ms };
+  const window = RATE.ms;
+  
+  let timestamps = hits[ip];
+  if (!timestamps) {
+    timestamps = [];
+    hits[ip] = timestamps;
+  }
+  
+  // Remove timestamps outside the window (older than 60s)
+  const cutoff = now - window;
+  while (timestamps.length > 0 && timestamps[0] < cutoff) {
+    timestamps.shift();
+  }
+  
+  // Check limit
+  if (timestamps.length >= RATE.max) {
+    // Blocked — oldest timestamp tells us when the next slot opens
+    const oldest = timestamps[0];
+    return { rem: 0, reset: oldest + window };
+  }
+  
+  // Allow — record this request
+  timestamps.push(now);
+  
+  return { rem: RATE.max - timestamps.length, reset: now + window };
 }
 
 function json(res, data, status = 200) {
