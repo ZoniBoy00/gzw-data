@@ -37,16 +37,15 @@ All files live in `data/`. Every file is an array of `{ name, id, ...fields, ima
 | `headsets.json` | Headset/earmuffs |
 | `headwear_items.json` | Caps, headwear |
 | `belts.json` | Belts & belt accessories |
-| `apparel.json` | Tactical clothing |
 | **Medical & Supplies** | |
 | `medical.json` | Medical items (bandages, surgery kits, splints) |
-| `provisions.json` | Food & drink provisions |
+| `provisions.json` | Food & drink provisions (37 items) |
 | `food.json` | Food items |
 | `drinks.json` | Drinks |
 | **Containers & Loot** | |
 | `containers.json` | Storage (ammo boxes, weapon cases) |
 | `loot_containers.json` | World-spawn loot containers |
-| `loot.json` | Lootable items |
+| `loot_items.json` | **120 loot items** (alcohol, jewelry, electronics, intel) |
 | **Weapon Parts** | |
 | `magazines.json` | Magazines |
 | `barrels.json` | Barrels |
@@ -76,6 +75,7 @@ All files live in `data/`. Every file is an array of `{ name, id, ...fields, ima
 | `info_pages.json` | Reference pages (Health, Ballistics, Trading, etc.) |
 | `item_images.json` | Item image URL lookup (400+ entries) |
 | `tasks.json` | Mission database (vendor, area, objectives) |
+| `apparel_items.json` | **63 apparel items** (clothing, gloves, boots, shirts) |
 
 ## API (Vercel Serverless)
 
@@ -88,8 +88,13 @@ All data files are available via `/api/<filename-without-json>`.
 | Endpoint | Description |
 |----------|-------------|
 | `GET /api` | API root — endpoint list |
-| `GET /api/weapons` | `?type=`, `?caliber=`, `?search=` |
-| `GET /api/vests` | `?nij=`, `?material=`, `?type=` |
+| `GET /api/weapons` | Weapons database | `?type=`, `?caliber=`, `?search=` |
+| `GET /api/armor` | **Combined armor** (vests + helmets + glasses, 91+ items) | `?type=`, `?nij=`, `?material=`, `?category=` |
+| `GET /api/weapon_parts` | **Combined parts** (barrels, stocks, grips, etc., 268+ items) | `?search=` |
+| `GET /api/helmet_mods` | **Combined mods** (night vision + mounts, 8 items) | `?mod_type=`, `?search=` |
+| `GET /api/loot` | **120 loot items** (alcohol, jewelry, electronics) | `?search=` |
+| `GET /api/apparel` | **63 apparel items** (clothing, gloves, boots) | `?search=`, `?type=` |
+| `GET /api/vests` | Armor vests & plate carriers | `?nij=`, `?material=`, `?type=` |
 | `GET /api/ammo` | `?caliber=`, `?search=` |
 | `GET /api/medical` | `?type=`, `?search=` |
 | `GET /api/keys` | `?location=`, `?type=` |
