@@ -63,9 +63,9 @@ All endpoints return:
 }
 ```
 
-### Swagger UI
+### Interactive API docs
 
-When deployed to Vercel, the root URL (`/`) serves an interactive Swagger UI documentation page where you can browse endpoints and try them live.
+The root URL (`/`) serves a live API test page where you can browse endpoints, fill in parameters, and execute requests directly in the browser.
 
 ### Deploy your own
 
@@ -88,7 +88,8 @@ Every item follows this structure:
 ## Data Sources
 
 - [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) — primary source
-- [GZW Tools](https://github.com/ZoniBoy00/gzw-tools) — scraper & tooling
+- [GZW Scraper](https://github.com/ZoniBoy00/gzw-scraper) — automated wiki scraper
+- [GZW Tools](https://github.com/ZoniBoy00/gzw-tools) — frontend tools
 
 ## License
 
