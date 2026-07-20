@@ -169,7 +169,7 @@ Every item follows this base structure, with type-specific fields added per data
 
 - **[GZW Fandom Wiki](https://gray-zone-warfare.fandom.com)** — primary source, all 6,771+ pages
 - **[GZW Scraper](https://github.com/ZoniBoy00/gzw-scraper)** — automated weekly scraper (Python)
-- **[GZW Tools](https://github.com/ZoniBoy00/gzw-tools)** — frontend tools & interactive map
+- **[GZW Tools](https://github.com/ZoniBoy00/gzw-tools)** — frontend reference tools
 
 ## Automation
 
