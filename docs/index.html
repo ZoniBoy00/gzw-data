@@ -71,6 +71,17 @@
       color: #ddd;
       margin: 28px 0 10px;
     }
+    h3 .ico {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+    h3 .ico svg {
+      width: 100%;
+      height: 100%;
+    }
 
     p, li { font-size: 14px; line-height: 1.7; color: #999; }
     a { color: #f0b429; text-decoration: none; }
@@ -258,7 +269,7 @@ X-RateLimit-Reset: 1721234567</pre>
     <p style="margin-bottom:16px;">Every data file is automatically available as <code>/api/&lt;name&gt;</code>. No registration needed.</p>
 
     <div class="card">
-      <h3 style="margin-top:0;">🗂️ Smart Routes (combined datasets)</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg> Smart Routes (combined datasets)</h3>
 
       <div class="endpoint">
         <span class="method">GET</span>
@@ -307,7 +318,7 @@ X-RateLimit-Reset: 1721234567</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">🎒 Equipment</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><rect x="4" y="8" width="16" height="14" rx="2"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/><path d="M4 14h16"/></svg> Equipment</h3>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/weapons</div><div class="desc">44 weapons — type, caliber, mag size, fire rate, image</div><div class="filters"><code>?type=</code> <code>?caliber=</code> <code>?search=</code></div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/ammo</div><div class="desc">67 ammo types — penetration data by armor class</div><div class="filters"><code>?caliber=</code> <code>?search=</code></div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/vests</div><div class="desc">35 armor vests &amp; plate carriers — NIJ rating, material, grid</div><div class="filters"><code>?nij=</code> <code>?material=</code> <code>?type=</code></div></div></div>
@@ -318,7 +329,7 @@ X-RateLimit-Reset: 1721234567</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">🛡️ Wearables</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Wearables</h3>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/glasses</div><div class="desc">14 eyewear items</div><div class="filters"><code>?type=</code></div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/face_cover</div><div class="desc">5 face covers &amp; masks</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/headsets</div><div class="desc">8 headsets &amp; earmuffs</div><div class="filters">—</div></div></div>
@@ -327,7 +338,7 @@ X-RateLimit-Reset: 1721234567</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">💊 Medical &amp; Supplies</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="8"/><path d="M4 12h16"/></svg> Medical &amp; Supplies</h3>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/medical</div><div class="desc">34 medical items — bandages, splints, surgery kits, stims</div><div class="filters"><code>?type=</code> <code>?effect=</code></div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/provisions</div><div class="desc">37 food &amp; drink provisions</div><div class="filters"><code>?type=</code></div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/food</div><div class="desc">19 food items</div><div class="filters">—</div></div></div>
@@ -335,14 +346,14 @@ X-RateLimit-Reset: 1721234567</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">📦 Containers &amp; Loot</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 2 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/></svg> Containers &amp; Loot</h3>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/containers</div><div class="desc">29 storage containers — ammo boxes, weapon cases</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/loot_containers</div><div class="desc">4 world-spawn loot containers</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/gear</div><div class="desc">27 miscellaneous gear items</div><div class="filters">—</div></div></div>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">🔧 Weapon Parts (individual categories)</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> Weapon Parts (individual categories)</h3>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/barrels</div><div class="desc">28 barrels</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/muzzle_devices</div><div class="desc">45 muzzle devices</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/suppressors</div><div class="desc">23 suppressors</div><div class="filters">—</div></div></div>
@@ -356,7 +367,7 @@ X-RateLimit-Reset: 1721234567</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">🔑 Game Items</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.78 7.78 5.5 5.5 0 0 1 7.78-7.78zm0 0L21 2"/><path d="M18.5 5.5L16 8"/></svg> Game Items</h3>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/keys</div><div class="desc">127 keys across all locations</div><div class="filters"><code>?location=</code> <code>?type=</code></div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/keycards</div><div class="desc">8 keycards</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/task_items</div><div class="desc">101 task-specific items</div><div class="filters">—</div></div></div>
@@ -364,14 +375,14 @@ X-RateLimit-Reset: 1721234567</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">📋 Reference</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> Reference</h3>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/factions</div><div class="desc">6 factions with lore &amp; logos</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/info_pages</div><div class="desc">10 reference pages — Health, Ballistics, Trading, etc.</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/tasks</div><div class="desc">467 tasks — vendor, area, objectives</div><div class="filters"><code>?vendor=</code> <code>?area=</code> <code>?search=</code></div></div></div>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">🔧 Utility</h3>
+      <h3 style="margin-top:0;"><h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> Utility</h3>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/stats</div><div class="desc">Dataset statistics with item counts for every endpoint</div><div class="filters">—</div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/search?q=</div><div class="desc">Cross-dataset search — finds matching items across all datasets</div><div class="filters"><code>?q=</code> <span style="color:#e05252;">required</span></div></div></div>
       <div class="endpoint"><span class="method">GET</span><div class="info"><div class="path">/api/images</div><div class="desc">Item image URL lookup (JSON object, 400+ entries)</div><div class="filters">—</div></div></div>
@@ -384,7 +395,7 @@ X-RateLimit-Reset: 1721234567</pre>
     <p>Every endpoint supports these query parameters for filtering and pagination:</p>
 
     <div class="card">
-      <h3 style="margin-top:0;">🔍 Field filters</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Field filters</h3>
       <p>Filter by any string field in the dataset. The filter is case-insensitive.</p>
       <pre>curl "/api/vests?nij=III&material=Ceramic"
 curl "/api/ammo?caliber=5.56x45mm%20NATO"
@@ -392,21 +403,21 @@ curl "/api/keys?location=Ban%20Pa"</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">📝 Free text search</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg> Free text search</h3>
       <p>Search across all fields in a dataset with <code>?search=</code>.</p>
       <pre>curl "/api/weapons?search=AK"
 curl "/api/tasks?search=artifact"</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">📊 Sorting</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> Sorting</h3>
       <p>Sort by any field with <code>?sort=field:asc|desc</code>.</p>
       <pre>curl "/api/weapons?sort=name:asc"
 curl "/api/tasks?sort=name:desc"</pre>
     </div>
 
     <div class="card">
-      <h3 style="margin-top:0;">🔢 Limit results</h3>
+      <h3 style="margin-top:0;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#f0b429" stroke-width="2"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/></svg> Limit results</h3>
       <p>Cap the number of returned items with <code>?limit=</code>.</p>
       <pre>curl "/api/tasks?limit=5"
 curl "/api/weapons?limit=10"</pre>
