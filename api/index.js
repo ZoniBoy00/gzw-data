@@ -1,21 +1,46 @@
 // GZW Data API — Vercel serverless function
-// Serves all game data from /data/ with filtering & CORS
+// Serves all game data with filtering, CORS & rate limiting
 
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = join(process.cwd(), '..');
 
+// ── Rate limiter ──
+const RATE_LIMIT = 100;
+const RATE_WINDOW_MS = 60_000;
+const rateMap = new Map();
+
+function checkRateLimit(ip) {
+  const now = Date.now();
+  const record = rateMap.get(ip);
+  if (!record || now - record.windowStart > RATE_WINDOW_MS) {
+    rateMap.set(ip, { windowStart: now, count: 1 });
+    return { allowed: true, remaining: RATE_LIMIT - 1, reset: now + RATE_WINDOW_MS };
+  }
+  record.count++;
+  if (record.count > RATE_LIMIT) {
+    return { allowed: false, remaining: 0, reset: record.windowStart + RATE_WINDOW_MS };
+  }
+  return { allowed: true, remaining: RATE_LIMIT - record.count, reset: record.windowStart + RATE_WINDOW_MS };
+}
+
+// Clean stale entries every 5 minutes
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, rec] of rateMap) {
+    if (now - rec.windowStart > RATE_WINDOW_MS * 2) rateMap.delete(ip);
+  }
+}, 300_000);
+
+// ── Data loaders ──
 function loadJSON(name) {
   try {
     const p = join(ROOT, name);
     return JSON.parse(readFileSync(p, 'utf-8'));
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
-// ── Data loaders (lazy via wrapper) ──
 const DATA = {
   armor: () => loadJSON('armor.json'),
   weapons: () => loadJSON('weapons.json'),
@@ -25,31 +50,48 @@ const DATA = {
   tasks: () => loadJSON('tasks.json'),
   throwables: () => loadJSON('throwables.json'),
   images: () => loadJSON('images.json'),
-  vests: () => loadJSON('vests.json'),
 };
 
 // ── Helpers ──
 const CACHE = 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400';
-const HEADERS = {
-  'Content-Type': 'application/json',
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, OPTIONS',
-  'Cache-Control': CACHE,
-};
+let _rateInfo = null;
 
 function json(data, status = 200) {
+  const r = _rateInfo;
+  const headers = {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'Cache-Control': CACHE,
+  };
+  if (r) {
+    headers['X-RateLimit-Limit'] = RATE_LIMIT;
+    headers['X-RateLimit-Remaining'] = r.remaining;
+    headers['X-RateLimit-Reset'] = Math.ceil(r.reset / 1000);
+  }
   const body = JSON.stringify({
     data,
     count: Array.isArray(data) ? data.length : undefined,
     source: 'GZW Data API',
     timestamp: new Date().toISOString(),
   }, null, 2);
-  return new Response(body, {
-    status,
-    headers: HEADERS,
-  });
+  return new Response(body, { status, headers });
 }
 
+function jsonHeaders(extra = {}) {
+  const r = _rateInfo;
+  return {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*',
+    'Cache-Control': CACHE,
+    'X-RateLimit-Limit': RATE_LIMIT,
+    'X-RateLimit-Remaining': r ? r.remaining : RATE_LIMIT,
+    'X-RateLimit-Reset': r ? Math.ceil(r.reset / 1000) : Math.ceil((Date.now() + RATE_WINDOW_MS) / 1000),
+    ...extra,
+  };
+}
+
+// ── OpenAPI spec ──
 function openAPI() {
   return {
     openapi: '3.0.3',
@@ -64,100 +106,34 @@ function openAPI() {
       { url: 'http://localhost:3000', description: 'Local dev' },
     ],
     paths: {
-      '/api': {
-        get: {
-          summary: 'API root',
-          description: 'Returns API metadata and available endpoints.',
-          responses: { '200': { description: 'API info' } },
-        },
-      },
-      '/api/armor': {
-        get: {
-          summary: 'All armor items',
-          description: 'Returns 61 armor items: vests, plate carriers, and helmets with NIJ class, material, weight, and source.',
-          parameters: [
-            { name: 'type', in: 'query', schema: { type: 'string' }, description: 'Filter by type (Ballistic Vest, Helmet, Plate Carrier)' },
-            { name: 'material', in: 'query', schema: { type: 'string' }, description: 'Filter by material (Aramid, Steel, Ceramic, UHMWPE)' },
-            { name: 'nij', in: 'query', schema: { type: 'string' }, description: 'Filter by NIJ class (IIIA, III, III+, etc.)' },
-          ],
-          responses: { '200': { description: 'Array of armor items' } },
-        },
-      },
-      '/api/weapons': {
-        get: {
-          summary: 'All weapons',
-          description: 'Returns 51 weapons with type, caliber, mag size, and source.',
-          parameters: [
-            { name: 'type', in: 'query', schema: { type: 'string' }, description: 'Filter by type (Assault Rifle, SMG, Pistol, etc.)' },
-            { name: 'caliber', in: 'query', schema: { type: 'string' }, description: 'Filter by caliber' },
-            { name: 'search', in: 'query', schema: { type: 'string' }, description: 'Text search across name and caliber' },
-          ],
-          responses: { '200': { description: 'Array of weapon items' } },
-        },
-      },
-      '/api/backpacks': {
-        get: {
-          summary: 'All backpacks & rigs',
-          description: 'Returns 16 backpacks and 11 tactical rigs with weight, grid size, and images.',
-          parameters: [
-            { name: 'type', in: 'query', schema: { type: 'string' }, description: 'Filter by type (Backpack, Tactical Rig)' },
-          ],
-          responses: { '200': { description: 'Object with backpacks and rigs arrays' } },
-        },
-      },
-      '/api/keys': {
-        get: {
-          summary: 'All keys & keycards',
-          description: 'Returns 124 keys across 12 locations with wiki links and images.',
-          parameters: [
-            { name: 'location', in: 'query', schema: { type: 'string' }, description: 'Filter by location (Ban Pa, Fort Narith, Tiger Bay, etc.)' },
-          ],
-          responses: { '200': { description: 'Object with keys array and locations list' } },
-        },
-      },
-      '/api/tasks': {
-        get: {
-          summary: 'All tasks',
-          description: 'Returns 278 missions from 7 vendors with objectives and rewards.',
-          parameters: [
-            { name: 'vendor', in: 'query', schema: { type: 'string' }, description: 'Filter by vendor' },
-            { name: 'area', in: 'query', schema: { type: 'string' }, description: 'Filter by area' },
-            { name: 'search', in: 'query', schema: { type: 'string' }, description: 'Text search across name/area/vendor' },
-          ],
-          responses: { '200': { description: 'Array of task items' } },
-        },
-      },
-      '/api/throwables': {
-        get: {
-          summary: 'All throwables',
-          description: 'Returns 8 grenade types (frag, smoke, stun) with weight and blast radius.',
-          responses: { '200': { description: 'Array of throwable items' } },
-        },
-      },
-      '/api/images': {
-        get: {
-          summary: 'Image URL lookup',
-          description: 'Returns a flat mapping of item name → wiki image URL (199 entries).',
-          responses: { '200': { description: 'Object mapping' } },
-        },
-      },
-      '/api/stats': {
-        get: {
-          summary: 'Aggregate statistics',
-          description: 'Returns counts and breakdowns for all data categories.',
-          responses: { '200': { description: 'Stats object' } },
-        },
-      },
-      '/api/search': {
-        get: {
-          summary: 'Unified search',
-          description: 'Search across weapons, armor, keys, and tasks by keyword.',
-          parameters: [
-            { name: 'q', in: 'query', required: true, schema: { type: 'string' }, description: 'Search query' },
-          ],
-          responses: { '200': { description: 'Search results grouped by category' } },
-        },
-      },
+      '/api': { get: { summary: 'API root', description: 'Returns API metadata and available endpoints.', responses: { '200': { description: 'API info' } } } },
+      '/api/armor': { get: { summary: 'All armor items', description: 'Returns 61 armor items with NIJ class, material, weight, source.', parameters: [
+        { name: 'type', in: 'query', schema: { type: 'string' }, description: 'Filter by type' },
+        { name: 'material', in: 'query', schema: { type: 'string' }, description: 'Filter by material' },
+        { name: 'nij', in: 'query', schema: { type: 'string' }, description: 'Filter by NIJ class' },
+      ], responses: { '200': { description: 'Array of armor items' } } } },
+      '/api/weapons': { get: { summary: 'All weapons', description: 'Returns 51 weapons with type, caliber, mag size, source.', parameters: [
+        { name: 'type', in: 'query', schema: { type: 'string' }, description: 'Filter by type' },
+        { name: 'caliber', in: 'query', schema: { type: 'string' }, description: 'Filter by caliber' },
+        { name: 'search', in: 'query', schema: { type: 'string' }, description: 'Text search' },
+      ], responses: { '200': { description: 'Array of weapon items' } } } },
+      '/api/backpacks': { get: { summary: 'Backpacks & rigs', description: 'Returns 16 backpacks and 11 tactical rigs.', parameters: [
+        { name: 'type', in: 'query', schema: { type: 'string' }, description: 'Backpack or Tactical Rig' },
+      ], responses: { '200': { description: 'Object or array' } } } },
+      '/api/keys': { get: { summary: 'All keys & keycards', description: '124 keys across 12 locations.', parameters: [
+        { name: 'location', in: 'query', schema: { type: 'string' }, description: 'Filter by location' },
+      ], responses: { '200': { description: 'Object with keys + locations' } } } },
+      '/api/tasks': { get: { summary: 'All tasks', description: '278 missions from 7 vendors.', parameters: [
+        { name: 'vendor', in: 'query', schema: { type: 'string' }, description: 'Filter by vendor' },
+        { name: 'area', in: 'query', schema: { type: 'string' }, description: 'Filter by area' },
+        { name: 'search', in: 'query', schema: { type: 'string' }, description: 'Text search' },
+      ], responses: { '200': { description: 'Array of tasks' } } } },
+      '/api/throwables': { get: { summary: 'Throwables', description: '8 grenade types.', responses: { '200': { description: 'Array' } } } },
+      '/api/images': { get: { summary: 'Image URL lookup', description: '199 item → wiki image URL entries.', responses: { '200': { description: 'Object mapping' } } } },
+      '/api/stats': { get: { summary: 'Aggregate statistics', description: 'Counts for all categories.', responses: { '200': { description: 'Stats object' } } } },
+      '/api/search': { get: { summary: 'Unified search', description: 'Search across weapons, armor, keys, tasks.', parameters: [
+        { name: 'q', in: 'query', required: true, schema: { type: 'string' }, description: 'Search query' },
+      ], responses: { '200': { description: 'Grouped results' } } } },
     },
   };
 }
@@ -169,14 +145,22 @@ export default async function handler(req) {
 
   // CORS preflight
   if (req.method === 'OPTIONS') {
-    return new Response(null, { headers: HEADERS });
+    return new Response(null, {
+      headers: { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '86400' },
+    });
+  }
+
+  // Rate limit check
+  const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || req.headers.get('x-real-ip') || 'anonymous';
+  const rate = checkRateLimit(ip);
+  _rateInfo = rate;
+  if (!rate.allowed) {
+    return json({ error: 'Rate limit exceeded. Try again in 60s.', limit: RATE_LIMIT, windowMs: RATE_WINDOW_MS }, 429);
   }
 
   // OpenAPI spec
   if (path === 'spec' || path === 'openapi.json') {
-    return new Response(JSON.stringify(openAPI(), null, 2), {
-      headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*', 'Cache-Control': CACHE },
-    });
+    return new Response(JSON.stringify(openAPI(), null, 2), { headers: jsonHeaders() });
   }
 
   // Root: endpoint list
@@ -212,7 +196,7 @@ export default async function handler(req) {
 
   if (path === 'backpacks') {
     const bps = DATA.backpacks() || [];
-    const rigs = DATA.rigs() ? DATA.rigs().filter(r => r.weight) : [];
+    const rigs = (DATA.rigs() || []).filter(r => r.weight);
     const type = url.searchParams.get('type');
     if (type === 'Backpack') return json(bps);
     if (type === 'Tactical Rig') return json(rigs);
@@ -223,8 +207,7 @@ export default async function handler(req) {
     let data = DATA.keys() || [];
     const location = url.searchParams.get('location');
     if (location) data = data.filter(d => d.location?.toLowerCase() === location.toLowerCase());
-    const locations = [...new Set(DATA.keys()?.map(k => k.location))].sort();
-    return json({ keys: data, locations });
+    return json({ keys: data, locations: [...new Set((DATA.keys() || []).map(k => k.location))].sort() });
   }
 
   if (path === 'tasks') {
@@ -239,7 +222,6 @@ export default async function handler(req) {
   }
 
   if (path === 'throwables') return json(DATA.throwables() || []);
-
   if (path === 'images') return json(DATA.images() || {});
 
   if (path === 'stats') {
@@ -250,12 +232,7 @@ export default async function handler(req) {
     const keys = DATA.keys() || [];
     const tasks = DATA.tasks() || [];
     return json({
-      armor: {
-        total: armor.length,
-        vests: armor.filter(d => d.category === 'vests').length,
-        helmets: armor.filter(d => d.category === 'helmets').length,
-        plateCarriers: armor.filter(d => d.category === 'plate_carriers').length,
-      },
+      armor: { total: armor.length, vests: armor.filter(d => d.category === 'vests').length, helmets: armor.filter(d => d.category === 'helmets').length, plateCarriers: armor.filter(d => d.category === 'plate_carriers').length },
       weapons: { total: weapons.length, types: [...new Set(weapons.map(w => w.type))] },
       backpacks: { total: bps.length },
       rigs: { total: rigs.length },
@@ -267,15 +244,16 @@ export default async function handler(req) {
 
   if (path === 'search') {
     const q = url.searchParams.get('q');
-    if (!q) return json({ error: 'Missing ?q=' }, 400);
+    if (!q) return json({ error: 'Missing required parameter: q' }, 400);
     const query = q.toLowerCase();
-    const weapons = (DATA.weapons() || []).filter(d => d.name.toLowerCase().includes(query));
-    const armor = (DATA.armor() || []).filter(d => d.name.toLowerCase().includes(query));
-    const keys = (DATA.keys() || []).filter(d => d.name.toLowerCase().includes(query) || d.location?.toLowerCase().includes(query));
-    const tasks = (DATA.tasks() || []).filter(d => d.name?.toLowerCase().includes(query) || d.area?.toLowerCase().includes(query));
-    return json({ query: q, weapons, armor, keys, tasks });
+    return json({
+      query: q,
+      weapons: (DATA.weapons() || []).filter(d => d.name.toLowerCase().includes(query)),
+      armor: (DATA.armor() || []).filter(d => d.name.toLowerCase().includes(query)),
+      keys: (DATA.keys() || []).filter(d => d.name.toLowerCase().includes(query) || d.location?.toLowerCase().includes(query)),
+      tasks: (DATA.tasks() || []).filter(d => d.name?.toLowerCase().includes(query) || d.area?.toLowerCase().includes(query)),
+    });
   }
 
-  // 404
   return json({ error: 'Not found', path: `/api/${path}` }, 404);
 }
