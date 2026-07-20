@@ -190,18 +190,42 @@
     .counts {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
+      gap: 8px;
       margin-bottom: 16px;
-      font-size: 11px;
+      font-size: 12px;
+      color: #888;
     }
-    .counts span {
-      background: rgba(255,255,255,0.03);
+    .counts .chip {
+      background: rgba(255,255,255,0.04);
       border: 1px solid rgba(255,255,255,0.06);
-      padding: 4px 10px;
-      border-radius: 6px;
-      color: #777;
+      padding: 5px 12px;
+      border-radius: 8px;
+      color: #999;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-weight: 400;
     }
-    .counts b { color: #f0b429; font-weight: 600; }
+    .counts .chip b {
+      color: #f0b429;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .counts .hint {
+      margin-left: auto;
+      color: #555;
+      font-size: 11px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .counts .hint code {
+      background: rgba(255,255,255,0.05);
+      padding: 1px 6px;
+      border-radius: 4px;
+      color: #777;
+      font-size: 10px;
+    }
 
     /* ── Category badges ── */
     .cat-badge {
@@ -652,9 +676,9 @@
     // Counts bar
     if (EPS.length) {
       document.getElementById('counts').innerHTML =
-        `<span>Datasets: <b>${EPS.length}</b></span>` +
-        `<span>Showing: <b>${filtered.length}</b></span>` +
-        `<span style="margin-left:auto;color:#555;">Filter by <code>?field=value</code> on any column</span>`;
+        `<span class="chip">Datasets <b>${EPS.length}</b></span>` +
+        `<span class="chip">Showing <b>${filtered.length}</b></span>` +
+        `<span class="hint">Filter: <code>?field=value</code></span>`;
     }
 
     let html = '';
