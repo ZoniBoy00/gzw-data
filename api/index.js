@@ -102,6 +102,7 @@ function buildRoutes() {
   // Add smart routes
   routes.armor = { summary: 'Armor (combined vests + helmets + glasses)', filters: ['type', 'material', 'nij', 'category'] };
   routes.weapon_parts = { summary: 'Weapon parts (combined)', filters: ['search'] };
+  routes.helmet_mods = { summary: 'Helmet mods (night vision + mounts)', filters: ['mod_type', 'search'] };
 
   return routes;
 }
@@ -144,6 +145,7 @@ module.exports = (req, res) => {
       paths['/api/images'] = { get: { summary: 'All item images' } };
       paths['/api/armor'] = { get: { summary: 'Armor (combined vests + helmets + glasses)', parameters: [{ name: 'type', in: 'query' }, { name: 'material', in: 'query' }, { name: 'nij', in: 'query' }, { name: 'category', in: 'query' }] } };
       paths['/api/weapon_parts'] = { get: { summary: 'Weapon parts (combined)', parameters: [{ name: 'search', in: 'query' }] } };
+      paths['/api/helmet_mods'] = { get: { summary: 'Helmet mods (night vision + mounts)', parameters: [{ name: 'mod_type', in: 'query' }, { name: 'search', in: 'query' }] } };
 
       return res.json({
         openapi: '3.0.3',
@@ -188,6 +190,7 @@ module.exports = (req, res) => {
       // Smart route stats
       stats.armor = { total: (asArray('vests').length || 0) + (asArray('helmets').length || 0) + (asArray('glasses').length || 0) };
       stats.weapon_parts = { total: (asArray('barrels').length || 0) + (asArray('stocks').length || 0) + (asArray('magazines').length || 0) + (asArray('muzzle_devices').length || 0) + (asArray('suppressors').length || 0) + (asArray('stock_adapters').length || 0) + (asArray('pistol_grips').length || 0) + (asArray('foregrips').length || 0) + (asArray('night_vision').length || 0) + (asArray('helmet_mods').length || 0) + (asArray('helmet_mounts').length || 0) };
+      stats.helmet_mods = { total: (asArray('night_vision').length || 0) + (asArray('helmet_mounts').length || 0) };
       stats.loot = { total: asArray('loot_items').length || 0 };
       stats.apparel = { total: asArray('apparel_items').length || 0 };
       return json(res, stats);
@@ -258,6 +261,18 @@ module.exports = (req, res) => {
       let d = [...asArray('apparel_items')];
       const search = params.get('search'), t = params.get('type');
       if (t) d = d.filter(x => (x.type || '').toLowerCase() === t.toLowerCase());
+      if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
+      return json(res, d);
+    }
+
+    // /api/helmet_mods → merge night_vision + helmet_mounts
+    if (route === 'helmet_mods') {
+      let d = [
+        ...asArray('night_vision').map(x => ({ ...x, mod_type: 'night_vision' })),
+        ...asArray('helmet_mounts').map(x => ({ ...x, mod_type: 'mount' })),
+      ];
+      const search = params.get('search'), t = params.get('mod_type');
+      if (t) d = d.filter(x => x.mod_type === t.toLowerCase());
       if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
       return json(res, d);
     }
