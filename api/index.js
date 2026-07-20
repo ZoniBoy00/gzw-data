@@ -1,10 +1,30 @@
 // GZW Data API — Vercel serverless function
 // Serves all game data with filtering, CORS & rate limiting
 
-import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { readFileSync, existsSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = join(process.cwd(), '..');
+// Try multiple possible root paths for Vercel deployment
+const CWD = process.cwd();
+const PARENT = join(CWD, '..');
+const SELF_DIR = dirname(fileURLToPath(import.meta.url));
+
+function findDataRoot() {
+  // JSON files should be right next to the api/ directory
+  const candidates = [
+    join(SELF_DIR, '..'),   // api/../ → project root
+    CWD,                     // process.cwd()
+    PARENT,                  // parent of process.cwd()
+  ];
+  for (const p of candidates) {
+    if (existsSync(join(p, 'armor.json'))) return p;
+  }
+  return CWD; // fallback
+}
+
+const ROOT = findDataRoot();
+console.log(`[GZW Data API] ROOT=${ROOT} CWD=${CWD}`);
 
 // ── Rate limiter ──
 const RATE_LIMIT = 100;
@@ -161,6 +181,17 @@ export default async function handler(req) {
   // OpenAPI spec
   if (path === 'spec' || path === 'openapi.json') {
     return new Response(JSON.stringify(openAPI(), null, 2), { headers: jsonHeaders() });
+  }
+
+  // Debug endpoint
+  if (path === 'debug' || path === 'health') {
+    return json({
+      status: 'ok',
+      root: ROOT,
+      cwd: CWD,
+      version: '1.0.0',
+      dataFiles: ['armor.json', 'weapons.json', 'backpacks.json', 'keys.json', 'tasks.json'].map(f => ({ name: f, exists: existsSync(join(ROOT, f)) })),
+    });
   }
 
   // Root: endpoint list
