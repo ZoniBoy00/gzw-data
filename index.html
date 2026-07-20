@@ -157,7 +157,8 @@
     // Build query string
     const parts = [];
     for (const [name] of ep.q) {
-      const val = inputs[idx]?.[name]?.trim();
+      const el = inputs[idx]?.[name];
+      const val = el?.value?.trim();
       if (val) parts.push(encodeURIComponent(name) + '=' + encodeURIComponent(val));
     }
     const qs = parts.length ? '?' + parts.join('&') : '';
