@@ -2,7 +2,18 @@
 
 **Gray Zone Warfare** — Fan-made game data repository.
 
-Structured JSON data scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com). Updated regularly via automated pipelines.
+Structured JSON data scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com).
+
+## Quick Start
+
+```bash
+# Raw data (no API needed)
+curl https://raw.githubusercontent.com/ZoniBoy00/gzw-data/main/armor.json
+
+# Or use the API (when deployed)
+curl https://gzw-data.vercel.app/api/weapons
+curl https://gzw-data.vercel.app/api/keys?location=Ban%20Pa
+```
 
 ## Files
 
@@ -14,13 +25,51 @@ Structured JSON data scraped from the [GZW Fandom Wiki](https://gray-zone-warfar
 | `rigs.json` | 12 | Tactical rigs with weight, grid size, image |
 | `keys.json` | 124 | Keys & keycards with location, wiki link, task flag |
 | `tasks.json` | 278 | Mission database with vendor, area, objectives, rewards |
-| `ammo.json` | see `images.json` | Ammunition data (embedded in `images.json` via key-value pairs) |
-| `ammo/` | — | Ammo data in TS module format (caliber, speed, pen values) |
 | `throwables.json` | 8 | Grenades: frag, smoke, stun |
-| `vests.json` | 37 | Vest data (scraper source) |
 | `images.json` | 199 | Item image URL lookup by name |
 | `map_data.json` | — | Interactive map data (POIs, grid, COPs) |
 | `vendor_images.json` | 7 | Vendor avatar/image URLs |
+
+## API
+
+The repo includes a Vercel serverless API at `/api/*`.
+
+### Endpoints
+
+| Endpoint | Description |
+|----------|-------------|
+| `GET /api` | API root — endpoint list |
+| `GET /api/armor` | All armor items (`?type=`, `?material=`, `?nij=`) |
+| `GET /api/weapons` | Weapons database (`?type=`, `?caliber=`, `?search=`) |
+| `GET /api/backpacks` | Backpacks & rigs (`?type=Backpack\|Tactical Rig`) |
+| `GET /api/keys` | Keys & keycards (`?location=`) |
+| `GET /api/tasks` | Mission database (`?vendor=`, `?area=`, `?search=`) |
+| `GET /api/throwables` | Grenade data |
+| `GET /api/images` | Image URL lookup (199 entries) |
+| `GET /api/stats` | Aggregate statistics |
+| `GET /api/search?q=` | Unified search |
+| `GET /api/spec` | OpenAPI 3.0 spec (for Swagger UI) |
+
+### Response format
+
+All endpoints return:
+
+```json
+{
+  "data": { ... },
+  "count": 51,
+  "source": "GZW Data API",
+  "timestamp": "2026-07-20T12:00:00.000Z"
+}
+```
+
+### Swagger UI
+
+When deployed to Vercel, the root URL (`/`) serves an interactive Swagger UI documentation page where you can browse endpoints and try them live.
+
+### Deploy your own
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ZoniBoy00/gzw-data)
 
 ## Schema
 

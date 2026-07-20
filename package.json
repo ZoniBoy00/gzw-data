@@ -1,0 +1,7 @@
+{
+  "name": "gzw-data-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GZW Data API — Gray Zone Warfare game data",
+  "type": "module"
+}
