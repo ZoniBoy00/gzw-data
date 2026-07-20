@@ -81,7 +81,8 @@ function filterData(arr, params, allowedKeys = []) {
 // ─── Route definitions ───
 function buildRoutes() {
   const routes = {};
-  const exclude = new Set(['item_images', 'armor_images', 'weapon_images', 'map_pois', 'gzwtacmap_data', 'info_pages']);
+  const exclude = new Set(['item_images', 'armor_images', 'weapon_images', 'map_pois', 'gzwtacmap_data',
+    'apparel_items', 'loot_items']);
 
   for (const key of Object.keys(datasets)) {
     if (exclude.has(key) || key.startsWith('_')) continue;
@@ -97,6 +98,11 @@ function buildRoutes() {
       filters: filterFields,
     };
   }
+
+  // Add smart routes
+  routes.armor = { summary: 'Armor (combined vests + helmets + glasses)', filters: ['type', 'material', 'nij', 'category'] };
+  routes.weapon_parts = { summary: 'Weapon parts (combined)', filters: ['search'] };
+
   return routes;
 }
 
@@ -136,6 +142,8 @@ module.exports = (req, res) => {
       paths['/api/stats'] = { get: { summary: 'Stats' } };
       paths['/api/search'] = { get: { summary: 'Search', parameters: [{ name: 'q', in: 'query', required: true }] } };
       paths['/api/images'] = { get: { summary: 'All item images' } };
+      paths['/api/armor'] = { get: { summary: 'Armor (combined vests + helmets + glasses)', parameters: [{ name: 'type', in: 'query' }, { name: 'material', in: 'query' }, { name: 'nij', in: 'query' }, { name: 'category', in: 'query' }] } };
+      paths['/api/weapon_parts'] = { get: { summary: 'Weapon parts (combined)', parameters: [{ name: 'search', in: 'query' }] } };
 
       return res.json({
         openapi: '3.0.3',
@@ -171,11 +179,17 @@ module.exports = (req, res) => {
     // Stats
     if (route === 'stats') {
       const stats = {};
+      const exclude = new Set(['item_images', 'armor_images', 'weapon_images', 'map_pois', 'gzwtacmap_data', 'apparel', 'loot', 'provisions']);
       for (const [key, val] of Object.entries(datasets)) {
-        if (Array.isArray(val) && val.length > 0 && !['item_images', 'armor_images', 'weapon_images', 'map_pois', 'gzwtacmap_data'].includes(key)) {
+        if (Array.isArray(val) && val.length > 0 && !exclude.has(key) && !['apparel_items', 'loot_items'].includes(key)) {
           stats[key] = { total: val.length };
         }
       }
+      // Smart route stats
+      stats.armor = { total: (asArray('vests').length || 0) + (asArray('helmets').length || 0) + (asArray('glasses').length || 0) };
+      stats.weapon_parts = { total: (asArray('barrels').length || 0) + (asArray('stocks').length || 0) + (asArray('magazines').length || 0) + (asArray('muzzle_devices').length || 0) + (asArray('suppressors').length || 0) + (asArray('stock_adapters').length || 0) + (asArray('pistol_grips').length || 0) + (asArray('foregrips').length || 0) + (asArray('night_vision').length || 0) + (asArray('helmet_mods').length || 0) + (asArray('helmet_mounts').length || 0) };
+      stats.loot = { total: asArray('loot_items').length || 0 };
+      stats.apparel = { total: asArray('apparel_items').length || 0 };
       return json(res, stats);
     }
 
@@ -191,6 +205,61 @@ module.exports = (req, res) => {
         if (matches.length > 0) results[key] = matches.slice(0, 10);
       }
       return json(res, { query: q, results });
+    }
+
+    // ── Smart routes ──
+    // /api/armor → merge vests + helmets + plate carriers
+    if (route === 'armor') {
+      let d = [
+        ...asArray('vests').map(x => ({ ...x, category: 'vest' })),
+        ...asArray('helmets').map(x => ({ ...x, category: 'helmet' })),
+        ...asArray('glasses').map(x => ({ ...x, category: 'glasses' })),
+      ];
+      // Deduplicate by name
+      const seen = new Set();
+      d = d.filter(x => { const k = x.name?.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+      const t = params.get('type'), m = params.get('material'), n = params.get('nij'), cat = params.get('category');
+      if (t) d = d.filter(x => (x.type || '').toLowerCase() === t.toLowerCase());
+      if (m) d = d.filter(x => (x.material || '').toLowerCase() === m.toLowerCase());
+      if (n) d = d.filter(x => (x.nij || '').toLowerCase() === n.toLowerCase());
+      if (cat) d = d.filter(x => x.category === cat.toLowerCase());
+      return json(res, d);
+    }
+
+    // /api/weapon_parts → merge all weapon part datasets
+    if (route === 'weapon_parts') {
+      const partKeys = ['barrels', 'muzzle_devices', 'suppressors', 'stocks', 'stock_adapters', 'pistol_grips', 'foregrips', 'magazines', 'night_vision', 'helmet_mods', 'helmet_mounts'];
+      let d = [];
+      for (const k of partKeys) {
+        const items = asArray(k);
+        d = d.concat(items.map(x => ({ ...x, part_category: k })));
+      }
+      const search = params.get('search');
+      if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
+      const sort = params.get('sort');
+      if (sort) {
+        const [field, dir] = sort.split(':');
+        if (dir === 'desc') d.sort((a, b) => (b[field] || '').toString().localeCompare((a[field] || '').toString()));
+        else d.sort((a, b) => (a[field] || '').toString().localeCompare((b[field] || '').toString()));
+      }
+      return json(res, d);
+    }
+
+    // /api/loot → redirect to loot_items
+    if (route === 'loot' && datasets.loot_items) {
+      let d = [...asArray('loot_items')];
+      const search = params.get('search');
+      if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
+      return json(res, d);
+    }
+
+    // /api/apparel → redirect to apparel_items
+    if (route === 'apparel' && datasets.apparel_items) {
+      let d = [...asArray('apparel_items')];
+      const search = params.get('search'), t = params.get('type');
+      if (t) d = d.filter(x => (x.type || '').toLowerCase() === t.toLowerCase());
+      if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
+      return json(res, d);
     }
 
     // Generic: /api/<dataset>
