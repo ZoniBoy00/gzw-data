@@ -39,11 +39,18 @@
       background: #61affe; color: #fff; font-size: 11px; font-weight: 700;
       padding: 3px 10px; border-radius: 3px; min-width: 48px; text-align: center;
     }
+    .ep-hdr .count {
+      font-size: 11px; color: #666; font-family: monospace;
+    }
     .ep-hdr .path { font-size: 14px; font-weight: 600; color: #fff; font-family: monospace; }
     .ep-hdr .desc { font-size: 12px; color: #888; margin-left: auto; }
     .ep-hdr .arrow { color: #555; }
     .ep-body { display: none; padding: 14px 16px; }
     .ep-body.open { display: block; }
+
+    .counts { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 12px; font-size: 11px; }
+    .counts span { background: #1a1a1a; border: 1px solid #2a2a2a; padding: 2px 8px; border-radius: 3px; color: #888; }
+    .counts b { color: #f0b429; }
 
     .params { margin-bottom: 10px; }
     .params .title { font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; }
@@ -68,6 +75,14 @@
       font-size: 11px; font-family: monospace; overflow: auto; color: #e0e0e0;
       max-height: 400px; white-space: pre-wrap;
     }
+
+    .filter { margin-bottom: 16px; display: flex; gap: 8px; align-items: center; }
+    .filter input {
+      background: #222; border: 1px solid #333; padding: 6px 10px; color: #e0e0e0;
+      font-size: 13px; border-radius: 4px; width: 250px; font-family: inherit;
+    }
+    .filter input:focus { outline: none; border-color: #f0b429; }
+    .filter .clear { cursor: pointer; color: #666; font-size: 18px; }
 
     .footer { text-align: center; padding: 32px; color: #555; font-size: 12px; border-top: 1px solid #1a1a1a; margin-top: 24px; }
     .footer a { color: #f0b429; text-decoration: none; }
@@ -99,8 +114,22 @@
     <span class="err">429</span> when exceeded.
   </div>
 
-  <!-- Endpoints -->
-  <div class="main" id="root"></div>
+  <!-- Main -->
+  <div class="main">
+    <p class="intro">
+      Base URL: <code>https://gzw-data.vercel.app</code> ·
+      All datasets auto-discovered from <code>/api/stats</code>.
+      Filters work on any field. <code>?search=</code> for free text.
+    </p>
+
+    <div class="filter">
+      <input type="text" id="filter" placeholder="Filter endpoints..." oninput="render()">
+      <span class="clear" onclick="document.getElementById('filter').value='';render()">&times;</span>
+    </div>
+
+    <div id="counts"></div>
+    <div id="root"></div>
+  </div>
 
   <!-- Footer -->
   <div class="footer">
@@ -110,42 +139,86 @@
   </div>
 
   <script>
-  // ── Endpoint definitions ──
-  const EPS = [
-    { p: '/api/armor', d: 'Armor (61)', q: [
-      ['type', 'Ballistic Vest, Helmet, Plate Carrier'],
-      ['material', 'Aramid, Steel, Ceramic, UHMWPE'],
-      ['nij', 'IIIA, III, III+, III++'],
-    ]},
-    { p: '/api/weapons', d: 'Weapons (51)', q: [
-      ['type', 'Assault Rifle, SMG, Pistol, DMR...'],
-      ['caliber', '5.56x45mm, 7.62x39mm...'],
-      ['search', 'Free text search'],
-    ]},
-    { p: '/api/backpacks', d: 'Backpacks & Rigs (27)', q: [
-      ['type', 'Backpack or Tactical Rig'],
-    ]},
-    { p: '/api/keys', d: 'Keys (124)', q: [
-      ['location', 'Ban Pa, Fort Narith, Tiger Bay...'],
-    ]},
-    { p: '/api/tasks', d: 'Tasks (278)', q: [
-      ['vendor', 'Handshake, Gunny, Lab Rat...'],
-      ['area', 'Lamang, Fort Narith...'],
-      ['search', 'Free text search'],
-    ]},
-    { p: '/api/throwables', d: 'Throwables (8)', q: [] },
-    { p: '/api/images', d: 'Image URLs (199)', q: [] },
-    { p: '/api/stats', d: 'Statistics', q: [] },
-    { p: '/api/search', d: 'Search', q: [
-      ['q', 'Search query', 1],
-    ]},
-  ];
-
-  // ── DOM refs ──
+  // ── State ──
+  let EPS = [];
   let open = -1;
   const inputs = {};
 
-  function esc(s) { return s.replace(/[<>&]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;'})[c]); }
+  function esc(s) { return String(s).replace(/[<>&"]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'})[c]); }
+
+  // ── Load endpoints from API ──
+  async function loadEndpoints() {
+    try {
+      const res = await fetch('/api/stats');
+      const json = await res.json();
+      const stats = json.data || json;
+
+      if (typeof stats === 'object') {
+        // Build EPS dynamically from stats keys
+        const exclude = new Set(['armor_images', 'gzwtacmap_data', 'map_pois', 'weapon_images']);
+        const groups = {
+          weapon: ['weapons', 'ammo', 'magazines', 'weapon_parts'],
+          armor: ['vests', 'helmets', 'plate_carriers', 'glasses', 'face_cover', 'headsets', 'headwear_items', 'belts', 'apparel'],
+          gear: ['backpacks', 'rigs', 'throwables', 'medical', 'provisions', 'food', 'drinks', 'containers', 'loot', 'loot_containers', 'gear'],
+          parts: ['barrels', 'muzzle_devices', 'suppressors', 'stocks', 'stock_adapters', 'pistol_grips', 'foregrips', 'helmet_mods', 'helmet_mounts', 'night_vision'],
+          equipment: ['repair_kits', 'tools', 'military_equipment', 'task_items', 'keycards', 'keys'],
+          reference: ['factions', 'info_pages', 'weapon_camos', 'tasks'],
+        };
+
+        // Order: groups first, then rest
+        const ordered = [];
+        const seen = new Set();
+        for (const group of Object.values(groups)) {
+          for (const key of group) {
+            if (stats[key] && !exclude.has(key)) {
+              ordered.push({
+                key,
+                total: stats[key].total || stats[key] || 0,
+              });
+              seen.add(key);
+            }
+          }
+        }
+        // Add any remaining
+        for (const key of Object.keys(stats).sort()) {
+          if (!seen.has(key) && !exclude.has(key)) {
+            ordered.push({
+              key,
+              total: stats[key].total || stats[key] || 0,
+            });
+          }
+        }
+
+        EPS = ordered.map(s => ({
+          p: '/api/' + s.key,
+          d: s.key.replace(/_/g, ' ') + ' (' + s.total + ')',
+          q: [] // filters loaded lazily
+        }));
+      } else {
+        EPS = [];
+      }
+    } catch (e) {
+      document.getElementById('root').innerHTML = `<p style="color:#e05252;">Failed to load endpoints: ${esc(e.message)}</p>`;
+    }
+
+    render();
+  }
+
+  // ── Lazy-load filters from OpenAPI spec ──
+  let specCache = null;
+  async function getFilters(path) {
+    if (!specCache) {
+      try {
+        const res = await fetch('/api/spec');
+        specCache = await res.json();
+      } catch {
+        return [];
+      }
+    }
+    const route = specCache.paths?.[path]?.get;
+    if (!route) return [];
+    return (route.parameters || []).map(p => [p.name, 'Filter by ' + p.name]);
+  }
 
   // ── Execute ──
   async function go(idx) {
@@ -154,7 +227,6 @@
     if (!box) return;
     box.innerHTML = '<span style="color:#888;">Loading...</span>';
 
-    // Build query string
     const parts = [];
     for (const [name] of ep.q) {
       const el = inputs[idx]?.[name];
@@ -184,59 +256,77 @@
   }
 
   function toggle(idx) {
-    // Close previous
     if (open !== -1) document.getElementById('b' + open)?.classList.remove('open');
-    // Toggle current
     open = open === idx ? -1 : idx;
-    if (open !== -1) document.getElementById('b' + open)?.classList.add('open');
-    // Update arrow icons
+    if (open !== -1) {
+      document.getElementById('b' + open)?.classList.add('open');
+    }
     document.querySelectorAll('.arrow').forEach((el, i) => { el.textContent = i === open ? '▼' : '▶'; });
+
+    // Lazy-load filters when opened
+    if (open !== -1 && EPS[open] && EPS[open].q.length === 0) {
+      const idx = open;
+      getFilters(EPS[idx].p).then(filters => {
+        EPS[idx].q = filters;
+        // Re-render the params section
+        const container = document.getElementById('params-' + idx);
+        if (!container) return;
+        if (filters.length) {
+          container.innerHTML = `<div class="params"><div class="title">Query parameters</div>` +
+            filters.map(([name, placeholder]) =>
+              `<div class="row"><label>${name} <span class="opt">(query)</span></label>` +
+              `<input type="text" id="i${idx}_${name}" placeholder="${esc(placeholder)}"></div>`
+            ).join('') + `</div>`;
+          inputs[idx] = {};
+          filters.forEach(([name]) => {
+            const el = document.getElementById('i' + idx + '_' + name);
+            if (el) {
+              inputs[idx][name] = el;
+              el.oninput = () => { inputs[idx][name] = el; };
+            }
+          });
+        } else {
+          container.innerHTML = '<p style="color:#666;font-size:11px;margin-bottom:10px;">No parameters</p>';
+        }
+      });
+    }
   }
 
   // ── Render ──
   function render() {
-    let html = '<p class="intro">Click an endpoint to expand. Base URL: <code>https://gzw-data.vercel.app</code></p>';
+    const filter = (document.getElementById('filter')?.value || '').toLowerCase();
+    const filtered = filter ? EPS.filter(ep => ep.p.includes(filter) || ep.d.toLowerCase().includes(filter)) : EPS;
 
-    EPS.forEach((ep, i) => {
-      inputs[i] = {};
+    // Counts bar
+    if (EPS.length) {
+      document.getElementById('counts').innerHTML =
+        `<span>Datasets: <b>${EPS.length}</b></span>` +
+        `<span>Showing: <b>${filtered.length}</b></span>` +
+        `<span style="margin-left:auto;color:#555;">Filters: ?field=value on any column</span>`;
+    }
 
-      html += `<div class="ep"><div class="ep-hdr" onclick="toggle(${i})">`;
+    let html = '';
+
+    filtered.forEach((ep, i) => {
+      const realIdx = EPS.indexOf(ep);
+      inputs[realIdx] = inputs[realIdx] || {};
+
+      html += `<div class="ep"><div class="ep-hdr" onclick="toggle(${realIdx})">`;
       html += `<span class="method">GET</span><span class="path">${ep.p}</span>`;
       html += `<span class="desc">${ep.d}</span><span class="arrow">▶</span></div>`;
-      html += `<div class="ep-body" id="b${i}">`;
-
-      if (ep.q.length) {
-        html += `<div class="params"><div class="title">Query parameters</div>`;
-        ep.q.forEach(([name, placeholder]) => {
-          html += `<div class="row"><label>${name} <span class="opt">(query)</span></label>`;
-          html += `<input type="text" id="i${i}_${name}" placeholder="${esc(placeholder)}"></div>`;
-        });
-        html += `</div>`;
-      } else {
-        html += `<p style="color:#666;font-size:11px;margin-bottom:10px;">No parameters</p>`;
-      }
-
-      html += `<button class="btn btn-go" onclick="go(${i})">Execute</button>`;
-      html += `<button class="btn btn-clr" onclick="clr(${i})">Clear</button>`;
-      html += `<div class="resp" id="r${i}"></div>`;
+      html += `<div class="ep-body" id="b${realIdx}">`;
+      html += `<div id="params-${realIdx}"><p style="color:#666;font-size:11px;margin-bottom:10px;">Loading parameters...</p></div>`;
+      html += `<button class="btn btn-go" onclick="go(${realIdx})">Execute</button>`;
+      html += `<button class="btn btn-clr" onclick="clr(${realIdx})">Clear</button>`;
+      html += `<div class="resp" id="r${realIdx}"></div>`;
       html += `</div></div>`;
-
-      // Store input refs after DOM render
-      setTimeout(() => {
-        inputs[i] = {};
-        ep.q.forEach(([name]) => {
-          const el = document.getElementById('i' + i + '_' + name);
-          if (el) inputs[i][name] = el;
-          // Update on change
-          if (el) el.oninput = () => { inputs[i][name] = el; };
-        });
-      }, 0);
     });
 
-    document.getElementById('root').innerHTML = html;
+    document.getElementById('root').innerHTML = html || '<p style="color:#666;text-align:center;padding:40px;">No matching endpoints</p>';
   }
 
-  render();
+  // ── Start ──
+  loadEndpoints();
   </script>
 </body>
 </html>
