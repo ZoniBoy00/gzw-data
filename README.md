@@ -14,7 +14,7 @@ curl https://raw.githubusercontent.com/ZoniBoy00/gzw-data/main/data/weapons.json
 
 # Or via the API (auto-deployed)
 curl https://gzw-data.vercel.app/api/weapons
-curl https://gzw-data.vercel.app/api/keys?location=Ban%20Pa
+curl https://gzw-data.vercel.app/api/keys?type=Keycard
 curl https://gzw-data.vercel.app/api/medical
 ```
 
