@@ -683,9 +683,8 @@
     // Counts bar
     if (EPS.length) {
       document.getElementById('counts').innerHTML =
-        `<span class="chip">Datasets <b>${EPS.length}</b></span>` +
-        `<span class="chip">Showing <b>${filtered.length}</b></span>` +
-        `<span class="hint">Filter: <code>?field=value</code></span>`;
+        `<span class="chip"><b>${EPS.length}</b> datasets</span>` +
+        `<span class="hint">${filtered.length < EPS.length ? filtered.length + ' shown · ' : ''}?field=value for filters</span>`;
     }
 
     let html = '';
