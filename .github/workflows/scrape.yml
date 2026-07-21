@@ -1,16 +1,16 @@
-name: Weekly Data Scrape
+name: 🔄 Auto Data Scrape
 
 on:
   schedule:
-    - cron: '0 6 * * 1'
-  workflow_dispatch:
-  repository_dispatch:
+    - cron: '0 6 * * 1'     # Every Monday at 6am UTC
+  workflow_dispatch:         # Manual trigger
+  repository_dispatch:       # External trigger (e.g., wiki update webhook)
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,38 +28,68 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml 2>&1 | tail -5
+        run: |
+          pip install requests beautifulsoup4 lxml --quiet 2>&1 | tail -3
 
-      - name: Scrape
+      - name: 🕷️ Run universal scraper
         run: |
           cd scraper
           python scrape.py --all 2>&1
-          python enrich_tasks.py 2>&1
-          python categorize_tasks.py 2>&1
-          python gen_frontend_data.py 2>&1
+        continue-on-error: false
 
-      - name: Copy to gzw-data
+      - name: 📋 Validate scraped data
         run: |
+          cd scraper/data
+          echo "=== Scraped data summary ==="
+          for f in *.json; do
+            count=$(python3 -c "import json; d=json.load(open('$f')); print(len(d) if isinstance(d, list) else 'dict')" 2>/dev/null || echo "error")
+            echo "  $f: $count items"
+          done
+
+      - name: 📦 Copy to gzw-data
+        run: |
+          mkdir -p gzw-data/data
           for f in scraper/data/*.json; do
             name=$(basename "$f")
             cp "$f" "gzw-data/data/$name"
+            echo "  ✓ $name"
           done
 
-      - name: Normalise
+      - name: 🧹 Validate all JSON files
         run: |
-          cd gzw-data
-          python3 scripts/normalise_data.py 2>&1 || true
-          python3 scripts/reorder_data.py 2>&1 || true
+          echo "=== Validating JSONs ==="
+          errors=0
+          for f in gzw-data/data/*.json; do
+            if ! python3 -c "json.load(open('$f'))" 2>/dev/null; then
+              echo "  ❌ $f is invalid!"
+              errors=$((errors + 1))
+            fi
+          done
+          if [ $errors -gt 0 ]; then
+            echo "ERROR: $errors invalid JSON files found!"
+            exit 1
+          fi
+          echo "  ✅ All JSON files valid"
 
-      - name: Commit
+      - name: 🚀 Commit & Push
         run: |
           cd gzw-data
           git config user.name "gzw-bot"
           git config user.email "bot@gzw-data.dev"
+          
+          # Generate summary for commit
+          echo "### Scraped datasets" > /tmp/commit_msg.txt
+          for f in data/*.json; do
+            name=$(basename "$f" .json)
+            count=$(python3 -c "import json; d=json.load(open('$f')); print(len(d) if isinstance(d, list) else 'n/a')" 2>/dev/null || echo "?")
+            echo "- $name: $count items" >> /tmp/commit_msg.txt
+          done
+          
           if git status --porcelain data/ | grep -q .; then
             git add data/
-            git commit -m "auto: update scraped data ($(date +%Y-%m-%d))"
+            git commit -F /tmp/commit_msg.txt
             git push
+            echo "✅ Changes pushed"
           else
-            echo "No changes."
+            echo "ℹ️ No changes to data"
           fi

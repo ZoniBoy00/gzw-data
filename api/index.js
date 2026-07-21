@@ -1,5 +1,6 @@
-// GZW Data API — Vercel serverless (Node.js runtime, req/res pattern)
-// Dynamically loads all data files from ../data/ directory
+// GZW Data API v3 — Fully Dynamic & Auto-Discovering
+// Every .json file in /data becomes an API endpoint automatically.
+// No hardcoded exclude lists — everything is exposed.
 const { createRequire } = require('node:module');
 const require2 = createRequire(__filename);
 const fs = require('fs');
@@ -33,6 +34,37 @@ function asArray(key) {
   return [];
 }
 
+// ─── Dynamic dataset registry ───
+// Builds route info from whatever .json files exist — no hardcoded lists!
+function buildDatasetRegistry() {
+  const registry = {};
+  const hiddenKeys = new Set([
+    'item_images', 'armor_images', 'weapon_images', 'vendor_images',
+    'map_pois', 'gzwtacmap_data', 'images',
+    'apparel_items', 'loot_items',
+  ]);
+
+  for (const key of Object.keys(datasets)) {
+    if (key.startsWith('_')) continue;
+    const arr = asArray(key);
+    if (arr.length === 0) continue;
+
+    const sampleFields = arr.length > 0 ? Object.keys(arr[0]) : [];
+    const filterFields = sampleFields.filter(f =>
+      !['id', 'name', 'image', '_image', 'description'].includes(f) &&
+      typeof arr[0][f] === 'string'
+    );
+
+    registry[key] = {
+      visible: !hiddenKeys.has(key),
+      count: arr.length,
+      filters: filterFields,
+      summary: `${key} (${arr.length} items)`,
+    };
+  }
+  return registry;
+}
+
 // ─── Rate limiter (sliding window) ───
 const RATE = { max: 100, ms: 60000 };
 const hits = {};
@@ -40,39 +72,43 @@ const hits = {};
 function rate(ip) {
   const now = Date.now();
   const window = RATE.ms;
-  
+
   let timestamps = hits[ip];
   if (!timestamps) {
     timestamps = [];
     hits[ip] = timestamps;
   }
-  
-  // Remove timestamps outside the window (older than 60s)
+
   const cutoff = now - window;
   while (timestamps.length > 0 && timestamps[0] < cutoff) {
     timestamps.shift();
   }
-  
-  // Check limit
+
   if (timestamps.length >= RATE.max) {
-    // Blocked — oldest timestamp tells us when the next slot opens
     const oldest = timestamps[0];
     return { rem: 0, reset: oldest + window };
   }
-  
-  // Allow — record this request
+
   timestamps.push(now);
-  
   return { rem: RATE.max - timestamps.length, reset: now + window };
 }
 
 function json(res, data, status = 200) {
-  res.status(status).json({ data, count: Array.isArray(data) ? data.length : undefined, source: 'GZW Data API', timestamp: new Date().toISOString() });
+  res.status(status).json({
+    data,
+    count: Array.isArray(data) ? data.length : undefined,
+    source: 'GZW Data API',
+    timestamp: new Date().toISOString()
+  });
 }
 
 function pathAndQuery(url) {
   const i = url.indexOf('?');
-  return { path: (i === -1 ? url : url.slice(0, i)).replace(/^\/api\/?/, '').replace(/\/$/, '') || 'root', params: new URLSearchParams(i === -1 ? '' : url.slice(i)) };
+  const p = (i === -1 ? url : url.slice(0, i)).replace(/^\/api\/?/, '').replace(/\/$/, '') || 'root';
+  return {
+    path: p,
+    params: new URLSearchParams(i === -1 ? '' : url.slice(i))
+  };
 }
 
 function compare(v1, v2) {
@@ -80,7 +116,7 @@ function compare(v1, v2) {
   return String(v1).toLowerCase() === String(v2).toLowerCase();
 }
 
-function filterData(arr, params, allowedKeys = []) {
+function filterData(arr, params) {
   let d = [...arr];
   for (const [key, val] of params.entries()) {
     if (!val) continue;
@@ -91,6 +127,8 @@ function filterData(arr, params, allowedKeys = []) {
       const [field, dir] = val.split(':');
       if (dir === 'desc') d.sort((a, b) => (b[field] || '').toString().localeCompare((a[field] || '').toString()));
       else d.sort((a, b) => (a[field] || '').toString().localeCompare((b[field] || '').toString()));
+    } else if (key === 'limit') {
+      d = d.slice(0, parseInt(val) || d.length);
     } else {
       d = d.filter(x => x[key] && compare(x[key], val));
     }
@@ -98,35 +136,79 @@ function filterData(arr, params, allowedKeys = []) {
   return d;
 }
 
-// ─── Route definitions ───
-function buildRoutes() {
-  const routes = {};
-  const exclude = new Set(['item_images', 'armor_images', 'weapon_images', 'map_pois', 'gzwtacmap_data',
-    'apparel_items', 'loot_items']);
+// ─── Smart route definitions ───
+// These combine multiple datasets into one endpoint.
+// They're defined separately because they merge data — if a source dataset
+// doesn't exist, it's silently skipped.
+const SMART_ROUTES = {
+  'armor': {
+    sources: ['vests', 'helmets', 'glasses'],
+    field_mutators: {
+      'vests': x => ({ ...x, category: 'vest' }),
+      'helmets': x => ({ ...x, category: 'helmet' }),
+      'glasses': x => ({ ...x, category: 'glasses' }),
+    },
+    filters: ['type', 'material', 'nij', 'category'],
+    label: 'Armor (vests + helmets + glasses)',
+  },
+  'weapon_parts': {
+    sources: ['barrels', 'muzzle_devices', 'suppressors', 'stocks',
+              'stock_adapters', 'pistol_grips', 'foregrips', 'magazines',
+              'night_vision', 'helmet_mods', 'helmet_mounts'],
+    field_mutators: {},
+    default_mutator: (x, src) => ({ ...x, part_category: src }),
+    filters: ['search', 'sort'],
+    label: 'Weapon parts (combined)',
+  },
+  'helmet_mods': {
+    sources: ['night_vision', 'helmet_mounts'],
+    field_mutators: {
+      'night_vision': x => ({ ...x, mod_type: 'night_vision' }),
+      'helmet_mounts': x => ({ ...x, mod_type: 'mount' }),
+    },
+    filters: ['mod_type', 'search'],
+    label: 'Helmet mods (night vision + mounts)',
+  },
+  'loot': {
+    sources: ['loot_items'],
+    filters: ['search'],
+    label: 'Loot items',
+  },
+  'apparel': {
+    sources: ['apparel_items'],
+    filters: ['search', 'type'],
+    label: 'Apparel items',
+  },
+};
 
-  for (const key of Object.keys(datasets)) {
-    if (exclude.has(key) || key.startsWith('_')) continue;
-    const arr = asArray(key);
-    if (arr.length === 0) continue;
+function getSmartRoute(name) {
+  const route = SMART_ROUTES[name];
+  if (!route) return null;
 
-    // Collect filterable params from field names
-    const sampleFields = arr.length > 0 ? Object.keys(arr[0]) : [];
-    const filterFields = sampleFields.filter(f => !['id', 'name', 'image', '_image', 'description'].includes(f) && typeof arr[0][f] === 'string');
-
-    routes[key] = {
-      summary: `${key} (${arr.length})`,
-      filters: filterFields,
-    };
+  let items = [];
+  for (const src of route.sources) {
+    const data = asArray(src);
+    const mutator = route.field_mutators?.[src] || route.default_mutator;
+    if (mutator) {
+      items = items.concat(data.map(x => mutator(x, src)));
+    } else {
+      items = items.concat(data);
+    }
   }
 
-  // Add smart routes
-  routes.armor = { summary: 'Armor (combined vests + helmets + glasses)', filters: ['type', 'material', 'nij', 'category'] };
-  routes.weapon_parts = { summary: 'Weapon parts (combined)', filters: ['search'] };
-  routes.helmet_mods = { summary: 'Helmet mods (night vision + mounts)', filters: ['mod_type', 'search'] };
+  // Deduplicate
+  const seen = new Set();
+  items = items.filter(x => {
+    const k = x.name?.toLowerCase();
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
 
-  return routes;
+  return items;
 }
 
+// ─── Request handler ───
 module.exports = (req, res) => {
   try {
     // CORS
@@ -145,187 +227,149 @@ module.exports = (req, res) => {
 
     const { path: p, params } = pathAndQuery(req.url || '/');
 
-    // Forwarded URL handling
+    // Forwarded URL handling for Vercel
     const forwardedUrl = req.headers['x-vercel-forwarded-url'];
-    const actualPath = forwardedUrl ? pathAndQuery(forwardedUrl).path : p;
-    const route = actualPath;
+    const route = forwardedUrl ? pathAndQuery(forwardedUrl).path : p;
 
-    // ── Routes ──
+    const registry = buildDatasetRegistry();
+    const visibleDatasets = Object.entries(registry)
+      .filter(([_, info]) => info.visible)
+      .map(([key, info]) => ({ key, ...info }));
+
+    // ── API spec / OpenAPI ──
     if (route === 'spec' || route === 'openapi.json') {
-      const routes = buildRoutes();
       const paths = {};
-      for (const [key, info] of Object.entries(routes)) {
-        const p = {};
-        for (const f of info.filters) p[f] = { name: f, in: 'query' };
-        paths[`/api/${key}`] = { get: { summary: info.summary, parameters: Object.values(p) } };
-      }
+      const makeParams = (filters) => filters.map(f => ({ name: f, in: 'query', schema: { type: 'string' } }));
+
       paths['/api'] = { get: { summary: 'API root' } };
       paths['/api/stats'] = { get: { summary: 'Stats' } };
       paths['/api/search'] = { get: { summary: 'Search', parameters: [{ name: 'q', in: 'query', required: true }] } };
       paths['/api/images'] = { get: { summary: 'All item images' } };
-      paths['/api/armor'] = { get: { summary: 'Armor (combined vests + helmets + glasses)', parameters: [{ name: 'type', in: 'query' }, { name: 'material', in: 'query' }, { name: 'nij', in: 'query' }, { name: 'category', in: 'query' }] } };
-      paths['/api/weapon_parts'] = { get: { summary: 'Weapon parts (combined)', parameters: [{ name: 'search', in: 'query' }] } };
-      paths['/api/helmet_mods'] = { get: { summary: 'Helmet mods (night vision + mounts)', parameters: [{ name: 'mod_type', in: 'query' }, { name: 'search', in: 'query' }] } };
+
+      for (const { key, summary, filters } of visibleDatasets) {
+        paths[`/api/${key}`] = { get: { summary, parameters: makeParams(filters) } };
+      }
+      for (const [routeName, routeDef] of Object.entries(SMART_ROUTES)) {
+        paths[`/api/${routeName}`] = { get: { summary: routeDef.label, parameters: makeParams(routeDef.filters) } };
+      }
 
       return res.json({
         openapi: '3.0.3',
-        info: { title: 'GZW Data API', version: '2.0.0', description: 'Comprehensive Gray Zone Warfare game data API. All data scraped from the official wiki.' },
+        info: {
+          title: 'GZW Data API',
+          version: '3.0.0',
+          description: 'Comprehensive Gray Zone Warfare game data API. ' +
+            'Automatically updated from the official wiki. ' +
+            'New categories appear as endpoints automatically.',
+        },
         servers: [{ url: 'https://gzw-data.vercel.app' }],
         paths,
       });
     }
 
+    // ── Health ──
     if (route === 'health' || route === 'debug') {
       const loaded = {};
-      const exclude = new Set(['item_images', 'armor_images', 'weapon_images', 'map_pois', 'gzwtacmap_data']);
       for (const [key, val] of Object.entries(datasets)) {
         loaded[key] = Array.isArray(val) ? val.length : (val ? 'loaded' : 'empty');
       }
-      return res.json({ ok: true, version: '2.0.0', dataLoaded: loaded });
+      return res.json({
+        ok: true,
+        version: '3.0.0',
+        total_endpoints: visibleDatasets.length + Object.keys(SMART_ROUTES).length,
+        dataLoaded: loaded,
+        smartRoutes: Object.keys(SMART_ROUTES),
+      });
     }
 
+    // ── Root ──
     if (route === 'root') {
+      const endpoints = visibleDatasets.map(d => d.key);
+      endpoints.push(...Object.keys(SMART_ROUTES));
       return res.json({
         name: 'GZW Data API',
-        version: '2.0.0',
-        endpoints: Object.keys(buildRoutes()),
+        version: '3.0.0',
+        total_endpoints: endpoints.length,
+        endpoints: endpoints.sort(),
         docs: 'https://gzw-data.vercel.app/api/spec',
       });
     }
 
-    // Images endpoint
+    // ── Images ──
     if (route === 'images') {
-      return json(res, datasets.item_images || datasets.armor_images || {});
-    }
-
-    // Stats
-    if (route === 'stats') {
-      const stats = {};
-      const exclude = new Set(['item_images', 'armor_images', 'weapon_images', 'map_pois', 'gzwtacmap_data', 'apparel', 'loot', 'provisions']);
-      for (const [key, val] of Object.entries(datasets)) {
-        if (Array.isArray(val) && val.length > 0 && !exclude.has(key) && !['apparel_items', 'loot_items'].includes(key)) {
-          stats[key] = { total: val.length };
+      const imgSources = ['item_images', 'armor_images', 'weapon_images', 'vendor_images', 'images'];
+      let merged = {};
+      for (const src of imgSources) {
+        const data = datasets[src];
+        if (data && typeof data === 'object') {
+          merged = { ...merged, ...data };
         }
       }
-      // Smart route stats
-      stats.armor = { total: (asArray('vests').length || 0) + (asArray('helmets').length || 0) + (asArray('glasses').length || 0) };
-      stats.weapon_parts = { total: (asArray('barrels').length || 0) + (asArray('stocks').length || 0) + (asArray('magazines').length || 0) + (asArray('muzzle_devices').length || 0) + (asArray('suppressors').length || 0) + (asArray('stock_adapters').length || 0) + (asArray('pistol_grips').length || 0) + (asArray('foregrips').length || 0) + (asArray('night_vision').length || 0) + (asArray('helmet_mods').length || 0) + (asArray('helmet_mounts').length || 0) };
-      stats.helmet_mods = { total: (asArray('night_vision').length || 0) + (asArray('helmet_mounts').length || 0) };
-      stats.loot = { total: asArray('loot_items').length || 0 };
-      stats.apparel = { total: asArray('apparel_items').length || 0 };
+      return json(res, merged);
+    }
+
+    // ── Stats ──
+    if (route === 'stats') {
+      const stats = {};
+      for (const { key, count } of visibleDatasets) {
+        stats[key] = { total: count };
+      }
+      for (const [routeName, routeDef] of Object.entries(SMART_ROUTES)) {
+        const items = getSmartRoute(routeName);
+        if (items) {
+          stats[routeName] = { total: items.length, combined_from: routeDef.sources };
+        }
+      }
       return json(res, stats);
     }
 
-    // Search
+    // ── Search ──
     if (route === 'search') {
       const q = params.get('q');
-      if (!q) return res.status(400).json({ error: 'Missing ?q' });
+      if (!q) return res.status(400).json({ error: 'Missing ?q parameter' });
       const query = q.toLowerCase();
       const results = {};
-      for (const [key, val] of Object.entries(datasets)) {
-        if (!Array.isArray(val)) continue;
-        const matches = val.filter(x => x.name && x.name.toLowerCase().includes(query));
+      for (const { key } of visibleDatasets) {
+        const arr = asArray(key);
+        const matches = arr.filter(x => x.name && x.name.toLowerCase().includes(query));
         if (matches.length > 0) results[key] = matches.slice(0, 10);
       }
       return json(res, { query: q, results });
     }
 
     // ── Smart routes ──
-    // /api/armor → merge vests + helmets + plate carriers
-    if (route === 'armor') {
-      let d = [
-        ...asArray('vests').map(x => ({ ...x, category: 'vest' })),
-        ...asArray('helmets').map(x => ({ ...x, category: 'helmet' })),
-        ...asArray('glasses').map(x => ({ ...x, category: 'glasses' })),
-      ];
-      // Deduplicate by name
-      const seen = new Set();
-      d = d.filter(x => { const k = x.name?.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
-      const t = params.get('type'), m = params.get('material'), n = params.get('nij'), cat = params.get('category');
-      if (t) d = d.filter(x => (x.type || '').toLowerCase() === t.toLowerCase());
-      if (m) d = d.filter(x => (x.material || '').toLowerCase() === m.toLowerCase());
-      if (n) d = d.filter(x => (x.nij || '').toLowerCase() === n.toLowerCase());
-      if (cat) d = d.filter(x => x.category === cat.toLowerCase());
-      return json(res, d);
-    }
+    const smartRouteDef = SMART_ROUTES[route];
+    if (smartRouteDef) {
+      let items = getSmartRoute(route);
+      if (!items) return res.status(404).json({ error: `No data for ${route}` });
 
-    // /api/weapon_parts → merge all weapon part datasets
-    if (route === 'weapon_parts') {
-      const partKeys = ['barrels', 'muzzle_devices', 'suppressors', 'stocks', 'stock_adapters', 'pistol_grips', 'foregrips', 'magazines', 'night_vision', 'helmet_mods', 'helmet_mounts'];
-      let d = [];
-      for (const k of partKeys) {
-        const items = asArray(k);
-        d = d.concat(items.map(x => ({ ...x, part_category: k })));
-      }
-      const search = params.get('search');
-      if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
-      const sort = params.get('sort');
-      if (sort) {
-        const [field, dir] = sort.split(':');
-        if (dir === 'desc') d.sort((a, b) => (b[field] || '').toString().localeCompare((a[field] || '').toString()));
-        else d.sort((a, b) => (a[field] || '').toString().localeCompare((b[field] || '').toString()));
-      }
-      return json(res, d);
-    }
-
-    // /api/loot → redirect to loot_items
-    if (route === 'loot' && datasets.loot_items) {
-      let d = [...asArray('loot_items')];
-      const search = params.get('search');
-      if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
-      return json(res, d);
-    }
-
-    // /api/apparel → redirect to apparel_items
-    if (route === 'apparel' && datasets.apparel_items) {
-      let d = [...asArray('apparel_items')];
-      const search = params.get('search'), t = params.get('type');
-      if (t) d = d.filter(x => (x.type || '').toLowerCase() === t.toLowerCase());
-      if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
-      return json(res, d);
-    }
-
-    // /api/helmet_mods → merge night_vision + helmet_mounts
-    if (route === 'helmet_mods') {
-      let d = [
-        ...asArray('night_vision').map(x => ({ ...x, mod_type: 'night_vision' })),
-        ...asArray('helmet_mounts').map(x => ({ ...x, mod_type: 'mount' })),
-      ];
-      const search = params.get('search'), t = params.get('mod_type');
-      if (t) d = d.filter(x => x.mod_type === t.toLowerCase());
-      if (search) { const q = search.toLowerCase(); d = d.filter(x => (x.name || '').toLowerCase().includes(q)); }
-      return json(res, d);
-    }
-
-    // Generic: /api/<dataset>
-    if (datasets[route]) {
-      const arr = asArray(route);
-      let d = [...arr];
-      // Apply filters from query params
+      // Apply filters
       for (const [key, val] of params.entries()) {
-        if (key === 'search' || key === 'sort' || key === 'limit') continue;
-        if (val) d = d.filter(x => x[key] && compare(x[key], val));
+        if (!val || key === 'sort') continue;
+        const q = val.toLowerCase();
+        if (key === 'search') {
+          items = items.filter(x => (x.name || '').toLowerCase().includes(q));
+        } else {
+          items = items.filter(x => x[key] && compare(x[key], val));
+        }
       }
-      // Search within dataset
-      const search = params.get('search');
-      if (search) {
-        const q = search.toLowerCase();
-        d = d.filter(x => (x.name || '').toLowerCase().includes(q) || JSON.stringify(Object.values(x)).toLowerCase().includes(q));
-      }
-      // Limit
-      const limit = params.get('limit');
-      if (limit) d = d.slice(0, parseInt(limit));
-      // Sort
-      const sort = params.get('sort');
-      if (sort) {
-        const [field, dir] = sort.split(':');
-        if (dir === 'desc') d.sort((a, b) => (b[field] || '').toString().localeCompare((a[field] || '').toString()));
-        else d.sort((a, b) => (a[field] || '').toString().localeCompare((b[field] || '').toString()));
-      }
+      return json(res, items);
+    }
+
+    // ── Generic: /api/<dataset> ──
+    // Every .json file in data/ becomes /api/<filename> automatically!
+    if (datasets[route]) {
+      let d = filterData(asArray(route), params);
       return json(res, d);
     }
 
-    res.status(404).json({ error: `Not found: /api/${route}`, available: Object.keys(buildRoutes()) });
+    // ── 404 ──
+    const allRoutes = visibleDatasets.map(d => d.key).concat(Object.keys(SMART_ROUTES));
+    res.status(404).json({
+      error: `Not found: /api/${route}`,
+      available: allRoutes.sort(),
+      hint: 'New categories are added automatically when the scraper finds them.',
+    });
 
   } catch (err) {
     console.error('GZW API Error:', err);
