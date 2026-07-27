@@ -527,10 +527,10 @@
     // Auto-detect by keywords in the key name
     const rules = [
       { label: 'WEAPONS',     color: '#e05252', tests: [/weapon/, /ammo/, /magazine/, /barrel/, /muzzle/, /suppressor/, /stock/, /grip/, /foregrip/, /handguard/, /upper_receiv/, /slide/, /gas_block/, /charging/, /buffer_tube/, /collimator/, /scope/, /mount/, /tactical_dev/, /iron_sight/] },
-      { label: 'ARMOR',       color: '#4a9eff', tests: [/armor/, /vest/, /helmet/, /plate/, /glass/, /face_cover/, /headset/, /headwear/, /belt/, /apparel/, /glove/, /shirt/, /trouser/, /boot/] },
+      { label: 'ARMOR',       color: '#4a9eff', tests: [/armor/, /vest/, /helmet/, /plate/, /glass/, /face_cover/, /headset/, /headwear/, /belt/, /apparel/, /glove/, /shirt/, /trouser/, /boot/, /helmet_mod/, /helmet_mount/, /night_vision/] },
       { label: 'GEAR',        color: '#50c878', tests: [/backpack/, /rig/, /throwable/, /medical/, /provision/, /food/, /drink/, /container/, /loot/, /gear/, /household/, /jewel/, /laboratory/, /lockbox/, /secure_lock/, /mortar/, /electron/, /military_mat/, /paper/, /cleanup/, /fund/, /intel/, /patch/, /valuable/, /vice/, /workshop/, /binocular/, /tool/, /repair_kit/] },
       { label: 'EQUIPMENT',   color: '#f59e0b', tests: [/repair_kit/, /tool/, /military_equip/, /task_item/, /keycard/, /key/, /contract/, /hidden_task/, /main_task/, /side_task/, /game_system/, /vendor/, /squad_strike/, /reading_intel/] },
-      { label: 'REFERENCE',   color: '#ec4899', tests: [/faction/, /info_page/, /weapon_camo/, /task$/, /night_vision/, /helmet_mod/, /helmet_mount/, /front_page/, /player/, /tiger_bay/, /map_poi/] },
+      { label: 'REFERENCE',   color: '#ec4899', tests: [/faction/, /info_page/, /weapon_camo/, /task$/, /front_page/, /player/, /tiger_bay/, /map_poi/] },
       { label: 'MISC',        color: '#8b5cf6', tests: [/./] }, // catch-all
     ];
     for (const r of rules) {
