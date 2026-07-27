@@ -60,7 +60,7 @@ jobs:
           echo "=== Validating JSONs ==="
           errors=0
           for f in gzw-data/data/*.json; do
-            if ! python3 -c "json.load(open('$f'))" 2>/dev/null; then
+            if ! python3 -c "import json; d=json.load(open('$f')); print(f'✅ {len(d) if isinstance(d, list) else 1} items')" 2>/dev/null; then
               echo "  ❌ $f is invalid!"
               errors=$((errors + 1))
             fi
