@@ -1,5 +1,15 @@
 [
   {
+    "name": "6B47 Ratnik",
+    "id": "6b47-ratnik",
+    "weight": "1;200kg",
+    "grid_size": "2x2",
+    "material": "Aramid",
+    "nij_class": "IIA",
+    "manufacturer": "Armokom",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/6B47_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509011544"
+  },
+  {
     "name": "AMP-1 TP LC (Ranger Green)",
     "id": "amp-1-tp-lc-ranger-green",
     "weight": "1.400kg",
@@ -19,16 +29,6 @@
     "material": "Aramid",
     "nij_class": "IIIA+",
     "manufacturer": "Busch Protective"
-  },
-  {
-    "name": "6B47 Ratnik",
-    "id": "6b47-ratnik",
-    "weight": "1;200kg",
-    "grid_size": "2x2",
-    "material": "Aramid",
-    "nij_class": "IIA",
-    "manufacturer": "Armokom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/6B47_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509011544"
   },
   {
     "name": "AMP-1 TP MC (Ranger Green)",

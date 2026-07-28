@@ -1,10 +1,54 @@
 [
   {
+    "name": "A Shot in the Dark",
+    "id": "a-shot-in-the-dark",
+    "vendor": "Banshee",
+    "location": "Hunter's Paradise",
+    "alternate": "Up to Snuff",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "A Single Drop",
+    "id": "a-single-drop",
+    "vendor": "Gunny",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
     "name": "A Small Favor",
     "id": "a-small-favor",
     "vendor": "Turncoat",
     "location": "Fort Narith",
     "alternate": "No Escape",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "A Tiding of Magpies",
+    "id": "a-tiding-of-magpies",
+    "vendor": "Turncoat",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "A Voice from the Stars",
+    "id": "a-voice-from-the-stars",
+    "vendor": "Lab Rat",
+    "location": "YBL-1",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "A Walk in the Park",
+    "id": "a-walk-in-the-park",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Academic Interest",
+    "id": "academic-interest",
+    "vendor": "Turncoat",
+    "location": "Midnight Sapphire",
+    "alternate": "Noble Powder",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
@@ -45,6 +89,13 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
+    "name": "Atrocity Probe",
+    "id": "atrocity-probe",
+    "vendor": "Banshee",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
     "name": "Aye Aye, Captain",
     "id": "aye-aye,-captain",
     "vendor": "Gunny",
@@ -67,12 +118,41 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
+    "name": "Big Fish",
+    "id": "big-fish",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Buried on Paper",
+    "id": "buried-on-paper",
+    "vendor": "Banshee",
+    "task_type": "Side Task",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Business or Pleasure",
+    "id": "business-or-pleasure",
+    "vendor": "Handshake",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "Buyer of Untold Truths",
     "id": "buyer-of-untold-truths",
     "vendor": "Turncoat",
     "location": "Tiger Bay",
     "alternate": "Crumb Collector",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Cache Retrieval",
+    "id": "cache-retrieval",
+    "vendor": "Gunny",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
     "name": "Carnivore",
@@ -82,11 +162,111 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
+    "name": "Celebrity Crash",
+    "id": "celebrity-crash",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "alternate": "Dirt Digger",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Chameleon - AK-308 (HT)",
+    "id": "chameleon---ak-308-ht",
+    "vendor": "Vulture",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321"
+  },
+  {
+    "name": "Chameleon - AKMN (JC)",
+    "id": "chameleon---akmn-jc",
+    "vendor": "Artisan",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Chameleon - DDM4 (PL)",
+    "id": "chameleon---ddm4-pl",
+    "vendor": "Gunny",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Chameleon - M14 (BH)",
+    "id": "chameleon---m14-bh",
+    "vendor": "Banshee",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Chameleon - M700 (GC)",
+    "id": "chameleon---m700-gc",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Chameleon - Mossberg 590 (RT)",
+    "id": "chameleon---mossberg-590-rt",
+    "vendor": "Gunny",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Chameleon - MP7A2 (SC)",
+    "id": "chameleon---mp7a2-sc",
+    "vendor": "Banshee",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Chameleon - SIG MCX (GN)",
+    "id": "chameleon---sig-mcx-gn",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Chameleon - SVD Dragunov (SW)",
+    "id": "chameleon---svd-dragunov-sw",
+    "vendor": "Artisan",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Covert Research",
+    "id": "covert-research",
+    "vendor": "Lab Rat",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "alternate": "Reclamation",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Crash",
+    "id": "crash",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Crime Doesn't Pay",
+    "id": "crime-doesnt-pay",
+    "vendor": "Artisan",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
     "name": "Crumb Collector",
     "id": "crumb-collector",
     "vendor": "Lab Rat",
     "location": "Tiger Bay",
     "alternate": "Buyer of Untold Truths",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Cult Business",
+    "id": "cult-business",
+    "vendor": "Lab Rat",
+    "location": "Ban Pa",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
@@ -104,6 +284,28 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
+    "name": "Deepest, Darkest Fantasies",
+    "id": "deepest,-darkest-fantasies",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Delayed Package",
+    "id": "delayed-package",
+    "vendor": "Turncoat",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Dirt Digger",
+    "id": "dirt-digger",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "alternate": "Celebrity Crash",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
     "name": "Dishonest Practices",
     "id": "dishonest-practices",
     "vendor": "Turncoat",
@@ -116,6 +318,20 @@
     "vendor": "Handshake",
     "location": "Hunter's Paradise",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Don't Speak",
+    "id": "dont-speak",
+    "vendor": "Artisan",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Double Agent",
+    "id": "double-agent",
+    "vendor": "Turncoat",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
     "name": "Double Exposure",
@@ -139,12 +355,61 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
+    "name": "Draw No Bet",
+    "id": "draw-no-bet",
+    "vendor": "Artisan",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Duty to the Country",
+    "id": "duty-to-the-country",
+    "vendor": "Lab Rat",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Echoes of Exposure",
+    "id": "echoes-of-exposure",
+    "vendor": "Lab Rat",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Elderly Delivery",
+    "id": "elderly-delivery",
+    "vendor": "Lab Rat",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Emergency Response",
+    "id": "emergency-response",
+    "vendor": "Lab Rat",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "EOD",
+    "id": "eod",
+    "vendor": "Banshee",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
     "name": "Evacuation Question",
     "id": "evacuation-question",
     "vendor": "Artisan",
     "location": "Fort Narith",
     "alternate": "In The Right Hands",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Exodus",
+    "id": "exodus",
+    "vendor": "Lab Rat",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
     "name": "Expansion",
@@ -154,6 +419,13 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
+    "name": "False Positive",
+    "id": "false-positive",
+    "vendor": "Lab Rat",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
     "name": "Family Heirloom",
     "id": "family-heirloom",
     "vendor": "Turncoat",
@@ -161,11 +433,33 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
+    "name": "Felony and Punishment",
+    "id": "felony-and-punishment",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "alternate": "The Congressman",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Final Check Out",
+    "id": "final-check-out",
+    "vendor": "Handshake",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "Final Liberation",
     "id": "final-liberation",
     "vendor": "Turncoat",
     "location": "YBL-1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Fire and Water",
+    "id": "fire-and-water",
+    "vendor": "Gunny",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
     "name": "Firestarter",
@@ -182,10 +476,38 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "First Recon",
+    "id": "first-recon",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "Fort Narith Stroll",
     "id": "fort-narith-stroll",
     "vendor": "Handshake",
     "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Freedom Fighter",
+    "id": "freedom-fighter",
+    "vendor": "Gunny",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Freedom for All",
+    "id": "freedom-for-all",
+    "vendor": "Artisan",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Fresh Meat",
+    "id": "fresh-meat",
+    "vendor": "Handshake",
+    "location": "Blue Lagoon",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
@@ -210,6 +532,13 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
+    "name": "From the Sky",
+    "id": "from-the-sky",
+    "vendor": "Gunny",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
     "name": "Garbage Disposal",
     "id": "garbage-disposal",
     "vendor": "Artisan",
@@ -232,11 +561,39 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
+    "name": "Guns & Ammo",
+    "id": "guns-&-ammo",
+    "vendor": "Gunny",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Hacker",
+    "id": "hacker",
+    "vendor": "Handshake",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "Hacker II",
     "id": "hacker-ii",
     "vendor": "Handshake",
     "location": "Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Handyman",
+    "id": "handyman",
+    "vendor": "Artisan",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Harvest Moon",
+    "id": "harvest-moon",
+    "vendor": "Banshee",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
     "name": "Hazardous Treasures",
@@ -246,11 +603,32 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Helping Hand",
+    "id": "helping-hand",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "Hide And Seek",
     "id": "hide-and-seek",
     "vendor": "Gunny",
     "location": "Tiger Bay",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Hoarder",
+    "id": "hoarder",
+    "vendor": "Gunny",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "I went, I saw, I conquered",
+    "id": "i-went,-i-saw,-i-conquered",
+    "vendor": "Handshake",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
     "name": "I Went, I Saw, I Conquered II",
@@ -272,6 +650,13 @@
     "vendor": "Turncoat",
     "location": "Fort Narith",
     "alternate": "Evacuation Question",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "In the Trenches",
+    "id": "in-the-trenches",
+    "vendor": "Turncoat",
+    "location": "Sawmill",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
@@ -326,11 +711,26 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Know Your Enemy",
+    "id": "know-your-enemy",
+    "vendor": "Gunny",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
     "name": "Lamang Connection",
     "id": "lamang-connection",
     "vendor": "Banshee",
     "location": "Ban Pa",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Last Farewell",
+    "id": "last-farewell",
+    "vendor": "Gunny",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "alternate": "Left Behind",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
     "name": "Last Farewell II",
@@ -347,10 +747,32 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
+    "name": "Last Letter",
+    "id": "last-letter",
+    "vendor": "Artisan",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
     "name": "Last Resort",
     "id": "last-resort",
     "vendor": "Handshake",
     "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Leave No Man Behind",
+    "id": "leave-no-man-behind",
+    "vendor": "Gunny",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Left Behind",
+    "id": "left-behind",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "alternate": "Last Farewell",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
@@ -359,6 +781,84 @@
     "vendor": "Handshake",
     "alternate": "Last Farewell II",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Lethal Dose",
+    "id": "lethal-dose",
+    "vendor": "Lab Rat",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Letters from Lamang",
+    "id": "letters-from-lamang",
+    "vendor": "Turncoat",
+    "location": "Blue Lagoon",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Like a Boss - Broker's M9A1",
+    "id": "like-a-boss---brokers-m9a1",
+    "vendor": "Gunny",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Like a Boss - Buran's AK-74N",
+    "id": "like-a-boss---burans-ak-74n",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Like a Boss - Colonel's Type 51",
+    "id": "like-a-boss---colonels-type-51",
+    "vendor": "Artisan",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Like a Boss - Firebrand's AKS-74u",
+    "id": "like-a-boss---firebrands-aks-74u",
+    "vendor": "Turncoat",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Like a Boss - Grin's 1911 C",
+    "id": "like-a-boss---grins-1911-c",
+    "vendor": "Vulture",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321"
+  },
+  {
+    "name": "Like a Boss - Kaptei's Glock 17",
+    "id": "like-a-boss---kapteis-glock-17",
+    "vendor": "Gunny",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Like a Boss - Naga's Type 51",
+    "id": "like-a-boss---nagas-type-51",
+    "vendor": "Artisan",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Like a Boss - Viper's 1911 C",
+    "id": "like-a-boss---vipers-1911-c",
+    "vendor": "Vulture",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321"
+  },
+  {
+    "name": "Like a Boss - Yen's M700",
+    "id": "like-a-boss---yens-m700",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
     "name": "Line in the sand",
@@ -376,11 +876,47 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Little Bird Down",
+    "id": "little-bird-down",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Livestock",
+    "id": "livestock",
+    "vendor": "Banshee",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
     "name": "Living In Burrows",
     "id": "living-in-burrows",
     "vendor": "Lab Rat",
     "location": "YBL-1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Local Golf Star",
+    "id": "local-golf-star",
+    "vendor": "Turncoat",
+    "location": "Midnight Sapphire",
+    "alternate": "Priceless Possessions",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Lost and Found",
+    "id": "lost-and-found",
+    "vendor": "Artisan",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Lost Girl",
+    "id": "lost-girl",
+    "vendor": "Gunny",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
     "name": "Lost Girl II",
@@ -418,6 +954,41 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Medical Detective",
+    "id": "medical-detective",
+    "vendor": "Gunny",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Meds Wanted",
+    "id": "meds-wanted",
+    "vendor": "Lab Rat",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Memory Leak",
+    "id": "memory-leak",
+    "vendor": "Lab Rat",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Mire Job",
+    "id": "mire-job",
+    "vendor": "Handshake",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Missing Children",
+    "id": "missing-children",
+    "vendor": "Handshake",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "Missing Colleague",
     "id": "missing-colleague",
     "vendor": "Artisan",
@@ -430,6 +1001,13 @@
     "vendor": "Artisan",
     "location": "Fort narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Mystery Machines",
+    "id": "mystery-machines",
+    "vendor": "Lab Rat",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
     "name": "Name Your Poison",
@@ -455,11 +1033,26 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Needle in a Jungle",
+    "id": "needle-in-a-jungle",
+    "vendor": "Gunny",
+    "location": "Lamang Island",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
     "name": "Neighborly Help",
     "id": "neighborly-help",
     "vendor": "Gunny",
     "location": "Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "New Neighbors",
+    "id": "new-neighbors",
+    "vendor": "Handshake",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
     "name": "No Casualties",
@@ -483,6 +1076,21 @@
     "vendor": "Turncoat",
     "location": "Midnight Sapphire",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "No Way Up",
+    "id": "no-way-up",
+    "vendor": "Gunny",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Noble Powder",
+    "id": "noble-powder",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "alternate": "Academic Interest",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
     "name": "Observation Duty",
@@ -514,6 +1122,13 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Ordnance Delivery",
+    "id": "ordnance-delivery",
+    "vendor": "Gunny",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
     "name": "Out Of the Blue",
     "id": "out-of-the-blue",
     "vendor": "Gunny",
@@ -528,11 +1143,25 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Paranoia Agent",
+    "id": "paranoia-agent",
+    "vendor": "Gunny",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
     "name": "Peacekeeper",
     "id": "peacekeeper",
     "vendor": "Lab Rat",
     "location": "Tiger Bay",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Plan B",
+    "id": "plan-b",
+    "vendor": "Handshake",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
     "name": "Postman Rings Twice",
@@ -541,6 +1170,14 @@
     "faction": "LRI",
     "location": "Pha Lang Airfield",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Priceless Possessions",
+    "id": "priceless-possessions",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "alternate": "Local Golf Star",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
     "name": "Prisoner 23",
@@ -558,10 +1195,31 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
+    "name": "Questionable Shipment",
+    "id": "questionable-shipment",
+    "vendor": "Gunny",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Radio Silence",
+    "id": "radio-silence",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "Radio Star",
     "id": "radio-star",
     "vendor": "Handshake",
     "location": "Lamang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Rat's Nest",
+    "id": "rats-nest",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
@@ -573,10 +1231,25 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Reclamation",
+    "id": "reclamation",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "alternate": "Covert Research",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "Reconnaissance-in-Force",
     "id": "reconnaissance-in-force",
     "vendor": "Handshake",
     "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Revolutionary Road",
+    "id": "revolutionary-road",
+    "vendor": "Handshake",
+    "location": "YBL-1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
@@ -594,12 +1267,34 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Sanctioned Exploitation",
+    "id": "sanctioned-exploitation",
+    "vendor": "Banshee",
+    "location": "Tiger Bay",
+    "alternate": "N/A",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
     "name": "Save The Rebellion",
     "id": "save-the-rebellion",
     "vendor": "Artisan",
     "location": "YBL-1",
     "alternate": "Rebel Scum",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Secret Compassion",
+    "id": "secret-compassion",
+    "vendor": "Artisan",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
+    "name": "Seeker of Change",
+    "id": "seeker-of-change",
+    "vendor": "Lab Rat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
     "name": "Shooting Gallery",
@@ -616,11 +1311,25 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "Silent Village",
+    "id": "silent-village",
+    "vendor": "Artisan",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
     "name": "Sisyphus",
     "id": "sisyphus",
     "vendor": "Handshake",
     "location": "Lamang Island",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Skycrawlers",
+    "id": "skycrawlers",
+    "vendor": "Gunny",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
     "name": "Skycrawlers II",
@@ -645,6 +1354,13 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
+    "name": "So Close",
+    "id": "so-close",
+    "vendor": "Lab Rat",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
     "name": "Spit Out the Poison",
     "id": "spit-out-the-poison",
     "vendor": "Lab Rat",
@@ -657,6 +1373,27 @@
     "id": "state-of-weapon-shipment",
     "vendor": "Banshee",
     "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Street Spotter",
+    "id": "street-spotter",
+    "vendor": "Gunny",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Sunken Bird",
+    "id": "sunken-bird",
+    "vendor": "Gunny",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Sunny Skies",
+    "id": "sunny-skies",
+    "vendor": "Banshee",
+    "location": "Pha Lang Airfield",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
@@ -678,6 +1415,13 @@
     "name": "Tasks",
     "id": "tasks",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/HandshakePortraitTasks.png/revision/latest/scale-to-width-down/200?cb=20260326025352"
+  },
+  {
+    "name": "Terminal Initiative",
+    "id": "terminal-initiative",
+    "vendor": "Handshake",
+    "location": "Fort Narith , Tiger Bay , Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
     "name": "Test Results",
@@ -708,6 +1452,29 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "The Congressman",
+    "id": "the-congressman",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "alternate": "Felony and Punishment",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "The Last Broadcast",
+    "id": "the-last-broadcast",
+    "vendor": "Lab Rat",
+    "location": "Ban Pa",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "The Lull",
+    "id": "the-lull",
+    "vendor": "Gunny",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
     "name": "The Man Who Disappeared",
     "id": "the-man-who-disappeared",
     "vendor": "Handshake",
@@ -730,6 +1497,20 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "The Most Dangerous Game",
+    "id": "the-most-dangerous-game",
+    "vendor": "Lab Rat",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "The Negotiator",
+    "id": "the-negotiator",
+    "vendor": "Gunny",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
     "name": "The Rebel Path",
     "id": "the-rebel-path",
     "vendor": "Gunny",
@@ -745,6 +1526,13 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
+    "name": "The Shadow over Ban Pa",
+    "id": "the-shadow-over-ban-pa",
+    "vendor": "Handshake",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "The Shadow Over Ban Pa II",
     "id": "the-shadow-over-ban-pa-ii",
     "vendor": "Handshake",
@@ -758,6 +1546,13 @@
     "vendor": "Turncoat",
     "location": "Tiger Bay",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "The Stand",
+    "id": "the-stand",
+    "vendor": "Gunny",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
     "name": "The Trickster",
@@ -790,10 +1585,39 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
+    "name": "Too Close to the Sun",
+    "id": "too-close-to-the-sun",
+    "vendor": "Lab Rat",
+    "location": "Pha Lang Airfield",
+    "alternate": "What Comes Up",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Tools of the Trade",
+    "id": "tools-of-the-trade",
+    "vendor": "Artisan",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+  },
+  {
     "name": "Troll Bridge",
     "id": "troll-bridge",
     "vendor": "Handshake",
     "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "True Grit",
+    "id": "true-grit",
+    "vendor": "Handshake",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Unattainable Luxury",
+    "id": "unattainable-luxury",
+    "vendor": "Handshake",
+    "location": "Ban Pa",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
@@ -817,6 +1641,13 @@
     "vendor": "Turncoat",
     "location": "Ban Pa",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Unlisted Flight",
+    "id": "unlisted-flight",
+    "vendor": "Lab Rat",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
     "name": "UNLRA",
@@ -847,11 +1678,41 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
+    "name": "Unprotected",
+    "id": "unprotected",
+    "vendor": "Lab Rat",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
     "name": "Unrefusable Offer",
     "id": "unrefusable-offer",
     "vendor": "Handshake",
     "faction": "CSI",
     "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Unresponsive",
+    "id": "unresponsive",
+    "vendor": "Gunny",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Up the Stream",
+    "id": "up-the-stream",
+    "vendor": "Lab Rat",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Up to Snuff",
+    "id": "up-to-snuff",
+    "vendor": "Handshake",
+    "location": "Hunter's Paradise",
+    "alternate": "A Shot in the Dark",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
@@ -884,6 +1745,14 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
+    "name": "What Comes Up",
+    "id": "what-comes-up",
+    "vendor": "Handshake",
+    "location": "Pha Lang Airfield",
+    "alternate": "Too Close to the Sun",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
     "name": "What Remains",
     "id": "what-remains",
     "vendor": "Lab Rat",
@@ -911,6 +1780,13 @@
     "vendor": "Banshee",
     "location": "Midnight Sapphire",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "When a Tree Falls",
+    "id": "when-a-tree-falls",
+    "vendor": "Artisan",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
     "name": "Who's In Charge",

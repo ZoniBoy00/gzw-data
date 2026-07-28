@@ -1,14 +1,5 @@
 [
   {
-    "name": "Broken Wrench",
-    "id": "broken-wrench",
-    "type": "Workshop SUpplies",
-    "weight": "0.122kg",
-    "grid_size": "1x2",
-    "sell_price": "$???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/Broken_Wrench_inspect.png/revision/latest?cb=20260331090737"
-  },
-  {
     "name": "Acumulator Drill",
     "id": "acumulator-drill",
     "type": "Workshop Supplies",
@@ -77,6 +68,15 @@
     "grid_size": "1x1",
     "sell_price": "$6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/Broken_Screwdriver_inspect.png/revision/latest?cb=20260331085810"
+  },
+  {
+    "name": "Broken Wrench",
+    "id": "broken-wrench",
+    "type": "Workshop SUpplies",
+    "weight": "0.122kg",
+    "grid_size": "1x2",
+    "sell_price": "$???",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/Broken_Wrench_inspect.png/revision/latest?cb=20260331090737"
   },
   {
     "name": "Fuel Canister",
