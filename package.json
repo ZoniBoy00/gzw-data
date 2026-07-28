@@ -1,6 +1,23 @@
 {
   "name": "gzw-data-api",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "private": true,
-  "description": "GZW Data API — Gray Zone Warfare game data"
+  "description": "GZW Data API — Gray Zone Warfare game data. Auto-discovered endpoints from /data JSON files.",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node --watch api/index.js",
+    "test": "node --test tests/",
+    "lint": "eslint api/ tests/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "gray-zone-warfare",
+    "gaming",
+    "api",
+    "game-data",
+    "vercel"
+  ],
+  "license": "MIT"
 }

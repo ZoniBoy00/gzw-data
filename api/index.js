@@ -1,13 +1,16 @@
-// GZW Data API v3 — Fully Dynamic & Auto-Discovering
+// GZW Data API v4 — Fully Dynamic, Auto-Discovering, Cached & Paginated
 // Every .json file in /data becomes an API endpoint automatically.
-// No hardcoded exclude lists — everything is exposed.
-const { createRequire } = require('node:module');
-const require2 = createRequire(__filename);
 const fs = require('fs');
 const path = require('path');
 
-// ─── Auto-load all data files ───
+// ─── Config ───
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const RATE_LIMIT = { max: 100, ms: 60000 };
+const CACHE_TTL_SEC = 300; // 5 minutes
+const DEFAULT_PER_PAGE = 50;
+const MAX_PER_PAGE = 500;
+
+// ─── Load all data files ───
 const datasets = {};
 let dataFiles = [];
 try {
@@ -15,8 +18,7 @@ try {
   for (const f of dataFiles) {
     const key = f.replace('.json', '');
     try {
-      const raw = fs.readFileSync(path.join(DATA_DIR, f), 'utf-8');
-      datasets[key] = JSON.parse(raw);
+      datasets[key] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), 'utf-8'));
     } catch (e) {
       console.error(`Failed to load ${f}:`, e.message);
       datasets[key] = null;
@@ -26,53 +28,45 @@ try {
   console.error('Failed to read data directory:', e.message);
 }
 
-// Helper: get dataset as array (handles both arrays and dicts)
+// ─── Helpers ───
+
+/** Convert a dataset to an array, handling both arrays and dicts. */
 function asArray(key) {
   const d = datasets[key];
   if (Array.isArray(d)) return d;
-  if (d && typeof d === 'object') return Object.values(d).filter(v => typeof v === 'object' && v !== null);
+  if (d && typeof d === 'object') return Object.values(d).filter(v => v && typeof v === 'object');
   return [];
 }
 
-// ─── Dynamic dataset registry ───
-// Builds route info from whatever .json files exist — no hardcoded lists!
+/** Build a registry of all available datasets with metadata. */
 function buildDatasetRegistry() {
   const registry = {};
-  const hiddenKeys = new Set([
-    'item_images', 'armor_images', 'weapon_images', 'vendor_images',
-    'map_pois', 'gzwtacmap_data', 'images',
-    'apparel_items', 'loot_items',
-  ]);
-
   for (const key of Object.keys(datasets)) {
     if (key.startsWith('_')) continue;
     const arr = asArray(key);
     if (arr.length === 0) continue;
 
-    const sampleFields = arr.length > 0 ? Object.keys(arr[0]) : [];
-    const filterFields = sampleFields.filter(f =>
+    const sample = arr[0] || {};
+    const filterFields = Object.keys(sample).filter(f =>
       !['id', 'name', 'image', '_image', 'description'].includes(f) &&
-      typeof arr[0][f] === 'string'
+      typeof sample[f] === 'string'
     );
 
     registry[key] = {
-      visible: !hiddenKeys.has(key),
       count: arr.length,
       filters: filterFields,
-      summary: `${key} (${arr.length} items)`,
+      isObject: !Array.isArray(datasets[key]),
     };
   }
   return registry;
 }
 
 // ─── Rate limiter (sliding window) ───
-const RATE = { max: 100, ms: 60000 };
 const hits = {};
 
-function rate(ip) {
+function checkRate(ip) {
   const now = Date.now();
-  const window = RATE.ms;
-
+  const window = RATE_LIMIT.ms;
   let timestamps = hits[ip];
   if (!timestamps) {
     timestamps = [];
@@ -84,293 +78,341 @@ function rate(ip) {
     timestamps.shift();
   }
 
-  if (timestamps.length >= RATE.max) {
+  if (timestamps.length >= RATE_LIMIT.max) {
     const oldest = timestamps[0];
-    return { rem: 0, reset: oldest + window };
+    return { allowed: false, reset: oldest + window, remaining: 0 };
   }
 
   timestamps.push(now);
-  return { rem: RATE.max - timestamps.length, reset: now + window };
+  return { allowed: true, reset: now + window, remaining: RATE_LIMIT.max - timestamps.length };
 }
 
-function json(res, data, status = 200) {
-  res.status(status).json({
-    data,
-    count: Array.isArray(data) ? data.length : undefined,
-    source: 'GZW Data API',
-    timestamp: new Date().toISOString()
-  });
+/** Set standard response headers. */
+function setHeaders(res, rateInfo, cacheTTL) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', '*');
+  res.setHeader('X-RateLimit-Limit', RATE_LIMIT.max);
+  res.setHeader('X-RateLimit-Remaining', rateInfo.remaining);
+  res.setHeader('X-RateLimit-Reset', Math.ceil(rateInfo.reset / 1000));
+  if (cacheTTL > 0) {
+    res.setHeader('Cache-Control', `public, max-age=${cacheTTL}, stale-while-revalidate=${cacheTTL * 2}`);
+  }
 }
 
-function pathAndQuery(url) {
-  const i = url.indexOf('?');
-  const p = (i === -1 ? url : url.slice(0, i)).replace(/^\/api\/?/, '').replace(/\/$/, '') || 'root';
-  return {
-    path: p,
-    params: new URLSearchParams(i === -1 ? '' : url.slice(i))
-  };
+/** Send a JSON response. */
+function json(res, data, status = 200, extra = {}) {
+  const body = { data, ...extra };
+  if (Array.isArray(data)) {
+    body.count = data.length;
+  }
+  body.source = 'GZW Data API';
+  body.timestamp = new Date().toISOString();
+  res.status(status).json(body);
 }
 
-function compare(v1, v2) {
-  if (typeof v1 === 'string' && typeof v2 === 'string') return v1.toLowerCase() === v2.toLowerCase();
-  return String(v1).toLowerCase() === String(v2).toLowerCase();
+/** Paginate an array. */
+function paginate(arr, page, perPage) {
+  const total = arr.length;
+  const totalPages = Math.ceil(total / perPage) || 1;
+  const start = (page - 1) * perPage;
+  const items = arr.slice(start, start + perPage);
+  return { items, page, perPage, total, totalPages };
 }
 
-function filterData(arr, params) {
+/** Apply filters to an array of items. */
+function applyFilters(arr, params) {
   let d = [...arr];
+
   for (const [key, val] of params.entries()) {
     if (!val) continue;
     const q = val.toLowerCase();
+
     if (key === 'search') {
-      d = d.filter(x => JSON.stringify(Object.values(x)).toLowerCase().includes(q));
+      d = d.filter(x =>
+        JSON.stringify(Object.values(x)).toLowerCase().includes(q) ||
+        (x.name && x.name.toLowerCase().includes(q))
+      );
     } else if (key === 'sort') {
       const [field, dir] = val.split(':');
-      if (dir === 'desc') d.sort((a, b) => (b[field] || '').toString().localeCompare((a[field] || '').toString()));
-      else d.sort((a, b) => (a[field] || '').toString().localeCompare((b[field] || '').toString()));
+      if (dir === 'desc') {
+        d.sort((a, b) => String(b[field] || '').localeCompare(String(a[field] || '')));
+      } else {
+        d.sort((a, b) => String(a[field] || '').localeCompare(String(b[field] || '')));
+      }
     } else if (key === 'limit') {
-      d = d.slice(0, parseInt(val) || d.length);
+      const limit = Math.min(parseInt(val) || 50, MAX_PER_PAGE);
+      d = d.slice(0, limit);
     } else {
-      d = d.filter(x => x[key] && compare(x[key], val));
+      d = d.filter(x => x[key] && String(x[key]).toLowerCase() === q);
     }
   }
+
   return d;
 }
 
+/** Parse pagination params from URLSearchParams. */
+function parsePagination(params) {
+  const page = Math.max(1, parseInt(params.get('page')) || 1);
+  const perPage = Math.min(MAX_PER_PAGE, Math.max(1, parseInt(params.get('per_page')) || DEFAULT_PER_PAGE));
+  return { page, perPage };
+}
+
+/** Parse the path and query params from a URL. */
+function parseRoute(url) {
+  const i = url.indexOf('?');
+  const pathPart = (i === -1 ? url : url.slice(0, i)).replace(/^\/api\/?/, '').replace(/\/$/, '') || 'root';
+  const params = new URLSearchParams(i === -1 ? '' : url.slice(i));
+  return { path: pathPart, params };
+}
+
 // ─── Smart route definitions ───
-// These combine multiple datasets into one endpoint.
-// They're defined separately because they merge data — if a source dataset
-// doesn't exist, it's silently skipped.
 const SMART_ROUTES = {
-  'armor': {
+  armor: {
     sources: ['vests', 'helmets', 'glasses'],
-    field_mutators: {
-      'vests': x => ({ ...x, category: 'vest' }),
-      'helmets': x => ({ ...x, category: 'helmet' }),
-      'glasses': x => ({ ...x, category: 'glasses' }),
-    },
-    filters: ['type', 'material', 'nij', 'category'],
     label: 'Armor (vests + helmets + glasses)',
-  },
-  'weapon_parts': {
-    sources: ['barrels', 'muzzle_devices', 'suppressors', 'stocks',
-              'stock_adapters', 'pistol_grips', 'foregrips', 'magazines',
-              'night_vision', 'helmet_mods', 'helmet_mounts'],
-    field_mutators: {},
-    default_mutator: (x, src) => ({ ...x, part_category: src }),
-    filters: ['search', 'sort'],
-    label: 'Weapon parts (combined)',
-  },
-  'helmet_mods': {
-    sources: ['night_vision', 'helmet_mounts'],
-    field_mutators: {
-      'night_vision': x => ({ ...x, mod_type: 'night_vision' }),
-      'helmet_mounts': x => ({ ...x, mod_type: 'mount' }),
+    mutators: {
+      vests: x => ({ ...x, category: 'vest' }),
+      helmets: x => ({ ...x, category: 'helmet' }),
+      glasses: x => ({ ...x, category: 'glasses' }),
     },
-    filters: ['mod_type', 'search'],
+  },
+  weapon_parts: {
+    sources: [
+      'barrels', 'muzzle_devices', 'suppressors', 'stocks',
+      'stock_adapters', 'pistol_grips', 'foregrips', 'magazines',
+      'night_vision', 'helmet_mods', 'helmet_mounts',
+    ],
+    label: 'Weapon parts (combined)',
+    mutators: {},
+    defaultMutator: (x, src) => ({ ...x, part_category: src }),
+  },
+  helmet_mods: {
+    sources: ['night_vision', 'helmet_mounts'],
     label: 'Helmet mods (night vision + mounts)',
-  },
-  'loot': {
-    sources: ['loot_items'],
-    filters: ['search'],
-    label: 'Loot items',
-  },
-  'apparel': {
-    sources: ['apparel_items'],
-    filters: ['search', 'type'],
-    label: 'Apparel items',
+    mutators: {
+      night_vision: x => ({ ...x, mod_type: 'night_vision' }),
+      helmet_mounts: x => ({ ...x, mod_type: 'mount' }),
+    },
   },
 };
 
-function getSmartRoute(name) {
+function getSmartData(name) {
   const route = SMART_ROUTES[name];
   if (!route) return null;
 
   let items = [];
   for (const src of route.sources) {
     const data = asArray(src);
-    const mutator = route.field_mutators?.[src] || route.default_mutator;
-    if (mutator) {
-      items = items.concat(data.map(x => mutator(x, src)));
-    } else {
-      items = items.concat(data);
-    }
+    const mutator = route.mutators?.[src] || route.defaultMutator;
+    items = items.concat(data.map(x => mutator ? mutator(x, src) : x));
   }
 
-  // Deduplicate
+  // Deduplicate by name
   const seen = new Set();
-  items = items.filter(x => {
+  return items.filter(x => {
     const k = x.name?.toLowerCase();
     if (seen.has(k)) return false;
     seen.add(k);
     return true;
   });
+}
 
-  return items;
+// ─── Routes ───
+
+function handleRoute(route, params, res, rateInfo) {
+  const registry = buildDatasetRegistry();
+  const { page, perPage } = parsePagination(params);
+  const wantAll = params.get('all') === 'true';
+
+  // ── API root ──
+  if (route === 'root') {
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    const endpoints = Object.keys(registry).concat(Object.keys(SMART_ROUTES)).sort();
+    return json(res, {
+      name: 'GZW Data API',
+      version: '4.0.0',
+      endpoints,
+      docs: '/api/spec',
+    });
+  }
+
+  // ── OpenAPI spec ──
+  if (route === 'spec' || route === 'openapi.json') {
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    const paths = { '/api': { get: { summary: 'API root' } } };
+    for (const key of Object.keys(registry)) {
+      paths[`/api/${key}`] = { get: { summary: `${key} (${registry[key].count} items)` } };
+    }
+    for (const [name, def] of Object.entries(SMART_ROUTES)) {
+      paths[`/api/${name}`] = { get: { summary: def.label } };
+    }
+    return res.json({
+      openapi: '3.0.3',
+      info: {
+        title: 'GZW Data API',
+        version: '4.0.0',
+        description: 'Comprehensive Gray Zone Warfare game data API.',
+      },
+      servers: [{ url: 'https://gzw-data.vercel.app' }],
+      paths,
+    });
+  }
+
+  // ── Health / Debug ──
+  if (route === 'health' || route === 'debug') {
+    setHeaders(res, rateInfo, 0);
+    const loaded = {};
+    for (const [key, val] of Object.entries(datasets)) {
+      loaded[key] = Array.isArray(val) ? val.length : (val ? 'object' : 'empty');
+    }
+    return json(res, {
+      ok: true,
+      version: '4.0.0',
+      datasets: loaded,
+      smartRoutes: Object.keys(SMART_ROUTES),
+    });
+  }
+
+  // ── Stats ──
+  if (route === 'stats') {
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    const stats = {};
+    for (const [key, info] of Object.entries(registry)) {
+      stats[key] = { total: info.count };
+    }
+    for (const [name, def] of Object.entries(SMART_ROUTES)) {
+      const items = getSmartData(name);
+      if (items) stats[name] = { total: items.length, sources: def.sources };
+    }
+    return json(res, stats);
+  }
+
+  // ── Search ──
+  if (route === 'search') {
+    const q = params.get('q');
+    if (!q) return res.status(400).json({ error: 'Missing ?q parameter' });
+    setHeaders(res, rateInfo, 0);
+    const query = q.toLowerCase();
+    const results = {};
+    for (const key of Object.keys(registry)) {
+      const arr = asArray(key);
+      const matches = arr.filter(x => x.name && x.name.toLowerCase().includes(query));
+      if (matches.length > 0) results[key] = matches.slice(0, 10);
+    }
+    return json(res, { query: q, results });
+  }
+
+  // ── Images ──
+  if (route === 'images') {
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    let merged = {};
+    for (const src of ['item_images', 'armor_images', 'weapon_images', 'images']) {
+      const data = datasets[src];
+      if (data && typeof data === 'object' && !Array.isArray(data)) {
+        merged = { ...merged, ...data };
+      }
+    }
+    return json(res, merged);
+  }
+
+  // ── Smart routes ──
+  if (SMART_ROUTES[route]) {
+    let items = getSmartData(route);
+    if (!items) return res.status(404).json({ error: `No data for ${route}` });
+
+    // Apply filters (exclude pagination meta-params)
+    const filterParams = new URLSearchParams();
+    for (const [k, v] of params.entries()) {
+      if (!['page', 'per_page', 'all', 'limit'].includes(k)) filterParams.set(k, v);
+    }
+    items = applyFilters(items, filterParams);
+
+    if (wantAll) {
+      setHeaders(res, rateInfo, CACHE_TTL_SEC);
+      return json(res, items);
+    }
+
+    const p = paginate(items, page, perPage);
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    return json(res, p.items, 200, {
+      page: p.page,
+      perPage: p.perPage,
+      total: p.total,
+      totalPages: p.totalPages,
+    });
+  }
+
+  // ── Generic dataset route ──
+  if (datasets[route]) {
+    const raw = datasets[route];
+
+    // If it's an object (not array), return as-is
+    if (!Array.isArray(raw)) {
+      setHeaders(res, rateInfo, CACHE_TTL_SEC);
+      return json(res, raw);
+    }
+
+    let items = applyFilters(asArray(route), params);
+
+    if (wantAll) {
+      setHeaders(res, rateInfo, CACHE_TTL_SEC);
+      return json(res, items);
+    }
+
+    const p = paginate(items, page, perPage);
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    return json(res, p.items, 200, {
+      page: p.page,
+      perPage: p.perPage,
+      total: p.total,
+      totalPages: p.totalPages,
+    });
+  }
+
+  // ── 404 ──
+  const allRoutes = Object.keys(registry).concat(Object.keys(SMART_ROUTES));
+  setHeaders(res, rateInfo, 0);
+  res.status(404).json({
+    error: `Not found: /api/${route}`,
+    available: allRoutes.sort(),
+    hint: 'All .json files in /data are automatically exposed as endpoints.',
+  });
 }
 
 // ─── Request handler ───
 module.exports = (req, res) => {
   try {
-    // CORS
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', '*');
-    if (req.method === 'OPTIONS') return res.status(204).end();
+    // CORS preflight
+    if (req.method === 'OPTIONS') {
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+      res.setHeader('Access-Control-Allow-Headers', '*');
+      return res.status(204).end();
+    }
+
+    // GET only
+    if (req.method !== 'GET') {
+      return res.status(405).json({ error: 'Method not allowed' });
+    }
 
     // Rate limit
     const ip = req.headers['x-forwarded-for']?.split(',')[0] || req.headers['x-real-ip'] || req.socket?.remoteAddress || 'anon';
-    const r = rate(ip);
-    res.setHeader('X-RateLimit-Limit', RATE.max);
-    res.setHeader('X-RateLimit-Remaining', r.rem);
-    res.setHeader('X-RateLimit-Reset', Math.ceil(r.reset / 1000));
-    if (r.rem === 0) return res.status(429).json({ error: 'Rate limit exceeded. Try again later.' });
+    const rateInfo = checkRate(ip);
+    if (!rateInfo.allowed) {
+      res.setHeader('Retry-After', Math.ceil((rateInfo.reset - Date.now()) / 1000));
+      return res.status(429).json({
+        error: 'Rate limit exceeded. Try again later.',
+        retryAfter: Math.ceil((rateInfo.reset - Date.now()) / 1000),
+      });
+    }
 
-    const { path: p, params } = pathAndQuery(req.url || '/');
-
-    // Forwarded URL handling for Vercel
+    // Parse route
     const forwardedUrl = req.headers['x-vercel-forwarded-url'];
-    const route = forwardedUrl ? pathAndQuery(forwardedUrl).path : p;
+    const url = forwardedUrl || req.url;
+    const { path: route, params } = parseRoute(url);
 
-    const registry = buildDatasetRegistry();
-    const visibleDatasets = Object.entries(registry)
-      .filter(([_, info]) => info.visible)
-      .map(([key, info]) => ({ key, ...info }));
-
-    // ── API spec / OpenAPI ──
-    if (route === 'spec' || route === 'openapi.json') {
-      const paths = {};
-      const makeParams = (filters) => filters.map(f => ({ name: f, in: 'query', schema: { type: 'string' } }));
-
-      paths['/api'] = { get: { summary: 'API root' } };
-      paths['/api/stats'] = { get: { summary: 'Stats' } };
-      paths['/api/search'] = { get: { summary: 'Search', parameters: [{ name: 'q', in: 'query', required: true }] } };
-      paths['/api/images'] = { get: { summary: 'All item images' } };
-
-      for (const { key, summary, filters } of visibleDatasets) {
-        paths[`/api/${key}`] = { get: { summary, parameters: makeParams(filters) } };
-      }
-      for (const [routeName, routeDef] of Object.entries(SMART_ROUTES)) {
-        paths[`/api/${routeName}`] = { get: { summary: routeDef.label, parameters: makeParams(routeDef.filters) } };
-      }
-
-      return res.json({
-        openapi: '3.0.3',
-        info: {
-          title: 'GZW Data API',
-          version: '3.0.0',
-          description: 'Comprehensive Gray Zone Warfare game data API. ' +
-            'Automatically updated from the official wiki. ' +
-            'New categories appear as endpoints automatically.',
-        },
-        servers: [{ url: 'https://gzw-data.vercel.app' }],
-        paths,
-      });
-    }
-
-    // ── Health ──
-    if (route === 'health' || route === 'debug') {
-      const loaded = {};
-      for (const [key, val] of Object.entries(datasets)) {
-        loaded[key] = Array.isArray(val) ? val.length : (val ? 'loaded' : 'empty');
-      }
-      return res.json({
-        ok: true,
-        version: '3.0.0',
-        total_endpoints: visibleDatasets.length + Object.keys(SMART_ROUTES).length,
-        dataLoaded: loaded,
-        smartRoutes: Object.keys(SMART_ROUTES),
-      });
-    }
-
-    // ── Root ──
-    if (route === 'root') {
-      const endpoints = visibleDatasets.map(d => d.key);
-      endpoints.push(...Object.keys(SMART_ROUTES));
-      return res.json({
-        name: 'GZW Data API',
-        version: '3.0.0',
-        total_endpoints: endpoints.length,
-        endpoints: endpoints.sort(),
-        docs: 'https://gzw-data.vercel.app/api/spec',
-      });
-    }
-
-    // ── Images ──
-    if (route === 'images') {
-      const imgSources = ['item_images', 'armor_images', 'weapon_images', 'vendor_images', 'images'];
-      let merged = {};
-      for (const src of imgSources) {
-        const data = datasets[src];
-        if (data && typeof data === 'object') {
-          merged = { ...merged, ...data };
-        }
-      }
-      return json(res, merged);
-    }
-
-    // ── Stats ──
-    if (route === 'stats') {
-      const stats = {};
-      for (const { key, count } of visibleDatasets) {
-        stats[key] = { total: count };
-      }
-      for (const [routeName, routeDef] of Object.entries(SMART_ROUTES)) {
-        const items = getSmartRoute(routeName);
-        if (items) {
-          stats[routeName] = { total: items.length, combined_from: routeDef.sources };
-        }
-      }
-      return json(res, stats);
-    }
-
-    // ── Search ──
-    if (route === 'search') {
-      const q = params.get('q');
-      if (!q) return res.status(400).json({ error: 'Missing ?q parameter' });
-      const query = q.toLowerCase();
-      const results = {};
-      for (const { key } of visibleDatasets) {
-        const arr = asArray(key);
-        const matches = arr.filter(x => x.name && x.name.toLowerCase().includes(query));
-        if (matches.length > 0) results[key] = matches.slice(0, 10);
-      }
-      return json(res, { query: q, results });
-    }
-
-    // ── Smart routes ──
-    const smartRouteDef = SMART_ROUTES[route];
-    if (smartRouteDef) {
-      let items = getSmartRoute(route);
-      if (!items) return res.status(404).json({ error: `No data for ${route}` });
-
-      // Apply filters
-      for (const [key, val] of params.entries()) {
-        if (!val || key === 'sort') continue;
-        const q = val.toLowerCase();
-        if (key === 'search') {
-          items = items.filter(x => (x.name || '').toLowerCase().includes(q));
-        } else {
-          items = items.filter(x => x[key] && compare(x[key], val));
-        }
-      }
-      return json(res, items);
-    }
-
-    // ── Generic: /api/<dataset> ──
-    // Every .json file in data/ becomes /api/<filename> automatically!
-    if (datasets[route]) {
-      let d = filterData(asArray(route), params);
-      return json(res, d);
-    }
-
-    // ── 404 ──
-    const allRoutes = visibleDatasets.map(d => d.key).concat(Object.keys(SMART_ROUTES));
-    res.status(404).json({
-      error: `Not found: /api/${route}`,
-      available: allRoutes.sort(),
-      hint: 'New categories are added automatically when the scraper finds them.',
-    });
-
+    handleRoute(route, params, res, rateInfo);
   } catch (err) {
     console.error('GZW API Error:', err);
     res.status(500).json({ error: 'Internal error', message: err.message });

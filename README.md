@@ -18,9 +18,11 @@ curl https://gzw-data.vercel.app/api/keys?type=Keycard
 curl https://gzw-data.vercel.app/api/medical
 ```
 
-## API
+## API v4
 
 Base URL: `https://gzw-data.vercel.app`
+
+### Endpoints
 
 | Endpoint | Description |
 |----------|-------------|
@@ -34,9 +36,44 @@ Base URL: `https://gzw-data.vercel.app`
 | `/api/weapon_parts` | Smart route: all weapon parts combined |
 | `/api/helmet_mods` | Smart route: night vision + mounts |
 
-**Filters:** `?field=value` on any string field, `?search=` for free text, `?sort=field:asc|desc`, `?limit=N`
+### Query Parameters
 
-**Rate limit:** 100 req/min/IP. Headers: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`. Returns `429` when exceeded.
+| Param | Example | Description |
+|-------|---------|-------------|
+| `?field=value` | `?type=Keycard` | Filter by any string field |
+| `?search=` | `?search=ak` | Free text search across all fields |
+| `?sort=` | `?sort=name:asc` | Sort results by field |
+| `?page=` | `?page=2` | Page number (default: 1) |
+| `?per_page=` | `?per_page=10` | Items per page (default: 50, max: 500) |
+| `?all=true` | `?all=true` | Disable pagination, return all results |
+| `?limit=` | `?limit=5` | Cap results (applied after filters) |
+
+### Rate Limiting
+
+- **100 requests/minute/IP**
+- Headers: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`
+- Returns `429` with `Retry-After` header when exceeded
+
+### Caching
+
+All data endpoints include `Cache-Control: public, max-age=300` headers. CDN and browser caching are encouraged.
+
+### Paginated Response
+
+```json
+{
+  "data": [ ... ],
+  "count": 10,
+  "page": 2,
+  "perPage": 10,
+  "total": 44,
+  "totalPages": 5,
+  "source": "GZW Data API",
+  "timestamp": "2026-07-28T12:00:00.000Z"
+}
+```
+
+Unpaginated responses omit `page`, `perPage`, `total`, `totalPages`.
 
 ## Data Files
 
@@ -61,13 +98,13 @@ Scraper runs every Monday at 06:00 UTC via GitHub Actions. Data is validated bef
 
 ## Response Format
 
-All endpoints return:
+All endpoints return consistent JSON:
 
 ```json
 {
   "data": [ ... ],
   "count": 44,
   "source": "GZW Data API",
-  "timestamp": "2026-07-20T12:00:00.000Z"
+  "timestamp": "2026-07-28T12:00:00.000Z"
 }
 ```

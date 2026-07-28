@@ -1,3 +1,34 @@
-# OS files
+# Python (for tests)
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
+
+# Environment
+.env
+.env.local
+
+# Reports
+ship-safe-report.html
+
+# Temp
+*.log
+.tmp/
