@@ -400,6 +400,36 @@
       line-height: 1.5;
     }
 
+    /* ── Animations ── */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 8px rgba(240,180,41,0.1); }
+      50% { box-shadow: 0 0 20px rgba(240,180,41,0.2); }
+    }
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+    #content { animation: fadeIn 0.3s ease-out; }
+    .ep { animation: fadeInUp 0.25s ease-out forwards; opacity: 0; }
+    #root > .ep:nth-child(1) { animation-delay: 0.03s; }
+    #root > .ep:nth-child(2) { animation-delay: 0.06s; }
+    #root > .ep:nth-child(3) { animation-delay: 0.09s; }
+    #root > .ep:nth-child(4) { animation-delay: 0.12s; }
+    #root > .ep:nth-child(5) { animation-delay: 0.15s; }
+    #root > .ep:nth-child(6) { animation-delay: 0.18s; }
+    #root > .ep:nth-child(7) { animation-delay: 0.21s; }
+    #root > .ep:nth-child(8) { animation-delay: 0.24s; }
+    #root > .ep:nth-child(9) { animation-delay: 0.27s; }
+    #root > .ep:nth-child(10) { animation-delay: 0.30s; }
+    #root > .ep:nth-child(n+11) { animation-delay: 0.33s; }
+    .counts, .filter-wrap { animation: fadeInUp 0.3s ease-out 0.1s both; }
+
     /* ── Loading skeleton ── */
     .loading { text-align: center; padding: 60px 20px; }
     .loading .spinner {
@@ -410,7 +440,6 @@
       animation: spin 0.8s linear infinite;
       margin: 0 auto 12px;
     }
-    @keyframes spin { to { transform: rotate(360deg); } }
     .loading p { color: #555; font-size: 13px; }
 
     /* ── Footer ── */

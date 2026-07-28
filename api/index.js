@@ -384,6 +384,8 @@ function handleRoute(route, params, res, rateInfo) {
     error: `Not found: /api/${route}`,
     available: allRoutes.sort(),
     hint: 'All .json files in /data are automatically exposed as endpoints.',
+    docs: '/api/spec',
+    playground: '/',
   });
 }
 
@@ -407,10 +409,15 @@ module.exports = (req, res) => {
     const ip = req.headers['x-forwarded-for']?.split(',')[0] || req.headers['x-real-ip'] || req.socket?.remoteAddress || 'anon';
     const rateInfo = checkRate(ip);
     if (!rateInfo.allowed) {
-      res.setHeader('Retry-After', Math.ceil((rateInfo.reset - Date.now()) / 1000));
+      const retryAfter = Math.ceil((rateInfo.reset - Date.now()) / 1000);
+      res.setHeader('Retry-After', retryAfter);
+      res.setHeader('Retry-After', retryAfter);
       return res.status(429).json({
         error: 'Rate limit exceeded. Try again later.',
-        retryAfter: Math.ceil((rateInfo.reset - Date.now()) / 1000),
+        retryAfter,
+        limit: 100,
+        window: '60 seconds',
+        docs: '/docs',
       });
     }
 
