@@ -225,10 +225,11 @@ function handleRoute(route, params, res, rateInfo) {
   const { page, perPage } = parsePagination(params);
   const wantAll = params.get('all') === 'true';
 
-  // ── API root ──
+  // ── API root (deduplicated) ──
   if (route === 'root') {
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
-    const endpoints = Object.keys(registry).concat(Object.keys(SMART_ROUTES)).sort();
+    const allKeys = new Set(Object.keys(registry).concat(Object.keys(SMART_ROUTES)));
+    const endpoints = [...allKeys].sort();
     return json(res, {
       name: 'GZW Data API',
       version: '4.0.0',
@@ -237,15 +238,16 @@ function handleRoute(route, params, res, rateInfo) {
     });
   }
 
-  // ── OpenAPI spec ──
+  // ── OpenAPI spec (deduplicated) ──
   if (route === 'spec' || route === 'openapi.json') {
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    const allKeys = new Set(Object.keys(registry).concat(Object.keys(SMART_ROUTES)));
     const paths = { '/api': { get: { summary: 'API root' } } };
-    for (const key of Object.keys(registry)) {
-      paths[`/api/${key}`] = { get: { summary: `${key} (${registry[key].count} items)` } };
-    }
-    for (const [name, def] of Object.entries(SMART_ROUTES)) {
-      paths[`/api/${name}`] = { get: { summary: def.label } };
+    for (const key of allKeys) {
+      const isSmart = SMART_ROUTES[key];
+      paths[`/api/${key}`] = {
+        get: { summary: isSmart ? isSmart.label : `${key} (${registry[key]?.count || 0} items)` }
+      };
     }
     return res.json({
       openapi: '3.0.3',

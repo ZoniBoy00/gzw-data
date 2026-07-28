@@ -512,10 +512,10 @@
   // ── Category groups with colours ──
   const GROUPS = {
     weapon:    { label: 'WEAPONS',     color: '#e05252', keys: ['weapons','ammo','magazines','weapon_parts','barrels','muzzle_devices','suppressors','stocks','stock_adapters','pistol_grips','foregrips','handguards','upper_receivers','slides','gas_blocks','charging_handle','buffer_tubes','collimators','scopes','mounts','tactical_devices','front_iron_sights','rear_iron_sights'] },
-    armor:     { label: 'ARMOR',       color: '#4a9eff', keys: ['armor','vests','helmets','plate_carriers','plate_carrier','glasses','face_cover','headsets','headwear_items','belts','apparel','gloves','shirts','trousers','boots'] },
-    gear:      { label: 'GEAR',        color: '#50c878', keys: ['backpacks','rigs','throwables','medical','provisions','food','drinks','containers','loot','loot_containers','loot_container','gear','household_item','jewellery','laboratory_supplies','lockboxes','secure_lockboxes','mortar_rounds','electronics','military_material','paper','cleanup','funds','intels','patches','tech','valuables','vices','workshop_supplies','binoculars','tools'] },
-    misc:      { label: 'MISC',        color: '#8b5cf6', keys: ['ammunition','auxiliary','items','systems','front_page','player','tiger_bay','reading_intel'] },
-    equipment: { label: 'EQUIPMENT',   color: '#f59e0b', keys: ['repair_kits','tools','military_equipment','task_items','keycards','keys','contract','contracts','hidden_task','main_task','side_task','task','squad_strike_missions','squad_strike_missions_item','vendors','game_system','game_systems'] },
+    armor:     { label: 'ARMOR',       color: '#4a9eff', keys: ['armor','vests','helmets','plate_carriers','glasses','face_cover','headsets','belts','gloves','shirts','trousers','boots','apparel_items'] },
+    gear:      { label: 'GEAR',        color: '#50c878', keys: ['backpacks','rigs','throwables','medical','provisions','food','drinks','containers','loot_items','loot_containers','loot_container','gear','household_item','jewellery','laboratory_supplies','lockboxes','secure_lockboxes','mortar_rounds','electronics','military_material','paper','cleanup','funds','intels','patches','tech','valuables','vices','workshop_supplies','binoculars','tools'] },
+    misc:      { label: 'MISC',        color: '#8b5cf6', keys: ['auxiliary','items','systems','front_page','player','tiger_bay','reading_intel'] },
+    equipment: { label: 'EQUIPMENT',   color: '#f59e0b', keys: ['repair_kits','military_equipment','task_items','keycards','keys','contract','contracts','hidden_task','squad_strike_missions','squad_strike_missions_item','vendors','game_system','game_systems'] },
     reference: { label: 'REFERENCE',   color: '#ec4899', keys: ['factions','info_pages','weapon_camos','tasks','night_vision','helmet_mods','helmet_mounts'] },
   };
 
@@ -527,7 +527,7 @@
     // Auto-detect by keywords in the key name
     const rules = [
       { label: 'WEAPONS',     color: '#e05252', tests: [/weapon/, /ammo/, /magazine/, /barrel/, /muzzle/, /suppressor/, /stock/, /grip/, /foregrip/, /handguard/, /upper_receiv/, /slide/, /gas_block/, /charging/, /buffer_tube/, /collimator/, /scope/, /mount/, /tactical_dev/, /iron_sight/] },
-      { label: 'ARMOR',       color: '#4a9eff', tests: [/armor/, /vest/, /helmet/, /plate/, /glass/, /face_cover/, /headset/, /headwear/, /belt/, /apparel/, /glove/, /shirt/, /trouser/, /boot/, /helmet_mod/, /helmet_mount/, /night_vision/] },
+      { label: 'ARMOR',       color: '#4a9eff', tests: [/armor/, /vest/, /helmet/, /plate/, /glass/, /face_cover/, /headset/, /belt/, /apparel/, /glove/, /shirt/, /trouser/, /boot/, /helmet_mod/, /helmet_mount/, /night_vision/] },
       { label: 'GEAR',        color: '#50c878', tests: [/backpack/, /rig/, /throwable/, /medical/, /provision/, /food/, /drink/, /container/, /loot/, /gear/, /household/, /jewel/, /laboratory/, /lockbox/, /secure_lock/, /mortar/, /electron/, /military_mat/, /paper/, /cleanup/, /fund/, /intel/, /patch/, /valuable/, /vice/, /workshop/, /binocular/, /tool/, /repair_kit/] },
       { label: 'EQUIPMENT',   color: '#f59e0b', tests: [/repair_kit/, /tool/, /military_equip/, /task_item/, /keycard/, /key/, /contract/, /hidden_task/, /main_task/, /side_task/, /game_system/, /vendor/, /squad_strike/, /reading_intel/] },
       { label: 'REFERENCE',   color: '#ec4899', tests: [/faction/, /info_page/, /weapon_camo/, /task$/, /front_page/, /player/, /tiger_bay/, /map_poi/] },
@@ -548,7 +548,7 @@
       const stats = json.data || json;
 
       if (typeof stats === 'object') {
-        const exclude = new Set(['armor_images', 'gzwtacmap_data', 'map_pois', 'weapon_images']);
+        const exclude = new Set(['armor_images', 'gzwtacmap_data', 'map_pois', 'weapon_images', 'item_images', 'vendor_images']);
 
         // Order by groups
         const ordered = [];
