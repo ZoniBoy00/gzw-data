@@ -355,7 +355,12 @@ function handleRoute(route, params, res, rateInfo) {
       return json(res, raw);
     }
 
-    let items = applyFilters(asArray(route), params);
+    // Strip pagination meta-params before filtering
+    const filterParams = new URLSearchParams();
+    for (const [k, v] of params.entries()) {
+      if (!['page', 'per_page', 'all', 'limit'].includes(k)) filterParams.set(k, v);
+    }
+    let items = applyFilters(asArray(route), filterParams);
 
     if (wantAll) {
       setHeaders(res, rateInfo, CACHE_TTL_SEC);
