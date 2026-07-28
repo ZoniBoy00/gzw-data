@@ -3,6 +3,7 @@
 **Gray Zone Warfare** — Comprehensive fan-made game data repository & API.
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
 Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com/wiki/Gray_Zone_Warfare_Wiki) — covers **120+ game categories** with automatic discovery of new ones.
 
