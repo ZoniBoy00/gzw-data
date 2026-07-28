@@ -1,7 +1,7 @@
 [
   {
     "name": "Energy Bar Nuts and Fruits *",
-    "id": "energy-bar-nuts-and-fruits",
+    "id": "energy-bar-nuts-and-fruits-*",
     "grid": "1x1",
     "weight": "0.040 kg",
     "source": "Lab Rat Lv.1",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Windmill Almond Chocolate Bar *",
-    "id": "windmill-almond-chocolate-bar",
+    "id": "windmill-almond-chocolate-bar-*",
     "grid": "1x1",
     "weight": "0.040 kg",
     "source": "Looting",
@@ -57,7 +57,7 @@
   },
   {
     "name": "TamTam DoubleChoc *",
-    "id": "tamtam-doublechoc",
+    "id": "tamtam-doublechoc-*",
     "grid": "1x1",
     "weight": "0.200 kg",
     "source": "Looting",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Berg Bar Cookie Chocolate *",
-    "id": "berg-bar-cookie-chocolate",
+    "id": "berg-bar-cookie-chocolate-*",
     "grid": "1x1",
     "weight": "0.070 kg",
     "source": "Looting",
@@ -152,7 +152,7 @@
   },
   {
     "name": "Power Energy Fuel *",
-    "id": "power-energy-fuel",
+    "id": "power-energy-fuel-*",
     "grid": "1x1",
     "weight": "0.470 kg",
     "source": "Lab Rat Lv.2",
@@ -168,7 +168,7 @@
   },
   {
     "name": "Gray Focused Energy *",
-    "id": "gray-focused-energy",
+    "id": "gray-focused-energy-*",
     "grid": "1x1",
     "weight": "0.400 kg",
     "source": "Lab Rat Lv.3",
@@ -216,7 +216,7 @@
   },
   {
     "name": "Dark Star Iced Coffee *",
-    "id": "dark-star-iced-coffee",
+    "id": "dark-star-iced-coffee-*",
     "grid": "1x1",
     "weight": "0.200 kg",
     "source": "Looting",
@@ -264,7 +264,7 @@
   },
   {
     "name": "NuKlear Energy: Meltdown Mango *",
-    "id": "nuklear-energy:-meltdown-mango",
+    "id": "nuklear-energy:-meltdown-mango-*",
     "grid": "1x1",
     "weight": "0.340 kg",
     "source": "Looting",
@@ -280,7 +280,7 @@
   },
   {
     "name": "Riminda Green Bubbly Bliss *",
-    "id": "riminda-green-bubbly-bliss",
+    "id": "riminda-green-bubbly-bliss-*",
     "grid": "1x2",
     "weight": "2.000 kg",
     "source": "Looting",
