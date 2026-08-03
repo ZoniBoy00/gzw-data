@@ -181,7 +181,7 @@ const SMART_ROUTES = {
     sources: [
       'barrels', 'muzzle_devices', 'suppressors', 'stocks',
       'stock_adapters', 'pistol_grips', 'foregrips', 'magazines',
-      'night_vision', 'helmet_mods', 'helmet_mounts',
+      'night_vision', 'helmet_mods', 'helmet_mounts', 'weapon_parts',
     ],
     label: 'Weapon parts (combined)',
     mutators: {},
