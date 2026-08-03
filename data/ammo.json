@@ -1,7 +1,8 @@
 [
   {
     "name": ".222 Remington",
-    "id": ".222-remington"
+    "id": ".222-remington",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/.222_Remington_SP_icon.png/revision/latest?cb=20260525140404"
   },
   {
     "name": ".222 Remington FMJ",
@@ -54,7 +55,8 @@
   },
   {
     "name": ".300 AAC Blackout",
-    "id": ".300-aac-blackout"
+    "id": ".300-aac-blackout",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/AP_.300_BLK_icon.png/revision/latest?cb=20250703120151"
   },
   {
     "name": ".300 AAC Blackout AP",
@@ -177,7 +179,8 @@
   },
   {
     "name": "12 Gauge",
-    "id": "12-gauge"
+    "id": "12-gauge",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/00_12ga_icon.png/revision/latest?cb=20250620165221"
   },
   {
     "name": "12GA 00 Buckshot",
@@ -236,7 +239,8 @@
   },
   {
     "name": "4.6x30mm",
-    "id": "4.6x30mm"
+    "id": "4.6x30mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/AP_SX_4.6x30_icon.png/revision/latest?cb=20250620165213"
   },
   {
     "name": "4.6x30mm Action SX",
@@ -281,7 +285,8 @@
   },
   {
     "name": "5.45x39mm",
-    "id": "5.45x39mm"
+    "id": "5.45x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/FMJ_5.45x39_icon.png/revision/latest?cb=20250620165831"
   },
   {
     "name": "5.45x39mm BP (7N22)",
@@ -472,7 +477,8 @@
   },
   {
     "name": "5.56x45mm NATO",
-    "id": "5.56x45mm-nato"
+    "id": "5.56x45mm-nato",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/SP_5.56x45_icon.png/revision/latest?cb=20250620165153"
   },
   {
     "name": "5.56x45mm SP",
@@ -513,7 +519,8 @@
   },
   {
     "name": "7.62x25mm",
-    "id": "7.62x25mm"
+    "id": "7.62x25mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/FMJ_7.62x25_icon.png/revision/latest?cb=20250620165406"
   },
   {
     "name": "7.62x25mm FMJ",
@@ -556,7 +563,8 @@
   },
   {
     "name": "7.62x39mm",
-    "id": "7.62x39mm"
+    "id": "7.62x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/SP_7.62x39_icon.png/revision/latest?cb=20250620165205"
   },
   {
     "name": "7.62x39mm BP (7N23)",
@@ -665,7 +673,8 @@
   },
   {
     "name": "7.62x51mm NATO",
-    "id": "7.62x51mm-nato"
+    "id": "7.62x51mm-nato",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/HPBT_7.62x51_icon.png/revision/latest?cb=20250620165557"
   },
   {
     "name": "7.62x51mm Tracer (M62)",
@@ -680,7 +689,8 @@
   },
   {
     "name": "7.62x54mm R",
-    "id": "7.62x54mm-r"
+    "id": "7.62x54mm-r",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e0/LPS_7.62x54R_icon.png/revision/latest?cb=20250620165136"
   },
   {
     "name": "7.62x54R AP (7N13)",
@@ -764,11 +774,13 @@
   },
   {
     "name": "7.65mm Browning",
-    "id": "7.65mm-browning"
+    "id": "7.65mm-browning",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/ff/FMJ_7.65_B_icon.png/revision/latest?cb=20250620165211"
   },
   {
     "name": "9x19mm",
-    "id": "9x19mm"
+    "id": "9x19mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/FMJ_9x19_icon.png/revision/latest?cb=20250620165131"
   },
   {
     "name": "9x19mm FMJ",
@@ -839,6 +851,7 @@
   },
   {
     "name": "Ammunition",
-    "id": "ammunition"
+    "id": "ammunition",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/7.62x25mm.gif/revision/latest?cb=20250703164558"
   }
 ]

@@ -31,7 +31,8 @@
     "name": "Civilian Chest",
     "id": "civilian-chest",
     "type": "Loot container",
-    "inventory_layout_(x/y)": "3x3"
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815"
   },
   {
     "name": "Cooler",
@@ -145,13 +146,15 @@
     "name": "Military Food Transport Crate",
     "id": "military-food-transport-crate",
     "type": "Loot container",
-    "inventory_layout_(x/y)": "3x3"
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815"
   },
   {
     "name": "Military Medical Crate",
     "id": "military-medical-crate",
     "type": "Loot container",
-    "inventory_layout_(x/y)": "3x3"
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815"
   },
   {
     "name": "MSS Firearms Box",
@@ -170,7 +173,8 @@
     "name": "Plastic Container",
     "id": "plastic-container",
     "type": "Loot container",
-    "inventory_layout_(x/y)": "3x3"
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815"
   },
   {
     "name": "PMC Firearms Box",
@@ -189,7 +193,8 @@
     "name": "Purse",
     "id": "purse",
     "type": "Loot container",
-    "inventory_layout_(x/y)": "3x3"
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815"
   },
   {
     "name": "Safe",
