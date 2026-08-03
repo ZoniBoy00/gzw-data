@@ -424,11 +424,6 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
   },
   {
-    "name": "Keys",
-    "id": "keys",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Ban_Pa_Elder%27s_House_Key_icon.png/revision/latest?cb=20260524185105"
-  },
-  {
     "name": "Khamhao Rice Depot Room Key",
     "id": "khamhao-rice-depot-room-key",
     "type": "Key",

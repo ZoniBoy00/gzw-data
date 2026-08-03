@@ -11,11 +11,6 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/BeltB_inspect.png/revision/latest?cb=20240509134353"
   },
   {
-    "name": "Belts",
-    "id": "belts",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/SFPack_icon.png/revision/latest?cb=20250622124232"
-  },
-  {
     "name": "Civilian Leather Fanny Pack",
     "id": "civilian-leather-fanny-pack",
     "type": "Belt",

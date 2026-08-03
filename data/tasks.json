@@ -1412,11 +1412,6 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "name": "Tasks",
-    "id": "tasks",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/HandshakePortraitTasks.png/revision/latest/scale-to-width-down/200?cb=20260326025352"
-  },
-  {
     "name": "Terminal Initiative",
     "id": "terminal-initiative",
     "vendor": "Handshake",

@@ -90,11 +90,6 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/TacTec_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505172154"
   },
   {
-    "name": "Tactical Rigs",
-    "id": "tactical-rigs",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/SRig_icon.png/revision/latest/scale-to-width-down/132?cb=20240509065540"
-  },
-  {
     "name": "Training Mini Rig",
     "id": "training-mini-rig",
     "type": "Tactical Rig",

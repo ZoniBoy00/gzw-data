@@ -50,11 +50,6 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/PFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151721"
   },
   {
-    "name": "Repair Kits",
-    "id": "repair-kits",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a3/BFRKit_icon.png/revision/latest?cb=20250618113238"
-  },
-  {
     "name": "Specialized Equipment Repair Kit",
     "id": "specialized-equipment-repair-kit",
     "type": "Repair Kit",

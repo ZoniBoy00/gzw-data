@@ -143,11 +143,6 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c8/Phantom_inspect.png/revision/latest?cb=20250531043617"
   },
   {
-    "name": "Plate Carriers",
-    "id": "plate-carriers",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Specter_icon.png/revision/latest/scale-to-width-down/132?cb=20240515140629"
-  },
-  {
     "name": "Plate6 Plate Carrier",
     "id": "plate6-plate-carrier",
     "type": "Plate Carrier",

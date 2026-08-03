@@ -848,10 +848,5 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ IIIA+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/Xp%2B9x19_inspect.png/revision/latest?cb=20260414104838"
-  },
-  {
-    "name": "Ammunition",
-    "id": "ammunition",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/7.62x25mm.gif/revision/latest?cb=20250703164558"
   }
 ]
