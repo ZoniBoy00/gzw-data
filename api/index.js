@@ -306,6 +306,10 @@ function handleRoute(route, params, res, rateInfo) {
   }
 
   // ── Images ──
+  // Build a name → image URL map. First merge any legacy image-map datasets
+  // (item_images, weapon_images, armor_images), then collect every inline
+  // `image` field from all item datasets so the map stays fresh without
+  // dedicated image files.
   if (route === 'images') {
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
     let merged = {};
@@ -313,6 +317,17 @@ function handleRoute(route, params, res, rateInfo) {
       const data = datasets[src];
       if (data && typeof data === 'object' && !Array.isArray(data)) {
         merged = { ...merged, ...data };
+      }
+    }
+    for (const key of Object.keys(datasets)) {
+      if (['item_images', 'armor_images', 'weapon_images', 'images'].includes(key)) continue;
+      const d = datasets[key];
+      if (!d) continue;
+      const arr = Array.isArray(d) ? d : Object.values(d).filter(v => v && typeof v === 'object');
+      for (const item of arr) {
+        if (item && typeof item === 'object' && item.name && item.image && !merged[item.name]) {
+          merged[item.name] = item.image;
+        }
       }
     }
     return json(res, merged);
