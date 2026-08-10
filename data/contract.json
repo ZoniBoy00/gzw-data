@@ -163,9 +163,9 @@
   {
     "name": "Restoring Order",
     "id": "restoring-order",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/Restoring_Order_Attachment_1.png/revision/latest/scale-to-width-down/300?cb=20260327234135",
     "vendor": "Handshake",
-    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang"
   },
   {
     "name": "The Liberator",
