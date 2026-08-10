@@ -127,6 +127,11 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VMAX_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074414"
   },
   {
+    "name": ".45 ACP",
+    "id": ".45-acp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/AP_.45_icon.png/revision/latest?cb=20250620173802"
+  },
+  {
     "name": ".45 ACP AP",
     "id": ".45-acp-ap",
     "type": "Ammunition Round",

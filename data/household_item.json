@@ -147,18 +147,37 @@
   },
   {
     "name": "Propane Bottle",
-    "id": "propane-bottle"
+    "id": "propane-bottle",
+    "type": "Household Item",
+    "weight": "0.453kg",
+    "grid_size": "1x2",
+    "sell_price": "$31"
   },
   {
     "name": "Refillable Lighter",
-    "id": "refillable-lighter"
+    "id": "refillable-lighter",
+    "type": "Household Item",
+    "weight": "0.080kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$27",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/Refillable_Lighter_inspect.png/revision/latest?cb=20260331085447"
   },
   {
     "name": "Sewing Set",
-    "id": "sewing-set"
+    "id": "sewing-set",
+    "type": "Household Item",
+    "weight": "0.146kg",
+    "grid_size": "1x1",
+    "sell_price": "$1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Sewing_Set_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331085846"
   },
   {
     "name": "Tahirs Cigarettes",
-    "id": "tahirs-cigarettes"
+    "id": "tahirs-cigarettes",
+    "type": "Household Item",
+    "weight": "0.013kg",
+    "grid_size": "1x1",
+    "sell_price": "$5"
   }
 ]
