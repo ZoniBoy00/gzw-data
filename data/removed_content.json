@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Call up Papers",
+    "id": "call-up-papers",
+    "weight": "?kg",
+    "grid_size": "1x1"
+  },
+  {
+    "name": "Doctor's Diary",
+    "id": "doctors-diary",
+    "weight": "0.300kg",
+    "grid_size": "1x1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/18/Doctor%27s_Diary_inspect.png/revision/latest?cb=20250503150933"
+  },
+  {
+    "name": "Hacker II",
+    "id": "hacker-ii",
+    "vendor": "Handshake",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Hotel Supply Closet Key",
+    "id": "hotel-supply-closet-key",
+    "type": "Key",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "usage": "Unlocks door Supply Closet in Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+  },
+  {
+    "name": "I Went, I Saw, I Conquered II",
+    "id": "i-went,-i-saw,-i-conquered-ii",
+    "vendor": "Handshake",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "I Went, I Saw, I Conquered III",
+    "id": "i-went,-i-saw,-i-conquered-iii",
+    "vendor": "Handshake",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Invaders From Afar",
+    "id": "invaders-from-afar",
+    "vendor": "Artisan",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Invaders_from_Afar_Map.png/revision/latest/scale-to-width-down/200?cb=20250106000241"
+  },
+  {
+    "name": "It's in the Water",
+    "id": "its-in-the-water",
+    "vendor": "Lab Rat",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "It's in the Water II",
+    "id": "its-in-the-water-ii",
+    "vendor": "Lab Rat",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Kanoa Sinarath's Medallion",
+    "id": "kanoa-sinaraths-medallion",
+    "weight": "?kg",
+    "grid_size": "1x1"
+  },
+  {
+    "name": "Last Resort",
+    "id": "last-resort",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Living In Burrows",
+    "id": "living-in-burrows",
+    "vendor": "Lab Rat",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Lost Lover",
+    "id": "lost-lover",
+    "vendor": "Lab Rat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Night Ocean",
+    "id": "night-ocean",
+    "vendor": "Artisan",
+    "required_level": "Req. Level",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/Malo_Luangrath.png/revision/latest/scale-to-width-down/200?cb=20240505085631"
+  },
+  {
+    "name": "Peacekeeper",
+    "id": "peacekeeper",
+    "vendor": "Lab Rat",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "Skycrawlers II",
+    "id": "skycrawlers-ii",
+    "vendor": "Banshee",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  },
+  {
+    "name": "Sweet Little Lies",
+    "id": "sweet-little-lies",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire Tiger Bay Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "The Art of Deception",
+    "id": "the-art-of-deception",
+    "vendor": "Handshake",
+    "location": "Fort Narith Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Uncanny Files",
+    "id": "uncanny-files",
+    "vendor": "Lab Rat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "UNLRA HQ Lab Key",
+    "id": "unlra-hq-lab-key",
+    "type": "Key",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "usage": "Unlocks door UNLRA HQ Laboratory in Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+  },
+  {
+    "name": "UNLRA II",
+    "id": "unlra-ii",
+    "vendor": "Handshake",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "UNLRA III",
+    "id": "unlra-iii",
+    "vendor": "Handshake",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Wanted Man II",
+    "id": "wanted-man-ii",
+    "vendor": "Gunny",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "What's in the Box",
+    "id": "whats-in-the-box",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+  }
+]

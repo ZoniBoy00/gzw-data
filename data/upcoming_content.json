@@ -1,0 +1,109 @@
+[
+  {
+    "name": "B Krogan",
+    "id": "b-krogan",
+    "type": "Armor vest",
+    "weight": "????kg",
+    "grid_size": "3x3",
+    "sold_by": "???",
+    "material": "???",
+    "nij_class": "III+",
+    "armor_locations": "???",
+    "manufacturer": "???"
+  },
+  {
+    "name": "C2 Bag combat compact backpack",
+    "id": "c2-bag-combat-compact-backpack",
+    "type": "Backpack",
+    "weight": "1.330kg",
+    "grid_size": "3x4",
+    "sold_by": "Handshake",
+    "slots": "12",
+    "manufacturer": "Elite Bags",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/C2_Bag_Combat_Compact_Backpack.png/revision/latest?cb=20260629194552"
+  },
+  {
+    "name": "George's love letter",
+    "id": "georges-love-letter",
+    "type": "Intel",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/George%27s_love_letter_inspect.png/revision/latest/scale-to-width-down/267?cb=20260311175535"
+  },
+  {
+    "name": "M1050 LRF Rangefinder",
+    "id": "m1050-lrf-rangefinder",
+    "type": "Rangefinder",
+    "weight": "1.270kg",
+    "grid_size": "???",
+    "sold_by": "???",
+    "manufacturer": "Safran Group"
+  },
+  {
+    "name": "M14 Rifle",
+    "id": "m14-rifle",
+    "type": "Rifle",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "????",
+    "accuracy": "??? MOA",
+    "fire_mode": "Single",
+    "fire_rate": "???? RPM",
+    "caliber": "7.62x51mm",
+    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)"
+  },
+  {
+    "name": "M201C",
+    "id": "m201c",
+    "type": "Pistol",
+    "weight": "??? kg",
+    "manufacturer": "Norinco",
+    "accuracy": "??? MOA",
+    "fire_mode": "Single",
+    "fire_rate": "??? RPM",
+    "caliber": "7.62x25mm",
+    "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm PT 7.62x25mm PST"
+  },
+  {
+    "name": "Mysterious codebook",
+    "id": "mysterious-codebook",
+    "type": "Intel"
+  },
+  {
+    "name": "Patrol backpack (Coyote)",
+    "id": "patrol-backpack-coyote",
+    "type": "Backpack",
+    "weight": "1.500kg",
+    "sold_by": "???",
+    "slots": "20",
+    "manufacturer": "Techincom",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526"
+  },
+  {
+    "name": "Poster",
+    "id": "poster",
+    "type": "Intel"
+  },
+  {
+    "name": "TASC 1",
+    "id": "tasc-1",
+    "type": "Headset",
+    "weight": "0.160kg",
+    "grid_size": "2x2",
+    "sold_by": "???",
+    "manufacturer": "Z-Tactical"
+  },
+  {
+    "name": "VZ. 58",
+    "id": "vz.-58",
+    "type": "Assault Rifle",
+    "slot": "Primary",
+    "weight": "???? kg",
+    "sold_by": "????",
+    "manufacturer": "????",
+    "accuracy": "??? MOA",
+    "reload_speed": "???%",
+    "fire_mode": "????",
+    "fire_rate": "???? RPM",
+    "caliber": "7.62x39mm",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US"
+  }
+]
