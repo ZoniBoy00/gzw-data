@@ -36,43 +36,35 @@
   },
   {
     "name": "Crye Precision - G3 (Multicam)",
-    "id": "crye-precision---g3-multicam",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Crye_Precision_-_G3_%28Multicam%29_icon.png/revision/latest?cb=20250706113323"
+    "id": "crye-precision---g3-multicam"
   },
   {
     "name": "Crye Precision - G3 (Ranger Green)",
-    "id": "crye-precision---g3-ranger-green",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/Crye_Precision_-_G3_%28Ranger_Green%29_icon.png/revision/latest?cb=20250706113318"
+    "id": "crye-precision---g3-ranger-green"
   },
   {
     "name": "Functional Shirt",
-    "id": "functional-shirt",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ee/Functional_Shirt_icon.png/revision/latest?cb=20250706113331"
+    "id": "functional-shirt"
   },
   {
     "name": "Long Sleeves",
-    "id": "long-sleeves",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Long_Sleeves_icon.png/revision/latest?cb=20250706113222"
+    "id": "long-sleeves"
   },
   {
     "name": "Long Sleeves (Black)",
-    "id": "long-sleeves-black",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/Long_Sleeves_%28Black%29_icon.png/revision/latest?cb=20250707153338"
+    "id": "long-sleeves-black"
   },
   {
     "name": "Long Sleeves Tactical",
-    "id": "long-sleeves-tactical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Long_Sleeves_Tactical_icon.png/revision/latest?cb=20250706113226"
+    "id": "long-sleeves-tactical"
   },
   {
     "name": "Long Sleeves Tactical (Blue)",
-    "id": "long-sleeves-tactical-blue",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Long_Sleeves_Tactical_%28Blue%29_icon.png/revision/latest?cb=20250706113224"
+    "id": "long-sleeves-tactical-blue"
   },
   {
     "name": "MBDU Flannel Shirt (Black)",
-    "id": "mbdu-flannel-shirt-black",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/MBDU_Flannel_Shirt_%28Black%29_icon.png/revision/latest?cb=20250707155720"
+    "id": "mbdu-flannel-shirt-black"
   },
   {
     "name": "MBDU Flannel Shirt (Khaki)",
