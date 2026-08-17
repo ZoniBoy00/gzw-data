@@ -202,9 +202,5 @@
     "name": "Weapons",
     "id": "weapons",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/AK-12_inspect.png/revision/latest/scale-to-width-down/200?cb=20250602231732"
-  },
-  {
-    "name": "Weapons camouflage",
-    "id": "weapons-camouflage"
   }
 ]
