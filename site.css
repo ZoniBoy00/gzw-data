@@ -196,6 +196,21 @@ td:first-child { color: var(--text); font-weight: 650; }
 .error-message { padding: 16px; border: 1px solid rgba(239,107,114,.25); border-radius: 10px; color: var(--danger); background: rgba(239,107,114,.08); font-size: 13px; }
 .mono { font-family: var(--mono); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.not-found-page { min-height: 100dvh; }
+.not-found-main { display: grid; min-height: calc(100dvh - 140px); place-items: center; padding: 50px 20px; }
+.not-found-panel { width: min(640px, 100%); padding: clamp(30px, 6vw, 58px); border: 1px solid var(--line); border-radius: var(--radius-lg); background: linear-gradient(145deg, rgba(255,255,255,.055), rgba(255,255,255,.018)); box-shadow: var(--shadow); text-align: center; }
+.not-found-signal { display: flex; align-items: center; justify-content: center; gap: 7px; margin-bottom: 27px; color: var(--amber); }
+.not-found-signal span { margin-right: 8px; font-family: var(--mono); font-size: clamp(56px, 10vw, 86px); font-weight: 850; letter-spacing: -.1em; line-height: .9; text-shadow: 0 0 40px rgba(240,180,41,.16); }
+.not-found-signal i { display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 12px var(--amber); }
+.not-found-signal i:nth-of-type(2) { opacity: .55; }
+.not-found-signal i:nth-of-type(3) { opacity: .25; }
+.not-found-panel .eyebrow { justify-content: center; }
+.not-found-panel h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); letter-spacing: -.06em; line-height: 1; }
+.not-found-panel p { max-width: 470px; margin: 17px auto 25px; color: var(--muted); font-size: 14px; }
+.not-found-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+.not-found-meta { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 27px; color: var(--subtle); font-size: 11px; }
+.not-found-meta .status-dot { color: var(--teal); background: var(--teal); }
+.not-found-footer { width: min(1160px, calc(100% - 40px)); margin: 0 auto; }
 
 @media (max-width: 950px) {
   .topbar { padding: 0 18px; }

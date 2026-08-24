@@ -1,52 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 — GZW Data API</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #080a0a;
-      background-image: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(240,180,41,0.04) 0%, transparent 60%);
-      color: #c8c8c8;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .wrap { text-align: center; padding: 40px 24px; max-width: 480px; }
-    .code {
-      font-size: 72px; font-weight: 800; color: #f0b429;
-      font-family: 'SF Mono', 'Fira Code', monospace;
-      line-height: 1;
-      margin-bottom: 8px;
-      text-shadow: 0 0 40px rgba(240,180,41,0.15);
-    }
-    .label { font-size: 13px; color: #666; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 16px; }
-    p { font-size: 14px; color: #888; line-height: 1.6; margin-bottom: 24px; }
-    .links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-    .links a {
-      padding: 10px 24px; font-size: 13px; font-weight: 600;
-      text-decoration: none; border-radius: 6px; transition: all 0.2s;
-    }
-    .links .primary { background: #f0b429; color: #000; }
-    .links .primary:hover { background: #d49a1a; transform: translateY(-1px); }
-    .links .secondary { background: rgba(255,255,255,0.04); color: #888; border: 1px solid rgba(255,255,255,0.06); }
-    .links .secondary:hover { background: rgba(255,255,255,0.08); color: #aaa; }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The requested GZW Data API resource could not be found.">
+  <title>404 · GZW Data API</title>
+  <link rel="stylesheet" href="/site.css">
 </head>
-<body>
-  <div class="wrap">
-    <div class="code">404</div>
-    <div class="label">Not Found</div>
-    <p>The dataset or page you're looking for doesn't exist.<br>Every JSON file in the data directory becomes an API endpoint automatically.</p>
-    <div class="links">
-      <a href="/" class="primary">API Playground</a>
-      <a href="/docs" class="secondary">Documentation</a>
-      <a href="/api" class="secondary">API Root</a>
+<body class="not-found-page">
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="GZW Data home">
+      <span class="brand-mark" aria-hidden="true">⌁</span>
+      <span><span class="brand-name">GZW Data</span><span class="brand-sub">developer console · v4</span></span>
+    </a>
+    <div class="top-actions">
+      <span class="status-pill"><span class="status-dot"></span>API online</span>
+      <a class="top-link" href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a>
     </div>
-  </div>
+  </header>
+
+  <main class="not-found-main">
+    <section class="not-found-panel" aria-labelledby="not-found-title">
+      <div class="not-found-signal" aria-hidden="true"><span>404</span><i></i><i></i><i></i></div>
+      <div class="eyebrow">Route not found</div>
+      <h1 id="not-found-title">This signal went dark.</h1>
+      <p>The page or dataset you requested does not exist. Every valid dataset is listed in the API reference and available from the data console.</p>
+      <div class="not-found-actions">
+        <a class="button primary" href="/">Back to console →</a>
+        <a class="button" href="/docs/#quickstart">Open Quick start</a>
+        <a class="button ghost" href="/api">API Root</a>
+      </div>
+      <div class="not-found-meta"><span class="status-dot"></span><span>GZW Data API</span><span>·</span><span class="mono">HTTP 404</span></div>
+    </section>
+  </main>
+
+  <footer class="footer not-found-footer">Community-made data for Gray Zone Warfare. <a href="/docs/">Read the documentation</a></footer>
 </body>
 </html>
