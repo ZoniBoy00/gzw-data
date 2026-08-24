@@ -157,6 +157,9 @@
     if (!body) return;
     const rows = Array.isArray(payload) ? payload : (payload?.data || []);
     const total = payload?.total ?? payload?.count ?? rows.length;
+    const totalPages = Math.max(1, Math.ceil(total / state.perPage));
+    const previous = $("#previous-page");
+    const next = $("#next-page");
     if (!rows.length) {
       body.innerHTML = `<tr><td colspan="3"><div class="table-empty"><strong>No records found</strong>Try another dataset or search term.</div></td></tr>`;
     } else {
@@ -168,7 +171,9 @@
       }).join("");
     }
     if (meta) meta.textContent = `${formatNumber(rows.length)} shown · ${formatNumber(total)} total`;
-    setText("#page-label", `Page ${state.page}`);
+    if (previous) previous.disabled = state.page <= 1;
+    if (next) next.disabled = state.page >= totalPages || !rows.length;
+    setText("#page-label", `Page ${state.page} / ${totalPages}`);
   }
 
   async function loadExplorer() {
@@ -179,6 +184,13 @@
     if (state.query) params.set("search", state.query);
     try {
       const payload = await fetchJson(`/${encodeURIComponent(state.dataset)}?${params}`);
+      const rows = Array.isArray(payload) ? payload : (payload?.data || []);
+      const total = payload?.total ?? payload?.count ?? rows.length;
+      const totalPages = Math.max(1, Math.ceil(total / state.perPage));
+      if (state.page > totalPages) {
+        state.page = totalPages;
+        return loadExplorer();
+      }
       renderRows(payload);
     } catch (error) {
       body.innerHTML = `<tr><td colspan="3"><div class="error-message">Could not load this dataset. Check the API status and try again.</div></td></tr>`;
