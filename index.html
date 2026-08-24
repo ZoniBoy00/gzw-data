@@ -16,7 +16,7 @@
     </a>
     <nav class="topnav" aria-label="Primary navigation">
       <a class="active" href="/">Overview</a>
-      <a href="/docs/">API reference</a>
+      <a href="/docs/#quickstart">API reference</a>
       <a href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a>
     </nav>
     <div class="top-actions">
@@ -31,7 +31,7 @@
       <div class="sidebar-section">Workspace</div>
       <a class="active" href="#overview"><span aria-hidden="true">◈</span> Overview</a>
       <a href="#explorer"><span aria-hidden="true">⌕</span> Data explorer</a>
-      <a href="/docs/#endpoints"><span aria-hidden="true">⌘</span> API reference</a>
+      <a href="/docs/#quickstart"><span aria-hidden="true">⌘</span> API reference</a>
       <div class="sidebar-section">Resources</div>
       <a href="/docs/#quickstart"><span aria-hidden="true">▷</span> Quick start</a>
       <a href="/docs/#responses"><span aria-hidden="true">{ }</span> Response format</a>
@@ -71,8 +71,11 @@
           </div>
           <div class="panel">
             <div class="explorer-toolbar">
-              <label class="sr-only" for="dataset-select">Dataset</label>
-              <select class="field dataset-field" id="dataset-select" aria-label="Choose dataset"><option>Loading datasets…</option></select>
+              <label class="sr-only" for="dataset-trigger">Dataset</label>
+              <div class="dataset-picker" id="dataset-picker">
+                <button class="field dataset-trigger" id="dataset-trigger" type="button" aria-haspopup="listbox" aria-expanded="false"><span id="dataset-label">Loading datasets…</span><span aria-hidden="true">⌄</span></button>
+                <div class="dataset-menu" id="dataset-menu" role="listbox" aria-label="Choose dataset"></div>
+              </div>
               <label class="sr-only" for="explorer-search">Search records</label>
               <input class="field search-field" id="explorer-search" type="search" placeholder="Search this dataset…">
               <a class="button" href="/docs/#queries">Query guide</a>
@@ -103,7 +106,7 @@
       <div class="command-list">
         <button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button>
         <button class="command-item" type="button" data-target="/#explorer"><span>⌕</span> Explore datasets <small>Data</small></button>
-        <button class="command-item" type="button" data-target="/docs/"><span>⌘</span> Open API reference <small>Docs</small></button>
+        <button class="command-item" type="button" data-target="/docs/#quickstart"><span>⌘</span> Open API reference <small>Docs</small></button>
         <button class="command-item" type="button" data-target="https://github.com/ZoniBoy00/gzw-data"><span>↗</span> View source on GitHub <small>External</small></button>
       </div>
       <div class="command-help">Press <span class="mono">Esc</span> to close · <span class="mono">/</span> to open anytime</div>

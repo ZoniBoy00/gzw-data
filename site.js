@@ -70,6 +70,8 @@
       if (event.key === "Escape") {
         closeCommandPalette();
         closeMenu();
+        $("#dataset-menu")?.classList.remove("open");
+        $("#dataset-trigger")?.setAttribute("aria-expanded", "false");
       }
     });
 
@@ -105,21 +107,48 @@
 
   function renderStats(stats) {
     const datasets = stats?.datasets || stats?.data || {};
-    const entries = Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value }));
-    const total = entries.reduce((sum, item) => sum + Number(item.count || item.items || item.total || 0), 0);
+    const entries = (Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0 })))
+      .map((item) => ({ ...item, count: Number(item.count ?? item.total ?? 0) }))
+      .sort((a, b) => String(a.name).localeCompare(String(b.name)));
+    const total = entries.reduce((sum, item) => sum + item.count, 0);
     setText("[data-stat=datasets]", entries.length);
     setText("[data-stat=items]", formatNumber(total));
     setText("[data-stat=status]", "Online");
     setText("[data-stat=updated]", new Date().toLocaleDateString("en-US", { month: "short", day: "numeric" }));
-    const select = $("#dataset-select");
-    if (select && entries.length) {
-      select.innerHTML = entries.sort((a, b) => String(a.name).localeCompare(String(b.name))).map((item) => {
-        const name = String(item.name).replace(/^\//, "").replace(/^api\//, "");
-        return `<option value="${escapeHtml(name)}">${escapeHtml(name)} · ${formatNumber(item.count || item.items || item.total || 0)}</option>`;
-      }).join("");
-      if ([...select.options].some((option) => option.value === state.dataset)) select.value = state.dataset;
-      else state.dataset = select.value;
+
+    const picker = $("#dataset-picker");
+    const trigger = $("#dataset-trigger");
+    const label = $("#dataset-label");
+    const menu = $("#dataset-menu");
+    if (!picker || !trigger || !label || !menu) return;
+    menu.innerHTML = entries.map((item) => {
+      const name = String(item.name).replace(/^\//, "").replace(/^api\//, "");
+      return `<button class="dataset-option" type="button" role="option" data-value="${escapeHtml(name)}" aria-selected="${name === state.dataset}"><span>${escapeHtml(name)}</span><span class="dataset-option-count">${formatNumber(item.count)}</span></button>`;
+    }).join("");
+    if (!entries.some((item) => String(item.name) === state.dataset)) state.dataset = String(entries[0]?.name || "weapons");
+    label.textContent = `${state.dataset} · ${formatNumber(entries.find((item) => String(item.name) === state.dataset)?.count || 0)}`;
+    if (trigger.dataset.bound !== "true") {
+      trigger.dataset.bound = "true";
+      trigger.addEventListener("click", () => {
+        const open = menu.classList.toggle("open");
+        trigger.setAttribute("aria-expanded", String(open));
+      });
+      document.addEventListener("click", (event) => {
+        if (!picker.contains(event.target)) {
+          menu.classList.remove("open");
+          trigger.setAttribute("aria-expanded", "false");
+        }
+      });
     }
+    $$(".dataset-option", menu).forEach((option) => option.addEventListener("click", () => {
+      state.dataset = option.dataset.value;
+      label.textContent = `${state.dataset} · ${option.querySelector(".dataset-option-count").textContent}`;
+      $$(".dataset-option", menu).forEach((item) => item.setAttribute("aria-selected", String(item === option)));
+      menu.classList.remove("open");
+      trigger.setAttribute("aria-expanded", "false");
+      state.page = 1;
+      loadExplorer();
+    }));
   }
 
   function renderRows(payload) {
@@ -197,7 +226,7 @@
     try {
       const payload = await fetchJson("/stats");
       const datasets = payload?.datasets || payload?.data || {};
-      const entries = Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, count]) => ({ name, count }));
+      const entries = Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0 }));
       list.innerHTML = entries.sort((a, b) => String(a.name).localeCompare(String(b.name))).map((item) => {
         const name = String(item.name).replace(/^\//, "").replace(/^api\//, "");
         return `<div class="endpoint-row"><span class="method">GET</span><span class="path">/api/${escapeHtml(name)}</span><span class="endpoint-desc">${formatNumber(item.count || item.total || 0)} records · auto-discovered dataset</span><span class="endpoint-tag">JSON</span></div>`;
