@@ -168,7 +168,13 @@ td:first-child { color: var(--text); font-weight: 650; }
 .anchor-nav { position: sticky; top: 105px; padding-left: 16px; border-left: 1px solid var(--line); }
 .anchor-nav a { display: block; padding: 6px 0; color: var(--subtle); font-size: 12px; text-decoration: none; }
 .anchor-nav a:hover, .anchor-nav a.active { color: var(--amber); }
+.sdk-callout { margin-top: 18px; padding: 20px; border: 1px solid rgba(68,213,176,.2); border-radius: var(--radius-md); background: linear-gradient(145deg, rgba(68,213,176,.08), rgba(255,255,255,.02)); }
+.sdk-callout .eyebrow { margin-bottom: 8px; color: var(--teal); }
+.sdk-callout h3 { margin: 0; font-size: 17px; }
+.sdk-callout p { margin: 5px 0 0; }
+.sdk-callout .code-block { margin-top: 13px; }
 .endpoint-list { border-top: 1px solid var(--line); }
+
 .endpoint-row { display: grid; grid-template-columns: 66px minmax(150px, .8fr) 1.2fr; gap: 12px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); }
 .method { display: inline-flex; align-items: center; justify-content: center; width: fit-content; min-width: 50px; padding: 4px 8px; border-radius: 5px; background: var(--teal-soft); color: var(--teal); font-family: var(--mono); font-size: 10px; font-weight: 800; }
 .path { color: var(--text); font-family: var(--mono); font-size: 12px; overflow-wrap: anywhere; }

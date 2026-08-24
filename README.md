@@ -27,8 +27,9 @@ The API includes a dark, responsive developer console for exploring live dataset
 - **Quick start & API reference:** https://gzw-data.vercel.app/docs/#quickstart
 - **OpenAPI spec:** https://gzw-data.vercel.app/api/spec
 - **API root:** https://gzw-data.vercel.app/api
+- **JavaScript / TypeScript client:** https://www.npmjs.com/package/@zoniboy/gzw-data-client
 
-The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required.
+The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The official zero-dependency client supports Node.js 18+, modern browsers, JavaScript and TypeScript.
 
 Unknown routes use a matching custom 404 page with direct links back to the console, Quick start and API root.
 
