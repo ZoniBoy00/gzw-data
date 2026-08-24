@@ -19,6 +19,20 @@ curl https://gzw-data.vercel.app/api/keys?type=Keycard
 curl https://gzw-data.vercel.app/api/medical
 ```
 
+## Web Console & Documentation
+
+The API includes a dark, responsive developer console for exploring live datasets and copying request examples:
+
+- **Console:** https://gzw-data.vercel.app/
+- **Quick start & API reference:** https://gzw-data.vercel.app/docs/#quickstart
+- **OpenAPI spec:** https://gzw-data.vercel.app/api/spec
+- **API root:** https://gzw-data.vercel.app/api
+
+The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required.
+
+Unknown routes use a matching custom 404 page with direct links back to the console, Quick start and API root.
+
+
 ## API v4
 
 Base URL: `https://gzw-data.vercel.app`
