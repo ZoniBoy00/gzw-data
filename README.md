@@ -15,6 +15,7 @@ curl https://raw.githubusercontent.com/ZoniBoy00/gzw-data/main/data/weapons.json
 
 # Or via the API (auto-deployed)
 curl https://gzw-data.vercel.app/api/weapons
+curl https://gzw-data.vercel.app/api/weapons/ak-12
 curl https://gzw-data.vercel.app/api/keys?type=Keycard
 curl https://gzw-data.vercel.app/api/medical
 ```
@@ -44,6 +45,7 @@ Base URL: `https://gzw-data.vercel.app`
 |----------|-------------|
 | `/api` | API root — lists all endpoints |
 | `/api/<dataset>` | Any dataset by name (auto-discovered) |
+| `/api/<dataset>/<id>` | One dataset record by exact ID |
 | `/api/stats` | Item counts for all datasets |
 | `/api/search?q=` | Cross-dataset search |
 | `/api/spec` | OpenAPI 3.0 spec |
@@ -90,6 +92,27 @@ All data endpoints include `Cache-Control: public, max-age=300` headers. CDN and
 ```
 
 Unpaginated responses omit `page`, `perPage`, `total`, `totalPages`.
+
+### Single-record Response
+
+```http
+GET /api/weapons/ak-12
+```
+
+The response uses the same `data` envelope as collection routes, with one record instead of an array:
+
+```json
+{
+  "data": {
+    "id": "ak-12",
+    "name": "AK-12"
+  },
+  "source": "GZW Data API",
+  "timestamp": "2026-07-28T12:00:00.000Z"
+}
+```
+
+Unknown IDs return `404` with the dataset and requested ID in the response.
 
 ## Data Files
 

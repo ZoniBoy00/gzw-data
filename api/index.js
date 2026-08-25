@@ -166,6 +166,14 @@ function parseRoute(url) {
   return { path: pathPart, params };
 }
 
+function decodeRoutePart(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
 // ─── Smart route definitions ───
 const SMART_ROUTES = {
   armor: {
@@ -225,6 +233,28 @@ function handleRoute(route, params, res, rateInfo) {
   const { page, perPage } = parsePagination(params);
   const wantAll = params.get('all') === 'true';
 
+  // ── Single-record dataset route ──
+  // Dataset records are addressed as /api/{dataset}/{id}. Keep the existing
+  // collection routes unchanged and match IDs exactly.
+  const routeParts = route.split('/').filter(Boolean);
+  if (routeParts.length > 1) {
+    const datasetName = decodeRoutePart(routeParts.shift());
+    const recordId = routeParts.map(decodeRoutePart).join('/');
+    if (datasets[datasetName] && !SMART_ROUTES[datasetName]) {
+      const record = asArray(datasetName).find(item => String(item.id) === recordId);
+      setHeaders(res, rateInfo, CACHE_TTL_SEC);
+      if (!record) {
+        return res.status(404).json({
+          error: `Record not found: /api/${datasetName}/${recordId}`,
+          dataset: datasetName,
+          id: recordId,
+          docs: '/api/spec',
+        });
+      }
+      return json(res, record);
+    }
+  }
+
   // ── API root (deduplicated) ──
   if (route === 'root') {
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
@@ -248,6 +278,14 @@ function handleRoute(route, params, res, rateInfo) {
       paths[`/api/${key}`] = {
         get: { summary: isSmart ? isSmart.label : `${key} (${registry[key]?.count || 0} items)` }
       };
+      if (!isSmart) {
+        paths[`/api/${key}/{id}`] = {
+          get: {
+            summary: `Get one ${key} record by id`,
+            parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string' } }],
+          },
+        };
+      }
     }
     return res.json({
       openapi: '3.0.3',

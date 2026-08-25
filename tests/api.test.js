@@ -142,6 +142,23 @@ describe('GZW Data API', () => {
     assert.ok(typeof body.totalPages === 'number');
   });
 
+  it('should return one dataset record by id', () => {
+    const { res, getStatus, getBody, getHeader } = mockRes();
+    handler(mockReq('/api/weapons/ak-12'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.ok(getHeader('cache-control'));
+    assert.strictEqual(getBody().data.id, 'ak-12');
+    assert.strictEqual(getBody().data.name, 'AK-12');
+  });
+
+  it('should return 404 for an unknown record id', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/weapons/does-not-exist'), res);
+    assert.strictEqual(getStatus(), 404);
+    assert.strictEqual(getBody().dataset, 'weapons');
+    assert.strictEqual(getBody().id, 'does-not-exist');
+  });
+
   it('should support ?all=true to disable pagination', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/weapons?all=true'), res);
@@ -168,6 +185,8 @@ describe('GZW Data API', () => {
     const spec = getBody();
     assert.strictEqual(spec.openapi, '3.0.3');
     assert.ok(spec.paths);
+    assert.ok(spec.paths['/api/weapons/{id}']);
+    assert.strictEqual(spec.paths['/api/weapons/{id}'].get.parameters[0].name, 'id');
   });
 
   it('should handle smart routes', () => {
