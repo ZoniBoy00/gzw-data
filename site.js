@@ -114,7 +114,9 @@
     setText("[data-stat=datasets]", entries.length);
     setText("[data-stat=items]", formatNumber(total));
     setText("[data-stat=status]", "Online");
-    setText("[data-stat=updated]", new Date().toLocaleDateString("en-US", { month: "short", day: "numeric" }));
+    setText("[data-stat=updated]", stats?.lastScrapedAt
+      ? new Date(stats.lastScrapedAt).toLocaleDateString("en-US", { month: "short", day: "numeric" })
+      : "Unknown");
 
     const picker = $("#dataset-picker");
     const trigger = $("#dataset-trigger");

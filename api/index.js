@@ -28,6 +28,11 @@ try {
   console.error('Failed to read data directory:', e.message);
 }
 
+function getLastScrapedAt() {
+  const value = datasets._metadata?.lastScrapedAt;
+  return typeof value === 'string' ? value : null;
+}
+
 // ─── Helpers ───
 
 /** Convert a dataset to an array, handling both arrays and dicts. */
@@ -265,6 +270,7 @@ function handleRoute(route, params, res, rateInfo) {
       version: '4.0.0',
       endpoints,
       docs: '/api/spec',
+      lastScrapedAt: getLastScrapedAt(),
     });
   }
 
@@ -311,6 +317,7 @@ function handleRoute(route, params, res, rateInfo) {
       version: '4.0.0',
       datasets: loaded,
       smartRoutes: Object.keys(SMART_ROUTES),
+      lastScrapedAt: getLastScrapedAt(),
     });
   }
 
@@ -325,7 +332,7 @@ function handleRoute(route, params, res, rateInfo) {
       const items = getSmartData(name);
       if (items) stats[name] = { total: items.length, sources: def.sources };
     }
-    return json(res, stats);
+    return json(res, stats, 200, { lastScrapedAt: getLastScrapedAt() });
   }
 
   // ── Search ──

@@ -116,6 +116,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getStatus(), 200);
     assert.strictEqual(getBody().data.ok, true);
     assert.strictEqual(getBody().data.version, '4.0.0');
+    assert.ok(Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
   });
 
   it('should return stats endpoint', () => {
@@ -124,6 +125,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getStatus(), 200);
     const stats = getBody().data;
     assert.ok(Object.keys(stats).length > 0);
+    assert.ok(Object.prototype.hasOwnProperty.call(getBody(), 'lastScrapedAt'));
     for (const [key, val] of Object.entries(stats)) {
       assert.ok(typeof val.total === 'number', `${key} should have numeric total`);
     }

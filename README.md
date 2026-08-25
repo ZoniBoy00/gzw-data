@@ -46,7 +46,7 @@ Base URL: `https://gzw-data.vercel.app`
 | `/api` | API root — lists all endpoints |
 | `/api/<dataset>` | Any dataset by name (auto-discovered) |
 | `/api/<dataset>/<id>` | One dataset record by exact ID |
-| `/api/stats` | Item counts for all datasets |
+| `/api/stats` | Item counts for all datasets plus the latest scrape timestamp |
 | `/api/search?q=` | Cross-dataset search |
 | `/api/spec` | OpenAPI 3.0 spec |
 | `/api/images` | All item images (400+) |
