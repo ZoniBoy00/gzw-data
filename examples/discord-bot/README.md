@@ -1,6 +1,8 @@
 # GZW Data Discord Bot Example
 
-A small Discord slash-command bot built on the public GZW Data API.
+A small Discord slash-command bot built on the official `@zoniboy/gzw-data-client` package and the public GZW Data API.
+
+The SDK handles the API base URL, request retries, response parsing and typed error behavior. Discord.js is used only for commands and embeds.
 
 It provides:
 

@@ -1,4 +1,5 @@
 import "dotenv/config";
+import { GzwDataClient } from "@zoniboy/gzw-data-client";
 import {
   Client,
   EmbedBuilder,
@@ -48,16 +49,7 @@ const commands = [
     .toJSON(),
 ];
 
-const apiUrl = (path) => `${GZW_API_BASE_URL.replace(/\/$/, "")}${path}`;
-
-async function fetchJson(path) {
-  const response = await fetch(apiUrl(path));
-  const payload = await response.json();
-  if (!response.ok) {
-    throw new Error(payload.error || `GZW API returned HTTP ${response.status}`);
-  }
-  return payload;
-}
+const gzw = new GzwDataClient({ baseUrl: GZW_API_BASE_URL });
 
 function trimValue(value, maxLength = 1024) {
   const text = String(value ?? "—");
@@ -107,14 +99,18 @@ client.on("interactionCreate", async (interaction) => {
     const subcommand = interaction.options.getSubcommand();
     if (subcommand === "weapon") {
       const id = interaction.options.getString("id", true);
-      const payload = await fetchJson(`/weapons/${encodeURIComponent(id)}`);
-      await interaction.editReply({ embeds: [recordEmbed(payload.data)] });
+      const record = await gzw.dataset("weapons").get(id);
+      if (!record) {
+        await interaction.editReply(`No weapon found with ID **${id}**.`);
+        return;
+      }
+      await interaction.editReply({ embeds: [recordEmbed(record)] });
       return;
     }
 
     const query = interaction.options.getString("query", true);
-    const payload = await fetchJson(`/search?q=${encodeURIComponent(query)}`);
-    const results = payload.data?.results ?? {};
+    const payload = await gzw.search(query);
+    const results = payload.results ?? {};
     const records = Object.entries(results).flatMap(([dataset, items]) =>
       items.slice(0, 3).map((record) => ({ dataset, record })),
     );
