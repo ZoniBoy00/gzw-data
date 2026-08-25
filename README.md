@@ -5,8 +5,17 @@
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com/wiki/Gray_Zone_Warfare_Wiki) — covers **120+ game categories** with automatic discovery of new ones.
+Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com/wiki/Gray_Zone_Warfare_Wiki) — covers **85+ game datasets** with automatic discovery of new ones.
 
+> **Free Gray Zone Warfare API for weapons, missions, loot, armor and game data.** No API key required.
+
+- **Live API:** https://gzw-data.vercel.app/api
+- **API Reference:** https://gzw-data.vercel.app/docs/
+- **OpenAPI spec:** https://gzw-data.vercel.app/api/spec
+- **JavaScript / TypeScript client:** [@zoniboy/gzw-data-client](https://www.npmjs.com/package/@zoniboy/gzw-data-client)
+- **Discord bot example:** [`examples/discord-bot`](./examples/discord-bot)
+
+The API is intended for community tools, Discord bots, dashboards and other Gray Zone Warfare projects. Data is refreshed by the public scraper workflow and exposes both collection and single-record routes.
 ## Quick Start
 
 ```bash
