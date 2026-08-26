@@ -121,15 +121,25 @@ function getSingleDatasetMetadata(datasets, asArray, lastScrapedAt, name) {
 }
 
 function buildRegistryMetadata(registry, lastScrapedAt) {
-  const metadata = {
-    source: 'gzw-scraper',
-    datasetCount: Object.keys(registry).length,
-    datasets: Object.keys(registry).sort().map(name => ({
+  const datasets = [];
+  for (const name of Object.keys(registry).sort()) {
+    const info = registry[name] || {};
+    const fields = new Set(['id', 'name']);
+    if (Array.isArray(info.filters)) {
+      for (const field of info.filters) fields.add(String(field));
+    }
+    datasets.push({
       name,
       file: `${name}.json`,
-      itemCount: registry[name].count,
-      fields: [...new Set(['id', 'name', ...registry[name].filters])].sort(),
-    })),
+      itemCount: Number(info.count) || 0,
+      fields: [...fields].sort(),
+    });
+  }
+
+  const metadata = {
+    source: 'gzw-scraper',
+    datasetCount: datasets.length,
+    datasets,
   };
   if (lastScrapedAt) metadata.lastScrapedAt = lastScrapedAt;
   return metadata;
