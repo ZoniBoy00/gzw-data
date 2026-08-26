@@ -1,11 +1,11 @@
-const { CACHE_TTL_SEC } = require("./config");
-const { datasets, loadDatasets, asArray, getLastScrapedAt, buildDatasetRegistry } = require("./datasets");
-const { checkRate } = require("./rate-limit");
-const { setHeaders, json } = require("./response");
-const { paginate, applyFilters, parsePagination } = require("./query");
-const { parseRoute, decodeRoutePart } = require("./routing");
-const { SMART_ROUTES, getSmartData } = require("./smart-routes");
-const { buildMetadata, buildBasicMetadata, getMetadata, buildRegistryMetadata, getSingleDatasetMetadata } = require("./metadata");
+const { CACHE_TTL_SEC } = require("../lib/config");
+const { datasets, loadDatasets, asArray, getLastScrapedAt, buildDatasetRegistry } = require("../lib/datasets");
+const { checkRate } = require("../lib/rate-limit");
+const { setHeaders, json } = require("../lib/response");
+const { paginate, applyFilters, parsePagination } = require("../lib/query");
+const { parseRoute, decodeRoutePart } = require("../lib/routing");
+const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
+const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata } = require("../lib/metadata");
 
 loadDatasets();
 
