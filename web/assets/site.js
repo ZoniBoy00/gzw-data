@@ -1,5 +1,5 @@
 (() => {
-  const API_BASE = "/api";
+  const API_BASE = "/api/v1";
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const state = { dataset: "weapons", query: "", page: 1, perPage: 8, stats: null };
@@ -243,7 +243,7 @@
       const entries = Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0 }));
       list.innerHTML = entries.sort((a, b) => String(a.name).localeCompare(String(b.name))).map((item) => {
         const name = String(item.name).replace(/^\//, "").replace(/^api\//, "");
-        return `<div class="endpoint-row"><span class="method">GET</span><span class="path">/api/${escapeHtml(name)}</span><span class="endpoint-desc">${formatNumber(item.count || item.total || 0)} records · auto-discovered dataset</span><span class="endpoint-tag">JSON</span></div>`;
+        return `<div class="endpoint-row"><span class="method">GET</span><span class="path">/api/v1/${escapeHtml(name)}</span><span class="endpoint-desc">${formatNumber(item.count || item.total || 0)} records · auto-discovered dataset</span><span class="endpoint-tag">JSON</span></div>`;
       }).join("");
       setText("[data-doc-count]", entries.length);
     } catch {
