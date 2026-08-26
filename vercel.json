@@ -16,6 +16,9 @@
     { "source": "/404.html", "destination": "/web/404.html" },
     { "source": "/robots.txt", "destination": "/web/robots.txt" },
     { "source": "/sitemap.xml", "destination": "/web/sitemap.xml" },
+    { "source": "/llms.txt", "destination": "/web/llms.txt" },
+    { "source": "/agents.json", "destination": "/web/agents.json" },
+    { "source": "/pricing.json", "destination": "/web/pricing.json" },
     { "source": "/", "destination": "/web/index.html" }
   ]
 }
