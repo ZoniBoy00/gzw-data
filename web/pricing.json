@@ -1,0 +1,19 @@
+{
+  "name": "GZW Data API",
+  "pricing_model": "free",
+  "currency": null,
+  "api_key_required": false,
+  "authentication": "none",
+  "commercial_use": "see_terms_of_service",
+  "rate_limit": {
+    "requests": 100,
+    "window": "1 minute",
+    "scope": "per IP",
+    "enforcement": "best effort"
+  },
+  "support": {
+    "documentation": "https://gzw-data.dev/docs/",
+    "source": "https://github.com/ZoniBoy00/gzw-data"
+  },
+  "updated": "2026-08-26"
+}

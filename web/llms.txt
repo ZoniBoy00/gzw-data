@@ -1,0 +1,55 @@
+# GZW Data API
+
+> Free public Gray Zone Warfare game-data API for developers, tools, bots, dashboards, CLI workflows, and AI agents.
+
+## Canonical links
+
+- Website: https://gzw-data.dev/
+- Documentation: https://gzw-data.dev/docs/
+- API base: https://gzw-data.dev/api/v1
+- OpenAPI 3.0.3: https://gzw-data.dev/api/v1/spec
+- JavaScript/TypeScript client: https://www.npmjs.com/package/@zoniboy/gzw-data-client
+- Source repository: https://github.com/ZoniBoy00/gzw-data
+
+## When to use GZW Data
+
+Use GZW Data when you need structured Gray Zone Warfare data for weapons, missions, items, loot, maps, armor, containers, bots, dashboards, or developer tools. The API is read-only, public, free, and requires no API key.
+
+Do not use GZW Data for player telemetry, private server state, authentication, write operations, or guaranteed real-time game events.
+
+## Authentication and pricing
+
+- Authentication: none
+- API key required: no
+- Pricing: free
+- Commercial use: see the Terms of Service
+- Response format: JSON
+- API style: read-only REST
+
+## Limits and caching
+
+The best-effort rate limit is 100 requests per minute per IP address. Responses expose X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, and Retry-After when a request is rate limited. Data responses use public five-minute caching where applicable.
+
+## Quick start
+
+```bash
+curl https://gzw-data.dev/api/v1/weapons
+curl https://gzw-data.dev/api/v1/missions
+curl "https://gzw-data.dev/api/v1/search?q=ak-12"
+```
+
+## Core endpoints
+
+- GET /api/v1/stats — API and dataset statistics
+- GET /api/v1/metadata — dataset registry and field metadata
+- GET /api/v1/{dataset} — list records from a dataset
+- GET /api/v1/{dataset}/{id} — retrieve one record by ID
+- GET /api/v1/search?q={query} — search across datasets
+- GET /api/v1/images — list available item images
+- GET /api/v1/health — health check
+- GET /api/v1/ready — readiness check
+- GET /api/v1/spec — OpenAPI specification
+
+## Integration guidance
+
+Use /api/v1 for all new integrations. Results are JSON and dataset routes support filtering, sorting, pagination, and all=true. Start with the OpenAPI document when generating an integration. The official JavaScript/TypeScript client is zero-dependency and supports Node.js 18+ and modern browsers.

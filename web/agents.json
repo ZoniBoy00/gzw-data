@@ -1,0 +1,62 @@
+{
+  "name": "GZW Data API",
+  "description": "Free public Gray Zone Warfare game data API for developer tools, bots, dashboards, CLI workflows, and AI agents.",
+  "homepage": "https://gzw-data.dev/",
+  "documentation": "https://gzw-data.dev/docs/",
+  "api_base": "https://gzw-data.dev/api/v1",
+  "openapi": "https://gzw-data.dev/api/v1/spec",
+  "authentication": {
+    "type": "none",
+    "api_key_required": false
+  },
+  "pricing": {
+    "model": "free",
+    "currency": null,
+    "commercial_use": "see_terms_of_service"
+  },
+  "operations": {
+    "read_only": true,
+    "write_operations": false,
+    "response_format": "json"
+  },
+  "rate_limits": {
+    "requests": 100,
+    "window": "1 minute",
+    "scope": "per IP",
+    "enforcement": "best effort",
+    "headers": ["X-RateLimit-Limit", "X-RateLimit-Remaining", "X-RateLimit-Reset", "Retry-After"]
+  },
+  "use_when": [
+    "Building Gray Zone Warfare weapon, mission, loot, map, armor, or item tools",
+    "Creating a Discord bot, dashboard, CLI workflow, or AI-agent integration",
+    "Looking for public structured Gray Zone Warfare game data"
+  ],
+  "do_not_use_when": [
+    "You need private server state or player telemetry",
+    "You need authentication or write operations",
+    "You need guaranteed real-time game events"
+  ],
+  "examples": [
+    {
+      "description": "List weapons",
+      "method": "GET",
+      "url": "https://gzw-data.dev/api/v1/weapons",
+      "curl": "curl https://gzw-data.dev/api/v1/weapons"
+    },
+    {
+      "description": "Search all datasets",
+      "method": "GET",
+      "url": "https://gzw-data.dev/api/v1/search?q=ak-12",
+      "curl": "curl \"https://gzw-data.dev/api/v1/search?q=ak-12\""
+    }
+  ],
+  "client_libraries": [
+    {
+      "name": "@zoniboy/gzw-data-client",
+      "ecosystem": "npm",
+      "url": "https://www.npmjs.com/package/@zoniboy/gzw-data-client"
+    }
+  ],
+  "source": "https://github.com/ZoniBoy00/gzw-data",
+  "terms": "https://gzw-data.dev/legal/terms-of-service/"
+}
