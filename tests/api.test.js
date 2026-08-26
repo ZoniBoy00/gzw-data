@@ -136,6 +136,8 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().data.ready, true);
     assert.strictEqual(getBody().data.apiVersion, 'v1');
     assert.ok(getBody().data.datasetCount > 0);
+    assert.ok(typeof getBody().dataVersion === 'string');
+    assert.strictEqual(getBody().dataVersion, getBody().data.lastScrapedAt);
     assert.strictEqual(getBody().data.version, '4.0.0');
     assert.ok(Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
   });
@@ -210,7 +212,9 @@ describe('GZW Data API', () => {
     assert.strictEqual(getStatus(), 200);
     const body = getBody();
     assert.ok(Array.isArray(body.data));
-    assert.ok(body.data.length <= 5);
+    assert.ok(typeof body.dataVersion === 'string');
+    assert.strictEqual(body.dataVersion, '2026-08-25T11:12:54.629187Z');
+    assert.equal(body.data.length, 5);
     assert.strictEqual(body.page, 1);
     assert.strictEqual(body.perPage, 5);
     assert.ok(typeof body.total === 'number');

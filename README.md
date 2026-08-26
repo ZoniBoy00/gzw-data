@@ -111,7 +111,8 @@ All data endpoints include `Cache-Control: public, max-age=300` headers. CDN and
   "total": 44,
   "totalPages": 5,
   "source": "GZW Data API",
-  "timestamp": "2026-07-28T12:00:00.000Z"
+  "timestamp": "2026-07-28T12:00:00.000Z",
+  "dataVersion": "2026-08-25T11:12:54.629187Z"
 }
 ```
 
@@ -150,7 +151,8 @@ The response uses the same `data` envelope as collection routes, with one record
     "name": "AK-12"
   },
   "source": "GZW Data API",
-  "timestamp": "2026-07-28T12:00:00.000Z"
+  "timestamp": "2026-07-28T12:00:00.000Z",
+  "dataVersion": "2026-08-25T11:12:54.629187Z"
 }
 ```
 
@@ -186,6 +188,7 @@ All endpoints return consistent JSON:
   "data": [ ... ],
   "count": 44,
   "source": "GZW Data API",
-  "timestamp": "2026-07-28T12:00:00.000Z"
+  "timestamp": "2026-07-28T12:00:00.000Z",
+  "dataVersion": "2026-08-25T11:12:54.629187Z"
 }
 ```

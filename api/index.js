@@ -1,13 +1,14 @@
 const { CACHE_TTL_SEC } = require("../lib/config");
 const { datasets, loadDatasets, asArray, getLastScrapedAt, buildDatasetRegistry } = require("../lib/datasets");
 const { checkRate } = require("../lib/rate-limit");
-const { setHeaders, json, errorResponse } = require("../lib/response");
+const { setHeaders, json, errorResponse, setDataVersion } = require("../lib/response");
 const { paginate, applyFilters, parsePagination } = require("../lib/query");
 const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
 const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
 
 loadDatasets();
+setDataVersion(getLastScrapedAt());
 
 // ─── Routes ───
 
