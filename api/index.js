@@ -5,7 +5,7 @@ const { setHeaders, json } = require("./response");
 const { paginate, applyFilters, parsePagination } = require("./query");
 const { parseRoute, decodeRoutePart } = require("./routing");
 const { SMART_ROUTES, getSmartData } = require("./smart-routes");
-const { buildMetadata, getMetadata, getDatasetMetadata } = require("./metadata");
+const { buildMetadata, getMetadata, getDatasetMetadata, summarizeMetadata } = require("./metadata");
 
 loadDatasets();
 
@@ -33,7 +33,8 @@ function handleRoute(route, params, res, rateInfo) {
       return json(res, dataset);
     }
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
-    return json(res, metadata);
+    const responseMetadata = params.get('full') === 'true' ? metadata : summarizeMetadata(metadata);
+    return json(res, responseMetadata);
   }
 
   // ── Single-record dataset route ──

@@ -141,8 +141,14 @@ describe('GZW Data API', () => {
     const weapons = metadata.datasets.find(dataset => dataset.name === 'weapons');
     assert.ok(weapons);
     assert.ok(weapons.itemCount > 0);
-    assert.ok(weapons.fields.id);
-    assert.ok(Array.isArray(weapons.fields.id.types));
+    assert.ok(Array.isArray(weapons.fields));
+    assert.ok(weapons.fields.includes('id'));
+
+    const full = mockRes();
+    handler(mockReq('/api/metadata?full=true'), full.res);
+    const fullWeapons = full.getBody().data.datasets.find(dataset => dataset.name === 'weapons');
+    assert.ok(fullWeapons.fields.id);
+    assert.ok(Array.isArray(fullWeapons.fields.id.types));
   });
 
   it('should return metadata for one dataset and 404 for an unknown dataset', () => {

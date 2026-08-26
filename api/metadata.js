@@ -73,4 +73,18 @@ function getDatasetMetadata(metadata, name) {
   return metadata.datasets.find(dataset => dataset.name === name);
 }
 
-module.exports = { buildMetadata, getMetadata, getDatasetMetadata };
+function summarizeMetadata(metadata) {
+  return {
+    source: metadata.source,
+    datasetCount: metadata.datasetCount,
+    ...(metadata.lastScrapedAt ? { lastScrapedAt: metadata.lastScrapedAt } : {}),
+    datasets: metadata.datasets.map(dataset => ({
+      name: dataset.name,
+      file: dataset.file,
+      itemCount: dataset.itemCount,
+      fields: Object.keys(dataset.fields).sort(),
+    })),
+  };
+}
+
+module.exports = { buildMetadata, getMetadata, getDatasetMetadata, summarizeMetadata };
