@@ -96,6 +96,20 @@ function handleRoute(route, params, res, rateInfo) {
     return json(res, metadata);
   }
 
+  // ── Dataset schema route ──
+  if (route.startsWith('schema/')) {
+    const schemaName = decodeRoutePart(route.slice('schema/'.length));
+    const schema = getSingleDatasetMetadata(datasets, asArray, getLastScrapedAt(), schemaName);
+    if (!schema) {
+      return errorResponse(res, 404, 'DATASET_NOT_FOUND', 'Dataset schema not found', {
+        dataset: schemaName,
+        docs: '/api/v1/spec',
+      });
+    }
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    return json(res, schema);
+  }
+
   // ── Related data routes ──
   const relatedParts = route.split('/').filter(Boolean);
   if (relatedParts.length === 3 && relatedParts[1] && relatedParts[2]) {
@@ -166,6 +180,12 @@ function handleRoute(route, params, res, rateInfo) {
       '/api/metadata/{dataset}': {
         get: {
           summary: 'Get schema metadata for one dataset',
+          parameters: [{ name: 'dataset', in: 'path', required: true, schema: { type: 'string' } }],
+        },
+      },
+      '/api/schema/{dataset}': {
+        get: {
+          summary: 'Get a machine-readable schema for one dataset',
           parameters: [{ name: 'dataset', in: 'path', required: true, schema: { type: 'string' } }],
         },
       },

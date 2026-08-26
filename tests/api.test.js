@@ -354,6 +354,32 @@ describe('GZW Data API', () => {
     assert.ok(getBody().paths['/api/v1/version']);
   });
 
+  it('should return a dataset schema', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/schema/weapons'), res);
+    assert.strictEqual(getStatus(), 200);
+    const schema = getBody().data;
+    assert.strictEqual(schema.name, 'weapons');
+    assert.strictEqual(schema.itemCount, 44);
+    assert.ok(schema.fields.id);
+    assert.ok(Array.isArray(schema.fields.id.types));
+    assert.ok(typeof schema.lastScrapedAt === 'string');
+  });
+
+  it('should return a schema-not-found error for an unknown dataset', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/schema/not-a-real-dataset'), res);
+    assert.strictEqual(getStatus(), 404);
+    assert.strictEqual(getBody().error.code, 'DATASET_NOT_FOUND');
+  });
+
+  it('should advertise dataset schemas in OpenAPI', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/spec'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.ok(getBody().paths['/api/v1/schema/{dataset}']);
+  });
+
   it('should return item context from current datasets', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/v1/items/advanced-tracking-tag/context'), res);
