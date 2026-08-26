@@ -251,6 +251,40 @@
     }
   }
 
+  const originalTitle = document.title;
+  const activeTitles = [
+    originalTitle,
+    "GZW Data · Live API",
+    "GZW Data · Explore the index",
+    "GZW Data · Build something useful",
+  ];
+  const awayTitles = [
+    "Come back, I miss you :(",
+    "Still here · GZW Data",
+    "Your API is waiting...",
+  ];
+  let titleTimer;
+  let titleIndex = 0;
+
+  function startTitleAnimation(titles, interval = 2600) {
+    clearInterval(titleTimer);
+    titleIndex = 0;
+    document.title = titles[0] || originalTitle;
+    titleTimer = setInterval(() => {
+      titleIndex = (titleIndex + 1) % titles.length;
+      document.title = titles[titleIndex] || originalTitle;
+    }, interval);
+  }
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      startTitleAnimation(awayTitles, 2200);
+    } else {
+      startTitleAnimation(activeTitles);
+    }
+  });
+  startTitleAnimation(activeTitles);
+
   initShell();
   initOverview();
   initDocs();
