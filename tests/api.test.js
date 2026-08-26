@@ -327,6 +327,44 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().error.code, 'ENDPOINT_NOT_FOUND');
   });
 
+  it('should support scoped and field-specific search', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/search?q=ak&dataset=weapons&fields=name,type&limit=2'), res);
+    assert.strictEqual(getStatus(), 200);
+    const body = getBody().data;
+    assert.strictEqual(body.query, 'ak');
+    assert.deepStrictEqual(body.datasets, ['weapons']);
+    assert.deepStrictEqual(body.fields, ['name', 'type']);
+    assert.strictEqual(body.limit, 2);
+    assert.ok(Array.isArray(body.results.weapons));
+    assert.ok(body.results.weapons.length <= 2);
+  });
+
+  it('should support fuzzy search for scoped records', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/search?q=AK12&dataset=weapons&fuzzy=true'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.ok(getBody().data.results.weapons.some(item => item.id === 'ak-12'));
+    assert.strictEqual(getBody().data.fuzzy, true);
+  });
+
+  it('should reject search requests for unknown datasets', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/search?q=ak&dataset=not-a-real-dataset'), res);
+    assert.strictEqual(getStatus(), 400);
+    assert.strictEqual(getBody().error.code, 'INVALID_REQUEST');
+  });
+
+  it('should return spec search parameters', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/spec'), res);
+    assert.strictEqual(getStatus(), 200);
+    const search = getBody().paths['/api/v1/search'].get;
+    assert.ok(search.parameters.some(parameter => parameter.name === 'dataset'));
+    assert.ok(search.parameters.some(parameter => parameter.name === 'fields'));
+    assert.ok(search.parameters.some(parameter => parameter.name === 'fuzzy'));
+  });
+
   it('should handle smart routes', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/armor?all=true'), res);

@@ -2,7 +2,7 @@ const { CACHE_TTL_SEC } = require("../lib/config");
 const { datasets, loadDatasets, asArray, getLastScrapedAt, buildDatasetRegistry } = require("../lib/datasets");
 const { checkRate } = require("../lib/rate-limit");
 const { setHeaders, json, errorResponse, setDataVersion } = require("../lib/response");
-const { paginate, applyFilters, parsePagination } = require("../lib/query");
+const { paginate, applyFilters, parsePagination, matchesSearch } = require("../lib/query");
 const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
 const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
@@ -166,6 +166,18 @@ function handleRoute(route, params, res, rateInfo) {
           parameters: [{ name: 'dataset', in: 'path', required: true, schema: { type: 'string' } }],
         },
       },
+      '/api/search': {
+        get: {
+          summary: 'Search records across datasets',
+          parameters: [
+            { name: 'q', in: 'query', required: true, schema: { type: 'string' } },
+            { name: 'dataset', in: 'query', schema: { type: 'string' }, description: 'Comma-separated dataset names' },
+            { name: 'fields', in: 'query', schema: { type: 'string' }, description: 'Comma-separated fields to search' },
+            { name: 'fuzzy', in: 'query', schema: { type: 'boolean', default: false } },
+            { name: 'limit', in: 'query', schema: { type: 'integer', minimum: 1, maximum: 50, default: 10 } },
+          ],
+        },
+      },
       '/api/items/{id}/context': {
         get: {
           summary: 'Get an item with related vendor and dataset references',
@@ -274,15 +286,33 @@ function handleRoute(route, params, res, rateInfo) {
   if (route === 'search') {
     const q = params.get('q');
     if (!q) return errorResponse(res, 400, 'INVALID_REQUEST', 'Missing ?q parameter', { parameter: 'q' });
-    setHeaders(res, rateInfo, 0);
-    const query = q.toLowerCase();
-    const results = {};
-    for (const key of Object.keys(registry)) {
-      const arr = asArray(key);
-      const matches = arr.filter(x => x.name && x.name.toLowerCase().includes(query));
-      if (matches.length > 0) results[key] = matches.slice(0, 10);
+
+    const requestedDatasets = (params.get('dataset') || '').split(',').map(value => value.trim()).filter(Boolean);
+    const searchDatasets = requestedDatasets.length > 0 ? requestedDatasets : Object.keys(registry);
+    const unknownDataset = searchDatasets.find(name => !registry[name]);
+    if (unknownDataset) {
+      return errorResponse(res, 400, 'INVALID_REQUEST', 'Unknown search dataset', {
+        parameter: 'dataset', dataset: unknownDataset,
+      });
     }
-    return json(res, { query: q, results });
+
+    const fields = (params.get('fields') || '').split(',').map(value => value.trim()).filter(Boolean);
+    const fuzzy = params.get('fuzzy') === 'true';
+    const limit = Math.min(50, Math.max(1, parseInt(params.get('limit')) || 10));
+    const results = {};
+    for (const key of searchDatasets) {
+      const matches = asArray(key).filter(item => matchesSearch(item, q, fields, fuzzy));
+      if (matches.length > 0) results[key] = matches.slice(0, limit);
+    }
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    return json(res, {
+      query: q,
+      results,
+      datasets: searchDatasets,
+      fields,
+      fuzzy,
+      limit,
+    });
   }
 
   // ── Images ──
