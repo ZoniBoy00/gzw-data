@@ -1,238 +1,12 @@
-// GZW Data API v4 — Fully Dynamic, Auto-Discovering, Cached & Paginated
-// Every .json file in /data becomes an API endpoint automatically.
-const fs = require('fs');
-const path = require('path');
+const { CACHE_TTL_SEC } = require("./config");
+const { datasets, loadDatasets, asArray, getLastScrapedAt, buildDatasetRegistry } = require("./datasets");
+const { checkRate } = require("./rate-limit");
+const { setHeaders, json } = require("./response");
+const { paginate, applyFilters, parsePagination } = require("./query");
+const { parseRoute, decodeRoutePart } = require("./routing");
+const { SMART_ROUTES, getSmartData } = require("./smart-routes");
 
-// ─── Config ───
-const DATA_DIR = path.join(__dirname, '..', 'data');
-const RATE_LIMIT = { max: 100, ms: 60000 };
-const CACHE_TTL_SEC = 300; // 5 minutes
-const DEFAULT_PER_PAGE = 50;
-const MAX_PER_PAGE = 500;
-
-// ─── Load all data files ───
-const datasets = {};
-let dataFiles = [];
-try {
-  dataFiles = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json'));
-  for (const f of dataFiles) {
-    const key = f.replace('.json', '');
-    try {
-      datasets[key] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), 'utf-8'));
-    } catch (e) {
-      console.error(`Failed to load ${f}:`, e.message);
-      datasets[key] = null;
-    }
-  }
-} catch (e) {
-  console.error('Failed to read data directory:', e.message);
-}
-
-function getLastScrapedAt() {
-  const value = datasets._metadata?.lastScrapedAt;
-  return typeof value === 'string' ? value : null;
-}
-
-// ─── Helpers ───
-
-/** Convert a dataset to an array, handling both arrays and dicts. */
-function asArray(key) {
-  const d = datasets[key];
-  if (Array.isArray(d)) return d;
-  if (d && typeof d === 'object') return Object.values(d).filter(v => v && typeof v === 'object');
-  return [];
-}
-
-/** Build a registry of all available datasets with metadata. */
-function buildDatasetRegistry() {
-  const registry = {};
-  for (const key of Object.keys(datasets)) {
-    if (key.startsWith('_')) continue;
-    const arr = asArray(key);
-    if (arr.length === 0) continue;
-
-    const sample = arr[0] || {};
-    const filterFields = Object.keys(sample).filter(f =>
-      !['id', 'name', 'image', '_image', 'description'].includes(f) &&
-      typeof sample[f] === 'string'
-    );
-
-    registry[key] = {
-      count: arr.length,
-      filters: filterFields,
-      isObject: !Array.isArray(datasets[key]),
-    };
-  }
-  return registry;
-}
-
-// ─── Rate limiter (best-effort sliding window) ───
-// Vercel functions do not share memory across all instances. This limiter
-// protects warm instances and helps absorb bursts, but it is not a strict
-// global per-IP quota. Use a shared datastore if a hard quota is required.
-const hits = {};
-
-function checkRate(ip) {
-  const now = Date.now();
-  const window = RATE_LIMIT.ms;
-  let timestamps = hits[ip];
-  if (!timestamps) {
-    timestamps = [];
-    hits[ip] = timestamps;
-  }
-
-  const cutoff = now - window;
-  while (timestamps.length > 0 && timestamps[0] < cutoff) {
-    timestamps.shift();
-  }
-
-  if (timestamps.length >= RATE_LIMIT.max) {
-    const oldest = timestamps[0];
-    return { allowed: false, reset: oldest + window, remaining: 0 };
-  }
-
-  timestamps.push(now);
-  return { allowed: true, reset: now + window, remaining: RATE_LIMIT.max - timestamps.length };
-}
-
-/** Set standard response headers. */
-function setHeaders(res, rateInfo, cacheTTL) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', '*');
-  res.setHeader('X-RateLimit-Limit', RATE_LIMIT.max);
-  res.setHeader('X-RateLimit-Remaining', rateInfo.remaining);
-  res.setHeader('X-RateLimit-Reset', Math.ceil(rateInfo.reset / 1000));
-  if (cacheTTL > 0) {
-    res.setHeader('Cache-Control', `public, max-age=${cacheTTL}, stale-while-revalidate=${cacheTTL * 2}`);
-  }
-}
-
-/** Send a JSON response. */
-function json(res, data, status = 200, extra = {}) {
-  const body = { data, ...extra };
-  if (Array.isArray(data)) {
-    body.count = data.length;
-  }
-  body.source = 'GZW Data API';
-  body.timestamp = new Date().toISOString();
-  res.status(status).json(body);
-}
-
-/** Paginate an array. */
-function paginate(arr, page, perPage) {
-  const total = arr.length;
-  const totalPages = Math.ceil(total / perPage) || 1;
-  const start = (page - 1) * perPage;
-  const items = arr.slice(start, start + perPage);
-  return { items, page, perPage, total, totalPages };
-}
-
-/** Apply filters to an array of items. */
-function applyFilters(arr, params) {
-  let d = [...arr];
-
-  for (const [key, val] of params.entries()) {
-    if (!val) continue;
-    const q = val.toLowerCase();
-
-    if (key === 'search') {
-      d = d.filter(x =>
-        JSON.stringify(Object.values(x)).toLowerCase().includes(q) ||
-        (x.name && x.name.toLowerCase().includes(q))
-      );
-    } else if (key === 'sort') {
-      const [field, dir] = val.split(':');
-      if (dir === 'desc') {
-        d.sort((a, b) => String(b[field] || '').localeCompare(String(a[field] || '')));
-      } else {
-        d.sort((a, b) => String(a[field] || '').localeCompare(String(b[field] || '')));
-      }
-    } else if (key === 'limit') {
-      const limit = Math.min(parseInt(val) || 50, MAX_PER_PAGE);
-      d = d.slice(0, limit);
-    } else {
-      d = d.filter(x => x[key] && String(x[key]).toLowerCase() === q);
-    }
-  }
-
-  return d;
-}
-
-/** Parse pagination params from URLSearchParams. */
-function parsePagination(params) {
-  const page = Math.max(1, parseInt(params.get('page')) || 1);
-  const perPage = Math.min(MAX_PER_PAGE, Math.max(1, parseInt(params.get('per_page')) || DEFAULT_PER_PAGE));
-  return { page, perPage };
-}
-
-/** Parse the path and query params from a URL. */
-function parseRoute(url) {
-  const i = url.indexOf('?');
-  const pathPart = (i === -1 ? url : url.slice(0, i)).replace(/^\/api\/?/, '').replace(/\/$/, '') || 'root';
-  const params = new URLSearchParams(i === -1 ? '' : url.slice(i));
-  return { path: pathPart, params };
-}
-
-function decodeRoutePart(value) {
-  try {
-    return decodeURIComponent(value);
-  } catch {
-    return value;
-  }
-}
-
-// ─── Smart route definitions ───
-const SMART_ROUTES = {
-  armor: {
-    sources: ['vests', 'helmets', 'glasses'],
-    label: 'Armor (vests + helmets + glasses)',
-    mutators: {
-      vests: x => ({ ...x, category: 'vest' }),
-      helmets: x => ({ ...x, category: 'helmet' }),
-      glasses: x => ({ ...x, category: 'glasses' }),
-    },
-  },
-  weapon_parts: {
-    sources: [
-      'barrels', 'muzzle_devices', 'suppressors', 'stocks',
-      'stock_adapters', 'pistol_grips', 'foregrips', 'magazines',
-      'night_vision', 'helmet_mods', 'helmet_mounts', 'weapon_parts',
-    ],
-    label: 'Weapon parts (combined)',
-    mutators: {},
-    defaultMutator: (x, src) => ({ ...x, part_category: src }),
-  },
-  helmet_mods: {
-    sources: ['night_vision', 'helmet_mounts'],
-    label: 'Helmet mods (night vision + mounts)',
-    mutators: {
-      night_vision: x => ({ ...x, mod_type: 'night_vision' }),
-      helmet_mounts: x => ({ ...x, mod_type: 'mount' }),
-    },
-  },
-};
-
-function getSmartData(name) {
-  const route = SMART_ROUTES[name];
-  if (!route) return null;
-
-  let items = [];
-  for (const src of route.sources) {
-    const data = asArray(src);
-    const mutator = route.mutators?.[src] || route.defaultMutator;
-    items = items.concat(data.map(x => mutator ? mutator(x, src) : x));
-  }
-
-  // Deduplicate by name
-  const seen = new Set();
-  return items.filter(x => {
-    const k = x.name?.toLowerCase();
-    if (seen.has(k)) return false;
-    seen.add(k);
-    return true;
-  });
-}
+loadDatasets();
 
 // ─── Routes ───
 
@@ -332,7 +106,7 @@ function handleRoute(route, params, res, rateInfo) {
       stats[key] = { total: info.count };
     }
     for (const [name, def] of Object.entries(SMART_ROUTES)) {
-      const items = getSmartData(name);
+      const items = getSmartData(name, asArray);
       if (items) stats[name] = { total: items.length, sources: def.sources };
     }
     return json(res, stats, 200, { lastScrapedAt: getLastScrapedAt() });
@@ -383,7 +157,7 @@ function handleRoute(route, params, res, rateInfo) {
 
   // ── Smart routes ──
   if (SMART_ROUTES[route]) {
-    let items = getSmartData(route);
+    let items = getSmartData(route, asArray);
     if (!items) return res.status(404).json({ error: `No data for ${route}` });
 
     // Apply filters (exclude pagination meta-params)
@@ -473,7 +247,6 @@ module.exports = (req, res) => {
     const rateInfo = checkRate(ip);
     if (!rateInfo.allowed) {
       const retryAfter = Math.ceil((rateInfo.reset - Date.now()) / 1000);
-      res.setHeader('Retry-After', retryAfter);
       res.setHeader('Retry-After', retryAfter);
       return res.status(429).json({
         error: 'Rate limit exceeded. Try again later.',
