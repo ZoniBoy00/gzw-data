@@ -266,24 +266,67 @@
   let titleTimer;
   let titleIndex = 0;
 
-  function startTitleAnimation(titles, interval = 2600) {
-    clearInterval(titleTimer);
+  function startTitleAnimation(titles, options = {}) {
+    clearTimeout(titleTimer);
     titleIndex = 0;
-    document.title = titles[0] || originalTitle;
-    titleTimer = setInterval(() => {
-      titleIndex = (titleIndex + 1) % titles.length;
-      document.title = titles[titleIndex] || originalTitle;
-    }, interval);
+    let characterIndex = 0;
+    let deleting = false;
+    const typeSpeed = options.typeSpeed ?? 78;
+    const deleteSpeed = options.deleteSpeed ?? 48;
+    const holdTime = options.holdTime ?? 3200;
+    const betweenTitles = options.betweenTitles ?? 850;
+
+    function tick() {
+      const title = titles[titleIndex] || originalTitle;
+      if (!deleting) {
+        characterIndex += 1;
+        document.title = title.slice(0, characterIndex);
+        if (characterIndex >= title.length) {
+          deleting = true;
+          titleTimer = setTimeout(tick, holdTime);
+          return;
+        }
+        titleTimer = setTimeout(tick, typeSpeed);
+        return;
+      }
+
+      characterIndex -= 1;
+      document.title = title.slice(0, characterIndex);
+      if (characterIndex <= 0) {
+        deleting = false;
+        titleIndex = (titleIndex + 1) % titles.length;
+        titleTimer = setTimeout(tick, betweenTitles);
+        return;
+      }
+      titleTimer = setTimeout(tick, deleteSpeed);
+    }
+
+    tick();
   }
 
   document.addEventListener("visibilitychange", () => {
     if (document.hidden) {
-      startTitleAnimation(awayTitles, 2200);
+      startTitleAnimation(awayTitles, {
+        typeSpeed: 92,
+        deleteSpeed: 58,
+        holdTime: 5200,
+        betweenTitles: 1200,
+      });
     } else {
-      startTitleAnimation(activeTitles);
+      startTitleAnimation(activeTitles, {
+        typeSpeed: 78,
+        deleteSpeed: 48,
+        holdTime: 4200,
+        betweenTitles: 1000,
+      });
     }
   });
-  startTitleAnimation(activeTitles);
+  startTitleAnimation(activeTitles, {
+    typeSpeed: 78,
+    deleteSpeed: 48,
+    holdTime: 4200,
+    betweenTitles: 1000,
+  });
 
   initShell();
   initOverview();
