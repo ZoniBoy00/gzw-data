@@ -252,81 +252,13 @@
   }
 
   const originalTitle = document.title;
-  const activeTitles = [
-    originalTitle,
-    "GZW Data · Live API",
-    "GZW Data · Explore the index",
-    "GZW Data · Build something useful",
-  ];
-  const awayTitles = [
-    "Come back, I miss you :(",
-    "Still here · GZW Data",
-    "Your API is waiting...",
-  ];
-  let titleTimer;
-  let titleIndex = 0;
-
-  function startTitleAnimation(titles, options = {}) {
-    clearTimeout(titleTimer);
-    titleIndex = 0;
-    let characterIndex = 0;
-    let deleting = false;
-    const typeSpeed = options.typeSpeed ?? 78;
-    const deleteSpeed = options.deleteSpeed ?? 48;
-    const holdTime = options.holdTime ?? 3200;
-    const betweenTitles = options.betweenTitles ?? 850;
-
-    function tick() {
-      const title = titles[titleIndex] || originalTitle;
-      if (!deleting) {
-        characterIndex += 1;
-        document.title = title.slice(0, characterIndex);
-        if (characterIndex >= title.length) {
-          deleting = true;
-          titleTimer = setTimeout(tick, holdTime);
-          return;
-        }
-        titleTimer = setTimeout(tick, typeSpeed);
-        return;
-      }
-
-      characterIndex -= 1;
-      document.title = title.slice(0, characterIndex);
-      if (characterIndex <= 0) {
-        deleting = false;
-        titleIndex = (titleIndex + 1) % titles.length;
-        titleTimer = setTimeout(tick, betweenTitles);
-        return;
-      }
-      titleTimer = setTimeout(tick, deleteSpeed);
-    }
-
-    tick();
-  }
+  const awayTitle = "Come back, I miss you :(";
 
   document.addEventListener("visibilitychange", () => {
-    if (document.hidden) {
-      startTitleAnimation(awayTitles, {
-        typeSpeed: 92,
-        deleteSpeed: 58,
-        holdTime: 5200,
-        betweenTitles: 1200,
-      });
-    } else {
-      startTitleAnimation(activeTitles, {
-        typeSpeed: 78,
-        deleteSpeed: 48,
-        holdTime: 4200,
-        betweenTitles: 1000,
-      });
-    }
+    document.title = document.hidden ? awayTitle : originalTitle;
   });
-  startTitleAnimation(activeTitles, {
-    typeSpeed: 78,
-    deleteSpeed: 48,
-    holdTime: 4200,
-    betweenTitles: 1000,
-  });
+
+  document.title = originalTitle;
 
   initShell();
   initOverview();
