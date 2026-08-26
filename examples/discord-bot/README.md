@@ -38,8 +38,8 @@ Without `DISCORD_GUILD_ID`, commands are registered globally and can take time t
 ## Example API calls
 
 ```bash
-curl https://gzw-data.vercel.app/api/weapons/ak-12
-curl "https://gzw-data.vercel.app/api/search?q=ak-12"
+curl https://gzw-data.vercel.app/api/v1/weapons/ak-12
+curl "https://gzw-data.vercel.app/api/v1/search?q=ak-12"
 ```
 
 ## Security

@@ -13,7 +13,7 @@ const {
   DISCORD_TOKEN,
   DISCORD_CLIENT_ID,
   DISCORD_GUILD_ID,
-  GZW_API_BASE_URL = "https://gzw-data.vercel.app/api",
+  GZW_API_BASE_URL = "https://gzw-data.vercel.app/api/v1",
 } = process.env;
 
 if (!DISCORD_TOKEN || !DISCORD_CLIENT_ID) {

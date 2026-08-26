@@ -9,9 +9,9 @@ Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fando
 
 > **Free Gray Zone Warfare API for weapons, missions, loot, armor and game data.** No API key required.
 
-- **Live API:** https://gzw-data.vercel.app/api
+- **Live API:** https://gzw-data.vercel.app/api/v1
 - **API Reference:** https://gzw-data.vercel.app/docs/
-- **OpenAPI spec:** https://gzw-data.vercel.app/api/spec
+- **OpenAPI spec:** https://gzw-data.vercel.app/api/v1/spec
 - **JavaScript / TypeScript client:** [@zoniboy/gzw-data-client](https://www.npmjs.com/package/@zoniboy/gzw-data-client)
 - **Discord bot example:** [`examples/discord-bot`](./examples/discord-bot)
 
@@ -23,10 +23,10 @@ The API is intended for community tools, Discord bots, dashboards and other Gray
 curl https://raw.githubusercontent.com/ZoniBoy00/gzw-data/main/data/weapons.json
 
 # Or via the API (auto-deployed)
-curl https://gzw-data.vercel.app/api/weapons
-curl https://gzw-data.vercel.app/api/weapons/ak-12
-curl https://gzw-data.vercel.app/api/keys?type=Keycard
-curl https://gzw-data.vercel.app/api/medical
+curl https://gzw-data.vercel.app/api/v1/weapons
+curl https://gzw-data.vercel.app/api/v1/weapons/ak-12
+curl https://gzw-data.vercel.app/api/v1/keys?type=Keycard
+curl https://gzw-data.vercel.app/api/v1/medical
 ```
 
 ## Web Console & Documentation
@@ -35,8 +35,8 @@ The API includes a dark, responsive developer console for exploring live dataset
 
 - **Console:** https://gzw-data.vercel.app/
 - **Quick start & API reference:** https://gzw-data.vercel.app/docs/#quickstart
-- **OpenAPI spec:** https://gzw-data.vercel.app/api/spec
-- **API root:** https://gzw-data.vercel.app/api
+- **OpenAPI spec:** https://gzw-data.vercel.app/api/v1/spec
+- **API root:** https://gzw-data.vercel.app/api/v1
 - **JavaScript / TypeScript client:** https://www.npmjs.com/package/@zoniboy/gzw-data-client
 
 The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The official zero-dependency client supports Node.js 18+, modern browsers, JavaScript and TypeScript.
@@ -57,21 +57,21 @@ Both prefixes currently expose the same API contract. New integrations should pr
 
 | Endpoint | Description |
 |----------|-------------|
-| `/api` | API root — lists all endpoints |
-| `/api/<dataset>` | Any dataset by name (auto-discovered) |
-| `/api/<dataset>/<id>` | One dataset record by exact ID |
-| `/api/metadata` | Dataset schema registry (field names and counts) |
-| `/api/metadata/<dataset>` | Detailed schema metadata for one dataset |
-| `/api/metadata?full=true` | Detailed schema metadata for all datasets |
-| `/api/health` | API health, readiness state, dataset count and last scrape |
-| `/api/ready` | Readiness probe; returns 503 until datasets are loaded |
-| `/api/stats` | Item counts for all datasets plus the latest scrape timestamp |
-| `/api/search?q=` | Cross-dataset search |
-| `/api/spec` | OpenAPI 3.0 spec |
-| `/api/images` | All item images (400+) |
-| `/api/armor` | Smart route: vests + helmets + glasses |
-| `/api/weapon_parts` | Smart route: all weapon parts combined |
-| `/api/helmet_mods` | Smart route: night vision + mounts |
+| `/api/v1` | API root — lists all endpoints |
+| `/api/v1/<dataset>` | Any dataset by name (auto-discovered) |
+| `/api/v1/<dataset>/<id>` | One dataset record by exact ID |
+| `/api/v1/metadata` | Dataset schema registry (field names and counts) |
+| `/api/v1/metadata/<dataset>` | Detailed schema metadata for one dataset |
+| `/api/v1/metadata?full=true` | Detailed schema metadata for all datasets |
+| `/api/v1/health` | API health, readiness state, dataset count and last scrape |
+| `/api/v1/ready` | Readiness probe; returns 503 until datasets are loaded |
+| `/api/v1/stats` | Item counts for all datasets plus the latest scrape timestamp |
+| `/api/v1/search?q=` | Cross-dataset search |
+| `/api/v1/spec` | OpenAPI 3.0 spec |
+| `/api/v1/images` | All item images (400+) |
+| `/api/v1/armor` | Smart route: vests + helmets + glasses |
+| `/api/v1/weapon_parts` | Smart route: all weapon parts combined |
+| `/api/v1/helmet_mods` | Smart route: night vision + mounts |
 
 The OpenAPI document also exposes generated dataset schemas under `components.schemas`. These schemas use the same observed field types and optional/nullable metadata as the metadata endpoints, while keeping `additionalProperties: true` for newly discovered wiki fields.
 
