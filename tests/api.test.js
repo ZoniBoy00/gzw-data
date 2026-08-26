@@ -113,18 +113,22 @@ describe('GZW Data API', () => {
   });
 
   it('should return 404 for unknown dataset', () => {
-    const { res, getStatus, getBody } = mockRes();
+    const { res, getStatus, getBody, getHeader } = mockRes();
     handler(mockReq('/api/nonexistent_dataset_xyz'), res);
     assert.strictEqual(getStatus(), 404);
     assert.strictEqual(getBody().error.code, 'ENDPOINT_NOT_FOUND');
     assert.ok(getBody().error.available);
+    assert.strictEqual(getHeader('access-control-allow-origin'), '*');
+    assert.ok(getHeader('x-ratelimit-limit') > 0);
   });
 
   it('should return 405 for non-GET methods', () => {
-    const { res, getStatus, getBody } = mockRes();
+    const { res, getStatus, getBody, getHeader } = mockRes();
     handler(mockReq('/api', 'POST'), res);
     assert.strictEqual(getStatus(), 405);
     assert.strictEqual(getBody().error.code, 'METHOD_NOT_ALLOWED');
+    assert.strictEqual(getHeader('access-control-allow-origin'), '*');
+    assert.ok(getHeader('x-ratelimit-remaining') >= 0);
   });
 
   it('should return health endpoint', () => {
@@ -219,6 +223,18 @@ describe('GZW Data API', () => {
     assert.strictEqual(body.perPage, 5);
     assert.ok(typeof body.total === 'number');
     assert.ok(typeof body.totalPages === 'number');
+  });
+
+  it('should apply limit after filters for datasets and smart routes', () => {
+    const dataset = mockRes();
+    handler(mockReq('/api/weapons?limit=3&all=true'), dataset.res);
+    assert.strictEqual(dataset.getStatus(), 200);
+    assert.strictEqual(dataset.getBody().data.length, 3);
+
+    const smart = mockRes();
+    handler(mockReq('/api/armor?limit=2&all=true'), smart.res);
+    assert.strictEqual(smart.getStatus(), 200);
+    assert.strictEqual(smart.getBody().data.length, 2);
   });
 
   it('should return one dataset record by id', () => {

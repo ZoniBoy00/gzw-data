@@ -245,7 +245,7 @@ function handleRoute(route, params, res, rateInfo) {
     // Apply filters (exclude pagination meta-params)
     const filterParams = new URLSearchParams();
     for (const [k, v] of params.entries()) {
-      if (!['page', 'per_page', 'all', 'limit'].includes(k)) filterParams.set(k, v);
+      if (!['page', 'per_page', 'all'].includes(k)) filterParams.set(k, v);
     }
     items = applyFilters(items, filterParams);
 
@@ -277,7 +277,7 @@ function handleRoute(route, params, res, rateInfo) {
     // Strip pagination meta-params before filtering
     const filterParams = new URLSearchParams();
     for (const [k, v] of params.entries()) {
-      if (!['page', 'per_page', 'all', 'limit'].includes(k)) filterParams.set(k, v);
+      if (!['page', 'per_page', 'all'].includes(k)) filterParams.set(k, v);
     }
     let items = applyFilters(asArray(route), filterParams);
 
@@ -319,14 +319,16 @@ module.exports = (req, res) => {
       return res.status(204).end();
     }
 
+    // Request metadata and rate limit
+    const ip = req.headers['x-forwarded-for']?.split(',')[0] || req.headers['x-real-ip'] || req.socket?.remoteAddress || 'anon';
+    const rateInfo = checkRate(ip);
+    setHeaders(res, rateInfo, 0);
+
     // GET only
     if (req.method !== 'GET') {
       return errorResponse(res, 405, 'METHOD_NOT_ALLOWED', 'Method not allowed', { method: req.method });
     }
 
-    // Rate limit
-    const ip = req.headers['x-forwarded-for']?.split(',')[0] || req.headers['x-real-ip'] || req.socket?.remoteAddress || 'anon';
-    const rateInfo = checkRate(ip);
     if (!rateInfo.allowed) {
       const retryAfter = Math.ceil((rateInfo.reset - Date.now()) / 1000);
       res.setHeader('Retry-After', retryAfter);
