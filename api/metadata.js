@@ -43,7 +43,12 @@ function describeDataset(name, asArray) {
 }
 
 function describeDatasetSummary(name, asArray) {
-  const items = asArray(name);
+  let items = [];
+  try {
+    items = asArray(name);
+  } catch {
+    return { name, file: `${name}.json`, itemCount: 0, fields: [] };
+  }
   const fields = new Set();
   for (const item of items) {
     if (item && typeof item === 'object' && !Array.isArray(item)) {
