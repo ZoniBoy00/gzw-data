@@ -116,15 +116,15 @@ describe('GZW Data API', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/nonexistent_dataset_xyz'), res);
     assert.strictEqual(getStatus(), 404);
-    assert.ok(getBody().error);
-    assert.ok(getBody().available);
+    assert.strictEqual(getBody().error.code, 'ENDPOINT_NOT_FOUND');
+    assert.ok(getBody().error.available);
   });
 
   it('should return 405 for non-GET methods', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api', 'POST'), res);
     assert.strictEqual(getStatus(), 405);
-    assert.ok(getBody().error);
+    assert.strictEqual(getBody().error.code, 'METHOD_NOT_ALLOWED');
   });
 
   it('should return health endpoint', () => {
@@ -177,7 +177,8 @@ describe('GZW Data API', () => {
     const missing = mockRes();
     handler(mockReq('/api/metadata/not-a-real-dataset'), missing.res);
     assert.strictEqual(missing.getStatus(), 404);
-    assert.strictEqual(missing.getBody().dataset, 'not-a-real-dataset');
+    assert.strictEqual(missing.getBody().error.code, 'DATASET_NOT_FOUND');
+    assert.strictEqual(missing.getBody().error.dataset, 'not-a-real-dataset');
   });
 
   it('should paginate results', () => {
@@ -206,8 +207,9 @@ describe('GZW Data API', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/weapons/does-not-exist'), res);
     assert.strictEqual(getStatus(), 404);
-    assert.strictEqual(getBody().dataset, 'weapons');
-    assert.strictEqual(getBody().id, 'does-not-exist');
+    assert.strictEqual(getBody().error.code, 'RECORD_NOT_FOUND');
+    assert.strictEqual(getBody().error.dataset, 'weapons');
+    assert.strictEqual(getBody().error.id, 'does-not-exist');
   });
 
   it('should support ?all=true to disable pagination', () => {
@@ -241,6 +243,9 @@ describe('GZW Data API', () => {
     assert.ok(spec.paths['/api/v1/weapons/{id}']);
     assert.ok(spec.paths['/api/v1/metadata']);
     assert.ok(spec.components?.schemas?.weapons);
+    assert.ok(spec.components.schemas.ApiError);
+    assert.ok(spec.components.schemas.ApiErrorResponse);
+    assert.strictEqual(spec.components.schemas.ApiErrorResponse.properties.error.$ref, '#/components/schemas/ApiError');
     assert.strictEqual(spec.components.schemas.weapons.type, 'object');
     assert.ok(spec.components.schemas.weapons.properties.id);
   });
@@ -292,8 +297,9 @@ describe('GZW Data API', () => {
     const status = getStatus();
     if (status === 429) {
       const body = getBody();
-      assert.ok(body.error.includes('Rate limit'));
-      assert.ok(body.retryAfter > 0);
+      assert.strictEqual(body.error.code, 'RATE_LIMITED');
+      assert.ok(body.error.message.includes('Rate limit'));
+      assert.ok(body.error.retryAfter > 0);
     } else {
       assert.strictEqual(status, 200);
     }

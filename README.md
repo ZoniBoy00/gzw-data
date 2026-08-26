@@ -115,6 +115,24 @@ All data endpoints include `Cache-Control: public, max-age=300` headers. CDN and
 
 Unpaginated responses omit `page`, `perPage`, `total`, `totalPages`.
 
+### Error Response
+
+All HTTP errors use the same response envelope and a stable `error.code`:
+
+```json
+{
+  "error": {
+    "code": "DATASET_NOT_FOUND",
+    "message": "Dataset data not found",
+    "dataset": "foo"
+  },
+  "source": "GZW Data API",
+  "timestamp": "2026-08-26T12:00:00.000Z"
+}
+```
+
+Common codes are `DATASET_NOT_FOUND`, `RECORD_NOT_FOUND`, `ENDPOINT_NOT_FOUND`, `INVALID_REQUEST`, `METHOD_NOT_ALLOWED`, `RATE_LIMITED` and `INTERNAL_ERROR`. Rate-limited responses also include `retryAfter` inside `error` and the `Retry-After` HTTP header.
+
 ### Single-record Response
 
 ```http

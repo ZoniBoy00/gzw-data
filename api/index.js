@@ -1,7 +1,7 @@
 const { CACHE_TTL_SEC } = require("../lib/config");
 const { datasets, loadDatasets, asArray, getLastScrapedAt, buildDatasetRegistry } = require("../lib/datasets");
 const { checkRate } = require("../lib/rate-limit");
-const { setHeaders, json } = require("../lib/response");
+const { setHeaders, json, errorResponse } = require("../lib/response");
 const { paginate, applyFilters, parsePagination } = require("../lib/query");
 const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
@@ -28,10 +28,9 @@ function handleRoute(route, params, res, rateInfo) {
     if (route.startsWith('metadata/') && metadataName) {
       const dataset = getSingleDatasetMetadata(datasets, asArray, getLastScrapedAt(), decodeRoutePart(metadataName));
       if (!dataset) {
-        return res.status(404).json({
-          error: `Metadata not found: /api/metadata/${metadataName}`,
+        return errorResponse(res, 404, 'DATASET_NOT_FOUND', 'Dataset metadata not found', {
           dataset: metadataName,
-          docs: '/api/spec',
+          docs: '/api/v1/spec',
         });
       }
       setHeaders(res, rateInfo, CACHE_TTL_SEC);
@@ -55,11 +54,10 @@ function handleRoute(route, params, res, rateInfo) {
       const record = asArray(datasetName).find(item => String(item.id) === recordId);
       setHeaders(res, rateInfo, CACHE_TTL_SEC);
       if (!record) {
-        return res.status(404).json({
-          error: `Record not found: /api/${datasetName}/${recordId}`,
+        return errorResponse(res, 404, 'RECORD_NOT_FOUND', 'Record not found', {
           dataset: datasetName,
           id: recordId,
-          docs: '/api/spec',
+          docs: '/api/v1/spec',
         });
       }
       return json(res, record);
@@ -123,7 +121,31 @@ function handleRoute(route, params, res, rateInfo) {
         description: 'Comprehensive Gray Zone Warfare game data API.',
       },
       servers: [{ url: 'https://gzw-data.vercel.app' }],
-      components: { schemas },
+      components: {
+        schemas: {
+          ...schemas,
+          ApiError: {
+            type: 'object',
+            required: ['code', 'message'],
+            properties: {
+              code: { type: 'string', example: 'DATASET_NOT_FOUND' },
+              message: { type: 'string', example: 'Dataset not found' },
+              dataset: { type: 'string' },
+              id: { type: 'string' },
+            },
+            additionalProperties: true,
+          },
+          ApiErrorResponse: {
+            type: 'object',
+            required: ['error', 'source', 'timestamp'],
+            properties: {
+              error: { $ref: '#/components/schemas/ApiError' },
+              source: { type: 'string', example: 'GZW Data API' },
+              timestamp: { type: 'string', format: 'date-time' },
+            },
+          },
+        },
+      },
       paths,
     });
   }
@@ -161,7 +183,7 @@ function handleRoute(route, params, res, rateInfo) {
   // ── Search ──
   if (route === 'search') {
     const q = params.get('q');
-    if (!q) return res.status(400).json({ error: 'Missing ?q parameter' });
+    if (!q) return errorResponse(res, 400, 'INVALID_REQUEST', 'Missing ?q parameter', { parameter: 'q' });
     setHeaders(res, rateInfo, 0);
     const query = q.toLowerCase();
     const results = {};
@@ -204,7 +226,7 @@ function handleRoute(route, params, res, rateInfo) {
   // ── Smart routes ──
   if (SMART_ROUTES[route]) {
     let items = getSmartData(route, asArray);
-    if (!items) return res.status(404).json({ error: `No data for ${route}` });
+    if (!items) return errorResponse(res, 404, 'DATASET_NOT_FOUND', 'Dataset data not found', { dataset: route });
 
     // Apply filters (exclude pagination meta-params)
     const filterParams = new URLSearchParams();
@@ -263,11 +285,11 @@ function handleRoute(route, params, res, rateInfo) {
   // ── 404 ──
   const allRoutes = Object.keys(registry).concat(Object.keys(SMART_ROUTES));
   setHeaders(res, rateInfo, 0);
-  res.status(404).json({
-    error: `Not found: /api/${route}`,
+  errorResponse(res, 404, 'ENDPOINT_NOT_FOUND', 'Endpoint not found', {
+    endpoint: route,
     available: allRoutes.sort(),
     hint: 'All .json files in /data are automatically exposed as endpoints.',
-    docs: '/api/spec',
+    docs: '/api/v1/spec',
     playground: '/',
   });
 }
@@ -285,7 +307,7 @@ module.exports = (req, res) => {
 
     // GET only
     if (req.method !== 'GET') {
-      return res.status(405).json({ error: 'Method not allowed' });
+      return errorResponse(res, 405, 'METHOD_NOT_ALLOWED', 'Method not allowed', { method: req.method });
     }
 
     // Rate limit
@@ -294,8 +316,7 @@ module.exports = (req, res) => {
     if (!rateInfo.allowed) {
       const retryAfter = Math.ceil((rateInfo.reset - Date.now()) / 1000);
       res.setHeader('Retry-After', retryAfter);
-      return res.status(429).json({
-        error: 'Rate limit exceeded. Try again later.',
+      return errorResponse(res, 429, 'RATE_LIMITED', 'Rate limit exceeded. Try again later.', {
         retryAfter,
         limit: 100,
         window: '60 seconds',
@@ -311,6 +332,6 @@ module.exports = (req, res) => {
     handleRoute(route, params, res, rateInfo);
   } catch (err) {
     console.error('GZW API Error:', err);
-    res.status(500).json({ error: 'Internal error', message: err.message });
+    errorResponse(res, 500, 'INTERNAL_ERROR', 'Internal error');
   }
 };
