@@ -221,6 +221,9 @@ describe('GZW Data API', () => {
     assert.ok(spec.paths);
     assert.ok(spec.paths['/api/weapons/{id}']);
     assert.strictEqual(spec.paths['/api/weapons/{id}'].get.parameters[0].name, 'id');
+    assert.ok(spec.components?.schemas?.weapons);
+    assert.strictEqual(spec.components.schemas.weapons.type, 'object');
+    assert.ok(spec.components.schemas.weapons.properties.id);
   });
 
   it('should handle smart routes', () => {

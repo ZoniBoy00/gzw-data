@@ -5,7 +5,7 @@ const { setHeaders, json } = require("../lib/response");
 const { paginate, applyFilters, parsePagination } = require("../lib/query");
 const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
-const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata } = require("../lib/metadata");
+const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
 
 loadDatasets();
 
@@ -84,6 +84,8 @@ function handleRoute(route, params, res, rateInfo) {
   if (route === 'spec' || route === 'openapi.json') {
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
     const allKeys = new Set(Object.keys(registry).concat(Object.keys(SMART_ROUTES)));
+    const metadata = getMetadata(datasets, asArray, getLastScrapedAt());
+    const schemas = buildOpenApiSchemas(metadata);
     const paths = {
       '/api': { get: { summary: 'API root' } },
       '/api/metadata': { get: { summary: 'Dataset schema metadata' } },
@@ -116,6 +118,7 @@ function handleRoute(route, params, res, rateInfo) {
         description: 'Comprehensive Gray Zone Warfare game data API.',
       },
       servers: [{ url: 'https://gzw-data.vercel.app' }],
+      components: { schemas },
       paths,
     });
   }

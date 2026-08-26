@@ -66,6 +66,8 @@ Base URL: `https://gzw-data.vercel.app`
 | `/api/weapon_parts` | Smart route: all weapon parts combined |
 | `/api/helmet_mods` | Smart route: night vision + mounts |
 
+The OpenAPI document also exposes generated dataset schemas under `components.schemas`. These schemas use the same observed field types and optional/nullable metadata as the metadata endpoints, while keeping `additionalProperties: true` for newly discovered wiki fields.
+
 ### Query Parameters
 
 | Param | Example | Description |
