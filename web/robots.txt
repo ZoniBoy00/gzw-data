@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+Allow: /api/v1/stats
+Allow: /api/v1/weapons
 Disallow: /api/
+
+Sitemap: https://gzw-data.vercel.app/sitemap.xml
