@@ -145,20 +145,22 @@ function buildRegistryMetadata(registry, lastScrapedAt) {
   return metadata;
 }
 
-function buildBasicMetadata(datasets, asArray, lastScrapedAt) {
+function buildBasicMetadata(datasets, lastScrapedAt) {
   const datasetList = [];
   for (const name of Object.keys(datasets).filter(key => !key.startsWith('_')).sort()) {
-    let itemCount = 0;
-    let fields = [];
-    try {
-      const items = asArray(name);
-      itemCount = items.length;
-      const firstItem = items.find(item => item && typeof item === 'object' && !Array.isArray(item));
-      fields = firstItem ? Object.keys(firstItem).sort() : [];
-    } catch {
-      // Keep the registry available even when one dataset cannot be inspected.
-    }
-    datasetList.push({ name, file: `${name}.json`, itemCount, fields });
+    const raw = datasets[name];
+    const items = Array.isArray(raw)
+      ? raw
+      : raw && typeof raw === 'object'
+        ? Object.values(raw).filter(value => value && typeof value === 'object')
+        : [];
+    const sample = items.find(item => item && typeof item === 'object' && !Array.isArray(item));
+    datasetList.push({
+      name,
+      file: `${name}.json`,
+      itemCount: items.length,
+      fields: sample ? Object.keys(sample).sort() : [],
+    });
   }
   const metadata = {
     source: datasets._metadata?.source || 'gzw-scraper',
