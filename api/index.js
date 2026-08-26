@@ -66,7 +66,10 @@ function buildDatasetRegistry() {
   return registry;
 }
 
-// ─── Rate limiter (sliding window) ───
+// ─── Rate limiter (best-effort sliding window) ───
+// Vercel functions do not share memory across all instances. This limiter
+// protects warm instances and helps absorb bursts, but it is not a strict
+// global per-IP quota. Use a shared datastore if a hard quota is required.
 const hits = {};
 
 function checkRate(ip) {

@@ -77,9 +77,12 @@ Base URL: `https://gzw-data.vercel.app`
 
 ### Rate Limiting
 
-- **100 requests/minute/IP**
+The API advertises a **best-effort limit of 100 requests/minute/IP**. The current sliding-window limiter keeps counters in the memory of each warm serverless function instance. Because Vercel can run multiple instances that do not share memory, this is not a strict global quota and should not be treated as an abuse-prevention guarantee.
+
 - Headers: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`
-- Returns `429` with `Retry-After` header when exceeded
+- Returns `429` with `Retry-After` header when the active instance limit is exceeded
+- Clients should cache responses, respect `Retry-After`, and avoid unnecessary polling
+- A shared datastore such as Upstash Redis or Vercel KV would be required for a strict global quota
 
 ### Caching
 
