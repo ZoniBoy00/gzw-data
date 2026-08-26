@@ -86,6 +86,8 @@ function handleRoute(route, params, res, rateInfo) {
     const schemas = buildOpenApiSchemas(metadata);
     const paths = {
       '/api': { get: { summary: 'API root' } },
+      '/api/health': { get: { summary: 'API health and dataset status' } },
+      '/api/ready': { get: { summary: 'Readiness probe for loaded datasets' } },
       '/api/metadata': { get: { summary: 'Dataset schema metadata' } },
       '/api/metadata/{dataset}': {
         get: {
@@ -150,20 +152,31 @@ function handleRoute(route, params, res, rateInfo) {
     });
   }
 
-  // ── Health / Debug ──
-  if (route === 'health' || route === 'debug') {
-    setHeaders(res, rateInfo, 0);
+  // ── Health / readiness / debug ──
+  if (route === 'health' || route === 'ready' || route === 'debug') {
     const loaded = {};
+    let datasetCount = 0;
     for (const [key, val] of Object.entries(datasets)) {
+      if (key.startsWith('_')) continue;
       loaded[key] = Array.isArray(val) ? val.length : (val ? 'object' : 'empty');
+      if (val) datasetCount += 1;
+    }
+    const ready = datasetCount > 0;
+    setHeaders(res, rateInfo, 0);
+    if (route === 'ready' && !ready) {
+      return errorResponse(res, 503, 'NOT_READY', 'API datasets are not ready', { datasetCount });
     }
     return json(res, {
-      ok: true,
+      ok: ready,
+      status: ready ? 'ok' : 'degraded',
+      ready,
+      apiVersion: 'v1',
       version: '4.0.0',
+      datasetCount,
       datasets: loaded,
       smartRoutes: Object.keys(SMART_ROUTES),
       lastScrapedAt: getLastScrapedAt(),
-    });
+    }, route === 'ready' ? 200 : 200);
   }
 
   // ── Stats ──

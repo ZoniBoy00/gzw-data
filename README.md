@@ -63,6 +63,8 @@ Both prefixes currently expose the same API contract. New integrations should pr
 | `/api/metadata` | Dataset schema registry (field names and counts) |
 | `/api/metadata/<dataset>` | Detailed schema metadata for one dataset |
 | `/api/metadata?full=true` | Detailed schema metadata for all datasets |
+| `/api/health` | API health, readiness state, dataset count and last scrape |
+| `/api/ready` | Readiness probe; returns 503 until datasets are loaded |
 | `/api/stats` | Item counts for all datasets plus the latest scrape timestamp |
 | `/api/search?q=` | Cross-dataset search |
 | `/api/spec` | OpenAPI 3.0 spec |

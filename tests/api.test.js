@@ -132,8 +132,31 @@ describe('GZW Data API', () => {
     handler(mockReq('/api/health'), res);
     assert.strictEqual(getStatus(), 200);
     assert.strictEqual(getBody().data.ok, true);
+    assert.strictEqual(getBody().data.status, 'ok');
+    assert.strictEqual(getBody().data.ready, true);
+    assert.strictEqual(getBody().data.apiVersion, 'v1');
+    assert.ok(getBody().data.datasetCount > 0);
     assert.strictEqual(getBody().data.version, '4.0.0');
     assert.ok(Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
+  });
+
+  it('should return ready endpoint when datasets are loaded', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/ready'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.strictEqual(getBody().data.ready, true);
+    assert.strictEqual(getBody().data.status, 'ok');
+    assert.ok(getBody().data.datasetCount > 0);
+  });
+
+  it('should advertise health and readiness in OpenAPI', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/spec'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.ok(getBody().paths['/api/health']);
+    assert.ok(getBody().paths['/api/ready']);
+    assert.ok(getBody().paths['/api/v1/health']);
+    assert.ok(getBody().paths['/api/v1/ready']);
   });
 
   it('should return stats endpoint', () => {
