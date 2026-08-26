@@ -5,6 +5,7 @@ const { setHeaders, json } = require("./response");
 const { paginate, applyFilters, parsePagination } = require("./query");
 const { parseRoute, decodeRoutePart } = require("./routing");
 const { SMART_ROUTES, getSmartData } = require("./smart-routes");
+const { buildMetadata, getMetadata, getDatasetMetadata } = require("./metadata");
 
 loadDatasets();
 
@@ -14,6 +15,26 @@ function handleRoute(route, params, res, rateInfo) {
   const registry = buildDatasetRegistry();
   const { page, perPage } = parsePagination(params);
   const wantAll = params.get('all') === 'true';
+
+  // ── Generated dataset metadata ──
+  if (route === 'metadata' || route.startsWith('metadata/')) {
+    const metadata = getMetadata(datasets, asArray, getLastScrapedAt());
+    const metadataName = route.slice('metadata/'.length);
+    if (route.startsWith('metadata/') && metadataName) {
+      const dataset = getDatasetMetadata(metadata, decodeRoutePart(metadataName));
+      if (!dataset) {
+        return res.status(404).json({
+          error: `Metadata not found: /api/metadata/${metadataName}`,
+          dataset: metadataName,
+          docs: '/api/spec',
+        });
+      }
+      setHeaders(res, rateInfo, CACHE_TTL_SEC);
+      return json(res, dataset);
+    }
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    return json(res, metadata);
+  }
 
   // ── Single-record dataset route ──
   // Dataset records are addressed as /api/{dataset}/{id}. Keep the existing
@@ -41,7 +62,7 @@ function handleRoute(route, params, res, rateInfo) {
   if (route === 'root') {
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
     const allKeys = new Set(Object.keys(registry).concat(Object.keys(SMART_ROUTES)));
-    const endpoints = [...allKeys].sort();
+    const endpoints = [...allKeys, 'metadata'].sort();
     return json(res, {
       name: 'GZW Data API',
       version: '4.0.0',
@@ -55,7 +76,16 @@ function handleRoute(route, params, res, rateInfo) {
   if (route === 'spec' || route === 'openapi.json') {
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
     const allKeys = new Set(Object.keys(registry).concat(Object.keys(SMART_ROUTES)));
-    const paths = { '/api': { get: { summary: 'API root' } } };
+    const paths = {
+      '/api': { get: { summary: 'API root' } },
+      '/api/metadata': { get: { summary: 'Dataset schema metadata' } },
+      '/api/metadata/{dataset}': {
+        get: {
+          summary: 'Get schema metadata for one dataset',
+          parameters: [{ name: 'dataset', in: 'path', required: true, schema: { type: 'string' } }],
+        },
+      },
+    };
     for (const key of allKeys) {
       const isSmart = SMART_ROUTES[key];
       paths[`/api/${key}`] = {

@@ -131,6 +131,32 @@ describe('GZW Data API', () => {
     }
   });
 
+  it('should return generated metadata for all datasets', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/metadata'), res);
+    assert.strictEqual(getStatus(), 200);
+    const metadata = getBody().data;
+    assert.ok(metadata.datasetCount > 0);
+    assert.ok(Array.isArray(metadata.datasets));
+    const weapons = metadata.datasets.find(dataset => dataset.name === 'weapons');
+    assert.ok(weapons);
+    assert.ok(weapons.itemCount > 0);
+    assert.ok(weapons.fields.id);
+    assert.ok(Array.isArray(weapons.fields.id.types));
+  });
+
+  it('should return metadata for one dataset and 404 for an unknown dataset', () => {
+    const found = mockRes();
+    handler(mockReq('/api/metadata/weapons'), found.res);
+    assert.strictEqual(found.getStatus(), 200);
+    assert.strictEqual(found.getBody().data.name, 'weapons');
+
+    const missing = mockRes();
+    handler(mockReq('/api/metadata/not-a-real-dataset'), missing.res);
+    assert.strictEqual(missing.getStatus(), 404);
+    assert.strictEqual(missing.getBody().dataset, 'not-a-real-dataset');
+  });
+
   it('should paginate results', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/weapons?page=1&per_page=5'), res);
