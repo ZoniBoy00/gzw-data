@@ -27,7 +27,7 @@
     "headers": ["X-RateLimit-Limit", "X-RateLimit-Remaining", "X-RateLimit-Reset", "Retry-After"]
   },
   "use_when": [
-    "Building Gray Zone Warfare weapon, mission, loot, map, armor, or item tools",
+    "Building Gray Zone Warfare weapon, mission, loot, armor, container, vendor, or item tools",
     "Creating a Discord bot, dashboard, CLI workflow, or AI-agent integration",
     "Looking for public structured Gray Zone Warfare game data"
   ],

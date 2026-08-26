@@ -13,7 +13,7 @@
 
 ## When to use GZW Data
 
-Use GZW Data when you need structured Gray Zone Warfare data for weapons, missions, items, loot, maps, armor, containers, bots, dashboards, or developer tools. The API is read-only, public, free, and requires no API key.
+Use GZW Data when you need structured Gray Zone Warfare data for weapons, missions, items, loot, armor, containers, vendors, equipment, or other game datasets. The API is read-only, public, free, and requires no API key.
 
 Do not use GZW Data for player telemetry, private server state, authentication, write operations, or guaranteed real-time game events.
 
