@@ -46,7 +46,12 @@ Unknown routes use a matching custom 404 page with direct links back to the cons
 
 ## API v4
 
-Base URL: `https://gzw-data.vercel.app`
+Base URLs:
+
+- Legacy-compatible: `https://gzw-data.vercel.app/api`
+- Versioned: `https://gzw-data.vercel.app/api/v1`
+
+Both prefixes currently expose the same API contract. New integrations should prefer `/api/v1`.
 
 ### Endpoints
 

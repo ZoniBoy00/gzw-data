@@ -59,6 +59,23 @@ function mockRes() {
 }
 
 describe('GZW Data API', () => {
+  it('should support the versioned v1 API prefix', () => {
+    const root = mockRes();
+    handler(mockReq('/api/v1'), root.res);
+    assert.strictEqual(root.getStatus(), 200);
+    assert.strictEqual(root.getBody().data.name, 'GZW Data API');
+
+    const record = mockRes();
+    handler(mockReq('/api/v1/weapons/ak-12'), record.res);
+    assert.strictEqual(record.getStatus(), 200);
+    assert.strictEqual(record.getBody().data.id, 'ak-12');
+
+    const metadata = mockRes();
+    handler(mockReq('/api/v1/metadata/weapons'), metadata.res);
+    assert.strictEqual(metadata.getStatus(), 200);
+    assert.strictEqual(metadata.getBody().data.name, 'weapons');
+  });
+
   it('should return API root on GET /api', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api'), res);
@@ -221,6 +238,8 @@ describe('GZW Data API', () => {
     assert.ok(spec.paths);
     assert.ok(spec.paths['/api/weapons/{id}']);
     assert.strictEqual(spec.paths['/api/weapons/{id}'].get.parameters[0].name, 'id');
+    assert.ok(spec.paths['/api/v1/weapons/{id}']);
+    assert.ok(spec.paths['/api/v1/metadata']);
     assert.ok(spec.components?.schemas?.weapons);
     assert.strictEqual(spec.components.schemas.weapons.type, 'object');
     assert.ok(spec.components.schemas.weapons.properties.id);

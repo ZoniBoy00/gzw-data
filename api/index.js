@@ -110,6 +110,11 @@ function handleRoute(route, params, res, rateInfo) {
         };
       }
     }
+    for (const [apiPath, operation] of Object.entries(paths)) {
+      if (apiPath.startsWith('/api')) {
+        paths[`/api/v1${apiPath.slice('/api'.length)}`] = operation;
+      }
+    }
     return res.json({
       openapi: '3.0.3',
       info: {
