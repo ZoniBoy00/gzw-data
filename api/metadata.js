@@ -8,12 +8,15 @@ function typeOf(value) {
 }
 
 function stableValueKey(value) {
-  return JSON.stringify(value, Object.keys(value || {}).sort());
+  if (value && typeof value === 'object' && !Array.isArray(value)) {
+    return JSON.stringify(value, Object.keys(value).sort());
+  }
+  return JSON.stringify(value);
 }
 
 function describeDataset(name, asArray) {
   const items = asArray(name);
-  const valuesByField = {};
+  const valuesByField = Object.create(null);
   for (const item of items) {
     if (!item || typeof item !== 'object' || Array.isArray(item)) continue;
     for (const [field, value] of Object.entries(item)) {
@@ -39,6 +42,21 @@ function describeDataset(name, asArray) {
   return { name, file: `${name}.json`, itemCount: items.length, fields };
 }
 
+function describeDatasetSummary(name, asArray) {
+  const items = asArray(name);
+  const fields = new Set();
+  for (const item of items) {
+    if (item && typeof item === 'object' && !Array.isArray(item)) {
+      for (const field of Object.keys(item)) fields.add(field);
+    }
+  }
+  return { name, file: `${name}.json`, itemCount: items.length, fields: [...fields].sort() };
+}
+
+function datasetNames(datasets) {
+  return Object.keys(datasets).filter(name => !name.startsWith('_')).sort();
+}
+
 function buildMetadata(datasets, asArray, lastScrapedAt) {
   const generated = datasets._metadata;
   if (generated && Array.isArray(generated.datasets)) {
@@ -52,39 +70,56 @@ function buildMetadata(datasets, asArray, lastScrapedAt) {
 
   const metadata = {
     source: 'gzw-scraper',
-    datasetCount: Object.keys(datasets).filter(name => !name.startsWith('_')).length,
-    datasets: Object.keys(datasets)
-      .filter(name => !name.startsWith('_'))
-      .sort()
-      .map(name => describeDataset(name, asArray)),
+    datasetCount: datasetNames(datasets).length,
+    datasets: datasetNames(datasets).map(name => describeDataset(name, asArray)),
+  };
+  if (lastScrapedAt) metadata.lastScrapedAt = lastScrapedAt;
+  return metadata;
+}
+
+function buildSummaryMetadata(datasets, asArray, lastScrapedAt) {
+  const metadata = {
+    source: datasets._metadata?.source || 'gzw-scraper',
+    datasetCount: datasetNames(datasets).length,
+    datasets: datasetNames(datasets).map(name => describeDatasetSummary(name, asArray)),
   };
   if (lastScrapedAt) metadata.lastScrapedAt = lastScrapedAt;
   return metadata;
 }
 
 let metadataCache;
+let summaryCache;
 
 function getMetadata(datasets, asArray, lastScrapedAt) {
   if (!metadataCache) metadataCache = buildMetadata(datasets, asArray, lastScrapedAt);
   return metadataCache;
 }
 
+function getSummaryMetadata(datasets, asArray, lastScrapedAt) {
+  if (!summaryCache) summaryCache = buildSummaryMetadata(datasets, asArray, lastScrapedAt);
+  return summaryCache;
+}
+
 function getDatasetMetadata(metadata, name) {
   return metadata.datasets.find(dataset => dataset.name === name);
 }
 
-function summarizeMetadata(metadata) {
-  return {
-    source: metadata.source,
-    datasetCount: metadata.datasetCount,
-    ...(metadata.lastScrapedAt ? { lastScrapedAt: metadata.lastScrapedAt } : {}),
-    datasets: metadata.datasets.map(dataset => ({
-      name: dataset.name,
-      file: dataset.file,
-      itemCount: dataset.itemCount,
-      fields: Object.keys(dataset.fields).sort(),
-    })),
-  };
+function getSingleDatasetMetadata(datasets, asArray, lastScrapedAt, name) {
+  const generated = datasets._metadata;
+  if (generated && Array.isArray(generated.datasets)) {
+    const existing = generated.datasets.find(dataset => dataset.name === name);
+    if (existing) return existing;
+  }
+  if (!Object.prototype.hasOwnProperty.call(datasets, name)) return undefined;
+  const dataset = describeDataset(name, asArray);
+  return lastScrapedAt ? { ...dataset, lastScrapedAt } : dataset;
 }
 
-module.exports = { buildMetadata, getMetadata, getDatasetMetadata, summarizeMetadata };
+module.exports = {
+  buildMetadata,
+  getMetadata,
+  getSummaryMetadata,
+  getDatasetMetadata,
+  getSingleDatasetMetadata,
+  summarizeMetadata: buildSummaryMetadata,
+};

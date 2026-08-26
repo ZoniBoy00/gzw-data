@@ -5,7 +5,7 @@ const { setHeaders, json } = require("./response");
 const { paginate, applyFilters, parsePagination } = require("./query");
 const { parseRoute, decodeRoutePart } = require("./routing");
 const { SMART_ROUTES, getSmartData } = require("./smart-routes");
-const { buildMetadata, getMetadata, getDatasetMetadata, summarizeMetadata } = require("./metadata");
+const { buildMetadata, getMetadata, getSummaryMetadata, getSingleDatasetMetadata } = require("./metadata");
 
 loadDatasets();
 
@@ -18,10 +18,9 @@ function handleRoute(route, params, res, rateInfo) {
 
   // ── Generated dataset metadata ──
   if (route === 'metadata' || route.startsWith('metadata/')) {
-    const metadata = getMetadata(datasets, asArray, getLastScrapedAt());
     const metadataName = route.slice('metadata/'.length);
     if (route.startsWith('metadata/') && metadataName) {
-      const dataset = getDatasetMetadata(metadata, decodeRoutePart(metadataName));
+      const dataset = getSingleDatasetMetadata(datasets, asArray, getLastScrapedAt(), decodeRoutePart(metadataName));
       if (!dataset) {
         return res.status(404).json({
           error: `Metadata not found: /api/metadata/${metadataName}`,
@@ -32,9 +31,11 @@ function handleRoute(route, params, res, rateInfo) {
       setHeaders(res, rateInfo, CACHE_TTL_SEC);
       return json(res, dataset);
     }
+    const metadata = params.get('full') === 'true'
+      ? getMetadata(datasets, asArray, getLastScrapedAt())
+      : getSummaryMetadata(datasets, asArray, getLastScrapedAt());
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
-    const responseMetadata = params.get('full') === 'true' ? metadata : summarizeMetadata(metadata);
-    return json(res, responseMetadata);
+    return json(res, metadata);
   }
 
   // ── Single-record dataset route ──
