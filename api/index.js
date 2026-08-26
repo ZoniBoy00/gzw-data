@@ -123,7 +123,7 @@ function handleRoute(route, params, res, rateInfo) {
         version: '4.0.0',
         description: 'Comprehensive Gray Zone Warfare game data API.',
       },
-      servers: [{ url: 'https://gzw-data.vercel.app' }],
+      servers: [{ url: 'https://gzw-data.dev' }],
       components: {
         schemas: {
           ...schemas,

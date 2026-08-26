@@ -4,4 +4,4 @@ Allow: /api/v1/stats
 Allow: /api/v1/weapons
 Disallow: /api/
 
-Sitemap: https://gzw-data.vercel.app/sitemap.xml
+Sitemap: https://gzw-data.dev/sitemap.xml

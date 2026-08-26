@@ -9,9 +9,9 @@ Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fando
 
 > **Free Gray Zone Warfare API for weapons, missions, loot, armor and game data.** No API key required.
 
-- **Live API:** https://gzw-data.vercel.app/api/v1
-- **API Reference:** https://gzw-data.vercel.app/docs/
-- **OpenAPI spec:** https://gzw-data.vercel.app/api/v1/spec
+- **Live API:** https://gzw-data.dev/api/v1
+- **API Reference:** https://gzw-data.dev/docs/
+- **OpenAPI spec:** https://gzw-data.dev/api/v1/spec
 - **JavaScript / TypeScript client:** [@zoniboy/gzw-data-client](https://www.npmjs.com/package/@zoniboy/gzw-data-client)
 - **Discord bot example:** [`examples/discord-bot`](./examples/discord-bot)
 
@@ -23,20 +23,20 @@ The API is intended for community tools, Discord bots, dashboards and other Gray
 curl https://raw.githubusercontent.com/ZoniBoy00/gzw-data/main/data/weapons.json
 
 # Or via the API (auto-deployed)
-curl https://gzw-data.vercel.app/api/v1/weapons
-curl https://gzw-data.vercel.app/api/v1/weapons/ak-12
-curl https://gzw-data.vercel.app/api/v1/keys?type=Keycard
-curl https://gzw-data.vercel.app/api/v1/medical
+curl https://gzw-data.dev/api/v1/weapons
+curl https://gzw-data.dev/api/v1/weapons/ak-12
+curl https://gzw-data.dev/api/v1/keys?type=Keycard
+curl https://gzw-data.dev/api/v1/medical
 ```
 
 ## Web Console & Documentation
 
 The API includes a dark, responsive developer console for exploring live datasets and copying request examples:
 
-- **Console:** https://gzw-data.vercel.app/
-- **Quick start & API reference:** https://gzw-data.vercel.app/docs/#quickstart
-- **OpenAPI spec:** https://gzw-data.vercel.app/api/v1/spec
-- **API root:** https://gzw-data.vercel.app/api/v1
+- **Console:** https://gzw-data.dev/
+- **Quick start & API reference:** https://gzw-data.dev/docs/#quickstart
+- **OpenAPI spec:** https://gzw-data.dev/api/v1/spec
+- **API root:** https://gzw-data.dev/api/v1
 - **JavaScript / TypeScript client:** https://www.npmjs.com/package/@zoniboy/gzw-data-client
 
 The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The official zero-dependency client supports Node.js 18+, modern browsers, JavaScript and TypeScript.
@@ -48,8 +48,8 @@ Unknown routes use a matching custom 404 page with direct links back to the cons
 
 Base URLs:
 
-- Legacy-compatible: `https://gzw-data.vercel.app/api`
-- Versioned: `https://gzw-data.vercel.app/api/v1`
+- Legacy-compatible: `https://gzw-data.dev/api`
+- Versioned: `https://gzw-data.dev/api/v1`
 
 Both prefixes currently expose the same API contract. New integrations should prefer `/api/v1`.
 

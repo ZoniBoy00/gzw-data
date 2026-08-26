@@ -13,7 +13,7 @@ const {
   DISCORD_TOKEN,
   DISCORD_CLIENT_ID,
   DISCORD_GUILD_ID,
-  GZW_API_BASE_URL = "https://gzw-data.vercel.app/api/v1",
+  GZW_API_BASE_URL = "https://gzw-data.dev/api/v1",
 } = process.env;
 
 if (!DISCORD_TOKEN || !DISCORD_CLIENT_ID) {
@@ -60,7 +60,7 @@ function recordEmbed(record, title = record.name || record.id || "GZW record") {
   const embed = new EmbedBuilder()
     .setTitle(trimValue(title, 256))
     .setColor(0xd9775f)
-    .setFooter({ text: "GZW Data API · gzw-data.vercel.app" });
+    .setFooter({ text: "GZW Data API · gzw-data.dev" });
 
   for (const [key, value] of Object.entries(record)) {
     if (["id", "name", "image"].includes(key) || value === null || value === undefined) continue;
@@ -124,7 +124,7 @@ client.on("interactionCreate", async (interaction) => {
       .setTitle(`GZW search: ${query}`)
       .setColor(0xd9775f)
       .setDescription(records.map(({ dataset, record }) => `**${dataset}** · ${record.name || record.id}`).join("\n"))
-      .setFooter({ text: "GZW Data API · gzw-data.vercel.app" });
+      .setFooter({ text: "GZW Data API · gzw-data.dev" });
     await interaction.editReply({ embeds: [embed] });
   } catch (error) {
     await interaction.editReply(`Could not load GZW data: ${error.message}`);
