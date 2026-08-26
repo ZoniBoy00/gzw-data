@@ -7,8 +7,87 @@ const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
 const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
 
+const WEAPON_PART_DATASETS = [
+  'ammo', 'barrels', 'buffer_tubes', 'charging_handle', 'collimators',
+  'foregrips', 'front_iron_sights', 'gas_blocks', 'handguards', 'helmet_mounts',
+  'magazines', 'mounts', 'muzzle_devices', 'pistol_grips', 'rear_iron_sights',
+  'scopes', 'suppressors', 'stocks', 'stock_adapters', 'upper_receivers', 'weapon_parts',
+];
+
 loadDatasets();
 setDataVersion(getLastScrapedAt());
+
+// ─── Related data helpers ───
+
+function findRecord(datasetName, recordId) {
+  return asArray(datasetName).find(item => String(item.id) === recordId) || null;
+}
+
+function normalized(value) {
+  return String(value || '').trim().toLowerCase();
+}
+
+function recordReferences(record, targetValues) {
+  return Object.values(record).some(value => {
+    if (typeof value !== 'string') return false;
+    const candidate = normalized(value);
+    return targetValues.some(target => candidate === target || candidate.includes(target));
+  });
+}
+
+function buildItemContext(recordId) {
+  const item = findRecord('items', recordId);
+  if (!item) return null;
+
+  const targetValues = [normalized(item.id), normalized(item.name)].filter(Boolean);
+  const references = [];
+  for (const [datasetName, raw] of Object.entries(datasets)) {
+    if (datasetName.startsWith('_') || datasetName === 'items' || !Array.isArray(raw)) continue;
+    for (const record of asArray(datasetName)) {
+      if (recordReferences(record, targetValues)) {
+        references.push({ dataset: datasetName, record });
+      }
+    }
+  }
+
+  const vendorNames = new Set();
+  if (typeof item.sold_by === 'string') {
+    for (const part of item.sold_by.split(/[,/]/)) {
+      const vendorName = part.trim().replace(/\s+R\.\d+$/i, '');
+      if (vendorName && vendorName !== '???') vendorNames.add(normalized(vendorName));
+    }
+  }
+  const vendors = asArray('vendors').filter(vendor => vendorNames.has(normalized(vendor.name)));
+
+  return {
+    item,
+    vendors,
+    references,
+    referenceCount: references.length,
+    note: 'References are exact or textual matches found in the current datasets; they are not guaranteed gameplay relationships.',
+  };
+}
+
+function buildWeaponParts(weaponId) {
+  const weapon = findRecord('weapons', weaponId);
+  if (!weapon) return null;
+
+  const partsByDataset = {};
+  for (const datasetName of WEAPON_PART_DATASETS) {
+    const parts = asArray(datasetName);
+    if (parts.length > 0) partsByDataset[datasetName] = parts;
+  }
+
+  return {
+    weapon,
+    availableParts: partsByDataset,
+    datasetCount: Object.keys(partsByDataset).length,
+    compatibility: {
+      status: 'not_available',
+      message: 'The current data does not model weapon-to-part compatibility yet.',
+    },
+  };
+}
 
 // ─── Routes ───
 
@@ -42,6 +121,36 @@ function handleRoute(route, params, res, rateInfo) {
       : buildRegistryMetadata(registry, getLastScrapedAt());
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
     return json(res, metadata);
+  }
+
+  // ── Related data routes ──
+  const relatedParts = route.split('/').filter(Boolean);
+  if (relatedParts.length === 3 && relatedParts[1] && relatedParts[2]) {
+    const datasetName = decodeRoutePart(relatedParts[0]);
+    const recordId = decodeRoutePart(relatedParts[1]);
+    const relation = relatedParts[2];
+
+    if (datasetName === 'items' && relation === 'context') {
+      const context = buildItemContext(recordId);
+      setHeaders(res, rateInfo, CACHE_TTL_SEC);
+      if (!context) {
+        return errorResponse(res, 404, 'RECORD_NOT_FOUND', 'Item not found', {
+          dataset: 'items', id: recordId, docs: '/api/v1/spec',
+        });
+      }
+      return json(res, context);
+    }
+
+    if (datasetName === 'weapons' && relation === 'parts') {
+      const context = buildWeaponParts(recordId);
+      setHeaders(res, rateInfo, CACHE_TTL_SEC);
+      if (!context) {
+        return errorResponse(res, 404, 'RECORD_NOT_FOUND', 'Weapon not found', {
+          dataset: 'weapons', id: recordId, docs: '/api/v1/spec',
+        });
+      }
+      return json(res, context);
+    }
   }
 
   // ── Single-record dataset route ──
@@ -94,6 +203,18 @@ function handleRoute(route, params, res, rateInfo) {
         get: {
           summary: 'Get schema metadata for one dataset',
           parameters: [{ name: 'dataset', in: 'path', required: true, schema: { type: 'string' } }],
+        },
+      },
+      '/api/items/{id}/context': {
+        get: {
+          summary: 'Get an item with related vendor and dataset references',
+          parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string' } }],
+        },
+      },
+      '/api/weapons/{id}/parts': {
+        get: {
+          summary: 'Get available weapon-part datasets for a weapon',
+          parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string' } }],
         },
       },
     };

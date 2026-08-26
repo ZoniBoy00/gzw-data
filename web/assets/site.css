@@ -167,6 +167,8 @@ td:first-child { color: var(--text); font-weight: 650; }
 .api-fact-wide strong { color: var(--teal); }
 .api-fact span:last-child { display: block; color: var(--muted); font-size: 12px; line-height: 1.55; }
 
+.docs-note { margin-top: 14px; color: var(--subtle); font-size: 12px; line-height: 1.6; }
+
 .docs-layout { display: grid; grid-template-columns: minmax(0, 1fr) 210px; gap: 44px; align-items: start; }
 .docs-content { min-width: 0; }
 .docs-content section { scroll-margin-top: 100px; margin-bottom: 47px; }
