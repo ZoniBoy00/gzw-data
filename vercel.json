@@ -5,6 +5,15 @@
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.js" }
+    { "source": "/api/(.*)", "destination": "/api/index.js" },
+    { "source": "/assets/(.*)", "destination": "/web/assets/$1" },
+    { "source": "/privacy-policy", "destination": "/web/legal/privacy-policy/index.html" },
+    { "source": "/privacy-policy/", "destination": "/web/legal/privacy-policy/index.html" },
+    { "source": "/terms-of-service", "destination": "/web/legal/terms-of-service/index.html" },
+    { "source": "/terms-of-service/", "destination": "/web/legal/terms-of-service/index.html" },
+    { "source": "/docs", "destination": "/web/docs/index.html" },
+    { "source": "/docs/", "destination": "/web/docs/index.html" },
+    { "source": "/404.html", "destination": "/web/404.html" },
+    { "source": "/", "destination": "/web/index.html" }
   ]
 }
