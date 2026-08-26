@@ -120,8 +120,24 @@ function getSingleDatasetMetadata(datasets, asArray, lastScrapedAt, name) {
   return lastScrapedAt ? { ...dataset, lastScrapedAt } : dataset;
 }
 
+function buildRegistryMetadata(registry, lastScrapedAt) {
+  const metadata = {
+    source: 'gzw-scraper',
+    datasetCount: Object.keys(registry).length,
+    datasets: Object.keys(registry).sort().map(name => ({
+      name,
+      file: `${name}.json`,
+      itemCount: registry[name].count,
+      fields: [...new Set(['id', 'name', ...registry[name].filters])].sort(),
+    })),
+  };
+  if (lastScrapedAt) metadata.lastScrapedAt = lastScrapedAt;
+  return metadata;
+}
+
 module.exports = {
   buildMetadata,
+  buildRegistryMetadata,
   getMetadata,
   getSummaryMetadata,
   getDatasetMetadata,
