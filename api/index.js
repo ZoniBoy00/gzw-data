@@ -6,6 +6,7 @@ const { paginate, applyFilters, parsePagination, matchesSearch } = require("../l
 const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
 const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
+const { buildSnapshot, getSnapshotHistory, buildChanges } = require("../lib/snapshots");
 
 loadDatasets();
 setDataVersion(getLastScrapedAt());
@@ -160,6 +161,7 @@ function handleRoute(route, params, res, rateInfo) {
       '/api/health': { get: { summary: 'API health and dataset status' } },
       '/api/ready': { get: { summary: 'Readiness probe for loaded datasets' } },
       '/api/version': { get: { summary: 'API and dataset version information' } },
+      '/api/changes': { get: { summary: 'Changes since the latest stored dataset snapshot' } },
       '/api/metadata': { get: { summary: 'Dataset schema metadata' } },
       '/api/metadata/{dataset}': {
         get: {
@@ -252,10 +254,18 @@ function handleRoute(route, params, res, rateInfo) {
       baseUrl: 'https://gzw-data.dev/api/v1',
       openapi: 'https://gzw-data.dev/api/v1/spec',
       dataVersion: getLastScrapedAt(),
+      snapshot: buildSnapshot(datasets, asArray, getLastScrapedAt()),
+      historyCount: getSnapshotHistory(datasets, asArray, getLastScrapedAt()).length,
       datasetCount: Object.keys(registry).length,
       datasets: Object.keys(registry).sort(),
       source: 'https://github.com/ZoniBoy00/gzw-data',
     });
+  }
+
+  // ── Changes ──
+  if (route === 'changes') {
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    return json(res, buildChanges(datasets, asArray, getLastScrapedAt()));
   }
 
   // ── Health / readiness / debug ──

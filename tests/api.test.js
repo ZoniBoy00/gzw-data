@@ -3,6 +3,7 @@
 const { describe, it, before } = require('node:test');
 const assert = require('node:assert');
 const path = require('node:path');
+const { buildChanges } = require(path.join(__dirname, '..', 'lib', 'snapshots'));
 
 // We test the API by simulating Vercel-like requests.
 // The api/index.js exports a (req, res) handler.
@@ -304,8 +305,46 @@ describe('GZW Data API', () => {
     assert.strictEqual(version.baseUrl, 'https://gzw-data.dev/api/v1');
     assert.strictEqual(version.openapi, 'https://gzw-data.dev/api/v1/spec');
     assert.ok(typeof version.dataVersion === 'string');
+    assert.ok(version.snapshot);
+    assert.strictEqual(version.snapshot.version, version.dataVersion);
+    assert.strictEqual(version.historyCount, 1);
     assert.ok(version.datasetCount > 0);
     assert.ok(Array.isArray(version.datasets));
+  });
+
+  it('should return an honest empty changes report for the first snapshot', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/changes'), res);
+    assert.strictEqual(getStatus(), 200);
+    const changes = getBody().data;
+    assert.strictEqual(changes.hasHistory, false);
+    assert.strictEqual(changes.historyCount, 1);
+    assert.strictEqual(changes.previous, null);
+    assert.deepStrictEqual(changes.changes.datasets, []);
+    assert.match(changes.message, /next stored snapshot/);
+  });
+
+  it('should calculate dataset count changes between snapshots', () => {
+    const datasets = {
+      _history: [{
+        version: '2026-08-25T00:00:00.000Z',
+        datasets: { weapons: 40, tasks: 10, old_data: 2 },
+      }],
+      weapons: [{ id: 'a' }, { id: 'b' }, { id: 'c' }],
+      tasks: [{ id: 'task' }],
+      new_data: [{ id: 'new' }],
+    };
+    const asArray = (name) => Array.isArray(datasets[name]) ? datasets[name] : [];
+    const changes = buildChanges(datasets, asArray, '2026-08-26T00:00:00.000Z');
+    assert.strictEqual(changes.hasHistory, true);
+    assert.deepStrictEqual(changes.changes.added, ['new_data']);
+    assert.deepStrictEqual(changes.changes.removed, ['old_data']);
+    assert.deepStrictEqual(changes.changes.datasets, [
+      { dataset: 'new_data', before: 0, after: 1, delta: 1 },
+      { dataset: 'old_data', before: 2, after: 0, delta: -2 },
+      { dataset: 'tasks', before: 10, after: 1, delta: -9 },
+      { dataset: 'weapons', before: 40, after: 3, delta: -37 },
+    ]);
   });
 
   it('should advertise the version endpoint in OpenAPI', () => {

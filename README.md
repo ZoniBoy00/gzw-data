@@ -66,6 +66,7 @@ Both prefixes currently expose the same API contract. New integrations should pr
 | `/api/v1/health` | API health, readiness state, dataset count and last scrape |
 | `/api/v1/ready` | Readiness probe; returns 503 until datasets are loaded |
 | `/api/v1/version` | API version, data version and available dataset names |
+| `/api/v1/changes` | Dataset count changes since the latest stored snapshot |
 | `/api/v1/stats` | Item counts for all datasets plus the latest scrape timestamp |
 | `/api/v1/search?q=` | Cross-dataset search; supports `dataset`, `fields`, `fuzzy` and `limit` |
 | `/api/v1/spec` | OpenAPI 3.0 spec |
@@ -75,7 +76,22 @@ Both prefixes currently expose the same API contract. New integrations should pr
 | `/api/v1/weapon_parts` | Smart route: all weapon parts combined |
 | `/api/v1/helmet_mods` | Smart route: night vision + mounts |
 
-The OpenAPI document also exposes generated dataset schemas under `components.schemas`. These schemas use the same observed field types and optional/nullable metadata as the metadata endpoints, while keeping `additionalProperties: true` for newly discovered wiki fields.
+### Version and changes
+
+```bash
+curl https://gzw-data.dev/api/v1/version
+curl https://gzw-data.dev/api/v1/changes
+```
+
+The version response identifies the current API and data snapshot. The changes response compares dataset record counts against the latest stored snapshot. It reports `hasHistory: false` until a second snapshot is available; it never invents changes without a previous snapshot.
+
+After a scraper update, record a new snapshot with:
+
+```bash
+npm run snapshot:record
+```
+
+The repository retains the 30 most recent snapshots in `data/_history.json`.
 
 ### Query Parameters
 
