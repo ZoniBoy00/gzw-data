@@ -70,7 +70,6 @@ Both prefixes currently expose the same API contract. New integrations should pr
 | `/api/v1/spec` | OpenAPI 3.0 spec |
 | `/api/v1/images` | All item images (400+) |
 | `/api/v1/items/<id>/context` | Item plus current vendor and dataset references |
-| `/api/v1/weapons/<id>/parts` | Available weapon-part datasets; compatibility is not currently modeled |
 | `/api/v1/armor` | Smart route: vests + helmets + glasses |
 | `/api/v1/weapon_parts` | Smart route: all weapon parts combined |
 | `/api/v1/helmet_mods` | Smart route: night vision + mounts |

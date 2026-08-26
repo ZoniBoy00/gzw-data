@@ -304,23 +304,12 @@ describe('GZW Data API', () => {
     assert.strictEqual(typeof context.referenceCount, 'number');
   });
 
-  it('should return available weapon-part datasets without claiming compatibility', () => {
-    const { res, getStatus, getBody } = mockRes();
-    handler(mockReq('/api/v1/weapons/ak-12/parts'), res);
-    assert.strictEqual(getStatus(), 200);
-    const context = getBody().data;
-    assert.strictEqual(context.weapon.id, 'ak-12');
-    assert.ok(context.availableParts.barrels);
-    assert.strictEqual(context.compatibility.status, 'not_available');
-  });
-
   it('should expose related routes in OpenAPI', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/v1/spec'), res);
     assert.strictEqual(getStatus(), 200);
     const spec = getBody();
     assert.ok(spec.paths['/api/v1/items/{id}/context']);
-    assert.ok(spec.paths['/api/v1/weapons/{id}/parts']);
   });
 
   it('should return 404 for missing related records', () => {
@@ -329,10 +318,13 @@ describe('GZW Data API', () => {
     assert.strictEqual(item.getStatus(), 404);
     assert.strictEqual(item.getBody().error.code, 'RECORD_NOT_FOUND');
 
-    const weapon = mockRes();
-    handler(mockReq('/api/v1/weapons/not-real/parts'), weapon.res);
-    assert.strictEqual(weapon.getStatus(), 404);
-    assert.strictEqual(weapon.getBody().error.code, 'RECORD_NOT_FOUND');
+  });
+
+  it('should reject the unsupported weapon compatibility route', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/weapons/ak-12/parts'), res);
+    assert.strictEqual(getStatus(), 404);
+    assert.strictEqual(getBody().error.code, 'ENDPOINT_NOT_FOUND');
   });
 
   it('should handle smart routes', () => {

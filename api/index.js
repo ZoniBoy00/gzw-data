@@ -7,13 +7,6 @@ const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
 const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
 
-const WEAPON_PART_DATASETS = [
-  'ammo', 'barrels', 'buffer_tubes', 'charging_handle', 'collimators',
-  'foregrips', 'front_iron_sights', 'gas_blocks', 'handguards', 'helmet_mounts',
-  'magazines', 'mounts', 'muzzle_devices', 'pistol_grips', 'rear_iron_sights',
-  'scopes', 'suppressors', 'stocks', 'stock_adapters', 'upper_receivers', 'weapon_parts',
-];
-
 loadDatasets();
 setDataVersion(getLastScrapedAt());
 
@@ -68,27 +61,6 @@ function buildItemContext(recordId) {
   };
 }
 
-function buildWeaponParts(weaponId) {
-  const weapon = findRecord('weapons', weaponId);
-  if (!weapon) return null;
-
-  const partsByDataset = {};
-  for (const datasetName of WEAPON_PART_DATASETS) {
-    const parts = asArray(datasetName);
-    if (parts.length > 0) partsByDataset[datasetName] = parts;
-  }
-
-  return {
-    weapon,
-    availableParts: partsByDataset,
-    datasetCount: Object.keys(partsByDataset).length,
-    compatibility: {
-      status: 'not_available',
-      message: 'The current data does not model weapon-to-part compatibility yet.',
-    },
-  };
-}
-
 // ─── Routes ───
 
 function handleRoute(route, params, res, rateInfo) {
@@ -140,24 +112,13 @@ function handleRoute(route, params, res, rateInfo) {
       }
       return json(res, context);
     }
-
-    if (datasetName === 'weapons' && relation === 'parts') {
-      const context = buildWeaponParts(recordId);
-      setHeaders(res, rateInfo, CACHE_TTL_SEC);
-      if (!context) {
-        return errorResponse(res, 404, 'RECORD_NOT_FOUND', 'Weapon not found', {
-          dataset: 'weapons', id: recordId, docs: '/api/v1/spec',
-        });
-      }
-      return json(res, context);
-    }
   }
 
   // ── Single-record dataset route ──
   // Dataset records are addressed as /api/{dataset}/{id}. Keep the existing
   // collection routes unchanged and match IDs exactly.
   const routeParts = route.split('/').filter(Boolean);
-  if (routeParts.length > 1) {
+  if (routeParts.length === 2) {
     const datasetName = decodeRoutePart(routeParts.shift());
     const recordId = routeParts.map(decodeRoutePart).join('/');
     if (datasets[datasetName] && !SMART_ROUTES[datasetName]) {
@@ -208,12 +169,6 @@ function handleRoute(route, params, res, rateInfo) {
       '/api/items/{id}/context': {
         get: {
           summary: 'Get an item with related vendor and dataset references',
-          parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string' } }],
-        },
-      },
-      '/api/weapons/{id}/parts': {
-        get: {
-          summary: 'Get available weapon-part datasets for a weapon',
           parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string' } }],
         },
       },
