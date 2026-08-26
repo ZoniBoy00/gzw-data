@@ -65,6 +65,7 @@ Both prefixes currently expose the same API contract. New integrations should pr
 | `/api/v1/metadata?full=true` | Detailed schema metadata for all datasets |
 | `/api/v1/health` | API health, readiness state, dataset count and last scrape |
 | `/api/v1/ready` | Readiness probe; returns 503 until datasets are loaded |
+| `/api/v1/version` | API version, data version and available dataset names |
 | `/api/v1/stats` | Item counts for all datasets plus the latest scrape timestamp |
 | `/api/v1/search?q=` | Cross-dataset search; supports `dataset`, `fields`, `fuzzy` and `limit` |
 | `/api/v1/spec` | OpenAPI 3.0 spec |

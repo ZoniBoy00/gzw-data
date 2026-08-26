@@ -159,6 +159,7 @@ function handleRoute(route, params, res, rateInfo) {
       '/api': { get: { summary: 'API root' } },
       '/api/health': { get: { summary: 'API health and dataset status' } },
       '/api/ready': { get: { summary: 'Readiness probe for loaded datasets' } },
+      '/api/version': { get: { summary: 'API and dataset version information' } },
       '/api/metadata': { get: { summary: 'Dataset schema metadata' } },
       '/api/metadata/{dataset}': {
         get: {
@@ -238,6 +239,22 @@ function handleRoute(route, params, res, rateInfo) {
         },
       },
       paths,
+    });
+  }
+
+  // ── Version ──
+  if (route === 'version') {
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    return json(res, {
+      api: 'GZW Data API',
+      apiVersion: 'v1',
+      version: '4.0.0',
+      baseUrl: 'https://gzw-data.dev/api/v1',
+      openapi: 'https://gzw-data.dev/api/v1/spec',
+      dataVersion: getLastScrapedAt(),
+      datasetCount: Object.keys(registry).length,
+      datasets: Object.keys(registry).sort(),
+      source: 'https://github.com/ZoniBoy00/gzw-data',
     });
   }
 

@@ -293,6 +293,28 @@ describe('GZW Data API', () => {
     assert.ok(spec.components.schemas.weapons.properties.id);
   });
 
+  it('should return API and dataset version information', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/version'), res);
+    assert.strictEqual(getStatus(), 200);
+    const version = getBody().data;
+    assert.strictEqual(version.api, 'GZW Data API');
+    assert.strictEqual(version.apiVersion, 'v1');
+    assert.strictEqual(version.version, '4.0.0');
+    assert.strictEqual(version.baseUrl, 'https://gzw-data.dev/api/v1');
+    assert.strictEqual(version.openapi, 'https://gzw-data.dev/api/v1/spec');
+    assert.ok(typeof version.dataVersion === 'string');
+    assert.ok(version.datasetCount > 0);
+    assert.ok(Array.isArray(version.datasets));
+  });
+
+  it('should advertise the version endpoint in OpenAPI', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/spec'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.ok(getBody().paths['/api/v1/version']);
+  });
+
   it('should return item context from current datasets', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/v1/items/advanced-tracking-tag/context'), res);
