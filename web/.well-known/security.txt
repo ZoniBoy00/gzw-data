@@ -1,0 +1,4 @@
+Contact: mailto:security@gzw-data.dev
+Expires: 2027-08-27T00:00:00.000Z
+Preferred-Languages: fi, en
+Canonical: https://gzw-data.dev/.well-known/security.txt

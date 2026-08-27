@@ -22,6 +22,7 @@
     { "source": "/privacy-policy/", "destination": "/web/legal/privacy-policy/index.html" },
     { "source": "/terms-of-service", "destination": "/web/legal/terms-of-service/index.html" },
     { "source": "/terms-of-service/", "destination": "/web/legal/terms-of-service/index.html" },
+    { "source": "/.well-known/security.txt", "destination": "/web/.well-known/security.txt" },
     { "source": "/docs", "destination": "/web/docs/index.html" },
     { "source": "/docs/", "destination": "/web/docs/index.html" },
     { "source": "/404.html", "destination": "/web/404.html" },
