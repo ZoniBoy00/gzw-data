@@ -37,7 +37,6 @@ curl "https://gzw-data.dev/api/v1/search?q=ak-12"
 - [Statistics](https://gzw-data.dev/api/v1/stats): API and dataset statistics.
 - [Metadata](https://gzw-data.dev/api/v1/metadata): dataset registry and field metadata.
 - [Dataset list](https://gzw-data.dev/api/v1/weapons): example dataset collection endpoint; replace `weapons` with a published dataset name.
-- [Single record](https://gzw-data.dev/api/v1/weapons/example): example record route; replace the dataset and ID with a real record.
 - [Search](https://gzw-data.dev/api/v1/search?q=ak-12): search across published datasets.
 - [Images](https://gzw-data.dev/api/v1/images): list available item images.
 - [Health](https://gzw-data.dev/api/v1/health): lightweight health check.
