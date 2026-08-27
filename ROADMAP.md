@@ -12,6 +12,46 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 - **License:** MIT
 - **Authentication:** none required for the public read-only API
 
+## Version targets
+
+These are planning milestones, not promises to release without verified scope and tests.
+
+### `4.0.x` — current API line
+
+- [x] Versioned `/api/v1` API with legacy compatibility.
+- [x] Stable response envelopes, errors, metadata, schema, health, readiness, search, snapshots, and changes.
+- [x] Read-only public API with generated dataset discovery.
+
+Current implementation: `4.0.0`.
+
+### `4.1.0` — contract and CI hardening
+
+- [ ] Add API–SDK contract coverage, including 429/rate-limit behavior.
+- [ ] Add push and pull-request CI for the repository.
+- [ ] Add route-specific OpenAPI response schemas.
+- [ ] Add schema/data drift validation before deployment.
+- [ ] Define API and implementation version semantics.
+
+### `4.2.0` — data integrity and snapshot maturity
+
+- [ ] Add immutable snapshot identifiers and explicit `latest` semantics.
+- [ ] Add scraper-run manifest and dataset checksums when the upstream scraper provides them.
+- [ ] Add capabilities metadata for filters, sorting, counts, and supported operations.
+- [ ] Document dataset field deprecation and breaking-change handling.
+
+### `4.3.0` — performance and export
+
+- [ ] Add ETag/conditional requests when a stable data validator is available.
+- [ ] Optimize item context lookup if production measurements show a need.
+- [ ] Design and test bounded dataset-specific bulk export.
+- [ ] Add field selection only when a real consumer needs it.
+
+### `5.0.0` — breaking API line, only if required
+
+- [ ] Publish only for an intentional breaking public API change.
+- [ ] Provide migration notes and a compatibility window.
+- [ ] Update OpenAPI, SDK contract tests, client documentation, and examples together.
+
 ## Completed
 
 - [x] Split the API handler into focused modules while keeping `api/index.js` maintainable.
