@@ -2,33 +2,27 @@
 
 > Free public Gray Zone Warfare game-data API for developers, tools, bots, dashboards, CLI workflows, and AI agents.
 
-## Canonical links
+GZW Data is a read-only, public API for structured Gray Zone Warfare data. It provides JSON responses for weapons, missions, items, loot, armor, containers, vendors, equipment, and other published datasets. It is not a player telemetry, private server-state, authentication, write-operation, or guaranteed real-time event API.
 
-- Website: https://gzw-data.dev/
-- Documentation: https://gzw-data.dev/docs/
-- API base: https://gzw-data.dev/api/v1
-- OpenAPI 3.0.3: https://gzw-data.dev/api/v1/spec
-- JavaScript/TypeScript client: https://www.npmjs.com/package/@zoniboy/gzw-data-client
-- Source repository: https://github.com/ZoniBoy00/gzw-data
+## Resources
 
-## When to use GZW Data
+- [Website](https://gzw-data.dev/): public project homepage and API overview.
+- [API documentation](https://gzw-data.dev/docs/): endpoint reference and integration guidance.
+- [OpenAPI specification](https://gzw-data.dev/api/v1/spec): machine-readable API contract.
+- [JavaScript/TypeScript client](https://www.npmjs.com/package/@zoniboy/gzw-data-client): zero-dependency client package.
+- [Source repository](https://github.com/ZoniBoy00/gzw-data): source code, issues, and contribution guide.
+- [Terms of Service](https://gzw-data.dev/terms-of-service/): usage and licensing conditions.
+- [Privacy Policy](https://gzw-data.dev/privacy-policy/): API privacy information.
 
-Use GZW Data when you need structured Gray Zone Warfare data for weapons, missions, items, loot, armor, containers, vendors, equipment, or other game datasets. The API is read-only, public, free, and requires no API key.
+## API overview
 
-Do not use GZW Data for player telemetry, private server state, authentication, write operations, or guaranteed real-time game events.
-
-## Authentication and pricing
-
-- Authentication: none
-- API key required: no
-- Pricing: free
-- Commercial use: see the Terms of Service
-- Response format: JSON
-- API style: read-only REST
-
-## Limits and caching
-
-The best-effort rate limit is 100 requests per minute per IP address. Responses expose X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, and Retry-After when a request is rate limited. Data responses use public five-minute caching where applicable.
+- Authentication: none.
+- Pricing: free; commercial use is subject to the Terms of Service and applicable dataset licenses.
+- Response format: JSON.
+- API style: read-only REST.
+- API base: [https://gzw-data.dev/api/v1](https://gzw-data.dev/api/v1).
+- Best-effort rate limit: 100 requests per minute per IP address where applicable.
+- New integrations should use `/api/v1`; legacy `/api` routes are compatibility-only.
 
 ## Quick start
 
@@ -40,16 +34,18 @@ curl "https://gzw-data.dev/api/v1/search?q=ak-12"
 
 ## Core endpoints
 
-- GET /api/v1/stats — API and dataset statistics
-- GET /api/v1/metadata — dataset registry and field metadata
-- GET /api/v1/{dataset} — list records from a dataset
-- GET /api/v1/{dataset}/{id} — retrieve one record by ID
-- GET /api/v1/search?q={query} — search across datasets
-- GET /api/v1/images — list available item images
-- GET /api/v1/health — health check
-- GET /api/v1/ready — readiness check
-- GET /api/v1/spec — OpenAPI specification
+- [Statistics](https://gzw-data.dev/api/v1/stats): API and dataset statistics.
+- [Metadata](https://gzw-data.dev/api/v1/metadata): dataset registry and field metadata.
+- [Dataset list](https://gzw-data.dev/api/v1/weapons): example dataset collection endpoint; replace `weapons` with a published dataset name.
+- [Single record](https://gzw-data.dev/api/v1/weapons/example): example record route; replace the dataset and ID with a real record.
+- [Search](https://gzw-data.dev/api/v1/search?q=ak-12): search across published datasets.
+- [Images](https://gzw-data.dev/api/v1/images): list available item images.
+- [Health](https://gzw-data.dev/api/v1/health): lightweight health check.
+- [Readiness](https://gzw-data.dev/api/v1/ready): readiness check.
+- [OpenAPI](https://gzw-data.dev/api/v1/spec): API specification.
 
 ## Integration guidance
 
-Use /api/v1 for all new integrations. Results are JSON and dataset routes support filtering, sorting, pagination, and all=true. Start with the OpenAPI document when generating an integration. The official JavaScript/TypeScript client is zero-dependency and supports Node.js 18+ and modern browsers.
+Use the OpenAPI specification when generating an integration. Dataset routes may support filtering, sorting, pagination, and `all=true` according to the endpoint contract. Cache responses respectfully and handle rate-limit responses using the returned headers and `Retry-After` value when present.
+
+The official JavaScript/TypeScript client targets `/api/v1`, has no runtime dependencies, and supports Node.js 18+ and modern browsers.
