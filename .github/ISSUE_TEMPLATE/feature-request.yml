@@ -1,0 +1,69 @@
+name: Feature request
+description: Suggest a focused API, dataset, SDK, or documentation improvement.
+title: "[FEATURE] "
+labels:
+  - enhancement
+  - needs-discussion
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What problem would this feature solve, and who would use it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the smallest practical solution.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - API endpoint
+        - Dataset
+        - Search
+        - Schema or metadata
+        - SDK
+        - Documentation
+        - Tooling or CI
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: verified_source
+    attributes:
+      label: Data source requirement
+      options:
+        - label: This feature does not require a new data source.
+        - label: This feature requires a new verified data source.
+        - label: I am not sure whether a new data source is required.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What alternatives or workarounds have you tried?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add examples, links, compatibility concerns, or breaking-change considerations.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked that the feature is not already requested.
+          required: true
+        - label: I understand that unsupported capabilities must not be advertised as available API data.
+          required: true

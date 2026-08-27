@@ -1,0 +1,70 @@
+name: API bug report
+description: Report an incorrect, broken, or inconsistent API response.
+title: "[API] "
+labels:
+  - bug
+  - api
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide a minimal reproducible example. Do not include API keys, cookies, private URLs, or other secrets.
+
+  - type: input
+    id: endpoint
+    attributes:
+      label: Endpoint
+      description: Which endpoint is affected?
+      placeholder: /api/v1/schema/weapons
+    validations:
+      required: true
+
+  - type: input
+    id: method
+    attributes:
+      label: HTTP method and API version
+      placeholder: GET, /api/v1
+    validations:
+      required: true
+
+  - type: input
+    id: request
+    attributes:
+      label: Minimal request
+      description: Include safe query parameters or a curl command without secrets.
+      placeholder: curl 'https://gzw-data.dev/api/v1/schema/weapons'
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the API return or do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the status code and a minimal response excerpt.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Client, SDK version, browser, or other relevant details.
+      placeholder: Node 24, @zoniboy/gzw-data-client 0.2.4
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I removed API keys, cookies, tokens, and other secrets.
+          required: true
+        - label: I checked that the issue is not already reported.
+          required: true

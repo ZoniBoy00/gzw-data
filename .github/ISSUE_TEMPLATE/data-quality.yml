@@ -1,0 +1,84 @@
+name: Dataset or data quality issue
+description: Report incorrect, missing, stale, or unverified dataset data.
+title: "[DATA] "
+labels:
+  - data
+  - dataset
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Data changes require reproducible evidence. Please include a source link, screenshot, or other verifiable reference when available.
+
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset
+      description: Which dataset is affected?
+      placeholder: weapons
+    validations:
+      required: true
+
+  - type: input
+    id: record
+    attributes:
+      label: Record or item ID
+      description: Provide the affected record ID, name, or a precise filter.
+      placeholder: weapon-id or exact item name
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Data issue type
+      options:
+        - Incorrect value
+        - Missing record
+        - Missing field
+        - Duplicate record
+        - Stale data
+        - Incorrect relationship
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current data
+      description: Paste the relevant current API response or record.
+      render: json
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected data
+      description: Explain what the data should contain and why.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Evidence or source
+      description: Link to an official source, patch note, screenshot, or other verifiable evidence.
+      placeholder: https://example.com/source
+
+  - type: input
+    id: game_build
+    attributes:
+      label: Game build or patch version
+      placeholder: 0.31.0
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I understand that unverified relationships or guesses should not be published as API data.
+          required: true
+        - label: I checked that the issue is not already reported.
+          required: true
