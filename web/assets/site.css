@@ -153,6 +153,9 @@ td:first-child { color: var(--text); font-weight: 650; }
 .info-panel { padding: 20px; border: 1px solid var(--line); border-radius: var(--radius-md); background: rgba(255,255,255,.025); }
 .info-panel h3 { margin: 0 0 7px; font-size: 14px; }
 .info-panel p { margin: 0; color: var(--muted); font-size: 13px; }
+.contact-links { display: grid; gap: 10px; margin-top: 16px; }
+.contact-links p { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.contact-links a { color: var(--amber); }
 .code-block { position: relative; margin-top: 14px; padding: 15px; border: 1px solid rgba(255,255,255,.08); border-radius: 10px; background: #090c0e; color: #cbd4d2; font-family: var(--mono); font-size: 11px; line-height: 1.65; overflow-x: auto; }
 .copy-button { position: absolute; top: 8px; right: 8px; padding: 4px 7px; border: 1px solid rgba(255,255,255,.24); border-radius: 6px; background: rgba(255,255,255,.08); color: #d6dddb; font-size: 10px; cursor: pointer; }
 .copy-button:hover { color: var(--text); }
