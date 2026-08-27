@@ -172,8 +172,8 @@ function handleRoute(route, params, res, rateInfo) {
     const schemas = buildOpenApiSchemas(metadata);
     const paths = {
       '/api': { get: { summary: 'API root' } },
-      '/api/health': { get: { summary: 'API health and dataset status' } },
-      '/api/ready': { get: { summary: 'Readiness probe for loaded datasets' } },
+      '/api/health': { get: { summary: 'Lightweight API liveness check' } },
+      '/api/ready': { get: { summary: 'Lightweight readiness probe for loaded datasets' } },
       '/api/version': { get: { summary: 'API and dataset version information' } },
       '/api/changes': { get: { summary: 'Changes since the latest stored dataset snapshot' } },
       '/api/metadata': { get: { summary: 'Dataset schema metadata' } },
@@ -290,17 +290,36 @@ function handleRoute(route, params, res, rateInfo) {
 
   // ── Health / readiness / debug ──
   if (route === 'health' || route === 'ready' || route === 'debug') {
-    const loaded = {};
     let datasetCount = 0;
     for (const [key, val] of Object.entries(datasets)) {
       if (key.startsWith('_')) continue;
-      loaded[key] = Array.isArray(val) ? val.length : (val ? 'object' : 'empty');
       if (val) datasetCount += 1;
     }
     const ready = datasetCount > 0;
     setHeaders(res, rateInfo, 0);
     if (route === 'ready' && !ready) {
       return errorResponse(res, 503, 'NOT_READY', 'API datasets are not ready', { datasetCount });
+    }
+    if (route === 'health') {
+      return json(res, {
+        ok: ready,
+        status: ready ? 'ok' : 'degraded',
+        apiVersion: 'v1',
+        version: '4.0.0',
+      });
+    }
+    if (route === 'ready') {
+      return json(res, {
+        ok: true,
+        ready: true,
+        status: 'ok',
+        datasetCount,
+      });
+    }
+    const loaded = {};
+    for (const [key, val] of Object.entries(datasets)) {
+      if (key.startsWith('_')) continue;
+      loaded[key] = Array.isArray(val) ? val.length : (val ? 'object' : 'empty');
     }
     return json(res, {
       ok: ready,
@@ -312,7 +331,7 @@ function handleRoute(route, params, res, rateInfo) {
       datasets: loaded,
       smartRoutes: Object.keys(SMART_ROUTES),
       lastScrapedAt: getLastScrapedAt(),
-    }, route === 'ready' ? 200 : 200);
+    });
   }
 
   // ── Stats ──

@@ -138,13 +138,11 @@ describe('GZW Data API', () => {
     assert.strictEqual(getStatus(), 200);
     assert.strictEqual(getBody().data.ok, true);
     assert.strictEqual(getBody().data.status, 'ok');
-    assert.strictEqual(getBody().data.ready, true);
     assert.strictEqual(getBody().data.apiVersion, 'v1');
-    assert.ok(getBody().data.datasetCount > 0);
-    assert.ok(typeof getBody().dataVersion === 'string');
-    assert.strictEqual(getBody().dataVersion, getBody().data.lastScrapedAt);
     assert.strictEqual(getBody().data.version, '4.0.0');
-    assert.ok(Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
+    assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'datasets'));
+    assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
+    assert.ok(typeof getBody().dataVersion === 'string');
   });
 
   it('should return ready endpoint when datasets are loaded', () => {
@@ -154,6 +152,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().data.ready, true);
     assert.strictEqual(getBody().data.status, 'ok');
     assert.ok(getBody().data.datasetCount > 0);
+    assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'datasets'));
   });
 
   it('should advertise health and readiness in OpenAPI', () => {

@@ -64,8 +64,8 @@ Both prefixes currently expose the same API contract. New integrations should pr
 | `/api/v1/metadata/<dataset>` | Detailed schema metadata for one dataset |
 | `/api/v1/schema/<dataset>` | Machine-readable schema for one dataset |
 | `/api/v1/metadata?full=true` | Detailed schema metadata for all datasets |
-| `/api/v1/health` | API health, readiness state, dataset count and last scrape |
-| `/api/v1/ready` | Readiness probe; returns 503 until datasets are loaded |
+| `/api/v1/health` | Lightweight API liveness check |
+| `/api/v1/ready` | Lightweight readiness probe; returns 503 until datasets are loaded |
 | `/api/v1/version` | API version, data version and available dataset names |
 | `/api/v1/changes` | Dataset count changes since the latest stored snapshot |
 | `/api/v1/stats` | Item counts for all datasets plus the latest scrape timestamp |
