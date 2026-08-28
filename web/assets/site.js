@@ -2,7 +2,7 @@
   const API_BASE = "/api/v1";
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
-  const state = { dataset: "weapons", query: "", page: 1, perPage: 8, stats: null };
+  const state = { dataset: "weapons", query: "", page: 1, perPage: 8, stats: null, datasetEntries: [], datasetMenuRendered: false };
 
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>\"']/g, (char) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#039;"
@@ -105,11 +105,25 @@
     });
   }
 
-  function renderStats(stats) {
+  function normaliseDatasetEntries(stats) {
     const datasets = stats?.datasets || stats?.data || {};
-    const entries = (Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0 })))
-      .map((item) => ({ ...item, count: Number(item.count ?? item.total ?? 0) }))
-      .sort((a, b) => String(a.name).localeCompare(String(b.name)));
+    return (Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0 })))
+      .map((item) => ({ ...item, name: String(item.name), count: Number(item.count ?? item.total ?? 0) }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  function renderDatasetMenu(menu) {
+    if (!menu || state.datasetMenuRendered) return;
+    menu.innerHTML = state.datasetEntries.map((item) => {
+      const name = item.name.replace(/^\//, "").replace(/^api\//, "");
+      return `<button class="dataset-option" type="button" role="option" data-value="${escapeHtml(name)}" aria-selected="${name === state.dataset}"><span>${escapeHtml(name)}</span><span class="dataset-option-count">${formatNumber(item.count)}</span></button>`;
+    }).join("");
+    state.datasetMenuRendered = true;
+  }
+
+  function renderStats(stats) {
+    const entries = normaliseDatasetEntries(stats);
+    state.datasetEntries = entries;
     const total = entries.reduce((sum, item) => sum + item.count, 0);
     setText("[data-stat=datasets]", entries.length);
     setText("[data-stat=items]", formatNumber(total));
@@ -123,15 +137,12 @@
     const label = $("#dataset-label");
     const menu = $("#dataset-menu");
     if (!picker || !trigger || !label || !menu) return;
-    menu.innerHTML = entries.map((item) => {
-      const name = String(item.name).replace(/^\//, "").replace(/^api\//, "");
-      return `<button class="dataset-option" type="button" role="option" data-value="${escapeHtml(name)}" aria-selected="${name === state.dataset}"><span>${escapeHtml(name)}</span><span class="dataset-option-count">${formatNumber(item.count)}</span></button>`;
-    }).join("");
-    if (!entries.some((item) => String(item.name) === state.dataset)) state.dataset = String(entries[0]?.name || "weapons");
-    label.textContent = `${state.dataset} · ${formatNumber(entries.find((item) => String(item.name) === state.dataset)?.count || 0)}`;
+    if (!entries.some((item) => item.name === state.dataset)) state.dataset = entries[0]?.name || "weapons";
+    label.textContent = `${state.dataset} · ${formatNumber(entries.find((item) => item.name === state.dataset)?.count || 0)}`;
     if (trigger.dataset.bound !== "true") {
       trigger.dataset.bound = "true";
       trigger.addEventListener("click", () => {
+        renderDatasetMenu(menu);
         const open = menu.classList.toggle("open");
         trigger.setAttribute("aria-expanded", String(open));
       });
@@ -142,15 +153,20 @@
         }
       });
     }
-    $$(".dataset-option", menu).forEach((option) => option.addEventListener("click", () => {
-      state.dataset = option.dataset.value;
-      label.textContent = `${state.dataset} · ${option.querySelector(".dataset-option-count").textContent}`;
-      $$(".dataset-option", menu).forEach((item) => item.setAttribute("aria-selected", String(item === option)));
-      menu.classList.remove("open");
-      trigger.setAttribute("aria-expanded", "false");
-      state.page = 1;
-      loadExplorer();
-    }));
+    if (menu.dataset.bound !== "true") {
+      menu.dataset.bound = "true";
+      menu.addEventListener("click", (event) => {
+        const option = event.target.closest(".dataset-option");
+        if (!option) return;
+        state.dataset = option.dataset.value;
+        label.textContent = `${state.dataset} · ${option.querySelector(".dataset-option-count").textContent}`;
+        $$(".dataset-option", menu).forEach((item) => item.setAttribute("aria-selected", String(item === option)));
+        menu.classList.remove("open");
+        trigger.setAttribute("aria-expanded", "false");
+        state.page = 1;
+        loadExplorer();
+      });
+    }
   }
 
   function renderRows(payload) {
@@ -202,15 +218,6 @@
 
   async function initOverview() {
     if (!$("#explorer-body")) return;
-    try {
-      state.stats = await fetchJson("/stats");
-      renderStats(state.stats);
-      await loadExplorer();
-    } catch (error) {
-      setText("[data-stat=status]", "Unavailable");
-      const body = $("#explorer-body");
-      if (body) body.innerHTML = `<tr><td colspan="3"><div class="error-message">The API status could not be loaded right now.</div></td></tr>`;
-    }
     $("#dataset-select")?.addEventListener("change", (event) => { state.dataset = event.target.value; state.page = 1; loadExplorer(); });
     let timer;
     $("#explorer-search")?.addEventListener("input", (event) => {
@@ -220,6 +227,18 @@
     });
     $("#next-page")?.addEventListener("click", () => { state.page += 1; loadExplorer(); });
     $("#previous-page")?.addEventListener("click", () => { if (state.page > 1) { state.page -= 1; loadExplorer(); } });
+
+    const statsPromise = fetchJson("/stats");
+    const explorerPromise = loadExplorer();
+    try {
+      state.stats = await statsPromise;
+      renderStats(state.stats);
+    } catch (error) {
+      setText("[data-stat=status]", "Unavailable");
+      const body = $("#explorer-body");
+      if (body) body.innerHTML = `<tr><td colspan="3"><div class="error-message">The API status could not be loaded right now.</div></td></tr>`;
+    }
+    await explorerPromise;
   }
 
   function initScrollspy() {
