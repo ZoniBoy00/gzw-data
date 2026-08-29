@@ -75,6 +75,17 @@
           <div class="stat"><span class="stat-value">300s</span><span class="stat-label">CDN cache window</span></div>
         </section>
 
+        <section class="update-panel" aria-labelledby="update-title">
+          <div class="update-heading"><div><div class="eyebrow">Data maintenance</div><h2 id="update-title">Latest data update</h2><p>Snapshot information from the live API, not placeholder numbers.</p></div><span class="update-status" id="update-status" aria-live="polite">Loading update…</span></div>
+          <div class="update-grid">
+            <div><span class="update-label">Snapshot</span><strong class="update-value" id="update-version">—</strong></div>
+            <div><span class="update-label">Datasets tracked</span><strong class="update-value" id="update-datasets">—</strong></div>
+            <div><span class="update-label">Indexed records</span><strong class="update-value" id="update-records">—</strong></div>
+            <div><span class="update-label">Change history</span><strong class="update-value" id="update-changes">—</strong></div>
+          </div>
+          <p class="update-note" id="update-note">Checking the latest snapshot metadata…</p>
+        </section>
+
         <section id="explorer" aria-labelledby="explorer-title">
           <div class="section-heading">
             <div><div class="eyebrow">Live request builder</div><h2 id="explorer-title">Explore the data</h2><p>Pick a dataset, search it, and inspect the same JSON endpoint your app will call.</p></div>

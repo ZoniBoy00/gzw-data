@@ -348,6 +348,33 @@
     renderFields();
   }
 
+  async function initUpdatePanel() {
+    const panel = $("#update-title");
+    if (!panel) return;
+    try {
+      const [version, changes] = await Promise.all([fetchJson("/version"), fetchJson("/changes")]);
+      const snapshot = version?.data?.snapshot || changes?.data?.current;
+      const datasets = snapshot?.datasets || {};
+      const datasetCount = Number(version?.data?.datasetCount) || Object.keys(datasets).length;
+      const recordCount = Object.values(datasets).reduce((total, value) => total + (Number(value) || 0), 0);
+      const changeData = changes?.data || {};
+      const changed = changeData.changes?.datasets?.length || 0;
+      const added = changeData.changes?.added?.length || 0;
+      const removed = changeData.changes?.removed?.length || 0;
+      const snapshotDate = snapshot?.capturedAt || version?.data?.dataVersion;
+      const formattedDate = snapshotDate ? new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "UTC" }).format(new Date(snapshotDate)) : "Unavailable";
+      setText("#update-version", formattedDate);
+      setText("#update-datasets", `${formatNumber(datasetCount)} datasets`);
+      setText("#update-records", formatNumber(recordCount));
+      setText("#update-changes", changeData.hasHistory ? `${changed} changed` : "First snapshot");
+      setText("#update-status", "Live metadata");
+      setText("#update-note", changeData.hasHistory ? `${formatNumber(added)} datasets added · ${formatNumber(removed)} removed · counts compared with the previous snapshot.` : "This is the first stored snapshot. Dataset-level changes will appear after the next snapshot.");
+    } catch {
+      setText("#update-status", "Metadata unavailable");
+      setText("#update-note", "The API is available, but snapshot metadata could not be loaded right now.");
+    }
+  }
+
   const originalTitle = document.title;
   const awayTitle = "Come back, I miss you :(";
 
@@ -361,5 +388,6 @@
   initOverview();
   initDocs();
   initPlayground();
+  initUpdatePanel();
   initScrollspy();
 })();
