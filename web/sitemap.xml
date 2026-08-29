@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://gzw-data.dev/</loc></url>
   <url><loc>https://gzw-data.dev/docs/</loc></url>
+  <url><loc>https://gzw-data.dev/docs/examples/</loc></url>
+  <url><loc>https://gzw-data.dev/playground/</loc></url>
+  <url><loc>https://gzw-data.dev/feedback/</loc></url>
   <url><loc>https://gzw-data.dev/privacy-policy/</loc></url>
   <url><loc>https://gzw-data.dev/terms-of-service/</loc></url>
 </urlset>

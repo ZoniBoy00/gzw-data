@@ -26,6 +26,7 @@
     <nav class="topnav" aria-label="Primary navigation">
       <a class="active" href="/">Overview</a>
       <a href="/docs/#quickstart">API reference</a>
+      <a href="/playground/">Playground</a>
       <a href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a>
     </nav>
     <div class="top-actions">
@@ -40,6 +41,7 @@
       <div class="sidebar-section">Workspace</div>
       <a class="active" href="#overview"><span aria-hidden="true">◈</span> Overview</a>
       <a href="#explorer"><span aria-hidden="true">⌕</span> Data explorer</a>
+      <a href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
       <a href="/docs/#quickstart"><span aria-hidden="true">⌘</span> API reference</a>
       <div class="sidebar-section">Resources</div>
       <a href="/docs/#quickstart"><span aria-hidden="true">▷</span> Quick start</a>
@@ -99,12 +101,14 @@
           </div>
         </section>
 
+        <section class="info-panel playground-cta" aria-labelledby="playground-cta-title"><div class="eyebrow">Try it live</div><h2 id="playground-cta-title">Explore the API Playground</h2><p>Run read-only requests, change parameters and inspect real JSON responses without writing code.</p><div class="button-row"><a class="button primary" href="/playground/">Open API Playground →</a><a class="button" href="/docs/">Read the reference</a></div></section>
+
         <div class="split-grid">
           <section class="info-panel"><h3>One endpoint, many datasets</h3><p>Every JSON file in the repository is discovered automatically. New wiki categories become endpoints without hand-written route code.</p><div class="code-block"><button class="copy-button" type="button" data-copy="curl https://gzw-data.dev/api/v1/weapons">Copy</button><code>curl https://gzw-data.dev/api/v1/weapons</code></div></section>
           <section class="info-panel"><h3>Designed for small tools</h3><p>Pagination, filters, search, sorting, cache headers and an OpenAPI document make the API practical for GZW Tools and community projects.</p><div class="code-block"><button class="copy-button" type="button" data-copy="fetch('https://gzw-data.dev/api/v1/stats')">Copy</button><code>fetch('/api/v1/stats')</code></div></section>
         </div>
 
-        <section class="info-panel contact-panel" aria-labelledby="contact-title"><div class="eyebrow">Project contact</div><h2 id="contact-title">Need help or found a security issue?</h2><p>Use the right address so community support and security reports stay organized.</p><div class="contact-links"><p><a href="mailto:support@gzw-data.dev">support@gzw-data.dev</a><span>General support and project questions</span></p><p><a href="mailto:security@gzw-data.dev">security@gzw-data.dev</a><span>Private vulnerability reports</span></p></div></section>
+        <section class="info-panel contact-panel" aria-labelledby="contact-title"><div class="eyebrow">Project contact</div><h2 id="contact-title">Need help or found a security issue?</h2><p>Use the right path so support, data corrections, feature requests and security reports stay organized.</p><div class="contact-links"><p><a href="/feedback/">Feedback desk</a><span>Choose bug, missing data, feature or API support</span></p><p><a href="mailto:support@gzw-data.dev">support@gzw-data.dev</a><span>General API questions and support</span></p><p><a href="mailto:security@gzw-data.dev">security@gzw-data.dev</a><span>Private vulnerability reports only</span></p></div></section>
 
         <footer class="footer">GZW Data is a community project and is not affiliated with MADFINGER Games. <a href="/docs/">API documentation</a> · <a href="/privacy-policy">Privacy Policy</a> · <a href="/terms-of-service">Terms of Service</a> · <a href="https://github.com/ZoniBoy00/gzw-data">GitHub</a></footer>
       </div>
@@ -116,7 +120,7 @@
       <input class="command-input" type="search" placeholder="Search navigation…" autocomplete="off">
       <div class="command-list">
         <button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button>
-        <button class="command-item" type="button" data-target="/#explorer"><span>⌕</span> Explore datasets <small>Data</small></button>
+        <button class="command-item" type="button" data-target="/#explorer"><span>⌕</span> Explore datasets <small>Data</small></button><button class="command-item" type="button" data-target="/playground/"><span>▶</span> Open API Playground <small>Live</small></button>
         <button class="command-item" type="button" data-target="/docs/#quickstart"><span>⌘</span> Open API reference <small>Docs</small></button>
         <button class="command-item" type="button" data-target="https://github.com/ZoniBoy00/gzw-data"><span>↗</span> View source on GitHub <small>External</small></button>
       </div>

@@ -87,9 +87,11 @@
       if (target) window.location.href = target;
     }));
 
-    $$("[data-copy]").forEach((button) => button.addEventListener("click", async () => {
+    $$('[data-copy], [data-copy-target]').forEach((button) => button.addEventListener("click", async () => {
+      const value = button.dataset.copyTarget ? document.getElementById(button.dataset.copyTarget)?.textContent : button.dataset.copy;
+      if (!value) return;
       try {
-        await navigator.clipboard.writeText(button.dataset.copy);
+        await navigator.clipboard.writeText(value);
         const original = button.textContent;
         button.textContent = "Copied";
         setTimeout(() => { button.textContent = original; }, 1200);
@@ -270,6 +272,82 @@
     }
   }
 
+  function initPlayground() {
+    const endpoint = $("#playground-endpoint");
+    const fields = $("#playground-fields");
+    const url = $("#playground-url");
+    const output = $("#playground-output code");
+    const meta = $("#playground-result-meta");
+    const run = $("#playground-run");
+    if (!endpoint || !fields || !url || !output || !meta || !run) return;
+
+    const configs = {
+      weapons: { path: "/weapons", description: "List weapon records with pagination.", fields: [['page', '1'], ['per_page', '5']] },
+      'weapon-record': { path: "/weapons/ak-12", description: "Fetch one weapon by its record ID.", fields: [] },
+      search: { path: "/search", description: "Search across the available datasets.", fields: [['q', 'AK']] },
+      stats: { path: "/stats", description: "Show record totals by dataset.", fields: [] },
+      health: { path: "/health", description: "Check API readiness and data status.", fields: [] },
+      metadata: { path: "/metadata?full=true", description: "Inspect dataset names, fields and counts.", fields: [] },
+    };
+
+    const renderFields = () => {
+      const config = configs[endpoint.value];
+      fields.replaceChildren();
+      config.fields.forEach(([name, value]) => {
+        const label = document.createElement("label");
+        label.className = "playground-field";
+        const caption = document.createElement("span");
+        caption.textContent = name;
+        const input = document.createElement("input");
+        input.className = "field";
+        input.dataset.playgroundParam = name;
+        input.value = value;
+        label.append(caption, input);
+        fields.append(label);
+      });
+      setUrl();
+    };
+
+    const setUrl = () => {
+      const config = configs[endpoint.value];
+      const params = new URLSearchParams();
+      $$("[data-playground-param]", fields).forEach((input) => { if (input.value.trim()) params.set(input.dataset.playgroundParam, input.value.trim()); });
+      const query = params.toString();
+      const path = config.path.includes("?") ? `${config.path}&${query}` : `${config.path}${query ? `?${query}` : ""}`;
+      url.textContent = `${API_BASE}${path}`;
+      meta.textContent = config.description;
+    };
+
+    const execute = async () => {
+      setUrl();
+      const started = performance.now();
+      const requestUrl = url.textContent;
+      run.disabled = true;
+      run.textContent = "Running…";
+      meta.textContent = "Request in progress…";
+      output.textContent = "Loading…";
+      try {
+        const response = await fetch(requestUrl, { headers: { Accept: "application/json" } });
+        const text = await response.text();
+        let body;
+        try { body = JSON.parse(text); } catch { body = text; }
+        output.textContent = typeof body === "string" ? body : JSON.stringify(body, null, 2);
+        meta.textContent = `${response.ok ? "200 OK" : `HTTP ${response.status}`} · ${Math.round(performance.now() - started)} ms`;
+      } catch (error) {
+        output.textContent = error instanceof Error ? error.message : "Request failed";
+        meta.textContent = "Request failed · check the API status and try again";
+      } finally {
+        run.disabled = false;
+        run.textContent = "Run request";
+      }
+    };
+
+    endpoint.addEventListener("change", renderFields);
+    fields.addEventListener("input", setUrl);
+    run.addEventListener("click", execute);
+    renderFields();
+  }
+
   const originalTitle = document.title;
   const awayTitle = "Come back, I miss you :(";
 
@@ -282,5 +360,6 @@
   initShell();
   initOverview();
   initDocs();
+  initPlayground();
   initScrollspy();
 })();

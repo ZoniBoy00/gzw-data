@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Short practical examples for the GZW Data API: list weapons, fetch a record and search datasets.">
+  <link rel="canonical" href="https://gzw-data.dev/docs/examples/">
+  <link rel="icon" type="image/png" href="/assets/gzw-data-favicon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  <title>API Examples · GZW Data</title>
+</head>
+<body data-page="api-examples">
+  <header class="topbar"><a class="brand" href="/" aria-label="GZW Data home"><picture><source srcset="/assets/gzw-data-logo.webp" type="image/webp"><img class="brand-logo" src="/assets/gzw-data-logo.png" alt="GZW Data logo" width="54" height="50"></picture><span><span class="brand-name">GZW Data</span><span class="brand-sub">API examples</span></span></a><nav class="topnav" aria-label="Primary navigation"><a href="/">Overview</a><a class="active" href="/docs/">API reference</a><a href="/feedback/">Feedback</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a></nav></header>
+  <main class="content-shell"><article class="article"><div class="eyebrow">First API post</div><h1>Three useful requests for GZW Data</h1><p class="lede">The public API needs no API key. Start with the versioned base URL and build from there.</p>
+    <section class="info-panel"><div class="eyebrow">01 · List a dataset</div><h2>Find weapons</h2><p>Fetch the first page of weapon records as JSON:</p><pre><code>curl "https://gzw-data.dev/api/v1/weapons?page=1&amp;per_page=5"</code></pre><p>Use <span class="mono">page</span> and <span class="mono">per_page</span> for predictable pagination.</p></section>
+    <section class="info-panel"><div class="eyebrow">02 · Fetch one record</div><h2>Get a record by ID</h2><p>After reading an ID from the dataset, request the individual record:</p><pre><code>curl "https://gzw-data.dev/api/v1/weapons/ak-12"</code></pre><p>This is useful for detail pages and bots that already know the record ID.</p></section>
+    <section class="info-panel"><div class="eyebrow">03 · Search across data</div><h2>Search for a term</h2><p>Search across the available datasets:</p><pre><code>curl "https://gzw-data.dev/api/v1/search?q=AK"</code></pre><p>Every response is JSON and includes the data snapshot metadata when available.</p></section>
+    <section class="info-panel contact-panel"><div class="eyebrow">Shareable caption</div><h2>Copy for a project update</h2><p>Need a short post? Use this:</p><blockquote>Need Gray Zone Warfare data in your tool? GZW Data is a free public API for weapons, missions, loot and more. Start with <span class="mono">https://gzw-data.dev/api/v1/weapons</span> — no API key required.</blockquote></section>
+    <footer class="footer"><a href="/docs/">Full API reference</a> · <a href="/feedback/">Report a problem</a> · <a href="/">Back to console</a></footer>
+  </article></main>
+</body>
+</html>

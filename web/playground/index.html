@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Try the GZW Data API live. Choose an endpoint, set query parameters and inspect the JSON response.">
+  <meta property="og:title" content="API Playground · GZW Data">
+  <meta property="og:description" content="Run read-only requests against the free Gray Zone Warfare data API.">
+  <link rel="canonical" href="https://gzw-data.dev/playground/">
+  <link rel="icon" type="image/png" href="/assets/gzw-data-favicon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  <title>API Playground · GZW Data</title>
+</head>
+<body data-page="playground">
+  <header class="topbar">
+    <button class="icon-button mobile-menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <a class="brand" href="/" aria-label="GZW Data home"><picture><source srcset="/assets/gzw-data-logo.webp" type="image/webp"><img class="brand-logo" src="/assets/gzw-data-logo.png" alt="GZW Data logo" width="54" height="50"></picture><span><span class="brand-name">GZW Data</span><span class="brand-sub">API playground</span></span></a>
+    <nav class="topnav" aria-label="Primary navigation"><a href="/">Overview</a><a href="/docs/">API reference</a><a class="active" href="/playground/">Playground</a><a href="/feedback/">Feedback</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a></nav>
+    <div class="top-actions"><span class="status-pill"><span class="status-dot"></span><span data-stat="status">Live API</span></span></div>
+  </header>
+  <div class="scrim"></div>
+  <main class="content-shell">
+    <article class="article">
+      <div class="eyebrow">Read-only request builder</div>
+      <h1>API Playground</h1>
+      <p class="lede">Choose a documented endpoint, adjust its inputs, and run a real request against the public GZW Data API. No API key is required.</p>
+      <section class="panel playground-panel" aria-label="API request playground">
+        <div class="playground-toolbar">
+          <label for="playground-endpoint">Endpoint</label>
+          <select id="playground-endpoint" class="field playground-select">
+            <option value="weapons">List weapons</option>
+            <option value="weapon-record">Get one weapon</option>
+            <option value="search">Search datasets</option>
+            <option value="stats">Dataset statistics</option>
+            <option value="health">API health</option>
+            <option value="metadata">Dataset metadata</option>
+          </select>
+          <button class="button primary" id="playground-run" type="button">Run request</button>
+        </div>
+        <div class="playground-fields" id="playground-fields"></div>
+        <div class="playground-request"><span class="method">GET</span><code id="playground-url">/api/v1/weapons?page=1&amp;per_page=5</code><button class="copy-button" type="button" data-copy-target="playground-url">Copy URL</button></div>
+        <div class="playground-result-meta" id="playground-result-meta" aria-live="polite">Ready to run a request.</div>
+        <pre class="playground-output" id="playground-output" aria-live="polite"><code>Select an endpoint and press “Run request”.</code></pre>
+      </section>
+      <div class="split-grid playground-help-grid">
+        <section class="info-panel"><div class="eyebrow">What each request does</div><h2>Understand the response</h2><p><strong>List</strong> returns records with pagination. <strong>Get one</strong> returns a single record by ID. <strong>Search</strong> looks across datasets. <strong>Stats</strong>, <strong>health</strong> and <strong>metadata</strong> describe the API and its data.</p></section>
+        <section class="info-panel"><div class="eyebrow">Next step</div><h2>Use it in your project</h2><p>Copy the URL into a terminal, browser request or the <a href="/docs/">full API reference</a>. The API returns JSON and supports CORS for browser clients.</p></section>
+      </div>
+      <footer class="footer"><a href="/docs/">Full API reference</a> · <a href="/feedback/">Report a problem</a> · <a href="/">Back to console</a></footer>
+    </article>
+  </main>
+  <script src="/assets/site.js" defer></script>
+</body>
+</html>
