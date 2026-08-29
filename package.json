@@ -20,5 +20,8 @@
     "game-data",
     "vercel"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^10.9.1"
+  }
 }

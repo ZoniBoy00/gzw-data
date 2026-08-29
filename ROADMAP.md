@@ -27,7 +27,7 @@ Current implementation: `4.0.0`.
 ### `4.1.0` — contract and CI hardening
 
 - [ ] Add API–SDK contract coverage, including 429/rate-limit behavior.
-- [ ] Add push and pull-request CI for the repository.
+- [x] Add push and pull-request CI for the repository.
 - [ ] Add route-specific OpenAPI response schemas.
 - [ ] Add schema/data drift validation before deployment.
 - [ ] Define API and implementation version semantics.

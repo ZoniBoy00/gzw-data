@@ -5,7 +5,7 @@ const { setHeaders, json, errorResponse, setDataVersion } = require("../lib/resp
 const { paginate, applyFilters, parsePagination, matchesSearch } = require("../lib/query");
 const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
-const { buildBasicMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
+const { buildBasicMetadata, buildRegistryMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
 const { buildSnapshot, getSnapshotHistory, buildChanges } = require("../lib/snapshots");
 
 loadDatasets();
