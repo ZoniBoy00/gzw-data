@@ -7,6 +7,7 @@ const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
 const { buildBasicMetadata, buildRegistryMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
 const { buildSnapshot, getSnapshotHistory, buildChanges } = require("../lib/snapshots");
+const { API_VERSION, IMPLEMENTATION_VERSION } = require("../lib/version");
 
 loadDatasets();
 setDataVersion(getLastScrapedAt());
@@ -157,7 +158,7 @@ function handleRoute(route, params, res, rateInfo) {
     const endpoints = [...allKeys, 'metadata'].sort();
     return json(res, {
       name: 'GZW Data API',
-      version: '4.0.0',
+      implementationVersion: IMPLEMENTATION_VERSION,
       endpoints,
       docs: '/api/spec',
       lastScrapedAt: getLastScrapedAt(),
@@ -247,7 +248,7 @@ function handleRoute(route, params, res, rateInfo) {
       openapi: '3.0.3',
       info: {
         title: 'GZW Data API',
-        version: '4.0.0',
+        version: IMPLEMENTATION_VERSION,
         description: 'Comprehensive Gray Zone Warfare game data API.',
       },
       servers: [{ url: 'https://gzw-data.dev' }],
@@ -262,6 +263,8 @@ function handleRoute(route, params, res, rateInfo) {
               source: { type: 'string' },
               timestamp: { type: 'string', format: 'date-time' },
               dataVersion: { type: 'string' },
+              apiVersion: { type: 'string', example: 'v1' },
+              implementationVersion: { type: 'string', example: '4.1.0' },
             },
             additionalProperties: true,
           },
@@ -308,8 +311,8 @@ function handleRoute(route, params, res, rateInfo) {
     setHeaders(res, rateInfo, CACHE_TTL_SEC);
     return json(res, {
       api: 'GZW Data API',
-      apiVersion: 'v1',
-      version: '4.0.0',
+      apiVersion: API_VERSION,
+      implementationVersion: IMPLEMENTATION_VERSION,
       baseUrl: 'https://gzw-data.dev/api/v1',
       openapi: 'https://gzw-data.dev/api/v1/spec',
       dataVersion: getLastScrapedAt(),
@@ -343,8 +346,8 @@ function handleRoute(route, params, res, rateInfo) {
       return json(res, {
         ok: ready,
         status: ready ? 'ok' : 'degraded',
-        apiVersion: 'v1',
-        version: '4.0.0',
+        apiVersion: API_VERSION,
+        implementationVersion: IMPLEMENTATION_VERSION,
       });
     }
     if (route === 'ready') {
@@ -364,8 +367,8 @@ function handleRoute(route, params, res, rateInfo) {
       ok: ready,
       status: ready ? 'ok' : 'degraded',
       ready,
-      apiVersion: 'v1',
-      version: '4.0.0',
+      apiVersion: API_VERSION,
+      implementationVersion: IMPLEMENTATION_VERSION,
       datasetCount,
       datasets: loaded,
       smartRoutes: Object.keys(SMART_ROUTES),

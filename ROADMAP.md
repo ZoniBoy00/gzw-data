@@ -5,7 +5,7 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 ## Current status
 
 - **API version:** `v1`
-- **Implementation version:** `4.0.0`
+- **Implementation version:** `4.1.0`
 - **Production API:** https://gzw-data.dev/api/v1
 - **Datasets:** 85+ auto-discovered JSON datasets
 - **Tests:** 40 API tests passing on 2026-08-27
@@ -22,7 +22,7 @@ These are planning milestones, not promises to release without verified scope an
 - [x] Stable response envelopes, errors, metadata, schema, health, readiness, search, snapshots, and changes.
 - [x] Read-only public API with generated dataset discovery.
 
-Current implementation: `4.0.0`.
+Current implementation: `4.1.0`.
 
 ### `4.1.0` — contract and CI hardening
 
@@ -30,7 +30,7 @@ Current implementation: `4.0.0`.
 - [x] Add push and pull-request CI for the repository.
 - [x] Add route-specific OpenAPI response schemas.
 - [x] Add schema/data drift validation before deployment.
-- [ ] Define API and implementation version semantics.
+- [x] Define API and implementation version semantics.
 
 ### `4.2.0` — data integrity and snapshot maturity
 
@@ -88,7 +88,7 @@ Current implementation: `4.0.0`.
 
 - [x] Make every public operation codegen-ready with route-specific response schemas.
 - [ ] Document list, pagination, single-record, metadata, schema, and error envelopes.
-- [ ] Separate `apiVersion: v1` from `implementationVersion: 4.0.0` in public documentation.
+- [x] Separate `apiVersion: v1` from `implementationVersion: 4.1.0` in public documentation.
 - [ ] Define how breaking dataset field changes are versioned and deprecated.
 
 ### 4. Caching and performance

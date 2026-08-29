@@ -1,6 +1,6 @@
 {
   "name": "gzw-data-api",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "private": true,
   "description": "GZW Data API — Gray Zone Warfare game data. Auto-discovered endpoints from /data JSON files.",
   "scripts": {

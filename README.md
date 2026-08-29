@@ -108,6 +108,16 @@ payload = requests.get(
 print(payload['data'])
 ```
 
+### Versioning
+
+GZW Data exposes three separate version concepts:
+
+- `apiVersion`: public route contract, currently `v1`; only changes for breaking API changes.
+- `implementationVersion`: API implementation release, currently `4.1.0`; follows semantic versioning for compatible features and fixes.
+- `dataVersion`: timestamp of the published scraper dataset; changes when data is refreshed.
+
+Use `/api/v1/version` when an integration needs all three values. A data refresh does not require an API-version change.
+
 ### Version and changes
 
 ```bash
