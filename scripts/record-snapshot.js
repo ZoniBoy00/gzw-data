@@ -36,6 +36,10 @@ function buildCurrentSnapshot() {
 
 const current = buildCurrentSnapshot();
 const history = fs.existsSync(HISTORY_FILE) ? readJson(HISTORY_FILE) : [];
+if (history.some(snapshot => snapshot.version === current.version)) {
+  console.log(`Snapshot ${current.version} already exists; history is immutable.`);
+  process.exit(0);
+}
 const withoutCurrent = history.filter(snapshot => snapshot.version !== current.version);
 const next = [current, ...withoutCurrent].slice(0, MAX_SNAPSHOTS);
 fs.writeFileSync(HISTORY_FILE, `${JSON.stringify(next, null, 2)}\n`);

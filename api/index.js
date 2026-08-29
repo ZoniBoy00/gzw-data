@@ -227,6 +227,22 @@ function handleRoute(route, params, res, rateInfo) {
         paths[`/api/v1${apiPath.slice('/api'.length)}`] = operation;
       }
     }
+    const responseForPath = apiPath => {
+      if (apiPath.includes('/{id}') && !apiPath.endsWith('/context')) return '#/components/schemas/RecordResponse';
+      if (apiPath.endsWith('/health') || apiPath.endsWith('/ready') || apiPath.endsWith('/version')) return '#/components/schemas/ObjectResponse';
+      if (apiPath.endsWith('/metadata') || apiPath.includes('/metadata/') || apiPath.includes('/schema/')) return '#/components/schemas/ObjectResponse';
+      if (apiPath.endsWith('/search') || apiPath.endsWith('/changes') || apiPath.endsWith('/stats') || apiPath.endsWith('/images') || apiPath.endsWith('/context')) return '#/components/schemas/ObjectResponse';
+      if (apiPath === '/api' || apiPath === '/api/v1') return '#/components/schemas/ObjectResponse';
+      return '#/components/schemas/PaginatedResponse';
+    };
+    for (const [apiPath, operation] of Object.entries(paths)) {
+      operation.get.responses = {
+        200: { description: 'Successful response', content: { 'application/json': { schema: { $ref: responseForPath(apiPath) } } } },
+        400: { description: 'Invalid request', content: { 'application/json': { schema: { $ref: '#/components/schemas/ApiErrorResponse' } } } },
+        404: { description: 'Resource not found', content: { 'application/json': { schema: { $ref: '#/components/schemas/ApiErrorResponse' } } } },
+        429: { description: 'Rate limit exceeded', headers: { 'Retry-After': { schema: { type: 'integer' } } }, content: { 'application/json': { schema: { $ref: '#/components/schemas/ApiErrorResponse' } } } },
+      };
+    }
     return res.json({
       openapi: '3.0.3',
       info: {
@@ -238,6 +254,29 @@ function handleRoute(route, params, res, rateInfo) {
       components: {
         schemas: {
           ...schemas,
+          ObjectResponse: {
+            type: 'object',
+            required: ['data', 'source', 'timestamp'],
+            properties: {
+              data: {},
+              source: { type: 'string' },
+              timestamp: { type: 'string', format: 'date-time' },
+              dataVersion: { type: 'string' },
+            },
+            additionalProperties: true,
+          },
+          RecordResponse: {
+            allOf: [
+              { $ref: '#/components/schemas/ObjectResponse' },
+              { type: 'object', properties: { data: { type: 'object' } } },
+            ],
+          },
+          PaginatedResponse: {
+            allOf: [
+              { $ref: '#/components/schemas/ObjectResponse' },
+              { type: 'object', properties: { data: { type: 'array', items: { type: 'object' } }, count: { type: 'integer' }, page: { type: 'integer' }, perPage: { type: 'integer' }, total: { type: 'integer' }, totalPages: { type: 'integer' } } },
+            ],
+          },
           ApiError: {
             type: 'object',
             required: ['code', 'message'],

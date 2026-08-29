@@ -26,16 +26,16 @@ Current implementation: `4.0.0`.
 
 ### `4.1.0` — contract and CI hardening
 
-- [ ] Add API–SDK contract coverage, including 429/rate-limit behavior.
+- [x] Add API–SDK contract coverage, including 429/rate-limit behavior.
 - [x] Add push and pull-request CI for the repository.
-- [ ] Add route-specific OpenAPI response schemas.
-- [ ] Add schema/data drift validation before deployment.
+- [x] Add route-specific OpenAPI response schemas.
+- [x] Add schema/data drift validation before deployment.
 - [ ] Define API and implementation version semantics.
 
 ### `4.2.0` — data integrity and snapshot maturity
 
-- [ ] Add immutable snapshot identifiers and explicit `latest` semantics.
-- [ ] Add scraper-run manifest and dataset checksums when the upstream scraper provides them.
+- [x] Add immutable snapshot identifiers and explicit `latest` semantics.
+- [x] Add scraper-run manifest and dataset checksums when the upstream scraper provides them.
 - [ ] Add capabilities metadata for filters, sorting, counts, and supported operations.
 - [ ] Document dataset field deprecation and breaking-change handling.
 
@@ -73,20 +73,20 @@ Current implementation: `4.0.0`.
 
 ### 1. API and SDK contract tests
 
-- [ ] Add an explicit contract test for the 429/rate-limit response.
-- [ ] Verify list, single-record, pagination, search, stats, metadata, schema, and error envelopes against the SDK.
-- [ ] Keep live contract checks small, read-only, and rate-limit aware.
+- [x] Add an explicit contract test for the 429/rate-limit response.
+- [x] Verify list, single-record, pagination, search, stats, metadata, schema, and error envelopes against the SDK.
+- [x] Keep live contract checks small, read-only, and rate-limit aware.
 
 ### 2. CI and release safety
 
-- [ ] Add push and pull-request CI for this repository.
-- [ ] Run syntax checks, API tests, diff checks, and relevant lint checks in CI.
-- [ ] Add a schema/data drift gate before deployment.
+- [x] Add push and pull-request CI for this repository.
+- [x] Run syntax checks, API tests, diff checks, and relevant lint checks in CI.
+- [x] Add a schema/data drift gate before deployment.
 - [ ] Add dependency update automation.
 
 ### 3. OpenAPI and versioning
 
-- [ ] Make every public operation codegen-ready with route-specific response schemas.
+- [x] Make every public operation codegen-ready with route-specific response schemas.
 - [ ] Document list, pagination, single-record, metadata, schema, and error envelopes.
 - [ ] Separate `apiVersion: v1` from `implementationVersion: 4.0.0` in public documentation.
 - [ ] Define how breaking dataset field changes are versioned and deprecated.
@@ -101,10 +101,10 @@ Current implementation: `4.0.0`.
 
 ### 5. Snapshot and data integrity
 
-- [ ] Document immutable snapshot identifiers and `latest` semantics.
-- [ ] Never overwrite a snapshot with the same version identifier.
-- [ ] Add dataset-level checksums when they provide a measurable benefit.
-- [ ] Add a scraper-run manifest to the published metadata when the scraper supports it.
+- [x] Document immutable snapshot identifiers and `latest` semantics.
+- [x] Never overwrite a snapshot with the same version identifier.
+- [x] Add dataset-level checksums when they provide a measurable benefit.
+- [x] Add scraper-run manifest to the published data when the scraper supports it.
 
 ### 6. Export
 
@@ -122,9 +122,9 @@ Do not infer these relationships from matching names or descriptions.
 
 ## Documentation
 
-- [ ] Add `SECURITY.md` with private vulnerability reporting guidance.
-- [ ] Add a shared architecture diagram linking scraper, API, SDK, and consumers.
-- [ ] Add more examples for curl, JavaScript, TypeScript, Python, browser fetch, and bots.
+- [x] Add `SECURITY.md` with private vulnerability reporting guidance.
+- [x] Add a shared architecture diagram linking scraper, API, SDK, and consumers.
+- [x] Add more examples for curl, JavaScript, TypeScript, Python, browser fetch, and bots.
 - [ ] Fix local development scripts so a real local HTTP server is available without guessing.
 
 ## Definition of done for API changes

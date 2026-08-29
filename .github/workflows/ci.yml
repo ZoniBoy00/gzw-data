@@ -31,6 +31,9 @@ jobs:
       - name: Run ESLint
         run: npm run lint
 
+      - name: Validate dataset metadata and schemas
+        run: npm run validate:data
+
       - name: Run API tests
         run: npm test
 

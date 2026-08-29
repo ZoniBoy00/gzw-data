@@ -77,6 +77,37 @@ Both prefixes currently expose the same API contract. New integrations should pr
 | `/api/v1/weapon_parts` | Smart route: all weapon parts combined |
 | `/api/v1/helmet_mods` | Smart route: night vision + mounts |
 
+### Project documentation
+
+- [Security policy](SECURITY.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Contributing guide](CONTRIBUTING.md)
+
+The scraper publishes a `_manifest.json` file with per-dataset record counts and SHA-256 checksums. CI validates dataset JSON and generated metadata before changes can be merged.
+
+## API examples
+
+### JavaScript
+
+```js
+const response = await fetch('https://gzw-data.dev/api/v1/weapons?per_page=5');
+const payload = await response.json();
+console.log(payload.data, payload.total);
+```
+
+### Python
+
+```python
+import requests
+
+payload = requests.get(
+    'https://gzw-data.dev/api/v1/search',
+    params={'q': 'ak-12'},
+    timeout=10,
+).json()
+print(payload['data'])
+```
+
 ### Version and changes
 
 ```bash
