@@ -4,6 +4,7 @@ const { describe, it, before } = require('node:test');
 const assert = require('node:assert');
 const path = require('node:path');
 const { buildChanges } = require(path.join(__dirname, '..', 'lib', 'snapshots'));
+const { getLastScrapedAt } = require(path.join(__dirname, '..', 'lib', 'datasets'));
 
 // We test the API by simulating Vercel-like requests.
 // The api/index.js exports a (req, res) handler.
@@ -217,7 +218,7 @@ describe('GZW Data API', () => {
     const body = getBody();
     assert.ok(Array.isArray(body.data));
     assert.ok(typeof body.dataVersion === 'string');
-    assert.strictEqual(body.dataVersion, '2026-08-25T11:12:54.629187Z');
+    assert.strictEqual(body.dataVersion, getLastScrapedAt());
     assert.equal(body.data.length, 5);
     assert.strictEqual(body.page, 1);
     assert.strictEqual(body.perPage, 5);
@@ -307,21 +308,28 @@ describe('GZW Data API', () => {
     assert.ok(typeof version.dataVersion === 'string');
     assert.ok(version.snapshot);
     assert.strictEqual(version.snapshot.version, version.dataVersion);
-    assert.strictEqual(version.historyCount, 1);
+    assert.ok(Number.isInteger(version.historyCount));
+    assert.ok(version.historyCount >= 1);
     assert.ok(version.datasetCount > 0);
     assert.ok(Array.isArray(version.datasets));
   });
 
-  it('should return an honest empty changes report for the first snapshot', () => {
+  it('should report snapshot changes honestly', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/v1/changes'), res);
     assert.strictEqual(getStatus(), 200);
     const changes = getBody().data;
-    assert.strictEqual(changes.hasHistory, false);
-    assert.strictEqual(changes.historyCount, 1);
-    assert.strictEqual(changes.previous, null);
-    assert.deepStrictEqual(changes.changes.datasets, []);
-    assert.match(changes.message, /next stored snapshot/);
+    assert.ok(Number.isInteger(changes.historyCount));
+    assert.ok(changes.historyCount >= 1);
+    assert.strictEqual(changes.hasHistory, changes.historyCount > 1);
+    if (changes.historyCount === 1) {
+      assert.strictEqual(changes.previous, null);
+      assert.deepStrictEqual(changes.changes.datasets, []);
+      assert.match(changes.message, /next stored snapshot/);
+    } else {
+      assert.ok(changes.previous);
+      assert.ok(Array.isArray(changes.changes.datasets));
+    }
   });
 
   it('should calculate dataset count changes between snapshots', () => {
