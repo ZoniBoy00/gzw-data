@@ -1,4 +1,7532 @@
 {
-  "lastScrapedAt": "2026-08-25T11:12:54.629187Z",
-  "source": "gzw-scraper"
+  "source": "gzw-scraper",
+  "datasetCount": 85,
+  "datasets": [
+    {
+      "name": "ammo",
+      "file": "ammo.json",
+      "itemCount": 79,
+      "fields": {
+        "accuracy_modifier": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 62,
+          "optional": true,
+          "nullable": false,
+          "example": "+0 %"
+        },
+        "dispersion": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "-1 %"
+        },
+        "durability_modifier": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 17,
+          "optional": true,
+          "nullable": false,
+          "example": "-100 %"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 64,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 79,
+          "optional": false,
+          "nullable": false,
+          "example": ".222-remington"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 52,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/AP_.45_inspect.png/revision/latest/scale-to-width-down/268?cb=20250610112129"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 64,
+          "optional": true,
+          "nullable": false,
+          "example": "General East"
+        },
+        "muzzle_velocity": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 64,
+          "optional": true,
+          "nullable": false,
+          "example": "1,006 m/s"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 79,
+          "optional": false,
+          "nullable": false,
+          "example": ".222 Remington FMJ"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 60,
+          "optional": true,
+          "nullable": false,
+          "example": "Artisan R.1"
+        },
+        "stopped_by_armor_class": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 31,
+          "optional": true,
+          "nullable": false,
+          "example": "NIJ I"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 64,
+          "optional": true,
+          "nullable": false,
+          "example": "Ammunition Round"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 59,
+          "optional": true,
+          "nullable": false,
+          "example": "0.007kg"
+        }
+      }
+    },
+    {
+      "name": "apparel_items",
+      "file": "apparel_items.json",
+      "itemCount": 63,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 63,
+          "optional": false,
+          "nullable": false,
+          "example": "5.11---competition-shooting"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 62,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Clawgear_-_Raider_Mk_IV_%28Multicam_Black%29_icon.png/revision/latest?cb=20250706113312"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 63,
+          "optional": false,
+          "nullable": false,
+          "example": "5.11 - Competition Shooting"
+        }
+      }
+    },
+    {
+      "name": "auxiliary",
+      "file": "auxiliary.json",
+      "itemCount": 5,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "$29"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "colt-1911-commander-hammer"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/1911_Com_Ham_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727223559"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Colt 1911 Commander Hammer"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Auxiliary"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "0.016 kg"
+        }
+      }
+    },
+    {
+      "name": "backpacks",
+      "file": "backpacks.json",
+      "itemCount": 16,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "6sh118-ratnik-v2"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "5.11"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "6Sh118 Ratnik V2"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "12"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "Backpack"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "0.072kg"
+        }
+      }
+    },
+    {
+      "name": "barrels",
+      "file": "barrels.json",
+      "itemCount": 28,
+      "fields": {
+        "accuracy": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "0.48 MOA"
+        },
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": "$1,105"
+        },
+        "fire_rate": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "+??? RPM"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "ar-15-barrel---10.5\""
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/G17_B_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115143"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "muzzle_device_efficiency": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "-10 %"
+        },
+        "muzzle_velocity": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": true,
+          "nullable": false,
+          "example": "+12 %"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "AR-15 Barrel - 10.5\""
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "????"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "Barrel"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": ".725 kg"
+        }
+      }
+    },
+    {
+      "name": "belts",
+      "file": "belts.json",
+      "itemCount": 8,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "2x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "belt-bag"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/BeltB_inspect.png/revision/latest?cb=20240509134353"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "ANA-Tactical"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Belt Bag"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan R.1 Looting"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Belt"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "0.200kg"
+        }
+      }
+    },
+    {
+      "name": "binoculars",
+      "file": "binoculars.json",
+      "itemCount": 4,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "2x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "m1050-lrf-rangefinder"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Safran Group"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "M1050 LRF Rangefinder"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Binoculars"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "0.530kg"
+        }
+      }
+    },
+    {
+      "name": "boots",
+      "file": "boots.json",
+      "itemCount": 6,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "aku---conero-gtx"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Rocky_S2V_icon.png/revision/latest?cb=20250706113241"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "AKU - Conero GTX"
+        }
+      }
+    },
+    {
+      "name": "buffer_tubes",
+      "file": "buffer_tubes.json",
+      "itemCount": 3,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "cq-a1-buffer-tube"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/M4_Buffer_Tube_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509190115"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Colt"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "CQ A1 Buffer Tube"
+        },
+        "recoil_control": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "+2 %"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "+1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Gunny R.1"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Buffer Tube"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "0.108 kg"
+        }
+      }
+    },
+    {
+      "name": "charging_handle",
+      "file": "charging_handle.json",
+      "itemCount": 11,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "$162"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "ak-rp-1-charging-handle"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/CQ_A1_Ch_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614172556"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "AK RP-1 Charging Handle"
+        },
+        "reload_speed": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "+2.0 %"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Charging Handle"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "0,080 kg"
+        }
+      }
+    },
+    {
+      "name": "cleanup",
+      "file": "cleanup.json",
+      "itemCount": 4,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "cache-report-ix"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Hunter%27s_Paradise_Weapon_Storage_Key.png/revision/latest/scale-to-width-down/268?cb=20240504043117"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "North of Blue Lagoon"
+        },
+        "map_location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "160x168"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Cache Report IX"
+        },
+        "room_contains": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "2 Weapon Crates, Random loose weapon parts"
+        },
+        "size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "town": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Hunter's Paradise"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Key"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Gunny"
+        }
+      }
+    },
+    {
+      "name": "collimators",
+      "file": "collimators.json",
+      "itemCount": 20,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "$1,015"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "503cu-micro-sight"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/510C_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615221345"
+        },
+        "magnification": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": true,
+          "nullable": false,
+          "example": "1x"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "503CU Micro Sight"
+        },
+        "sighting_range": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "100m"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "Collimator"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "??? %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": ".318 kg"
+        }
+      }
+    },
+    {
+      "name": "containers",
+      "file": "containers.json",
+      "itemCount": 28,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 21,
+          "optional": true,
+          "nullable": false,
+          "example": "$105,435"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "admin-desk"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/HCKit_inspect.png/revision/latest?cb=20250621182758"
+        },
+        "inventory_layout_(x/y)": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "10x6"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 24,
+          "optional": true,
+          "nullable": false,
+          "example": "ANA-Tactical"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "Admin Desk"
+        },
+        "restrictions": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 24,
+          "optional": true,
+          "nullable": false,
+          "example": "Can only hold: Plate Carriers Belts Armor Vests Headwear Glasses Backpacks Tactical Rigs Headsets"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "$22,652"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": true,
+          "nullable": false,
+          "example": "108"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan R.2"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": false,
+          "nullable": false,
+          "example": "Container"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 27,
+          "optional": true,
+          "nullable": false,
+          "example": "0.020kg"
+        }
+      }
+    },
+    {
+      "name": "contract",
+      "file": "contract.json",
+      "itemCount": 26,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "breadcrumbs"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "Ban Pa"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "Breadcrumbs"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "Banshee"
+        }
+      }
+    },
+    {
+      "name": "contracts",
+      "file": "contracts.json",
+      "itemCount": 3,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "cache-report-ii"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Blue Lagoon"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Cache Report II"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Gunny"
+        }
+      }
+    },
+    {
+      "name": "drinks",
+      "file": "drinks.json",
+      "itemCount": 18,
+      "fields": {
+        "charges": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "1"
+        },
+        "effect": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "Energy: +20 Hydration: +40 Arm Stamina Boost: +70% Arm Stamina Boost Cap: +70% Arm Stamina Boost Duration: 20s Body Stamina Boost: +70% Body Stamina Boost Cap: +70% Body Stamina Boost Duration: 20s"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "aques-water-1-l"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Water1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530084550"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "Aques"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "Aques Water 1 l"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "Lab Rat R.1"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "Drink"
+        },
+        "use_time": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": true,
+          "nullable": false,
+          "example": "5s"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": "0.200kg"
+        }
+      }
+    },
+    {
+      "name": "electronics",
+      "file": "electronics.json",
+      "itemCount": 5,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "black-luxury-phone"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Phone_inspect.png/revision/latest?cb=20250425032205"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Black Luxury Phone"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "$1,000"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Electronics"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "0.100kg"
+        }
+      }
+    },
+    {
+      "name": "face_cover",
+      "file": "face_cover.json",
+      "itemCount": 4,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "half-mask-black"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Mask%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240522192529"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "5ive Star Gear"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Half Mask (Skull)"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Banshee R.3"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Face Mask"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "0.030kg"
+        }
+      }
+    },
+    {
+      "name": "food",
+      "file": "food.json",
+      "itemCount": 19,
+      "fields": {
+        "arm_stamina_boost": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+100%"
+        },
+        "arm_stamina_boost_cap": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+100%"
+        },
+        "arm_stamina_boost_duration": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "10 seconds"
+        },
+        "body_stamina_boost": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+100%"
+        },
+        "body_stamina_boost_cap": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+100%"
+        },
+        "body_stamina_boost_duration": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "10 seconds"
+        },
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "$80"
+        },
+        "charges": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "1"
+        },
+        "effect": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "Energy: +10 /charge"
+        },
+        "energy_per_charge": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "+5"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "hydratation_per_charge": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "-5"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "1-shot-energy-chews"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Beans_inspect.png/revision/latest/scale-to-width-down/268?cb=20260614123159"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": "1 Shot"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "1 Shot Energy Chews"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "$24"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "Lab Rat R.2"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "Food"
+        },
+        "use_time": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "11s"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "0.010kg"
+        }
+      }
+    },
+    {
+      "name": "foregrips",
+      "file": "foregrips.json",
+      "itemCount": 19,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "$55"
+        },
+        "ergonomics": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": "+1 %"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "afg-2"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/RVG%28FDE%29_inspect.png/revision/latest?cb=20250617103102"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "AFG-2 (FDE)"
+        },
+        "recoil_control": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "+10 %"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "Foregrip"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "+12 %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "0.017 kg"
+        }
+      }
+    },
+    {
+      "name": "front_iron_sights",
+      "file": "front_iron_sights.json",
+      "itemCount": 16,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "$48"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "back-up-3-front-iron-sight"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/MBUS_Front_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616005112"
+        },
+        "magnification": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 14,
+          "optional": true,
+          "nullable": false,
+          "example": "1x"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "Back-Up 3 Front Iron Sight"
+        },
+        "sighting_range": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "0m"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "Front Iron Sight"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "??? %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "0.006 kg"
+        }
+      }
+    },
+    {
+      "name": "funds",
+      "file": "funds.json",
+      "itemCount": 4,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "black-credit-card"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/CCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422042432"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Black Credit Card"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "$15,000"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Funds"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "0.005kg"
+        }
+      }
+    },
+    {
+      "name": "gas_blocks",
+      "file": "gas_blocks.json",
+      "itemCount": 9,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "$10"
+        },
+        "fire_rate": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "+3 %"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "ak-74-gas-tube"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/MK12_Low_inspect.png/revision/latest?cb=20240509152813"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "Colt"
+        },
+        "muzzle_device_efficiency": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "+3 %"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "AK-74 Gas Tube"
+        },
+        "slot": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Gas Block"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "Gas Block"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "0.045 kg"
+        }
+      }
+    },
+    {
+      "name": "gear",
+      "file": "gear.json",
+      "itemCount": 26,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "amp12"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/STourist_inspect.png/revision/latest?cb=20240509070434"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "5.11"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "AMP12"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": true,
+          "nullable": false,
+          "example": "12"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": "Artisan R.4"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": "Backpack"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": "0.030kg"
+        }
+      }
+    },
+    {
+      "name": "glasses",
+      "file": "glasses.json",
+      "itemCount": 13,
+      "fields": {
+        "flashbang_resistance": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "+0 %"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "aviator-black"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Wayfarer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182704"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "Qatorz"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "Aviator (Black)"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "Banshee R.3"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "Glasses"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "0.090kg"
+        }
+      }
+    },
+    {
+      "name": "gloves",
+      "file": "gloves.json",
+      "itemCount": 12,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "5.11---competition-shooting"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Mechanix_Wear_-_M-Pact_Covert_icon.png/revision/latest?cb=20250706113235"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "5.11 - Competition Shooting"
+        }
+      }
+    },
+    {
+      "name": "handguards",
+      "file": "handguards.json",
+      "itemCount": 56,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 21,
+          "optional": true,
+          "nullable": false,
+          "example": "$100"
+        },
+        "ergonomics": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+3.0%"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "2x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 56,
+          "optional": false,
+          "nullable": false,
+          "example": "ak-308-handguard"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 44,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/AKM_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305210348"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 56,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 56,
+          "optional": false,
+          "nullable": false,
+          "example": "AK 308 Handguard"
+        },
+        "recoil_control": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 45,
+          "optional": true,
+          "nullable": false,
+          "example": "+1 %"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 34,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "slot": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "MP5SD HG"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 55,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 56,
+          "optional": false,
+          "nullable": false,
+          "example": "Handguard"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 38,
+          "optional": true,
+          "nullable": false,
+          "example": "+2 %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 56,
+          "optional": false,
+          "nullable": false,
+          "example": "0.110 kg"
+        }
+      }
+    },
+    {
+      "name": "headsets",
+      "file": "headsets.json",
+      "itemCount": 7,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "$278"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "3m-comtac-ii"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Razor_inspect.png/revision/latest?cb=20250621182815"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "Honeywell"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "3M Comtac II"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "Headset"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "0.160kg"
+        }
+      }
+    },
+    {
+      "name": "helmet_mounts",
+      "file": "helmet_mounts.json",
+      "itemCount": 3,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "l4-g24-helmet-nvg-mount"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/G24_inspect.png/revision/latest/scale-to-width-down/268?cb=20250206022335"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Norotos"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "L4 G24 Helmet NVG Mount"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Banshee R.2"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Mount"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "0.060kg"
+        }
+      }
+    },
+    {
+      "name": "helmets",
+      "file": "helmets.json",
+      "itemCount": 41,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 41,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 41,
+          "optional": false,
+          "nullable": false,
+          "example": "6b47-ratnik"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 31,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/HScarf%28Black%29_inspect.png/revision/latest?cb=20250621182801"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 30,
+          "optional": true,
+          "nullable": false,
+          "example": "Armokom"
+        },
+        "material": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 21,
+          "optional": true,
+          "nullable": false,
+          "example": "Aramid"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 41,
+          "optional": false,
+          "nullable": false,
+          "example": "6B47 Ratnik"
+        },
+        "nij_class": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 22,
+          "optional": true,
+          "nullable": false,
+          "example": "I"
+        },
+        "rain_protection": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 22,
+          "optional": true,
+          "nullable": false,
+          "example": "+0 %"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 36,
+          "optional": true,
+          "nullable": false,
+          "example": "??"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Helmet"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 39,
+          "optional": true,
+          "nullable": false,
+          "example": "0.060kg"
+        }
+      }
+    },
+    {
+      "name": "hidden_task",
+      "file": "hidden_task.json",
+      "itemCount": 7,
+      "fields": {
+        "hidden_task": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "True"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "at-dooms-gate"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "Ban Pa"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "At Doom's Gate"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "Gunny"
+        }
+      }
+    },
+    {
+      "name": "household_item",
+      "file": "household_item.json",
+      "itemCount": 20,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "aramid-cloth"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 17,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Lighter_inspect.png/revision/latest?cb=20260331082552"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "Aramid Cloth"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "$1"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "Household Item"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "0.013kg"
+        }
+      }
+    },
+    {
+      "name": "intels",
+      "file": "intels.json",
+      "itemCount": 5,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "georges-love-letter"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/George%27s_love_letter_inspect.png/revision/latest/scale-to-width-down/267?cb=20260311175535"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "George's love letter"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Intel"
+        }
+      }
+    },
+    {
+      "name": "items",
+      "file": "items.json",
+      "itemCount": 3,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "$349"
+        },
+        "duration": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "12h"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "advanced-tracking-tag"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Basic_Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224626"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Advanced Tracking Tag"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "$104"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Banshee R.1"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "0,014kg"
+        }
+      }
+    },
+    {
+      "name": "jewellery",
+      "file": "jewellery.json",
+      "itemCount": 17,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 17,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 17,
+          "optional": false,
+          "nullable": false,
+          "example": "dark-pearl-necklace"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/SPendant_inspect.png/revision/latest/scale-to-width-down/268?cb=20250513043052"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 17,
+          "optional": false,
+          "nullable": false,
+          "example": "Dark Pearl Necklace"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 17,
+          "optional": false,
+          "nullable": false,
+          "example": "$1,350"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 17,
+          "optional": false,
+          "nullable": false,
+          "example": "Jewellery"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 17,
+          "optional": false,
+          "nullable": false,
+          "example": "0.010kg"
+        }
+      }
+    },
+    {
+      "name": "keycards",
+      "file": "keycards.json",
+      "itemCount": 8,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "fort-narith-hq-reception-storage-key-card"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075206"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Fort Narith HQ Reception Storage Key Card"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "Keycard"
+        },
+        "usage": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "Unlocks door Finance Department in Kiu Vongsa Town Hall"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "0.010kg"
+        }
+      }
+    },
+    {
+      "name": "keys",
+      "file": "keys.json",
+      "itemCount": 126,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 122,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 126,
+          "optional": false,
+          "nullable": false,
+          "example": "a102-key"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 126,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/MSH_PR_inspect.png/revision/latest?cb=20260404173624"
+        },
+        "map_location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "160x168"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 126,
+          "optional": false,
+          "nullable": false,
+          "example": "A102 Key"
+        },
+        "room_contains": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "2 Weapon Crates, Random loose weapon parts"
+        },
+        "size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "1X1"
+        },
+        "town": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "Hunter's Paradise"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 124,
+          "optional": true,
+          "nullable": false,
+          "example": "Key"
+        },
+        "usage": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 121,
+          "optional": true,
+          "nullable": false,
+          "example": "Unlocks Party Room door in the Midnight Sapphire Hotel"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 122,
+          "optional": true,
+          "nullable": false,
+          "example": "0.010 Kg"
+        }
+      }
+    },
+    {
+      "name": "laboratory_supplies",
+      "file": "laboratory_supplies.json",
+      "itemCount": 9,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "acetylene-cylinder"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/Disinfectant_inspect.png/revision/latest?cb=20260403101852"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "Acetylene Cylinder"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "$1"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "Laboratory Supplies"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": "0.030kg"
+        }
+      }
+    },
+    {
+      "name": "lockboxes",
+      "file": "lockboxes.json",
+      "itemCount": 3,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "safelock-protected-ruck-case"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Snuck908_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506172119"
+        },
+        "inventory_layout_(x/y)": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "2x2 grid (4 slots)"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "SafeLock Protected Ruck Case"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "9"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Secure Lockbox"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "0.800kg"
+        }
+      }
+    },
+    {
+      "name": "loot_container",
+      "file": "loot_container.json",
+      "itemCount": 39,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "2x6 / 3x6"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 39,
+          "optional": false,
+          "nullable": false,
+          "example": "ammo-box-container"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 32,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/First_Aid_Cabinet.png/revision/latest/scale-to-width-down/268?cb=20250621131235"
+        },
+        "inventory_layout_(x/y)": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 38,
+          "optional": true,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 39,
+          "optional": false,
+          "nullable": false,
+          "example": "Ammo Box (Container)"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 39,
+          "optional": false,
+          "nullable": false,
+          "example": "Loot container"
+        }
+      }
+    },
+    {
+      "name": "loot_containers",
+      "file": "loot_containers.json",
+      "itemCount": 4,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "loot-box"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/7x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250813163531"
+        },
+        "inventory_layout_(x/y)": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "8x3"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Loot Box"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "Loot container"
+        }
+      }
+    },
+    {
+      "name": "loot_items",
+      "file": "loot_items.json",
+      "itemCount": 120,
+      "fields": {
+        "grid": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 120,
+          "optional": false,
+          "nullable": false,
+          "example": "acetylene-cylinder"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 120,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Phone_Charger_icon.png/revision/latest?cb=20260331084625"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 120,
+          "optional": false,
+          "nullable": false,
+          "example": "AN/PYQ-10"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 120,
+          "optional": false,
+          "nullable": false,
+          "example": "0.004kg"
+        }
+      }
+    },
+    {
+      "name": "magazines",
+      "file": "magazines.json",
+      "itemCount": 51,
+      "fields": {
+        "accepted_ammunition": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug"
+        },
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 14,
+          "optional": true,
+          "nullable": false,
+          "example": "$101"
+        },
+        "caliber": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 46,
+          "optional": true,
+          "nullable": false,
+          "example": ".300 BLK / 5.56x45mm 5.56x45mm NATO .300 AAC Blackout"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 51,
+          "optional": false,
+          "nullable": false,
+          "example": "1911-.45acp-15-round-extended-magazine"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/AK_7.62_Mag%2860_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614011844"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 51,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 51,
+          "optional": false,
+          "nullable": false,
+          "example": "1911 .45ACP 15-Round Extended Magazine"
+        },
+        "reload_speed": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": true,
+          "nullable": false,
+          "example": "+0 %"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "+2"
+        },
+        "size_change_vertical": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 32,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 51,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 51,
+          "optional": false,
+          "nullable": false,
+          "example": "Magazine"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 51,
+          "optional": false,
+          "nullable": false,
+          "example": "0.048 kg"
+        }
+      }
+    },
+    {
+      "name": "main_task",
+      "file": "main_task.json",
+      "itemCount": 26,
+      "fields": {
+        "alternate": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "Covert Research"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "a-walk-in-the-park"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "Ban Pa"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "A Walk in the Park"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "Gunny"
+        }
+      }
+    },
+    {
+      "name": "medical",
+      "file": "medical.json",
+      "itemCount": 34,
+      "fields": {
+        "charges": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": "1"
+        },
+        "duration": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": true,
+          "nullable": false,
+          "example": "1 min"
+        },
+        "effect": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 30,
+          "optional": true,
+          "nullable": false,
+          "example": "+500 ml of blood per charge"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 34,
+          "optional": false,
+          "nullable": false,
+          "example": "activated-charcoal"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 27,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/LargeBloodBag.png/revision/latest/scale-to-width-down/268?cb=20250501081851"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 32,
+          "optional": true,
+          "nullable": false,
+          "example": "Fernsby's Healthcare"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 34,
+          "optional": false,
+          "nullable": false,
+          "example": "ARF Trauma Bandage 4"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 31,
+          "optional": true,
+          "nullable": false,
+          "example": "Lab Rat LL1"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": "Bandage"
+        },
+        "use_time": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 14,
+          "optional": true,
+          "nullable": false,
+          "example": "12"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": "0.020kg"
+        }
+      }
+    },
+    {
+      "name": "military_equipment",
+      "file": "military_equipment.json",
+      "itemCount": 19,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "an/pyq-10"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Signal_Repeater_RT97S_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331085918"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "AN/PYQ-10"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "$1,100"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "Military Equipment"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "0,300kg"
+        }
+      }
+    },
+    {
+      "name": "military_material",
+      "file": "military_material.json",
+      "itemCount": 4,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "1x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "camouflage-fabric"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Low-Grade_Gunpowder_inspect.png/revision/latest?cb=20260331082737"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Camouflage Fabric"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "$10"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Military Material"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "0.100kg"
+        }
+      }
+    },
+    {
+      "name": "mortar_rounds",
+      "file": "mortar_rounds.json",
+      "itemCount": 3,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "$1,000"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "1x3"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "m933-120mm-he-cartridge-high-range"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/13/M993_Low_inspect.PNG/revision/latest?cb=20251105180737"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "JPEO"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "M933 120mm HE Cartridge (High Range)"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "$1,250"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "Gunny R.2"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "13.650kg"
+        }
+      }
+    },
+    {
+      "name": "mounts",
+      "file": "mounts.json",
+      "itemCount": 53,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": true,
+          "nullable": false,
+          "example": "$113"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 53,
+          "optional": false,
+          "nullable": false,
+          "example": "1911-grip-scope-mount"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Vz.61_Tac_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307185901"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 53,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 53,
+          "optional": false,
+          "nullable": false,
+          "example": "1911 Grip Scope Mount"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 49,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 53,
+          "optional": false,
+          "nullable": false,
+          "example": "Mount"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 53,
+          "optional": false,
+          "nullable": false,
+          "example": "0.006 kg"
+        }
+      }
+    },
+    {
+      "name": "muzzle_devices",
+      "file": "muzzle_devices.json",
+      "itemCount": 45,
+      "fields": {
+        "accuracy_modifier": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "+20 %"
+        },
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": true,
+          "nullable": false,
+          "example": "$117"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 45,
+          "optional": false,
+          "nullable": false,
+          "example": "3-lug-threaded-hk-mp5"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/CQA2_FH_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614165714"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 45,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "muzzle_device_efficiency": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 38,
+          "optional": true,
+          "nullable": false,
+          "example": "+10 %"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 45,
+          "optional": false,
+          "nullable": false,
+          "example": "3 Prong Flash Hider"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 45,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 45,
+          "optional": false,
+          "nullable": false,
+          "example": "Muzzle Device"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 45,
+          "optional": false,
+          "nullable": false,
+          "example": "0.030 kg"
+        }
+      }
+    },
+    {
+      "name": "night_vision",
+      "file": "night_vision.json",
+      "itemCount": 5,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "$23,500"
+        },
+        "field_of_view": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "40"
+        },
+        "figure_of_merit": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "1,650"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "an/pvs-14-night-vision-device"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/PVS14_inspect.png/revision/latest/scale-to-width-down/268?cb=20250206020535"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Elbit Systems"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "AN/PVS-14 Night Vision Device"
+        },
+        "phosphor_color": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Green"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "$7,050"
+        },
+        "size_change_vert/horiz": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "0/+1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Banshee R.2"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "Night Vision"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": "0.338kg"
+        }
+      }
+    },
+    {
+      "name": "paper",
+      "file": "paper.json",
+      "itemCount": 1,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "shift-roster"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Shift Roster"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Paper"
+        }
+      }
+    },
+    {
+      "name": "pistol_grips",
+      "file": "pistol_grips.json",
+      "itemCount": 25,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "$102"
+        },
+        "ergonomics": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "+1 %"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 25,
+          "optional": false,
+          "nullable": false,
+          "example": "a2-pistol-grip"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 21,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Vz._61_Poly_Grip_inspect.png/revision/latest?cb=20260307185642"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 25,
+          "optional": false,
+          "nullable": false,
+          "example": "????"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 25,
+          "optional": false,
+          "nullable": false,
+          "example": "A2 Pistol Grip"
+        },
+        "recoil_control": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": "+10 %"
+        },
+        "size_change_vertical": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 21,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "slot": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "Pistol Grip"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 25,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 25,
+          "optional": false,
+          "nullable": false,
+          "example": "Pistol Grip"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": true,
+          "nullable": false,
+          "example": "+10 %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 25,
+          "optional": false,
+          "nullable": false,
+          "example": "0.055 kg"
+        }
+      }
+    },
+    {
+      "name": "plate_carrier",
+      "file": "plate_carrier.json",
+      "itemCount": 1,
+      "fields": {
+        "armor_locations": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Front,Back"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "specter"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Specter_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515140641"
+        },
+        "material": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Aramid"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Specter"
+        },
+        "nij_class": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "IIIA"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Handshake R.1 Looting"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "2.800kg"
+        }
+      }
+    },
+    {
+      "name": "plate_carriers",
+      "file": "plate_carriers.json",
+      "itemCount": 16,
+      "fields": {
+        "armor_locations": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "Front"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "3x3"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "cgpc3-tqs"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Plate6_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404185433"
+        },
+        "inventory": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": true,
+          "nullable": false,
+          "example": "3x3"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": true,
+          "nullable": false,
+          "example": "4M"
+        },
+        "material": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "Aramid"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "CGPC3 TQS"
+        },
+        "nij_class": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "III"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "12"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 14,
+          "optional": true,
+          "nullable": false,
+          "example": "Plate Carrier"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "12.100kg"
+        }
+      }
+    },
+    {
+      "name": "provisions",
+      "file": "provisions.json",
+      "itemCount": 37,
+      "fields": {
+        "grid": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "1-shot-energy-chews"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 36,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Gray_icon.png/revision/latest?cb=20250621182754"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "1 Shot Energy Chews"
+        },
+        "source": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "Lab Rat Lv.1"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "0.010 kg"
+        }
+      }
+    },
+    {
+      "name": "reading_intel",
+      "file": "reading_intel.json",
+      "itemCount": 1,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "research-papers"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Research_Papers_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404000525"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Research Papers"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Reading Intel"
+        }
+      }
+    },
+    {
+      "name": "rear_iron_sights",
+      "file": "rear_iron_sights.json",
+      "itemCount": 20,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "$22"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "ak-12-rear-sight"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Carry_inspect.png/revision/latest/scale-to-width-down/267?cb=20240507135421"
+        },
+        "magnification": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "1x"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "AK Rear Iron Sight"
+        },
+        "sighting_range": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "0m"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "Rear Iron Sight"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "??? %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "0.021 kg"
+        }
+      }
+    },
+    {
+      "name": "removed_content",
+      "file": "removed_content.json",
+      "itemCount": 24,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 24,
+          "optional": false,
+          "nullable": false,
+          "example": "call-up-papers"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 22,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": true,
+          "nullable": false,
+          "example": "Ban Pa"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 24,
+          "optional": false,
+          "nullable": false,
+          "example": "Call up Papers"
+        },
+        "required_level": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Req. Level"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "Key"
+        },
+        "usage": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "Unlocks door Supply Closet in Midnight Sapphire"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": true,
+          "nullable": false,
+          "example": "Artisan"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "0.010kg"
+        }
+      }
+    },
+    {
+      "name": "repair_kits",
+      "file": "repair_kits.json",
+      "itemCount": 6,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "$1,050"
+        },
+        "charges": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "100"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "1x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "equipment-repair-essentials-kit"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/BFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151445"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "Equipment Repair Essentials Kit"
+        },
+        "repair_efficiency": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "+85 %"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "$1,275"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "Gunny R.2"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "Consumable"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "1.500kg"
+        }
+      }
+    },
+    {
+      "name": "rigs",
+      "file": "rigs.json",
+      "itemCount": 11,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": true,
+          "nullable": false,
+          "example": "2x3"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "6sh104"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/4x3_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250608162448"
+        },
+        "inventory": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": true,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "5.11"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "6Sh104"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "10"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan R.1 Looting"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Tactical Rig"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "0.300kg"
+        }
+      }
+    },
+    {
+      "name": "scopes",
+      "file": "scopes.json",
+      "itemCount": 11,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "$1,990"
+        },
+        "ergonomics": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "-8 %"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "acog-ta01nsn-4x32-assault-scope"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Viper_5x25_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612212727"
+        },
+        "magnification": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "1-6x"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "ELCAN"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "ACOG TA01NSN 4x32 Assault Scope"
+        },
+        "sighting_range": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "1,000m"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "size_change_vertical": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan R.2"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Scope"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": true,
+          "nullable": false,
+          "example": "-12 %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "0.292 kg"
+        }
+      }
+    },
+    {
+      "name": "shirts",
+      "file": "shirts.json",
+      "itemCount": 20,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "clawgear---combat-operator"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/US_Army_-_Blouse_%28M64_Vietnam%29_icon.png/revision/latest?cb=20250706063049"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": "Clawgear - Combat Operator (Black)"
+        }
+      }
+    },
+    {
+      "name": "side_task",
+      "file": "side_task.json",
+      "itemCount": 96,
+      "fields": {
+        "alternate": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "A Shot in the Dark"
+        },
+        "hidden_task": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "Yes"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 96,
+          "optional": false,
+          "nullable": false,
+          "example": "a-shot-in-the-dark"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 96,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 95,
+          "optional": true,
+          "nullable": false,
+          "example": "Ban Pa"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 96,
+          "optional": false,
+          "nullable": false,
+          "example": "A Shot in the Dark"
+        },
+        "task_type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Side Task"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 96,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan"
+        }
+      }
+    },
+    {
+      "name": "slides",
+      "file": "slides.json",
+      "itemCount": 12,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "$353"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "1911-commander-slide"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/1911_Com_Slide_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727222408"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "1911 Commander Slide"
+        },
+        "recoil_control": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "+6 %"
+        },
+        "reload_speed": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": "+10 %"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "Slide"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "0.280 kg"
+        }
+      }
+    },
+    {
+      "name": "squad_strike_missions",
+      "file": "squad_strike_missions.json",
+      "itemCount": 32,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 32,
+          "optional": false,
+          "nullable": false,
+          "example": "binary-choir"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 32,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 32,
+          "optional": false,
+          "nullable": false,
+          "example": "Ban Pa"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 32,
+          "optional": false,
+          "nullable": false,
+          "example": "Binary Choir"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 32,
+          "optional": false,
+          "nullable": false,
+          "example": "Gunny"
+        }
+      }
+    },
+    {
+      "name": "squad_strike_missions_item",
+      "file": "squad_strike_missions_item.json",
+      "itemCount": 55,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 55,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 55,
+          "optional": false,
+          "nullable": false,
+          "example": "box-of-ids"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/LAF_Hardware_Key_inspect.png/revision/latest?cb=20260409200705"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 55,
+          "optional": false,
+          "nullable": false,
+          "example": "Box of IDs"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 55,
+          "optional": false,
+          "nullable": false,
+          "example": "???kg"
+        }
+      }
+    },
+    {
+      "name": "stock_adapters",
+      "file": "stock_adapters.json",
+      "itemCount": 10,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "$68"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "ak-74m/100-pt-stock-adapter"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/MCX_Buf_T_Ad_inspect.png/revision/latest?cb=20250620103724"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "AK Buffer Tube Adapter"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "Stock Adapter"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "0.090 kg"
+        }
+      }
+    },
+    {
+      "name": "stocks",
+      "file": "stocks.json",
+      "itemCount": 58,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": true,
+          "nullable": false,
+          "example": "$114"
+        },
+        "ergonomics": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": true,
+          "nullable": false,
+          "example": "+1 %"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 58,
+          "optional": false,
+          "nullable": false,
+          "example": "ak-47/akm-wooden-stock"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/Mosin_Stock_F_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307190226"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 58,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 58,
+          "optional": false,
+          "nullable": false,
+          "example": "AK MOE Stock (FDE)"
+        },
+        "recoil_control": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 52,
+          "optional": true,
+          "nullable": false,
+          "example": "+10 %"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 47,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "size_change_vertical": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 58,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 58,
+          "optional": false,
+          "nullable": false,
+          "example": "Stock"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 42,
+          "optional": true,
+          "nullable": false,
+          "example": "+1 %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 58,
+          "optional": false,
+          "nullable": false,
+          "example": "0.087 kg"
+        }
+      }
+    },
+    {
+      "name": "suppressors",
+      "file": "suppressors.json",
+      "itemCount": 23,
+      "fields": {
+        "accuracy": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "+4 MOA"
+        },
+        "accuracy_modifier": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "+2 %"
+        },
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": true,
+          "nullable": false,
+          "example": "$1,160"
+        },
+        "ergonomics": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "-10,0 %"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "1x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "762-sd-suppressor"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/762-SD_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727204929"
+        },
+        "loudness_reduction": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "+15 %"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "muzzle_device_efficiency": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "+3 %"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "762-SD Suppressor"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 14,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "slot": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "9x19 Muzzle"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "Suppressor"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": true,
+          "nullable": false,
+          "example": "+???? %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": ".476 kg"
+        }
+      }
+    },
+    {
+      "name": "tactical_devices",
+      "file": "tactical_devices.json",
+      "itemCount": 11,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "$200"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "ade-advanced-red-laser"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/NcStar_Light_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530002005"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "ADE Advanced Optics"
+        },
+        "modes": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Flashlight Green laser"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "ADE Advanced Red Laser"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Tactical Device"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "+??? %"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "0.032 kg"
+        }
+      }
+    },
+    {
+      "name": "task_items",
+      "file": "task_items.json",
+      "itemCount": 101,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 100,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 101,
+          "optional": false,
+          "nullable": false,
+          "example": "appeal-to-the-rebels"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 41,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Pilot_Logbook_inspect.png/revision/latest/scale-to-width-down/268?cb=20240602105125"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 101,
+          "optional": false,
+          "nullable": false,
+          "example": "Appeal to the Rebels"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "$6"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 20,
+          "optional": true,
+          "nullable": false,
+          "example": "File"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 100,
+          "optional": true,
+          "nullable": false,
+          "example": ".010kg"
+        }
+      }
+    },
+    {
+      "name": "tasks",
+      "file": "tasks.json",
+      "itemCount": 249,
+      "fields": {
+        "alternate": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": true,
+          "nullable": false,
+          "example": "A Shot in the Dark"
+        },
+        "faction": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "CSI"
+        },
+        "hidden_task": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": "True"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 249,
+          "optional": false,
+          "nullable": false,
+          "example": "a-shot-in-the-dark"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 249,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 246,
+          "optional": true,
+          "nullable": false,
+          "example": "Ban Pa"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 249,
+          "optional": false,
+          "nullable": false,
+          "example": "A Shot in the Dark"
+        },
+        "task_type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "Contract"
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 249,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan"
+        }
+      }
+    },
+    {
+      "name": "throwables",
+      "file": "throwables.json",
+      "itemCount": 8,
+      "fields": {
+        "burning_time": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "50-90s"
+        },
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "$37"
+        },
+        "fragment_count": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "250"
+        },
+        "fuse_delay": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "1-2.3s"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "f-1"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/M18%28Red%29_inspect.png/revision/latest?cb=20250617155946"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Day & Zimmermann"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "F-1"
+        },
+        "radius": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "15m"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "$11"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "Gunny R.1"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Explosive Grenade"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "0.310kg"
+        }
+      }
+    },
+    {
+      "name": "tools",
+      "file": "tools.json",
+      "itemCount": 8,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "$150"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "box-of-supplies"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/Camera_Wiretap_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508234029"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "General East"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Box of Supplies"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "Gunny R.1"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "Tool"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "0.010kg"
+        }
+      }
+    },
+    {
+      "name": "trousers",
+      "file": "trousers.json",
+      "itemCount": 23,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "arcteryx-leaf---assault-pant-ar-gen-2-multicam"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Clawgear_-_Raider_Mk_IV_%28Multicam_Black%29_icon.png/revision/latest?cb=20250706113312"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 23,
+          "optional": false,
+          "nullable": false,
+          "example": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)"
+        }
+      }
+    },
+    {
+      "name": "upcoming_content",
+      "file": "upcoming_content.json",
+      "itemCount": 11,
+      "fields": {
+        "accepted_ammunition": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "7.62x25mm FMJ 7.62x25mm PT 7.62x25mm PST"
+        },
+        "accuracy": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "??? MOA"
+        },
+        "armor_locations": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "caliber": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "7.62x25mm"
+        },
+        "fire_mode": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "????"
+        },
+        "fire_rate": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "??? RPM"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "b-krogan"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "material": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "B Krogan"
+        },
+        "nij_class": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "III+"
+        },
+        "reload_speed": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "???%"
+        },
+        "slot": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Primary"
+        },
+        "slots": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "12"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Armor vest"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "0.160kg"
+        }
+      }
+    },
+    {
+      "name": "upper_receivers",
+      "file": "upper_receivers.json",
+      "itemCount": 15,
+      "fields": {
+        "buy_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "$107"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": false,
+          "nullable": false,
+          "example": "ak-100-series-dust-cover"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/MCX_Upper_inspect.png/revision/latest?cb=20250614021321"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": false,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": false,
+          "nullable": false,
+          "example": "AK Ratnik Dust Cover"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "+1"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": false,
+          "nullable": false,
+          "example": "????"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": false,
+          "nullable": false,
+          "example": "Upper Receiver"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": false,
+          "nullable": false,
+          "example": "0.104 kg"
+        }
+      }
+    },
+    {
+      "name": "valuables",
+      "file": "valuables.json",
+      "itemCount": 1,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "dollars"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/USD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404171640"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Dollars"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Currency"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "0.0001kg"
+        }
+      }
+    },
+    {
+      "name": "vendors",
+      "file": "vendors.json",
+      "itemCount": 7,
+      "fields": {
+        "full_name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "Anton Jackson"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "artisan"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Gunny_square.png/revision/latest/scale-to-width-down/268?cb=20240502171554"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan"
+        },
+        "wares": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Any"
+        }
+      }
+    },
+    {
+      "name": "vests",
+      "file": "vests.json",
+      "itemCount": 19,
+      "fields": {
+        "armor_locations": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "3x3"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "6b23-1digital"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/VIP_inspect.png/revision/latest?cb=20250621182702"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "material": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": "6B23-1(Digital)"
+        },
+        "nij_class": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "III"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "Armor vest"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": "1.760kg"
+        }
+      }
+    },
+    {
+      "name": "vices",
+      "file": "vices.json",
+      "itemCount": 11,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "allanach-single-malt-scotch---40y"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/Allanch_inspect.png/revision/latest?cb=20250506173126"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "General East"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Allanach Single Malt Scotch - 40y"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "$139"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "Funds"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": "0.020kg"
+        }
+      }
+    },
+    {
+      "name": "weapon_parts",
+      "file": "weapon_parts.json",
+      "itemCount": 1,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "sig-mcx-pistol-grip"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/MCX_Grip.png/revision/latest/scale-to-width-down/268?cb=20250614023437"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Sig Sauer"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "SIG MCX Pistol Grip"
+        },
+        "size_change_horizontal": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "0"
+        },
+        "size_change_vertical": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "+1"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Pistol Grip"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "0.100 kg"
+        }
+      }
+    },
+    {
+      "name": "weapons",
+      "file": "weapons.json",
+      "itemCount": 44,
+      "fields": {
+        "accepted_ammunition": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 43,
+          "optional": true,
+          "nullable": false,
+          "example": ".222 Remington SP .222 Remington HP .222 Remington FMJ .222 Remington VMax"
+        },
+        "accuracy": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": "0.8 MOA"
+        },
+        "caliber": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 42,
+          "optional": true,
+          "nullable": false,
+          "example": ".222 Remington"
+        },
+        "default_ammo": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "5.45x39mm FMJ"
+        },
+        "default_mag": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "DD 5.56x45mm/.300 BLK 32-Round Magazine"
+        },
+        "ergonomics": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": true,
+          "nullable": false,
+          "example": "+15.0%"
+        },
+        "fire_mode": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 38,
+          "optional": true,
+          "nullable": false,
+          "example": "????"
+        },
+        "fire_rate": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": "20 RPM"
+        },
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "2x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 44,
+          "optional": false,
+          "nullable": false,
+          "example": "ak-12"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/SA_vz._58_inspect.png/revision/latest/scale-to-width-down/267?cb=20260602022249"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 30,
+          "optional": true,
+          "nullable": false,
+          "example": "????"
+        },
+        "muzzle_device_efficiency": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "+10.0 %"
+        },
+        "muzzle_velocity": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+0.8%"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 44,
+          "optional": false,
+          "nullable": false,
+          "example": "AK-12"
+        },
+        "recoil_control": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": true,
+          "nullable": false,
+          "example": "+16%"
+        },
+        "reload_speed": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": true,
+          "nullable": false,
+          "example": "+2%"
+        },
+        "slot": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": "Primary"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 29,
+          "optional": true,
+          "nullable": false,
+          "example": "???"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 43,
+          "optional": true,
+          "nullable": false,
+          "example": "Assault Rifle"
+        },
+        "weapon_handling": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "+10%"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": "0.810 kg"
+        }
+      }
+    },
+    {
+      "name": "workshop_supplies",
+      "file": "workshop_supplies.json",
+      "itemCount": 16,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "acumulator-drill"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Acumulator_Drill.png/revision/latest/scale-to-width-down/200?cb=20260419122005"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "Acumulator Drill"
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "$142"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "Workshop SUpplies"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": "0.120kg"
+        }
+      }
+    }
+  ],
+  "lastScrapedAt": "2026-08-31T13:22:10.500330Z"
 }
