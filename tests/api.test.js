@@ -140,7 +140,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().data.ok, true);
     assert.strictEqual(getBody().data.status, 'ok');
     assert.strictEqual(getBody().data.apiVersion, 'v1');
-    assert.strictEqual(getBody().data.implementationVersion, '4.1.0');
+    assert.strictEqual(getBody().data.implementationVersion, '4.2.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'datasets'));
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
     assert.ok(typeof getBody().dataVersion === 'string');
@@ -164,6 +164,18 @@ describe('GZW Data API', () => {
     assert.ok(getBody().paths['/api/ready']);
     assert.ok(getBody().paths['/api/v1/health']);
     assert.ok(getBody().paths['/api/v1/ready']);
+  });
+
+  it('should document metadata capabilities in OpenAPI', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/spec'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.ok(getBody().components.schemas.Capabilities);
+    assert.ok(getBody().components.schemas.MetadataResponse);
+    assert.strictEqual(
+      getBody().paths['/api/v1/metadata'].get.responses[200].content['application/json'].schema.$ref,
+      '#/components/schemas/MetadataResponse',
+    );
   });
 
   it('should return stats endpoint', () => {
@@ -190,12 +202,18 @@ describe('GZW Data API', () => {
     assert.ok(weapons.itemCount > 0);
     assert.ok(Array.isArray(weapons.fields));
     assert.ok(weapons.fields.includes('id'));
+    assert.deepStrictEqual(weapons.capabilities.operations, ['list', 'get', 'filter', 'sort', 'paginate']);
+    assert.strictEqual(weapons.capabilities.filters.supported, true);
+    assert.ok(weapons.capabilities.filters.fields.includes('name'));
+    assert.deepStrictEqual(weapons.capabilities.sorting.directions, ['asc', 'desc']);
+    assert.strictEqual(weapons.capabilities.counts.includesTotal, true);
 
     const full = mockRes();
     handler(mockReq('/api/metadata?full=true'), full.res);
     const fullWeapons = full.getBody().data.datasets.find(dataset => dataset.name === 'weapons');
     assert.ok(fullWeapons.fields.id);
     assert.ok(Array.isArray(fullWeapons.fields.id.types));
+    assert.ok(fullWeapons.capabilities.sorting.fields.includes('id'));
   });
 
   it('should return metadata for one dataset and 404 for an unknown dataset', () => {
@@ -203,6 +221,7 @@ describe('GZW Data API', () => {
     handler(mockReq('/api/metadata/weapons'), found.res);
     assert.strictEqual(found.getStatus(), 200);
     assert.strictEqual(found.getBody().data.name, 'weapons');
+    assert.strictEqual(found.getBody().data.capabilities.counts.supported, true);
 
     const missing = mockRes();
     handler(mockReq('/api/metadata/not-a-real-dataset'), missing.res);
@@ -301,7 +320,7 @@ describe('GZW Data API', () => {
     const version = getBody().data;
     assert.strictEqual(version.api, 'GZW Data API');
     assert.strictEqual(version.apiVersion, 'v1');
-    assert.strictEqual(version.implementationVersion, '4.1.0');
+    assert.strictEqual(version.implementationVersion, '4.2.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(version, 'version'));
     assert.strictEqual(version.baseUrl, 'https://gzw-data.dev/api/v1');
     assert.strictEqual(version.openapi, 'https://gzw-data.dev/api/v1/spec');

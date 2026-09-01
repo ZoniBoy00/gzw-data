@@ -231,7 +231,8 @@ function handleRoute(route, params, res, rateInfo) {
     const responseForPath = apiPath => {
       if (apiPath.includes('/{id}') && !apiPath.endsWith('/context')) return '#/components/schemas/RecordResponse';
       if (apiPath.endsWith('/health') || apiPath.endsWith('/ready') || apiPath.endsWith('/version')) return '#/components/schemas/ObjectResponse';
-      if (apiPath.endsWith('/metadata') || apiPath.includes('/metadata/') || apiPath.includes('/schema/')) return '#/components/schemas/ObjectResponse';
+      if (apiPath.endsWith('/metadata') || apiPath.includes('/metadata/')) return '#/components/schemas/MetadataResponse';
+      if (apiPath.includes('/schema/')) return '#/components/schemas/ObjectResponse';
       if (apiPath.endsWith('/search') || apiPath.endsWith('/changes') || apiPath.endsWith('/stats') || apiPath.endsWith('/images') || apiPath.endsWith('/context')) return '#/components/schemas/ObjectResponse';
       if (apiPath === '/api' || apiPath === '/api/v1') return '#/components/schemas/ObjectResponse';
       return '#/components/schemas/PaginatedResponse';
@@ -264,7 +265,7 @@ function handleRoute(route, params, res, rateInfo) {
               timestamp: { type: 'string', format: 'date-time' },
               dataVersion: { type: 'string' },
               apiVersion: { type: 'string', example: 'v1' },
-              implementationVersion: { type: 'string', example: '4.1.0' },
+              implementationVersion: { type: 'string', example: IMPLEMENTATION_VERSION },
             },
             additionalProperties: true,
           },
@@ -272,6 +273,46 @@ function handleRoute(route, params, res, rateInfo) {
             allOf: [
               { $ref: '#/components/schemas/ObjectResponse' },
               { type: 'object', properties: { data: { type: 'object' } } },
+            ],
+          },
+          Capabilities: {
+            type: 'object',
+            required: ['operations', 'filters', 'sorting', 'counts'],
+            properties: {
+              operations: { type: 'array', items: { type: 'string' }, example: ['list', 'get', 'filter', 'sort', 'paginate'] },
+              filters: { type: 'object', properties: { supported: { type: 'boolean' }, fields: { type: 'array', items: { type: 'string' } } } },
+              sorting: { type: 'object', properties: { supported: { type: 'boolean' }, fields: { type: 'array', items: { type: 'string' } }, directions: { type: 'array', items: { type: 'string', enum: ['asc', 'desc'] } } } },
+              counts: { type: 'object', properties: { supported: { type: 'boolean' }, includesTotal: { type: 'boolean' }, includesPageCount: { type: 'boolean' } } },
+            },
+          },
+          MetadataResponse: {
+            allOf: [
+              { $ref: '#/components/schemas/ObjectResponse' },
+              {
+                type: 'object',
+                properties: {
+                  data: {
+                    type: 'object',
+                    properties: {
+                      datasetCount: { type: 'integer' },
+                      datasets: {
+                        type: 'array',
+                        items: {
+                          type: 'object',
+                          properties: {
+                            name: { type: 'string' },
+                            file: { type: 'string' },
+                            itemCount: { type: 'integer' },
+                            fields: {},
+                            capabilities: { $ref: '#/components/schemas/Capabilities' },
+                          },
+                          required: ['name', 'itemCount', 'fields', 'capabilities'],
+                        },
+                      },
+                    },
+                  },
+                },
+              },
             ],
           },
           PaginatedResponse: {

@@ -113,7 +113,7 @@ print(payload['data'])
 GZW Data exposes three separate version concepts:
 
 - `apiVersion`: public route contract, currently `v1`; only changes for breaking API changes.
-- `implementationVersion`: API implementation release, currently `4.1.0`; follows semantic versioning for compatible features and fixes.
+- `implementationVersion`: API implementation release, currently `4.2.0`; follows semantic versioning for compatible features and fixes.
 - `dataVersion`: timestamp of the published scraper dataset; changes when data is refreshed.
 
 Use `/api/v1/version` when an integration needs all three values. A data refresh does not require an API-version change.
@@ -134,6 +134,24 @@ npm run snapshot:record
 ```
 
 The repository retains the 30 most recent snapshots in `data/_history.json`.
+
+### Capabilities metadata
+
+`/api/v1/metadata` and `/api/v1/metadata/{dataset}` expose a `capabilities` object for each dataset. It describes the supported operations, filter fields, sortable fields and directions, and count fields returned by collection responses. Clients should use this metadata instead of guessing which query parameters a dataset supports.
+
+The current contract advertises `list`, `get`, `filter`, `sort`, and `paginate`. Counts include the total matching record count and page count where pagination is used. A capability describes a supported operation; it does not promise that a particular value exists in the current snapshot.
+
+### Dataset field deprecation and breaking changes
+
+Dataset additions are backward-compatible. Existing fields are not removed or silently renamed in the `v1` API. When a field is planned for removal or semantic change, it is first documented as deprecated, clients are given a migration path, and the change is announced in release notes. The old field remains available for a compatibility window before removal.
+
+The implementation version follows semantic versioning:
+
+- **Patch:** correction of incorrect data without changing the field contract, or an internal fix.
+- **Minor:** additive dataset fields, new datasets, or new optional metadata/capabilities.
+- **Major/API version:** removing or renaming a field, changing its type or meaning incompatibly, changing response envelopes, or removing a documented operation.
+
+Breaking public contract changes require a new API line (for example `v2`), updated OpenAPI and SDK contract tests, migration notes, and a documented compatibility window. A routine scraper refresh changes `dataVersion`, not `apiVersion`.
 
 ### Query Parameters
 

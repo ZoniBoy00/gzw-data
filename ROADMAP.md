@@ -5,7 +5,7 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 ## Current status
 
 - **API version:** `v1`
-- **Implementation version:** `4.1.0`
+- **Implementation version:** `4.2.0`
 - **Production API:** https://gzw-data.dev/api/v1
 - **Datasets:** 85+ auto-discovered JSON datasets
 - **Tests:** 40 API tests passing on 2026-08-27
@@ -22,7 +22,7 @@ These are planning milestones, not promises to release without verified scope an
 - [x] Stable response envelopes, errors, metadata, schema, health, readiness, search, snapshots, and changes.
 - [x] Read-only public API with generated dataset discovery.
 
-Current implementation: `4.1.0`.
+Current implementation: `4.2.0`.
 
 ### `4.1.0` — contract and CI hardening
 
@@ -36,8 +36,8 @@ Current implementation: `4.1.0`.
 
 - [x] Add immutable snapshot identifiers and explicit `latest` semantics.
 - [x] Add scraper-run manifest and dataset checksums when the upstream scraper provides them.
-- [ ] Add capabilities metadata for filters, sorting, counts, and supported operations.
-- [ ] Document dataset field deprecation and breaking-change handling.
+- [x] Add capabilities metadata for filters, sorting, counts, and supported operations.
+- [x] Document dataset field deprecation and breaking-change handling.
 
 ### `4.3.0` — performance and export
 
@@ -88,8 +88,8 @@ Current implementation: `4.1.0`.
 
 - [x] Make every public operation codegen-ready with route-specific response schemas.
 - [ ] Document list, pagination, single-record, metadata, schema, and error envelopes.
-- [x] Separate `apiVersion: v1` from `implementationVersion: 4.1.0` in public documentation.
-- [ ] Define how breaking dataset field changes are versioned and deprecated.
+- [x] Separate `apiVersion: v1` from `implementationVersion: 4.2.0` in public documentation.
+- [x] Define how breaking dataset field changes are versioned and deprecated.
 
 ### 4. Caching and performance
 
