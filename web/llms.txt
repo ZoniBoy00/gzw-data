@@ -2,7 +2,7 @@
 
 > Free public Gray Zone Warfare game-data API for developers, tools, bots, dashboards, CLI workflows, and AI agents.
 
-GZW Data is a read-only, public API for structured Gray Zone Warfare data. It provides JSON responses for weapons, missions, items, loot, armor, containers, vendors, equipment, and other published datasets. It is not a player telemetry, private server-state, authentication, write-operation, or guaranteed real-time event API.
+GZW Data is a read-only, public API for structured Gray Zone Warfare data. It provides JSON responses for weapons, tasks and mission data, items, loot, armor, containers, vendors, equipment, and other published datasets. It is not a player telemetry, private server-state, authentication, write-operation, or guaranteed real-time event API.
 
 ## Resources
 
@@ -28,7 +28,7 @@ GZW Data is a read-only, public API for structured Gray Zone Warfare data. It pr
 
 ```bash
 curl https://gzw-data.dev/api/v1/weapons
-curl https://gzw-data.dev/api/v1/missions
+curl https://gzw-data.dev/api/v1/tasks
 curl "https://gzw-data.dev/api/v1/search?q=ak-12"
 ```
 
