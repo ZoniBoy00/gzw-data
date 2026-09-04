@@ -5,10 +5,10 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 ## Current status
 
 - **API version:** `v1`
-- **Implementation version:** `4.2.0`
+- **Implementation version:** `4.3.0`
 - **Production API:** https://gzw-data.dev/api/v1
 - **Datasets:** 85+ auto-discovered JSON datasets
-- **Tests:** 40 API tests passing on 2026-08-27
+- **Tests:** 45 API tests passing on 2026-09-04
 - **License:** MIT
 - **Authentication:** none required for the public read-only API
 
@@ -39,11 +39,11 @@ Current implementation: `4.2.0`.
 - [x] Add capabilities metadata for filters, sorting, counts, and supported operations.
 - [x] Document dataset field deprecation and breaking-change handling.
 
-### `4.3.0` — performance and export
+### `4.3.0` — bounded export and HTTP efficiency
 
-- [ ] Add ETag/conditional requests when a stable data validator is available.
-- [ ] Optimize item context lookup if production measurements show a need.
-- [ ] Design and test bounded dataset-specific bulk export.
+- [x] Verify conditional requests and document ETag/`If-None-Match` behavior.
+- [x] Measure item context lookup and defer indexing while production measurements show no need.
+- [x] Design and test bounded dataset-specific bulk export with a 500-record maximum.
 - [ ] Add field selection only when a real consumer needs it.
 
 ### `5.0.0` — breaking API line, only if required
@@ -88,13 +88,13 @@ Current implementation: `4.2.0`.
 
 - [x] Make every public operation codegen-ready with route-specific response schemas.
 - [ ] Document list, pagination, single-record, metadata, schema, and error envelopes.
-- [x] Separate `apiVersion: v1` from `implementationVersion: 4.2.0` in public documentation.
+- [x] Separate `apiVersion: v1` from `implementationVersion: 4.3.0` in public documentation.
 - [x] Define how breaking dataset field changes are versioned and deprecated.
 
 ### 4. Caching and performance
 
-- [ ] Add ETag/conditional requests when the data-version can provide a stable validator.
-- [ ] Consider field selection, for example `?fields=id,name,image`.
+- [x] Verify CDN conditional requests and document the `dataVersion` validator context.
+- [ ] Consider field selection, for example `?fields=id,name,image`, only for a real consumer.
 - [ ] Consider multi-value filters only when a real consumer needs them.
 - [ ] Build an inverse index for `/items/{id}/context` if dataset size or request volume makes the current scan expensive.
 - [ ] Replace the warm-instance rate limiter with a shared store only if traffic requires a strict global quota.
@@ -108,9 +108,9 @@ Current implementation: `4.2.0`.
 
 ### 6. Export
 
-- [ ] Design dataset-specific bulk export only after defining payload size, cache behavior, and maximum scope.
-- [ ] Prefer `/export/{dataset}` over one unbounded export endpoint.
-- [ ] Add tests for maximum export size and response headers.
+- [x] Define payload size, cache behavior, and maximum scope for dataset exports.
+- [x] Use `/export/{dataset}` instead of an unbounded export endpoint.
+- [x] Add tests for maximum export size, filtering, OpenAPI, and response headers.
 
 ## Intentionally blocked until verified data exists
 
