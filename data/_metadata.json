@@ -1,5 +1,7 @@
 {
   "source": "gzw-scraper",
+  "scraperVersion": "4.1.0",
+  "parserRevision": "universal-parser-v4",
   "datasetCount": 85,
   "datasets": [
     {
@@ -7528,5 +7530,5 @@
       }
     }
   ],
-  "lastScrapedAt": "2026-08-31T13:22:10.500330Z"
+  "lastScrapedAt": "2026-09-04T10:13:08.157065Z"
 }
