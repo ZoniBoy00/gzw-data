@@ -4,6 +4,7 @@ const { describe, it, before } = require('node:test');
 const assert = require('node:assert');
 const path = require('node:path');
 const { buildChanges } = require(path.join(__dirname, '..', 'lib', 'snapshots'));
+const { buildExport, MAX_EXPORT_RECORDS } = require(path.join(__dirname, '..', 'lib', 'export'));
 const { getLastScrapedAt } = require(path.join(__dirname, '..', 'lib', 'datasets'));
 
 // We test the API by simulating Vercel-like requests.
@@ -140,7 +141,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().data.ok, true);
     assert.strictEqual(getBody().data.status, 'ok');
     assert.strictEqual(getBody().data.apiVersion, 'v1');
-    assert.strictEqual(getBody().data.implementationVersion, '4.2.0');
+    assert.strictEqual(getBody().data.implementationVersion, '4.3.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'datasets'));
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
     assert.ok(typeof getBody().dataVersion === 'string');
@@ -320,7 +321,7 @@ describe('GZW Data API', () => {
     const version = getBody().data;
     assert.strictEqual(version.api, 'GZW Data API');
     assert.strictEqual(version.apiVersion, 'v1');
-    assert.strictEqual(version.implementationVersion, '4.2.0');
+    assert.strictEqual(version.implementationVersion, '4.3.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(version, 'version'));
     assert.strictEqual(version.baseUrl, 'https://gzw-data.dev/api/v1');
     assert.strictEqual(version.openapi, 'https://gzw-data.dev/api/v1/spec');
@@ -477,6 +478,43 @@ describe('GZW Data API', () => {
     assert.ok(search.parameters.some(parameter => parameter.name === 'dataset'));
     assert.ok(search.parameters.some(parameter => parameter.name === 'fields'));
     assert.ok(search.parameters.some(parameter => parameter.name === 'fuzzy'));
+  });
+
+  it('should export a bounded filtered dataset', () => {
+    const { res, getStatus, getBody, getHeader } = mockRes();
+    handler(mockReq('/api/v1/export/weapons?search=ak&limit=1'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.strictEqual(getBody().data.length, 1);
+    assert.strictEqual(getBody().export.dataset, 'weapons');
+    assert.strictEqual(getBody().export.count, 1);
+    assert.strictEqual(getHeader('content-disposition'), 'attachment; filename="weapons.json"');
+    assert.strictEqual(getHeader('x-export-record-limit'), MAX_EXPORT_RECORDS);
+  });
+
+  it('should reject an export over the record limit', () => {
+    const records = Array.from({ length: MAX_EXPORT_RECORDS + 1 }, (_, index) => ({ id: String(index) }));
+    const result = buildExport(records, new URLSearchParams());
+    assert.strictEqual(result.error, 'EXPORT_TOO_LARGE');
+    assert.strictEqual(result.maxRecords, MAX_EXPORT_RECORDS);
+    assert.strictEqual(result.matchingRecords, MAX_EXPORT_RECORDS + 1);
+  });
+
+  it('should return 404 for an unknown export dataset', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/export/not_a_dataset'), res);
+    assert.strictEqual(getStatus(), 404);
+    assert.strictEqual(getBody().error.code, 'DATASET_NOT_FOUND');
+  });
+
+  it('should advertise bounded exports in OpenAPI', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/spec'), res);
+    assert.strictEqual(getStatus(), 200);
+    assert.ok(getBody().paths['/api/v1/export/{dataset}']);
+    assert.strictEqual(
+      getBody().paths['/api/v1/export/{dataset}'].get.responses[200].content['application/json'].schema.$ref,
+      '#/components/schemas/ExportResponse',
+    );
   });
 
   it('should handle smart routes', () => {

@@ -6,8 +6,9 @@ const { paginate, applyFilters, parsePagination, matchesSearch } = require("../l
 const { parseRoute, decodeRoutePart } = require("../lib/routing");
 const { SMART_ROUTES, getSmartData } = require("../lib/smart-routes");
 const { buildBasicMetadata, buildRegistryMetadata, getMetadata, getSingleDatasetMetadata, buildOpenApiSchemas } = require("../lib/metadata");
-const { buildSnapshot, getSnapshotHistory, buildChanges } = require("../lib/snapshots");
-const { API_VERSION, IMPLEMENTATION_VERSION } = require("../lib/version");
+const { buildSnapshot, getSnapshotHistory, buildChanges } = require('../lib/snapshots');
+const { MAX_EXPORT_RECORDS, buildExport } = require('../lib/export');
+const { API_VERSION, IMPLEMENTATION_VERSION } = require('../lib/version');
 
 loadDatasets();
 setDataVersion(getLastScrapedAt());
@@ -130,6 +131,33 @@ function handleRoute(route, params, res, rateInfo) {
     }
   }
 
+  // ── Bounded dataset export ──
+  const exportParts = route.split('/').filter(Boolean);
+  if (exportParts.length === 2 && exportParts[0] === 'export') {
+    const datasetName = decodeRoutePart(exportParts[1]);
+    if (!datasets[datasetName] || datasetName.startsWith('_')) {
+      return errorResponse(res, 404, 'DATASET_NOT_FOUND', 'Dataset not found', {
+        dataset: datasetName,
+        docs: '/api/v1/spec',
+      });
+    }
+
+    const result = buildExport(asArray(datasetName), params);
+    setHeaders(res, rateInfo, CACHE_TTL_SEC);
+    res.setHeader('Content-Disposition', `attachment; filename="${datasetName}.json"`);
+    res.setHeader('X-Export-Record-Limit', MAX_EXPORT_RECORDS);
+    if (result.error) {
+      return errorResponse(res, 413, result.error, 'Export exceeds the maximum record limit.', {
+        dataset: datasetName,
+        maxRecords: result.maxRecords,
+        matchingRecords: result.matchingRecords,
+      });
+    }
+    return json(res, result.records, 200, {
+      export: { dataset: datasetName, count: result.count, maxRecords: result.maxRecords },
+    });
+  }
+
   // ── Single-record dataset route ──
   // Dataset records are addressed as /api/{dataset}/{id}. Keep the existing
   // collection routes unchanged and match IDs exactly.
@@ -184,6 +212,17 @@ function handleRoute(route, params, res, rateInfo) {
           parameters: [{ name: 'dataset', in: 'path', required: true, schema: { type: 'string' } }],
         },
       },
+      '/api/export/{dataset}': {
+        get: {
+          summary: 'Download a bounded dataset export',
+          parameters: [
+            { name: 'dataset', in: 'path', required: true, schema: { type: 'string' } },
+            { name: 'search', in: 'query', schema: { type: 'string' } },
+            { name: 'sort', in: 'query', schema: { type: 'string' } },
+            { name: 'limit', in: 'query', schema: { type: 'integer', minimum: 1, maximum: MAX_EXPORT_RECORDS } },
+          ],
+        },
+      },
       '/api/schema/{dataset}': {
         get: {
           summary: 'Get a machine-readable schema for one dataset',
@@ -229,6 +268,7 @@ function handleRoute(route, params, res, rateInfo) {
       }
     }
     const responseForPath = apiPath => {
+      if (apiPath.includes('/export/')) return '#/components/schemas/ExportResponse';
       if (apiPath.includes('/{id}') && !apiPath.endsWith('/context')) return '#/components/schemas/RecordResponse';
       if (apiPath.endsWith('/health') || apiPath.endsWith('/ready') || apiPath.endsWith('/version')) return '#/components/schemas/ObjectResponse';
       if (apiPath.endsWith('/metadata') || apiPath.includes('/metadata/')) return '#/components/schemas/MetadataResponse';
@@ -242,6 +282,7 @@ function handleRoute(route, params, res, rateInfo) {
         200: { description: 'Successful response', content: { 'application/json': { schema: { $ref: responseForPath(apiPath) } } } },
         400: { description: 'Invalid request', content: { 'application/json': { schema: { $ref: '#/components/schemas/ApiErrorResponse' } } } },
         404: { description: 'Resource not found', content: { 'application/json': { schema: { $ref: '#/components/schemas/ApiErrorResponse' } } } },
+        413: { description: 'Export exceeds the record limit', content: { 'application/json': { schema: { $ref: '#/components/schemas/ApiErrorResponse' } } } },
         429: { description: 'Rate limit exceeded', headers: { 'Retry-After': { schema: { type: 'integer' } } }, content: { 'application/json': { schema: { $ref: '#/components/schemas/ApiErrorResponse' } } } },
       };
     }
@@ -273,6 +314,23 @@ function handleRoute(route, params, res, rateInfo) {
             allOf: [
               { $ref: '#/components/schemas/ObjectResponse' },
               { type: 'object', properties: { data: { type: 'object' } } },
+            ],
+          },
+          ExportResponse: {
+            allOf: [
+              { $ref: '#/components/schemas/ObjectResponse' },
+              { type: 'object', properties: {
+                data: { type: 'array', items: { type: 'object' } },
+                count: { type: 'integer' },
+                export: {
+                  type: 'object',
+                  properties: {
+                    dataset: { type: 'string' },
+                    count: { type: 'integer' },
+                    maxRecords: { type: 'integer', example: MAX_EXPORT_RECORDS },
+                  },
+                },
+              } },
             ],
           },
           Capabilities: {

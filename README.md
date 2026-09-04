@@ -72,6 +72,7 @@ Both prefixes currently expose the same API contract. New integrations should pr
 | `/api/v1/search?q=` | Cross-dataset search; supports `dataset`, `fields`, `fuzzy` and `limit` |
 | `/api/v1/spec` | OpenAPI 3.0 spec |
 | `/api/v1/images` | All item images (400+) |
+| `/api/v1/export/<dataset>` | Bounded JSON export for one dataset (maximum 500 records) |
 | `/api/v1/items/<id>/context` | Item plus current vendor and dataset references |
 | `/api/v1/armor` | Smart route: vests + helmets + glasses |
 | `/api/v1/weapon_parts` | Smart route: all weapon parts combined |
@@ -113,10 +114,23 @@ print(payload['data'])
 GZW Data exposes three separate version concepts:
 
 - `apiVersion`: public route contract, currently `v1`; only changes for breaking API changes.
-- `implementationVersion`: API implementation release, currently `4.2.0`; follows semantic versioning for compatible features and fixes.
+- `implementationVersion`: API implementation release, currently `4.3.0`; follows semantic versioning for compatible features and fixes.
 - `dataVersion`: timestamp of the published scraper dataset; changes when data is refreshed.
 
 Use `/api/v1/version` when an integration needs all three values. A data refresh does not require an API-version change.
+
+### Bounded dataset exports
+
+Export one dataset as a downloadable JSON response:
+
+```bash
+curl -OJ 'https://gzw-data.dev/api/v1/export/weapons'
+curl -OJ 'https://gzw-data.dev/api/v1/export/tasks?search=airfield&limit=25'
+```
+
+Exports are limited to 500 matching records. Use `search`, string-field filters, `sort`, and `limit` to narrow a larger dataset. Requests over the limit return `413 EXPORT_TOO_LARGE`. Each export includes `Content-Disposition`, `X-Export-Record-Limit`, normal API cache headers, and an `export` metadata object.
+
+The API and CDN also support conditional requests. Cache a response's `ETag` and send it in `If-None-Match`; unchanged responses return `304 Not Modified`. The application publishes `dataVersion` so consumers can identify the underlying dataset snapshot.
 
 ### Version and changes
 
