@@ -278,8 +278,9 @@
     const url = $("#playground-url");
     const output = $("#playground-output code");
     const meta = $("#playground-result-meta");
+    const responseTitle = $("#playground-response-title");
     const run = $("#playground-run");
-    if (!endpoint || !fields || !url || !output || !meta || !run) return;
+    if (!endpoint || !fields || !url || !output || !meta || !responseTitle || !run) return;
 
     const configs = {
       weapons: { path: "/weapons", description: "List weapon records with pagination.", fields: [['page', '1'], ['per_page', '5']] },
@@ -324,7 +325,8 @@
       const requestUrl = url.textContent;
       run.disabled = true;
       run.textContent = "Running…";
-      meta.textContent = "Request in progress…";
+      responseTitle.textContent = "Request in progress";
+      meta.textContent = "Fetching live API response…";
       output.textContent = "Loading…";
       try {
         const response = await fetch(requestUrl, { headers: { Accept: "application/json" } });
@@ -332,9 +334,11 @@
         let body;
         try { body = JSON.parse(text); } catch { body = text; }
         output.textContent = typeof body === "string" ? body : JSON.stringify(body, null, 2);
+        responseTitle.textContent = response.ok ? "Response received" : "Request returned an error";
         meta.textContent = `${response.ok ? "200 OK" : `HTTP ${response.status}`} · ${Math.round(performance.now() - started)} ms`;
       } catch (error) {
         output.textContent = error instanceof Error ? error.message : "Request failed";
+        responseTitle.textContent = "Could not reach the API";
         meta.textContent = "Request failed · check the API status and try again";
       } finally {
         run.disabled = false;

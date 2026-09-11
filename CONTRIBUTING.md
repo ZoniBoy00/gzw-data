@@ -35,7 +35,14 @@ Install dependencies if the repository has them available locally:
 npm install
 ```
 
-The API is deployed through Vercel. The `npm start` and `npm run dev` scripts execute the handler directly; use the Vercel CLI or the hosted API when you need a full HTTP server locally.
+The API and web console can be exercised locally with the built-in Node HTTP server:
+
+```bash
+npm install
+npm run dev:server
+```
+
+This serves the web console at `http://127.0.0.1:4173/` and the local API at `http://127.0.0.1:4173/api/v1/health`. The `npm start` and `npm run dev` scripts execute the handler directly for Vercel-style use.
 
 ## Developing the API
 
