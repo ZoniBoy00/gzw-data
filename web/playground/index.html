@@ -19,8 +19,23 @@
     <div class="top-actions"><span class="status-pill"><span class="status-dot"></span><span data-stat="status">Live API</span></span></div>
   </header>
   <div class="scrim"></div>
-  <main class="content-shell">
-    <article class="article playground-page">
+  <div class="shell">
+    <aside class="sidebar" aria-label="Documentation navigation">
+      <div class="sidebar-section">Workspace</div>
+      <a href="/"><span aria-hidden="true">◈</span> Overview</a>
+      <a href="/#explorer"><span aria-hidden="true">⌕</span> Data explorer</a>
+      <a class="active" href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
+      <a href="/feedback/"><span aria-hidden="true">✉</span> Feedback desk</a>
+      <a href="/docs/#quickstart"><span aria-hidden="true">⌘</span> API reference</a>
+      <div class="sidebar-section">Resources</div>
+      <a href="/docs/#quickstart"><span aria-hidden="true">▷</span> Quick start</a>
+      <a href="/docs/#responses"><span aria-hidden="true">{ }</span> Response format</a>
+      <a href="https://github.com/ZoniBoy00/gzw-data"><span aria-hidden="true">↗</span> Source on GitHub</a>
+      <div class="sidebar-note"><strong>Built for GZW Tools</strong>Auto-discovered datasets, stable JSON responses, and a small API surface.</div>
+    </aside>
+    <main>
+      <div class="content">
+      <article class="article playground-page">
       <div class="eyebrow">01 / Explore the contract</div>
       <h1>Build a request.<br><span class="accent-text">See the data.</span></h1>
       <p class="lede">A small, read-only workbench for the public GZW Data API. Pick an endpoint, adjust the inputs and inspect a real JSON response — no API key required.</p>
@@ -40,8 +55,10 @@
         <section class="info-panel feature-panel"><div class="eyebrow">Built for developers</div><h2>From request to code</h2><p>Every request is a normal <code>GET</code> call. Copy the URL into a terminal, browser fetch or your own app.</p><div class="button-row"><a class="button" href="/docs/">Open API reference ↗</a><a class="text-link" href="/feedback/">Report a problem</a></div></section>
       </div>
       <footer class="footer"><a href="/docs/">Full API reference</a> · <a href="/feedback/">Report a problem</a> · <a href="/">Back to console</a></footer>
-    </article>
-  </main>
+      </article>
+      </div>
+    </main>
+  </div>
   <script src="/assets/site.js" defer></script>
 </body>
 </html>
