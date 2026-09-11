@@ -343,8 +343,8 @@ td:first-child { color: var(--text); font-weight: 650; }
 .playground-toolbar { display: flex; align-items: flex-end; gap: 14px; padding: 22px 28px 14px; }
 .field-group { display: grid; gap: 8px; flex: 1; max-width: 480px; }
 .run-button { min-height: 44px; white-space: nowrap; }
-.playground-fields { display: flex; flex-wrap: wrap; gap: 12px; padding: 0 28px 18px; }
-.playground-field { display: grid; gap: 7px; min-width: 145px; color: var(--muted); font-size: 12px; font-weight: 700; }
+.playground-fields { display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 14px; padding: 0 28px 18px; }
+.playground-field { display: grid; gap: 7px; flex: 0 1 180px; min-width: 160px; color: var(--muted); font-size: 12px; font-weight: 700; }
 .request-line { display: flex; align-items: center; gap: 12px; margin: 0 28px; padding: 14px 15px; border: 1px solid var(--line); border-radius: 8px; background: rgba(4, 9, 11, .72); }
 .request-line code { min-width: 0; overflow: auto; color: var(--text); font-size: 12px; white-space: nowrap; }
 .request-line .copy-button { margin-left: auto; flex: 0 0 auto; }

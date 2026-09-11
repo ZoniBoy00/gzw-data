@@ -350,6 +350,7 @@
     fields.addEventListener("input", setUrl);
     run.addEventListener("click", execute);
     renderFields();
+    void execute();
   }
 
   async function initUpdatePanel() {
