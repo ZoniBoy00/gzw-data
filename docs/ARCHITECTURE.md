@@ -5,7 +5,7 @@ flowchart LR
   W["Gray Zone Warfare wiki"] --> S["gzw-scraper"]
   S -->|datasets + manifest + checksums| D["gzw-data repository"]
   D --> A["Public Vercel API /api/v1"]
-  D --> C["Web console + OpenAPI"]
+  D --> C["Web console, Playground, Feedback, OpenAPI"]
   A --> J["@zoniboy/gzw-data-client"]
   J --> T["gzw-tools"]
   J --> B["Discord bots and integrations"]
