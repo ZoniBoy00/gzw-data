@@ -334,7 +334,7 @@ td:first-child { color: var(--text); font-weight: 650; }
 /* Focused page patterns: request workbench and feedback routing. */
 .accent-text { color: var(--teal); }
 .playground-page h1, .feedback-page h1 { max-width: 780px; }
-.playground-panel-v2 { --workbench-inset: clamp(28px, 4vw, 40px); padding: 0; overflow: hidden; }
+.playground-panel-v2 { --workbench-inset: clamp(44px, 6vw, 64px); padding: 0; overflow: hidden; }
 .playground-panel-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; padding: 25px var(--workbench-inset) 21px; border-bottom: 1px solid var(--line); }
 .playground-panel-head h2 { margin: 4px 0 0; font-size: 24px; }
 .panel-kicker, .field-label { display: block; color: var(--subtle); font-size: 10px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
@@ -379,6 +379,7 @@ td:first-child { color: var(--text); font-weight: 650; }
 .privacy-note { color: var(--subtle); font-size: 11px; }
 .privacy-note span { color: var(--teal); }
 @media (max-width: 720px) {
+  .playground-panel-v2 { --workbench-inset: 22px; }
   .playground-panel-head, .playground-toolbar, .response-heading { display: block; }
   .read-only-badge { margin-top: 16px; }
   .run-button { width: 100%; margin-top: 15px; }
