@@ -22,7 +22,7 @@ These are planning milestones, not promises to release without verified scope an
 - [x] Stable response envelopes, errors, metadata, schema, health, readiness, search, snapshots, and changes.
 - [x] Read-only public API with generated dataset discovery.
 
-Current implementation: `4.2.0`.
+Current implementation: `4.3.0`.
 
 ### `4.1.0` — contract and CI hardening
 
@@ -82,7 +82,7 @@ Current implementation: `4.2.0`.
 - [x] Add push and pull-request CI for this repository.
 - [x] Run syntax checks, API tests, diff checks, and relevant lint checks in CI.
 - [x] Add a schema/data drift gate before deployment.
-- [ ] Add dependency update automation.
+- [x] Add dependency update automation.
 
 ### 3. OpenAPI and versioning
 
@@ -125,7 +125,7 @@ Do not infer these relationships from matching names or descriptions.
 - [x] Add `SECURITY.md` with private vulnerability reporting guidance.
 - [x] Add a shared architecture diagram linking scraper, API, SDK, and consumers.
 - [x] Add more examples for curl, JavaScript, TypeScript, Python, browser fetch, and bots.
-- [ ] Fix local development scripts so a real local HTTP server is available without guessing.
+- [x] Fix local development scripts so a real local HTTP server is available without guessing.
 
 ## Definition of done for API changes
 

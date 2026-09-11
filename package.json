@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node api/index.js",
     "dev": "node --watch api/index.js",
+    "dev:server": "node scripts/dev-server.js",
     "test": "node --test tests/*.test.js",
     "snapshot:record": "node scripts/record-snapshot.js",
     "lint": "eslint api/ lib/ scripts/ tests/",

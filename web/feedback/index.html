@@ -11,23 +11,27 @@
 </head>
 <body data-page="feedback">
   <header class="topbar">
+    <button class="icon-button mobile-menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
     <a class="brand" href="/" aria-label="GZW Data home"><picture><source srcset="/assets/gzw-data-logo.webp" type="image/webp"><img class="brand-logo" src="/assets/gzw-data-logo.png" alt="GZW Data logo" width="54" height="50"></picture><span><span class="brand-name">GZW Data</span><span class="brand-sub">feedback desk</span></span></a>
-    <nav class="topnav" aria-label="Primary navigation"><a href="/">Overview</a><a href="/docs/">API reference</a><a class="active" href="/feedback/">Feedback</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a></nav>
+    <nav class="topnav" aria-label="Primary navigation"><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/playground/">Playground</a><a class="active" href="/feedback/">Feedback</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a></nav>
   </header>
+  <div class="scrim"></div>
   <main class="content-shell">
-    <article class="article">
-      <div class="eyebrow">Project feedback</div>
-      <h1>Send feedback to the right place</h1>
-      <p class="lede">GZW Data is community-maintained. A short, reproducible report helps us fix the right thing faster.</p>
-      <div class="split-grid">
-        <section class="info-panel"><div class="eyebrow">01 · Data quality</div><h2>Missing or incorrect data</h2><p>Use this for a missing weapon, mission, item, price, image or incorrect value.</p><p><a class="button primary" href="https://github.com/ZoniBoy00/gzw-data/issues/new">Open a data issue ↗</a></p></section>
-        <section class="info-panel"><div class="eyebrow">02 · API support</div><h2>API question</h2><p>Ask about endpoints, datasets, pagination, responses or SDK usage.</p><p><a class="button primary" href="mailto:support@gzw-data.dev?subject=GZW%20Data%20API%20question">Email API support ↗</a></p></section>
-        <section class="info-panel"><div class="eyebrow">03 · Product feedback</div><h2>Feature request</h2><p>Suggest a useful API, documentation improvement or developer workflow.</p><p><a class="button primary" href="https://github.com/ZoniBoy00/gzw-data/issues/new">Suggest a feature ↗</a></p></section>
-        <section class="info-panel"><div class="eyebrow">04 · Security</div><h2>Private vulnerability report</h2><p>Do not open a public issue for a security problem. Send only security reports here.</p><p><a class="button" href="mailto:security@gzw-data.dev?subject=GZW%20Data%20security%20report">Contact security ↗</a></p></section>
-      </div>
-      <section class="info-panel contact-panel"><div class="eyebrow">Good report checklist</div><h2>Include these details</h2><ul><li>page or API endpoint</li><li>dataset and record ID, if relevant</li><li>what you expected and what happened</li><li>a small reproducible request or example</li></ul><p>Never include passwords, API tokens or private personal data.</p></section>
-      <footer class="footer"><a href="/">Back to console</a> · <a href="/docs/">API documentation</a> · <a href="https://github.com/ZoniBoy00/gzw-data">View source</a></footer>
+    <article class="article feedback-page">
+      <div class="eyebrow">02 / Help improve the data</div>
+      <h1>Send the right<br><span class="accent-text">signal.</span></h1>
+      <p class="lede">Found a bad record, a broken endpoint or an idea worth building? Pick the path that gives the report the right context from the start.</p>
+      <section class="feedback-grid" aria-label="Feedback options">
+        <a class="feedback-card feedback-card-primary" href="https://github.com/ZoniBoy00/gzw-data/issues/new"><span class="feedback-number">01</span><span class="feedback-icon" aria-hidden="true">↗</span><span class="eyebrow">Data quality</span><h2>Missing or incorrect data</h2><p>Report a missing item, weapon, task, image or value that needs checking.</p><span class="card-action">Open a data issue <span aria-hidden="true">→</span></span></a>
+        <a class="feedback-card" href="mailto:support@gzw-data.dev?subject=GZW%20Data%20API%20question"><span class="feedback-number">02</span><span class="feedback-icon" aria-hidden="true">?</span><span class="eyebrow">API support</span><h2>Ask an API question</h2><p>Get help with endpoints, datasets, pagination, responses or SDK usage.</p><span class="card-action">Email API support <span aria-hidden="true">→</span></span></a>
+        <a class="feedback-card" href="https://github.com/ZoniBoy00/gzw-data/issues/new"><span class="feedback-number">03</span><span class="feedback-icon" aria-hidden="true">+</span><span class="eyebrow">Product feedback</span><h2>Suggest a feature</h2><p>Share a useful API improvement, documentation change or developer workflow.</p><span class="card-action">Suggest an idea <span aria-hidden="true">→</span></span></a>
+        <a class="feedback-card feedback-card-security" href="mailto:security@gzw-data.dev?subject=GZW%20Data%20security%20report"><span class="feedback-number">04</span><span class="feedback-icon" aria-hidden="true">!</span><span class="eyebrow">Private channel</span><h2>Report a vulnerability</h2><p>Keep security reports private. Do not open a public GitHub issue for them.</p><span class="card-action">Contact security <span aria-hidden="true">→</span></span></a>
+      </section>
+      <section class="info-panel report-checklist"><div><div class="eyebrow">Before you send</div><h2>Make the report actionable.</h2><p>Small details save a round of back-and-forth and help us reproduce the issue faster.</p></div><ul class="checklist"><li><span>01</span>Page or API endpoint</li><li><span>02</span>Dataset and record ID</li><li><span>03</span>Expected vs. actual result</li><li><span>04</span>Small reproducible request</li></ul></section>
+      <p class="privacy-note"><span aria-hidden="true">✦</span> Never include passwords, API tokens, cookies or private personal data.</p>
+      <footer class="footer"><a href="/">Back to console</a> · <a href="/docs/">API documentation</a> · <a href="/playground/">Try the API</a> · <a href="https://github.com/ZoniBoy00/gzw-data">View source</a></footer>
     </article>
   </main>
+  <script src="/assets/site.js" defer></script>
 </body>
 </html>
