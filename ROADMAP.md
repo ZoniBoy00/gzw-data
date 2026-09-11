@@ -8,7 +8,7 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 - **Implementation version:** `4.3.0`
 - **Production API:** https://gzw-data.dev/api/v1
 - **Datasets:** 85+ auto-discovered JSON datasets
-- **Tests:** 45 API tests passing on 2026-09-04
+- **Tests:** 45 API tests passing on 2026-09-11
 - **License:** MIT
 - **Authentication:** none required for the public read-only API
 
