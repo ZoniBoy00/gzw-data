@@ -5,10 +5,10 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 ## Current status
 
 - **API version:** `v1`
-- **Implementation version:** `4.3.0`
+- **Implementation version:** `4.4.0`
 - **Production API:** https://gzw-data.dev/api/v1
 - **Datasets:** 85+ auto-discovered JSON datasets
-- **Tests:** 45 API tests passing on 2026-09-11
+- **Tests:** 45 API tests passing on 2026-09-20
 - **License:** MIT
 - **Authentication:** none required for the public read-only API
 
@@ -22,7 +22,7 @@ These are planning milestones, not promises to release without verified scope an
 - [x] Stable response envelopes, errors, metadata, schema, health, readiness, search, snapshots, and changes.
 - [x] Read-only public API with generated dataset discovery.
 
-Current implementation: `4.3.0`.
+Current implementation: `4.4.0`.
 
 ### `4.1.0` — contract and CI hardening
 
@@ -45,6 +45,12 @@ Current implementation: `4.3.0`.
 - [x] Measure item context lookup and defer indexing while production measurements show no need.
 - [x] Design and test bounded dataset-specific bulk export with a 500-record maximum.
 - [ ] Add field selection only when a real consumer needs it.
+
+### `4.4.0` — documentation and consumer readiness
+
+- [x] Document list, pagination, single-record, metadata, schema, and error envelopes.
+- [x] Publish the response contract in the repository and web API reference.
+- [x] Align the implementation version, package metadata, tests, README, and roadmap.
 
 ### `5.0.0` — breaking API line, only if required
 
@@ -87,8 +93,8 @@ Current implementation: `4.3.0`.
 ### 3. OpenAPI and versioning
 
 - [x] Make every public operation codegen-ready with route-specific response schemas.
-- [ ] Document list, pagination, single-record, metadata, schema, and error envelopes.
-- [x] Separate `apiVersion: v1` from `implementationVersion: 4.3.0` in public documentation.
+- [x] Document list, pagination, single-record, metadata, schema, and error envelopes. (Implemented in `docs/API_CONTRACT.md` and the web API reference.)
+- [x] Separate `apiVersion: v1` from `implementationVersion: 4.4.0` in public documentation.
 - [x] Define how breaking dataset field changes are versioned and deprecated.
 
 ### 4. Caching and performance

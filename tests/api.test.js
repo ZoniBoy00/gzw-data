@@ -141,7 +141,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().data.ok, true);
     assert.strictEqual(getBody().data.status, 'ok');
     assert.strictEqual(getBody().data.apiVersion, 'v1');
-    assert.strictEqual(getBody().data.implementationVersion, '4.3.0');
+    assert.strictEqual(getBody().data.implementationVersion, '4.4.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'datasets'));
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
     assert.ok(typeof getBody().dataVersion === 'string');
@@ -321,7 +321,7 @@ describe('GZW Data API', () => {
     const version = getBody().data;
     assert.strictEqual(version.api, 'GZW Data API');
     assert.strictEqual(version.apiVersion, 'v1');
-    assert.strictEqual(version.implementationVersion, '4.3.0');
+    assert.strictEqual(version.implementationVersion, '4.4.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(version, 'version'));
     assert.strictEqual(version.baseUrl, 'https://gzw-data.dev/api/v1');
     assert.strictEqual(version.openapi, 'https://gzw-data.dev/api/v1/spec');

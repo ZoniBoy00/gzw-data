@@ -56,6 +56,13 @@ The console includes a live dataset explorer, search, pagination, dataset counts
 
 Unknown routes use a matching custom 404 page with direct links back to the console, Quick start and API root.
 
+## Changelog
+
+### v4.4.0 — API contract documentation
+
+- Documented collection, pagination, single-record, metadata, schema and error response envelopes.
+- Added the canonical [API response contract](docs/API_CONTRACT.md) and linked it from the web reference.
+- Kept the public API line at `v1`; this release only clarifies and documents the existing contract.
 
 ## API v4
 
@@ -95,6 +102,7 @@ Both prefixes currently expose the same API contract. New integrations should pr
 
 - [Security policy](SECURITY.md)
 - [Architecture](docs/ARCHITECTURE.md)
+- [API response contract](docs/API_CONTRACT.md)
 - [Contributing guide](CONTRIBUTING.md)
 
 The scraper publishes a `_manifest.json` file with per-dataset record counts and SHA-256 checksums. CI validates dataset JSON and generated metadata before changes can be merged.
@@ -127,7 +135,7 @@ print(payload['data'])
 GZW Data exposes three separate version concepts:
 
 - `apiVersion`: public route contract, currently `v1`; only changes for breaking API changes.
-- `implementationVersion`: API implementation release, currently `4.3.0`; follows semantic versioning for compatible features and fixes.
+- `implementationVersion`: API implementation release, currently `4.4.0`; follows semantic versioning for compatible features and fixes.
 - `dataVersion`: timestamp of the published scraper dataset; changes when data is refreshed.
 
 Use `/api/v1/version` when an integration needs all three values. A data refresh does not require an API-version change.
@@ -240,6 +248,9 @@ All HTTP errors use the same response envelope and a stable `error.code`:
 ```
 
 Common codes are `DATASET_NOT_FOUND`, `RECORD_NOT_FOUND`, `ENDPOINT_NOT_FOUND`, `INVALID_REQUEST`, `METHOD_NOT_ALLOWED`, `RATE_LIMITED` and `INTERNAL_ERROR`. Rate-limited responses also include `retryAfter` inside `error` and the `Retry-After` HTTP header.
+
+For the complete list of envelopes, metadata semantics, schema responses and
+error codes, see the [API response contract](docs/API_CONTRACT.md).
 
 ### Single-record Response
 
