@@ -13,7 +13,8 @@
     "manufacturer": "General West",
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "970 m/s",
-    "accuracy_modifier": "+0 %"
+    "accuracy_modifier": "+0 %",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": ".222 Remington HP",
@@ -25,7 +26,8 @@
     "sold_by": "Artisan R.2",
     "muzzle_velocity": "966 m/s",
     "accuracy_modifier": "-2 %",
-    "durability_modifier": "-15 %"
+    "durability_modifier": "-15 %",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": ".222 Remington SP",
@@ -36,7 +38,8 @@
     "manufacturer": "General West",
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "970 m/s",
-    "accuracy_modifier": "-5 %"
+    "accuracy_modifier": "-5 %",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": ".222 Remington VMax",
@@ -47,7 +50,8 @@
     "manufacturer": "General West",
     "sold_by": "Artisan R.2",
     "muzzle_velocity": "970 m/s",
-    "accuracy_modifier": "-5 %"
+    "accuracy_modifier": "-5 %",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": ".300 AAC Blackout",
@@ -163,7 +167,8 @@
     "muzzle_velocity": "274 m/s",
     "accuracy_modifier": "+0 %",
     "durability_modifier": "-15 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Hydra-Shok_inspect.png/revision/latest?cb=20260414113205"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Hydra-Shok_inspect.png/revision/latest?cb=20260414113205",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": ".45 ACP JHP +P",
@@ -175,7 +180,8 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "290 m/s",
     "accuracy_modifier": "-2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/JHP_%2BP_.45_inspect.png/revision/latest?cb=20260414113246"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/JHP_%2BP_.45_inspect.png/revision/latest?cb=20260414113246",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": "12 Gauge",
@@ -192,7 +198,8 @@
     "sold_by": "Gunny R.1",
     "muzzle_velocity": "370 m/s",
     "accuracy_modifier": "+38 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/00_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085636"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/00_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085636",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": "12GA FC 00 Buckshot",
@@ -219,7 +226,8 @@
     "muzzle_velocity": "420 m/s",
     "accuracy_modifier": "+42 %",
     "durability_modifier": "-15 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414084822"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414084822",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": "12GA SST Sabot Slug",
@@ -400,7 +408,8 @@
     "sold_by": "Turncoat R.1",
     "muzzle_velocity": "840 m/s",
     "accuracy_modifier": "-2%",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/WOLF_5.45x39_inspect.png/revision/latest/scale-to-width-down/268?cb=20260508200024"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/WOLF_5.45x39_inspect.png/revision/latest/scale-to-width-down/268?cb=20260508200024",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": "5.56x45mm AP (M855)",
@@ -500,7 +509,8 @@
     "sold_by": "Gunny R.1",
     "muzzle_velocity": "930 m/s",
     "accuracy_modifier": "-3 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/SP_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412070039"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/SP_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412070039",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": "5.56x45mm Tracer (M856)",
@@ -612,7 +622,8 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "743 m/s",
     "accuracy_modifier": "+2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/SP_7.62x39_inspect.png/revision/latest?cb=20240507130207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/SP_7.62x39_inspect.png/revision/latest?cb=20240507130207",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": "7.62x39mm Tracer (57-N-231P)",
@@ -768,7 +779,8 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "318 m/s",
     "accuracy_modifier": "+0 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/FMJ_7.65_B_inspect.png/revision/latest?cb=20240507130207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/FMJ_7.65_B_inspect.png/revision/latest?cb=20240507130207",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": "7.65 Browning JHP",
@@ -780,7 +792,8 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "238 m/s",
     "accuracy_modifier": "+4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/JHP_7.65_B_inspect.png/revision/latest?cb=20240507130205"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/JHP_7.65_B_inspect.png/revision/latest?cb=20240507130205",
+    "stopped_by_armor_class": "NIJ 0"
   },
   {
     "name": "7.65 Browning Xtreme Defender",
