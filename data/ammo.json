@@ -302,7 +302,8 @@
     "manufacturer": "General East",
     "sold_by": "Loot only",
     "muzzle_velocity": "840 m/s",
-    "accuracy_modifier": "-1 %"
+    "accuracy_modifier": "-1 %",
+    "stopped_by_armor_class": "NIJ IV"
   },
   {
     "name": "5.45x39mm BS (7N24)",
@@ -313,7 +314,8 @@
     "manufacturer": "General East",
     "sold_by": "Loot only",
     "muzzle_velocity": "840 m/s",
-    "accuracy_modifier": "-6 %"
+    "accuracy_modifier": "-6 %",
+    "stopped_by_armor_class": "NIJ III++"
   },
   {
     "name": "5.45x39mm BT (7BT4)",
@@ -324,7 +326,8 @@
     "manufacturer": "General East",
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "-2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/BT_5.45x39_inspect.png/revision/latest?cb=20240507130206"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/BT_5.45x39_inspect.png/revision/latest?cb=20240507130206",
+    "stopped_by_armor_class": "NIJ III++"
   },
   {
     "name": "5.45x39mm FMJ",
@@ -336,7 +339,8 @@
     "sold_by": "Turncoat R.1",
     "muzzle_velocity": "884 m/s",
     "accuracy_modifier": "+0 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/FMJ_5.45x39_inspect.png/revision/latest?cb=20240503130831"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/FMJ_5.45x39_inspect.png/revision/latest?cb=20240503130831",
+    "stopped_by_armor_class": "NIJ IIIA+"
   },
   {
     "name": "5.45x39mm HP",
@@ -347,7 +351,8 @@
     "manufacturer": "General East",
     "sold_by": "Turncoat R.1",
     "muzzle_velocity": "884 m/s",
-    "accuracy_modifier": "+6 %"
+    "accuracy_modifier": "+6 %",
+    "stopped_by_armor_class": "NIJ IIIA+"
   },
   {
     "name": "5.45x39mm PP (7N10)",
@@ -358,7 +363,8 @@
     "manufacturer": "General East",
     "sold_by": "Turncoat R.3",
     "muzzle_velocity": "880 m/s",
-    "accuracy_modifier": "-2 %"
+    "accuracy_modifier": "-2 %",
+    "stopped_by_armor_class": "NIJ III++"
   },
   {
     "name": "5.45x39mm PS (7N6)",
@@ -369,7 +375,8 @@
     "manufacturer": "General East",
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "+2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/PS_5.45x39_inspect.png/revision/latest?cb=20240507130207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/PS_5.45x39_inspect.png/revision/latest?cb=20240507130207",
+    "stopped_by_armor_class": "NIJ III+"
   },
   {
     "name": "5.45x39mm US (7U1)",
@@ -379,7 +386,8 @@
     "grid_size": "1x1",
     "manufacturer": "General East",
     "muzzle_velocity": "304 m/s",
-    "accuracy_modifier": "+6 %"
+    "accuracy_modifier": "+6 %",
+    "stopped_by_armor_class": "NIJ IIIA"
   },
   {
     "name": "5.45x39mm Wolf",
