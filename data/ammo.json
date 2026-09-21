@@ -327,7 +327,7 @@
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "-2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/BT_5.45x39_inspect.png/revision/latest?cb=20240507130206",
-    "stopped_by_armor_class": "NIJ III++"
+    "stopped_by_armor_class": "NIJ III+"
   },
   {
     "name": "5.45x39mm FMJ",
@@ -364,7 +364,7 @@
     "sold_by": "Turncoat R.3",
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "-2 %",
-    "stopped_by_armor_class": "NIJ III++"
+    "stopped_by_armor_class": "NIJ III+"
   },
   {
     "name": "5.45x39mm PS (7N6)",
@@ -376,7 +376,7 @@
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/PS_5.45x39_inspect.png/revision/latest?cb=20240507130207",
-    "stopped_by_armor_class": "NIJ III+"
+    "stopped_by_armor_class": "NIJ III"
   },
   {
     "name": "5.45x39mm US (7U1)",
