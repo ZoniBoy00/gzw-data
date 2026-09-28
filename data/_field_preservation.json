@@ -80,5 +80,7 @@
   "apparel_items.json": {},
   "provisions.json": {},
   "main_task.json": {},
-  "side_task.json": {}
+  "side_task.json": {},
+  "upcoming_content.json": {},
+  "removed_content.json": {}
 }

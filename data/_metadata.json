@@ -1,6 +1,6 @@
 {
   "source": "gzw-scraper",
-  "scraperVersion": "4.1.0",
+  "scraperVersion": "4.3.0",
   "parserRevision": "universal-parser-v4",
   "datasetCount": 85,
   "datasets": [
@@ -103,7 +103,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 62,
+          "presentCount": 63,
           "optional": true,
           "nullable": false,
           "example": "NIJ 0"
@@ -7530,5 +7530,5 @@
       }
     }
   ],
-  "lastScrapedAt": "2026-09-21T13:07:37.877784Z"
+  "lastScrapedAt": "2026-09-28T14:13:46.812282Z"
 }

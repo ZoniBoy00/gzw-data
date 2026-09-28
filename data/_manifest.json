@@ -1,12 +1,12 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-09-22T23:21:42.490958Z",
+  "generatedAt": "2026-09-28T14:13:46.946479Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
       "file": "ammo.json",
       "records": 79,
-      "sha256": "3207a6859be928f5d60bf28487c350d58f9ba75c5eae2928e252cbd31710fc71"
+      "sha256": "47860c53e0939fbf0cd9b797c450a0e6f36042422121d6ceacdc8c9ff72b1f66"
     },
     "apparel_items": {
       "file": "apparel_items.json",
