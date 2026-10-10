@@ -1,4 +1,4 @@
-const { CACHE_TTL_SEC } = require("../lib/config");
+const { CACHE_TTL_SEC, MAX_REQUEST_URL_LENGTH, MAX_SEARCH_QUERY_LENGTH, MAX_FUZZY_SEARCH_DATASETS } = require("../lib/config");
 const { datasets, loadDatasets, asArray, getLastScrapedAt, buildDatasetRegistry } = require("../lib/datasets");
 const { checkRate } = require("../lib/rate-limit");
 const { setHeaders, json, errorResponse, setDataVersion } = require("../lib/response");
@@ -429,8 +429,8 @@ function handleRoute(route, params, res, rateInfo) {
     return json(res, buildChanges(datasets, asArray, getLastScrapedAt()));
   }
 
-  // ── Health / readiness / debug ──
-  if (route === 'health' || route === 'ready' || route === 'debug') {
+  // ── Health / readiness ──
+  if (route === 'health' || route === 'ready') {
     let datasetCount = 0;
     for (const [key, val] of Object.entries(datasets)) {
       if (key.startsWith('_')) continue;
@@ -457,22 +457,6 @@ function handleRoute(route, params, res, rateInfo) {
         datasetCount,
       });
     }
-    const loaded = {};
-    for (const [key, val] of Object.entries(datasets)) {
-      if (key.startsWith('_')) continue;
-      loaded[key] = Array.isArray(val) ? val.length : (val ? 'object' : 'empty');
-    }
-    return json(res, {
-      ok: ready,
-      status: ready ? 'ok' : 'degraded',
-      ready,
-      apiVersion: API_VERSION,
-      implementationVersion: IMPLEMENTATION_VERSION,
-      datasetCount,
-      datasets: loaded,
-      smartRoutes: Object.keys(SMART_ROUTES),
-      lastScrapedAt: getLastScrapedAt(),
-    });
   }
 
   // ── Stats ──
@@ -493,6 +477,11 @@ function handleRoute(route, params, res, rateInfo) {
   if (route === 'search') {
     const q = params.get('q');
     if (!q) return errorResponse(res, 400, 'INVALID_REQUEST', 'Missing ?q parameter', { parameter: 'q' });
+    if (q.length > MAX_SEARCH_QUERY_LENGTH) {
+      return errorResponse(res, 400, 'INVALID_REQUEST', 'Search query is too long', {
+        parameter: 'q', maxLength: MAX_SEARCH_QUERY_LENGTH,
+      });
+    }
 
     const requestedDatasets = (params.get('dataset') || '').split(',').map(value => value.trim()).filter(Boolean);
     const searchDatasets = requestedDatasets.length > 0 ? requestedDatasets : Object.keys(registry);
@@ -505,6 +494,11 @@ function handleRoute(route, params, res, rateInfo) {
 
     const fields = (params.get('fields') || '').split(',').map(value => value.trim()).filter(Boolean);
     const fuzzy = params.get('fuzzy') === 'true';
+    if (fuzzy && (requestedDatasets.length === 0 || requestedDatasets.length > MAX_FUZZY_SEARCH_DATASETS)) {
+      return errorResponse(res, 400, 'INVALID_REQUEST', 'Fuzzy search requires 1–3 explicit datasets', {
+        parameter: 'dataset', maxDatasets: MAX_FUZZY_SEARCH_DATASETS,
+      });
+    }
     const limit = Math.min(50, Math.max(1, parseInt(params.get('limit')) || 10));
     const results = {};
     for (const key of searchDatasets) {
@@ -656,6 +650,11 @@ module.exports = (req, res) => {
     // Parse route
     const forwardedUrl = req.headers['x-vercel-forwarded-url'];
     const url = forwardedUrl || req.url;
+    if (typeof url === 'string' && url.length > MAX_REQUEST_URL_LENGTH) {
+      return errorResponse(res, 414, 'URI_TOO_LONG', 'Request URL is too long', {
+        maxLength: MAX_REQUEST_URL_LENGTH,
+      });
+    }
     const { path: route, params } = parseRoute(url);
 
     handleRoute(route, params, res, rateInfo);

@@ -295,6 +295,46 @@ describe('GZW Data API', () => {
     assert.ok(body.data.results);
   });
 
+  it('should reject overlong search terms', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq(`/api/search?q=${'a'.repeat(201)}`), res);
+    assert.strictEqual(getStatus(), 400);
+    assert.strictEqual(getBody().error.code, 'INVALID_REQUEST');
+  });
+
+  it('should require a dataset for fuzzy search', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/search?q=AK12&fuzzy=true'), res);
+    assert.strictEqual(getStatus(), 400);
+    assert.strictEqual(getBody().error.code, 'INVALID_REQUEST');
+  });
+
+  it('should limit fuzzy search to at most three datasets', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/search?q=AK12&dataset=weapons,ammo,items,tasks&fuzzy=true'), res);
+    assert.strictEqual(getStatus(), 400);
+    assert.strictEqual(getBody().error.code, 'INVALID_REQUEST');
+  });
+
+  it('should reject overlong request URLs', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq(`/api/stats?x=${'a'.repeat(4096)}`), res);
+    assert.strictEqual(getStatus(), 414);
+    assert.strictEqual(getBody().error.code, 'URI_TOO_LONG');
+  });
+
+  it('should not expose the debug route', () => {
+    const { res, getStatus } = mockRes();
+    handler(mockReq('/api/debug'), res);
+    assert.strictEqual(getStatus(), 404);
+  });
+
+  it('should safely handle special IP header values', () => {
+    const { res, getStatus } = mockRes();
+    handler(mockReq('/api/health', 'GET', { 'x-forwarded-for': '__proto__' }), res);
+    assert.strictEqual(getStatus(), 200);
+  });
+
   it('should return spec endpoint', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/spec'), res);
