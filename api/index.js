@@ -135,7 +135,7 @@ function handleRoute(route, params, res, rateInfo) {
   const exportParts = route.split('/').filter(Boolean);
   if (exportParts.length === 2 && exportParts[0] === 'export') {
     const datasetName = decodeRoutePart(exportParts[1]);
-    if (!datasets[datasetName] || datasetName.startsWith('_')) {
+    if (!Object.hasOwn(datasets, datasetName) || datasetName.startsWith('_')) {
       return errorResponse(res, 404, 'DATASET_NOT_FOUND', 'Dataset not found', {
         dataset: datasetName,
         docs: '/api/v1/spec',
@@ -165,7 +165,7 @@ function handleRoute(route, params, res, rateInfo) {
   if (routeParts.length === 2) {
     const datasetName = decodeRoutePart(routeParts.shift());
     const recordId = routeParts.map(decodeRoutePart).join('/');
-    if (datasets[datasetName] && !SMART_ROUTES[datasetName]) {
+    if (Object.hasOwn(datasets, datasetName) && !Object.hasOwn(SMART_ROUTES, datasetName)) {
       const record = asArray(datasetName).find(item => String(item.id) === recordId);
       setHeaders(res, rateInfo, CACHE_TTL_SEC);
       if (!record) {
@@ -485,7 +485,7 @@ function handleRoute(route, params, res, rateInfo) {
 
     const requestedDatasets = (params.get('dataset') || '').split(',').map(value => value.trim()).filter(Boolean);
     const searchDatasets = requestedDatasets.length > 0 ? requestedDatasets : Object.keys(registry);
-    const unknownDataset = searchDatasets.find(name => !registry[name]);
+    const unknownDataset = searchDatasets.find(name => !Object.hasOwn(registry, name));
     if (unknownDataset) {
       return errorResponse(res, 400, 'INVALID_REQUEST', 'Unknown search dataset', {
         parameter: 'dataset', dataset: unknownDataset,
@@ -545,7 +545,7 @@ function handleRoute(route, params, res, rateInfo) {
   }
 
   // ── Smart routes ──
-  if (SMART_ROUTES[route]) {
+  if (Object.hasOwn(SMART_ROUTES, route)) {
     let items = getSmartData(route, asArray);
     if (!items) return errorResponse(res, 404, 'DATASET_NOT_FOUND', 'Dataset data not found', { dataset: route });
 
@@ -572,7 +572,7 @@ function handleRoute(route, params, res, rateInfo) {
   }
 
   // ── Generic dataset route ──
-  if (datasets[route]) {
+  if (Object.hasOwn(datasets, route) && datasets[route]) {
     const raw = datasets[route];
 
     // If it's an object (not array), return as-is

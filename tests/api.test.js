@@ -335,6 +335,29 @@ describe('GZW Data API', () => {
     assert.strictEqual(getStatus(), 200);
   });
 
+  it('should return 404 for prototype-property route names', () => {
+    for (const route of ['toString', 'constructor', '__proto__', 'hasOwnProperty']) {
+      const { res, getStatus, getBody } = mockRes();
+      handler(mockReq(`/api/v1/${route}`), res);
+      assert.strictEqual(getStatus(), 404, route);
+      assert.strictEqual(getBody().error.code, 'ENDPOINT_NOT_FOUND', route);
+    }
+  });
+
+  it('should reject prototype-property names as search datasets', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/search?q=test&dataset=constructor'), res);
+    assert.strictEqual(getStatus(), 400);
+    assert.strictEqual(getBody().error.code, 'INVALID_REQUEST');
+  });
+
+  it('should reject prototype-property names as export datasets', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/export/constructor'), res);
+    assert.strictEqual(getStatus(), 404);
+    assert.strictEqual(getBody().error.code, 'DATASET_NOT_FOUND');
+  });
+
   it('should return spec endpoint', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq('/api/spec'), res);
