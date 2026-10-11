@@ -1,5 +1,14 @@
 [
   {
+    "name": "Buran's Pantsir 2.0",
+    "id": "burans-pantsir-2.0",
+    "protection_rating": "R3",
+    "nij_class": "III++",
+    "material": "Ceramic",
+    "armor_locations": "Front, Back, Sides",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Buran%27s_Pantsir_2.0_icon.png/revision/latest/scale-to-width-down/180?cb=20260520233024"
+  },
+  {
     "name": "CGPC3 TQS",
     "id": "cgpc3-tqs",
     "type": "Plate Carrier",
@@ -10,7 +19,8 @@
     "material": "UHMWPE",
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/CGPC3_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505170103"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/CGPC3_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505170103",
+    "protection_rating": "P3"
   },
   {
     "name": "Chest Rig 901 Elite 4",
@@ -24,7 +34,8 @@
     "nij_class": "III",
     "armor_locations": "Front",
     "manufacturer": "Warrior Assault Systems",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Elite_4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421123815"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Elite_4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421123815",
+    "protection_rating": "R1"
   },
   {
     "name": "CZ 4M Lancer",
@@ -37,7 +48,8 @@
     "nij_class": "III",
     "armor_locations": "Front,Back",
     "manufacturer": "4M",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Lancer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421123616"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Lancer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421123616",
+    "protection_rating": "R1"
   },
   {
     "name": "CZ 4M Lancer (Black)",
@@ -64,7 +76,8 @@
     "material": "IHMWPE",
     "nij_class": "III",
     "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/Lancer_UNLRA.png/revision/latest?cb=20250526034756"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/Lancer_UNLRA.png/revision/latest?cb=20250526034756",
+    "protection_rating": "R1"
   },
   {
     "name": "LBT-6094 G3v2",
@@ -76,7 +89,8 @@
     "nij_class": "III++",
     "armor_locations": "Front,Back",
     "manufacturer": "LBT",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/LBT-6094_G3v2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091951"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/LBT-6094_G3v2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091951",
+    "protection_rating": "R3"
   },
   {
     "name": "LCS Sentry",
@@ -88,7 +102,9 @@
     "material": "UHMWPE",
     "nij_class": "III",
     "manufacturer": "Condor Outdoor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/LCS_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618162902"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/LCS_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618162902",
+    "protection_rating": "R1",
+    "armor_locations": "Front, back"
   },
   {
     "name": "M2 Plate Carrier",
@@ -96,9 +112,10 @@
     "weight": "7.640 kg",
     "sold_by": "Loot only",
     "material": "Ceramic",
-    "nij_class": "III+",
+    "nij_class": "III++",
     "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/13/M2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421122928"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/13/M2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421122928",
+    "protection_rating": "R3"
   },
   {
     "name": "Modular Operator Carrier Gen II",
@@ -111,7 +128,8 @@
     "material": "UHMWPE",
     "nij_class": "IIIA",
     "armor_locations": "Front,Back,Sides",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/MOC_II_inspect.png/revision/latest?cb=20250621182812"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/MOC_II_inspect.png/revision/latest?cb=20250621182812",
+    "protection_rating": "P3"
   },
   {
     "name": "Pantsir 2.0",
@@ -125,7 +143,8 @@
     "nij_class": "III",
     "armor_locations": "Front,Back,Sides",
     "manufacturer": "SSO",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/75/Pantsir_2.0_inspect.png/revision/latest?cb=20260501125358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/75/Pantsir_2.0_inspect.png/revision/latest?cb=20260501125358",
+    "protection_rating": "R1"
   },
   {
     "name": "Phantom Type 2",
@@ -140,7 +159,8 @@
     "nij_class": "III++",
     "armor_locations": "Front,Back,Sides",
     "manufacturer": "Raid Gear & MBC",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c8/Phantom_inspect.png/revision/latest?cb=20250531043617"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c8/Phantom_inspect.png/revision/latest?cb=20250531043617",
+    "protection_rating": "R3"
   },
   {
     "name": "Plate6 Plate Carrier",
@@ -155,7 +175,8 @@
     "nij_class": "III++",
     "armor_locations": "Front, Back",
     "manufacturer": "Blue Force Gear",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Plate6_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404185433"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Plate6_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404185433",
+    "protection_rating": "R3"
   },
   {
     "name": "Recon Plate Carrier",
@@ -167,7 +188,8 @@
     "nij_class": "III+",
     "armor_locations": "Front,Back",
     "manufacturer": "Warrior Assault Systems",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b7/RPC_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421122631"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b7/RPC_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421122631",
+    "protection_rating": "R2"
   },
   {
     "name": "Specter",
@@ -177,7 +199,8 @@
     "material": "Aramid",
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Specter_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515140641"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Specter_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515140641",
+    "protection_rating": "P3"
   },
   {
     "name": "Spitfire Plate Carrier",
@@ -204,6 +227,7 @@
     "nij_class": "III++",
     "armor_locations": "Front, Back, Sides",
     "manufacturer": "SSO",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Yen%27s_Pantsir_2.0_inspect.png/revision/latest?cb=20260501153731"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Yen%27s_Pantsir_2.0_inspect.png/revision/latest?cb=20260501153731",
+    "protection_rating": "R3"
   }
 ]

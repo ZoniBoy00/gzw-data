@@ -10,7 +10,8 @@
     "nij_class": "III+",
     "armor_locations": "Front",
     "manufacturer": "Techincom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/6B23-1%28Digital%29_inspect.png/revision/latest?cb=20250621182707"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/6B23-1%28Digital%29_inspect.png/revision/latest?cb=20250621182707",
+    "protection_rating": "R2"
   },
   {
     "name": "6B23-1(Flora)",
@@ -22,7 +23,9 @@
     "material": "Steel",
     "nij_class": "III+",
     "armor_locations": "Front",
-    "manufacturer": "Techincom"
+    "manufacturer": "Techincom",
+    "protection_rating": "R2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/6B23-1%28Flora%29_icon.png/revision/latest?cb=20250608171911"
   },
   {
     "name": "Armor Vests",
@@ -38,7 +41,9 @@
     "sold_by": "Turncoat R.2 Looting",
     "material": "UHMWPE",
     "nij_class": "III",
-    "armor_locations": "Front / Back"
+    "armor_locations": "Front / Back",
+    "protection_rating": "R1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/ATBV_icon.png/revision/latest?cb=20250612023421"
   },
   {
     "name": "B Krogan",
@@ -62,7 +67,9 @@
     "material": "UHMWPE",
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
-    "manufacturer": "Safeguard Armor"
+    "manufacturer": "Safeguard Armor",
+    "protection_rating": "P3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Commander%28Black%29_icon.png/revision/latest?cb=20250609082307"
   },
   {
     "name": "Commander (Navy)",
@@ -75,7 +82,8 @@
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
     "manufacturer": "Safeguard Armor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/Commander%28Navy%29_inspect.png/revision/latest?cb=20260304175540"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/Commander%28Navy%29_inspect.png/revision/latest?cb=20260304175540",
+    "protection_rating": "P3"
   },
   {
     "name": "Commander (Olive)",
@@ -87,7 +95,9 @@
     "material": "UHMWPE",
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
-    "manufacturer": "Safeguard Armor"
+    "manufacturer": "Safeguard Armor",
+    "protection_rating": "P3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/Commander%28Olive%29_icon.png/revision/latest?cb=20250608171825"
   },
   {
     "name": "Coolmax Covert Vest",
@@ -98,7 +108,9 @@
     "sold_by": "Loot only",
     "material": "Aramid",
     "nij_class": "IIIA",
-    "armor_locations": "Front,Back"
+    "armor_locations": "Front,Back",
+    "protection_rating": "P3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Coolmax_icon.png/revision/latest?cb=20250608171454"
   },
   {
     "name": "Covert Tactical Body Armour (Police)",
@@ -109,7 +121,9 @@
     "sold_by": "Looting",
     "material": "UHMWPE",
     "nij_class": "III",
-    "armor_locations": "Front / Back"
+    "armor_locations": "Front / Back",
+    "protection_rating": "R1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Covert_%28Police%29_icon.png/revision/latest?cb=20250608172030"
   },
   {
     "name": "Covert Tactical Body Armour (Press)",
@@ -120,7 +134,9 @@
     "sold_by": "Loot only",
     "material": "Steel",
     "nij_class": "III",
-    "armor_locations": "Front,Back"
+    "armor_locations": "Front,Back",
+    "protection_rating": "R1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Covert_Woodland_icon.png/revision/latest?cb=20260501080902"
   },
   {
     "name": "Covert Tactical Body Armour (UNLRA)",
@@ -132,7 +148,8 @@
     "material": "Aramid",
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d2/Covert_%28UNLRA%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515142152"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d2/Covert_%28UNLRA%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515142152",
+    "protection_rating": "P3"
   },
   {
     "name": "CZ 4M Hornet (UNLRA)",
@@ -144,7 +161,8 @@
     "material": "Ceramic",
     "nij_class": "III",
     "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Hornet_inspect.png/revision/latest?cb=20250601042837"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Hornet_inspect.png/revision/latest?cb=20250601042837",
+    "protection_rating": "R1"
   },
   {
     "name": "CZ VIP (Black)",
@@ -156,7 +174,8 @@
     "material": "Steel",
     "nij_class": "III",
     "armor_locations": "Front",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/VIP_inspect.png/revision/latest?cb=20250621182702"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/VIP_inspect.png/revision/latest?cb=20250621182702",
+    "protection_rating": "R1"
   },
   {
     "name": "LVS Overt (Ranger Green)",
@@ -169,7 +188,8 @@
     "nij_class": "IIIA+",
     "armor_locations": "Front,Back",
     "manufacturer": "Crye-Precision",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/LVS_Overt_%28Ranger_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331092143"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/LVS_Overt_%28Ranger_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331092143",
+    "protection_rating": "P4"
   },
   {
     "name": "LVS Tactical (Multicam)",
@@ -182,7 +202,8 @@
     "nij_class": "III++",
     "armor_locations": "Front, Back, Sides",
     "manufacturer": "Crye-Precision",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/LVS_Tactical_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404182210"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/LVS_Tactical_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404182210",
+    "protection_rating": "R3"
   },
   {
     "name": "LVS Tactical (Ranger Green)",
@@ -207,7 +228,8 @@
     "material": "Steel",
     "nij_class": "IIIA",
     "armor_locations": "Front",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/Molle_inspect.png/revision/latest?cb=20250621182814"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/Molle_inspect.png/revision/latest?cb=20250621182814",
+    "protection_rating": "P3"
   },
   {
     "name": "SK-S Ballistic Vest",
@@ -218,6 +240,8 @@
     "sold_by": "Turncoat R.2",
     "material": "UHMWPE",
     "nij_class": "III",
-    "armor_locations": "Front,Back"
+    "armor_locations": "Front,Back",
+    "protection_rating": "R1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/SK-S_icon.png/revision/latest?cb=20250608171834"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "source": "gzw-scraper",
-  "scraperVersion": "4.3.0",
-  "parserRevision": "universal-parser-v4",
+  "scraperVersion": "4.4.0",
+  "parserRevision": "universal-parser-v5",
   "datasetCount": 85,
   "datasets": [
     {
@@ -4642,14 +4642,14 @@
     {
       "name": "plate_carriers",
       "file": "plate_carriers.json",
-      "itemCount": 16,
+      "itemCount": 17,
       "fields": {
         "armor_locations": {
           "types": [
             "string"
           ],
-          "presentCount": 15,
-          "optional": true,
+          "presentCount": 17,
+          "optional": false,
           "nullable": false,
           "example": "Front"
         },
@@ -4666,16 +4666,16 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
-          "example": "cgpc3-tqs"
+          "example": "burans-pantsir-2.0"
         },
         "image": {
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Plate6_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404185433"
@@ -4702,7 +4702,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "Aramid"
@@ -4711,19 +4711,28 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
-          "example": "CGPC3 TQS"
+          "example": "Buran's Pantsir 2.0"
         },
         "nij_class": {
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "III"
+        },
+        "protection_rating": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": "P3"
         },
         "slots": {
           "types": [
@@ -4757,7 +4766,7 @@
             "string"
           ],
           "presentCount": 16,
-          "optional": false,
+          "optional": true,
           "nullable": false,
           "example": "12.100kg"
         }
@@ -7017,10 +7026,10 @@
           "types": [
             "string"
           ],
-          "presentCount": 10,
+          "presentCount": 18,
           "optional": true,
           "nullable": false,
-          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/VIP_inspect.png/revision/latest?cb=20250621182702"
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Covert_%28Police%29_icon.png/revision/latest?cb=20250608172030"
         },
         "manufacturer": {
           "types": [
@@ -7057,6 +7066,15 @@
           "optional": true,
           "nullable": false,
           "example": "III"
+        },
+        "protection_rating": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": "P3"
         },
         "sold_by": {
           "types": [
@@ -7530,5 +7548,5 @@
       }
     }
   ],
-  "lastScrapedAt": "2026-10-05T14:56:42.484984Z"
+  "lastScrapedAt": "2026-10-11T10:58:14.060030Z"
 }
