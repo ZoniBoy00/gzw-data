@@ -28,11 +28,6 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/6B23-1%28Flora%29_icon.png/revision/latest?cb=20250608171911"
   },
   {
-    "name": "Armor Vests",
-    "id": "armor-vests",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Commander%28Black%29_icon.png/revision/latest?cb=20250609082307"
-  },
-  {
     "name": "ATBV Vest",
     "id": "atbv-vest",
     "type": "Ballistic Vest",

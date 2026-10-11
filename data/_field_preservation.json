@@ -1,6 +1,24 @@
 {
   "ammo.json": {},
-  "plate_carriers.json": {},
+  "plate_carriers.json": {
+    "Specter": {},
+    "Pantsir 2.0": {},
+    "Buran's Pantsir 2.0": {
+      "image": 1
+    },
+    "Yen's Pantsir 2.0": {},
+    "Recon Plate Carrier": {},
+    "M2 Plate Carrier": {},
+    "CZ 4M Lancer": {},
+    "CZ 4M Lancer (UNLRA)": {},
+    "Chest Rig 901 Elite 4": {},
+    "Plate6 Plate Carrier": {},
+    "Phantom Type 2": {},
+    "CGPC3 TQS": {},
+    "Modular Operator Carrier Gen II": {},
+    "LCS Sentry": {},
+    "LBT-6094 G3v2": {}
+  },
   "paper.json": {},
   "reading_intel.json": {},
   "tasks.json": {},
@@ -48,7 +66,40 @@
   "backpacks.json": {},
   "jewellery.json": {},
   "drinks.json": {},
-  "vests.json": {},
+  "vests.json": {
+    "Commander (Black)": {
+      "image": 1
+    },
+    "Commander (Navy)": {},
+    "Commander (Olive)": {
+      "image": 1
+    },
+    "Covert Tactical Body Armour (Press)": {
+      "image": 1
+    },
+    "Covert Tactical Body Armour (UNLRA)": {},
+    "Covert Tactical Body Armour (Police)": {
+      "image": 1
+    },
+    "CZ VIP (Black)": {},
+    "Molle Vest": {},
+    "CZ 4M Hornet (UNLRA)": {},
+    "Coolmax Covert Vest": {
+      "image": 1
+    },
+    "SK-S Ballistic Vest": {
+      "image": 1
+    },
+    "6B23-1(Flora)": {
+      "image": 1
+    },
+    "6B23-1(Digital)": {},
+    "LVS Tactical (Multicam)": {},
+    "LVS Overt (Ranger Green)": {},
+    "ATBV Vest": {
+      "image": 1
+    }
+  },
   "food.json": {},
   "foregrips.json": {},
   "military_equipment.json": {},

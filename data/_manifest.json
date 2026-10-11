@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-11T10:58:14.285152Z",
+  "generatedAt": "2026-10-11T12:51:08.732061Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -405,8 +405,8 @@
     },
     "vests": {
       "file": "vests.json",
-      "records": 19,
-      "sha256": "d4625e47150eebf29219d2dd28445e197b27e89c9274f1e2b528ad4fc491bbad"
+      "records": 18,
+      "sha256": "dedd7644fb4a885e00ca787c15b5061f329e11349735c1dc5f71d5949fdb1b8f"
     },
     "vices": {
       "file": "vices.json",
