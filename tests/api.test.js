@@ -126,6 +126,18 @@ describe('GZW Data API', () => {
     assert.ok(getHeader('x-ratelimit-limit') > 0);
   });
 
+  it('should not expose the retired singular plate carrier endpoint', () => {
+    const { res, getStatus, getBody } = mockRes();
+    handler(mockReq('/api/v1/plate_carrier'), res);
+    assert.strictEqual(getStatus(), 404);
+    assert.strictEqual(getBody().error.code, 'ENDPOINT_NOT_FOUND');
+
+    const metadataResponse = mockRes();
+    handler(mockReq('/api/v1/metadata/plate_carrier'), metadataResponse.res);
+    assert.strictEqual(metadataResponse.getStatus(), 404);
+    assert.strictEqual(metadataResponse.getBody().error.code, 'DATASET_NOT_FOUND');
+  });
+
   it('should return 405 for non-GET methods', () => {
     const { res, getStatus, getBody, getHeader } = mockRes();
     handler(mockReq('/api', 'POST'), res);

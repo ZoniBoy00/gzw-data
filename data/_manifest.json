@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-11T14:01:30.825051Z",
+  "generatedAt": "2026-10-11T14:34:50.522817Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -267,11 +267,6 @@
       "file": "pistol_grips.json",
       "records": 25,
       "sha256": "24c7080d33402b6a1c49225befc773302bb2f9e02cef8aef0a89dabb3041385a"
-    },
-    "plate_carrier": {
-      "file": "plate_carrier.json",
-      "records": 1,
-      "sha256": "b0edf23013fbdc9a0009470869a30856a7b4c2fb1a4121e03a705795b4dca7d4"
     },
     "plate_carriers": {
       "file": "plate_carriers.json",

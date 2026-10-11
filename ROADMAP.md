@@ -7,8 +7,8 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 - **API version:** `v1`
 - **Implementation version:** `4.5.0`
 - **Production API:** https://gzw-data.dev/api/v1
-- **Datasets:** 85+ auto-discovered JSON datasets
-- **Tests:** 55 API tests passing on 2026-10-11
+- **Datasets:** 84 auto-discovered JSON datasets
+- **Tests:** 56 API tests passing on 2026-10-11
 - **License:** MIT
 - **Authentication:** none required for the public read-only API
 
@@ -57,6 +57,7 @@ Current implementation: `4.5.0`.
 - [x] Expose per-dataset `lastScrapedAt` and source-page revision IDs in metadata.
 - [x] Distinguish the most recent full scrape with `lastFullScrapeAt`.
 - [x] Preserve dataset freshness metadata in summary and single-dataset routes.
+- [x] Retire the stale singular `plate_carrier` dataset; `plate_carriers` is canonical.
 
 ### `5.0.0` — breaking API line, only if required
 
