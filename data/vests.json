@@ -24,8 +24,7 @@
     "nij_class": "III+",
     "armor_locations": "Front",
     "manufacturer": "Techincom",
-    "protection_rating": "R2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/6B23-1%28Flora%29_icon.png/revision/latest?cb=20250608171911"
+    "protection_rating": "R2"
   },
   {
     "name": "ATBV Vest",
@@ -37,8 +36,7 @@
     "material": "UHMWPE",
     "nij_class": "III",
     "armor_locations": "Front / Back",
-    "protection_rating": "R1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/ATBV_icon.png/revision/latest?cb=20250612023421"
+    "protection_rating": "R1"
   },
   {
     "name": "B Krogan",
@@ -63,8 +61,7 @@
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
     "manufacturer": "Safeguard Armor",
-    "protection_rating": "P3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Commander%28Black%29_icon.png/revision/latest?cb=20250609082307"
+    "protection_rating": "P3"
   },
   {
     "name": "Commander (Navy)",
@@ -91,8 +88,7 @@
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
     "manufacturer": "Safeguard Armor",
-    "protection_rating": "P3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/Commander%28Olive%29_icon.png/revision/latest?cb=20250608171825"
+    "protection_rating": "P3"
   },
   {
     "name": "Coolmax Covert Vest",
@@ -104,8 +100,7 @@
     "material": "Aramid",
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
-    "protection_rating": "P3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Coolmax_icon.png/revision/latest?cb=20250608171454"
+    "protection_rating": "P3"
   },
   {
     "name": "Covert Tactical Body Armour (Police)",
@@ -117,8 +112,7 @@
     "material": "UHMWPE",
     "nij_class": "III",
     "armor_locations": "Front / Back",
-    "protection_rating": "R1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Covert_%28Police%29_icon.png/revision/latest?cb=20250608172030"
+    "protection_rating": "R1"
   },
   {
     "name": "Covert Tactical Body Armour (Press)",
@@ -130,8 +124,7 @@
     "material": "Steel",
     "nij_class": "III",
     "armor_locations": "Front,Back",
-    "protection_rating": "R1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Covert_Woodland_icon.png/revision/latest?cb=20260501080902"
+    "protection_rating": "R1"
   },
   {
     "name": "Covert Tactical Body Armour (UNLRA)",
@@ -236,7 +229,6 @@
     "material": "UHMWPE",
     "nij_class": "III",
     "armor_locations": "Front,Back",
-    "protection_rating": "R1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/SK-S_icon.png/revision/latest?cb=20250608171834"
+    "protection_rating": "R1"
   }
 ]

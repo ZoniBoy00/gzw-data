@@ -3,9 +3,7 @@
   "plate_carriers.json": {
     "Specter": {},
     "Pantsir 2.0": {},
-    "Buran's Pantsir 2.0": {
-      "image": 1
-    },
+    "Buran's Pantsir 2.0": {},
     "Yen's Pantsir 2.0": {},
     "Recon Plate Carrier": {},
     "M2 Plate Carrier": {},
@@ -67,38 +65,22 @@
   "jewellery.json": {},
   "drinks.json": {},
   "vests.json": {
-    "Commander (Black)": {
-      "image": 1
-    },
+    "Commander (Black)": {},
     "Commander (Navy)": {},
-    "Commander (Olive)": {
-      "image": 1
-    },
-    "Covert Tactical Body Armour (Press)": {
-      "image": 1
-    },
+    "Commander (Olive)": {},
+    "Covert Tactical Body Armour (Press)": {},
     "Covert Tactical Body Armour (UNLRA)": {},
-    "Covert Tactical Body Armour (Police)": {
-      "image": 1
-    },
+    "Covert Tactical Body Armour (Police)": {},
     "CZ VIP (Black)": {},
     "Molle Vest": {},
     "CZ 4M Hornet (UNLRA)": {},
-    "Coolmax Covert Vest": {
-      "image": 1
-    },
-    "SK-S Ballistic Vest": {
-      "image": 1
-    },
-    "6B23-1(Flora)": {
-      "image": 1
-    },
+    "Coolmax Covert Vest": {},
+    "SK-S Ballistic Vest": {},
+    "6B23-1(Flora)": {},
     "6B23-1(Digital)": {},
     "LVS Tactical (Multicam)": {},
     "LVS Overt (Ranger Green)": {},
-    "ATBV Vest": {
-      "image": 1
-    }
+    "ATBV Vest": {}
   },
   "food.json": {},
   "foregrips.json": {},

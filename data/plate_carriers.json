@@ -5,8 +5,7 @@
     "protection_rating": "R3",
     "nij_class": "III++",
     "material": "Ceramic",
-    "armor_locations": "Front, Back, Sides",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Buran%27s_Pantsir_2.0_icon.png/revision/latest/scale-to-width-down/180?cb=20260520233024"
+    "armor_locations": "Front, Back, Sides"
   },
   {
     "name": "CGPC3 TQS",
