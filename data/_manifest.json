@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-11T13:34:14.101133Z",
+  "generatedAt": "2026-10-11T14:01:30.825051Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -276,7 +276,7 @@
     "plate_carriers": {
       "file": "plate_carriers.json",
       "records": 17,
-      "sha256": "6d875d02f19743c6710bc241c3bd786eb41473fa0310110e579db7a762c6e024"
+      "sha256": "9626005d38e82dfd167b7b80a639ce72d28c8e4de137d108d387fd70540b5c90"
     },
     "provisions": {
       "file": "provisions.json",
@@ -406,7 +406,7 @@
     "vests": {
       "file": "vests.json",
       "records": 18,
-      "sha256": "99299ae5e88b2a045ce4c9e7ad4c927c8a1c1c50ccac101ced9e7ab9edbb1802"
+      "sha256": "dedd7644fb4a885e00ca787c15b5061f329e11349735c1dc5f71d5949fdb1b8f"
     },
     "vices": {
       "file": "vices.json",
