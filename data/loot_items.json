@@ -80,7 +80,7 @@
   {
     "name": "Box of Supplies",
     "id": "box-of-supplies",
-    "grid": "2x2",
+    "grid_size": "2x2",
     "weight": "2.000 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/Box_of_Supplies_icon.png/revision/latest?cb=20250603180346"
   },
@@ -147,7 +147,7 @@
   {
     "name": "Camera Wiretap",
     "id": "camera-wiretap",
-    "grid": "1x1",
+    "grid_size": "1x1",
     "weight": "0.010 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Camera_Wiretap_icon.png/revision/latest?cb=20250621155427"
   },
@@ -322,7 +322,7 @@
   {
     "name": "GPS Tracker",
     "id": "gps-tracker",
-    "grid": "1x1",
+    "grid_size": "1x1",
     "weight": "0.050 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/Tracker_Icon.png/revision/latest?cb=20250621155139"
   },
@@ -551,7 +551,7 @@
   {
     "name": "Pro Multitool",
     "id": "pro-multitool",
-    "grid": "1x1",
+    "grid_size": "1x1",
     "weight": "0.120 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Pro_Multitool_icon.png/revision/latest?cb=20250128181319"
   },
@@ -600,7 +600,7 @@
   {
     "name": "Sample Collection Kit",
     "id": "sample-collection-kit",
-    "grid": "1x1",
+    "grid_size": "1x1",
     "weight": "0.100 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/Sample_Collection_Kit_icon.png/revision/latest?cb=20240508091140"
   },

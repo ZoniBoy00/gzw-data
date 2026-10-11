@@ -111,7 +111,156 @@
   "keys.json": {},
   "loot_items.json": {},
   "apparel_items.json": {},
-  "provisions.json": {},
+  "provisions.json": {
+    "Energy Bar Nuts and Fruits *": {
+      "grid": 1,
+      "source": 1
+    },
+    "Lucky Pork Liver Pâté": {
+      "grid": 1,
+      "source": 1
+    },
+    "Combat Ration Pack": {
+      "grid": 1,
+      "source": 1
+    },
+    "Sinngua Lunch Meat": {
+      "grid": 1,
+      "source": 1
+    },
+    "Kasem Chocolate Wafers": {
+      "grid": 1,
+      "source": 1
+    },
+    "SnipSnap Crunchy": {
+      "grid": 1,
+      "source": 1
+    },
+    "Windmill Almond Chocolate Bar *": {
+      "grid": 1,
+      "source": 1
+    },
+    "TamTam DoubleChoc *": {
+      "grid": 1,
+      "source": 1
+    },
+    "Berg Bar Cookie Chocolate *": {
+      "grid": 1,
+      "source": 1
+    },
+    "Canned Tuna Chunks": {
+      "grid": 1,
+      "source": 1
+    },
+    "Mackerel in Teriyaki Sauce": {
+      "grid": 1,
+      "source": 1
+    },
+    "Lychee in Syrup": {
+      "grid": 1,
+      "source": 1
+    },
+    "Cowboy Baked Beans": {
+      "grid": 1,
+      "source": 1
+    },
+    "Spicy Thai Combat Meal": {
+      "grid": 1,
+      "source": 1
+    },
+    "Premium Pork Luncheon Meat": {
+      "grid": 1,
+      "source": 1
+    },
+    "Organic Tofu": {
+      "grid": 1,
+      "source": 1
+    },
+    "HDR Meal": {
+      "grid": 1,
+      "source": 1
+    },
+    "Bamboo Shoots": {
+      "grid": 1,
+      "source": 1
+    },
+    "1 Shot Energy Chews": {
+      "grid": 1,
+      "source": 1
+    },
+    "Power Energy Fuel *": {
+      "grid": 1,
+      "source": 1
+    },
+    "Aques Water 1 l": {
+      "grid": 1,
+      "source": 1
+    },
+    "Gray Focused Energy *": {
+      "grid": 1,
+      "source": 1
+    },
+    "Aques Water 1.5 l": {
+      "grid": 1,
+      "source": 1
+    },
+    "Noakon Water 0.6 l": {
+      "grid": 1,
+      "source": 1
+    },
+    "Noakon Water 1 l": {
+      "grid": 1,
+      "source": 1
+    },
+    "Noakon Water 1.5 l": {
+      "grid": 1,
+      "source": 1
+    },
+    "Infinity Isotonic Drink": {
+      "grid": 1,
+      "source": 1
+    },
+    "Dark Star Iced Coffee *": {
+      "grid": 1,
+      "source": 1
+    },
+    "Kaipo Lychee Nectar": {
+      "grid": 1,
+      "source": 1
+    },
+    "Touchdown Lemon Soda": {
+      "grid": 1,
+      "source": 1
+    },
+    "Coco Jumbo Coconut Juice Drink": {
+      "grid": 1,
+      "source": 1
+    },
+    "Sunrise Cola": {
+      "grid": 1,
+      "source": 1
+    },
+    "Maknav Iced Tea": {
+      "grid": 1,
+      "source": 1
+    },
+    "NuKlear Energy: Meltdown Mango *": {
+      "grid": 1,
+      "source": 1
+    },
+    "White Orchid Crystal Water 2 l": {
+      "grid": 1,
+      "source": 1
+    },
+    "Riminda Green Bubbly Bliss *": {
+      "grid": 1,
+      "source": 1
+    },
+    "Sunrise Cola (2 L)": {
+      "grid": 1,
+      "source": 1
+    }
+  },
   "main_task.json": {},
   "side_task.json": {},
   "upcoming_content.json": {},

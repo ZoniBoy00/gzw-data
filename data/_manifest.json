@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-11T15:32:04.136433Z",
+  "generatedAt": "2026-10-11T16:35:52.052072Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -221,7 +221,7 @@
     "loot_items": {
       "file": "loot_items.json",
       "records": 120,
-      "sha256": "6c228e3177f960f450c69ad9e59aa40a5caef31110ee5082be7f219e8577b0f4"
+      "sha256": "b679595a62b9420954e3519d3e906b4bf466f301571bbd72f9629b5c0cd17699"
     },
     "magazines": {
       "file": "magazines.json",
@@ -286,12 +286,12 @@
     "plate_carriers": {
       "file": "plate_carriers.json",
       "records": 18,
-      "sha256": "b3276d53bb444f3829dcb158683c7c7e6d6a094bb677b629ef16359cfcdb8446"
+      "sha256": "7fc98a76fa0c609abc043ef753bed6aa89729ebb9a4ddd162f05a567baa9d428"
     },
     "provisions": {
       "file": "provisions.json",
       "records": 37,
-      "sha256": "64d699097f1e2ab23ff15d59534ab7624fae56106dcf4ac1a6f818206121a5f4"
+      "sha256": "fba2e5adbc266db8c0b30b550849a8f41e94b8f19d453da52de0e730e471bf98"
     },
     "reading_intel": {
       "file": "reading_intel.json",

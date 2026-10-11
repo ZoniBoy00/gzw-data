@@ -6,6 +6,9 @@
     "nij_class": "III++",
     "material": "Ceramic",
     "armor_locations": "Front, Back, Sides",
+    "grid_size": "3x3",
+    "weight": "9.600kg",
+    "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Buran%27s_Pantsir_2.0_icon.png/revision/latest/scale-to-width-down/180?cb=20260520233024"
   },
   {
@@ -49,7 +52,9 @@
     "armor_locations": "Front,Back",
     "manufacturer": "4M",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Lancer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421123616",
-    "protection_rating": "R1"
+    "protection_rating": "R1",
+    "grid_size": "3x3",
+    "sold_by": "Looting Tasks rewards"
   },
   {
     "name": "CZ 4M Lancer (Black)",
@@ -77,7 +82,8 @@
     "nij_class": "III",
     "armor_locations": "Front,Back",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/Lancer_UNLRA.png/revision/latest?cb=20250526034756",
-    "protection_rating": "R1"
+    "protection_rating": "R1",
+    "grid_size": "3x3"
   },
   {
     "name": "LBT-6094 G3v2",
@@ -90,7 +96,8 @@
     "armor_locations": "Front,Back",
     "manufacturer": "LBT",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/LBT-6094_G3v2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091951",
-    "protection_rating": "R3"
+    "protection_rating": "R3",
+    "grid_size": "3x3"
   },
   {
     "name": "LCS Sentry",
@@ -104,7 +111,8 @@
     "manufacturer": "Condor Outdoor",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/LCS_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618162902",
     "protection_rating": "R1",
-    "armor_locations": "Front, back"
+    "armor_locations": "Front, back",
+    "grid_size": "3x3"
   },
   {
     "name": "LCS Sentry (UNLRA)",
@@ -130,7 +138,8 @@
     "nij_class": "III++",
     "armor_locations": "Front,Back",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/13/M2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421122928",
-    "protection_rating": "R3"
+    "protection_rating": "R3",
+    "grid_size": "3x4"
   },
   {
     "name": "Modular Operator Carrier Gen II",
@@ -204,7 +213,8 @@
     "armor_locations": "Front,Back",
     "manufacturer": "Warrior Assault Systems",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b7/RPC_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421122631",
-    "protection_rating": "R2"
+    "protection_rating": "R2",
+    "grid_size": "3x3"
   },
   {
     "name": "Specter",
@@ -215,7 +225,8 @@
     "nij_class": "IIIA",
     "armor_locations": "Front,Back",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Specter_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515140641",
-    "protection_rating": "P3"
+    "protection_rating": "P3",
+    "grid_size": "2x3"
   },
   {
     "name": "Spitfire Plate Carrier",
