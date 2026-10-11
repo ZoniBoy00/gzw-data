@@ -1,5 +1,5 @@
 const { CACHE_TTL_SEC, MAX_REQUEST_URL_LENGTH, MAX_SEARCH_QUERY_LENGTH, MAX_FUZZY_SEARCH_DATASETS } = require("../lib/config");
-const { datasets, loadDatasets, asArray, getLastScrapedAt, buildDatasetRegistry } = require("../lib/datasets");
+const { datasets, loadDatasets, asArray, getLastScrapedAt, getLastFullScrapeAt, buildDatasetRegistry } = require("../lib/datasets");
 const { checkRate } = require("../lib/rate-limit");
 const { setHeaders, json, errorResponse, setDataVersion } = require("../lib/response");
 const { paginate, applyFilters, parsePagination, matchesSearch } = require("../lib/query");
@@ -190,6 +190,7 @@ function handleRoute(route, params, res, rateInfo) {
       endpoints,
       docs: '/api/spec',
       lastScrapedAt: getLastScrapedAt(),
+      lastFullScrapeAt: getLastFullScrapeAt(),
     });
   }
 
@@ -415,6 +416,7 @@ function handleRoute(route, params, res, rateInfo) {
       baseUrl: 'https://gzw-data.dev/api/v1',
       openapi: 'https://gzw-data.dev/api/v1/spec',
       dataVersion: getLastScrapedAt(),
+      lastFullScrapeAt: getLastFullScrapeAt(),
       snapshot: buildSnapshot(datasets, asArray, getLastScrapedAt()),
       historyCount: getSnapshotHistory(datasets, asArray, getLastScrapedAt()).length,
       datasetCount: Object.keys(registry).length,

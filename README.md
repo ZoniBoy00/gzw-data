@@ -134,10 +134,11 @@ print(payload['data'])
 GZW Data exposes three separate version concepts:
 
 - `apiVersion`: public route contract, currently `v1`; only changes for breaking API changes.
-- `implementationVersion`: API implementation release, currently `4.4.0`; follows semantic versioning for compatible features and fixes.
+- `implementationVersion`: API implementation release, currently `4.5.0`; follows semantic versioning for compatible features and fixes.
 - `dataVersion`: timestamp of the published scraper dataset; changes when data is refreshed.
+- `lastFullScrapeAt`: most recent completed full scrape; individual dataset freshness and MediaWiki revisions are available from `/api/v1/metadata`.
 
-Use `/api/v1/version` when an integration needs all three values. A data refresh does not require an API-version change.
+Use `/api/v1/version` when an integration needs these values. A data refresh does not require an API-version change.
 
 ### Bounded dataset exports
 

@@ -103,7 +103,11 @@ Example metadata entry:
 ```
 
 Clients should use capabilities metadata instead of guessing which fields a
-dataset supports.
+dataset supports. Dataset entries may also include `lastScrapedAt` and
+`sourcePages`, where each source page identifies a MediaWiki title and its
+revision ID. Metadata responses include `lastFullScrapeAt` when a completed
+full-scrape timestamp is available; per-dataset timestamps are authoritative
+when datasets were updated at different times.
 
 ## Error responses
 
@@ -151,8 +155,12 @@ object containing `dataset`, `count`, and `maxRecords`. Exports are limited to
 ## Version semantics
 
 - `apiVersion` identifies the public route contract and is currently `v1`.
-- `implementationVersion` identifies compatible implementation releases.
+- `implementationVersion` identifies compatible implementation releases; the
+  current implementation is `4.5.0`.
 - `dataVersion` identifies the current published scraper snapshot.
+- `lastFullScrapeAt` identifies the latest completed full-scrape run, distinct
+  from the snapshot timestamp. Per-dataset `lastScrapedAt` values identify when
+  individual datasets were last saved by the scraper.
 
 A data refresh changes `dataVersion`, not `apiVersion`. Removing or changing
 the meaning or type of a public field requires a new API line, migration notes,

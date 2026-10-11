@@ -6,6 +6,7 @@ const path = require('node:path');
 const { buildChanges } = require(path.join(__dirname, '..', 'lib', 'snapshots'));
 const { buildExport, MAX_EXPORT_RECORDS } = require(path.join(__dirname, '..', 'lib', 'export'));
 const { getLastScrapedAt } = require(path.join(__dirname, '..', 'lib', 'datasets'));
+const { summarizeMetadata, getSingleDatasetMetadata } = require(path.join(__dirname, '..', 'lib', 'metadata'));
 
 // We test the API by simulating Vercel-like requests.
 // The api/index.js exports a (req, res) handler.
@@ -141,7 +142,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().data.ok, true);
     assert.strictEqual(getBody().data.status, 'ok');
     assert.strictEqual(getBody().data.apiVersion, 'v1');
-    assert.strictEqual(getBody().data.implementationVersion, '4.4.0');
+    assert.strictEqual(getBody().data.implementationVersion, '4.5.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'datasets'));
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
     assert.ok(typeof getBody().dataVersion === 'string');
@@ -384,17 +385,43 @@ describe('GZW Data API', () => {
     const version = getBody().data;
     assert.strictEqual(version.api, 'GZW Data API');
     assert.strictEqual(version.apiVersion, 'v1');
-    assert.strictEqual(version.implementationVersion, '4.4.0');
+    assert.strictEqual(version.implementationVersion, '4.5.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(version, 'version'));
     assert.strictEqual(version.baseUrl, 'https://gzw-data.dev/api/v1');
     assert.strictEqual(version.openapi, 'https://gzw-data.dev/api/v1/spec');
     assert.ok(typeof version.dataVersion === 'string');
+    assert.ok(version.lastFullScrapeAt === null || typeof version.lastFullScrapeAt === 'string');
     assert.ok(version.snapshot);
     assert.strictEqual(version.snapshot.version, version.dataVersion);
     assert.ok(Number.isInteger(version.historyCount));
     assert.ok(version.historyCount >= 1);
     assert.ok(version.datasetCount > 0);
     assert.ok(Array.isArray(version.datasets));
+  });
+
+  it('should expose per-dataset freshness and source revisions in metadata summaries', () => {
+    const scrapedAt = '2026-10-11T12:00:00Z';
+    const fullScrapedAt = '2026-10-11T11:58:00Z';
+    const sourcePages = [{ title: 'B Krogan', revisionId: 18815 }];
+    const data = {
+      _metadata: {
+        lastScrapedAt: scrapedAt,
+        lastFullScrapeAt: fullScrapedAt,
+        datasets: [{ name: 'vests', lastScrapedAt: scrapedAt, sourcePages }],
+      },
+      vests: [{ id: 'b-krogan', name: 'B Krogan' }],
+    };
+    const asArray = name => data[name];
+
+    const summary = summarizeMetadata(data, asArray, scrapedAt);
+    const dataset = summary.datasets.find(item => item.name === 'vests');
+    const single = getSingleDatasetMetadata(data, asArray, scrapedAt, 'vests');
+
+    assert.strictEqual(summary.lastFullScrapeAt, fullScrapedAt);
+    assert.strictEqual(dataset.lastScrapedAt, scrapedAt);
+    assert.deepStrictEqual(dataset.sourcePages, sourcePages);
+    assert.deepStrictEqual(single.sourcePages, sourcePages);
+    assert.strictEqual(single.lastScrapedAt, scrapedAt);
   });
 
   it('should report snapshot changes honestly', () => {
