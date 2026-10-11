@@ -5,20 +5,26 @@
     "vendor": "Banshee",
     "location": "Hunter's Paradise",
     "alternate": "Up to Snuff",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Recover the VIP client list from Hunter’s Paradise main entrance and deliver it to Banshee instead of Handshake.",
+    "objectives": "Retrieve the VIP program client list from the Hunter's Paradise entrance gate area and report back to Banshee Locate the client list Locate the client list"
   },
   {
     "name": "A Single Drop",
     "id": "a-single-drop",
     "vendor": "Gunny",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Fuel supplies are running critically low. Recon the area around Pha Lang Airfield where two tanker trucks were last seen, locate the missing vehicles, and assess how much fuel remains.",
+    "objectives": "Check the fuel levels in the two tanker trucks around Pha Lang Airfield Check the first tanker truck Check the second tanker truck Check the first tanker truck Check the second tanker truck"
   },
   {
     "name": "A Tiding of Magpies",
     "id": "a-tiding-of-magpies",
     "vendor": "Turncoat",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Eliminate the disloyal locals from Chon village who tried to extort Turncoat. Remove the threat, recover a phone they withheld, and deliver it as agreed.",
+    "objectives": "Retrieve the promised phone and report back to Turncoat Locate the phone in Chon village Locate the phone in Chon village Neutralize 5 Turncoat's former \"friends\" in Chon village"
   },
   {
     "name": "A Voice from the Stars",
@@ -26,7 +32,9 @@
     "vendor": "Lab Rat",
     "location": "YBL-1",
     "hidden_task": "Yes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "A hut containing mysterious research notes has been discovered. Search the area thoroughly for valuable intel that may clarify the purpose of the project. Focus on secured or locked sections and report your findings to Lab Rat.",
+    "objectives": "Retrieve the research data and report back to Lab Rat Locate the research data inside the hut Locate the research data inside the hut"
   },
   {
     "name": "Academic Interest",
@@ -34,14 +42,18 @@
     "vendor": "Turncoat",
     "location": "Midnight Sapphire",
     "alternate": "Noble Powder",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Instead of delivering the narcotics at Midnight Sapphire to Banshee, collect any drugs or related evidence you find and place it inside a blue barrel behind a shelter in a field southwest of the resort. Leave the materials there for Turncoat’s retrieval and avoid drawing attention to the exchange.",
+    "objectives": "Place the merchandise in a blue barrel behind a shelter in a field southwest of Midnight Sapphire"
   },
   {
     "name": "Atrocity Probe",
     "id": "atrocity-probe",
     "vendor": "Banshee",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Reports suggest a possible massacre in the village of Ban Phouphienge, located south of Hunter’s Paradise. Travel to the village, investigate the town hall and the smoldering area, gather evidence identifying those responsible, and report your findings to Banshee.",
+    "objectives": "Investigate Ban Phouphienge and report your findings to Banshee Investigate the town hall Investigate the smoldering area Investigate the town hall Investigate the smoldering area"
   },
   {
     "name": "Buried on Paper",
@@ -49,14 +61,17 @@
     "vendor": "Banshee",
     "task_type": "Side Task",
     "location": "Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Hey, I've got something big lined up here. Do you have a moment? Ever heard the name Jan Park? He's the Vice President of this country and Narith's right hand man. Nobody knows where he's hiding now, probably somewhere safe with Narith, but his absence gives us a chance to dig deeper into the corruption rotting this place from the inside out, Sounds good? There's a Municipal Office Building in Tiger Bay, right next to the old UNLRA Refugee Camp. I need you to get in there and find Park's office. Careful thought. I've heard some bandits took it over after the evacuation but the LAF kicked them out pretty fast. Now they're the ones calling the shots, so expect some heavy defenses. Once you find the office, search it thoroughly and bring back anything that might shine a light on what was happening behind closed doors there. And while you're at it, check the archive as well. I'm sure they're hiding something good in there. Thanks in advance. We would not have gotten this far without you. Hey, I've got something big lined up here. Do you have a moment? Ever heard the name Jan Park? He's the Vice President of this country and Narith's right hand man. Nobody knows where he's hiding now, probably somewhere safe with Narith, but his absence gives us a chance to dig deeper into the corruption rotting this place from the inside out, Sounds good? There's a Municipal Office Building in Tiger Bay, right next to the old UNLRA Refugee Camp. I need you to get in there and find Park's office. Careful thought. I've heard some bandits took it over after the evacuation but the LAF kicked them out pretty fast. Now they're the ones calling the shots, so expect some heavy defenses. Once you find the office, search it thoroughly and bring back anything that might shine a light on what was happening behind closed doors there. And while you're at it, check the archive as well. I'm sure they're hiding something good in there. Thanks in advance. We would not have gotten this far without you."
   },
   {
     "name": "Cache Retrieval",
     "id": "cache-retrieval",
     "vendor": "Gunny",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "A weapons cache is unaccounted for at the Hilltop Villas in Nam Thaven. Check the previous operator’s final GPS ping, confirm their status, and mark the cache’s exact position.",
+    "objectives": "Find and mark the weapons cache Retrieve the GPS tracker from the unresponsive contractor Retrieve the GPS tracker from the unresponsive contractor"
   },
   {
     "name": "Celebrity Crash",
@@ -64,98 +79,125 @@
     "vendor": "Handshake",
     "location": "Midnight Sapphire",
     "alternate": "Dirt Digger",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Retrieve a forgotten SD card from a celebrity’s room on the first floor of the Midnight Sapphire Hotel before compromising footage can surface. Secure it and report back to Handshake.",
+    "objectives": "Retrieve the SD card from the Midnight Sapphire Hotel and report back to Handshake Locate the SD card Locate the SD card"
   },
   {
     "name": "Chameleon - AK-308 (HT)",
     "id": "chameleon---ak-308-ht",
     "vendor": "Vulture",
     "location": "Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Vulture Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
     "name": "Chameleon - AKMN (JC)",
     "id": "chameleon---akmn-jc",
     "vendor": "Artisan",
     "location": "Lamang Island",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Artisan is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Artisan Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
     "name": "Chameleon - DDM4 (PL)",
     "id": "chameleon---ddm4-pl",
     "vendor": "Gunny",
     "location": "Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Gunny is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Gunny Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
     "name": "Chameleon - M14 (BH)",
     "id": "chameleon---m14-bh",
     "vendor": "Banshee",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him."
   },
   {
     "name": "Chameleon - M700 (GC)",
     "id": "chameleon---m700-gc",
     "vendor": "Banshee",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Banshee Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
     "name": "Chameleon - Mossberg 590 (RT)",
     "id": "chameleon---mossberg-590-rt",
     "vendor": "Gunny",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Gunny is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Gunny Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
     "name": "Chameleon - MP7A2 (SC)",
     "id": "chameleon---mp7a2-sc",
     "vendor": "Banshee",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Banshee Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
     "name": "Chameleon - SIG MCX (GN)",
     "id": "chameleon---sig-mcx-gn",
     "vendor": "Banshee",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Banshee Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
     "name": "Chameleon - SVD Dragunov (SW)",
     "id": "chameleon---svd-dragunov-sw",
     "vendor": "Artisan",
     "location": "Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Artisan is looking to expand her selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to her.",
+    "objectives": "Deliver the Range & Rifle magazine to Artisan Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
     "name": "Crash",
     "id": "crash",
     "vendor": "Banshee",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "An undercover operative was captured trying to smuggle evidence out of Midnight Sapphire. The evidence is likely still concealed in his car. Search the road leading out of the resort to find the car, retrieve the USB drive, and deliver it to Banshee.",
+    "objectives": "Find the car of Banshee 's colleague and retrieve the intel Locate the intel"
   },
   {
     "name": "Crime Doesn't Pay",
     "id": "crime-doesnt-pay",
     "vendor": "Artisan",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Investigate the disappearance of Deesabun Nguyen, an employee of Midnight Sapphire. Search the staff housing area south of the golf club for clues and report your findings to Artisan.",
+    "objectives": "Search the Midnight Sapphire and uncover what happened to Deesabun Nguyen"
   },
   {
     "name": "Deepest, Darkest Fantasies",
     "id": "deepest,-darkest-fantasies",
     "vendor": "Handshake",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Search the Midnight Sapphire villas for a missing flash drive containing sensitive recordings linked to a high-profile politician. Focus on Villa Lucia. Secure the device and deliver it to Handshake.",
+    "objectives": "Retrieve the flash drive from Midnight Sapphire and report back to Handshake Locate the flash drive Locate the flash drive"
   },
   {
     "name": "Delayed Package",
     "id": "delayed-package",
     "vendor": "Turncoat",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Retrieve a sealed package from a shelter south of Pha Lang Airfield and deliver it to a blue aircraft inside one of the remote hangars. Ensure the item reaches the plane intact and report back to Turncoat for payment.",
+    "objectives": "Plant the package above the plane's front landing gear at Pha Lang Airfield Pick up the package at a shelter south of Pha Lang Airfield Pick up the package at a shelter south of Pha Lang Airfield"
   },
   {
     "name": "Dirt Digger",
@@ -163,77 +205,99 @@
     "vendor": "Banshee",
     "location": "Midnight Sapphire",
     "alternate": "Celebrity Crash",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Secure the SD card containing incriminating evidence from the Midnight Sapphire Hotel and deliver it to Banshee instead of Handshake.",
+    "objectives": "Retrieve the SD card from the Midnight Sapphire Hotel and report back to Banshee Locate the SD card Locate the SD card"
   },
   {
     "name": "Don't Speak",
     "id": "dont-speak",
     "vendor": "Artisan",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Artisan has lost contact with a group of longtime associates operating near a lake south of Pha Lang. Go to the location, determine what happened to them, and report your findings to her.",
+    "objectives": "Investigate what happened to the criminals near the lake Search the villa southwest of Sabai lake and find out what happened to the rest of the criminals"
   },
   {
     "name": "Double Agent",
     "id": "double-agent",
     "vendor": "Turncoat",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat has lost contact with one of his informants operating near Hunter’s Paradise. Travel to Nony Village, determine what happened to him, and await further instructions.",
+    "objectives": "Search the small hamlet southwest of Hunter's Paradise and find Turncoat 's informant Retrieve the notebook and report back to Turncoat Find the informant's notebook Find the informant's notebook"
   },
   {
     "name": "Draw No Bet",
     "id": "draw-no-bet",
     "vendor": "Artisan",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Despite claims that a construction site east of Kiu Vongsa was intended as a retirement facility, the scale of equipment on site suggests otherwise. Proceed to the construction site and determine what was being built there and who is behind it. Report your findings to Artisan.",
+    "objectives": "Locate the construction site east of Kiu Vongsa Find intel describing what is being built Find intel describing what is being built"
   },
   {
     "name": "Duty to the Country",
     "id": "duty-to-the-country",
     "vendor": "Lab Rat",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Investigate the FN-3 Auxiliary Base overrun by the Lamang Liberation Army and search for missing LAF guardsman Long Vong, who was last heard hiding in a bunker during the assault. Determine his fate and report your findings to Lab Rat.",
+    "objectives": "Search FN-3 Auxiliary Base and uncover what happened to Long Vong"
   },
   {
     "name": "Echoes of Exposure",
     "id": "echoes-of-exposure",
     "vendor": "Lab Rat",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Lab Rat wants you to investigate Phousai Village, located east of the sawmill. The LAF conducted an incomplete CBRN cleanup there and then left abruptly. Collect soil and tissue samples, swab any bodies left behind, and recover any remaining intel.",
+    "objectives": "Bring the soil samples to Lab Rat Collect soil samples from the epicenter in Phousai Village Collect soil samples from the epicenter in Phousai Village Bring the tissue samples to Lab Rat Collect samples from the corpses in Phousai Village Collect samples from the corpses in Phousai Village Bring the LAF intel to Lab Rat Collect any LAF intel in Phousai Village Collect any LAF intel in Phousai Village"
   },
   {
     "name": "Elderly Delivery",
     "id": "elderly-delivery",
     "vendor": "Lab Rat",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Outlaws have seized UNLRA supplies and are holding them in a small marketplace to the west of Nam Thaven. Secure the supplies and deliver them to an elderly couple living further west.",
+    "objectives": "Place the supplies in a box by the front door at a house south of a bridge leading from Nam Thaven to Fort Narith Pick up the UNLRA supplies from a small marketplace west of Nam Thaven Pick up the UNLRA supplies from a small marketplace west of Nam Thaven"
   },
   {
     "name": "Emergency Response",
     "id": "emergency-response",
     "vendor": "Lab Rat",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Locate an abandoned ambulance near the gas station and identify any remaining medical supplies.",
+    "objectives": "Search the ambulance for medical supplies"
   },
   {
     "name": "EOD",
     "id": "eod",
     "vendor": "Banshee",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee aims to disrupt the Cambodian group’s planned operation. Travel to the Kongthab Depot south of the sawmill, locate a case containing detonators, and deliver it to him.",
+    "objectives": "Retrieve the detonators from the Kongthab Depot and bring them to Banshee Locate the detonators Locate the detonators"
   },
   {
     "name": "Exodus",
     "id": "exodus",
     "vendor": "Lab Rat",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Scouts have reported that the village of Ban Langphou was recently abandoned under unusual circumstances. The residents appear to have left together, heading toward Ground Zero. Travel to the village, search for anything that might explain their disappearance, and report your findings to Lab Rat.",
+    "objectives": "Investigate Ban Langphou and find any clues that might explain what happened to its inhabitants Read and report the Vietnamese Report Read and report the Unnerving Note Read and report the Villager's Diary Read and report the Psychotic Note Read and report the Vietnamese Report Read and report the Unnerving Note Read and report the Villager's Diary Read and report the Psychotic Note"
   },
   {
     "name": "False Positive",
     "id": "false-positive",
     "vendor": "Lab Rat",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "A remote farmstead has gone silent, and early reports suggest possible exposure linked to Ground Zero. Travel to the site, investigate what happened, and report your findings to Lab Rat.",
+    "objectives": "Investigate Na Xieng Farms and report your findings to Lab Rat Retrieve the samples and report back to Lab Rat Collect samples from one of the villagers Collect samples from one of the villagers Retrieve the intel and report back to Lab Rat"
   },
   {
     "name": "Felony and Punishment",
@@ -241,70 +305,90 @@
     "vendor": "Banshee",
     "location": "Midnight Sapphire",
     "alternate": "The Congressman",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Recover the smartphone containing incriminating material from the Midnight Sapphire Hotel and deliver it to Banshee instead of Handshake.",
+    "objectives": "Retrieve the smartphone from the Midnight Sapphire staff room and report back to Banshee Locate the smartphone Locate the smartphone"
   },
   {
     "name": "Final Check Out",
     "id": "final-check-out",
     "vendor": "Handshake",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "A client is searching for answers about his missing wife, who vanished after staying at the Midnight Sapphire Resort. Travel to the Pha Lang Airfield checkpoint, search through abandoned luggage for a distinctive purple suitcase, and determine whether she attempted to evacuate after the Event.",
+    "objectives": "Locate and examine a purple suitcase to confirm the identity of its owner"
   },
   {
     "name": "Fire and Water",
     "id": "fire-and-water",
     "vendor": "Gunny",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Gunny has intercepted signs of a prolonged firefight northeast of the sawmill that ended abruptly and left the area silent. Travel to the site, examine the aftermath, and determine who was involved and how the battle unfolded.",
+    "objectives": "Investigate the aftermath of a firefight northeast of the sawmill Read and Report the Unknown Soldier's Notes Read and Report the LLA Chosen Propaganda Read and Report the Unknown Soldier's Notes Read and Report the LLA Chosen Propaganda"
   },
   {
     "name": "Freedom Fighter",
     "id": "freedom-fighter",
     "vendor": "Gunny",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "An American civilian who came to Lamang to join the Lamang Liberation Army has gone missing. Investigate a jungle camp south of Ban Phouphienge and determine what happened to him.",
+    "objectives": "Investigate the LLA outpost and find out what happened to Jacob Murray"
   },
   {
     "name": "Freedom for All",
     "id": "freedom-for-all",
     "vendor": "Artisan",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Deliver a package for Artisan to Ban Suk, a small village by the river. Retrieve it from your locker and place it inside a box near a house on the western outskirts of the village.",
+    "objectives": "Take the package from your locker and deliver it to a box by a house on the western outskirts of Ban Suk Investigate Ban Suk and find out what happened Read and report the LLA Recruitment Directive Read and report the LLA Recruitment Directive"
   },
   {
     "name": "From the Sky",
     "id": "from-the-sky",
     "vendor": "Gunny",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "A young female tourist went missing several days before the Event during a hot air balloon ride. Head west from Tiger Bay to find the crash site and determine what happened. Report your findings to Gunny.",
+    "objectives": "Locate the balloon crash site west of Tiger Bay and report your findings Find out what happened to the tourist - try inspecting nearby structures"
   },
   {
     "name": "Handyman",
     "id": "handyman",
     "vendor": "Artisan",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "A radio tower west of Tiger Bay has gone offline, and Artisan requires an immediate repair. Head to the site to make the necessary repairs. Bring a multitool with you.",
+    "objectives": "Locate and repair the radio tower west of Tiger Bay"
   },
   {
     "name": "Harvest Moon",
     "id": "harvest-moon",
     "vendor": "Banshee",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Satellite data suggests multiple hidden poppy fields supplying the drug operation linked to Pha Lang Airfield. Locate the suspected sites, investigate their current status, and search for documents that could reveal where the narcotics are processed and who is running the network.",
+    "objectives": "Locate and investigate all the hidden poppy fields and report your findings to Banshee Investigate the first hidden poppy field and report your findings Investigate the second hidden poppy field and report your findings Investigate the third hidden poppy field and report your findings Investigate the fourth hidden poppy field and report your findings Investigate the first hidden poppy field and report your findings Investigate the second hidden poppy field and report your findings Investigate the third hidden poppy field and report your findings Investigate the fourth hidden poppy field and report your findings"
   },
   {
     "name": "Hoarder",
     "id": "hoarder",
     "vendor": "Gunny",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Locate a prepper's stockpile of supplies on the outskirts Pha Lang and report back once the cache is secured. Locate a prepper's stockpile of supplies on the outskirts Kiu Vongsa and report back once the cache is secured. Locate a prepper's stockpile of supplies on the outskirts Nam Thaven and report back once the cache is secured.",
+    "objectives": "Locate the supplies at the prepper's house Search for the supplies elsewhere"
   },
   {
     "name": "In the Trenches",
     "id": "in-the-trenches",
     "vendor": "Turncoat",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat has identified a Lamang Liberation Army camp that has recently gone quiet under suspicious circumstances. Infiltrate the site, search for internal documents, and report any information that could reveal the group’s current activities in the region.",
+    "objectives": "Investigate the LLA camp and find any intel connected to their operations and plans Read and report the LLA Internal Comms Read and report the LLA Operational Note Read and report the LLA Strategic Directive Read and report the LLA Internal Comms Read and report the LLA Operational Note Read and report the LLA Strategic Directive"
   },
   {
     "name": "Last Farewell",
@@ -312,21 +396,27 @@
     "vendor": "Gunny",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
     "alternate": "Left Behind",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "I've got another assignment for you: Steven Clarke. He got separated from his squad during the retreat while seeking cover in a farmhouse southeast of the town's gas station. The last thing they heard on the comms was him screaming in terror and then suddenly dead silence. I need you to investigate and mark the body like before. Be extra careful on this one. I remember the guy, and he was tough as nails. No idea what happened to him to make him scream like that, so make sure the same thing doesn't happen to you. I'll provide you with a tracker right away.",
+    "objectives": "Mark the location of the body"
   },
   {
     "name": "Last Letter",
     "id": "last-letter",
     "vendor": "Artisan",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Contact has been lost with Artisan's associate, who lives on a remote farm west of Nam Thaven. Verify the individual's status and report your findings.",
+    "objectives": "Check on Artisan 's friend on a farm west of Nam Thaven Deliver the letter to a box at the front door of a farm east of Fort Narith Pick up the letter Pick up the letter"
   },
   {
     "name": "Leave No Man Behind",
     "id": "leave-no-man-behind",
     "vendor": "Gunny",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Locate a fallen contractor left behind inside the town hall. Search the area carefully and report the body's exact location.",
+    "objectives": "Search the town hall and find the missing contractor"
   },
   {
     "name": "Left Behind",
@@ -334,14 +424,18 @@
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
     "alternate": "Last Farewell",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Listen, we've got ourselves a delicate situation on our hands, and I'm counting on your discretion to handle it smoothly. You know how it goes—sometimes we face losses in the field. It's a tough reality, but we need to make sure we handle it the right way to protect our reputation and keep things running smoothly. Now, I know what Sergeant Jackson tasked you to do, and while I agree with him, we need to take a step back and consider our entire situation here. If we release info about every casualty, this could quickly become a PR nightmare, and we can kiss our bonuses goodbye, got it? So, instead of marking the body for retrieval, you're just going to confirm it's really our guy, and that's it, okay? We don't want this information to get out to the public or even spread in our ranks. It's all about maintaining our image and keeping morale up. I'm sure you understand, right?",
+    "objectives": "Confirm the identity of the body without marking it"
   },
   {
     "name": "Lethal Dose",
     "id": "lethal-dose",
     "vendor": "Lab Rat",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Two residents of Ban Mala were seen entering Ground Zero and returning shortly afterward. The hamlet has since fallen silent. Investigate the area and collect any information that could help explain what happened.",
+    "objectives": "Investigate the small hamlet west of Ban Phouphienge and find the individuals who returned from Ground Zero Retrieve the samples and report back to Lab Rat Collect samples from the first individual Collect samples from the first individual Retrieve the samples and report back to Lab Rat Collect samples from the second individual Collect samples from the second individual Retrieve the intel and report back to Lab Rat Find any intel describing what happened to the individuals Find any intel describing what happened to the individuals"
   },
   {
     "name": "Letters from Lamang",
@@ -349,77 +443,99 @@
     "vendor": "Turncoat",
     "location": "Blue Lagoon",
     "hidden_task": "Yes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "A wartime letter has surfaced suggesting that something valuable may be hidden near an old bunker, which interests Turncoat. The letter mentions a tree with strong roots as a landmark. Investigate the area, search for anything concealed nearby, and report your findings.",
+    "objectives": "Retrieve the item and report back to Turncoat Locate the item hidden among the roots of a tree behind the southernmost bunker Locate the item hidden among the roots of a tree behind the southernmost bunker"
   },
   {
     "name": "Like a Boss - Broker's M9A1",
     "id": "like-a-boss---brokers-m9a1",
     "vendor": "Gunny",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Search the premises of the Kiu Vongsa Mayor’s Mansion for a locked structure containing a briefcase. Secure it and deliver it to Gunny to gain access to a new weapon.",
+    "objectives": "Locate the locked structure on the premises of the Kiu Vongsa Mayor’s Mansion Retrieve the briefcase and report back to Gunny Secure the briefcase Secure the briefcase"
   },
   {
     "name": "Like a Boss - Buran's AK-74N",
     "id": "like-a-boss---burans-ak-74n",
     "vendor": "Turncoat",
     "location": "Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Retrieve data devices from the west and northeast Ground Zero checkpoints and secure the required encryption codes from Fort Narith headquarters. Deliver all collected materials to Turncoat to gain access to a new weapon.",
+    "objectives": "Retrieve the flash drive and report back to Turncoat Locate the flash drive at the northeast GZ checkpoint Locate the flash drive at the northeast GZ checkpoint Retrieve the flash drive and report back to Turncoat Locate the flash drive at the west GZ checkpoint Locate the flash drive at the west GZ checkpoint Retrieve the hard drive and report back to Turncoat Locate the encryption hard drive in the Fort Narith HQ operations room Locate the encryption hard drive in the Fort Narith HQ operations room"
   },
   {
     "name": "Like a Boss - Colonel's Type 51",
     "id": "like-a-boss---colonels-type-51",
     "vendor": "Artisan",
     "location": "Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Investigate the Municipal Office Building in Tiger Bay to uncover where government requisition teams were operating before the Event. Report your findings to Artisan and await further instructions. After the task is completed, you'll gain access to a new weapon.",
+    "objectives": "Investigate the Tiger Bay Municipal Office Building and find the list of locations Scout all the locations on the list Ascertain the situation in Ban Khamphet Ascertain the situation at Na Thong Farms Ascertain the situation at Bosanleng Farm Ascertain the situation in Ban Khamphet Ascertain the situation at Na Thong Farms Ascertain the situation at Bosanleng Farm Retrieve the briefcase and report back to Artisan Locate the briefcase in the Municipal Office Building Locate the briefcase in the Municipal Office Building Retrieve the briefcase and report back to Artisan Locate the briefcase in Tiger Bay Central Locate the briefcase in Tiger Bay Central"
   },
   {
     "name": "Like a Boss - Firebrand's AKS-74u",
     "id": "like-a-boss---firebrands-aks-74u",
     "vendor": "Turncoat",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Investigate Ban Nong, recently occupied by LLA forces, and search the village for any information regarding their ongoing operations in the area. Locate any relevant intel and report back to Turncoat to gain access to a new weapon",
+    "objectives": "Investigate Ban Nong and uncover information about the LLA’s operations in the area Head to Ban Suk and inspect the truck Disable the LLA repair operation at YBL-1 West"
   },
   {
     "name": "Like a Boss - Grin's 1911 C",
     "id": "like-a-boss---grins-1911-c",
     "vendor": "Vulture",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Investigate reports of Sifa Syndicate operatives exchanging coded notes within Vulture’s territory. Search Fanny Paradise and Kahok Car Repair for the messages, decipher their instructions, and follow the lead to locate a briefcase. Secure it and deliver it to Vulture to gain access to a new weapon.",
+    "objectives": "Decipher the coded messages and follow the instructions Retrieve the valuables from Kapu Boat Rental and report back to Vulture Locate the valuables mentioned in the message Locate the valuables mentioned in the message"
   },
   {
     "name": "Like a Boss - Kaptei's Glock 17",
     "id": "like-a-boss---kapteis-glock-17",
     "vendor": "Gunny",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Recover a missing laptop last seen at the Khamhao Rice Depot west of Fort Narith. Secure it and deliver it to Gunny to gain access to a new weapon.",
+    "objectives": "Investigate the Khamhao Rice Depot and try to locate the laptop Retrieve the laptop from one of the LLA camps and report back to Gunny Locate the stolen laptop Locate the stolen laptop Retrieve the hardware key from the Kongthab Depot and report back to Gunny Locate the hardware key Locate the hardware key"
   },
   {
     "name": "Like a Boss - Naga's Type 51",
     "id": "like-a-boss---nagas-type-51",
     "vendor": "Artisan",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Investigate a hidden dock north of Ban Pa and track down a briefcase that Artisan is interested in. Secure it and deliver it to her to gain access to a new weapon.",
+    "objectives": "Retrieve the briefcase and report back to Artisan Locate the briefcase Locate the briefcase"
   },
   {
     "name": "Like a Boss - Viper's 1911 C",
     "id": "like-a-boss---vipers-1911-c",
     "vendor": "Vulture",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Locate two hidden code fragments to access a locked site at Na Xieng Farms, find a briefcase inside, and deliver it to the remote hangars at Pha Lang Airfield. Secure the drop-off box using a key found in a car parked east of the airfield. Report back to Vulture to gain access to a new weapon",
+    "objectives": "Secure the drop-off box Retrieve the key from a parked car east of Pha Lang Airfield Retrieve the key from a parked car east of Pha Lang Airfield Place the briefcase inside the drop-off box at the remote hangars Retrieve the briefcase from Na Xieng Farms Retrieve the briefcase from Na Xieng Farms"
   },
   {
     "name": "Like a Boss - Yen's M700",
     "id": "like-a-boss---yens-m700",
     "vendor": "Banshee",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Reduce the hostile presence in and around Pha Lang Airfield and the sawmill to satisfy an LAF officer cooperating with Banshee. Once you're done, report back to Banshee and await further instructions. After the task is completed, you'll gain access to a new weapon.",
+    "objectives": "Eliminate hostiles for the LAF officer Eliminate 10 hostiles in and around the sawmill Eliminate 10 hostiles in and around Pha Lang Airfield Eliminate 10 hostiles in and around the sawmill Eliminate 10 hostiles in and around Pha Lang Airfield Locate the gift at the Midnight Sapphire Hotel Retrieve the gift and report back to Banshee Retrieve the gift and report back to Banshee"
   },
   {
     "name": "Livestock",
     "id": "livestock",
     "vendor": "Banshee",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee suspects that an abandoned car repair shop north of Khonwan village may be connected to a wider criminal operation that thrived before the Event. Investigate the site, search for evidence of illicit activity, and bring back any documents that could shed light on who was really using the facility and why.",
+    "objectives": "Investigate an abandoned car repair shop and try to find any evidence of human trafficking Retrieve the documents and report back to Banshee Locate any incriminating documents Locate any incriminating documents"
   },
   {
     "name": "Local Golf Star",
@@ -427,42 +543,54 @@
     "vendor": "Turncoat",
     "location": "Midnight Sapphire",
     "alternate": "Priceless Possessions",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat is interested in acquiring the golf club as well. Retrieve it and deliver it to him instead of Handshake.",
+    "objectives": "Retrieve the priceless golf club from Midnight Sapphire and report back to Turncoat Locate the golf club"
   },
   {
     "name": "Lost and Found",
     "id": "lost-and-found",
     "vendor": "Artisan",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Locate missing construction shop clerk Kanoa Sinarath, last seen during the evacuation. Search his workplace, follow any potential leads, and report your findings.",
+    "objectives": "Find Kanoa Sinarath"
   },
   {
     "name": "Medical Detective",
     "id": "medical-detective",
     "vendor": "Gunny",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Investigate the theft of medical supplies. Search the Pha Lang doctor’s office for signs of illicit sales and report your findings. If the office is locked, thoroughly search the entire building and try to find the key. Investigate the theft of medical supplies. Search the Nam Thaven doctor’s office for signs of illicit sales and report your findings. If the office is locked, thoroughly search the entire building and try to find the key. Investigate the theft of medical supplies. Search the Kiu Vongsa doctor’s office for signs of illicit sales and report your findings. If the office is locked, thoroughly search the entire building and try to find the key.",
+    "objectives": "Search for the missing supplies in the nearby town Locate any evidence that could pinpoint the culprit and report back to Gunny Locate any evidence that could pinpoint the culprit and report back to Gunny"
   },
   {
     "name": "Meds Wanted",
     "id": "meds-wanted",
     "vendor": "Lab Rat",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Locate UNLRA-marked supply tents near the town’s water tower and assess any remaining medical supplies.",
+    "objectives": "Find the UNLRA medical supplies at the town's water tower"
   },
   {
     "name": "Mire Job",
     "id": "mire-job",
     "vendor": "Handshake",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Handshake has requested assistance in relocating a package from a barrel on the riverbank south of Kiu Vongsa, near the confluence. Locate the package and deliver it to him.",
+    "objectives": "Locate a package in a barrel on the riverbank south of Kiu Vongsa, near a confluence, and bring it back to Handshake. Pick up the package Pick up the package"
   },
   {
     "name": "Missing Children",
     "id": "missing-children",
     "vendor": "Handshake",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Reports indicate that UNLRA maintained records of evacuees, including lists of minors. Proceed to the site west of Nam Thaven, locate any relevant documentation, and determine whether all children from the area were successfully evacuated. Report your findings to Handshake.",
+    "objectives": "Locate the UNLRA evac center west of Nam Thaven Search the center and report your findings Search the center and report your findings"
   },
   {
     "name": "Needle in a Jungle",
@@ -470,21 +598,26 @@
     "vendor": "Gunny",
     "location": "Lamang Island",
     "hidden_task": "Yes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "An opportunity to disrupt hostile operations has been identified. Locate the barrels mentioned in the intercepted message. Begin your search in the jungle southeast of YBL-1. Confirm both locations to Gunny.",
+    "objectives": "Locate the LLA stashes southeast of YBL-1 Locate the barrel on a farm Locate the barrel in a jungle hut Locate the barrel on a farm Locate the barrel in a jungle hut"
   },
   {
     "name": "New Neighbors",
     "id": "new-neighbors",
     "vendor": "Handshake",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Yaderny Bunker Lamang 1. An old Soviet bunker? Well, look at that, those commies really were everywhere, eh? And it sems the rebellious natives aren't so afraid of The Hole after all. Just our luck. Lamang Liberation Army. Some fucking freedom fighters starting a new revolution. Shit! I'm beginning to think this island is some kind of fucked up party where everyone's invited. We really don't have time for this crap. Hmm, but now that I think about it, there might be a way to negotiate some kind of alliance with them, or at least a non-aggression treaty, I'll think of something. In the meantime, get some rest, you did well."
   },
   {
     "name": "No Way Up",
     "id": "no-way-up",
     "vendor": "Gunny",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Gunny wants to know what happened to a missing squad that disappeared near Ban Pa. Locate any signs of the team or their helicopter and report your findings to Gunny.",
+    "objectives": "Find out what happened to the PMC Squad"
   },
   {
     "name": "Noble Powder",
@@ -492,28 +625,36 @@
     "vendor": "Banshee",
     "location": "Midnight Sapphire",
     "alternate": "Academic Interest",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Investigate the Midnight Sapphire Resort for evidence of drug trafficking tied to government involvement. Search secluded staff areas around the resort for hidden stashes and collect any proof of illicit operations for Banshee.",
+    "objectives": "Retrieve evidence of drug trade in Midnight Sapphire and report back to Banshee Locate the evidence"
   },
   {
     "name": "Ordnance Delivery",
     "id": "ordnance-delivery",
     "vendor": "Gunny",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Several scout squads on patrol need to replenish their supplies. Pick up the shipment west of Pha Lang and deliver it to them.",
+    "objectives": "Place the supplies in the first location Pick up the supplies Pick up the supplies Place the supplies in the sceond location Pick up the supplies Place the supplies in the third location Pick up the supplies"
   },
   {
     "name": "Paranoia Agent",
     "id": "paranoia-agent",
     "vendor": "Gunny",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Check on a recruited local informant on the southern outskirts of Nam Thaven who has gone silent. Verify his status, collect any usable intelligence, and report your findings.",
+    "objectives": "Search the informant's house and find out what happened to him Locate the informant's house Locate the informant's house Go to the informant's hideout and find out what happened"
   },
   {
     "name": "Plan B",
     "id": "plan-b",
     "vendor": "Handshake",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Investigate a recently reactivated depot near Fort Narith. Search the area for signs of hostile activity, gather intelligence on what is being prepared there, and report your findings to Handshake.",
+    "objectives": "Investigate the captured LAF depot and report your findings to Handshake Report the blue barrels Report the Fort Narith attack plans Report the infirmary Report the blue barrels Report the Fort Narith attack plans Report the infirmary"
   },
   {
     "name": "Priceless Possessions",
@@ -521,21 +662,27 @@
     "vendor": "Handshake",
     "location": "Midnight Sapphire",
     "alternate": "Local Golf Star",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Handshake has a client who wants a valuable golf club retrieved from the resort. Search the golf course area, find the item, and deliver it to Handshake.",
+    "objectives": "Retrieve the priceless golf club from Midnight Sapphire and report back to Handshake Locate the golf club"
   },
   {
     "name": "Questionable Shipment",
     "id": "questionable-shipment",
     "vendor": "Gunny",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Investigate a truck ambushed by the LAF and identify its cargo. Report your findings to Gunny and await further instructions.",
+    "objectives": "Investigate the truck ambushed by the LAF Follow the main road and find the origin of the shipment"
   },
   {
     "name": "Revolutionary Road",
     "id": "revolutionary-road",
     "vendor": "Handshake",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Reports indicate that the LLA are dispersing and are likely operating from a temporary base near the main road between Nam Thaven and Fort Narith. Search the suspected base, recover any actionable intel, and report back to Handshake.",
+    "objectives": "Search the station and report your findings Locate the notes Locate the laptop Locate the notes Locate the laptop"
   },
   {
     "name": "Sanctioned Exploitation",
@@ -543,49 +690,63 @@
     "vendor": "Banshee",
     "location": "Tiger Bay",
     "alternate": "N/A",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "A Lamtel office located south of the mall in Tiger Bay has been linked to multiple digital fraud cases. Your task is to get inside, find a functioning terminal, and pull whatever records you can. While you're in there, keep your eyes open for anything that feels off, and find out what was really happening there. — Banshee — Banshee",
+    "objectives": "Gain access to terminal in the Lamtel Offices in Tiger Bay Investigate the offices and report anything unusual Inspect the employee notice board Locate the workers living quarters Retrieve the backup drive and report back to Banshee Access the server room and secure the backup drive"
   },
   {
     "name": "Secret Compassion",
     "id": "secret-compassion",
     "vendor": "Artisan",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Recover two supply boxes from a hidden military truck outside the town, one with medicine and one with food, and deliver them to local families.",
+    "objectives": "Ensure your survival Place the medical supplies in a box by the front door at a house nearby Pha Lang Pick up the medical supplies next to the truck Place the food supplies in a box by the front door at a house nearby Pha Lang Pick up the food supplies next to the truck Ensure your survival Place the medical supplies in a box by the front door at a house nearby Pha Lang Pick up the medical supplies next to the truck Pick up the medical supplies next to the truck Place the food supplies in a box by the front door at a house nearby Pha Lang Pick up the food supplies next to the truck Pick up the food supplies next to the truck Ensure your survival Place the medical supplies in a box by the front door of a house nearby Nam Thaven Pick up the medical supplies next to the truck Place the food supplies in a box by the front door of a house nearby Nam Thaven Pick up the food supplies next to the truck Place the medical supplies in a box by the front door of a house nearby Nam Thaven Pick up the medical supplies next to the truck Place the food supplies in a box by the front door of a house nearby Nam Thaven Pick up the food supplies next to the truck Ensure your survival Place the medical supplies in a box by the front door at a house nearby Kiu Vongsa Pick up the medical supplies next to the truck Place the food supplies in a box by the front door at a house nearby Kiu Vongsa Pick up the food supplies next to the truck Place the medical supplies in a box by the front door at a house nearby Kiu Vongsa Pick up the medical supplies next to the truck Place the food supplies in a box by the front door at a house nearby Kiu Vongsa Pick up the food supplies next to the truck"
   },
   {
     "name": "Silent Village",
     "id": "silent-village",
     "vendor": "Artisan",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Contact with Ban Khantao, a village located southwest of Kiu Vongsa near the sawmill, has been lost. Travel to the village, investigate the situation, and determine what happened to its inhabitants. Begin your search along the main road, and report your findings to Artisan.",
+    "objectives": "Investigate Ban Khantao and find out what happened Search the southern trail leading to the river Locate a mass grave and report your findings"
   },
   {
     "name": "So Close",
     "id": "so-close",
     "vendor": "Lab Rat",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Lab Rat has requested assistance in locating Neil Osprey, a renowned astrophysicist recruited by the UNLRA. He was last heard from during the evacuation. Trace the UNLRA convoy, investigate what happened en route, and determine Osprey’s fate.",
+    "objectives": "Find out what happened to Neil Osprey between Nam Thaven and Tiger Bay Retrieve the laptop and report back to Lab Rat"
   },
   {
     "name": "Street Spotter",
     "id": "street-spotter",
     "vendor": "Gunny",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Search the main street west of the marketplace for Tyron Williams. Investigate his last known position and report any findings.",
+    "objectives": "Find out what happened to Tyron Williams"
   },
   {
     "name": "Sunken Bird",
     "id": "sunken-bird",
     "vendor": "Gunny",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "An LAF transport helicopter crashed in the swamps southeast of Fort Narith. Investigate the site, report your findings to Gunny, and await further instructions.",
+    "objectives": "Locate the downed LAF helicopter Locate the cargo from the helicopter"
   },
   {
     "name": "Sunny Skies",
     "id": "sunny-skies",
     "vendor": "Banshee",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Sunny Skies Guest House has been linked to multiple missing persons cases spanning several years, including some that occurred just before the Event. Head west of Pha Lang Airfield and locate the guest house. Search it thoroughly for any evidence of what happened. Report your findings to Banshee.",
+    "objectives": "Investigate the Sunny Skies Guest House and report your findings to Banshee Find out what happened to the bodies"
   },
   {
     "name": "The Congressman",
@@ -593,7 +754,9 @@
     "vendor": "Handshake",
     "location": "Midnight Sapphire",
     "alternate": "Felony and Punishment",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Search a second-floor room at the Midnight Sapphire Hotel for a client’s missing smartphone before its contents fall into the wrong hands. Recover the device and deliver it to Handshake.",
+    "objectives": "Retrieve the smartphone from the Midnight Sapphire staff room and report back to Handshake Locate the smartphone Locate the smartphone"
   },
   {
     "name": "The Last Broadcast",
@@ -601,21 +764,26 @@
     "vendor": "Lab Rat",
     "location": "Ban Pa",
     "hidden_task": "Yes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "A mysterious signal is interfering with the broadcasts. Go to the Siang Radio Station, locate the source of the transmission, and report your findings to Lab Rat.",
+    "objectives": "Locate the Source of the broadcast at the Siang Radio Station Retrieve the backend transmission data and report back to Lab Rat Access the server room and locate the backend data storage device Access the server room and locate the backend data storage device"
   },
   {
     "name": "The Lull",
     "id": "the-lull",
     "vendor": "Gunny",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Investigate reports of armed individuals pursuing an unknown target in the jungle to the southwest of Hunter’s Paradise. Identify who is involved. Proceed with caution, avoid unnecessary engagement, and report your findings to Gunny."
   },
   {
     "name": "The Stand",
     "id": "the-stand",
     "vendor": "Gunny",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "A squad monitoring enemy activity went dark west of Pha Lang Airfield. Investigate what happened and report their status to Gunny.",
+    "objectives": "Find out what happened to the PMC squad Locate a missing squad member Locate a missing squad member Locate a missing squad member Locate a missing squad member Locate a missing squad member"
   },
   {
     "name": "Too Close to the Sun",
@@ -623,35 +791,45 @@
     "vendor": "Lab Rat",
     "location": "Pha Lang Airfield",
     "alternate": "What Comes Up",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Retrieve the flight recorder and deliver it directly to Lab Rat instead of Handshake. Keep the transfer quiet, secure the device intact, and bring it back so she can analyze the data on-site.",
+    "objectives": "Retrieve the flight recorder and report back to Lab Rat"
   },
   {
     "name": "Tools of the Trade",
     "id": "tools-of-the-trade",
     "vendor": "Artisan",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Retrieve the tools stored in a warehouse on the edge of Nam Thaven and deliver them to Artisan.",
+    "objectives": "Retrieve the tools and report back to Artisan Pick up the tools Pick up the tools"
   },
   {
     "name": "True Grit",
     "id": "true-grit",
     "vendor": "Handshake",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "A client claims to have lost a valuable revolver near Sunset Chalet. Search the area for a wooden case containing the gun, recover it, and deliver it to Handshake.",
+    "objectives": "Retrieve the antique revolver and report back to Handshake Locate the antique revolver Locate the antique revolver"
   },
   {
     "name": "Unattainable Luxury",
     "id": "unattainable-luxury",
     "vendor": "Handshake",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Handshake has learned that a businessman hid valuable contraband in his abandoned villa south of Pha Lang. Go to the villa, search the premises thoroughly, and determine where the goods are hidden.",
+    "objectives": "Search the villa and report your findings Locate the diary Locate the computer Locate the diary Locate the computer Locate the UNLRA meeting point and find out what happened to the merchandise"
   },
   {
     "name": "Unprotected",
     "id": "unprotected",
     "vendor": "Lab Rat",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Medical supplies are dwindling and Lab Rat wants to do something about it. Intelligence indicates that the UNLRA abandoned substantial supplies during the evacuation. Proceed to the UNLRA checkpoint west of Pha Lang, thoroughly search the area, and report all usable medical materials.",
+    "objectives": "Locate and search the UNLRA checkpoint Locate and search then UNLRA checklpoint east of Nam Thaven Locate and search the UNLRA checkpoint southwest of Kiu Vongsa"
   },
   {
     "name": "Unresponsive",
@@ -659,14 +837,18 @@
     "vendor": "Gunny",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
     "hidden_task": "Yes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Check on a patrol that has gone radio silent on the road to the nearest town. Begin your search at the villa across from the Base Camp and report any findings.",
+    "objectives": "Investigate why the squad guarding the road to the city isn't responding= Inspect the checkpoint on the road to the town Locate the two missing contractors Determine the status of the nearby COP"
   },
   {
     "name": "Up the Stream",
     "id": "up-the-stream",
     "vendor": "Lab Rat",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Lab Rat wants you to investigate the river near the sawmill for signs of contamination or other irregularities. Determine whether the river could be the source of the \"strange disease\" and report your findings.",
+    "objectives": "Check the source of the contamination"
   },
   {
     "name": "Up to Snuff",
@@ -674,7 +856,9 @@
     "vendor": "Handshake",
     "location": "Hunter's Paradise",
     "alternate": "A Shot in the Dark",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Investigate Hunter’s Paradise for records tied to its VIP program and identify the people involved. Search the area around the main entrance gate for a client list and bring it back to Handshake for review.",
+    "objectives": "Retrieve the VIP program client list from Hunter's Paradise and report back to Handshake Locate the client list Locate the client list"
   },
   {
     "name": "What Comes Up",
@@ -682,13 +866,17 @@
     "vendor": "Handshake",
     "location": "Pha Lang Airfield",
     "alternate": "Too Close to the Sun",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Search for the wreckage of a crashed sightseeing aircraft near Pha Lang Airfield and recover its black box before it falls into hostile hands. Focus your search southeast of the runway along the aircraft’s likely return route from Ground Zero, then deliver the recorder to Handshake.",
+    "objectives": "Retrieve the flight recorder and report back to Handshake"
   },
   {
     "name": "When a Tree Falls",
     "id": "when-a-tree-falls",
     "vendor": "Artisan",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Malo Kethavongsa, an employee of the Tonmai Hainy Lumber Company, disappeared amid the chaos of the evacuation. Investigate what happened to him and report your findings to Artisan.",
+    "objectives": "Search the logging site on the road south of the sawmill and uncover what happened to Malo Kethavongsa"
   }
 ]

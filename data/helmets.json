@@ -213,6 +213,18 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/FAST_XP_HC_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260523040642"
   },
   {
+    "name": "FAST XP HC (Olive)",
+    "id": "fast-xp-hc-olive",
+    "weight": "1.250kg",
+    "grid_size": "2x2",
+    "sold_by": "Looting",
+    "material": "UHMWPE",
+    "nij_class": "IIIA",
+    "rain_protection": "+30%",
+    "manufacturer": "Ops-Core",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/FAST_XP_HC_%28Olive%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260523041219"
+  },
+  {
     "name": "Headscarf (Black)",
     "id": "headscarf-black",
     "weight": "0.060kg",
@@ -250,6 +262,28 @@
     "nij_class": "IIA+",
     "manufacturer": "Armokom",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/LShZ%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509005713"
+  },
+  {
+    "name": "M1 (Ace of Hearts)",
+    "id": "m1-ace-of-hearts",
+    "weight": "1.430kg",
+    "grid_size": "2x2",
+    "sold_by": "Twitch Drop",
+    "material": "Steel",
+    "nij_class": "I",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/M1_%28Ace_of_Hearts%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260704033323"
+  },
+  {
+    "name": "M1 (Ace of Spades)",
+    "id": "m1-ace-of-spades",
+    "weight": "1.430kg",
+    "grid_size": "2x2",
+    "sold_by": "Twitch Drop",
+    "material": "Steel",
+    "nij_class": "I",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d5/M1_%28Ace_of_Spades%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260705045633"
   },
   {
     "name": "MICH LC",

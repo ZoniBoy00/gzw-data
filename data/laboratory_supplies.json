@@ -38,6 +38,16 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/Industrial_Solvent_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331081657"
   },
   {
+    "name": "Mercenary Delivery Service III",
+    "id": "mercenary-delivery-service-iii",
+    "type": "Laboratory Supplies",
+    "weight": "11.50kg",
+    "grid_size": "2x4",
+    "manufacturer": "General Local",
+    "sell_price": "$56$",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Acetylene_Cylinder_Inspect.png/revision/latest?cb=20260523030118"
+  },
+  {
     "name": "Sulfuric Acid",
     "id": "sulfuric-acid",
     "type": "Laboratory Supplies",

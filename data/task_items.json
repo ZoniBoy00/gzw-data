@@ -639,6 +639,13 @@
     "grid_size": "1x1"
   },
   {
+    "name": "VIP Client List",
+    "id": "vip-client-list",
+    "weight": "0.1kgkg",
+    "grid_size": "1x1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/VIP_Client_List_inspect.png/revision/latest/scale-to-width-down/268?cb=20260509041405"
+  },
+  {
     "name": "VIP Program Info",
     "id": "vip-program-info",
     "weight": "?kg",

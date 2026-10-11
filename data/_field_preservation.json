@@ -115,5 +115,9 @@
   "main_task.json": {},
   "side_task.json": {},
   "upcoming_content.json": {},
-  "removed_content.json": {}
+  "removed_content.json": {},
+  "factions.json": {},
+  "regions.json": {},
+  "newspapers.json": {},
+  "bosses.json": {}
 }

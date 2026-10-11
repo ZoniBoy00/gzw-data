@@ -12,6 +12,19 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Charcoal_inspect.png/revision/latest?cb=20250502211847"
   },
   {
+    "name": "Advanced Flexible Splint",
+    "id": "advanced-flexible-splint",
+    "type": "Splint",
+    "weight": "0.130kg",
+    "sold_by": "Lab Rat R.4",
+    "grid_size": "1x1",
+    "charges": "6",
+    "effect": "Removes Fracture",
+    "use_time": "8 s",
+    "manufacturer": "Henderson",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/AdvFlexSplint.png/revision/latest?cb=20260408101540"
+  },
+  {
     "name": "ARF Trauma Bandage 4",
     "id": "arf-trauma-bandage-4",
     "type": "Bandage",

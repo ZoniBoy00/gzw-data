@@ -1,184 +1,262 @@
 [
   {
+    "name": "Bad Idea",
+    "id": "bad-idea",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Handshake convinced an LAF soldier to hand over valuable intel, but it was hidden in hard-to-reach places. Find both briefcases, leave on at the drop-off location, and deliver the other to Handshake."
+  },
+  {
     "name": "Breadcrumbs",
     "id": "breadcrumbs",
     "vendor": "Gunny",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Gunny received information about unknown PMCs seen sweeping houses near Ground Zero. Investigate the area and check the marked locations to determine what they were doing.",
+    "objectives": "Investigate the first house for clues Investigate the second house for clues Investigate the logging shed for clues"
   },
   {
     "name": "Cache Report",
     "id": "cache-report",
     "vendor": "Gunny",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Several previously established ammo caches may still be intact. Check the marked locations, confirm their status, and report to Gunny on whether the supplies are recoverable. Additional cache locations will be provided as you proceed.",
+    "objectives": "Locate the cache and report back to Gunny"
   },
   {
     "name": "Cache Report III",
     "id": "cache-report-iii",
     "vendor": "Gunny",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Several previously established ammo caches may still be intact. Check the marked locations, confirm their status, and report to Gunny on whether the supplies are recoverable. Additional cache locations will be provided as you proceed.",
+    "objectives": "Locate the cache and report back to Gunny"
   },
   {
     "name": "Cache Report IV",
     "id": "cache-report-iv",
     "vendor": "Gunny",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Several previously established ammo caches may still be intact. Check the marked locations, confirm their status, and report to Gunny on whether the supplies are recoverable. Additional cache locations will be provided as you proceed.",
+    "objectives": "Locate the cache and report back to Gunny"
   },
   {
     "name": "Cache Report V",
     "id": "cache-report-v",
     "vendor": "Gunny",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Several previously established ammo caches may still be intact. Check the marked locations, confirm their status, and report to Gunny on whether the supplies are recoverable. Additional cache locations will be provided as you proceed.",
+    "objectives": "Locate the cache and report back to Gunny"
   },
   {
     "name": "Cache Report VI",
     "id": "cache-report-vi",
     "vendor": "Gunny",
     "location": "South east of Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Several previously established ammo caches may still be intact. Check the marked locations, confirm their status, and report to Gunny on whether the supplies are recoverable. Additional cache locations will be provided as you proceed.",
+    "objectives": "Locate the First cache and report back to Gunny Locate the Second cache and report back to Gunny Locate the Third cache and report back to Gunny Locate the Fourth cache and report back to Gunny"
   },
   {
     "name": "Cache Report VII",
     "id": "cache-report-vii",
     "vendor": "Gunny",
     "location": "Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Several previously established ammo caches may still be intact. Check the marked locations, confirm their status, and report to Gunny on whether the supplies are recoverable. Additional cache locations will be provided as you proceed.",
+    "objectives": "Locate the cache and report back to Gunny"
   },
   {
     "name": "Cache Report VIII",
     "id": "cache-report-viii",
     "vendor": "Gunny",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Several previously established ammo caches may still be intact. Check the marked locations, confirm their status, and report to Gunny on whether the supplies are recoverable. Additional cache locations will be provided as you proceed.",
+    "objectives": "Locate the cache and report back to Gunny"
   },
   {
     "name": "Combat Sweep II",
     "id": "combat-sweep-ii",
     "vendor": "Handshake",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Hostile forces are disrupting Handshake's operations in the designated area. Conduct a rapid patrol of the marked locations where hostile activity has been observed, and eliminate any armed threats you encounter.",
+    "objectives": "Recon the farm Recon the shelter Recon the shelter near a pond"
   },
   {
     "name": "Combat Sweep V",
     "id": "combat-sweep-v",
     "vendor": "Handshake",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Hostile forces are disrupting Handshake's operations in the designated area. Conduct a rapid patrol of the marked locations where hostile activity has been observed, and eliminate any armed threats you encounter.",
+    "objectives": "Recon the car repair shop Recon the area around the house Recon the roadside market"
   },
   {
     "name": "Combat Sweep VII",
     "id": "combat-sweep-vii",
     "vendor": "Handshake",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Hostile forces are disrupting Handshake's operations in the designated area. Conduct a rapid patrol of the marked locations where hostile activity has been observed, and eliminate any armed threats you encounter.",
+    "objectives": "Recon the house Recon the roadside shelter"
+  },
+  {
+    "name": "Deep Waters",
+    "id": "deep-waters",
+    "vendor": "Artisan",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Artisan considers the leader of the armed group occupying the Blue Lagoon an unforgivable criminal. Neutralize the target. You can find him at one of the marked locations.",
+    "objectives": "Eliminate the leader of the hostile group occupying Blue Lagoon"
   },
   {
     "name": "Escort II",
     "id": "escort-ii",
     "vendor": "Lab Rat",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "A local woman assisting Lab Rat needs help getting home safely. Locate her and assess the situation.",
+    "objectives": "Meet the woman at the designated location Look for the woman and report what happened"
   },
   {
     "name": "Fuel Shortage",
     "id": "fuel-shortage",
     "vendor": "Gunny",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Securing sufficient fuel is critical. A tanker truck appears to have been abandoned on the road south of the sawmill. Inspect the vehicle and report your findings to Gunny.",
+    "objectives": "Check the fuel levels in the tanker truck on the road south of the sawmill"
   },
   {
     "name": "Muddy Buddy",
     "id": "muddy-buddy",
     "vendor": "Handshake",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Handshake's friend left a package for him in a barrel south of Pha Lang, near a confluence. Locate the package and deliver it to him.",
+    "objectives": "Locate the package in a barrel on the riverbank south of Pha Lang, downstream from a confluence, and bring it back to Handshake Pick up the package Pick up the package"
   },
   {
     "name": "Nicked Shipment",
     "id": "nicked-shipment",
     "vendor": "Gunny",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Gunny needs to look into the theft of a large supply shipment. Proceed to the location marked on your tactical map, determine what happened, and report your findings.",
+    "objectives": "Find out what happened to the stolen shipment Find the boxes next to a house Find an empty house Find the boxes behind a fence Find the boxes next to a house Find an empty house Find the boxes behind a fence Locate the second tracker further along the road"
   },
   {
     "name": "Repossession",
     "id": "repossession",
     "vendor": "Turncoat",
     "location": "Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
+    "objectives": "Store the valuable item under a storage shed near the Xiong Family Farm Search the house in Savanpha village and retrieve the valuable item Search the house in Savanpha village and retrieve the valuable item"
   },
   {
     "name": "Repossession III",
     "id": "repossession-iii",
     "vendor": "Turncoat",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
+    "objectives": "Store the item inside an empty jug at Inthavong Farm. Search the mansion north of Kiu Vongsa and retrieve the valuable item Search the mansion north of Kiu Vongsa and retrieve the valuable item"
   },
   {
     "name": "Repossession IV",
     "id": "repossession-iv",
     "vendor": "Turncoat",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
+    "objectives": "Store the package at a shelter south of Gas Station in Namhou Village Search the houses in Namhou Village and retrieve the package Search the houses in Namhou Village and retrieve the package"
   },
   {
     "name": "Repossession IX",
     "id": "repossession-ix",
     "vendor": "Turncoat",
     "location": "Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
+    "objectives": "Store the package inside a cooler at a farmhouse southwest of the pond Search the house next to a pond at the southeast end of Tiger Bay and retrieve the package Search the house next to a pond at the southeast end of Tiger Bay and retrieve the package"
   },
   {
     "name": "Repossession V",
     "id": "repossession-v",
     "vendor": "Turncoat",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
+    "objectives": "Store the package in a shelter south of Fanny Paradise Search the restaurant near Fanny Paradise and retrieve the package Search the restaurant near Fanny Paradise and retrieve the package"
   },
   {
     "name": "Repossession VI",
     "id": "repossession-vi",
     "vendor": "Turncoat",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
+    "objectives": "Store the package in a shed south of the camp Search the lookout tower at the Dongphou Hiking Camp and retrieve the package Search the lookout tower at the Dongphou Hiking Camp and retrieve the package"
   },
   {
     "name": "Repossession VII",
     "id": "repossession-vii",
     "vendor": "Turncoat",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
+    "objectives": "Store the package inside an empty jug at a shelter southeast of the farm Search underneath the house at Phon Chai Farm and retrieve the package Search underneath the house at Phon Chai Farm and retrieve the package"
   },
   {
     "name": "Repossession VIII",
     "id": "repossession-viii",
     "vendor": "Turncoat",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
+    "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
+    "objectives": "Store the package in a shelter northeast of the restaurant Search the Phouarun Restaurant and retrieve the package Search the Phouarun Restaurant and retrieve the package"
   },
   {
     "name": "Restoring Order",
     "id": "restoring-order",
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Eliminate the local criminal cell operating in the town. Execute a precision strike on their known positions, neutralize hostile threats, and secure the area.",
+    "objectives": "Neutralize 10 enemies in the nearby town."
+  },
+  {
+    "name": "The Ban Pa Horror",
+    "id": "the-ban-pa-horror",
+    "vendor": "Handshake",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Investigate the area around Ban PA for any signs of past cult activity and locate a possible house of prayer or sacred site. Recover any relevant intel and deliver it to Handshake.",
+    "objectives": "Bring the intel from the Ban Pa House of Prayer to Handshake/Artisan. Find intel regarding the Ban Pa cult. Locate the Bizarre Statue."
   },
   {
     "name": "The Liberator",
     "id": "the-liberator",
     "vendor": "Handshake",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Scouts have identified a potential communications hub. Investigate the site and report your findings to Handshake.",
+    "objectives": "Investigate a potential hidden communications hub northwest of Ban Pa"
   },
   {
     "name": "Unstable Meeting",
     "id": "unstable-meeting",
     "vendor": "Banshee",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee has a bad feeling about an upcoming meeting with a contact. Go in his place and meet them near the unstable bridge northeast of Nam Thaven.",
+    "objectives": "Go to the small bridge northeast of Nam Thaven to meet the contact"
   }
 ]

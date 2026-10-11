@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-11T14:34:50.522817Z",
+  "generatedAt": "2026-10-11T15:32:04.136433Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -20,8 +20,8 @@
     },
     "backpacks": {
       "file": "backpacks.json",
-      "records": 16,
-      "sha256": "2a9e32035644faef776ccb8eb076b333af37903a57a0e707ee6928cb0468b48e"
+      "records": 17,
+      "sha256": "7550888f010cdbe4682dc8bf028702e7960332bb3ec35cca1347e917dc2d5658"
     },
     "barrels": {
       "file": "barrels.json",
@@ -30,8 +30,8 @@
     },
     "belts": {
       "file": "belts.json",
-      "records": 8,
-      "sha256": "b2a2b6b1cbb5638afe8f619827680c4366b2910b3ac6465bbd769e0c8aa8e9f0"
+      "records": 9,
+      "sha256": "d2e5eae250ca4fcfda81f157fb3727a096cfd8cefba3cf81fc703815521d9845"
     },
     "binoculars": {
       "file": "binoculars.json",
@@ -42,6 +42,11 @@
       "file": "boots.json",
       "records": 6,
       "sha256": "92be981d04d562750e002364e7a4fa08aaa39e9e64c2080e5e9f71cd568b8c6c"
+    },
+    "bosses": {
+      "file": "bosses.json",
+      "records": 8,
+      "sha256": "aa16f32072ad600ae839336d28b11cc09f15a8b0155093efbfa8f72cd5804b3f"
     },
     "buffer_tubes": {
       "file": "buffer_tubes.json",
@@ -70,8 +75,8 @@
     },
     "contract": {
       "file": "contract.json",
-      "records": 26,
-      "sha256": "18629f6730b51800d371491fdbb79d0ecaf466aa6cfd4cb0f8d1852827b28a69"
+      "records": 29,
+      "sha256": "143bdc33b95b600b208e521172b9e888f430aa3e3952dbb77f55f92018e4eaa4"
     },
     "contracts": {
       "file": "contracts.json",
@@ -92,6 +97,11 @@
       "file": "face_cover.json",
       "records": 4,
       "sha256": "260c48954bb944806703dada60f9f80eb99edc3b1451c4eaa097d752d72f7f6f"
+    },
+    "factions": {
+      "file": "factions.json",
+      "records": 6,
+      "sha256": "18ecb75d0c49c6804ae13d9478377883b9a7364734f88ddb11fbf3ffa05b747b"
     },
     "food": {
       "file": "food.json",
@@ -150,8 +160,8 @@
     },
     "helmets": {
       "file": "helmets.json",
-      "records": 41,
-      "sha256": "37fa4c7a2ec7b7f47e8b9ebc179db65309847356c19a18377eb5e1005d6e41d8"
+      "records": 44,
+      "sha256": "bec95a7d4c90b6a1ea843ef7b59c45874464f8fabfd0762c250324100b7595bb"
     },
     "hidden_task": {
       "file": "hidden_task.json",
@@ -165,8 +175,8 @@
     },
     "intels": {
       "file": "intels.json",
-      "records": 5,
-      "sha256": "f98b7cb7eed3321a83a67f6d5995ddbc0477edea847545e7ca4111a190d2ffb6"
+      "records": 6,
+      "sha256": "8ed73bbd990d678e4b7b02904e246a0f83f9dfe3633d6f86b2757b2a7d9aeee1"
     },
     "items": {
       "file": "items.json",
@@ -190,8 +200,8 @@
     },
     "laboratory_supplies": {
       "file": "laboratory_supplies.json",
-      "records": 9,
-      "sha256": "2e9698ebcdfb85dfbb312d665aa6f80f33333edc1e031cdf52c2ebd2f6522acf"
+      "records": 10,
+      "sha256": "51a266993098333b8a30f52a166d408d898990e16eaf9ed4fb35a0583fecb2ba"
     },
     "lockboxes": {
       "file": "lockboxes.json",
@@ -221,12 +231,12 @@
     "main_task": {
       "file": "main_task.json",
       "records": 26,
-      "sha256": "405d019d563141dcb13f9687523a8e55c038da4f5233e4c5cf13b1cc87ea0a1f"
+      "sha256": "1ab7fd5499db5927fe7c6cc0c4fb0b791f270659f2034bd9295a8abd24139c47"
     },
     "medical": {
       "file": "medical.json",
-      "records": 34,
-      "sha256": "4d907d916f7c97c6408e3e5170ab4f4e072518b68cbf7caabdc991299ff6feee"
+      "records": 35,
+      "sha256": "a173757999793545d0d08c469319bdefe7fc668770d061f103b9e02376f97262"
     },
     "military_equipment": {
       "file": "military_equipment.json",
@@ -253,6 +263,11 @@
       "records": 45,
       "sha256": "e226e484b4bb6c871e6b837f3c4a8047e6a9580f9b44f76e5f14b555e9126986"
     },
+    "newspapers": {
+      "file": "newspapers.json",
+      "records": 43,
+      "sha256": "ec0cb3d3c2dfa55ceebd5009aff112e4df0c614de2fa55049c1d3037528c533f"
+    },
     "night_vision": {
       "file": "night_vision.json",
       "records": 5,
@@ -270,8 +285,8 @@
     },
     "plate_carriers": {
       "file": "plate_carriers.json",
-      "records": 17,
-      "sha256": "9626005d38e82dfd167b7b80a639ce72d28c8e4de137d108d387fd70540b5c90"
+      "records": 18,
+      "sha256": "b3276d53bb444f3829dcb158683c7c7e6d6a094bb677b629ef16359cfcdb8446"
     },
     "provisions": {
       "file": "provisions.json",
@@ -280,13 +295,18 @@
     },
     "reading_intel": {
       "file": "reading_intel.json",
-      "records": 1,
-      "sha256": "572606b4dc8b7a9e7fb26af51cc872756573f578d25825be6d67233f7c069fdf"
+      "records": 2,
+      "sha256": "7792cedf99e29024a596e6c04b759e67fe1de2603940fbe48b673a9480616b79"
     },
     "rear_iron_sights": {
       "file": "rear_iron_sights.json",
       "records": 20,
       "sha256": "ad44bf7d0ccae27c33321a9c666f068f80c356775608b79ac972f1cff52876d5"
+    },
+    "regions": {
+      "file": "regions.json",
+      "records": 12,
+      "sha256": "1e17b93c83df136166de567734102e3f5000161729dd60880679c16380605d18"
     },
     "removed_content": {
       "file": "removed_content.json",
@@ -305,8 +325,8 @@
     },
     "scopes": {
       "file": "scopes.json",
-      "records": 11,
-      "sha256": "a4fe2fb6b6516aeba798295db2ee1c366a56fd5ff0ab3368223ed00f9f055862"
+      "records": 12,
+      "sha256": "711976edbdbeb53d70eba062ba7686d605efef3aba12f8148880860bb742e5f4"
     },
     "shirts": {
       "file": "shirts.json",
@@ -316,7 +336,7 @@
     "side_task": {
       "file": "side_task.json",
       "records": 96,
-      "sha256": "5dd8156b26c819cb5fb384248275088c29f77aeb8d1aa1152b96843db034f6de"
+      "sha256": "7c4afe1fad0d354821d14afd135b70440ea7f5d6cf3cdcfc052fb7704a020a96"
     },
     "slides": {
       "file": "slides.json",
@@ -350,18 +370,18 @@
     },
     "tactical_devices": {
       "file": "tactical_devices.json",
-      "records": 11,
-      "sha256": "f268a0166e16848fdf6d87688e41f5af1324c2d1f13602cf9e18e55e5241c303"
+      "records": 12,
+      "sha256": "3974817487d5a4b7719af65b9337579ff95d88dd72139c4a4f6793eb602db0ff"
     },
     "task_items": {
       "file": "task_items.json",
-      "records": 101,
-      "sha256": "48015d320a705fd7a75ddb9d1bc381865cded5e546582273dc3487c3e48b0767"
+      "records": 102,
+      "sha256": "b2113934541d325508fe4c664a939a47548e05707e26b15a207fe8fba327612d"
     },
     "tasks": {
       "file": "tasks.json",
-      "records": 249,
-      "sha256": "d85d62e0969761b9b0fc27f12348df29cd315eced7a3661cc2c560a417231fff"
+      "records": 250,
+      "sha256": "e5ba3482b1ec2c44d3b617fefe396bccb8553f7492640aa6408d7b9967a46f08"
     },
     "throwables": {
       "file": "throwables.json",
@@ -380,8 +400,8 @@
     },
     "upcoming_content": {
       "file": "upcoming_content.json",
-      "records": 11,
-      "sha256": "60ed8f1d08d576247a19db012178f40de06bcbd9c5d2f2bad2ff166c840aa1be"
+      "records": 12,
+      "sha256": "13d3946171cb78d7d1fa68799de36c87019c7a8192ec01cd3f51efca83360462"
     },
     "upper_receivers": {
       "file": "upper_receivers.json",

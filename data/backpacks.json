@@ -141,6 +141,17 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Scorpion_icon.png/revision/latest?cb=20250622125342"
   },
   {
+    "name": "Scorpion OCP Convoy Pack (Multicam)",
+    "id": "scorpion-ocp-convoy-pack-multicam",
+    "type": "Backpack",
+    "weight": "1.360kg",
+    "grid_size": "4x4",
+    "sold_by": "Handshake R.3",
+    "slots": "16",
+    "manufacturer": "Condor Outdoor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Scorpion_OCP_Convoy_Pack_Multicam.png/revision/latest/scale-to-width-down/268?cb=20260629201005"
+  },
+  {
     "name": "Small Tourist Backpack",
     "id": "small-tourist-backpack",
     "type": "Backpack",

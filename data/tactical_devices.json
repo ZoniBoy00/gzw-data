@@ -11,6 +11,17 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/ADE_Laser_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530015732"
   },
   {
+    "name": "DBAL-I2",
+    "id": "dbal-i2",
+    "type": "Tactical Device",
+    "weight": "0.227 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$900",
+    "manufacturer": "Steiner",
+    "modes": "Red Laser IR Laser",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/DBAL-I2.png/revision/latest/scale-to-width-down/268?cb=20260513195512"
+  },
+  {
     "name": "NcStar Compact Green Laser",
     "id": "ncstar-compact-green-laser",
     "type": "Tactical Device",

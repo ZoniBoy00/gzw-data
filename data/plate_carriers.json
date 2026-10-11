@@ -107,6 +107,21 @@
     "armor_locations": "Front, back"
   },
   {
+    "name": "LCS Sentry (UNLRA)",
+    "id": "lcs-sentry-unlra",
+    "type": "Plate Carrier",
+    "weight": "4.700kg",
+    "grid_size": "3x3",
+    "sold_by": "Looting",
+    "slots": "8",
+    "inventory": "4x2",
+    "material": "UHMWPE",
+    "nij_class": "III",
+    "armor_locations": "Front, Back",
+    "manufacturer": "Condor Outdoor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/LCS_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618162902"
+  },
+  {
     "name": "M2 Plate Carrier",
     "id": "m2-plate-carrier",
     "weight": "7.640 kg",

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Ban Pa",
+    "id": "ban-pa",
+    "tier": "2",
+    "locals_type": "Rebels",
+    "lz_callsign": "INDIA,OSCAR",
+    "description": "Ban Pa is a region located in the east of Lamang island . Its main point of interest is the Ban Pa village, situated along the coast in the south-eastern part of the region. Ban Pa territory is controlled by the Naga Pirates , a pirate group from Malaysia who take their name from their leader: Naga .",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Ban_Pa_Elder%27s_House_Key_icon.png/revision/latest?cb=20260524185105"
+  },
+  {
+    "name": "Blue Lagoon",
+    "id": "blue-lagoon",
+    "tier": "2",
+    "locals_type": "Rebels",
+    "lz_callsign": "JULIETT,KILO,NOVEMBER",
+    "description": "Blue Lagoon region is located in the southeast of Lamang island . Its main point of interest is the Blue Lagoon tourism center, combining a water park and a campground. Blue Lagoon territory is controlled by the Sifa Syndicate , a human trafficking group led by Grin .",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Blue_Lagoon_Zoomed_Map.png/revision/latest/scale-to-width-down/200?cb=20240505150924"
+  },
+  {
+    "name": "Fort Narith",
+    "id": "fort-narith",
+    "tier": "3",
+    "locals_type": "LAF Soldiers",
+    "lz_callsign": "DELTA",
+    "description": "Little description of the POI without too much extra things",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Fort_Narith_Zoomed_Map.png/revision/latest/scale-to-width-down/200?cb=20240505142709"
+  },
+  {
+    "name": "Hunter's Paradise",
+    "id": "hunters-paradise",
+    "tier": "2",
+    "locals_type": "Rebels",
+    "lz_callsign": "FOXTROT",
+    "description": "Little description of the POI without too much extra things",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/Hunter%27s_Paradise_Zoomed_Map.png/revision/latest/scale-to-width-down/200?cb=20250408115513"
+  },
+  {
+    "name": "Kiu Vongsa",
+    "id": "kiu-vongsa",
+    "tier": "1",
+    "locals_type": "Rebels",
+    "lz_callsign": "CHARLIE",
+    "description": "Kiu Vongsa is the starting region for players from the Crimson Shield International faction, located in the northwest of Lamang island . Its main point of interest is the Kiu Vongsa town. Kiu Vongsa territory is controlled by local thugs, led by Bloodhound .",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fb/ST_Farm_Shed_1_overview.png/revision/latest/scale-to-width-down/200?cb=20260501145340"
+  },
+  {
+    "name": "Midnight Sapphire",
+    "id": "midnight-sapphire",
+    "tier": "3",
+    "locals_type": "LAF Soldiers",
+    "lz_callsign": "HOTEL",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ce/Midnight_Sapphire_Overview.png/revision/latest/scale-to-width-down/268?cb=20260405085510",
+    "description": "Little description of the POI without too much extra things"
+  },
+  {
+    "name": "Nam Thaven",
+    "id": "nam-thaven",
+    "tier": "1",
+    "locals_type": "Rebels",
+    "lz_callsign": "BRAVO",
+    "description": "Nam Thaven is the starting region for players from the Mithras Security Systems faction, located in the south of Lamang island . Its main point of interest is the Nam Thaven town. Nam Thaven territory is controlled by local thugs, led by Chaonai .",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/ST_Rest_Point_1_overview.png/revision/latest/scale-to-width-down/200?cb=20260501152532"
+  },
+  {
+    "name": "Pha Lang",
+    "id": "pha-lang",
+    "tier": "1",
+    "locals_type": "Rebels",
+    "lz_callsign": "ALPHA",
+    "description": "Pha Lang is the starting region for players from the Lamang Recovery Initiative faction, located in the northeast of Lamang island . Its main point of interest is the Pha Lang town. Pha Lang territory is controlled by local thugs, led by Golden Boy .",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/ST_Trashed_Campsite_1_overview.png/revision/latest/scale-to-width-down/200?cb=20260501143836"
+  },
+  {
+    "name": "Pha Lang Airfield",
+    "id": "pha-lang-airfield",
+    "tier": "2",
+    "locals_type": "Rebels",
+    "lz_callsign": "GOLF",
+    "description": "Little description of the POI without too much extra things",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Pha_Lang_Airfield_Large_Map.png/revision/latest/scale-to-width-down/200?cb=20240505145331"
+  },
+  {
+    "name": "Sawmill",
+    "id": "sawmill",
+    "tier": "2",
+    "locals_type": "Rebels",
+    "lz_callsign": "ECHO",
+    "description": "Little description of the POI without too much extra things",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Sawmill_Zoomed_Map.png/revision/latest/scale-to-width-down/200?cb=20240505150502"
+  },
+  {
+    "name": "Tiger Bay",
+    "id": "tiger-bay",
+    "tier": "3",
+    "locals_type": "Rebels & LAF Soldiers",
+    "lz_callsign": "JULIET",
+    "description": "Little description of the POI without too much extra things",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Tiger_Bay_Large_Map.png/revision/latest/scale-to-width-down/200?cb=20240518111234"
+  },
+  {
+    "name": "YBL-1",
+    "id": "ybl-1",
+    "tier": "2",
+    "locals_type": "Rebels",
+    "lz_callsign": "LIMA,MIKE",
+    "description": "YBL-1 is a region located in the southwest of Lamang island . Its main point of interest is the YBL-1 military base, situated on a mountainside in the western part of the region. The base consists of a two-story underground bunker and other above-ground buildings. YBL-1 territory is controlled by Lamang Liberation Army , a local anti-government armed insurgency group, led by Firebrand .",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/YBL-1_Abandoned_Shack_overview.png/revision/latest/scale-to-width-down/200?cb=20260515080835"
+  }
+]

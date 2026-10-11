@@ -4,21 +4,27 @@
     "id": "a-walk-in-the-park",
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Conduct reconnaissance around Pha Lang. Inspect a bridge roadblock and a gas station. Neutralize any hostiles encountered and report back to Handshake once you’re done. Conduct reconnaissance around Nam Thaven. Inspect a bridge roadblock and a gas station. Neutralize any hostiles encountered and report back to Handshake once you’re done. Conduct reconnaissance around Kiu Vongsa. Inspect a bridge roadblock and a gas station. Neutralize any hostiles encountered and report back to Handshake once you’re done.",
+    "objectives": "Check the roadblock on the bridge Check the area around the gas station"
   },
   {
     "name": "Big Fish",
     "id": "big-fish",
     "vendor": "Handshake",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Search the Midnight Sapphire Resort for Jan Park’s villa and gather any intelligence that could lead to the location of President Narith Sayavong. Report your findings to Handshake and await further instructions.",
+    "objectives": "Locate the laptop in the villa Access and transfer all the data from the laptop Locate the hardware key at the Midnight Sapphire Hotel Locate the hardware key at the Midnight Sapphire Hotel Retrieve intel from Narith's floor in Midnight Sapphire and report back to Handshake Locate the intel about Narith's whereabouts Locate the intel about Narith's whereabouts Retrieve intel from Narith's floor in Midnight Sapphire and report back to Handshake Locate the second intel Locate the second intel"
   },
   {
     "name": "Business or Pleasure",
     "id": "business-or-pleasure",
     "vendor": "Handshake",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Travel to Pha Lang Airfield to gain access to local computer systems using a hacking device and recover records connected to suspicious activity at the site. Extract any usable data, report your findings to Handshake, and await further instructions.",
+    "objectives": "Use the SD autocracker to access and transfer all the data from a PC Locate the SD autocracker at the wreckyard Locate the SD autocracker at the wreckyard Search Pha Lang Airfield and find out the hostile group's intentions Access the flight manifest database Retrieve the hard drive and report back to Handshake Extract the hard drive Extract the hard drive"
   },
   {
     "name": "Covert Research",
@@ -26,105 +32,134 @@
     "vendor": "Lab Rat",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
     "alternate": "Reclamation",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Retrieve the container from the fortified marketplace in Nam Thaven and deliver it discreetly to Lab Rat for private analysis before it is sent to Handshake. The contents are said to be of major significance. Keep the transfer secret.",
+    "objectives": "Bring the cargo from the marketplace to Lab Rat"
   },
   {
     "name": "Cult Business",
     "id": "cult-business",
     "vendor": "Lab Rat",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Return to Ban Pa and investigate unusual activity that may be connected to chemical production. Search for evidence that explains what was happening in the village before the Event and report your findings to Lab Rat.",
+    "objectives": "Search Ban Pa and find anything related to chemical production Locate any intel left by the drug producers Investigate what happened and report back to Lab Rat Find any intel describing what happened to the villagers Find any intel describing what happened to the villagers"
   },
   {
     "name": "First Recon",
     "id": "first-recon",
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Recon an enemy observation post on the outskirts of Pha Lang and gather intelligence on the hostile forces occupying the area. Recon an enemy observation post on the outskirts of Nam Thaven and gather intelligence on the hostile forces occupying the area. Recon an enemy observation post on the outskirts of Kiu Vongsa and gather intelligence on the hostile forces occupying the area.",
+    "objectives": "Investigate the observation post, recover any intel , and report your findings to Handshake Check the shack on the outskirts Check the roadblock on the bridge Check the area around the gas station"
   },
   {
     "name": "Fresh Meat",
     "id": "fresh-meat",
     "vendor": "Handshake",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Investigate reports of suspicious activity around Blue Lagoon. Examine a crashed vehicle on the road toward Tiger Bay, gather any intel left behind, and uncover clues about what the area was being used for before the Event. Report your findings to Handshake.",
+    "objectives": "Explore the road leading from the Blue Lagoon and report any pertinent intel Locate and report intel about the true nature of the Blue Lagoon Locate the intel connected to missing persons cases Locate the photos connected to missing persons cases Locate the intel connected to missing persons cases Locate the photos connected to missing persons cases Find and investigate a building that may have been used for a human trafficking operation in the Blue Lagoon"
   },
   {
     "name": "Guns & Ammo",
     "id": "guns-&-ammo",
     "vendor": "Gunny",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Investigate Hunter’s Paradise, beginning with the road leading to the shooting range, and determine what happened to a reported abandoned military truck. Scout the area for hostile forces, locate any weapon storage facilities, and assess whether firearms or ammunition remain on site. Report all findings to Gunny.",
+    "objectives": "Find out what happened on the road leading up to Hunter's Paradise Scout the locations around Hunter's Paradise Scout the dumping ground nearby Hunter's Paradise Scout the campsite nearby Hunter's Paradise Scout the motel nearby Hunter's Paradise Scout the dumping ground nearby Hunter's Paradise Scout the campsite nearby Hunter's Paradise Scout the motel nearby Hunter's Paradise Investigate the weapon storage at Hunter's Paradise Retrieve the note and bring it to Gunny Locate a note with info about the hostiles' origin Locate a note with info about the hostiles' origin Retrieve the folder and bring it to Gunny Locate a folder with info about the hostiles' plans Locate a folder with info about the hostiles' plans"
   },
   {
     "name": "Hacker",
     "id": "hacker",
     "vendor": "Handshake",
     "location": "Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Infiltrate Fort Narith to compromise surveillance systems, intercept military communications, and recover any materials used to decode transmissions. Deliver the collected intel to Handshake.",
+    "objectives": "Hack the cameras at Fort Narith Hack the camera at the air traffic control building Hack the camera at the main entrance Hack the camera at the northern entrance Hack the camera in the army headquarters Hack the camera at the air traffic control building Hack the camera at the main entrance Hack the camera at the northern entrance Hack the camera in the army headquarters Hack the communication devices at Fort Narith Hack the radio tower at Fort Narith airfield Hack the central radio tower at Fort Narith Hack the satellite dish at Fort Narith HQ Hack the radio tower at Fort Narith airfield Hack the central radio tower at Fort Narith Hack the satellite dish at Fort Narith HQ Retrieve the codebook and report back to Handshake Locate the codebook in the radio room Locate the codebook in the radio room"
   },
   {
     "name": "Helping Hand",
     "id": "helping-hand",
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Intel suggests the local armed group is receiving outside support. Infiltrate their meeting spot, an old restaurant on a street corner, and identify any evidence linking the suppliers to the group.",
+    "objectives": "Locate the intel and report back"
   },
   {
     "name": "I went, I saw, I conquered",
     "id": "i-went,-i-saw,-i-conquered",
     "vendor": "Handshake",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "An abandoned sawmill north of Fort Narith has been showing signs of hostile activity. Investigate the area, gather any pertinent intel, and report your findings to Handshake.",
+    "objectives": "Survey the sawmill from a nearby ridge Locate the interrogation transcript Explore the sawmill and determine the hostile group's progress with the explosives Search for leads about what happened to the hostiles at the sawmill Locate the medic's notes Find out what happened to the deserters"
   },
   {
     "name": "Know Your Enemy",
     "id": "know-your-enemy",
     "vendor": "Gunny",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Investigate the disappearance of scouts monitoring the Midnight Sapphire Resort from a position near the northeast waterfall. Determine what happened, report your findings to Gunny, and await further instructions.",
+    "objectives": "Find out what happened to the scouts in Midnight Sapphire Secure the briefcase and report back to Gunny Locate the briefcase in the Midnight Sapphire Hotel Locate the briefcase in the Midnight Sapphire Hotel Locate the intel from one of the Midnight Sapphire villas Retrieve the intel on the Fort Narith commander and report back to Gunny Locate the intel Locate the intel"
   },
   {
     "name": "Little Bird Down",
     "id": "little-bird-down",
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Investigate a helicopter crash north of the gas station. Valuable cargo was present on board. Search the wreck for survivors, render aid, and call for extraction if needed. However, your primary objective is to secure a sealed metal container and extract it intact.",
+    "objectives": "Locate the crashed helicopter north of the gas station and report your finding Find out what happened to the rest of the crew - try inspecting nearby structures"
   },
   {
     "name": "Lost Girl",
     "id": "lost-girl",
     "vendor": "Gunny",
     "location": "Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Travel to the Blue Lagoon area to investigate the disappearance of a young woman last seen staying at a nearby motel. Search for clues to her whereabouts and determine what happened to the squad previously sent to the location.",
+    "objectives": "Find any info regarding the missing girl Investigate what happened to the squad Retrieve any clues from the Blue Lagoon and report back to Gunny Locate clues about the missing girl's whereabouts Locate clues about the missing girl's whereabouts"
   },
   {
     "name": "Memory Leak",
     "id": "memory-leak",
     "vendor": "Lab Rat",
     "location": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Recover automated cracking devices from a hidden cache near Midnight Sapphire and use them to extract data from the resort’s servers. Access security systems at the main entrance and the Golf Club, transfer all available recordings and files, and deliver the information to Lab Rat for analysis.",
+    "objectives": "Use the USB autocracker to secure all the data from the server on the golf course Retrieve the USB autocracker from the hidden cache under a billboard Retrieve the USB autocracker from the hidden cache under a billboard Use the Micro SD autocracker to secure all the data from the server in the Midnight Sapphire Hotel Retrieve the Micro SD autocracker from the hidden cache under a billboard Retrieve the Micro SD autocracker from the hidden cache under a billboard Access and transfer all data from the laptop at the main entrance of Midnight Sapphire Access and transfer all the data from the PC at the Golf Club"
   },
   {
     "name": "Mystery Machines",
     "id": "mystery-machines",
     "vendor": "Lab Rat",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "A hut containing mysterious research notes has been discovered. Search the area thoroughly for valuable intel that may clarify the purpose of the project. Focus on secured or locked sections and report your findings to Lab Rat.",
+    "objectives": "Locate the research papers Disconnect the air filtration system in YBL-1 Retrieve the air filter from YBL-1 and report back to Lab Rat Locate the air filter Locate the air filter Gather intel from the computers at YBL-1 Retrieve the data and report back to Lab Rat Acquire the data from the computer"
   },
   {
     "name": "Radio Silence",
     "id": "radio-silence",
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "A local criminal group is intercepting and decrypting our communications. Infiltrate the isolated house in the north of Pha Lang, locate their comms hub, and destroy the equipment. A local criminal group is intercepting and decrypting our communications. Infiltrate the isolated house in the south of Nam Thaven, locate their comms hub, and destroy the equipment. A local criminal group is intercepting and decrypting our communications. Infiltrate the isolated house in the north of Kiu Vongsa, locate their comms hub, and destroy the equipment."
   },
   {
     "name": "Rat's Nest",
     "id": "rats-nest",
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Locate and identify two criminal hideouts in the western part of Nam Thaven. Search both locations for intelligence and deposit any useful items in the collection box at Base Camp.",
+    "objectives": "Retrieve the intel and store it inside a box at the Base Camp command tent Gather intelligence from the first hideout Gather intelligence from the first hideout Retrieve the intel and store it inside a box at the Base Camp command tent Gather intelligence from the second hideout Gather intelligence from the second hideout"
   },
   {
     "name": "Reclamation",
@@ -132,55 +167,71 @@
     "vendor": "Handshake",
     "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
     "alternate": "Covert Research",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "The cargo from the crashed helicopter was likely taken by the armed group occupying Nam Thaven and stashed in their main base, the fortified marketplace in the town centre. Locate an entry point, secure the area, and recover the stolen container. Expect heavy hostile presence.",
+    "objectives": "Retrieve the cargo from the fortified hideout Hand over the cargo to Handshake ( or Artisan ) Hand over the cargo to Handshake ( or Artisan )"
   },
   {
     "name": "Seeker of Change",
     "id": "seeker-of-change",
     "vendor": "Lab Rat",
     "location": "Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Investigate the disappearance of a local man named Atsawin Xiong, last known to be living near Savanpha village east of Fort Narith. Track his movements, determine what happened to him, and report your findings to Lab Rat.",
+    "objectives": "Search Savanpha village and uncover what happened to Atsawin Xiong Head to Fort Narith barracks and locate Atsawin Xiong's quarters Investigate the infirmary at Fort Narith and locate Atsawin Xiong Locate the medical records from Fort Narith infirmary and report to Lab Rat Retrieve the samples from Fort Narith infirmary and report back to Lab Rat Collect the samples from the soldiers affected by Ground Zero Collect the samples from the soldiers affected by Ground Zero"
   },
   {
     "name": "Skycrawlers",
     "id": "skycrawlers",
     "vendor": "Gunny",
     "location": "Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Investigate suspicious activity at Pha Lang Airfield connected to drug smuggling operations. Track down a smuggler believed to be carrying a sensitive document listing key names, recover the list, and report your findings to Gunny.",
+    "objectives": "Locate and report the list on the road north of Pha Lang Airfield Investigate Pha Lang Airfield and find proof of drug trade Retrieve the logbook from Pha Lang Airfield and report back Find the logbook Find the logbook"
   },
   {
     "name": "Terminal Initiative",
     "id": "terminal-initiative",
     "vendor": "Handshake",
     "location": "Fort Narith , Tiger Bay , Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Here we go, the final stretch! The LAF has been conducing more and more operations in Ground Zero and, despite heavy casualties, security valuable materials from within. We cannot let this continue. The boss was very clear on this. We have to do whatever it takes to get hold of those containers. I know you've done this before, but not like this. Expect heavy resistance. The LAF knows damn well what they are doing, and they won't surrender the cargo without a fight. Whatever happ3endd here during the Event, these things are the key to it all. The boss needs to have them, and we're gonna get them for him. This is why we are here. Do you understand? Start at Fort Narith, and I'll keep you posted about anything else we'll manage to find out. It all comes dowwn to this. I hope you're ready. Here we go, the final stretch! The LAF has been conducing more and more operations in Ground Zero and, despite heavy casualties, security valuable materials from within. We cannot let this continue. The boss was very clear on this. We have to do whatever it takes to get hold of those containers. I know you've done this before, but not like this. Expect heavy resistance. The LAF knows damn well what they are doing, and they won't surrender the cargo without a fight. Whatever happ3endd here during the Event, these things are the key to it all. The boss needs to have them, and we're gonna get them for him. This is why we are here. Do you understand? Start at Fort Narith, and I'll keep you posted about anything else we'll manage to find out. It all comes dowwn to this. I hope you're ready.",
+    "objectives": "Ensure your survival Eliminate the LAF forces at Fort Narith (20) Retrieve the container from Fort Narith Locate the container Locate the container Eliminate the LAF forces at Tiger Bay (20) Retrieve the container from Tiger Bay Locate the container Eliminate the LAF forces at Midnight Sapphire (20) Retrieve the container from Midnight Sapphire Locate the container"
   },
   {
     "name": "The Most Dangerous Game",
     "id": "the-most-dangerous-game",
     "vendor": "Lab Rat",
     "location": "Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Assist Lab Rat by travelling to Hunter’s Paradise to look for a man who disappeared shortly before the evacuation. Follow his trail, search the area for clues, and uncover what happened to him before he vanished.",
+    "objectives": "Find Aulii Syvongsa Bring the proof of identity back to Lab Rat Bring biological samples from Hunter's Paradise to Lab Rat Collect the samples Collect the samples Locate intel about Hunter's Paradise VIP program Ascertain the true nature of the VIP section"
   },
   {
     "name": "The Negotiator",
     "id": "the-negotiator",
     "vendor": "Gunny",
     "location": "YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "We've got a big problem. Our enlightened head operator sent a bunch of our boys to negotiate a cease-fire with those rebels you found in the old soviet bunker, and guess what happen? they didn't return and we lost contact with them. Shit! I told that wise-ass it was a bad idea to send them there, but he insisted that the potential danger was lower than the possible return. that damn idiot. I know the kind of people these rebels are. They are ruthless brutes and intransigent extremists. To them we are just intruders who have invaded their land, no better than the corrupt Lamang army. All the negotiation nonsense was doomed from the start. Go to YBL1, Find out what happen to our men and bring them back if possible. I hope it's not too late. Don't hold back, Weapons free. The time has come to end this farce and do what we are best at.",
+    "objectives": "Search for an alternative entrance to YBL-1 Find a secret entrance Find a secret entrance Find an underground passage Find the missing negotiators Locate the first negotiator Locate the second negotiator Locate the first negotiator Locate the second negotiator"
   },
   {
     "name": "The Shadow over Ban Pa",
     "id": "the-shadow-over-ban-pa",
     "vendor": "Handshake",
     "location": "Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "Travel to Ban Pa to scout one of the village’s main entry points and determine whether the area is currently occupied or guarded. Report your findings to Handshake and await further instructions.",
+    "objectives": "Scout one of the main entry points to Ban Pa Scout the main northern entry point to Ban Pa Scout the main southern entry point to Ban Pa Scout the main northern entry point to Ban Pa Scout the main southern entry point to Ban Pa Bring the avian tissue samples to Handshake Collect samples from a dovecot in Ban Pa Collect samples from a dovecot in Ban Pa Bring the water samples to Handshake Collect samples from a well in Ban Pa Collect samples from a well in Ban Pa Bring the ground samples to Handshake Collect samples from a mound of soil in Ban Pa Collect samples from a mound of soil in Ban Pa Clarify the identity of the new Ban Pa inhabitants"
   },
   {
     "name": "Unlisted Flight",
     "id": "unlisted-flight",
     "vendor": "Lab Rat",
     "location": "Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Investigate the crash site of civilian airliner ZN209 northwest of the sawmill and search for the flight recorder. Determine how the aircraft came down after the evacuation and report all findings to Lab Rat.",
+    "objectives": "Investigate the ZN209 crash site Inspect the tail section and try to locate the flight recorder Report on the passenger casualties Assess and report the current situation at the site Locate any documents related to the crash Inspect the tail section and try to locate the flight recorder Report on the passenger casualties Assess and report the current situation at the site Locate any documents related to the crash Investigate the wind turbine and send the recordings to Lab Rat Investigate what happened to the missing black box at the sawmill"
   }
 ]

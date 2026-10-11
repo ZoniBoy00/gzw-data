@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Bloodhound",
+    "id": "bloodhound",
+    "full_name": "????",
+    "faction": "???",
+    "location": "Kiu Vongsa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/UnknownVendor_Small.png/revision/latest?cb=20240430210758",
+    "tasks": "Bloudhound needs to be killed for Final Liberation task."
+  },
+  {
+    "name": "Broker",
+    "id": "broker",
+    "full_name": "Hoang Lam Nam",
+    "faction": "Lotus Circle",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/Broker_portrait.png/revision/latest?cb=20260521032605",
+    "tasks": "Broker needs to be killed for One Shot, One Kill task."
+  },
+  {
+    "name": "Chaonai",
+    "id": "chaonai",
+    "full_name": "??",
+    "faction": "??",
+    "location": "Nam Thaven",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f4/ChaonaiPortrait.png/revision/latest/scale-to-width-down/268?cb=20260416210737",
+    "tasks": "Chaonai needs to be killed for X task."
+  },
+  {
+    "name": "Firebrand",
+    "id": "firebrand",
+    "full_name": "????",
+    "faction": "???",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/UnknownVendor_Small.png/revision/latest?cb=20240430210758",
+    "tasks": "Firebrand needs to be killed for Final Liberation task."
+  },
+  {
+    "name": "Grin",
+    "id": "grin",
+    "full_name": "Malo \"Grin\" Luangrath",
+    "faction": "Sifa Syndicate",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/GrinPortrait.png/revision/latest?cb=20260511194838",
+    "tasks": "Grin needs to be killed for Deep Waters task."
+  },
+  {
+    "name": "Kaptei",
+    "id": "kaptei",
+    "full_name": "????",
+    "faction": "???",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/UnknownVendor_Small.png/revision/latest?cb=20240430210758",
+    "tasks": "Kaptei needs to be killed for Timber task."
+  },
+  {
+    "name": "Viper",
+    "id": "viper",
+    "full_name": "Phasuk Aawut",
+    "faction": "Viper Tactical Services",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3f/ViperPortrait.png/revision/latest?cb=20260416210337",
+    "tasks": "Viper needs to be killed for X task."
+  },
+  {
+    "name": "Yen",
+    "id": "yen",
+    "full_name": "????",
+    "faction": "Lamang Army Forces",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/YenPortrait.png/revision/latest?cb=20260416211419",
+    "tasks": "Yen needs to be killed for Final Liberation task."
+  }
+]

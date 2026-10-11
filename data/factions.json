@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Bandits",
+    "id": "bandits",
+    "description": "The bandits have multiple different organized crime groups across the island. They all different names, backgrounds, histories, equipment, weapons, and combat styles."
+  },
+  {
+    "name": "Crimson Shield International",
+    "id": "crimson-shield-international",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/CSI_logo.png/revision/latest/scale-to-width-down/268?cb=20250715200419",
+    "description": "This Private Military Company rose to infamy during the early stages of the Syrian Civil War. While they boast an impressive 95% success rate, some of their methods can be seen as somewhat questionable, often resulting in collateral damage. That said, no one can deny their effectiveness and cold-blooded approach to any job that needs to be done. this gung-ho nature attracts not just ex-military personnel but basically anyone with a lust for adventure and action."
+  },
+  {
+    "name": "Lamang Army Forces",
+    "id": "lamang-army-forces",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/LAF_Faction_icon.png/revision/latest/scale-to-width-down/268?cb=20250619131649",
+    "description": "The Lamang Armed Forces (LAF) is the country's national military force. Since the Event, the LAF were ordered to stay behind and guard high-value targets while also engaging in skirmishes with different armed groups such as Lamang Liberation Army , Bandits and PMC contractors. Most LAF personnel are mostly soldier grunts to commanders at officer ranks from its Army branch."
+  },
+  {
+    "name": "Lamang Liberation Army",
+    "id": "lamang-liberation-army",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/LLA_icon.png/revision/latest/scale-to-width-down/268?cb=20260329191522",
+    "description": "Local anti-government armed insurgency group."
+  },
+  {
+    "name": "Lamang Recovery Initiative",
+    "id": "lamang-recovery-initiative",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/LRI_logo.png/revision/latest/scale-to-width-down/268?cb=20250715200356",
+    "description": "Found and funded by a tech billionaire, LRI publicizes itself as a strictly philanthropic exercise to search for pockets of survivors in and around Ground Zero after even the UN abandoned the island. The armed section of the organization is composed of small, highly professional security details that accompany rescue and clean-up teams to protect them from some of the other, far less altruistic, faction operating in the area."
+  },
+  {
+    "name": "Mithras Security Systems",
+    "id": "mithras-security-systems",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/MSS_logo.png/revision/latest/scale-to-width-down/268?cb=20250715200408",
+    "description": "Mithras bills itself as a PMC run by soldiers for soldiers, and it doesn't ask too many questions about an operator's motivations or past history. The only real bar to Mithras Membership is a lack of field experience or military competence. It prides itself on only accept the best and pays accordingly. The organization itself is inspired by the Roman Legion System, where the spoils of war were shared among the troops."
+  }
+]

@@ -1,8 +1,8 @@
 {
   "source": "gzw-scraper",
-  "scraperVersion": "4.4.1",
-  "parserRevision": "universal-parser-v6",
-  "datasetCount": 84,
+  "scraperVersion": "4.5.0",
+  "parserRevision": "universal-parser-v7",
+  "datasetCount": 88,
   "datasets": [
     {
       "name": "ammo",
@@ -127,7 +127,7 @@
           "example": "0.007kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": ".222 Remington",
@@ -480,7 +480,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Apparel",
@@ -566,7 +566,7 @@
           "example": "0.016 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Colt 1911 Commander Hammer",
@@ -593,13 +593,13 @@
     {
       "name": "backpacks",
       "file": "backpacks.json",
-      "itemCount": 16,
+      "itemCount": 17,
       "fields": {
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 15,
+          "presentCount": 16,
           "optional": true,
           "nullable": false,
           "example": "2x2"
@@ -608,7 +608,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "6sh118-ratnik-v2"
@@ -617,7 +617,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526"
@@ -626,7 +626,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": true,
           "nullable": false,
           "example": "5.11"
@@ -635,7 +635,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "6Sh118 Ratnik V2"
@@ -644,7 +644,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "12"
@@ -653,7 +653,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": true,
           "nullable": false,
           "example": "???"
@@ -662,7 +662,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "Backpack"
@@ -671,13 +671,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": false,
           "nullable": false,
           "example": "0.072kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "6Sh118 Ratnik V2",
@@ -734,6 +734,10 @@
         {
           "title": "Scorpion OCP Convoy Pack",
           "revisionId": 24850
+        },
+        {
+          "title": "Scorpion OCP Convoy Pack (Multicam)",
+          "revisionId": 24846
         },
         {
           "title": "Small Tourist Backpack",
@@ -868,7 +872,7 @@
           "example": ".725 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AR-15 Barrel - 10.5\"",
@@ -987,13 +991,13 @@
     {
       "name": "belts",
       "file": "belts.json",
-      "itemCount": 8,
+      "itemCount": 9,
       "fields": {
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "2x1"
@@ -1002,7 +1006,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "belt-bag"
@@ -1011,7 +1015,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/BeltB_inspect.png/revision/latest?cb=20240509134353"
@@ -1020,7 +1024,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "ANA-Tactical"
@@ -1029,7 +1033,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "Belt Bag"
@@ -1038,7 +1042,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "1"
@@ -1047,7 +1051,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "Artisan R.1 Looting"
@@ -1056,7 +1060,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "Belt"
@@ -1065,13 +1069,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": false,
           "nullable": false,
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Belt Bag",
@@ -1084,6 +1088,10 @@
         {
           "title": "Civilian Sport Fanny Pack",
           "revisionId": 22587
+        },
+        {
+          "title": "Custom Gear Lowpro Belt",
+          "revisionId": 20461
         },
         {
           "title": "Leather Belt",
@@ -1176,7 +1184,7 @@
           "example": "0.530kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "M1050 LRF Rangefinder",
@@ -1229,7 +1237,7 @@
           "example": "AKU - Conero GTX"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AKU - Conero GTX",
@@ -1254,6 +1262,111 @@
         {
           "title": "Rocky S2V",
           "revisionId": 17178
+        }
+      ]
+    },
+    {
+      "name": "bosses",
+      "file": "bosses.json",
+      "itemCount": 8,
+      "fields": {
+        "faction": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "??"
+        },
+        "full_name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "??"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "bloodhound"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/GrinPortrait.png/revision/latest?cb=20260511194838"
+        },
+        "location": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Blue Lagoon"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Bloodhound"
+        },
+        "tasks": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": "Bloudhound needs to be killed for Final Liberation task."
+        }
+      },
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
+      "sourcePages": [
+        {
+          "title": "Bloodhound",
+          "revisionId": 20811
+        },
+        {
+          "title": "Broker",
+          "revisionId": 23948
+        },
+        {
+          "title": "Chaonai",
+          "revisionId": 21673
+        },
+        {
+          "title": "Firebrand",
+          "revisionId": 20806
+        },
+        {
+          "title": "Grin",
+          "revisionId": 23463
+        },
+        {
+          "title": "Kaptei",
+          "revisionId": 21205
+        },
+        {
+          "title": "Viper",
+          "revisionId": 24032
+        },
+        {
+          "title": "Yen",
+          "revisionId": 24358
         }
       ]
     },
@@ -1344,7 +1457,7 @@
           "example": "0.108 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "CQ A1 Buffer Tube",
@@ -1447,7 +1560,7 @@
           "example": "0,080 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AK RP-1 Charging Handle",
@@ -1591,7 +1704,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Cache Report IX",
@@ -1716,7 +1829,7 @@
           "example": ".318 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "503CU Micro Sight",
@@ -1923,7 +2036,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Admin Desk",
@@ -2042,22 +2155,31 @@
     {
       "name": "contract",
       "file": "contract.json",
-      "itemCount": 26,
+      "itemCount": 29,
       "fields": {
+        "briefing": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 29,
+          "optional": false,
+          "nullable": false,
+          "example": "A local woman assisting Lab Rat needs help getting home safely. Locate her and assess the situation."
+        },
         "id": {
           "types": [
             "string"
           ],
-          "presentCount": 26,
+          "presentCount": 29,
           "optional": false,
           "nullable": false,
-          "example": "breadcrumbs"
+          "example": "bad-idea"
         },
         "image": {
           "types": [
             "string"
           ],
-          "presentCount": 26,
+          "presentCount": 29,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
@@ -2066,7 +2188,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 26,
+          "presentCount": 29,
           "optional": false,
           "nullable": false,
           "example": "Ban Pa"
@@ -2075,23 +2197,36 @@
           "types": [
             "string"
           ],
-          "presentCount": 26,
+          "presentCount": 29,
           "optional": false,
           "nullable": false,
-          "example": "Breadcrumbs"
+          "example": "Bad Idea"
+        },
+        "objectives": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 28,
+          "optional": true,
+          "nullable": false,
+          "example": "Bring the intel from the Ban Pa House of Prayer to Handshake/Artisan. Find intel regarding the Ban Pa cult. Locate the Bizarre Statue."
         },
         "vendor": {
           "types": [
             "string"
           ],
-          "presentCount": 26,
+          "presentCount": 29,
           "optional": false,
           "nullable": false,
-          "example": "Banshee"
+          "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
+        {
+          "title": "Bad Idea",
+          "revisionId": 24014
+        },
         {
           "title": "Breadcrumbs",
           "revisionId": 20868
@@ -2135,6 +2270,10 @@
         {
           "title": "Combat Sweep VII",
           "revisionId": 23231
+        },
+        {
+          "title": "Deep Waters",
+          "revisionId": 23464
         },
         {
           "title": "Escort II",
@@ -2187,6 +2326,10 @@
         {
           "title": "Restoring Order",
           "revisionId": 19060
+        },
+        {
+          "title": "The Ban Pa Horror",
+          "revisionId": 24536
         },
         {
           "title": "The Liberator",
@@ -2249,7 +2392,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Cache Report II",
@@ -2370,7 +2513,7 @@
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Aques Water 1 l",
@@ -2524,7 +2667,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Black Luxury Phone",
@@ -2626,7 +2769,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Half Mask (Skull)",
@@ -2643,6 +2786,76 @@
         {
           "title": "Pandatac Sun Mask",
           "revisionId": 13225
+        }
+      ]
+    },
+    {
+      "name": "factions",
+      "file": "factions.json",
+      "itemCount": 6,
+      "fields": {
+        "description": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "Found and funded by a tech billionaire, LRI publicizes itself as a strictly philanthropic exercise to search for pockets of survivors in and around Ground Zero after even the UN abandoned the island. The armed section of the organization is composed of small, highly professional security details that accompany rescue and clean-up teams to protect them from some of the other, far less altruistic, faction operating in the area."
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "bandits"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 5,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/LLA_icon.png/revision/latest/scale-to-width-down/268?cb=20260329191522"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": "Bandits"
+        }
+      },
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
+      "sourcePages": [
+        {
+          "title": "Bandits",
+          "revisionId": 21228
+        },
+        {
+          "title": "Crimson Shield International",
+          "revisionId": 24680
+        },
+        {
+          "title": "Lamang Army Forces",
+          "revisionId": 21230
+        },
+        {
+          "title": "Lamang Liberation Army",
+          "revisionId": 21232
+        },
+        {
+          "title": "Lamang Recovery Initiative",
+          "revisionId": 16082
+        },
+        {
+          "title": "Mithras Security Systems",
+          "revisionId": 16081
         }
       ]
     },
@@ -2841,7 +3054,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "1 Shot Energy Chews",
@@ -3026,7 +3239,7 @@
           "example": "0.017 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AFG-2",
@@ -3211,7 +3424,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Back-Up 3 Front Iron Sight",
@@ -3348,7 +3561,7 @@
           "example": "0.005kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Black Credit Card",
@@ -3473,7 +3686,7 @@
           "example": "0.045 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AK-74 Gas Tube",
@@ -3600,7 +3813,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AMP12",
@@ -3795,7 +4008,7 @@
           "example": "0.090kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Aviator (Black)",
@@ -3884,7 +4097,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "5.11 - Competition Shooting",
@@ -4068,7 +4281,7 @@
           "example": "0.110 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AK 308 Handguard",
@@ -4383,7 +4596,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "3M Comtac II",
@@ -4484,7 +4697,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "L4 G24 Helmet NVG Mount",
@@ -4503,13 +4716,13 @@
     {
       "name": "helmets",
       "file": "helmets.json",
-      "itemCount": 41,
+      "itemCount": 44,
       "fields": {
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 41,
+          "presentCount": 44,
           "optional": false,
           "nullable": false,
           "example": "1x1"
@@ -4518,7 +4731,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 41,
+          "presentCount": 44,
           "optional": false,
           "nullable": false,
           "example": "6b47-ratnik"
@@ -4527,7 +4740,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 31,
+          "presentCount": 34,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/HScarf%28Black%29_inspect.png/revision/latest?cb=20250621182801"
@@ -4536,7 +4749,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 30,
+          "presentCount": 33,
           "optional": true,
           "nullable": false,
           "example": "Armokom"
@@ -4545,7 +4758,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 21,
+          "presentCount": 24,
           "optional": true,
           "nullable": false,
           "example": "Aramid"
@@ -4554,7 +4767,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 41,
+          "presentCount": 44,
           "optional": false,
           "nullable": false,
           "example": "6B47 Ratnik"
@@ -4563,7 +4776,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 22,
+          "presentCount": 25,
           "optional": true,
           "nullable": false,
           "example": "I"
@@ -4572,7 +4785,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 22,
+          "presentCount": 23,
           "optional": true,
           "nullable": false,
           "example": "+0 %"
@@ -4590,7 +4803,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 36,
+          "presentCount": 39,
           "optional": true,
           "nullable": false,
           "example": "??"
@@ -4608,13 +4821,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 39,
+          "presentCount": 42,
           "optional": true,
           "nullable": false,
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "6B47 Ratnik",
@@ -4701,6 +4914,10 @@
           "revisionId": 24013
         },
         {
+          "title": "FAST XP HC (Olive)",
+          "revisionId": 24012
+        },
+        {
           "title": "Headscarf (Black)",
           "revisionId": 13458
         },
@@ -4715,6 +4932,14 @@
         {
           "title": "Leafy Boonie (Camo)",
           "revisionId": 13471
+        },
+        {
+          "title": "M1 (Ace of Hearts)",
+          "revisionId": 24884
+        },
+        {
+          "title": "M1 (Ace of Spades)",
+          "revisionId": 24885
         },
         {
           "title": "MICH LC",
@@ -4842,7 +5067,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "At Doom's Gate",
@@ -4952,7 +5177,7 @@
           "example": "0.013kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Aramid Cloth",
@@ -5039,13 +5264,13 @@
     {
       "name": "intels",
       "file": "intels.json",
-      "itemCount": 5,
+      "itemCount": 6,
       "fields": {
         "id": {
           "types": [
             "string"
           ],
-          "presentCount": 5,
+          "presentCount": 6,
           "optional": false,
           "nullable": false,
           "example": "georges-love-letter"
@@ -5063,7 +5288,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 5,
+          "presentCount": 6,
           "optional": false,
           "nullable": false,
           "example": "George's love letter"
@@ -5072,13 +5297,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 5,
+          "presentCount": 6,
           "optional": false,
           "nullable": false,
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "George's love letter",
@@ -5087,6 +5312,10 @@
         {
           "title": "Mysterious codebook",
           "revisionId": 18774
+        },
+        {
+          "title": "Newspaper - 50 Years since liberation from Japan",
+          "revisionId": 18772
         },
         {
           "title": "Newspaper - Rebel Forces Seize Control in Lamang",
@@ -5198,7 +5427,7 @@
           "example": "0,014kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Advanced Tracking Tag",
@@ -5292,7 +5521,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Dark Pearl Necklace",
@@ -5433,7 +5662,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Fort Narith HQ Reception Storage Key Card",
@@ -5574,7 +5803,7 @@
           "example": "0.010 Kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "A102 Key",
@@ -6085,13 +6314,13 @@
     {
       "name": "laboratory_supplies",
       "file": "laboratory_supplies.json",
-      "itemCount": 9,
+      "itemCount": 10,
       "fields": {
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": false,
           "nullable": false,
           "example": "1x1"
@@ -6100,7 +6329,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": false,
           "nullable": false,
           "example": "acetylene-cylinder"
@@ -6109,7 +6338,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 9,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/Disinfectant_inspect.png/revision/latest?cb=20260403101852"
@@ -6118,7 +6347,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 3,
+          "presentCount": 4,
           "optional": true,
           "nullable": false,
           "example": "General Local"
@@ -6127,7 +6356,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": false,
           "nullable": false,
           "example": "Acetylene Cylinder"
@@ -6136,7 +6365,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": false,
           "nullable": false,
           "example": "$1"
@@ -6145,7 +6374,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": false,
           "nullable": false,
           "example": "Laboratory Supplies"
@@ -6154,13 +6383,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": false,
           "nullable": false,
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Acetylene Cylinder",
@@ -6177,6 +6406,10 @@
         {
           "title": "Industrial Solvent",
           "revisionId": 24216
+        },
+        {
+          "title": "Mercenary Delivery Service III",
+          "revisionId": 25006
         },
         {
           "title": "Sulfuric Acid",
@@ -6278,7 +6511,7 @@
           "example": "0.800kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "SafeLock Protected Ruck Case",
@@ -6354,7 +6587,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Ammo Box (Container)",
@@ -6565,7 +6798,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Loot Box",
@@ -6636,7 +6869,7 @@
           "example": "0.004kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Loot",
@@ -6767,7 +7000,7 @@
           "example": "0.048 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "1911 .45ACP 15-Round Extended Magazine",
@@ -6989,6 +7222,15 @@
           "nullable": false,
           "example": "Covert Research"
         },
+        "briefing": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 26,
+          "optional": false,
+          "nullable": false,
+          "example": "A hut containing mysterious research notes has been discovered. Search the area thoroughly for valuable intel that may clarify the purpose of the project. Focus on secured or locked sections and report your findings to Lab Rat."
+        },
         "id": {
           "types": [
             "string"
@@ -7025,6 +7267,15 @@
           "nullable": false,
           "example": "A Walk in the Park"
         },
+        "objectives": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 25,
+          "optional": true,
+          "nullable": false,
+          "example": "Bring the cargo from the marketplace to Lab Rat"
+        },
         "vendor": {
           "types": [
             "string"
@@ -7035,7 +7286,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "A Walk in the Park",
@@ -7146,13 +7397,13 @@
     {
       "name": "medical",
       "file": "medical.json",
-      "itemCount": 34,
+      "itemCount": 35,
       "fields": {
         "charges": {
           "types": [
             "string"
           ],
-          "presentCount": 33,
+          "presentCount": 34,
           "optional": true,
           "nullable": false,
           "example": "1"
@@ -7170,7 +7421,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 30,
+          "presentCount": 31,
           "optional": true,
           "nullable": false,
           "example": "+500 ml of blood per charge"
@@ -7179,7 +7430,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 33,
+          "presentCount": 34,
           "optional": true,
           "nullable": false,
           "example": "1x1"
@@ -7188,7 +7439,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 34,
+          "presentCount": 35,
           "optional": false,
           "nullable": false,
           "example": "activated-charcoal"
@@ -7197,7 +7448,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 27,
+          "presentCount": 28,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/LargeBloodBag.png/revision/latest/scale-to-width-down/268?cb=20250501081851"
@@ -7206,7 +7457,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 32,
+          "presentCount": 33,
           "optional": true,
           "nullable": false,
           "example": "Fernsby's Healthcare"
@@ -7215,7 +7466,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 34,
+          "presentCount": 35,
           "optional": false,
           "nullable": false,
           "example": "ARF Trauma Bandage 4"
@@ -7224,7 +7475,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 31,
+          "presentCount": 32,
           "optional": true,
           "nullable": false,
           "example": "Lab Rat LL1"
@@ -7233,7 +7484,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 33,
+          "presentCount": 34,
           "optional": true,
           "nullable": false,
           "example": "Bandage"
@@ -7242,7 +7493,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 14,
+          "presentCount": 15,
           "optional": true,
           "nullable": false,
           "example": "12"
@@ -7251,13 +7502,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 33,
+          "presentCount": 34,
           "optional": true,
           "nullable": false,
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "ARF Trauma Bandage 4",
@@ -7266,6 +7517,10 @@
         {
           "title": "Activated Charcoal",
           "revisionId": 14755
+        },
+        {
+          "title": "Advanced Flexible Splint",
+          "revisionId": 23947
         },
         {
           "title": "Basic Surgical & Suture Kit",
@@ -7466,7 +7721,7 @@
           "example": "0,300kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AN/PYQ-10",
@@ -7615,7 +7870,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Camouflage Fabric",
@@ -7722,7 +7977,7 @@
           "example": "13.650kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "M933 120mm HE Cartridge (High Range)",
@@ -7816,7 +8071,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "1911 Grip Scope Mount",
@@ -8128,7 +8383,7 @@
           "example": "0.030 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "3 Prong Flash Hider",
@@ -8313,6 +8568,242 @@
       ]
     },
     {
+      "name": "newspapers",
+      "file": "newspapers.json",
+      "itemCount": 43,
+      "fields": {
+        "description": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 43,
+          "optional": false,
+          "nullable": false,
+          "example": "Foreign newspaper."
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 43,
+          "optional": false,
+          "nullable": false,
+          "example": "newspaper---10-years-of-independent-lamang"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5e/Newspaper_-_Capture_of_a_Traitor_spawn.png/revision/latest/scale-to-width-down/200?cb=20260401133827"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 43,
+          "optional": false,
+          "nullable": false,
+          "example": "Newspaper - 10 Years of Independent Lamang"
+        },
+        "transcript": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 43,
+          "optional": false,
+          "nullable": false,
+          "example": "10 Years of Independent Lamang August 17, 1958 The Southeast Asian nation of Lamang is celebrating ten years of independence. The peaceful transfer of power a decade ago has proven to be a lasting success, reflected in the country’s growing economy and expanding industrial sector. “We are grateful that the world remembers us and has sent warm congratulations on our tenth anniversary of independence. It is always heartening to hear from friends in fellow democratic nations,” said President Bounnhang Sayasone. Lamang now appears well on its way to joining the ranks of Asia’s economic tigers. Here’s hoping their story of progress and stability continues. Lamang Participates in Philippine Military Exercise A small contingent of Lamang military officers has joined a training exercise hosted by the Philippine Armed Forces, aimed at providing exposure to new tactics and strategic approaches. This marks the first joint exercise between the two nations. Given the Philippines’ close alliance with the United States, some observers view this as a possible sign that Lamang may be edging closer to the West. Interview — Brian J. Bronstein, Ph. D. Q: Dr. Bronstein, could you describe the current situation in Lamang? A: Lamang is presently celebrating ten years of independence. It has developed into a relatively stable state, effectively utilizing the industrial infrastructure left behind by the British. The country operates under a democratic system, although there is a slight cause for concern: since independence, it has had only one president, Bounnhang Sayasone. While the Lamang constitution does not prohibit re-election, the lack of leadership turnover raises some questions. Q: Would you consider Lamang an ally of the West? A: I wouldn’t go as far as to call them an ally, but they are certainly not adversaries either. Their position is more comparable to that of India, non-aligned and pragmatic. That said, they don’t appear to have much sympathy for the Soviet bloc, if that’s what you’re asking. Q: How do you view Lamang’s future? A: Quite optimistically, in fact. If their current trajectory continues, I can envision Lamang emerging as a significant economic force in Southeast Asia. Q: Thank you for your time, Dr. Bronstein. A: My pleasure. Letters to the Editor Why are you reporting on some Third-world country bumpkins instead of focusing on normal people? We need more coverage of the Reds here in the U.S., not in some jungle. John D. Dear John, We’re called Worldview News, not Only-USA News. What happens in “some jungle” today often shapes tomorrow’s headlines at home. If you want to understand the bigger picture, you can’t just stay in your backyard and ignore the rest of the map."
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 43,
+          "optional": false,
+          "nullable": false,
+          "example": "Intel"
+        }
+      },
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
+      "sourcePages": [
+        {
+          "title": "Newspaper - 10 Years of Independent Lamang",
+          "revisionId": 19333
+        },
+        {
+          "title": "Newspaper - 50 Years Since Liberation from Japan",
+          "revisionId": 19334
+        },
+        {
+          "title": "Newspaper - Another Monarch Bites the Dust",
+          "revisionId": 19335
+        },
+        {
+          "title": "Newspaper - Capture of a Traitor",
+          "revisionId": 19794
+        },
+        {
+          "title": "Newspaper - Civil War Erupts in Lamang",
+          "revisionId": 19337
+        },
+        {
+          "title": "Newspaper - Covid Hits Lamang Hard",
+          "revisionId": 19338
+        },
+        {
+          "title": "Newspaper - Disappearance of Stuart Kupferhower",
+          "revisionId": 19339
+        },
+        {
+          "title": "Newspaper - Dissolution of the Soviet Union",
+          "revisionId": 19340
+        },
+        {
+          "title": "Newspaper - Election Results",
+          "revisionId": 19341
+        },
+        {
+          "title": "Newspaper - Friendship Among Nations",
+          "revisionId": 19342
+        },
+        {
+          "title": "Newspaper - Friendship with the USSR in Perpetuity",
+          "revisionId": 19343
+        },
+        {
+          "title": "Newspaper - Glorious Leader Narith Sayavong Celebrates 50th Birthday",
+          "revisionId": 19344
+        },
+        {
+          "title": "Newspaper - Honoring the Best Workers",
+          "revisionId": 19345
+        },
+        {
+          "title": "Newspaper - Horrors of the Survivors",
+          "revisionId": 19346
+        },
+        {
+          "title": "Newspaper - Insurrection Averted!",
+          "revisionId": 19347
+        },
+        {
+          "title": "Newspaper - Lamang Awakens",
+          "revisionId": 19348
+        },
+        {
+          "title": "Newspaper - Lamang Escapees Speak Out",
+          "revisionId": 19349
+        },
+        {
+          "title": "Newspaper - Lamang Secures Independence from British Rule",
+          "revisionId": 19350
+        },
+        {
+          "title": "Newspaper - Lamang’s Underworld Rising",
+          "revisionId": 19351
+        },
+        {
+          "title": "Newspaper - Mysteries Regarding The Event",
+          "revisionId": 19352
+        },
+        {
+          "title": "Newspaper - Mysterious Explosion",
+          "revisionId": 19353
+        },
+        {
+          "title": "Newspaper - Mysterious Lights",
+          "revisionId": 25004
+        },
+        {
+          "title": "Newspaper - National Cuisine in Tiger Bay Central",
+          "revisionId": 19355
+        },
+        {
+          "title": "Newspaper - Never Again!",
+          "revisionId": 19800
+        },
+        {
+          "title": "Newspaper - New Playground for the Elite",
+          "revisionId": 19804
+        },
+        {
+          "title": "Newspaper - Opening of Fort Raksmei",
+          "revisionId": 19358
+        },
+        {
+          "title": "Newspaper - Paradise Found",
+          "revisionId": 19359
+        },
+        {
+          "title": "Newspaper - Plans For The Future",
+          "revisionId": 19360
+        },
+        {
+          "title": "Newspaper - President Discovers Ancient Vase",
+          "revisionId": 19361
+        },
+        {
+          "title": "Newspaper - Raksmei Sayavong (1924-1996)",
+          "revisionId": 19362
+        },
+        {
+          "title": "Newspaper - Reds Seize Another Country!",
+          "revisionId": 19364
+        },
+        {
+          "title": "Newspaper - Slavers Shut Down",
+          "revisionId": 19366
+        },
+        {
+          "title": "Newspaper - Suburbs Controversy",
+          "revisionId": 25005
+        },
+        {
+          "title": "Newspaper - Terrorist Attack Near Fort Narith",
+          "revisionId": 19368
+        },
+        {
+          "title": "Newspaper - The Midnight Sapphire Miracle",
+          "revisionId": 19369
+        },
+        {
+          "title": "Newspaper - The Three Hundredth Anniversary",
+          "revisionId": 19978
+        },
+        {
+          "title": "Newspaper - The UN Is Allowing Lies to Spread",
+          "revisionId": 19371
+        },
+        {
+          "title": "Newspaper - The World is Watching",
+          "revisionId": 19372
+        },
+        {
+          "title": "Newspaper - There's no Reason to Panic",
+          "revisionId": 19373
+        },
+        {
+          "title": "Newspaper - Trial of the Nation's Traitors",
+          "revisionId": 19374
+        },
+        {
+          "title": "Newspaper - UN Concludes Lamang Evacuation",
+          "revisionId": 19375
+        },
+        {
+          "title": "Newspaper - United Nations Mission",
+          "revisionId": 19376
+        },
+        {
+          "title": "Newspaper - We Don’t Forget the Elderly in Lamang",
+          "revisionId": 19377
+        }
+      ]
+    },
+    {
       "name": "night_vision",
       "file": "night_vision.json",
       "itemCount": 5,
@@ -8435,7 +8926,7 @@
           "example": "0.338kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AN/PVS-14 Night Vision Device",
@@ -8492,7 +8983,7 @@
           "example": "Paper"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Shift Roster",
@@ -8623,7 +9114,7 @@
           "example": "0.055 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "A2 Pistol Grip",
@@ -8730,13 +9221,13 @@
     {
       "name": "plate_carriers",
       "file": "plate_carriers.json",
-      "itemCount": 17,
+      "itemCount": 18,
       "fields": {
         "armor_locations": {
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "Front"
@@ -8745,7 +9236,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": true,
           "nullable": false,
           "example": "3x3"
@@ -8754,7 +9245,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "burans-pantsir-2.0"
@@ -8763,7 +9254,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Plate6_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404185433"
@@ -8772,7 +9263,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 10,
+          "presentCount": 11,
           "optional": true,
           "nullable": false,
           "example": "3x3"
@@ -8781,7 +9272,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": true,
           "nullable": false,
           "example": "4M"
@@ -8790,7 +9281,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "Aramid"
@@ -8799,7 +9290,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "Buran's Pantsir 2.0"
@@ -8808,7 +9299,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "III"
@@ -8826,7 +9317,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": true,
           "nullable": false,
           "example": "12"
@@ -8835,7 +9326,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 15,
+          "presentCount": 16,
           "optional": true,
           "nullable": false,
           "example": "???"
@@ -8844,7 +9335,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 14,
+          "presentCount": 15,
           "optional": true,
           "nullable": false,
           "example": "Plate Carrier"
@@ -8853,13 +9344,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": true,
           "nullable": false,
           "example": "12.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "CGPC3 TQS",
@@ -8888,6 +9379,10 @@
         {
           "title": "LCS Sentry",
           "revisionId": 22600
+        },
+        {
+          "title": "LCS Sentry (UNLRA)",
+          "revisionId": 24290
         },
         {
           "title": "M2 Plate Carrier",
@@ -8991,7 +9486,7 @@
           "example": "0.010 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Provisions",
@@ -9002,47 +9497,69 @@
     {
       "name": "reading_intel",
       "file": "reading_intel.json",
-      "itemCount": 1,
+      "itemCount": 2,
       "fields": {
-        "id": {
+        "grid_size": {
           "types": [
             "string"
           ],
           "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 2,
           "optional": false,
           "nullable": false,
-          "example": "research-papers"
+          "example": "nb-research-notes"
         },
         "image": {
           "types": [
             "string"
           ],
-          "presentCount": 1,
+          "presentCount": 2,
           "optional": false,
           "nullable": false,
-          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Research_Papers_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404000525"
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/NB_ReNt_inspect.png/revision/latest/scale-to-width-down/268?cb=20260714040128"
         },
         "name": {
           "types": [
             "string"
           ],
-          "presentCount": 1,
+          "presentCount": 2,
           "optional": false,
           "nullable": false,
-          "example": "Research Papers"
+          "example": "NB Research Notes"
         },
         "type": {
           "types": [
             "string"
           ],
-          "presentCount": 1,
+          "presentCount": 2,
           "optional": false,
           "nullable": false,
-          "example": "Reading Intel"
+          "example": "Notebook"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
+        {
+          "title": "NB Research Notes",
+          "revisionId": 24993
+        },
         {
           "title": "Research Papers",
           "revisionId": 20147
@@ -9154,7 +9671,7 @@
           "example": "0.021 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AK Rear Iron Sight",
@@ -9235,6 +9752,127 @@
         {
           "title": "Type 51 Rear Iron Sight",
           "revisionId": 16449
+        }
+      ]
+    },
+    {
+      "name": "regions",
+      "file": "regions.json",
+      "itemCount": 12,
+      "fields": {
+        "description": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "Ban Pa is a region located in the east of Lamang island . Its main point of interest is the Ban Pa village, situated along the coast in the south-eastern part of the region. Ban Pa territory is controlled by the Naga Pirates , a pirate group from Malaysia who take their name from their leader: Naga ."
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "ban-pa"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Pha_Lang_Airfield_Large_Map.png/revision/latest/scale-to-width-down/200?cb=20240505145331"
+        },
+        "locals_type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "LAF Soldiers"
+        },
+        "lz_callsign": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "ALPHA"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "Ban Pa"
+        },
+        "tier": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": "1"
+        }
+      },
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
+      "sourcePages": [
+        {
+          "title": "Ban Pa",
+          "revisionId": 24645
+        },
+        {
+          "title": "Blue Lagoon",
+          "revisionId": 24636
+        },
+        {
+          "title": "Fort Narith",
+          "revisionId": 24804
+        },
+        {
+          "title": "Hunter's Paradise",
+          "revisionId": 24188
+        },
+        {
+          "title": "Kiu Vongsa",
+          "revisionId": 24813
+        },
+        {
+          "title": "Midnight Sapphire",
+          "revisionId": 24638
+        },
+        {
+          "title": "Nam Thaven",
+          "revisionId": 24807
+        },
+        {
+          "title": "Pha Lang",
+          "revisionId": 24810
+        },
+        {
+          "title": "Pha Lang Airfield",
+          "revisionId": 24198
+        },
+        {
+          "title": "Sawmill",
+          "revisionId": 24639
+        },
+        {
+          "title": "Tiger Bay",
+          "revisionId": 24640
+        },
+        {
+          "title": "YBL-1",
+          "revisionId": 24644
         }
       ]
     },
@@ -9334,7 +9972,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Call up Papers",
@@ -9548,7 +10186,7 @@
           "example": "1.500kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Equipment Repair Essentials Kit",
@@ -9672,7 +10310,7 @@
           "example": "0.300kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "6Sh104",
@@ -9723,13 +10361,13 @@
     {
       "name": "scopes",
       "file": "scopes.json",
-      "itemCount": 11,
+      "itemCount": 12,
       "fields": {
         "buy_price": {
           "types": [
             "string"
           ],
-          "presentCount": 4,
+          "presentCount": 5,
           "optional": true,
           "nullable": false,
           "example": "$1,990"
@@ -9738,7 +10376,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 1,
+          "presentCount": 2,
           "optional": true,
           "nullable": false,
           "example": "-8 %"
@@ -9747,7 +10385,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "acog-ta01nsn-4x32-assault-scope"
@@ -9756,7 +10394,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Viper_5x25_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612212727"
@@ -9765,7 +10403,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "1-6x"
@@ -9774,7 +10412,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "ELCAN"
@@ -9783,7 +10421,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "ACOG TA01NSN 4x32 Assault Scope"
@@ -9792,7 +10430,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "1,000m"
@@ -9819,16 +10457,16 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
-          "example": "Artisan R.2"
+          "example": "???"
         },
         "type": {
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "Scope"
@@ -9846,13 +10484,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "0.292 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "ACOG TA01NSN 4x32 Assault Scope",
@@ -9873,6 +10511,10 @@
         {
           "title": "PSO-1 4x24",
           "revisionId": 18189
+        },
+        {
+          "title": "RAZOR 1-10x Rifle Scope",
+          "revisionId": 24304
         },
         {
           "title": "RAZOR 1-6x Rifle Scope",
@@ -9933,7 +10575,7 @@
           "example": "Clawgear - Combat Operator (Black)"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Clawgear - Combat Operator",
@@ -10031,6 +10673,15 @@
           "nullable": false,
           "example": "A Shot in the Dark"
         },
+        "briefing": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 96,
+          "optional": false,
+          "nullable": false,
+          "example": "A Lamtel office located south of the mall in Tiger Bay has been linked to multiple digital fraud cases. Your task is to get inside, find a functioning terminal, and pull whatever records you can. While you're in there, keep your eyes open for anything that feels off, and find out what was really happening there. — Banshee — Banshee"
+        },
         "hidden_task": {
           "types": [
             "string"
@@ -10076,6 +10727,15 @@
           "nullable": false,
           "example": "A Shot in the Dark"
         },
+        "objectives": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 92,
+          "optional": true,
+          "nullable": false,
+          "example": "Bring the soil samples to Lab Rat Collect soil samples from the epicenter in Phousai Village Collect soil samples from the epicenter in Phousai Village Bring the tissue samples to Lab Rat Collect samples from the corpses in Phousai Village Collect samples from the corpses in Phousai Village Bring the LAF intel to Lab Rat Collect any LAF intel in Phousai Village Collect any LAF intel in Phousai Village"
+        },
         "task_type": {
           "types": [
             "string"
@@ -10095,7 +10755,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -10579,7 +11239,7 @@
           "example": "0.280 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "1911 Commander Slide",
@@ -10682,7 +11342,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Binary Choir",
@@ -10865,7 +11525,7 @@
           "example": "???kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Box of IDs",
@@ -11176,7 +11836,7 @@
           "example": "0.090 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AK Buffer Tube Adapter",
@@ -11343,7 +12003,7 @@
           "example": "0.087 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AK MOE Stock",
@@ -11738,7 +12398,7 @@
           "example": ".476 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "762-SD Suppressor",
@@ -11837,13 +12497,13 @@
     {
       "name": "tactical_devices",
       "file": "tactical_devices.json",
-      "itemCount": 11,
+      "itemCount": 12,
       "fields": {
         "buy_price": {
           "types": [
             "string"
           ],
-          "presentCount": 4,
+          "presentCount": 5,
           "optional": true,
           "nullable": false,
           "example": "$200"
@@ -11852,7 +12512,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "ade-advanced-red-laser"
@@ -11861,7 +12521,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 10,
+          "presentCount": 11,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/NcStar_Light_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530002005"
@@ -11870,7 +12530,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "ADE Advanced Optics"
@@ -11879,7 +12539,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "Flashlight Green laser"
@@ -11888,7 +12548,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "ADE Advanced Red Laser"
@@ -11897,7 +12557,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 10,
           "optional": true,
           "nullable": false,
           "example": "???"
@@ -11906,7 +12566,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "Tactical Device"
@@ -11924,17 +12584,21 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "0.032 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "ADE Advanced Red Laser",
           "revisionId": 16366
+        },
+        {
+          "title": "DBAL-I2",
+          "revisionId": 23491
         },
         {
           "title": "NcStar Compact Green Laser",
@@ -11981,13 +12645,13 @@
     {
       "name": "task_items",
       "file": "task_items.json",
-      "itemCount": 101,
+      "itemCount": 102,
       "fields": {
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 100,
+          "presentCount": 101,
           "optional": true,
           "nullable": false,
           "example": "1x1"
@@ -11996,7 +12660,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 101,
+          "presentCount": 102,
           "optional": false,
           "nullable": false,
           "example": "appeal-to-the-rebels"
@@ -12005,7 +12669,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 41,
+          "presentCount": 42,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Pilot_Logbook_inspect.png/revision/latest/scale-to-width-down/268?cb=20240602105125"
@@ -12014,7 +12678,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 101,
+          "presentCount": 102,
           "optional": false,
           "nullable": false,
           "example": "Appeal to the Rebels"
@@ -12041,13 +12705,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 100,
+          "presentCount": 101,
           "optional": true,
           "nullable": false,
           "example": ".010kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Appeal to the Rebels",
@@ -12438,6 +13102,10 @@
           "revisionId": 11135
         },
         {
+          "title": "VIP Client List",
+          "revisionId": 23320
+        },
+        {
           "title": "VIP Program Info",
           "revisionId": 11042
         },
@@ -12458,7 +13126,7 @@
     {
       "name": "tasks",
       "file": "tasks.json",
-      "itemCount": 249,
+      "itemCount": 250,
       "fields": {
         "alternate": {
           "types": [
@@ -12468,6 +13136,15 @@
           "optional": true,
           "nullable": false,
           "example": "A Shot in the Dark"
+        },
+        "briefing": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 249,
+          "optional": true,
+          "nullable": false,
+          "example": "A Lamtel office located south of the mall in Tiger Bay has been linked to multiple digital fraud cases. Your task is to get inside, find a functioning terminal, and pull whatever records you can. While you're in there, keep your eyes open for anything that feels off, and find out what was really happening there. — Banshee — Banshee"
         },
         "faction": {
           "types": [
@@ -12491,7 +13168,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 249,
+          "presentCount": 250,
           "optional": false,
           "nullable": false,
           "example": "a-shot-in-the-dark"
@@ -12500,7 +13177,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 249,
+          "presentCount": 250,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
@@ -12509,7 +13186,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 246,
+          "presentCount": 247,
           "optional": true,
           "nullable": false,
           "example": "Ban Pa"
@@ -12518,10 +13195,19 @@
           "types": [
             "string"
           ],
-          "presentCount": 249,
+          "presentCount": 250,
           "optional": false,
           "nullable": false,
           "example": "A Shot in the Dark"
+        },
+        "objectives": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 204,
+          "optional": true,
+          "nullable": false,
+          "example": "Ascertain the state of all official entrances into Fort Narith Check the barracks entrance Check the main entrance Check the fuel supply entrance Check the airfield back entrance Check the barracks entrance Check the main entrance Check the fuel supply entrance Check the airfield back entrance"
         },
         "task_type": {
           "types": [
@@ -12536,13 +13222,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 249,
+          "presentCount": 250,
           "optional": false,
           "nullable": false,
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -13429,6 +14115,10 @@
           "revisionId": 19064
         },
         {
+          "title": "Trifle",
+          "revisionId": 23848
+        },
+        {
           "title": "Troll Bridge",
           "revisionId": 24480
         },
@@ -13665,7 +14355,7 @@
           "example": "0.310kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "F-1",
@@ -13788,7 +14478,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Box of Supplies",
@@ -13857,7 +14547,7 @@
           "example": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
@@ -13956,7 +14646,7 @@
     {
       "name": "upcoming_content",
       "file": "upcoming_content.json",
-      "itemCount": 11,
+      "itemCount": 12,
       "fields": {
         "accepted_ammunition": {
           "types": [
@@ -14025,7 +14715,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "b-krogan"
@@ -14061,7 +14751,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "B Krogan"
@@ -14115,7 +14805,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 12,
           "optional": false,
           "nullable": false,
           "example": "Armor vest"
@@ -14130,7 +14820,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "B Krogan",
@@ -14159,6 +14849,10 @@
         {
           "title": "Mysterious codebook",
           "revisionId": 18774
+        },
+        {
+          "title": "Newspaper - 50 Years since liberation from Japan",
+          "revisionId": 18772
         },
         {
           "title": "Patrol backpack (Coyote)",
@@ -14265,7 +14959,7 @@
           "example": "0.104 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AK Ratnik Dust Cover",
@@ -14389,7 +15083,7 @@
           "example": "0.0001kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Dollars",
@@ -14448,7 +15142,7 @@
           "example": "Any"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Artisan",
@@ -14594,7 +15288,7 @@
           "example": "1.760kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "6B23-1(Digital)",
@@ -14752,7 +15446,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Allanach Single Malt Scotch - 40y",
@@ -14878,7 +15572,7 @@
           "example": "0.100 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "SIG MCX Pistol Grip",
@@ -15090,7 +15784,7 @@
           "example": "0.810 kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "AK-12",
@@ -15348,7 +16042,7 @@
           "example": "0.120kg"
         }
       },
-      "lastScrapedAt": "2026-10-11T14:01:30.724286Z",
+      "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
       "sourcePages": [
         {
           "title": "Acumulator Drill",
@@ -15417,6 +16111,6 @@
       ]
     }
   ],
-  "lastScrapedAt": "2026-10-11T14:34:50.522817Z",
-  "lastFullScrapeAt": "2026-10-11T14:01:30.724286Z"
+  "lastScrapedAt": "2026-10-11T15:32:04.006218Z",
+  "lastFullScrapeAt": "2026-10-11T15:32:04.006218Z"
 }

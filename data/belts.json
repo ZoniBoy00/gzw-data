@@ -33,6 +33,17 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/SFPack_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070347"
   },
   {
+    "name": "Custom Gear Lowpro Belt",
+    "id": "custom-gear-lowpro-belt",
+    "type": "Belt",
+    "weight": "0.250kg",
+    "grid_size": "2x1",
+    "sold_by": "Turncoat R.2",
+    "slots": "2",
+    "manufacturer": "Custom Gear",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Custom_Gear_Lowpro_Belt_inspect.png/revision/latest/scale-to-width-down/268?cb=20260402181622"
+  },
+  {
     "name": "Leather Belt",
     "id": "leather-belt",
     "type": "Belt",

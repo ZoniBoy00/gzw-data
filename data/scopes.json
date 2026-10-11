@@ -57,6 +57,19 @@
     "sighting_range": "500m"
   },
   {
+    "name": "RAZOR 1-10x Rifle Scope",
+    "id": "razor-1-10x-rifle-scope",
+    "type": "Scope",
+    "weight": "0.609 kg",
+    "sold_by": "???",
+    "buy_price": "$???",
+    "manufacturer": "Vortex Optics",
+    "ergonomics": "-8 %",
+    "magnification": "1x-10xx",
+    "sighting_range": "1,000m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Razor_1-10x_inspect.png/revision/latest/scale-to-width-down/268?cb=20260530165121"
+  },
+  {
     "name": "RAZOR 1-6x Rifle Scope",
     "id": "razor-1-6x-rifle-scope",
     "type": "Scope",
