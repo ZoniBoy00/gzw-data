@@ -6,7 +6,7 @@ const path = require('node:path');
 const { buildChanges } = require(path.join(__dirname, '..', 'lib', 'snapshots'));
 const { buildExport, MAX_EXPORT_RECORDS } = require(path.join(__dirname, '..', 'lib', 'export'));
 const { getLastScrapedAt } = require(path.join(__dirname, '..', 'lib', 'datasets'));
-const { summarizeMetadata, getSingleDatasetMetadata } = require(path.join(__dirname, '..', 'lib', 'metadata'));
+const { buildBasicMetadata, buildMetadata, getSingleDatasetMetadata } = require(path.join(__dirname, '..', 'lib', 'metadata'));
 
 // We test the API by simulating Vercel-like requests.
 // The api/index.js exports a (req, res) handler.
@@ -413,11 +413,13 @@ describe('GZW Data API', () => {
     };
     const asArray = name => data[name];
 
-    const summary = summarizeMetadata(data, asArray, scrapedAt);
+    const summary = buildBasicMetadata(data, scrapedAt);
+    const full = buildMetadata(data, asArray, scrapedAt);
     const dataset = summary.datasets.find(item => item.name === 'vests');
     const single = getSingleDatasetMetadata(data, asArray, scrapedAt, 'vests');
 
     assert.strictEqual(summary.lastFullScrapeAt, fullScrapedAt);
+    assert.strictEqual(full.lastFullScrapeAt, fullScrapedAt);
     assert.strictEqual(dataset.lastScrapedAt, scrapedAt);
     assert.deepStrictEqual(dataset.sourcePages, sourcePages);
     assert.deepStrictEqual(single.sourcePages, sourcePages);
