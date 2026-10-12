@@ -23,6 +23,9 @@ for (const page of legalPages) {
     const sitemap = fs.readFileSync(path.join(root, 'web/sitemap.xml'), 'utf8');
 
     assert.match(html, new RegExp(`<link\\s+rel=["']canonical["']\\s+href=["']${page.canonical}["']`));
+    assert.match(html, /<link\s+rel=["']stylesheet["']\s+href=["']\/assets\/legal\.css["']/);
+    assert.doesNotMatch(html, /<style\b/i);
+    assert.ok(fs.existsSync(path.join(root, 'web/assets/legal.css')));
     assert.equal(sitemap.split(page.canonical).length - 1, 1);
   });
 }
