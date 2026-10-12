@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-11T16:35:52.052072Z",
+  "generatedAt": "2026-10-12T15:45:06.812683Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -291,7 +291,7 @@
     "provisions": {
       "file": "provisions.json",
       "records": 37,
-      "sha256": "fba2e5adbc266db8c0b30b550849a8f41e94b8f19d453da52de0e730e471bf98"
+      "sha256": "97e950115330e0eb10512f1fff10e8c99fe876a28400a62870b7dbf1f40625e6"
     },
     "reading_intel": {
       "file": "reading_intel.json",
