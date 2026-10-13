@@ -13,6 +13,8 @@
   },
   "support": {
     "documentation": "https://gzw-data.dev/docs/",
+    "sdk_documentation": "https://gzw-data.dev/docs/sdk/",
+    "examples": "https://gzw-data.dev/docs/examples/",
     "source": "https://github.com/ZoniBoy00/gzw-data"
   },
   "updated": "2026-08-26"

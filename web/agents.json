@@ -3,6 +3,8 @@
   "description": "Free public Gray Zone Warfare game data API for developer tools, bots, dashboards, CLI workflows, and AI agents.",
   "homepage": "https://gzw-data.dev/",
   "documentation": "https://gzw-data.dev/docs/",
+  "sdk_documentation": "https://gzw-data.dev/docs/sdk/",
+  "examples": "https://gzw-data.dev/docs/examples/",
   "api_base": "https://gzw-data.dev/api/v1",
   "openapi": "https://gzw-data.dev/api/v1/spec",
   "authentication": {

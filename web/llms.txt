@@ -8,6 +8,8 @@ GZW Data is a read-only, public API for structured Gray Zone Warfare data. It pr
 
 - [Website](https://gzw-data.dev/): public project homepage and API overview.
 - [API documentation](https://gzw-data.dev/docs/): endpoint reference and integration guidance.
+- [JavaScript/TypeScript SDK guide](https://gzw-data.dev/docs/sdk/): install, quick start, live dataset discovery, type behavior, errors and examples.
+- [API examples](https://gzw-data.dev/docs/examples/): copyable cURL, JavaScript, TypeScript SDK and Python requests.
 - [OpenAPI specification](https://gzw-data.dev/api/v1/spec): machine-readable API contract.
 - [JavaScript/TypeScript client](https://www.npmjs.com/package/@zoniboy/gzw-data-client): zero-dependency client package.
 - [Source repository](https://github.com/ZoniBoy00/gzw-data): source code, issues, and contribution guide.
@@ -31,6 +33,20 @@ curl https://gzw-data.dev/api/v1/weapons
 curl https://gzw-data.dev/api/v1/tasks
 curl "https://gzw-data.dev/api/v1/search?q=ak-12"
 ```
+
+## JavaScript / TypeScript client
+
+```bash
+npm install @zoniboy/gzw-data-client
+```
+
+```ts
+import { GzwDataClient } from "@zoniboy/gzw-data-client";
+const gzw = new GzwDataClient();
+const page = await gzw.dataset("weapons").list({ page: 1, perPage: 20 });
+```
+
+`gzw.metadata()` returns the live dataset registry. New datasets work through `gzw.dataset(name)` without an npm release; editor autocomplete is a static TypeScript snapshot and updates only with a package type refresh.
 
 ## Core endpoints
 

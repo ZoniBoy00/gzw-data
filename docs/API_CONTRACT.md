@@ -4,6 +4,14 @@ This document describes the stable JSON envelopes exposed by `/api/v1`. The
 legacy `/api` prefix currently exposes the same contract, but new integrations
 should use the versioned prefix.
 
+For a human-readable endpoint reference, integration examples, and the official
+JavaScript/TypeScript client, start at [GZW Data documentation](https://gzw-data.dev/docs/).
+The [SDK guide](https://gzw-data.dev/docs/sdk/) covers runtime dataset discovery
+and the distinction between live API metadata and compile-time autocomplete.
+
+Examples below illustrate response shapes; counts and timestamps depend on the
+current data snapshot and response time.
+
 ## Common response metadata
 
 Successful and error responses include:

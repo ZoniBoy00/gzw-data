@@ -18,7 +18,10 @@
   ],
   "redirects": [
     { "source": "/privacy-policy", "destination": "/privacy-policy/", "permanent": true },
-    { "source": "/terms-of-service", "destination": "/terms-of-service/", "permanent": true }
+    { "source": "/terms-of-service", "destination": "/terms-of-service/", "permanent": true },
+    { "source": "/docs", "destination": "/docs/", "permanent": true },
+    { "source": "/docs/examples", "destination": "/docs/examples/", "permanent": true },
+    { "source": "/docs/sdk", "destination": "/docs/sdk/", "permanent": true }
   ],
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index.js" },
@@ -32,6 +35,8 @@
     { "source": "/docs/", "destination": "/web/docs/index.html" },
     { "source": "/docs/examples", "destination": "/web/docs/examples/index.html" },
     { "source": "/docs/examples/", "destination": "/web/docs/examples/index.html" },
+    { "source": "/docs/sdk", "destination": "/web/docs/sdk/index.html" },
+    { "source": "/docs/sdk/", "destination": "/web/docs/sdk/index.html" },
     { "source": "/playground", "destination": "/web/playground/index.html" },
     { "source": "/playground/", "destination": "/web/playground/index.html" },
     { "source": "/feedback", "destination": "/web/feedback/index.html" },

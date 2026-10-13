@@ -107,6 +107,7 @@ main { min-width: 0; padding: 48px clamp(22px, 5vw, 72px) 80px; }
 .hero-aside-label { margin-bottom: 9px; color: var(--subtle); font-size: 10px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .base-url { display: block; margin-bottom: 15px; color: var(--text); font-family: var(--mono); font-size: 12px; overflow-wrap: anywhere; }
 .button-row { display: flex; flex-wrap: wrap; gap: 9px; }
+.docs-action-row { margin-top: 14px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 37px; padding: 0 13px; border: 1px solid var(--line); border-radius: 8px; background: rgba(255,255,255,.04); color: var(--muted); font-size: 12px; font-weight: 700; text-decoration: none; cursor: pointer; }
 .button:hover { border-color: var(--line-strong); color: var(--text); }
 .button.primary { border-color: rgba(240,180,41,.4); background: var(--amber); color: #1c1607; }

@@ -5,12 +5,14 @@
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com/wiki/Gray_Zone_Warfare_Wiki) — covers **85+ game datasets** with automatic discovery of new ones.
+Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com/wiki/Gray_Zone_Warfare_Wiki) — covers a growing set of game datasets with automatic discovery of new ones.
 
 > **Free Gray Zone Warfare API for weapons, missions, loot, armor and game data.** No API key required.
 
 - **Live API:** https://gzw-data.dev/api/v1
 - **API Reference:** https://gzw-data.dev/docs/
+- **JavaScript / TypeScript SDK guide:** https://gzw-data.dev/docs/sdk/
+- **API examples:** https://gzw-data.dev/docs/examples/
 - **OpenAPI spec:** https://gzw-data.dev/api/v1/spec
 - **JavaScript / TypeScript client:** [@zoniboy/gzw-data-client](https://www.npmjs.com/package/@zoniboy/gzw-data-client)
 
@@ -36,6 +38,8 @@ The API includes a dark, responsive developer console for exploring live dataset
 - **API Playground:** https://gzw-data.dev/playground/
 - **Feedback desk:** https://gzw-data.dev/feedback/
 - **Quick start & API reference:** https://gzw-data.dev/docs/#quickstart
+- **JavaScript / TypeScript SDK guide:** https://gzw-data.dev/docs/sdk/
+- **Copyable API & SDK examples:** https://gzw-data.dev/docs/examples/
 - **OpenAPI spec:** https://gzw-data.dev/api/v1/spec
 - **API root:** https://gzw-data.dev/api/v1
 - **JavaScript / TypeScript client:** https://www.npmjs.com/package/@zoniboy/gzw-data-client
