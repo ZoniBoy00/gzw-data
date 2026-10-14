@@ -5,7 +5,7 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 ## Current status
 
 - **API version:** `v1`
-- **Implementation version:** `4.6.0` (deployment pending)
+- **Implementation version:** `4.6.0` (deployed and production-verified)
 - **Production API:** https://gzw-data.dev/api/v1
 - **Datasets:** use the live `/api/v1/stats` response; static dataset totals are intentionally not maintained
 - **Verification:** use the current GitHub Actions run; static test counts are intentionally not maintained
@@ -22,7 +22,7 @@ These are planning milestones, not promises to release without verified scope an
 - [x] Stable response envelopes, errors, metadata, schema, health, readiness, search, snapshots, and changes.
 - [x] Read-only public API with generated dataset discovery.
 
-Current prepared implementation: `4.6.0` (deployment pending).
+Current implementation: `4.6.0` (verified through the production `/api/v1/version` endpoint).
 
 ### `4.1.0` — contract and CI hardening
 
@@ -59,7 +59,7 @@ Current prepared implementation: `4.6.0` (deployment pending).
 - [x] Preserve dataset freshness metadata in summary and single-dataset routes.
 - [x] Retire the stale singular `plate_carrier` dataset; `plate_carriers` is canonical.
 
-### `4.6.0` — normalized values, ID compatibility, and monitoring (implementation complete; deployment pending)
+### `4.6.0` — normalized values, ID compatibility, and monitoring
 
 - [x] Add optional unit-aware numeric projections while retaining source strings.
 - [x] Support reviewed legacy record IDs through a validated alias registry.

@@ -61,7 +61,7 @@ Unknown routes use a matching custom 404 page with direct links back to the cons
 
 ## Changelog
 
-### v4.6.0 — numeric projections, ID aliases, and data monitoring (implementation complete; deployment pending)
+### v4.6.0 — numeric projections, ID aliases, and data monitoring
 
 - Adds optional `numeric_values` projections without changing scraped source fields.
 - Resolves explicitly reviewed legacy record IDs through a validated registry.
@@ -152,7 +152,7 @@ print(payload['data'])
 GZW Data exposes three separate version concepts:
 
 - `apiVersion`: public route contract, currently `v1`; only changes for breaking API changes.
-- `implementationVersion`: API implementation version in this source tree, currently `4.6.0`; production changes only after deployment.
+- `implementationVersion`: deployed API implementation release, currently `4.6.0`; follows semantic versioning for compatible features and fixes.
 - `dataVersion`: timestamp of the published scraper dataset; changes when data is refreshed.
 - `lastFullScrapeAt`: most recent completed full scrape; individual dataset freshness and MediaWiki revisions are available from `/api/v1/metadata`.
 

@@ -172,8 +172,7 @@ object containing `dataset`, `count`, and `maxRecords`. Exports are limited to
 ## Version semantics
 
 - `apiVersion` identifies the public route contract and is currently `v1`.
-- `implementationVersion` identifies compatible implementation releases; the
-  prepared source implementation is `4.6.0` (production deployment pending).
+- `implementationVersion` identifies compatible implementation releases; production currently reports `4.6.0`.
 - `dataVersion` identifies the current published scraper snapshot.
 - `lastFullScrapeAt` identifies the latest completed full-scrape run, distinct
   from the snapshot timestamp. Per-dataset `lastScrapedAt` values identify when
