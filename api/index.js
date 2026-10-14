@@ -9,6 +9,7 @@ const { buildBasicMetadata, buildRegistryMetadata, getMetadata, getSingleDataset
 const { buildSnapshot, getSnapshotHistory, buildChanges } = require('../lib/snapshots');
 const { MAX_EXPORT_RECORDS, buildExport } = require('../lib/export');
 const { API_VERSION, IMPLEMENTATION_VERSION } = require('../lib/version');
+const { resolveIdAlias } = require('../lib/id-aliases');
 
 loadDatasets();
 setDataVersion(getLastScrapedAt());
@@ -16,7 +17,9 @@ setDataVersion(getLastScrapedAt());
 // ─── Related data helpers ───
 
 function findRecord(datasetName, recordId) {
-  return asArray(datasetName).find(item => String(item.id) === recordId) || null;
+  const canonicalId = resolveIdAlias(datasets._id_aliases, datasetName, recordId);
+  if (typeof canonicalId !== 'string' || !canonicalId) return null;
+  return asArray(datasetName).find(item => String(item.id) === canonicalId) || null;
 }
 
 function normalized(value) {
@@ -166,7 +169,7 @@ function handleRoute(route, params, res, rateInfo) {
     const datasetName = decodeRoutePart(routeParts.shift());
     const recordId = routeParts.map(decodeRoutePart).join('/');
     if (Object.hasOwn(datasets, datasetName) && !Object.hasOwn(SMART_ROUTES, datasetName)) {
-      const record = asArray(datasetName).find(item => String(item.id) === recordId);
+      const record = findRecord(datasetName, recordId);
       setHeaders(res, rateInfo, CACHE_TTL_SEC);
       if (!record) {
         return errorResponse(res, 404, 'RECORD_NOT_FOUND', 'Record not found', {

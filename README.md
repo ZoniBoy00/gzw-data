@@ -2,7 +2,7 @@
 
 **Gray Zone Warfare** — Comprehensive fan-made game data repository & API.
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Code license](https://img.shields.io/badge/code%20license-MIT-blue)](LICENSE)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
 Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com/wiki/Gray_Zone_Warfare_Wiki) — covers a growing set of game datasets with automatic discovery of new ones.
@@ -55,11 +55,24 @@ npm run dev:server
 
 This serves the console at `http://127.0.0.1:4173/`, the Playground at `/playground/`, the Feedback desk at `/feedback/`, and the local API at `/api/v1/health`.
 
-The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The official zero-dependency client supports Node.js 18+, modern browsers, JavaScript and TypeScript.
+The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The published `@zoniboy/gzw-data-client` 0.7.3 supports Node.js 18+, while the current repository source and next release target Node.js 22+ and modern browsers. New API data remains available at runtime without an npm release.
 
 Unknown routes use a matching custom 404 page with direct links back to the console, Quick start and API root.
 
 ## Changelog
+
+### v4.6.0 — numeric projections, ID aliases, and data monitoring (implementation complete; deployment pending)
+
+- Adds optional `numeric_values` projections without changing scraped source fields.
+- Resolves explicitly reviewed legacy record IDs through a validated registry.
+- Adds daily full-scrape freshness monitoring and stale-data issue recovery.
+- Moves CI and the API runtime floor to Node.js 22+; CI verifies Node 22 and 24.
+
+### v4.5.0 — dataset freshness and source provenance
+
+- Exposes per-dataset `lastScrapedAt` timestamps and source-page revisions in metadata.
+- Adds and preserves `lastFullScrapeAt` across metadata summary and single-dataset routes.
+- Retires the singular `plate_carrier` dataset; `plate_carriers` is canonical.
 
 ### v4.4.0 — API contract documentation
 
@@ -82,7 +95,7 @@ Both prefixes currently expose the same API contract. New integrations should pr
 |----------|-------------|
 | `/api/v1` | API root — lists all endpoints |
 | `/api/v1/<dataset>` | Any dataset by name (auto-discovered) |
-| `/api/v1/<dataset>/<id>` | One dataset record by exact ID |
+| `/api/v1/<dataset>/<id>` | One dataset record by canonical ID or a reviewed legacy alias |
 | `/api/v1/metadata` | Dataset schema registry (field names and counts) |
 | `/api/v1/metadata/<dataset>` | Detailed schema metadata for one dataset |
 | `/api/v1/schema/<dataset>` | Machine-readable schema for one dataset |
@@ -107,6 +120,7 @@ Both prefixes currently expose the same API contract. New integrations should pr
 - [Architecture](docs/ARCHITECTURE.md)
 - [API response contract](docs/API_CONTRACT.md)
 - [Contributing guide](CONTRIBUTING.md)
+- [Data sources and licensing](DATA_LICENSE.md)
 
 The scraper publishes a `_manifest.json` file with per-dataset record counts and SHA-256 checksums. CI validates dataset JSON and generated metadata before changes can be merged.
 
@@ -138,7 +152,7 @@ print(payload['data'])
 GZW Data exposes three separate version concepts:
 
 - `apiVersion`: public route contract, currently `v1`; only changes for breaking API changes.
-- `implementationVersion`: API implementation release, currently `4.5.0`; follows semantic versioning for compatible features and fixes.
+- `implementationVersion`: API implementation version in this source tree, currently `4.6.0`; production changes only after deployment.
 - `dataVersion`: timestamp of the published scraper dataset; changes when data is refreshed.
 - `lastFullScrapeAt`: most recent completed full scrape; individual dataset freshness and MediaWiki revisions are available from `/api/v1/metadata`.
 
@@ -280,24 +294,25 @@ Unknown IDs return `404` with the dataset and requested ID in the response.
 
 ## Data Files
 
-Every `.json` file in `data/` is auto-discovered and becomes an API endpoint. **New categories appear automatically** — no code changes needed.
+Every non-underscore dataset `.json` file in `data/` is auto-discovered and becomes an API endpoint. **New categories appear automatically** — no code changes needed. Dataset names and counts are intentionally read from the live API instead of being copied into a static table.
 
-| Category | Files | Items |
-|----------|-------|-------|
-| Weapons | `weapons.json` | 44+ |
-| Ammo | `ammo.json` | 67+ |
-| Armor | `vests.json`, `helmets.json` | 60+ |
-| Backpacks | `backpacks.json` | 17+ |
-| Keys | `keys.json`, `keycards.json` | 124+ |
-| Tasks | `tasks.json` | 130+ |
-| Medical | `medical.json` | 34+ |
-| Weapon parts | `barrels.json`, `stocks.json`, `magazines.json`, etc. | 200+ |
-| Wearables | `glasses.json`, `face_cover.json`, `headsets.json`, etc. | 100+ |
-| Loot | `loot_items.json` | 120+ |
+| Category | Example files |
+|----------|---------------|
+| Weapons and ammunition | `weapons.json`, `ammo.json` |
+| Armor and equipment | `vests.json`, `helmets.json`, `backpacks.json` |
+| Keys and tasks | `keys.json`, `keycards.json`, `tasks.json` |
+| Weapon parts and wearables | `barrels.json`, `stocks.json`, `magazines.json`, `glasses.json` |
+| Loot and supplies | `loot_items.json`, `medical.json` |
+
+Original source values remain unchanged. Where a field is an unambiguous number with a recognized unit, records may also include `numeric_values.<field> = { value, unit }`. Ambiguous comma-decimal strings, ranges, unitless text, and unrecognized units are not normalized. Metadata describes the actual API response shape.
+
+Record `id` values remain canonical. A renamed record's former ID is kept only when maintainers add a reviewed old-ID-to-current-ID entry in `data/_id_aliases.json`; aliases are not inferred from name similarity. The API resolves a registered alias to the canonical record.
+
+Data and code have separate licensing scope; see [Data sources and licensing](DATA_LICENSE.md).
 
 ## Automation
 
-Scraper runs every Monday at 06:00 UTC via GitHub Actions. Data is validated before commit — corrupt or empty datasets are rejected.
+The scraper runs every Monday at 06:17 UTC via GitHub Actions. It validates the generated data and API tests, then opens a reviewable pull request against `gzw-data` rather than pushing scraped output directly to `main`. The cross-repository handoff requires the `GH_PAT` Actions secret in the scraper repository.
 
 ## Response Format
 

@@ -1,5 +1,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
+const { validateIdAliases } = require('../lib/id-aliases');
 
 const ROOT = path.join(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
@@ -7,6 +8,7 @@ const metadata = JSON.parse(fs.readFileSync(path.join(DATA_DIR, '_metadata.json'
 const listed = new Map(Array.isArray(metadata.datasets) ? metadata.datasets.map(dataset => [dataset.name, dataset]) : []);
 const files = fs.readdirSync(DATA_DIR).filter(file => file.endsWith('.json') && !file.startsWith('_'));
 const errors = [];
+const dataByName = Object.create(null);
 
 function countRecords(value) {
   if (Array.isArray(value)) return value.length;
@@ -25,6 +27,7 @@ for (const file of files) {
   let value;
   try {
     value = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf8'));
+    dataByName[name] = value;
   } catch (error) {
     errors.push(`${file}: invalid JSON (${error.message})`);
     continue;
@@ -50,6 +53,14 @@ for (const file of files) {
       if (!declared.includes(valueType(fieldValue))) errors.push(`${name}.${field}: type ${valueType(fieldValue)} not declared`);
     }
   }
+}
+
+const aliasFile = path.join(DATA_DIR, '_id_aliases.json');
+try {
+  const aliases = JSON.parse(fs.readFileSync(aliasFile, 'utf8'));
+  errors.push(...validateIdAliases(aliases, dataByName));
+} catch (error) {
+  errors.push(`_id_aliases.json: missing or invalid JSON (${error.message})`);
 }
 
 for (const [name, entry] of listed) {

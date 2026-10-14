@@ -5,7 +5,7 @@ const assert = require('node:assert');
 const path = require('node:path');
 const { buildChanges } = require(path.join(__dirname, '..', 'lib', 'snapshots'));
 const { buildExport, MAX_EXPORT_RECORDS } = require(path.join(__dirname, '..', 'lib', 'export'));
-const { getLastScrapedAt } = require(path.join(__dirname, '..', 'lib', 'datasets'));
+const { datasets, getLastScrapedAt } = require(path.join(__dirname, '..', 'lib', 'datasets'));
 const { buildBasicMetadata, buildMetadata, getSingleDatasetMetadata } = require(path.join(__dirname, '..', 'lib', 'metadata'));
 
 // We test the API by simulating Vercel-like requests.
@@ -78,6 +78,41 @@ describe('GZW Data API', () => {
     handler(mockReq('/api/v1/metadata/weapons'), metadata.res);
     assert.strictEqual(metadata.getStatus(), 200);
     assert.strictEqual(metadata.getBody().data.name, 'weapons');
+  });
+
+  it('resolves a reviewed legacy record ID to the canonical record', () => {
+    const previousAliases = datasets._id_aliases;
+    datasets._id_aliases = {
+      schemaVersion: 1,
+      datasets: { weapons: { 'ak-12-legacy': 'ak-12' } },
+    };
+    try {
+      const legacyRecord = mockRes();
+      handler(mockReq('/api/v1/weapons/ak-12-legacy'), legacyRecord.res);
+      assert.strictEqual(legacyRecord.getStatus(), 200);
+      assert.strictEqual(legacyRecord.getBody().data.id, 'ak-12');
+    } finally {
+      if (previousAliases === undefined) delete datasets._id_aliases;
+      else datasets._id_aliases = previousAliases;
+    }
+  });
+
+  it('returns additive numeric projections while preserving original values', () => {
+    const record = mockRes();
+    handler(mockReq('/api/v1/weapons/ak-12'), record.res);
+    assert.strictEqual(record.getStatus(), 200);
+    assert.strictEqual(record.getBody().data.weight, '3.553 kg');
+    assert.deepStrictEqual(record.getBody().data.numeric_values.weight, { value: 3.553, unit: 'kg' });
+    assert.deepStrictEqual(record.getBody().data.numeric_values.fire_rate, { value: 700, unit: 'rpm' });
+
+    const metadata = mockRes();
+    handler(mockReq('/api/v1/metadata/weapons'), metadata.res);
+    assert.ok(metadata.getBody().data.fields.numeric_values.types.includes('object'));
+
+    const fullMetadata = mockRes();
+    handler(mockReq('/api/v1/metadata?full=true'), fullMetadata.res);
+    const weaponsMetadata = fullMetadata.getBody().data.datasets.find(dataset => dataset.name === 'weapons');
+    assert.ok(weaponsMetadata.fields.numeric_values.types.includes('object'));
   });
 
   it('should return API root on GET /api', () => {
@@ -154,7 +189,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().data.ok, true);
     assert.strictEqual(getBody().data.status, 'ok');
     assert.strictEqual(getBody().data.apiVersion, 'v1');
-    assert.strictEqual(getBody().data.implementationVersion, '4.5.0');
+    assert.strictEqual(getBody().data.implementationVersion, '4.6.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'datasets'));
     assert.ok(!Object.prototype.hasOwnProperty.call(getBody().data, 'lastScrapedAt'));
     assert.ok(typeof getBody().dataVersion === 'string');
@@ -397,7 +432,7 @@ describe('GZW Data API', () => {
     const version = getBody().data;
     assert.strictEqual(version.api, 'GZW Data API');
     assert.strictEqual(version.apiVersion, 'v1');
-    assert.strictEqual(version.implementationVersion, '4.5.0');
+    assert.strictEqual(version.implementationVersion, '4.6.0');
     assert.ok(!Object.prototype.hasOwnProperty.call(version, 'version'));
     assert.strictEqual(version.baseUrl, 'https://gzw-data.dev/api/v1');
     assert.strictEqual(version.openapi, 'https://gzw-data.dev/api/v1/spec');
@@ -663,7 +698,7 @@ describe('GZW Data API', () => {
       handler(mockReq('/api'), r);
     }
 
-    const { res, getStatus, getBody } = mockRes();
+    const { res, getStatus, getHeader, getBody } = mockRes();
     handler(mockReq('/api'), res);
     const status = getStatus();
     if (status === 429) {
@@ -671,6 +706,7 @@ describe('GZW Data API', () => {
       assert.strictEqual(body.error.code, 'RATE_LIMITED');
       assert.ok(body.error.message.includes('Rate limit'));
       assert.ok(body.error.retryAfter > 0);
+      assert.ok(Number(getHeader('retry-after')) > 0);
     } else {
       assert.strictEqual(status, 200);
     }

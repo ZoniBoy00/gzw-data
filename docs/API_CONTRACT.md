@@ -8,6 +8,8 @@ For a human-readable endpoint reference, integration examples, and the official
 JavaScript/TypeScript client, start at [GZW Data documentation](https://gzw-data.dev/docs/).
 The [SDK guide](https://gzw-data.dev/docs/sdk/) covers runtime dataset discovery
 and the distinction between live API metadata and compile-time autocomplete.
+See [data sources and licensing](../DATA_LICENSE.md) for the distinction
+between the MIT-licensed code and third-party data or assets.
 
 Examples below illustrate response shapes; counts and timestamps depend on the
 current data snapshot and response time.
@@ -54,7 +56,8 @@ array and `count` remains its length.
 
 ## Single-record responses
 
-A successful exact-ID request returns one object in `data`, not an array:
+A successful canonical-ID request, or a reviewed legacy alias, returns one object
+in `data`, not an array:
 
 ```http
 GET /api/v1/weapons/ak-12
@@ -72,7 +75,13 @@ GET /api/v1/weapons/ak-12
 }
 ```
 
-Unknown IDs return `404` with `RECORD_NOT_FOUND`.
+Unknown IDs return `404` with `RECORD_NOT_FOUND`. Records preserve their original
+source values. An additive `numeric_values` object may expose only unambiguous,
+unit-bearing numeric projections, for example `weight: { value: 3.553, unit: "kg" }`;
+ambiguous formats and unrecognized units are skipped. When a reviewed legacy ID
+is requested, the response contains the record's canonical current `id`. Legacy
+aliases are explicit entries in `data/_id_aliases.json`; they are never inferred
+from similar names.
 
 ## Metadata and schema responses
 
@@ -164,7 +173,7 @@ object containing `dataset`, `count`, and `maxRecords`. Exports are limited to
 
 - `apiVersion` identifies the public route contract and is currently `v1`.
 - `implementationVersion` identifies compatible implementation releases; the
-  current implementation is `4.5.0`.
+  prepared source implementation is `4.6.0` (production deployment pending).
 - `dataVersion` identifies the current published scraper snapshot.
 - `lastFullScrapeAt` identifies the latest completed full-scrape run, distinct
   from the snapshot timestamp. Per-dataset `lastScrapedAt` values identify when

@@ -26,7 +26,7 @@ Scraper/parser changes belong in the [`gzw-scraper`](https://github.com/ZoniBoy0
 
 Requirements:
 
-- Node.js 18 or newer
+- Node.js 22 or newer
 - npm
 
 Install dependencies if the repository has them available locally:

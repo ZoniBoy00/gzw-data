@@ -1,0 +1,75 @@
+name: Monitor published data freshness
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Check published full-scrape timestamp
+        id: check
+        env:
+          GZW_VERSION_URL: https://gzw-data.dev/api/v1/version
+          MAX_DATA_AGE_DAYS: '10'
+        run: node scripts/check-data-freshness.js
+
+      - name: Create or update stale-data alert
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LAST_FULL_SCRAPE_AT: ${{ steps.check.outputs.last_full_scrape_at }}
+          DATA_AGE_DAYS: ${{ steps.check.outputs.age_days }}
+          CHECK_REASON: ${{ steps.check.outputs.reason }}
+        run: |
+          printf 'The public GZW Data API freshness check needs attention.\n\n- Reason: %s\n- Last full scrape: %s\n- Data age in days: %s\n- Workflow run: %s/%s/actions/runs/%s\n' \
+            "${CHECK_REASON:-probe_failed}" \
+            "${LAST_FULL_SCRAPE_AT:-unknown}" \
+            "${DATA_AGE_DAYS:-unknown}" \
+            "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" \
+            > freshness-alert.md
+
+          title='[data-monitor] Published dataset freshness'
+          issue_number=$(gh issue list \
+            --repo "$GITHUB_REPOSITORY" \
+            --state open \
+            --limit 100 \
+            --json number,title \
+            --jq 'map(select(.title == "[data-monitor] Published dataset freshness")) | if length > 0 then .[0].number else empty end')
+
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --repo "$GITHUB_REPOSITORY" --body-file freshness-alert.md
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file freshness-alert.md
+          fi
+
+      - name: Close stale-data alert after recovery
+        if: success() && steps.check.outputs.stale == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LAST_FULL_SCRAPE_AT: ${{ steps.check.outputs.last_full_scrape_at }}
+        run: |
+          title='[data-monitor] Published dataset freshness'
+          issue_number=$(gh issue list \
+            --repo "$GITHUB_REPOSITORY" \
+            --state open \
+            --limit 100 \
+            --json number,title \
+            --jq 'map(select(.title == "[data-monitor] Published dataset freshness")) | if length > 0 then .[0].number else empty end')
+
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --repo "$GITHUB_REPOSITORY" --body "Freshness recovered; last full scrape is ${LAST_FULL_SCRAPE_AT}. Closing this alert."
+            gh issue close "$issue_number" --repo "$GITHUB_REPOSITORY"
+          fi

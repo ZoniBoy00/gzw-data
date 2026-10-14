@@ -5,10 +5,10 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 ## Current status
 
 - **API version:** `v1`
-- **Implementation version:** `4.5.0`
+- **Implementation version:** `4.6.0` (deployment pending)
 - **Production API:** https://gzw-data.dev/api/v1
-- **Datasets:** 84 auto-discovered JSON datasets
-- **Tests:** 56 API tests passing on 2026-10-11
+- **Datasets:** use the live `/api/v1/stats` response; static dataset totals are intentionally not maintained
+- **Verification:** use the current GitHub Actions run; static test counts are intentionally not maintained
 - **License:** MIT
 - **Authentication:** none required for the public read-only API
 
@@ -22,7 +22,7 @@ These are planning milestones, not promises to release without verified scope an
 - [x] Stable response envelopes, errors, metadata, schema, health, readiness, search, snapshots, and changes.
 - [x] Read-only public API with generated dataset discovery.
 
-Current implementation: `4.5.0`.
+Current prepared implementation: `4.6.0` (deployment pending).
 
 ### `4.1.0` — contract and CI hardening
 
@@ -58,6 +58,14 @@ Current implementation: `4.5.0`.
 - [x] Distinguish the most recent full scrape with `lastFullScrapeAt`.
 - [x] Preserve dataset freshness metadata in summary and single-dataset routes.
 - [x] Retire the stale singular `plate_carrier` dataset; `plate_carriers` is canonical.
+
+### `4.6.0` — normalized values, ID compatibility, and monitoring (implementation complete; deployment pending)
+
+- [x] Add optional unit-aware numeric projections while retaining source strings.
+- [x] Support reviewed legacy record IDs through a validated alias registry.
+- [x] Monitor full-scrape freshness and recover stale-data alerts.
+- [x] Align CI and the runtime floor with Node.js 22+; verify Node 22 and 24.
+- [x] Document code/data license scope and source attribution.
 
 ### `5.0.0` — breaking API line, only if required
 
