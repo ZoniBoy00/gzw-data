@@ -11,7 +11,17 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$61",
     "sell_price": "$22",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/F-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507093620"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/F-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507093620",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      },
+      "radius": {
+        "value": 6.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "M18 Smoke Grenade (Green)",
@@ -24,7 +34,13 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$37",
     "sell_price": "$11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/M18%28Green%29_inspect.png/revision/latest?cb=20250617160132"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/M18%28Green%29_inspect.png/revision/latest?cb=20250617160132",
+    "numeric_values": {
+      "weight": {
+        "value": 0.539,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M18 Smoke Grenade (Red)",
@@ -37,7 +53,13 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$37",
     "sell_price": "$11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/M18%28Red%29_inspect.png/revision/latest?cb=20250617155946"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/M18%28Red%29_inspect.png/revision/latest?cb=20250617155946",
+    "numeric_values": {
+      "weight": {
+        "value": 0.539,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M18 Smoke Grenade (Yellow)",
@@ -50,7 +72,13 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$37",
     "sell_price": "$11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/M18%28Yellow%29_inspect.png/revision/latest?cb=20250617155840"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/M18%28Yellow%29_inspect.png/revision/latest?cb=20250617155840",
+    "numeric_values": {
+      "weight": {
+        "value": 0.539,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M26",
@@ -64,7 +92,17 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$62",
     "sell_price": "$18",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ce/M26_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617160745"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ce/M26_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617160745",
+    "numeric_values": {
+      "weight": {
+        "value": 0.453,
+        "unit": "kg"
+      },
+      "radius": {
+        "value": 5.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "M67",
@@ -78,7 +116,17 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$61",
     "sell_price": "$18",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/M67_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617160806"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/M67_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617160806",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      },
+      "radius": {
+        "value": 15.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "M84 Stun Grenade",
@@ -91,7 +139,13 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$41",
     "sell_price": "$12",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/M84_inspect.png/revision/latest?cb=20250617160429"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/M84_inspect.png/revision/latest?cb=20250617160429",
+    "numeric_values": {
+      "weight": {
+        "value": 0.37,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "RGD-5",
@@ -103,6 +157,16 @@
     "fragment_count": "350",
     "manufacturer": "Russian Army",
     "sell_price": "$14",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ce/RDG-5_inspect.png/revision/latest/scale-to-width-down/267?cb=20240507075427"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ce/RDG-5_inspect.png/revision/latest/scale-to-width-down/267?cb=20240507075427",
+    "numeric_values": {
+      "weight": {
+        "value": 0.31,
+        "unit": "kg"
+      },
+      "radius": {
+        "value": 3.0,
+        "unit": "m"
+      }
+    }
   }
 ]

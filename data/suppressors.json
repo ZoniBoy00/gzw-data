@@ -11,7 +11,29 @@
     "accuracy_modifier": "+5 %",
     "loudness_reduction": "+20 %",
     "muzzle_device_efficiency": "+5 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/762-SD_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727204929"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/762-SD_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727204929",
+    "numeric_values": {
+      "weight": {
+        "value": 0.652,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -6.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK-12 Suppressor",
@@ -25,7 +47,29 @@
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+18 %",
     "muzzle_device_efficiency": "+5 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.62,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -2.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 18.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK-15 Suppressor",
@@ -38,7 +82,29 @@
     "weapon_handling": "-2 %",
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+17 %",
-    "muzzle_device_efficiency": "+5 %"
+    "muzzle_device_efficiency": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.62,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -2.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 17.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "BANISH 45 Suppressor",
@@ -52,7 +118,29 @@
     "accuracy_modifier": "+2 %",
     "loudness_reduction": "+23 %",
     "muzzle_device_efficiency": "+5.0 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.272,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -5.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 23.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DTSS Suppressor",
@@ -64,7 +152,25 @@
     "weapon_handling": "-5 %",
     "loudness_reduction": "+22 %",
     "muzzle_device_efficiency": "+7.0 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/DTSS_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612003701"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/DTSS_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612003701",
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -5.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 22.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "HK MP5SD 9mm Suppressor",
@@ -77,7 +183,29 @@
     "accuracy_modifier": "+2.0 %",
     "loudness_reduction": "+57 %",
     "muzzle_device_efficiency": "+5.0 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.476,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -3.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 57.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Mosin-Nagant Bramit Suppressor",
@@ -90,7 +218,29 @@
     "weapon_handling": "-4 %",
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+21 %",
-    "muzzle_device_efficiency": "+5 %"
+    "muzzle_device_efficiency": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.765,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 21.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "MP7 Rotex Suppressor",
@@ -102,7 +252,21 @@
     "manufacturer": "B&T",
     "loudness_reduction": "+21 %",
     "muzzle_device_efficiency": "+7 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.607,
+        "unit": "kg"
+      },
+      "loudness_reduction": {
+        "value": 21.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "PBS-01 Suppressor",
@@ -116,7 +280,29 @@
     "loudness_reduction": "+9 %",
     "muzzle_device_efficiency": "+3 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ad/PBS-01_Suppressor.png/revision/latest/scale-to-width-down/268?cb=20260416000810"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ad/PBS-01_Suppressor.png/revision/latest/scale-to-width-down/268?cb=20260416000810",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 9.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "PBS-04 Suppressor",
@@ -129,7 +315,29 @@
     "accuracy_modifier": "+2 %",
     "loudness_reduction": "+16 %",
     "muzzle_device_efficiency": "+3 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/PBS-04_Suppressor.png/revision/latest/scale-to-width-down/268?cb=20260415190417"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/PBS-04_Suppressor.png/revision/latest/scale-to-width-down/268?cb=20260415190417",
+    "numeric_values": {
+      "weight": {
+        "value": 0.86,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -5.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 16.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "QDSS NT4 Suppressor",
@@ -142,7 +350,29 @@
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+17 %",
     "muzzle_device_efficiency": "+5 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/QDSS_NT4_Suppressor.png/revision/latest/scale-to-width-down/268?cb=20251110211546"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/QDSS_NT4_Suppressor.png/revision/latest/scale-to-width-down/268?cb=20251110211546",
+    "numeric_values": {
+      "weight": {
+        "value": 0.62,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 17.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "QDSS NT4 Suppressor (FDE)",
@@ -154,7 +384,29 @@
     "weapon_handling": "-4 %",
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+17 %",
-    "muzzle_device_efficiency": "+5 %"
+    "muzzle_device_efficiency": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.62,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 17.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Salvo 12 Suppressor",
@@ -168,7 +420,29 @@
     "accuracy_modifier": "+5 %",
     "loudness_reduction": "+15 %",
     "muzzle_device_efficiency": "+7 %",
-    "size_change_horizontal": "+2"
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.555,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -10.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 15.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SIG Suppressor SRD556",
@@ -180,7 +454,25 @@
     "weapon_handling": "-4.0 %",
     "accuracy_modifier": "+5.0 %",
     "loudness_reduction": "-18 %",
-    "muzzle_device_efficiency": "+7.0 %"
+    "muzzle_device_efficiency": "+7.0 %",
+    "numeric_values": {
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": -18.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SLH300TI-QD Suppressor",
@@ -193,7 +485,21 @@
     "loudness_reduction": "+28 %",
     "muzzle_device_efficiency": "+7 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/SLH300_QD_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620014405"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/SLH300_QD_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620014405",
+    "numeric_values": {
+      "weight": {
+        "value": 0.453,
+        "unit": "kg"
+      },
+      "loudness_reduction": {
+        "value": 28.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SLH762-QD Suppressor",
@@ -206,7 +512,29 @@
     "weapon_handling": "-7 %",
     "accuracy_modifier": "+6 %",
     "loudness_reduction": "+18 %",
-    "muzzle_device_efficiency": "+7 %"
+    "muzzle_device_efficiency": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.598,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -7.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 18.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SOCOM556 RC1 Suppressor",
@@ -220,7 +548,29 @@
     "loudness_reduction": "+20 %",
     "muzzle_device_efficiency": "+7 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/RC1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616235055"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/RC1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616235055",
+    "numeric_values": {
+      "weight": {
+        "value": 0.453,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 4.0,
+        "unit": "moa"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SOCOM556 RC1 Suppressor (FDE)",
@@ -233,7 +583,29 @@
     "weapon_handling": "-4 %",
     "loudness_reduction": "+20 %",
     "muzzle_device_efficiency": "+7 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.453,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 4.0,
+        "unit": "moa"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SVD Rotor 43 Suppressor 7.62х54 R",
@@ -244,7 +616,21 @@
     "manufacturer": "General East",
     "loudness_reduction": "+17 %",
     "muzzle_device_efficiency": "+7 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.9,
+        "unit": "kg"
+      },
+      "loudness_reduction": {
+        "value": 17.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Type 51 Suppressor",
@@ -273,7 +659,13 @@
     "accuracy_modifier": "+3,0 %",
     "loudness_reduction": "+30 %",
     "muzzle_device_efficiency": "+6,0 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "loudness_reduction": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "VLC 556 MARK 1 Suppressor",
@@ -287,7 +679,29 @@
     "accuracy_modifier": "+2 %",
     "loudness_reduction": "+15 %",
     "muzzle_device_efficiency": "+4 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.68,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "loudness_reduction": {
+        "value": 15.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Vz. 61 TOS Suppressor",

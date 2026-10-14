@@ -6,7 +6,13 @@
     "weight": "0.085 kg",
     "sold_by": "Turncoat R.1",
     "buy_price": "$7",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.085,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AKM Gas Tube",
@@ -16,7 +22,13 @@
     "weight": "0.085 kg",
     "sold_by": "Artisan R.1",
     "buy_price": "$10",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.085,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AKS-74U Gas Tube",
@@ -25,7 +37,13 @@
     "weight": "0.045 kg",
     "sold_by": "Turncoat R.1",
     "buy_price": "$68",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AR-15 JPGS-10D Gas Block",
@@ -35,7 +53,21 @@
     "sold_by": "Gunny R.3",
     "manufacturer": "General West",
     "fire_rate": "+6 %",
-    "muzzle_device_efficiency": "+7 %"
+    "muzzle_device_efficiency": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.068,
+        "unit": "kg"
+      },
+      "fire_rate": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "CQA1 Standard Gas Block",
@@ -45,7 +77,17 @@
     "sold_by": "Gunny R.1",
     "manufacturer": "Norinco",
     "muzzle_device_efficiency": "-2.0 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/CQA1_Gas_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614170027"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/CQA1_Gas_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614170027",
+    "numeric_values": {
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD MK12 Low Profile Gas Block",
@@ -56,7 +98,13 @@
     "manufacturer": "Daniel Defense",
     "fire_rate": "+??? RPM",
     "muzzle_device_efficiency": "???? %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/MK12_Low_inspect.png/revision/latest?cb=20240509152813"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/MK12_Low_inspect.png/revision/latest?cb=20240509152813",
+    "numeric_values": {
+      "weight": {
+        "value": 0.053,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M4A1 Standard Gas Block",
@@ -65,7 +113,13 @@
     "weight": "0.130 kg",
     "sold_by": "Loot only",
     "manufacturer": "Colt",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/M4A1_Gas_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135422"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/M4A1_Gas_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135422",
+    "numeric_values": {
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ratnik Gas Tube",
@@ -76,7 +130,21 @@
     "buy_price": "$244",
     "manufacturer": "Kalashnikov concern",
     "fire_rate": "+3 %",
-    "muzzle_device_efficiency": "+3 %"
+    "muzzle_device_efficiency": "+3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "fire_rate": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "muzzle_device_efficiency": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SIG MCX Gas Block",
@@ -86,6 +154,12 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$312",
     "manufacturer": "SIG Sauer",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/MCX_Gas_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614022229"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/MCX_Gas_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614022229",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    }
   }
 ]

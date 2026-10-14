@@ -12,7 +12,13 @@
     "id": "briefcase",
     "weight": "5.000kg",
     "grid_size": "2x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7b/Briefcase_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505154632"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7b/Briefcase_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505154632",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Camera Wiretap",
@@ -22,7 +28,13 @@
     "sold_by": "Handshake R.1",
     "grid_size": "1x1",
     "buy_price": "$150",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/Camera_Wiretap_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508234029"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/Camera_Wiretap_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508234029",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "GPS Tracker",
@@ -31,7 +43,13 @@
     "sold_by": "Gunny R.1",
     "grid_size": "1x1",
     "buy_price": "$50",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/GPS_Tracker_inspect.png/revision/latest/scale-to-width-down/268?cb=20240504074001"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/GPS_Tracker_inspect.png/revision/latest/scale-to-width-down/268?cb=20240504074001",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ground Zero Data Storage",
@@ -39,7 +57,13 @@
     "type": "Tool",
     "weight": "0.010kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Ground_Zero_Data_Storage_inspect.png/revision/latest/scale-to-width-down/268?cb=20260606034301"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Ground_Zero_Data_Storage_inspect.png/revision/latest/scale-to-width-down/268?cb=20260606034301",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LAF Encryption Key Hard Drive",
@@ -48,7 +72,13 @@
     "weight": "0.300kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/LAF_Encryption_Key_Hard_Drive_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603042356"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/LAF_Encryption_Key_Hard_Drive_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603042356",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pro Multitool",
@@ -57,7 +87,13 @@
     "sold_by": "Handshake R.1",
     "grid_size": "1x1",
     "buy_price": "$50",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Pro_Multitool_inspect.png/revision/latest/scale-to-width-down/268?cb=20250427044634"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Pro_Multitool_inspect.png/revision/latest/scale-to-width-down/268?cb=20250427044634",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sample Collection Kit",

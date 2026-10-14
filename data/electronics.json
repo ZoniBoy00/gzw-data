@@ -6,7 +6,13 @@
     "weight": "0.100kg",
     "grid_size": "1x1",
     "sell_price": "$1.500",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/BLPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232310"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/BLPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232310",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Expensive Smartphone",
@@ -16,7 +22,13 @@
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sell_price": "$350",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/EPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505041727"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/EPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505041727",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Luxury Smartphone",
@@ -26,7 +38,13 @@
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sell_price": "$1,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/LPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232225"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/LPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232225",
+    "numeric_values": {
+      "weight": {
+        "value": 0.22,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Motorbike Battery",
@@ -36,7 +54,13 @@
     "grid_size": "2x1",
     "manufacturer": "General Local",
     "sell_price": "$36",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Motorbike_Battery_inspect.png/revision/latest?cb=20260331083650"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Motorbike_Battery_inspect.png/revision/latest?cb=20260331083650",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Smartphone",
@@ -45,6 +69,12 @@
     "weight": "0.100kg",
     "grid_size": "1x1",
     "sell_price": "$250",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Phone_inspect.png/revision/latest?cb=20250425032205"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Phone_inspect.png/revision/latest?cb=20250425032205",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   }
 ]

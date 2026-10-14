@@ -7,7 +7,13 @@
     "sold_by": "Artisan R.3 Turncoat R.2",
     "buy_price": "$487",
     "manufacturer": "Kalashnikov Concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/AK_Ratnik_Dust_Cover_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615191602"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/AK_Ratnik_Dust_Cover_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615191602",
+    "numeric_values": {
+      "weight": {
+        "value": 0.21,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK-100 Series Dust Cover",
@@ -23,7 +29,13 @@
     "type": "Upper Receiver",
     "weight": "0.115 kg",
     "sold_by": "Loot only",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.115,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK/AKM Dust Cover (late)",
@@ -40,7 +52,13 @@
     "weight": "0.104 kg",
     "sold_by": "Turncoat R.1",
     "buy_price": "$107",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.104,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "CQ A1 Upper Receiver",
@@ -49,7 +67,13 @@
     "weight": "0.240 kg",
     "sold_by": "Gunny R.2",
     "buy_price": "$126",
-    "manufacturer": "Norinco"
+    "manufacturer": "Norinco",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "DDMK18 Upper Receiver",
@@ -58,7 +82,13 @@
     "weight": "0.198 kg",
     "sold_by": "Loot only",
     "manufacturer": "Daniel Defense",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/DDMK18_Upper_inspect.png/revision/latest?cb=20250613222725"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/DDMK18_Upper_inspect.png/revision/latest?cb=20250613222725",
+    "numeric_values": {
+      "weight": {
+        "value": 0.198,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Dog Leg Rail",
@@ -66,7 +96,13 @@
     "type": "Upper Receiver",
     "weight": "0.175 kg",
     "sold_by": "Artisan R.3",
-    "manufacturer": "Texas Weapons Systems"
+    "manufacturer": "Texas Weapons Systems",
+    "numeric_values": {
+      "weight": {
+        "value": 0.175,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M16A1 Upper Receiver",
@@ -76,7 +112,13 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$214",
     "manufacturer": "Colt",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/M16A1_Upper_inspect.png/revision/latest?cb=20250614164824"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/M16A1_Upper_inspect.png/revision/latest?cb=20250614164824",
+    "numeric_values": {
+      "weight": {
+        "value": 0.388,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M4 Upper Receiver",
@@ -85,7 +127,13 @@
     "weight": "0.240 kg",
     "sold_by": "Loot only",
     "manufacturer": "Colt",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5b/M4_Upper_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509185726"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5b/M4_Upper_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509185726",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP5 Upper Receiver",
@@ -94,7 +142,13 @@
     "weight": "0.580 kg",
     "sold_by": "Gunny R.1",
     "manufacturer": "Heckler & Koch",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.58,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP5SD Upper Receiver",
@@ -103,7 +157,13 @@
     "weight": "0.620 kg",
     "sold_by": "Gunny R.???",
     "manufacturer": "Heckler & Koch",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.62,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Picatinny Dust Cover",
@@ -112,7 +172,13 @@
     "weight": "0.194 kg",
     "sold_by": "Turncoat R.4",
     "buy_price": "$326",
-    "manufacturer": "F.A.B."
+    "manufacturer": "F.A.B.",
+    "numeric_values": {
+      "weight": {
+        "value": 0.194,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SIG MCX Upper Receiver",
@@ -122,7 +188,13 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$894",
     "manufacturer": "Sig Sauer",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/MCX_Upper_inspect.png/revision/latest?cb=20250614021321"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/MCX_Upper_inspect.png/revision/latest?cb=20250614021321",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SVD Dust Cover",
@@ -131,6 +203,12 @@
     "weight": "0.256 kg",
     "sold_by": "Artisan R.4",
     "buy_price": "$192",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.256,
+        "unit": "kg"
+      }
+    }
   }
 ]

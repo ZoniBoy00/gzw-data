@@ -10,7 +10,13 @@
     "inventory_layout_(x/y)": "15x14",
     "manufacturer": "Pelican Products",
     "buy_price": "$89,481",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Admin_Desk_inspect.png/revision/latest?cb=20260331091140"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Admin_Desk_inspect.png/revision/latest?cb=20260331091140",
+    "numeric_values": {
+      "weight": {
+        "value": 38.6,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Admin Pouch",
@@ -24,7 +30,13 @@
     "manufacturer": "Raptor Tactical",
     "buy_price": "$75,881",
     "restrictions": "Keys Intels Currency",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Admin_Pouch_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404034238"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Admin_Pouch_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404034238",
+    "numeric_values": {
+      "weight": {
+        "value": 0.18,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Aid Case",
@@ -37,7 +49,13 @@
     "inventory_layout_(x/y)": "6x5",
     "manufacturer": "Nanuk",
     "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/Med_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20250427173539"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/Med_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20250427173539",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hand Grenade Storage Box",
@@ -51,7 +69,13 @@
     "manufacturer": "German Army",
     "buy_price": "$75,452",
     "restrictions": "Can only holds Throwables",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Hand_Grenade_Storage_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404032855"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Hand_Grenade_Storage_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404032855",
+    "numeric_values": {
+      "weight": {
+        "value": 0.9,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hard Case First Aid Kit",
@@ -76,7 +100,13 @@
     "manufacturer": "Pelican Products",
     "buy_price": "$76,788",
     "restrictions": "Can only holds Weapons",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/HARDE_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505043322"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/HARDE_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505043322",
+    "numeric_values": {
+      "weight": {
+        "value": 4.9,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Injector Case",
@@ -90,7 +120,13 @@
     "manufacturer": "General West",
     "buy_price": "$5,000",
     "restrictions": "Medical#Stimulators",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Injector_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091421"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Injector_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091421",
+    "numeric_values": {
+      "weight": {
+        "value": 0.36,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "IV Truncase",
@@ -104,7 +140,13 @@
     "manufacturer": "Plano Molding",
     "buy_price": "$61,665",
     "restrictions": "Can only holds Plate Carriers Belts Armor Vests Headwear Glasses Backpacks Tactical Rigs Headsets",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/IV_Truncase_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612202955"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/IV_Truncase_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612202955",
+    "numeric_values": {
+      "weight": {
+        "value": 2.7,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Key Case",
@@ -115,7 +157,13 @@
     "grid_size": "2x1",
     "inventory_layout_(x/y)": "5x3",
     "restrictions": "Can only holds Keys",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/Key_C_inspect.png/revision/latest?cb=20240518173747"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/Key_C_inspect.png/revision/latest?cb=20240518173747",
+    "numeric_values": {
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kombat Folder",
@@ -128,7 +176,13 @@
     "inventory_layout_(x/y)": "4x4",
     "manufacturer": "Kombat UK",
     "buy_price": "$75,423",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Kombat_Folder_inspect.png/revision/latest?cb=20260331091502"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Kombat_Folder_inspect.png/revision/latest?cb=20260331091502",
+    "numeric_values": {
+      "weight": {
+        "value": 0.42,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Large Key Case",
@@ -141,7 +195,13 @@
     "manufacturer": "General Local",
     "buy_price": "$9,022",
     "restrictions": "Keys",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/6x5_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250619195900"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/6x5_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250619195900",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Large Safe",
@@ -156,7 +216,13 @@
     "sell_price": "$31,668",
     "buy_price": "$105,560",
     "restrictions": "Vices Jewellery Electronics Funds Evidence Military Equipment",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Large_Safe_inspect.png/revision/latest?cb=20260416205057"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Large_Safe_inspect.png/revision/latest?cb=20260416205057",
+    "numeric_values": {
+      "weight": {
+        "value": 15.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Leather Key Holder",
@@ -170,7 +236,13 @@
     "manufacturer": "General Local",
     "buy_price": "$4,511",
     "restrictions": "Can only holds Keys",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Leather_Key_Holder_inspect.png/revision/latest?cb=20240509224936"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Leather_Key_Holder_inspect.png/revision/latest?cb=20240509224936",
+    "numeric_values": {
+      "weight": {
+        "value": 0.048,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Magazine Case",
@@ -184,7 +256,13 @@
     "manufacturer": "Pelican Products",
     "buy_price": "$69,054",
     "restrictions": "Magazines",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/Magazine_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091643"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/Magazine_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091643",
+    "numeric_values": {
+      "weight": {
+        "value": 2.86,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Medical Box",
@@ -198,7 +276,13 @@
     "manufacturer": "B Medical Systems",
     "buy_price": "$92,940",
     "restrictions": "Medical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Medical_Box_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132324"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Medical_Box_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132324",
+    "numeric_values": {
+      "weight": {
+        "value": 4.7,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Metal Ammo Box",
@@ -212,7 +296,13 @@
     "manufacturer": "US Army",
     "buy_price": "$60,278",
     "restrictions": "Can only holds Ammunition",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Metal_Ammo_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404032325"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Metal_Ammo_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404032325",
+    "numeric_values": {
+      "weight": {
+        "value": 2.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mini First Aid Kit",
@@ -225,7 +315,13 @@
     "inventory_layout_(x/y)": "3x1",
     "manufacturer": "General west",
     "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9f/M-FAK_inspect.png/revision/latest?cb=20250218093903"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9f/M-FAK_inspect.png/revision/latest?cb=20250218093903",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MM Ammo Box",
@@ -239,7 +335,13 @@
     "manufacturer": "Plano Molding",
     "buy_price": "$90,316",
     "restrictions": "Can only holds Ammunition",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/MM_Ammo_Box_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132730"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/MM_Ammo_Box_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132730",
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MM24 Case",
@@ -252,7 +354,13 @@
     "inventory_layout_(x/y)": "12x10",
     "manufacturer": "Pelican Products",
     "restrictions": "Can only hold: Plate Carriers Belts Armor Vests Headwear Glasses Backpacks Tactical Rigs Headsets",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/MM24_Case_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132939"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/MM24_Case_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132939",
+    "numeric_values": {
+      "weight": {
+        "value": 28.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mortar Round Crate",
@@ -266,7 +374,13 @@
     "manufacturer": "General East",
     "buy_price": "$75,547",
     "restrictions": "Magazines",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Mortar_Round_Crate_inspect.png/revision/latest/scale-to-width-down/267?cb=20260416205255"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Mortar_Round_Crate_inspect.png/revision/latest/scale-to-width-down/267?cb=20260416205255",
+    "numeric_values": {
+      "weight": {
+        "value": 12.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Muxxum Rifle Case",
@@ -280,7 +394,13 @@
     "manufacturer": "Plano Molding",
     "buy_price": "$105,435",
     "restrictions": "Can only holds Weapons",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/Muxxum_Rifle_Case_inspect.png/revision/latest/scale-to-width-down/267?cb=20260404031307"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/Muxxum_Rifle_Case_inspect.png/revision/latest/scale-to-width-down/267?cb=20260404031307",
+    "numeric_values": {
+      "weight": {
+        "value": 6.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Personal Cooler",
@@ -294,7 +414,13 @@
     "manufacturer": "Coleman",
     "buy_price": "$60,237",
     "restrictions": "Can only holds Provisions items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Personal_Cooler_inspect.png/revision/latest/scale-to-width-down/268?cb=20250218100135"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Personal_Cooler_inspect.png/revision/latest/scale-to-width-down/268?cb=20250218100135",
+    "numeric_values": {
+      "weight": {
+        "value": 0.82,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Quick Release First Aid Kit",
@@ -307,7 +433,13 @@
     "inventory_layout_(x/y)": "2x3",
     "manufacturer": "ANA-Tactical",
     "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/QRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20240516232543"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/QRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20240516232543",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "RIP-AWAY EMT POUCH",
@@ -320,7 +452,13 @@
     "inventory_layout_(x/y)": "3x3",
     "manufacturer": "Condor Outdoor",
     "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/EMT_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412135910"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/EMT_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412135910",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Small Safe",
@@ -334,7 +472,13 @@
     "sell_price": "$22,652",
     "buy_price": "$75,509",
     "restrictions": "Vices Jewellery Electronics Funds Evidence Military Equipment",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Small_Safe_inspect.png/revision/latest/scale-to-width-down/268?cb=20260416204951"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Small_Safe_inspect.png/revision/latest/scale-to-width-down/268?cb=20260416204951",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tactical Wallet",
@@ -347,7 +491,13 @@
     "inventory_layout_(x/y)": "4x3",
     "manufacturer": "General West",
     "buy_price": "$7,532",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Tactical_Wallet_inspect.png/revision/latest?cb=20260331091901"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Tactical_Wallet_inspect.png/revision/latest?cb=20260331091901",
+    "numeric_values": {
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Wallet",
@@ -359,7 +509,13 @@
     "slots": "4",
     "inventory_layout_(x/y)": "2x2",
     "buy_price": "$4,576",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Wallet_inspect.png/revision/latest?cb=20240506162636"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Wallet_inspect.png/revision/latest?cb=20240506162636",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Weapon Parts Case",
@@ -373,6 +529,12 @@
     "manufacturer": "General West",
     "buy_price": "$74,442",
     "restrictions": "Can only holds Weapon Parts",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/7x6_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250718215520"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/7x6_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250718215520",
+    "numeric_values": {
+      "weight": {
+        "value": 6.2,
+        "unit": "kg"
+      }
+    }
   }
 ]

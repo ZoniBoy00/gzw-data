@@ -6,7 +6,13 @@
     "weight": "0.200 kg",
     "sold_by": "Vulture R.2",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/1911_Mount_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306031720"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/1911_Mount_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306031720",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "ACOG Mount",
@@ -14,7 +20,13 @@
     "type": "Mount",
     "weight": "0.113 kg",
     "sold_by": "Gunny R.2",
-    "manufacturer": "Trijicon"
+    "manufacturer": "Trijicon",
+    "numeric_values": {
+      "weight": {
+        "value": 0.113,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Aimpoint Acro Picatinny Mount",
@@ -24,7 +36,13 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$88",
     "manufacturer": "Aimpoint",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Aimpoint_Acro_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306032302"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Aimpoint_Acro_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306032302",
+    "numeric_values": {
+      "weight": {
+        "value": 0.006,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK-303M Mount",
@@ -33,7 +51,13 @@
     "weight": "0.100 kg",
     "sold_by": "Turncoat R.2",
     "buy_price": "$113",
-    "manufacturer": "General West"
+    "manufacturer": "General West",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK/AKM BP-02 Side Mount",
@@ -42,7 +66,13 @@
     "weight": "0.181 kg",
     "sold_by": "Artisan R.2",
     "buy_price": "$96",
-    "manufacturer": "General East"
+    "manufacturer": "General East",
+    "numeric_values": {
+      "weight": {
+        "value": 0.181,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "B-13 Rail",
@@ -58,7 +88,13 @@
     "type": "Upper Receiver",
     "weight": "0.215 kg",
     "manufacturer": "Zentico",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/B-33_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617215713"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/B-33_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617215713",
+    "numeric_values": {
+      "weight": {
+        "value": 0.215,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "BM-1 AKM Accessory Mount",
@@ -68,7 +104,13 @@
     "sold_by": "Artisan R.1",
     "buy_price": "$94",
     "manufacturer": "General Local",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/BM-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306154711"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/BM-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306154711",
+    "numeric_values": {
+      "weight": {
+        "value": 0.023,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock 17 L2 Cover Stripe",
@@ -77,7 +119,13 @@
     "weight": "0.033 kg",
     "sold_by": "Loot only",
     "manufacturer": "L2D Combat",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/L2_Stripe_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306155026"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/L2_Stripe_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306155026",
+    "numeric_values": {
+      "weight": {
+        "value": 0.033,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock 17 P40 Warhawk Cover Stripe",
@@ -85,7 +133,13 @@
     "type": "Mount",
     "weight": "0.033 kg",
     "manufacturer": "Steel City Arsenal",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/P40W_Stripe_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306155338"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/P40W_Stripe_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306155338",
+    "numeric_values": {
+      "weight": {
+        "value": 0.033,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock 17 Rear Sight Acro Mount",
@@ -95,7 +149,13 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$58",
     "manufacturer": "Aimpoint",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/Glock_Acro_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306155122"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/Glock_Acro_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306155122",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock 17 Vortex Viper Adapter",
@@ -105,7 +165,13 @@
     "sold_by": "Banshee R.2",
     "buy_price": "$52",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Viper_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306155511"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Viper_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306155511",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock Micro Mount",
@@ -114,7 +180,13 @@
     "weight": "0.025 kg",
     "sold_by": "Banshee R.2",
     "buy_price": "$65",
-    "manufacturer": "General West"
+    "manufacturer": "General West",
+    "numeric_values": {
+      "weight": {
+        "value": 0.025,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock17 Holosun 507c Adapter",
@@ -124,7 +196,13 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$54",
     "manufacturer": "EGW",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/G17_Hol_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306154834"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/G17_Hol_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306154834",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "High Sight Mount",
@@ -133,7 +211,13 @@
     "weight": "0.040 kg",
     "sold_by": "Gunny R.2",
     "manufacturer": "Holosun",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/HS_Mount_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307145930"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/HS_Mount_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307145930",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "KeyMod Rail - 5 Slot",
@@ -143,7 +227,13 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$380",
     "manufacturer": "Zenitco",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/KeyMod_5_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150140"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/KeyMod_5_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150140",
+    "numeric_values": {
+      "weight": {
+        "value": 0.175,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "KeyMod Rail - 7 Slot",
@@ -153,7 +243,13 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$380",
     "manufacturer": "Zenitco",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/KeyMod_7_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150231"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/KeyMod_7_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150231",
+    "numeric_values": {
+      "weight": {
+        "value": 0.175,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kochetov Mount",
@@ -162,7 +258,13 @@
     "weight": "0.250 kg",
     "sold_by": "Artisan R.2",
     "buy_price": "$37",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LEAP/01 Mount",
@@ -170,7 +272,13 @@
     "type": "Mount",
     "weight": "0.045 kg",
     "sold_by": "Gunny R.3",
-    "manufacturer": "General West"
+    "manufacturer": "General West",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LEAP/03 Acro Mount",
@@ -180,7 +288,13 @@
     "sold_by": "Banshee R.4",
     "buy_price": "$279",
     "manufacturer": "Aimpoint",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Leap_Acro_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150729"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Leap_Acro_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150729",
+    "numeric_values": {
+      "weight": {
+        "value": 0.044,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Light Mount V-Block and Rings",
@@ -189,7 +303,13 @@
     "weight": "0.045 kg",
     "sold_by": "Banshee R.1",
     "manufacturer": "Magpul",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5e/V-Block_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150841"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5e/V-Block_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150841",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Low Profile O-ring - 30mm",
@@ -199,7 +319,13 @@
     "sold_by": "Banshee R.1",
     "buy_price": "$292",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/30mm_Low_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616232650"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/30mm_Low_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616232650",
+    "numeric_values": {
+      "weight": {
+        "value": 0.156,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Low Profile O-ring - 34mm",
@@ -209,7 +335,13 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$292",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/34mm_Low_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307175005"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/34mm_Low_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307175005",
+    "numeric_values": {
+      "weight": {
+        "value": 0.156,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Low Sight Mount",
@@ -218,7 +350,13 @@
     "weight": "0.040 kg",
     "sold_by": "Gunny R.2",
     "manufacturer": "Holosun",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/LS_Mount_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150027"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/LS_Mount_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307150027",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M-LOK Rail - 3 slot",
@@ -228,7 +366,13 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$20",
     "manufacturer": "Magpul",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/M-Lok_3_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307151515"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/M-Lok_3_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307151515",
+    "numeric_values": {
+      "weight": {
+        "value": 0.027,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M-LOK Rail - 5 slot",
@@ -237,7 +381,13 @@
     "weight": "0.032 kg",
     "sold_by": "Gunny R.2",
     "buy_price": "$24",
-    "manufacturer": "Magpul"
+    "manufacturer": "Magpul",
+    "numeric_values": {
+      "weight": {
+        "value": 0.032,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M-LOK Rail - 7 slot",
@@ -246,7 +396,13 @@
     "weight": "0.036 kg",
     "sold_by": "Gunny R.2",
     "buy_price": "$28",
-    "manufacturer": "Magpul"
+    "manufacturer": "Magpul",
+    "numeric_values": {
+      "weight": {
+        "value": 0.036,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M-LOK Rail - 9 slot",
@@ -255,7 +411,13 @@
     "weight": "0.41 kg",
     "sold_by": "Gunny R.2",
     "buy_price": "$33",
-    "manufacturer": "Mmagpul"
+    "manufacturer": "Mmagpul",
+    "numeric_values": {
+      "weight": {
+        "value": 0.41,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M14/M1A Cluster Rail",
@@ -279,7 +441,13 @@
     "type": "Mount",
     "weight": "0.284 kg",
     "sold_by": "Loot Only",
-    "manufacturer": "Black Aces Tactical"
+    "manufacturer": "Black Aces Tactical",
+    "numeric_values": {
+      "weight": {
+        "value": 0.284,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M700 MOD*X Rail",
@@ -288,7 +456,13 @@
     "weight": "0.150 kg",
     "sold_by": "Banshee R.4",
     "buy_price": "$72",
-    "manufacturer": "General West"
+    "manufacturer": "General West",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M700 Picatinny Rail",
@@ -296,7 +470,13 @@
     "type": "Mount",
     "weight": "0.150 kg",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/M700_Pic_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307151107"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/M700_Pic_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307151107",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M870 Picatinny Quad Rail",
@@ -306,7 +486,13 @@
     "sold_by": "Gunny R.4",
     "buy_price": "$497",
     "manufacturer": "Black Ace Tactical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/M870_Quad_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306154348"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/M870_Quad_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306154348",
+    "numeric_values": {
+      "weight": {
+        "value": 0.453,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M870 Picatinny Rail",
@@ -315,7 +501,13 @@
     "weight": "0.650 kg",
     "sold_by": "Gunny R.2",
     "manufacturer": "Mesa Tactical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/M870_Pic_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307151355"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/M870_Pic_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307151355",
+    "numeric_values": {
+      "weight": {
+        "value": 0.65,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Micro Standard Mount",
@@ -333,7 +525,13 @@
     "weight": "0.260 kg",
     "sold_by": "Artisan R.3",
     "buy_price": "$37",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.26,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP5 Ring Mount",
@@ -341,7 +539,13 @@
     "type": "Mount",
     "weight": "0.082 kg",
     "manufacturer": "Heckler & Koch",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/MP5_Ring_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307190446"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/MP5_Ring_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307190446",
+    "numeric_values": {
+      "weight": {
+        "value": 0.082,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP5/G3 Low Profile Mount",
@@ -349,7 +553,13 @@
     "type": "Mount",
     "weight": "0.071 kg",
     "sold_by": "Gunny R.2",
-    "manufacturer": "Heckler & Koch"
+    "manufacturer": "Heckler & Koch",
+    "numeric_values": {
+      "weight": {
+        "value": 0.071,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MT-MB590 Optic Rail Mount",
@@ -367,7 +577,13 @@
     "sold_by": "Banshee R.1",
     "buy_price": "$345",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/30mm_Ring_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616233145"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/30mm_Ring_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616233145",
+    "numeric_values": {
+      "weight": {
+        "value": 0.199,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "O-ring - 34mm",
@@ -377,7 +593,13 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$345",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/34mm_Ring_inspect.png/revision/latest/scale-to-width-down/267?cb=20260307174830"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/34mm_Ring_inspect.png/revision/latest/scale-to-width-down/267?cb=20260307174830",
+    "numeric_values": {
+      "weight": {
+        "value": 0.199,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Premier Scope Rings - 30mm",
@@ -386,7 +608,13 @@
     "weight": "0.113 kg",
     "sold_by": "Loot Only",
     "manufacturer": "MDT",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/PSR_30mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307151227"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/PSR_30mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307151227",
+    "numeric_values": {
+      "weight": {
+        "value": 0.113,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "PU 3.5×22 Kochetov Rings",
@@ -395,7 +623,13 @@
     "weight": "0.250 kg",
     "sold_by": "Artisan R.2",
     "buy_price": "$23",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SKS 101 Advanced Rail System",
@@ -412,7 +646,13 @@
     "weight": "0.050 kg",
     "sold_by": "Artisan R.1",
     "buy_price": "$42",
-    "manufacturer": "General Local"
+    "manufacturer": "General Local",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SKS Rear Sight Picatinny Rail",
@@ -421,7 +661,13 @@
     "weight": "0.050 kg",
     "sold_by": "Artisan R.2",
     "buy_price": "$65",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Vortex High Mount",
@@ -430,7 +676,13 @@
     "weight": "0.040 kg",
     "sold_by": "Gunny R.4",
     "buy_price": "$291",
-    "manufacturer": "Vortex optics"
+    "manufacturer": "Vortex optics",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Vortex Low Mount",
@@ -439,7 +691,13 @@
     "weight": "0.040 kg",
     "sold_by": "Gunny R.4",
     "buy_price": "$299",
-    "manufacturer": "Vortex optics"
+    "manufacturer": "Vortex optics",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Vortex Spitfire Cover Stripe",
@@ -456,7 +714,13 @@
     "weight": "0.098 kg",
     "sold_by": "Loot only",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Vz.61_Tac_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307185901"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Vz.61_Tac_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307185901",
+    "numeric_values": {
+      "weight": {
+        "value": 0.098,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Z17 Citadel Cover Stripe",
@@ -473,6 +737,12 @@
     "type": "Mount",
     "weight": "0.210 kg",
     "sold_by": "Loot only",
-    "manufacturer": "Zenitco"
+    "manufacturer": "Zenitco",
+    "numeric_values": {
+      "weight": {
+        "value": 0.21,
+        "unit": "kg"
+      }
+    }
   }
 ]

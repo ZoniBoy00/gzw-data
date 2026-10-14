@@ -5,7 +5,13 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+0%"
+    "flashbang_resistance": "+0%",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Aviator (Green)",
@@ -13,7 +19,13 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+15 %"
+    "flashbang_resistance": "+15 %",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Ballistic M Frame 3.0 (Clear)",
@@ -21,7 +33,13 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+0 %"
+    "flashbang_resistance": "+0 %",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Ballistic M Frame 3.0 (Tinted)",
@@ -29,7 +47,13 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+15 %"
+    "flashbang_resistance": "+15 %",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Desert Locust (Clear)",
@@ -37,7 +61,13 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+0 %"
+    "flashbang_resistance": "+0 %",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Desert Locust (Tinted)",
@@ -45,7 +75,13 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+10 %"
+    "flashbang_resistance": "+10 %",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Gatorz Delta",
@@ -53,7 +89,13 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+20 %"
+    "flashbang_resistance": "+20 %",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Gatorz Magnum (Black)",
@@ -63,7 +105,17 @@
     "grid_size": "2x1",
     "sold_by": "Banshee R.3",
     "flashbang_resistance": "+30 %",
-    "manufacturer": "Qatorz"
+    "manufacturer": "Qatorz",
+    "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      },
+      "flashbang_resistance": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Gatorz Magnum (Green)",
@@ -73,7 +125,17 @@
     "grid_size": "2x1",
     "sold_by": "Loot only",
     "flashbang_resistance": "+30 %",
-    "manufacturer": "Qatorz"
+    "manufacturer": "Qatorz",
+    "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      },
+      "flashbang_resistance": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Gatorz Magnum (Tan)",
@@ -83,7 +145,17 @@
     "grid_size": "2x1",
     "sold_by": "Loot only",
     "flashbang_resistance": "+30 %",
-    "manufacturer": "Qatorz"
+    "manufacturer": "Qatorz",
+    "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      },
+      "flashbang_resistance": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Round Sunglasses",
@@ -91,7 +163,13 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+0 %"
+    "flashbang_resistance": "+0 %",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Wayfarer",
@@ -100,7 +178,13 @@
     "grid_size": "1x1",
     "sold_by": "Loot only",
     "flashbang_resistance": "+15 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Wayfarer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182704"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Wayfarer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182704",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "WX Valor",
@@ -108,6 +192,12 @@
     "type": "Glasses",
     "grid_size": "1x1",
     "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+20 %"
+    "flashbang_resistance": "+20 %",
+    "numeric_values": {
+      "flashbang_resistance": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   }
 ]

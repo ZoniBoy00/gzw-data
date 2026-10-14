@@ -8,7 +8,21 @@
     "manufacturer": "Kalashnikov Concern",
     "recoil_control": "+4 %",
     "weapon_handling": "+2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/Ratnik_308_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305211931"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/Ratnik_308_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305211931",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK B10M + B19 Handguard",
@@ -20,7 +34,21 @@
     "manufacturer": "Zenitco",
     "recoil_control": "+6 %",
     "weapon_handling": "-4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/B10M_B19_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213439"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/B10M_B19_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213439",
+    "numeric_values": {
+      "weight": {
+        "value": 0.27,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK B30 + B31S Handguard",
@@ -31,7 +59,21 @@
     "manufacturer": "Zenitco",
     "recoil_control": "+6 %",
     "weapon_handling": "-6 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/B30_B31S_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727202123"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/B30_B31S_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727202123",
+    "numeric_values": {
+      "weight": {
+        "value": 0.386,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK Handguard \"Romanian Dong\"",
@@ -43,7 +85,21 @@
     "recoil_control": "+4.0%",
     "weapon_handling": "-2.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Dong_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307145607"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Dong_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307145607",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK Handguard \"Romanian Shark\"",
@@ -55,7 +111,21 @@
     "recoil_control": "+2.0%",
     "weapon_handling": "-2.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Shark_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307145747"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Shark_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260307145747",
+    "numeric_values": {
+      "weight": {
+        "value": 0.245,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK MOE Handguard",
@@ -66,7 +136,21 @@
     "manufacturer": "Magpul",
     "recoil_control": "+4 %",
     "weapon_handling": "+4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/AK_MOE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015522"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/AK_MOE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015522",
+    "numeric_values": {
+      "weight": {
+        "value": 0.221,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK MOE Handguard (FDE)",
@@ -77,7 +161,21 @@
     "manufacturer": "Magpul",
     "recoil_control": "+4 %",
     "weapon_handling": "+4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/AK_MOE%28FDE%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015614"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/AK_MOE%28FDE%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015614",
+    "numeric_values": {
+      "weight": {
+        "value": 0.221,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK Polymer Handguard with Picatinny Rail",
@@ -89,7 +187,21 @@
     "manufacturer": "Kalashnikov concern",
     "recoil_control": "+2 %",
     "weapon_handling": "-4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/AK_RIS_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305211631"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/AK_RIS_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305211631",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK Ratnik Handguard",
@@ -101,7 +213,21 @@
     "manufacturer": "Kalashnikov Concern",
     "recoil_control": "+4 %",
     "weapon_handling": "+2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Ratnik_Short_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615190853"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Ratnik_Short_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615190853",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK Ratnik Handguard Long",
@@ -111,7 +237,21 @@
     "sold_by": "Loot only",
     "manufacturer": "Kalashnikov concern",
     "recoil_control": "+6 %",
-    "weapon_handling": "+4 %"
+    "weapon_handling": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.235,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK-74 Polymer Handguard",
@@ -123,7 +263,21 @@
     "recoil_control": "+4.0%",
     "weapon_handling": "+6.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/AK_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305205517"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/AK_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305205517",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK-74 Wooden Handguard",
@@ -144,7 +298,13 @@
     "sold_by": "Artisan R.1",
     "buy_price": "$59",
     "manufacturer": "Kalashnikov concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/AKM_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305210348"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/AKM_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305210348",
+    "numeric_values": {
+      "weight": {
+        "value": 0.221,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AKS-74U Mlok Handguard",
@@ -155,7 +315,17 @@
     "buy_price": "$84",
     "manufacturer": "DLG Tactical",
     "recoil_control": "+4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/AKS-74U_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212105"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/AKS-74U_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212105",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AKS-74U Quad-Rail Handguard",
@@ -167,7 +337,21 @@
     "manufacturer": "F.A.B",
     "recoil_control": "+2 %",
     "weapon_handling": "-2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/AKS-74U_Quad_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212951"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/AKS-74U_Quad_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212951",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AKS-74U Wooden handguard",
@@ -177,7 +361,13 @@
     "sold_by": "Turncoat R.1",
     "buy_price": "$33",
     "manufacturer": "Kalashnikov concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/AKS-74U_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213106"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/AKS-74U_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213106",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AR-15 MOE M-LOK Carbine Handguard",
@@ -187,7 +377,13 @@
     "sold_by": "Gunny R.1",
     "manufacturer": "Magpul",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Moe_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015937"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Moe_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015937",
+    "numeric_values": {
+      "weight": {
+        "value": 0.184,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AR-15 MOE M-LOK Carbine Handguard (FDE)",
@@ -196,7 +392,13 @@
     "weight": "0.184 kg",
     "sold_by": "Loot only",
     "manufacturer": "Magpul",
-    "size_change_horizontal": "+2"
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.184,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AR-15 MOE M-LOK Carbine Handguard (Olive)",
@@ -205,7 +407,13 @@
     "weight": "0.184 kg",
     "sold_by": "Loot only",
     "manufacturer": "Magpul",
-    "size_change_horizontal": "+2"
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.184,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "B&T BT-21343 HK MP5SD Tri-Rail Handguard",
@@ -217,7 +425,21 @@
     "manufacturer": "B&T",
     "recoil_control": "+1 %",
     "weapon_handling": "-1 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/BT-21343_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021507"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/BT-21343_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021507",
+    "numeric_values": {
+      "weight": {
+        "value": 0.357,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "B&T HK MP5 TL-99A1 3 Rail Handguard",
@@ -230,7 +452,21 @@
     "recoil_control": "+1.0%",
     "weapon_handling": "-1.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/TL-99A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306020419"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/TL-99A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306020419",
+    "numeric_values": {
+      "weight": {
+        "value": 0.253,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "CQ A1 Carbine Handguard",
@@ -241,7 +477,17 @@
     "manufacturer": "Norinco",
     "recoil_control": "-1 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/CQ_A1_CAR_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614171006"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/CQ_A1_CAR_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614171006",
+    "numeric_values": {
+      "weight": {
+        "value": 0.323,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": -1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD RIS II 12",
@@ -254,7 +500,21 @@
     "recoil_control": "+12 %",
     "weapon_handling": "-8 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/RIS_II_12_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305214050"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/RIS_II_12_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305214050",
+    "numeric_values": {
+      "weight": {
+        "value": 0.501,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD RIS II 12 (MilSpec)",
@@ -266,7 +526,21 @@
     "recoil_control": "+12 %",
     "weapon_handling": "-8 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/RIS_II_12_FDE_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509151153"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/RIS_II_12_FDE_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509151153",
+    "numeric_values": {
+      "weight": {
+        "value": 0.501,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD RIS II 12 FSP",
@@ -278,7 +552,21 @@
     "recoil_control": "+12 %",
     "weapon_handling": "-8 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/RIS_II_12_FSP_inspect.png/revision/latest/scale-to-width-down/267?cb=20260305214252"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/RIS_II_12_FSP_inspect.png/revision/latest/scale-to-width-down/267?cb=20260305214252",
+    "numeric_values": {
+      "weight": {
+        "value": 0.485,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD RIS II 9.5",
@@ -290,7 +578,21 @@
     "recoil_control": "+8 %",
     "weapon_handling": "-6 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/RIS_II_9.5_inspect.png/revision/latest/scale-to-width-down/267?cb=20260305214446"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/RIS_II_9.5_inspect.png/revision/latest/scale-to-width-down/267?cb=20260305214446",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD RIS II 9.5 (MilSpec)",
@@ -302,7 +604,21 @@
     "recoil_control": "+8 %",
     "weapon_handling": "-6 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/56/RIS_II_9.5_FDE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305214554"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/56/RIS_II_9.5_FDE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305214554",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "EMA X5 Aluminum 5-rail MP5",
@@ -314,7 +630,21 @@
     "recoil_control": "+2.0%",
     "weapon_handling": "-2.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/MP5_X5_inspect.png/revision/latest/scale-to-width-down/267?cb=20260306020748"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/MP5_X5_inspect.png/revision/latest/scale-to-width-down/267?cb=20260306020748",
+    "numeric_values": {
+      "weight": {
+        "value": 0.28,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M4 RAS",
@@ -326,7 +656,21 @@
     "recoil_control": "+4 %",
     "weapon_handling": "-4 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/M4_RAS_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015141"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/M4_RAS_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015141",
+    "numeric_values": {
+      "weight": {
+        "value": 0.252,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M590 Forend",
@@ -347,7 +691,21 @@
     "sold_by": "Loot Only",
     "manufacturer": "Magpul",
     "recoil_control": "+4.0 %",
-    "weapon_handling": "+6.0 %"
+    "weapon_handling": "+6.0 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.171,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M590 Tri-Rail Forend",
@@ -371,7 +729,21 @@
     "recoil_control": "+12 %",
     "weapon_handling": "+8 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/MODX_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015318"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/MODX_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015318",
+    "numeric_values": {
+      "weight": {
+        "value": 0.369,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M870 Forend (OD Green)",
@@ -382,7 +754,21 @@
     "manufacturer": "Hogue Inc.",
     "recoil_control": "+2 %",
     "weapon_handling": "+2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/M870_OD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021856"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/M870_OD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021856",
+    "numeric_values": {
+      "weight": {
+        "value": 0.254,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M870 MOE Handguard",
@@ -395,7 +781,21 @@
     "recoil_control": "+4.0%",
     "weapon_handling": "+6.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/M870_MOE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022121"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/M870_MOE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022121",
+    "numeric_values": {
+      "weight": {
+        "value": 0.179,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M870 MOE Handguard (FDE)",
@@ -405,7 +805,21 @@
     "sold_by": "Loot only",
     "manufacturer": "Magpul",
     "recoil_control": "+4 %",
-    "weapon_handling": "+6 %"
+    "weapon_handling": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.179,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M870 VOA Handguard",
@@ -417,7 +831,21 @@
     "manufacturer": "General West",
     "recoil_control": "+6 %",
     "weapon_handling": "+6 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/M870_VOA_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022602"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/M870_VOA_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022602",
+    "numeric_values": {
+      "weight": {
+        "value": 0.289,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M870 Walnut Forend",
@@ -427,7 +855,13 @@
     "sold_by": "Gunny R.1",
     "buy_price": "$33",
     "manufacturer": "Remington",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/M870_Walnut_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022713"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/M870_Walnut_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022713",
+    "numeric_values": {
+      "weight": {
+        "value": 0.31,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mk16 13.5\"",
@@ -439,7 +873,21 @@
     "recoil_control": "+8 %",
     "weapon_handling": "-4 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/MK16_13.5_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014715"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/MK16_13.5_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014715",
+    "numeric_values": {
+      "weight": {
+        "value": 0.379,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Mk16 13.5\" (DDC)",
@@ -451,7 +899,21 @@
     "recoil_control": "+8 %",
     "weapon_handling": "-4 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/29/MK16_13.5_DDC_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015006"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/29/MK16_13.5_DDC_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015006",
+    "numeric_values": {
+      "weight": {
+        "value": 0.379,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "MP5 Wide Forearm",
@@ -459,7 +921,13 @@
     "type": "Handguard",
     "weight": "0.140 kg",
     "sold_by": "Gunny R.1",
-    "manufacturer": "Heckler & Koch"
+    "manufacturer": "Heckler & Koch",
+    "numeric_values": {
+      "weight": {
+        "value": 0.14,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP5SD Forearm",
@@ -473,7 +941,21 @@
     "manufacturer": "Heckler & Koch",
     "recoil_control": "+1.0%",
     "ergonomics": "+3.0%",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/MP5SD%28Handguard%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021720"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/MP5SD%28Handguard%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021720",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SIG MCX 10\" Handguard",
@@ -485,7 +967,17 @@
     "manufacturer": "SIG Sauer",
     "recoil_control": "+1 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/MCX_10_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023302"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/MCX_10_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023302",
+    "numeric_values": {
+      "weight": {
+        "value": 0.204,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SIG MCX 12\" SD Handguard",
@@ -496,7 +988,17 @@
     "manufacturer": "SIG Sauer",
     "recoil_control": "+1.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dc/MCX_12_SD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023503"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dc/MCX_12_SD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023503",
+    "numeric_values": {
+      "weight": {
+        "value": 0.247,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SIG MCX 16\" Handguard",
@@ -508,7 +1010,17 @@
     "manufacturer": "SIG Sauer",
     "recoil_control": "+2 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/MCX_16_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023608"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/MCX_16_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023608",
+    "numeric_values": {
+      "weight": {
+        "value": 0.312,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SIG MCX 8\" Handguard",
@@ -519,7 +1031,13 @@
     "buy_price": "$365",
     "manufacturer": "SIG Sauer",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/MCX_8_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614024546"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/MCX_8_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614024546",
+    "numeric_values": {
+      "weight": {
+        "value": 0.18,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SVD Chassis MK1 Handguard",
@@ -528,7 +1046,13 @@
     "weight": "0.800 kg",
     "manufacturer": "Sureshot Armament",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/SVD_MK1_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023033"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/SVD_MK1_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023033",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SVD Polymer Handguard",
@@ -538,7 +1062,13 @@
     "sold_by": "Artisan R.4",
     "buy_price": "$555",
     "manufacturer": "Kalashnikov concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/SVD_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023939"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/SVD_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023939",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SVD Wooden Handguard",
@@ -547,7 +1077,13 @@
     "weight": "0.350 kg",
     "sold_by": "Loot only",
     "manufacturer": "Kalashnikov concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/SVD_Wood_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023837"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/SVD_Wood_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023837",
+    "numeric_values": {
+      "weight": {
+        "value": 0.35,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "VFR-SVD F.A.B. Handguard",
@@ -558,7 +1094,17 @@
     "manufacturer": "F.A.B.",
     "recoil_control": "+1.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/VFR-SVD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014244"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/VFR-SVD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014244",
+    "numeric_values": {
+      "weight": {
+        "value": 0.454,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "X7M-13 Handguard",
@@ -571,7 +1117,21 @@
     "recoil_control": "+8 %",
     "weapon_handling": "-4 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/X7M-13_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306010628"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/X7M-13_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306010628",
+    "numeric_values": {
+      "weight": {
+        "value": 0.379,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "X7M-13 Handguard (Gray)",
@@ -595,7 +1155,21 @@
     "recoil_control": "+10 %",
     "weapon_handling": "-6 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/X7M-15_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014014"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/X7M-15_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014014",
+    "numeric_values": {
+      "weight": {
+        "value": 0.413,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "X7M-15 Handguard (Gray)",
@@ -618,7 +1192,21 @@
     "recoil_control": "+6 %",
     "weapon_handling": "-2 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/X7M-7_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014135"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/X7M-7_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014135",
+    "numeric_values": {
+      "weight": {
+        "value": 0.295,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "X7M-7 Handguard (Gray)",

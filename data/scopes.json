@@ -9,7 +9,21 @@
     "weapon_handling": "-8 %",
     "magnification": "4x",
     "sighting_range": "600m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/ACOG_4x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616010150"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/ACOG_4x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616010150",
+    "numeric_values": {
+      "weight": {
+        "value": 0.424,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -8.0,
+        "unit": "%"
+      },
+      "sighting_range": {
+        "value": 600.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Kaps Classic 4x36 OC",
@@ -20,7 +34,17 @@
     "manufacturer": "Kaps Optics",
     "magnification": "4x",
     "sighting_range": "250m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Kaps_3x36_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616233931"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Kaps_3x36_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616233931",
+    "numeric_values": {
+      "weight": {
+        "value": 0.41,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 250.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Mosin-Nagant PU 3.5x22 Scope",
@@ -32,7 +56,17 @@
     "weapon_handling": "-8 %",
     "magnification": "3.5x",
     "sighting_range": "1,300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/PU_3.5x_inspect.png/revision/latest/scale-to-width-down/267?cb=20250620105351"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/PU_3.5x_inspect.png/revision/latest/scale-to-width-down/267?cb=20250620105351",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "NPZ PSO 3-9x24",
@@ -43,7 +77,17 @@
     "manufacturer": "General East",
     "magnification": "3-9x",
     "sighting_range": "900m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/PSO_3-9x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620105015"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/PSO_3-9x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620105015",
+    "numeric_values": {
+      "weight": {
+        "value": 0.997,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 900.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "PSO-1 4x24",
@@ -54,7 +98,17 @@
     "buy_price": "$1,990",
     "manufacturer": "General East",
     "magnification": "4x",
-    "sighting_range": "500m"
+    "sighting_range": "500m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.616,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 500.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "RAZOR 1-10x Rifle Scope",
@@ -67,7 +121,17 @@
     "ergonomics": "-8 %",
     "magnification": "1x-10xx",
     "sighting_range": "1,000m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Razor_1-10x_inspect.png/revision/latest/scale-to-width-down/268?cb=20260530165121"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Razor_1-10x_inspect.png/revision/latest/scale-to-width-down/268?cb=20260530165121",
+    "numeric_values": {
+      "weight": {
+        "value": 0.609,
+        "unit": "kg"
+      },
+      "ergonomics": {
+        "value": -8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "RAZOR 1-6x Rifle Scope",
@@ -80,7 +144,17 @@
     "weapon_handling": "-8 %",
     "magnification": "1x-6xx",
     "sighting_range": "1,000m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Razor_1-6x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616234259"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Razor_1-6x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616234259",
+    "numeric_values": {
+      "weight": {
+        "value": 0.61,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SpecterDR 1-4x Assault Scope",
@@ -92,7 +166,21 @@
     "ergonomics": "-8 %",
     "magnification": "1x-4xx",
     "sighting_range": "600m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/SpecterDR_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616010807"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/SpecterDR_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616010807",
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      },
+      "ergonomics": {
+        "value": -8.0,
+        "unit": "%"
+      },
+      "sighting_range": {
+        "value": 600.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Viper PST Gen II 5-25x50 Rifle Scope",
@@ -106,7 +194,17 @@
     "magnification": "5x-25xx",
     "sighting_range": "1,000m",
     "size_change_vertical": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Viper_5x25_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612212727"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Viper_5x25_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612212727",
+    "numeric_values": {
+      "weight": {
+        "value": 0.885,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -12.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Vortex Spitfire HD Gen II 5x",
@@ -117,7 +215,17 @@
     "manufacturer": "Vortex Optics",
     "magnification": "5x",
     "sighting_range": "600m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Spitfire_5x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615221730"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Spitfire_5x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615221730",
+    "numeric_values": {
+      "weight": {
+        "value": 0.292,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 600.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Vudu 1-6x24 FFP Rifle Scope",
@@ -129,7 +237,21 @@
     "weapon_handling": "-8.0 %",
     "magnification": "1-6x",
     "sighting_range": "1000m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/Vudu_1-6x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250515042048"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/Vudu_1-6x_inspect.png/revision/latest/scale-to-width-down/268?cb=20250515042048",
+    "numeric_values": {
+      "weight": {
+        "value": 0.57,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -8.0,
+        "unit": "%"
+      },
+      "sighting_range": {
+        "value": 1000.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Vudu 3.5-18x50 FFP Rifle Scope",
@@ -142,6 +264,16 @@
     "weapon_handling": "-12 %",
     "magnification": "3.5x-18xx",
     "sighting_range": "1,000m",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.952,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -12.0,
+        "unit": "%"
+      }
+    }
   }
 ]

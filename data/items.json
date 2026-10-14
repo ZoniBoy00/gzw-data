@@ -21,7 +21,13 @@
     "manufacturer": "General Local",
     "sell_price": "$104",
     "buy_price": "$349",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Basic_Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224626"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Basic_Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224626",
+    "numeric_values": {
+      "weight": {
+        "value": 0.007,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tracking Tag",
@@ -33,6 +39,12 @@
     "manufacturer": "General Local",
     "sell_price": "$194",
     "buy_price": "$649",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224614"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224614",
+    "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      }
+    }
   }
 ]

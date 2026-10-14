@@ -11,7 +11,17 @@
     "sell_price": "$150",
     "buy_price": "$500",
     "repair_efficiency": "90 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/BGRKit_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617151101"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/BGRKit_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617151101",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      },
+      "repair_efficiency": {
+        "value": 90.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Firearm Cleaning Set",
@@ -23,7 +33,17 @@
     "manufacturer": "General Local",
     "buy_price": "$450",
     "repair_efficiency": "+85 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/BFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151445"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/BFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151445",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      },
+      "repair_efficiency": {
+        "value": 85.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Firearm Tool Set",
@@ -35,7 +55,17 @@
     "manufacturer": "General Local",
     "buy_price": "$950",
     "repair_efficiency": "+85 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/AFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151947"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/AFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151947",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      },
+      "repair_efficiency": {
+        "value": 85.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Gunsmith Tool Set",
@@ -47,7 +77,17 @@
     "manufacturer": "General Local",
     "buy_price": "$600",
     "repair_efficiency": "90 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/PFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151721"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/PFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151721",
+    "numeric_values": {
+      "weight": {
+        "value": 6.5,
+        "unit": "kg"
+      },
+      "repair_efficiency": {
+        "value": 90.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Specialized Equipment Repair Kit",
@@ -60,7 +100,17 @@
     "sell_price": "$1,275",
     "buy_price": "$4,250",
     "repair_efficiency": "90 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/PGRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151317"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/PGRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151317",
+    "numeric_values": {
+      "weight": {
+        "value": 9.0,
+        "unit": "kg"
+      },
+      "repair_efficiency": {
+        "value": 90.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Tactical Equipment Repair Kit",
@@ -73,6 +123,16 @@
     "sell_price": "$315",
     "buy_price": "$1,050",
     "repair_efficiency": "90 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/AGRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617210524"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/AGRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617210524",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      },
+      "repair_efficiency": {
+        "value": 90.0,
+        "unit": "%"
+      }
+    }
   }
 ]

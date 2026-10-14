@@ -6,7 +6,13 @@
     "weight": "0.060kg",
     "grid_size": "1x1",
     "sold_by": "Banshee R.3",
-    "manufacturer": "5ive Star Gear"
+    "manufacturer": "5ive Star Gear",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Half Mask (Skull)",
@@ -15,7 +21,13 @@
     "weight": "0.030kg",
     "grid_size": "1x1",
     "sold_by": "Loot only.",
-    "manufacturer": "General East"
+    "manufacturer": "General East",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Half Mask (Woodland)",
@@ -25,7 +37,13 @@
     "grid_size": "1x1",
     "sold_by": "Handshake R.3",
     "manufacturer": "General East",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Mask%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240522192529"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Mask%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240522192529",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pandatac Sun Mask",
@@ -34,6 +52,12 @@
     "weight": "0.060kg",
     "grid_size": "1x1",
     "sold_by": "Handshake R.2",
-    "manufacturer": "Pandatac"
+    "manufacturer": "Pandatac",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
   }
 ]

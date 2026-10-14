@@ -6,7 +6,13 @@
     "weight": "0.160kg",
     "sold_by": "Banshee R2",
     "manufacturer": "Wilcox Industries",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/G24_inspect.png/revision/latest/scale-to-width-down/268?cb=20250206022335"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/G24_inspect.png/revision/latest/scale-to-width-down/268?cb=20250206022335",
+    "numeric_values": {
+      "weight": {
+        "value": 0.16,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "PVS-14 Arm",
@@ -15,7 +21,13 @@
     "weight": "0.060kg",
     "sold_by": "Banshee R.2",
     "manufacturer": "Wilcox Industries",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Arm_inspect.png/revision/latest/scale-to-width-down/267?cb=20250206022336"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Arm_inspect.png/revision/latest/scale-to-width-down/267?cb=20250206022336",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Rhino Helmet NVG Mount",
@@ -24,6 +36,12 @@
     "weight": "0.159kg",
     "sold_by": "Handshake Rank 1",
     "manufacturer": "Norotos",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/RhinoMount.png/revision/latest/scale-to-width-down/268?cb=20250207122803"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/RhinoMount.png/revision/latest/scale-to-width-down/268?cb=20250207122803",
+    "numeric_values": {
+      "weight": {
+        "value": 0.159,
+        "unit": "kg"
+      }
+    }
   }
 ]

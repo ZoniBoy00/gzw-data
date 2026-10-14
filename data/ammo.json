@@ -14,7 +14,21 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ 0",
+    "numeric_values": {
+      "weight": {
+        "value": 0.011,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 970.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".222 Remington HP",
@@ -27,7 +41,25 @@
     "muzzle_velocity": "966 m/s",
     "accuracy_modifier": "-2 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ 0",
+    "numeric_values": {
+      "weight": {
+        "value": 0.011,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 966.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -2.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".222 Remington SP",
@@ -39,7 +71,21 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "-5 %",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ 0",
+    "numeric_values": {
+      "weight": {
+        "value": 0.011,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 970.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".222 Remington VMax",
@@ -51,7 +97,21 @@
     "sold_by": "Artisan R.2",
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "-5 %",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ 0",
+    "numeric_values": {
+      "weight": {
+        "value": 0.011,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 970.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".300 AAC Blackout",
@@ -70,7 +130,25 @@
     "accuracy_modifier": "+4 %",
     "durability_modifier": "-100 %",
     "stopped_by_armor_class": "NIJ IV",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/AP_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412080042"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/AP_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412080042",
+    "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 725.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -100.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".300 AAC Blackout CQ",
@@ -84,7 +162,25 @@
     "accuracy_modifier": "+1 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/CQ_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412075727"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/CQ_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412075727",
+    "numeric_values": {
+      "weight": {
+        "value": 0.012,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 853.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 1.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".300 AAC Blackout FMJ",
@@ -97,7 +193,21 @@
     "muzzle_velocity": "633 m/s",
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ IIIA+",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/FMJ_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074247"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/FMJ_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074247",
+    "numeric_values": {
+      "weight": {
+        "value": 0.017,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 633.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".300 AAC Blackout Subsonic",
@@ -110,7 +220,21 @@
     "muzzle_velocity": "310 m/s",
     "accuracy_modifier": "-6 %",
     "stopped_by_armor_class": "NIJ IIIA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Sub_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412075405"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Sub_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412075405",
+    "numeric_values": {
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 310.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".300 AAC Blackout V-MAX",
@@ -124,7 +248,25 @@
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ IIIA+",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VMAX_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074414"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VMAX_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074414",
+    "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 724.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".45 ACP",
@@ -141,7 +283,17 @@
     "muzzle_velocity": "299 m/s",
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/AP_.45_inspect.png/revision/latest/scale-to-width-down/268?cb=20250610112129",
-    "stopped_by_armor_class": "NIJ IIIA"
+    "stopped_by_armor_class": "NIJ IIIA",
+    "numeric_values": {
+      "muzzle_velocity": {
+        "value": 299.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".45 ACP FMJ",
@@ -154,7 +306,21 @@
     "muzzle_velocity": "260 m/s",
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ IIA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/FMJ_.45_inspect.png/revision/latest?cb=20260414111029"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/FMJ_.45_inspect.png/revision/latest?cb=20260414111029",
+    "numeric_values": {
+      "weight": {
+        "value": 0.021,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 260.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".45 ACP Hydra-Shok",
@@ -168,7 +334,25 @@
     "accuracy_modifier": "+0 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ 0",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Hydra-Shok_inspect.png/revision/latest?cb=20260414113205"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Hydra-Shok_inspect.png/revision/latest?cb=20260414113205",
+    "numeric_values": {
+      "weight": {
+        "value": 0.021,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 274.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": ".45 ACP JHP +P",
@@ -181,7 +365,21 @@
     "muzzle_velocity": "290 m/s",
     "accuracy_modifier": "-2 %",
     "stopped_by_armor_class": "NIJ 0",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/JHP_%2BP_.45_inspect.png/revision/latest?cb=20260414113246"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/JHP_%2BP_.45_inspect.png/revision/latest?cb=20260414113246",
+    "numeric_values": {
+      "weight": {
+        "value": 0.021,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 290.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "12 Gauge",
@@ -199,7 +397,21 @@
     "muzzle_velocity": "370 m/s",
     "accuracy_modifier": "+38 %",
     "stopped_by_armor_class": "NIJ 0",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/00_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085636"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/00_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085636",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 370.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 38.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "12GA FC 00 Buckshot",
@@ -213,7 +425,25 @@
     "accuracy_modifier": "+27 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ IIIA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/12ga_FC_00_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414090208"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/12ga_FC_00_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414090208",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 349.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 27.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "12GA Slug",
@@ -227,7 +457,25 @@
     "accuracy_modifier": "+42 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ 0",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414084822"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414084822",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 420.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 42.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "12GA SST Sabot Slug",
@@ -241,7 +489,25 @@
     "accuracy_modifier": "+50 %",
     "durability_modifier": "-40 %",
     "stopped_by_armor_class": "NIJ III",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/SST_Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085502"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/SST_Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085502",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 609.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 50.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -40.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "4.6x30mm",
@@ -258,7 +524,17 @@
     "muzzle_velocity": "680 m/s",
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/Action_SX_4.6x30_inspect.png/revision/latest/scale-to-width-down/267?cb=20250611220709",
-    "stopped_by_armor_class": "NIJ IIA+"
+    "stopped_by_armor_class": "NIJ IIA+",
+    "numeric_values": {
+      "muzzle_velocity": {
+        "value": 680.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "4.6x30mm AP SX",
@@ -269,7 +545,17 @@
     "sold_by": "Banshee R.4",
     "muzzle_velocity": "690 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ IIIA"
+    "stopped_by_armor_class": "NIJ IIIA",
+    "numeric_values": {
+      "muzzle_velocity": {
+        "value": 690.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "4.6x30mm FMJ SX",
@@ -280,7 +566,17 @@
     "sold_by": "Banshee R.2",
     "muzzle_velocity": "612 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ IIIA"
+    "stopped_by_armor_class": "NIJ IIIA",
+    "numeric_values": {
+      "muzzle_velocity": {
+        "value": 612.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "4.6x30mm Subsonic SX",
@@ -291,7 +587,17 @@
     "sold_by": "Banshee R.1",
     "muzzle_velocity": "290 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ IIIA"
+    "stopped_by_armor_class": "NIJ IIIA",
+    "numeric_values": {
+      "muzzle_velocity": {
+        "value": 290.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm",
@@ -308,7 +614,21 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "840 m/s",
     "accuracy_modifier": "-1 %",
-    "stopped_by_armor_class": "NIJ IV"
+    "stopped_by_armor_class": "NIJ IV",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 840.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm BS (7N24)",
@@ -320,7 +640,21 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "840 m/s",
     "accuracy_modifier": "-6 %",
-    "stopped_by_armor_class": "NIJ III++"
+    "stopped_by_armor_class": "NIJ III++",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 840.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm BT (7BT4)",
@@ -332,7 +666,21 @@
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "-2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/BT_5.45x39_inspect.png/revision/latest?cb=20240507130206",
-    "stopped_by_armor_class": "NIJ III+"
+    "stopped_by_armor_class": "NIJ III+",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 880.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm FMJ",
@@ -345,7 +693,21 @@
     "muzzle_velocity": "884 m/s",
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/FMJ_5.45x39_inspect.png/revision/latest?cb=20240503130831",
-    "stopped_by_armor_class": "NIJ IIIA+"
+    "stopped_by_armor_class": "NIJ IIIA+",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 884.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm HP",
@@ -357,7 +719,21 @@
     "sold_by": "Turncoat R.1",
     "muzzle_velocity": "884 m/s",
     "accuracy_modifier": "+6 %",
-    "stopped_by_armor_class": "NIJ IIIA+"
+    "stopped_by_armor_class": "NIJ IIIA+",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 884.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm PP (7N10)",
@@ -369,7 +745,21 @@
     "sold_by": "Turncoat R.3",
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "-2 %",
-    "stopped_by_armor_class": "NIJ III+"
+    "stopped_by_armor_class": "NIJ III+",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 880.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm PS (7N6)",
@@ -381,7 +771,21 @@
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/PS_5.45x39_inspect.png/revision/latest?cb=20240507130207",
-    "stopped_by_armor_class": "NIJ III"
+    "stopped_by_armor_class": "NIJ III",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 880.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm US (7U1)",
@@ -392,7 +796,21 @@
     "manufacturer": "General East",
     "muzzle_velocity": "304 m/s",
     "accuracy_modifier": "+6 %",
-    "stopped_by_armor_class": "NIJ IIIA"
+    "stopped_by_armor_class": "NIJ IIIA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 304.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.45x39mm Wolf",
@@ -410,7 +828,21 @@
     "muzzle_velocity": "840 m/s",
     "accuracy_modifier": "-2%",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/WOLF_5.45x39_inspect.png/revision/latest/scale-to-width-down/268?cb=20260508200024",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ 0",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 840.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm AP (M855)",
@@ -424,7 +856,25 @@
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III++",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/M855_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412073141"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/M855_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412073141",
+    "numeric_values": {
+      "weight": {
+        "value": 0.012,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 920.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm AP (M855A1)",
@@ -438,7 +888,25 @@
     "accuracy_modifier": "+7%",
     "durability_modifier": "-40%",
     "stopped_by_armor_class": "NIJ IV",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/M855A1_5.56x45_inspect.png/revision/latest?cb=20240505231241"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/M855A1_5.56x45_inspect.png/revision/latest?cb=20240505231241",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 970.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 7.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -40.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm AP (M995)",
@@ -452,7 +920,21 @@
     "accuracy_modifier": "+5 %",
     "durability_modifier": "-100 %",
     "stopped_by_armor_class": "NIJ IV",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/M995_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404172735"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/M995_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404172735",
+    "numeric_values": {
+      "weight": {
+        "value": 0.012,
+        "unit": "kg"
+      },
+      "accuracy_modifier": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -100.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm FMJ",
@@ -465,7 +947,21 @@
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ III",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/FMJ_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412071354"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/FMJ_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412071354",
+    "numeric_values": {
+      "weight": {
+        "value": 0.013,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 880.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm HPBT",
@@ -479,7 +975,25 @@
     "accuracy_modifier": "-3 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HPBT_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412072555"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HPBT_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412072555",
+    "numeric_values": {
+      "weight": {
+        "value": 0.013,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 861.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -3.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm M193",
@@ -493,7 +1007,21 @@
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/M193_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412071915"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/M193_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412071915",
+    "numeric_values": {
+      "weight": {
+        "value": 0.012,
+        "unit": "kg"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm NATO",
@@ -511,7 +1039,21 @@
     "muzzle_velocity": "930 m/s",
     "accuracy_modifier": "-3 %",
     "stopped_by_armor_class": "NIJ 0",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/SP_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412070039"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/SP_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412070039",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 930.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm Tracer (M856)",
@@ -525,7 +1067,25 @@
     "accuracy_modifier": "-3 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/M856_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412073343"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/M856_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412073343",
+    "numeric_values": {
+      "weight": {
+        "value": 0.014,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 917.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -3.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "5.56x45mm Tracer (M856A1)",
@@ -536,7 +1096,21 @@
     "manufacturer": "General West",
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "-7 %",
-    "stopped_by_armor_class": "NIJ III++"
+    "stopped_by_armor_class": "NIJ III++",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 970.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x25mm",
@@ -554,7 +1128,21 @@
     "muzzle_velocity": "415 m/s",
     "accuracy_modifier": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/FMJ_7.62x25mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20250611224547",
-    "stopped_by_armor_class": "NIJ IIA"
+    "stopped_by_armor_class": "NIJ IIA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.011,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 415.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x25mm PST",
@@ -566,7 +1154,21 @@
     "sold_by": "Artisan R.2",
     "muzzle_velocity": "430 m/s",
     "accuracy_modifier": "-2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/PST_7.62x25mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507130206"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/PST_7.62x25mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507130206",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 430.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x25mm PT",
@@ -577,7 +1179,21 @@
     "manufacturer": "General East",
     "sold_by": "Artisan R.2",
     "muzzle_velocity": "415 m/s",
-    "accuracy_modifier": "+2 %"
+    "accuracy_modifier": "+2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 415.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x39 BZ (57-BZ-231)",
@@ -599,7 +1215,25 @@
     "muzzle_velocity": "740 m/s",
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-100 %",
-    "stopped_by_armor_class": "NIJ III++"
+    "stopped_by_armor_class": "NIJ III++",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 740.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -100.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x39mm PS (57-N-231C)",
@@ -611,7 +1245,21 @@
     "sold_by": "Artisan R.3",
     "muzzle_velocity": "725 m/s",
     "dispersion": "-1 %",
-    "stopped_by_armor_class": "NIJ III+"
+    "stopped_by_armor_class": "NIJ III+",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 725.0,
+        "unit": "m/s"
+      },
+      "dispersion": {
+        "value": -1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x39mm SP",
@@ -624,7 +1272,21 @@
     "muzzle_velocity": "743 m/s",
     "accuracy_modifier": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/SP_7.62x39_inspect.png/revision/latest?cb=20240507130207",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ 0",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 743.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x39mm Tracer (57-N-231P)",
@@ -636,7 +1298,21 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "725 m/s",
     "accuracy_modifier": "+3 %",
-    "stopped_by_armor_class": "NIJ III+"
+    "stopped_by_armor_class": "NIJ III+",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 725.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x39mm US",
@@ -649,7 +1325,21 @@
     "muzzle_velocity": "310 m/s",
     "accuracy_modifier": "+6 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/US_7.62x39_inspect.png/revision/latest?cb=20240507130207",
-    "stopped_by_armor_class": "NIJ IIIA"
+    "stopped_by_armor_class": "NIJ IIIA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 310.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x51mm AP (M61)",
@@ -661,7 +1351,21 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "838 m/s",
     "accuracy_modifier": "-4 %",
-    "stopped_by_armor_class": "NIJ IV"
+    "stopped_by_armor_class": "NIJ IV",
+    "numeric_values": {
+      "weight": {
+        "value": 0.024,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 838.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x51mm FMJ (M80)",
@@ -674,7 +1378,21 @@
     "muzzle_velocity": "817 m/s",
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ III",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/M80_7.62x51_inspect.png/revision/latest?cb=20240513215111"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/M80_7.62x51_inspect.png/revision/latest?cb=20240513215111",
+    "numeric_values": {
+      "weight": {
+        "value": 0.024,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 817.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x51mm FMJ (M80A1)",
@@ -686,7 +1404,21 @@
     "sold_by": "Banshee R.3",
     "muzzle_velocity": "835 m/s",
     "accuracy_modifier": "-3 %",
-    "stopped_by_armor_class": "NIJ III++"
+    "stopped_by_armor_class": "NIJ III++",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 835.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x51mm HPBT",
@@ -698,7 +1430,21 @@
     "sold_by": "Banshee R.2",
     "muzzle_velocity": "800 m/s",
     "dispersion": "-4 %",
-    "stopped_by_armor_class": "NIJ III"
+    "stopped_by_armor_class": "NIJ III",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 800.0,
+        "unit": "m/s"
+      },
+      "dispersion": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x51mm NATO",
@@ -715,7 +1461,21 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "820 m/s",
     "accuracy_modifier": "+4 %",
-    "stopped_by_armor_class": "NIJ III++"
+    "stopped_by_armor_class": "NIJ III++",
+    "numeric_values": {
+      "weight": {
+        "value": 0.024,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 820.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x54mm R",
@@ -732,7 +1492,21 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "828 m/s",
     "accuracy_modifier": "-2 %",
-    "stopped_by_armor_class": "NIJ IV"
+    "stopped_by_armor_class": "NIJ IV",
+    "numeric_values": {
+      "weight": {
+        "value": 0.022,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 828.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x54R LPS (57-N-323S)",
@@ -744,7 +1518,21 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "828 m/s",
     "accuracy_modifier": "-1 %",
-    "stopped_by_armor_class": "NIJ III+"
+    "stopped_by_armor_class": "NIJ III+",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 828.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x54R Sniper Round (7N1)",
@@ -756,7 +1544,21 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "835 m/s",
     "accuracy_modifier": "-5 %",
-    "stopped_by_armor_class": "NIJ III++"
+    "stopped_by_armor_class": "NIJ III++",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 835.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.62x54R Tracer (T-46M)",
@@ -768,7 +1570,21 @@
     "sold_by": "Artisan R.2",
     "muzzle_velocity": "830 m/s",
     "accuracy_modifier": "+3%",
-    "stopped_by_armor_class": "NIJ III+"
+    "stopped_by_armor_class": "NIJ III+",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 830.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.65 Browning FMJ",
@@ -781,7 +1597,21 @@
     "muzzle_velocity": "318 m/s",
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/FMJ_7.65_B_inspect.png/revision/latest?cb=20240507130207",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ 0",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 318.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.65 Browning JHP",
@@ -794,7 +1624,21 @@
     "muzzle_velocity": "238 m/s",
     "accuracy_modifier": "+4 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/JHP_7.65_B_inspect.png/revision/latest?cb=20240507130205",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ 0",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 238.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.65 Browning Xtreme Defender",
@@ -807,7 +1651,21 @@
     "muzzle_velocity": "289 m/s",
     "accuracy_modifier": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/XD_7.65_B_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612223159",
-    "stopped_by_armor_class": "NIJ IIA"
+    "stopped_by_armor_class": "NIJ IIA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.007,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 289.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "7.65mm Browning",
@@ -830,7 +1688,21 @@
     "muzzle_velocity": "390 m/s",
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ IIA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b0/FMJ_9x19_inspect.png/revision/latest?cb=20260414103621"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b0/FMJ_9x19_inspect.png/revision/latest?cb=20260414103621",
+    "numeric_values": {
+      "weight": {
+        "value": 0.012,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 390.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "9x19mm HP",
@@ -843,7 +1715,21 @@
     "muzzle_velocity": "377 m/s",
     "accuracy_modifier": "-3 %",
     "stopped_by_armor_class": "NIJ IIA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/HP_9x19_inspect.png/revision/latest?cb=20260414104120"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/HP_9x19_inspect.png/revision/latest?cb=20260414104120",
+    "numeric_values": {
+      "weight": {
+        "value": 0.012,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 377.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "9x19mm Libra Snail",
@@ -857,7 +1743,25 @@
     "accuracy_modifier": "+0 %",
     "durability_modifier": "-40 %",
     "stopped_by_armor_class": "NIJ III",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/LS_9x19_inspect.png/revision/latest?cb=20260414105204"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/LS_9x19_inspect.png/revision/latest?cb=20260414105204",
+    "numeric_values": {
+      "weight": {
+        "value": 0.007,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 700.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -40.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "9x19mm Tracer",
@@ -870,7 +1774,21 @@
     "muzzle_velocity": "342 m/s",
     "accuracy_modifier": "-4 %",
     "stopped_by_armor_class": "NIJ IIA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/Tracer_9x19_inspect.png/revision/latest?cb=20260414104417"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/Tracer_9x19_inspect.png/revision/latest?cb=20260414104417",
+    "numeric_values": {
+      "weight": {
+        "value": 0.013,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 342.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "9x19mm Xtreme Penetrator P+",
@@ -884,6 +1802,24 @@
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ IIIA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/Xp%2B9x19_inspect.png/revision/latest?cb=20260414104838"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/Xp%2B9x19_inspect.png/revision/latest?cb=20260414104838",
+    "numeric_values": {
+      "weight": {
+        "value": 0.012,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 381.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "durability_modifier": {
+        "value": -15.0,
+        "unit": "%"
+      }
+    }
   }
 ]

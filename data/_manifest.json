@@ -1,12 +1,12 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-12T15:45:06.812683Z",
+  "generatedAt": "2026-10-14T13:57:14.445694Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
       "file": "ammo.json",
       "records": 79,
-      "sha256": "47860c53e0939fbf0cd9b797c450a0e6f36042422121d6ceacdc8c9ff72b1f66"
+      "sha256": "6681cdd8f20d84ea3993b3120cf05930b45777d9b0b575760fdf116b051dc63e"
     },
     "apparel_items": {
       "file": "apparel_items.json",
@@ -16,27 +16,27 @@
     "auxiliary": {
       "file": "auxiliary.json",
       "records": 5,
-      "sha256": "fa8f4ce5c4e00dd0f3e883162f0b0e057324b5cebf68c907e164f7c990b2f9e5"
+      "sha256": "296f8cfd60264524f86c91af56572f43fa1dadca7c2af47b0b7a24e709779680"
     },
     "backpacks": {
       "file": "backpacks.json",
       "records": 17,
-      "sha256": "7550888f010cdbe4682dc8bf028702e7960332bb3ec35cca1347e917dc2d5658"
+      "sha256": "d384e8f4e53817b4f9bf8697cfa13201c59257bc668cd94578e402193d544496"
     },
     "barrels": {
       "file": "barrels.json",
       "records": 28,
-      "sha256": "bfe92acd42513d9117fbde6ca313eff6bf5b866b7404b682a18f83a6695d0bfa"
+      "sha256": "238a972f1fc430fe39e2694ec9a959fe03a34a61596a35d96428e5e661f1bb6f"
     },
     "belts": {
       "file": "belts.json",
       "records": 9,
-      "sha256": "d2e5eae250ca4fcfda81f157fb3727a096cfd8cefba3cf81fc703815521d9845"
+      "sha256": "3653d5bac77e25ad87aa9e2adab15a59af5b6eb783660fa02c21b1248ee93251"
     },
     "binoculars": {
       "file": "binoculars.json",
       "records": 4,
-      "sha256": "07f911d1400daa3e8d8d3ddeae9fcea01283bde3d5f1550678c5d301d058fa76"
+      "sha256": "8950671e0dc388b574337946481d646032d6bd1b5ba18576721a9147604cc283"
     },
     "boots": {
       "file": "boots.json",
@@ -51,12 +51,12 @@
     "buffer_tubes": {
       "file": "buffer_tubes.json",
       "records": 3,
-      "sha256": "29efaf06fde37209f5b83bc73a5323fc7ced2cab965f7c835cec55dcca3f0e98"
+      "sha256": "eb77862213151dd4903594b91b86b1cceabbe1bbf347f2ecaf4b804628d06e43"
     },
     "charging_handle": {
       "file": "charging_handle.json",
       "records": 11,
-      "sha256": "693ef5e2654256d1db05525c022edbd1a114eac600f83cfcbcee328ab57bbcc9"
+      "sha256": "7ffc8d49385db894cd507901b155003118888dc1da7a4efb5a598eedbbc48a4a"
     },
     "cleanup": {
       "file": "cleanup.json",
@@ -66,12 +66,12 @@
     "collimators": {
       "file": "collimators.json",
       "records": 20,
-      "sha256": "21dab57f2630f2d922d583f043860afb46682e6477b9868dddbfb8961860de5a"
+      "sha256": "9df767ba79d280f9fa42ad011e1de2ff9218fb322be04b1f2b8fdc8e25e1b950"
     },
     "containers": {
       "file": "containers.json",
       "records": 28,
-      "sha256": "29ff75c9aed25b5e17596dc9bf474c85560505c91a3658e10d3b098930333d16"
+      "sha256": "8659508a422e78f71d57813a090c443c1fe8db2f9de0ba7e587a03167161bf73"
     },
     "contract": {
       "file": "contract.json",
@@ -86,17 +86,17 @@
     "drinks": {
       "file": "drinks.json",
       "records": 18,
-      "sha256": "b343ac86e780e21239d6242790325eca0095828dfd1204bf2a4dbd30f807de9b"
+      "sha256": "af704aa3d97f28d524924f289c3f2266072ccbd240fb18b8d79dff2381042246"
     },
     "electronics": {
       "file": "electronics.json",
       "records": 5,
-      "sha256": "499292905aa5c17bf2e8c106d4550e03cefcb2a7551aacf7fd8975567d7ca1d4"
+      "sha256": "87ba10eb29ddd4dfe434e7e126f55c6c0932d869d1407d1023b952654ebc8ee6"
     },
     "face_cover": {
       "file": "face_cover.json",
       "records": 4,
-      "sha256": "260c48954bb944806703dada60f9f80eb99edc3b1451c4eaa097d752d72f7f6f"
+      "sha256": "a75a2f80ea237dfe4b9545197c55011048a90e87848d144c768527561bdf358a"
     },
     "factions": {
       "file": "factions.json",
@@ -106,37 +106,37 @@
     "food": {
       "file": "food.json",
       "records": 19,
-      "sha256": "bc8ecec011ebfcf7d13faabf7a5b0f0207b143c6149c81fd9a97aea20d8d0c40"
+      "sha256": "1812edfaedc5a4afa07530ed120d1ab44940218cab337f796c66e0f2cd65d02e"
     },
     "foregrips": {
       "file": "foregrips.json",
       "records": 19,
-      "sha256": "d180ff733dd098ad33afd107d4bf7320c229dc36d4ca5d8840432b467905fd97"
+      "sha256": "5da0f93cc5f28b38dfee7585813db1650b513981e4208a95e482e0518fb6967f"
     },
     "front_iron_sights": {
       "file": "front_iron_sights.json",
       "records": 16,
-      "sha256": "0a52c44929e6955ae7bc842e8c093432f3a1b70a46e068821047e9c029679b4b"
+      "sha256": "00caed3b87806e7414271992bfce92eaea798549205333cd5b228c2be086ba0e"
     },
     "funds": {
       "file": "funds.json",
       "records": 4,
-      "sha256": "70795ce14cd0e350f2afedd24187a465bc797842ed9a18f5db075c5b51865158"
+      "sha256": "2248a4cfae4ac6f22fad17aab3d26e92d75af1fb23ee7fede1c8d48a6bb82a14"
     },
     "gas_blocks": {
       "file": "gas_blocks.json",
       "records": 9,
-      "sha256": "8d39a64337ece2f6aa0b9b5e4a09718a8c9916cba0ea7982866ffa28cf0831e3"
+      "sha256": "ba7ba0ddb8b72f2f0cf64a63f8b89c8d1c7f1faddd6003d923ab11c6df37d1d1"
     },
     "gear": {
       "file": "gear.json",
       "records": 26,
-      "sha256": "33921b9eecc1447e2a2d0fbfdd5ad9f0e657d46aa2a5a75ce7142a8d1cc96c37"
+      "sha256": "5c61818de6980d1b005d7a964a24c921d208506aa65a2c7e19fa6194cc844959"
     },
     "glasses": {
       "file": "glasses.json",
       "records": 13,
-      "sha256": "64f18bb53064277e950f197d96a0de39afeeffc27c19cb4ecc056d8c37f7d1a3"
+      "sha256": "3bd310c600dc2502c26c676586b1a77cd5924a5da707977c9b5d3ca6a42cde66"
     },
     "gloves": {
       "file": "gloves.json",
@@ -146,22 +146,22 @@
     "handguards": {
       "file": "handguards.json",
       "records": 56,
-      "sha256": "04ce95960e84164c949893355bc4424df014ce17e62fc57d87d40eb1a06162d8"
+      "sha256": "90a15eee1debb7f168d70af7f7341d99fde79b4011335a722e23fa59a427e2cd"
     },
     "headsets": {
       "file": "headsets.json",
       "records": 7,
-      "sha256": "8d944f1b5f2de819214bf0b54160618d5618fe3be741897c49235679776032fa"
+      "sha256": "daf5593d8d4fec76c70be3d2d55a3e2f371a8b95ca75543a6843277b47c18ece"
     },
     "helmet_mounts": {
       "file": "helmet_mounts.json",
       "records": 3,
-      "sha256": "a41a4ebd577ad0d8c33722f7fa6fa1f23860080b32077a7a32d8ba68efcb9ff6"
+      "sha256": "ab538575593828a353fb6b30270f520c7896823c0af036a3a28d3351e5518ae5"
     },
     "helmets": {
       "file": "helmets.json",
       "records": 44,
-      "sha256": "bec95a7d4c90b6a1ea843ef7b59c45874464f8fabfd0762c250324100b7595bb"
+      "sha256": "0b5a924f418fc6f525b3e5f76403bd4d3c1fa23496200319746cac28f90ab352"
     },
     "hidden_task": {
       "file": "hidden_task.json",
@@ -171,7 +171,7 @@
     "household_item": {
       "file": "household_item.json",
       "records": 20,
-      "sha256": "8e55098500a37d45dc60f637485679e00d30cb043989a609fe101292882ed9f8"
+      "sha256": "9ac1257572753a3fd53ae38a441032bd8126f705dafa557647cd96bb6809c4ea"
     },
     "intels": {
       "file": "intels.json",
@@ -181,32 +181,32 @@
     "items": {
       "file": "items.json",
       "records": 3,
-      "sha256": "1c10bd2f2658cd30024e17aa5b3ef502ed7d52c9a6f2a642a89a7819c021d95c"
+      "sha256": "bfe52789b6a32bb7f603a073f690bfab169e2412da0107714308f9b93c254a88"
     },
     "jewellery": {
       "file": "jewellery.json",
       "records": 17,
-      "sha256": "922afc8c029a77c76d1839e694939c0f29ebe32c739529fbc62d332a4642762f"
+      "sha256": "fca9aade38820d754290ab23af5e85813dab961e66dd87a073b739577b9e64c6"
     },
     "keycards": {
       "file": "keycards.json",
       "records": 8,
-      "sha256": "b388cebef22ecc871227c57799ebf1e2f310dbb6ab8fe65aa08256096ae60f9f"
+      "sha256": "13e49af1dfce36ede7584390f8e67bc251fe693b053ba2355f7515d9835ad4ee"
     },
     "keys": {
       "file": "keys.json",
       "records": 126,
-      "sha256": "33c55548e68d666479c6bcae988fc4ec31b3321c0669d6afabcbce14f3c90f74"
+      "sha256": "96f837232d72a0257a7086a37cdf938b47d19c317f0f3cfea0923b54f6f594c2"
     },
     "laboratory_supplies": {
       "file": "laboratory_supplies.json",
       "records": 10,
-      "sha256": "51a266993098333b8a30f52a166d408d898990e16eaf9ed4fb35a0583fecb2ba"
+      "sha256": "59c6087729adc76e7c39b2fe05b300acde33e9c071a7d16cbe3490588823888d"
     },
     "lockboxes": {
       "file": "lockboxes.json",
       "records": 3,
-      "sha256": "35f2db50f137af63a669248cc959a720648efaff5043749ee2c4d410e84e4dfd"
+      "sha256": "c39612526b60bbdc8e97b7b80922d84c4a2d6ed74820e714e738892174a4bbd2"
     },
     "loot_container": {
       "file": "loot_container.json",
@@ -221,12 +221,12 @@
     "loot_items": {
       "file": "loot_items.json",
       "records": 120,
-      "sha256": "b679595a62b9420954e3519d3e906b4bf466f301571bbd72f9629b5c0cd17699"
+      "sha256": "0ab30515bea897f19afa7cdd33c2c94288f4c6b0c0c95a1827e4c9d6b8773f89"
     },
     "magazines": {
       "file": "magazines.json",
       "records": 51,
-      "sha256": "d4be5eba512c5ec879b8d19eba5d940c52b5a8d33cc65a47f913bac35c97ca51"
+      "sha256": "c32783fdbb7e25a58ed54da21be58efbcb7e76670c188e0fb1357f3c84f9ce58"
     },
     "main_task": {
       "file": "main_task.json",
@@ -236,32 +236,32 @@
     "medical": {
       "file": "medical.json",
       "records": 35,
-      "sha256": "a173757999793545d0d08c469319bdefe7fc668770d061f103b9e02376f97262"
+      "sha256": "b76aa67f04042bce1ce1e7511e1b038e28ec689d0c7de4dc1f87e4ee69ca6ad0"
     },
     "military_equipment": {
       "file": "military_equipment.json",
       "records": 19,
-      "sha256": "f298ac50af5c15ad2b5cfb64a978fa7da6fe7bd8b8335697f75507527d63bd1d"
+      "sha256": "dce570f888c0ef8a0bfa8514b6bf6aa6b3bb41a57924b3e1d8d6c5259d6b5b82"
     },
     "military_material": {
       "file": "military_material.json",
       "records": 4,
-      "sha256": "6d50f960c2414254c3d9152347df1a7cbd4fcdc831cf9466d2811851dcaa0d5e"
+      "sha256": "b4566f1a7bb92371f5aa38c8e4439ba32aeb7f3d1f1b205923cd320c0aca0d7d"
     },
     "mortar_rounds": {
       "file": "mortar_rounds.json",
       "records": 3,
-      "sha256": "52a7091441166412bc85e37d54ae9bf97847486ee01df78d639bf18150d0682b"
+      "sha256": "914bae4e6f72b6af7a86c8dd50de2256f787d9960483fdd25a33e4123f206072"
     },
     "mounts": {
       "file": "mounts.json",
       "records": 53,
-      "sha256": "23f0d91257c3f3a8a863996c3371b23c0374078b1de2567a4e5bf2fe8b5477f0"
+      "sha256": "105cee6e95417ade799655c9e9858e2a3f3efa6b549c321ab67fbcc725f2bb02"
     },
     "muzzle_devices": {
       "file": "muzzle_devices.json",
       "records": 45,
-      "sha256": "e226e484b4bb6c871e6b837f3c4a8047e6a9580f9b44f76e5f14b555e9126986"
+      "sha256": "6bd8dc8870d5246f8bc85fa7b92850888e556b376b1bddc5fd88f5bf486bab47"
     },
     "newspapers": {
       "file": "newspapers.json",
@@ -271,7 +271,7 @@
     "night_vision": {
       "file": "night_vision.json",
       "records": 5,
-      "sha256": "6197d6b0e811f7488b10433d95f8e081d5c4ff717a6efc05eef1343b4fbc1d78"
+      "sha256": "642bcce05f31b2c643180b7d2aec58d91089ca806adb9d6c46a35a1263ed6786"
     },
     "paper": {
       "file": "paper.json",
@@ -281,27 +281,27 @@
     "pistol_grips": {
       "file": "pistol_grips.json",
       "records": 25,
-      "sha256": "24c7080d33402b6a1c49225befc773302bb2f9e02cef8aef0a89dabb3041385a"
+      "sha256": "dbc689e1caaed622a67346b8babbb57d67598e2be4282a0ecc243cc33e9c9326"
     },
     "plate_carriers": {
       "file": "plate_carriers.json",
       "records": 18,
-      "sha256": "7fc98a76fa0c609abc043ef753bed6aa89729ebb9a4ddd162f05a567baa9d428"
+      "sha256": "8eff69e42fe1539a5d6dd29fd9b1ee909de16c57b341e77ad10b0f2f670c33d7"
     },
     "provisions": {
       "file": "provisions.json",
       "records": 37,
-      "sha256": "97e950115330e0eb10512f1fff10e8c99fe876a28400a62870b7dbf1f40625e6"
+      "sha256": "1cf935e69d6c480d5ca70da75700a01758d25c77fa625872045228647bc62f37"
     },
     "reading_intel": {
       "file": "reading_intel.json",
       "records": 2,
-      "sha256": "7792cedf99e29024a596e6c04b759e67fe1de2603940fbe48b673a9480616b79"
+      "sha256": "718f36b593fba25535656a64d180c40fc0810afe41d89b7d03e805a14b3bfaf6"
     },
     "rear_iron_sights": {
       "file": "rear_iron_sights.json",
       "records": 20,
-      "sha256": "ad44bf7d0ccae27c33321a9c666f068f80c356775608b79ac972f1cff52876d5"
+      "sha256": "bb20fbc58c3e2b8808fbfd4fac8938517fb2b10178e1e2ddd21f168c495bfbe8"
     },
     "regions": {
       "file": "regions.json",
@@ -311,22 +311,22 @@
     "removed_content": {
       "file": "removed_content.json",
       "records": 24,
-      "sha256": "fbdba2c2c6ac8154b0e0aa0bee069625f4b4e1a0212d5d621efae36675f7e9f5"
+      "sha256": "304ff0b606d7d094e2a299991278ef2bac103dd90b92681760fa3c3b7965d5fd"
     },
     "repair_kits": {
       "file": "repair_kits.json",
       "records": 6,
-      "sha256": "d6be9a118947e88b69afb145e3beb28abd4ee257afa9718a72ceb2c60c0912fd"
+      "sha256": "b785856d2158498b3768a5e8b3eae7bbc82ad8fce00ac7b21a5f46c8b902b7bd"
     },
     "rigs": {
       "file": "rigs.json",
       "records": 11,
-      "sha256": "9ec8e0a463352fbae14016a879ddf7c7ac63de6b02fc1f9b0caa1f08a3c90ccf"
+      "sha256": "a246a6cdd8b40b906ed504c961b2bedce918a08d94581ea8ce2190e47fea20cc"
     },
     "scopes": {
       "file": "scopes.json",
       "records": 12,
-      "sha256": "711976edbdbeb53d70eba062ba7686d605efef3aba12f8148880860bb742e5f4"
+      "sha256": "f6af67d5e92a2434c0bc84179d6b308bb371e56239f6df4207a63d15da0b5c13"
     },
     "shirts": {
       "file": "shirts.json",
@@ -341,7 +341,7 @@
     "slides": {
       "file": "slides.json",
       "records": 12,
-      "sha256": "f7e3aaa27f7a0239d6c227df6da32fd742b056049f9930fcc91c8fe28bb3895e"
+      "sha256": "35554b71455d324953e4f1204b1969eb0e07b2e26ac8d171cfc013eda0361ca8"
     },
     "squad_strike_missions": {
       "file": "squad_strike_missions.json",
@@ -356,27 +356,27 @@
     "stock_adapters": {
       "file": "stock_adapters.json",
       "records": 10,
-      "sha256": "19f4b503e0c3e88d2a817221304a50fe41ec8828c32b3b6d26fd7958ee1fb632"
+      "sha256": "04b6c7f0a3a36ca7adb44fd8208b62e37ce2763a740f34db8ff1b4b76cd884f9"
     },
     "stocks": {
       "file": "stocks.json",
       "records": 58,
-      "sha256": "8a5c08b4cf72bb842064ace47b095f3c8c3d69ec37e50529a4a3528e211b4ae7"
+      "sha256": "c273aed4ed17bc91893fe8e711140d38f53967610e6db9a6d0b50962e771ed15"
     },
     "suppressors": {
       "file": "suppressors.json",
       "records": 23,
-      "sha256": "12e5aaa38bbe6e47407ac76c73f92cb53388c869cb22d6e5d4bd012986855893"
+      "sha256": "18d790f468b34c3b3bd62dd2910a3e2ef4d92df7f45bf19097dfa1a219166fc6"
     },
     "tactical_devices": {
       "file": "tactical_devices.json",
       "records": 12,
-      "sha256": "3974817487d5a4b7719af65b9337579ff95d88dd72139c4a4f6793eb602db0ff"
+      "sha256": "69ca9ebd78ca666fc5a244d7d83c98a3de99d6a77f3c155bd119335a0cdfd94d"
     },
     "task_items": {
       "file": "task_items.json",
       "records": 102,
-      "sha256": "b2113934541d325508fe4c664a939a47548e05707e26b15a207fe8fba327612d"
+      "sha256": "114430074472cb88fb2b3b758a1f444050fde53f4f51d7051c6be8ae84ed4d78"
     },
     "tasks": {
       "file": "tasks.json",
@@ -386,12 +386,12 @@
     "throwables": {
       "file": "throwables.json",
       "records": 8,
-      "sha256": "37e9e4e108d01a527e6d57742a4e39d9216e1e83acd4218ac2c649b0e3a37143"
+      "sha256": "369542455b8a73d80ee03006cd7a3d744dcdaf56ac9e4579c0208e08e103dde3"
     },
     "tools": {
       "file": "tools.json",
       "records": 8,
-      "sha256": "7f118a38b3bd8674cc7407f087841614e2e775e64df0b0d272147f679a81347b"
+      "sha256": "26b9370656d363089c64f37906e155976b06869eac65f42e0c6917f29d211e9e"
     },
     "trousers": {
       "file": "trousers.json",
@@ -401,17 +401,17 @@
     "upcoming_content": {
       "file": "upcoming_content.json",
       "records": 12,
-      "sha256": "13d3946171cb78d7d1fa68799de36c87019c7a8192ec01cd3f51efca83360462"
+      "sha256": "39b83c98ea643482ec76ee2f7587ec9c5dbd59ec68ed076bb4e6b9c9ecf2b609"
     },
     "upper_receivers": {
       "file": "upper_receivers.json",
       "records": 15,
-      "sha256": "e8af5f5ff280ce287e1a98ecf7d9bed3cbee3292fecaa64a1d4b500bc58d3b90"
+      "sha256": "0377bfb21131dcba4bb8c6c37c3a54cffbf10a7c4b69ba91da4649c6a4271118"
     },
     "valuables": {
       "file": "valuables.json",
       "records": 1,
-      "sha256": "ae0d820dc8a09a3af977dc76a4ee22dadf5c3ce882168094a94204ac83c035a4"
+      "sha256": "d6329f081acb97d941baae2ef83935fb10d5be16fb0d5cda3593162eeccee1f1"
     },
     "vendors": {
       "file": "vendors.json",
@@ -421,27 +421,27 @@
     "vests": {
       "file": "vests.json",
       "records": 18,
-      "sha256": "dedd7644fb4a885e00ca787c15b5061f329e11349735c1dc5f71d5949fdb1b8f"
+      "sha256": "68004d225111ed4c97cc8c64e738729a4eebc0465541b8d74ff54232a077d0fa"
     },
     "vices": {
       "file": "vices.json",
       "records": 11,
-      "sha256": "ced4b2dd5a7be25f22ae8f6e525e64d59fe300cce9bfff19e474f2a7d29a9b84"
+      "sha256": "c7dc7ff3960890a09d3c68e1a5334d54430730f17b0e73b80f70e4ec58d3033a"
     },
     "weapon_parts": {
       "file": "weapon_parts.json",
       "records": 1,
-      "sha256": "c84098cb93418fb6ee1744f20626e22ddab48978b36ce368b610d6cf75960e27"
+      "sha256": "f91ede5dc52ee7ae778a31f1644afcc426a2d5d8067ad71376467e32d6f2c5e4"
     },
     "weapons": {
       "file": "weapons.json",
       "records": 44,
-      "sha256": "e3b0f01a1bb1adb4b500e79ae770fa0e54357088a437a8c47d0312df19e5761b"
+      "sha256": "b6604eb64cd64ba8059f77e2f48fa6f0ec752aa5f10bf1a4003ae45d27ab0af6"
     },
     "workshop_supplies": {
       "file": "workshop_supplies.json",
       "records": 16,
-      "sha256": "38c84db5a827e0ec149b400d297fac4e503fa0b685e30100f1014f838b7c87ac"
+      "sha256": "f8ac4077a31ae64c72bc5b7326c474ffa0a42f34b54e6209afde822cee1d072e"
     }
   }
 }

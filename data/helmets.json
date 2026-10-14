@@ -18,7 +18,13 @@
     "material": "Aramid",
     "nij_class": "IIIA+",
     "manufacturer": "Busch Protective",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/AMP-1_TP_LC%28Ranger_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505152450"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/AMP-1_TP_LC%28Ranger_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505152450",
+    "numeric_values": {
+      "weight": {
+        "value": 1.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AMP-1 TP LC (UNLRA)",
@@ -28,7 +34,13 @@
     "sold_by": "Loot only",
     "material": "Aramid",
     "nij_class": "IIIA+",
-    "manufacturer": "Busch Protective"
+    "manufacturer": "Busch Protective",
+    "numeric_values": {
+      "weight": {
+        "value": 1.69,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AMP-1 TP MC (Ranger Green)",
@@ -39,7 +51,13 @@
     "material": "Aramid",
     "nij_class": "IIIA+",
     "manufacturer": "Busch Protective",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/AMP-1_TP_MC_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509004445"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/AMP-1_TP_MC_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509004445",
+    "numeric_values": {
+      "weight": {
+        "value": 1.63,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Bandana (Blue)",
@@ -48,7 +66,17 @@
     "grid_size": "1x1",
     "rain_protection": "+0 %",
     "manufacturer": "FKH int. comp.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/Bandana%28Blue%29_inspect.png/revision/latest?cb=20250621182710"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/Bandana%28Blue%29_inspect.png/revision/latest?cb=20250621182710",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Bandana (Red)",
@@ -57,7 +85,17 @@
     "grid_size": "1x1",
     "rain_protection": "+0 %",
     "manufacturer": "FKH int. comp.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Bandana%28Red%29_inspect.png/revision/latest?cb=20250621182715"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Bandana%28Red%29_inspect.png/revision/latest?cb=20250621182715",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Baseball Cap (Black)",
@@ -66,7 +104,17 @@
     "grid_size": "1x1",
     "sold_by": "Handshake R.1",
     "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/BCap%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509012445"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/BCap%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509012445",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Baseball Cap (Blue)",
@@ -75,7 +123,17 @@
     "grid_size": "1x1",
     "sold_by": "Handshake R.1",
     "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/BCap%28Blue%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182718"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/BCap%28Blue%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182718",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Baseball Cap (Green)",
@@ -84,7 +142,17 @@
     "grid_size": "1x1",
     "sold_by": "Handshake R.1",
     "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/BCap%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182722"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/BCap%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182722",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Baseball Cap (Khaki)",
@@ -93,7 +161,17 @@
     "grid_size": "1x1",
     "sold_by": "Handshake R.1",
     "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/BCap%28Khaki%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182727"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/BCap%28Khaki%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182727",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Baseball Cap (Red)",
@@ -102,7 +180,17 @@
     "grid_size": "1x1",
     "sold_by": "Handshake R.1",
     "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/BCap%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182731"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/BCap%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182731",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Beret (Black)",
@@ -113,7 +201,17 @@
     "slots": "1",
     "rain_protection": "+20 %",
     "manufacturer": "Force Paw",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/Beret%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515141651"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/Beret%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515141651",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Beret (Green)",
@@ -123,7 +221,17 @@
     "sold_by": "Loot only",
     "slots": "1",
     "rain_protection": "+20 %",
-    "manufacturer": "General East"
+    "manufacturer": "General East",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Beret (Red)",
@@ -134,7 +242,17 @@
     "slots": "1",
     "rain_protection": "+20 %",
     "manufacturer": "FKH Int. Comp.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Beret%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182735"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Beret%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182735",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "CPU Hat Nyco Ripstop",
@@ -144,7 +262,17 @@
     "sold_by": "Handshake R.3",
     "rain_protection": "+50 %",
     "manufacturer": "Helikon-Tex",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/CPUHat_inspect.png/revision/latest?cb=20240509015202"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/CPUHat_inspect.png/revision/latest?cb=20240509015202",
+    "numeric_values": {
+      "weight": {
+        "value": 0.113,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "EXFIL (Coyote Brown)",
@@ -155,7 +283,13 @@
     "material": "UHMWPE",
     "nij_class": "IIIA",
     "manufacturer": "Team Wendy",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/EXFIL%28Coyote_Brown%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150547"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/EXFIL%28Coyote_Brown%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150547",
+    "numeric_values": {
+      "weight": {
+        "value": 1.18,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "EXFIL (Multicam)",
@@ -166,7 +300,13 @@
     "material": "UHMWPE",
     "nij_class": "IIIA",
     "manufacturer": "Team Wendy",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/EXFIL%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150631"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/EXFIL%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150631",
+    "numeric_values": {
+      "weight": {
+        "value": 1.18,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "ExSOF Cap",
@@ -176,7 +316,17 @@
     "sold_by": "Banshee R.1",
     "rain_protection": "+50 %",
     "manufacturer": "ExSOF Sec",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/ExCap_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509014220"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/ExCap_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509014220",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "FAST MT (Multicam)",
@@ -187,7 +337,13 @@
     "material": "Aramid",
     "nij_class": "IIIA+",
     "manufacturer": "Ops-Core",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/FAST_MT%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505152008"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/FAST_MT%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505152008",
+    "numeric_values": {
+      "weight": {
+        "value": 0.693,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "FAST MT (Tan)",
@@ -198,7 +354,13 @@
     "material": "Aramid",
     "nij_class": "IIIA+",
     "manufacturer": "Ops-Core",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/FAST_MT%28Tan%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250609082442"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/FAST_MT%28Tan%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250609082442",
+    "numeric_values": {
+      "weight": {
+        "value": 0.693,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "FAST XP HC (Multicam)",
@@ -210,7 +372,17 @@
     "nij_class": "IIIA",
     "rain_protection": "+30%",
     "manufacturer": "Ops-Core",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/FAST_XP_HC_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260523040642"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/FAST_XP_HC_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260523040642",
+    "numeric_values": {
+      "weight": {
+        "value": 1.25,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "FAST XP HC (Olive)",
@@ -222,7 +394,17 @@
     "nij_class": "IIIA",
     "rain_protection": "+30%",
     "manufacturer": "Ops-Core",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/FAST_XP_HC_%28Olive%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260523041219"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/FAST_XP_HC_%28Olive%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260523041219",
+    "numeric_values": {
+      "weight": {
+        "value": 1.25,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Headscarf (Black)",
@@ -230,7 +412,17 @@
     "weight": "0.060kg",
     "grid_size": "1x1",
     "rain_protection": "+0 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/HScarf%28Black%29_inspect.png/revision/latest?cb=20250621182801"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/HScarf%28Black%29_inspect.png/revision/latest?cb=20250621182801",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Leafy Boonie (Camo)",
@@ -239,7 +431,17 @@
     "grid_size": "1x1",
     "sold_by": "Handshake R.4",
     "rain_protection": "+60 %",
-    "manufacturer": "General East"
+    "manufacturer": "General East",
+    "numeric_values": {
+      "weight": {
+        "value": 0.14,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 60.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "LSHZ 1+ (Black)",
@@ -251,7 +453,17 @@
     "nij_class": "IIIA",
     "rain_protection": "+10%",
     "manufacturer": "Armokom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/LShZ%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509005651"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/LShZ%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509005651",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "LSHZ 1+ (Multicam)",
@@ -261,7 +473,13 @@
     "material": "Aramid",
     "nij_class": "IIA+",
     "manufacturer": "Armokom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/LShZ%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509005713"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/LShZ%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509005713",
+    "numeric_values": {
+      "weight": {
+        "value": 1.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M1 (Ace of Hearts)",
@@ -272,7 +490,13 @@
     "material": "Steel",
     "nij_class": "I",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/M1_%28Ace_of_Hearts%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260704033323"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/M1_%28Ace_of_Hearts%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260704033323",
+    "numeric_values": {
+      "weight": {
+        "value": 1.43,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M1 (Ace of Spades)",
@@ -283,7 +507,13 @@
     "material": "Steel",
     "nij_class": "I",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d5/M1_%28Ace_of_Spades%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260705045633"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d5/M1_%28Ace_of_Spades%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260705045633",
+    "numeric_values": {
+      "weight": {
+        "value": 1.43,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MICH LC",
@@ -303,7 +533,17 @@
     "nij_class": "IIIA",
     "rain_protection": "+20%",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/TC-2000%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260606121103"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/TC-2000%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260606121103",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Mich TC-2000 (Ranger Green)",
@@ -314,7 +554,13 @@
     "material": "Aramid",
     "nij_class": "IIIA",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/TC-2000%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150959"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/TC-2000%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150959",
+    "numeric_values": {
+      "weight": {
+        "value": 1.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mich TC-2000 (UNLRA)",
@@ -325,7 +571,13 @@
     "material": "Aramid",
     "nij_class": "IIIA",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/TC-2000%28UNLRA%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505173435"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/TC-2000%28UNLRA%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505173435",
+    "numeric_values": {
+      "weight": {
+        "value": 1.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MICH TC-2002 (Black)",
@@ -336,7 +588,13 @@
     "material": "Aramid",
     "nij_class": "IIIA",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b2/TC-2002%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505151022"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b2/TC-2002%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505151022",
+    "numeric_values": {
+      "weight": {
+        "value": 1.23,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MICH TC-2002 (Green)",
@@ -347,7 +605,13 @@
     "material": "Aramid",
     "nij_class": "IIIA",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/TC-2002%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505151503"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/TC-2002%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505151503",
+    "numeric_values": {
+      "weight": {
+        "value": 1.23,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MICH TC-2002 (Tan)",
@@ -358,7 +622,13 @@
     "material": "Aramid",
     "nij_class": "IIIA",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/TC-2002%28Tan%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505151522"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/TC-2002%28Tan%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505151522",
+    "numeric_values": {
+      "weight": {
+        "value": 1.23,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Military Cap",
@@ -368,7 +638,17 @@
     "sold_by": "Loot only",
     "rain_protection": "+40 %",
     "manufacturer": "General East",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/MilCap_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509014635"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/MilCap_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509014635",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Pandatac Trucker Cap",
@@ -376,7 +656,17 @@
     "weight": "0.110kg",
     "grid_size": "1x1",
     "sold_by": "Handshake R.2",
-    "rain_protection": "+50 %"
+    "rain_protection": "+50 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "PASGT",
@@ -385,7 +675,13 @@
     "grid_size": "2x2",
     "sold_by": "Turncoat R.2",
     "material": "UHMWPE",
-    "nij_class": "IIIA"
+    "nij_class": "IIIA",
+    "numeric_values": {
+      "weight": {
+        "value": 1.43,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "QGF-03 (Ghillie)",
@@ -397,7 +693,17 @@
     "nij_class": "IIIA",
     "rain_protection": "+20 %",
     "manufacturer": "Chinese Military",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/QGF-03_%28Ghillie%29_inspect.png/revision/latest?cb=20260331092053"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/QGF-03_%28Ghillie%29_inspect.png/revision/latest?cb=20260331092053",
+    "numeric_values": {
+      "weight": {
+        "value": 1.25,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Regiment Cap",
@@ -406,14 +712,30 @@
     "grid_size": "1x1",
     "sold_by": "Banshee R.4",
     "rain_protection": "+50 %",
-    "manufacturer": "General West"
+    "manufacturer": "General West",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Skull Crusher",
     "id": "skull-crusher",
     "weight": "0.280kg",
     "grid_size": "2x2",
-    "sold_by": "Handshake R.1 Banshee R.1"
+    "sold_by": "Handshake R.1 Banshee R.1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.28,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SSh-60",
@@ -432,7 +754,13 @@
     "material": "Steel",
     "nij_class": "I",
     "manufacturer": "NII Stali",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/SSh-68N_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509010916"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/SSh-68N_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509010916",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Stack Up Cap",
@@ -441,6 +769,16 @@
     "grid_size": "1x1",
     "sold_by": "N/A",
     "rain_protection": "+50 %",
-    "manufacturer": "General West"
+    "manufacturer": "General West",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
   }
 ]

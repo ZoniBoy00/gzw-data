@@ -8,7 +8,13 @@
     "sold_by": "Loot only",
     "slots": "4",
     "manufacturer": "ANA-Tactical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/BeltB_inspect.png/revision/latest?cb=20240509134353"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/BeltB_inspect.png/revision/latest?cb=20240509134353",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Civilian Leather Fanny Pack",
@@ -19,7 +25,13 @@
     "sold_by": "Artisan R.1 Looting",
     "slots": "2",
     "manufacturer": "General Local",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/LFPack_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509131638"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/LFPack_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509131638",
+    "numeric_values": {
+      "weight": {
+        "value": 0.345,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Civilian Sport Fanny Pack",
@@ -30,7 +42,13 @@
     "sold_by": "Artisan R.1 Looting",
     "slots": "1",
     "manufacturer": "General Local",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/SFPack_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070347"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/SFPack_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070347",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Custom Gear Lowpro Belt",
@@ -41,7 +59,13 @@
     "sold_by": "Turncoat R.2",
     "slots": "2",
     "manufacturer": "Custom Gear",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Custom_Gear_Lowpro_Belt_inspect.png/revision/latest/scale-to-width-down/268?cb=20260402181622"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Custom_Gear_Lowpro_Belt_inspect.png/revision/latest/scale-to-width-down/268?cb=20260402181622",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Leather Belt",
@@ -52,7 +76,13 @@
     "sold_by": "Loot only",
     "slots": "1",
     "manufacturer": "Homemade",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Belt_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070226"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Belt_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070226",
+    "numeric_values": {
+      "weight": {
+        "value": 0.305,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Light Anatomical Belt Type 2 (Olive)",
@@ -63,7 +93,13 @@
     "sold_by": "Turncoat R.3",
     "slots": "4",
     "manufacturer": "Raid Gear & MBC",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Type_2_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507165813"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Type_2_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507165813",
+    "numeric_values": {
+      "weight": {
+        "value": 1.31,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MC50 Laser Edition",
@@ -74,7 +110,13 @@
     "sold_by": "Handshake R.1",
     "slots": "3",
     "manufacturer": "Custom Gear",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/MC50_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509132956"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/MC50_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509132956",
+    "numeric_values": {
+      "weight": {
+        "value": 2.531,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tactical Belt",
@@ -85,7 +127,13 @@
     "sold_by": "Handshake R.1",
     "slots": "2",
     "manufacturer": "Condor Outdoor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/Tactical_inspect.png/revision/latest/scale-to-width-down/267?cb=20240509132548"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/Tactical_inspect.png/revision/latest/scale-to-width-down/267?cb=20240509132548",
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Yen's Light Anatomical Belt Type 2",
@@ -96,6 +144,12 @@
     "sold_by": "Looting",
     "slots": "4",
     "manufacturer": "Raid Gear & MBC",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/Yen%27s_Light_Anatomical_Belt_Type_2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260602024521"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/Yen%27s_Light_Anatomical_Belt_Type_2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260602024521",
+    "numeric_values": {
+      "weight": {
+        "value": 0.95,
+        "unit": "kg"
+      }
+    }
   }
 ]

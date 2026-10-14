@@ -6,7 +6,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "sell_price": "$15,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/BCCArd_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182734"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/BCCArd_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182734",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Common Credit Card",
@@ -15,7 +21,13 @@
     "weight": "0.005kg",
     "grid_size": "1x1",
     "sell_price": "$600",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/CCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422042432"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/CCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422042432",
+    "numeric_values": {
+      "weight": {
+        "value": 0.005,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Gold Credit Card",
@@ -24,7 +36,13 @@
     "weight": "0.005kg",
     "grid_size": "1x1",
     "sell_price": "$2,200",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/GCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506122148"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/GCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506122148",
+    "numeric_values": {
+      "weight": {
+        "value": 0.005,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Platinum Credit Card",
@@ -33,6 +51,12 @@
     "weight": "0.005kg",
     "grid_size": "1x1",
     "sell_price": "$6,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/PCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250424014800"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/PCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250424014800",
+    "numeric_values": {
+      "weight": {
+        "value": 0.005,
+        "unit": "kg"
+      }
+    }
   }
 ]

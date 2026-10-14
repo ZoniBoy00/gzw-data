@@ -9,7 +9,13 @@
     "charges": "2",
     "effect": "Hydration: +33",
     "manufacturer": "Aques",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Water1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530084550"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Water1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530084550",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Aques Water 1.5 l",
@@ -21,7 +27,13 @@
     "charges": "3",
     "effect": "Hydration: +33",
     "manufacturer": "Aques",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/Water2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601001425"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/Water2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601001425",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Coco Jumbo Coconut Juice Drink",
@@ -33,7 +45,13 @@
     "charges": "1",
     "effect": "Hydration: +24",
     "use_time": "5s",
-    "manufacturer": "Coco Jumbo"
+    "manufacturer": "Coco Jumbo",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Dark Star Iced Coffee",
@@ -45,7 +63,13 @@
     "charges": "1",
     "effect": "Energy: +5 Hydration: +20 Arm Stamina Boost: +15% Arm Stamina Boost Cap: +15% Arm Stamina Boost Duration: 90s Body Stamina Boost: +15% Body Stamina Boost Cap: +15% Body Stamina Boost Duration: 90s",
     "use_time": "5s",
-    "manufacturer": "Dark Star"
+    "manufacturer": "Dark Star",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Gray Focused Energy",
@@ -58,7 +82,13 @@
     "effect": "Energy: +5 Hydration: +35 Arm Stamina Boost: +30% Arm Stamina Boost Cap: +30% Arm Stamina Boost Duration: 300s Body Stamina Boost: +30% Body Stamina Boost Cap: +30% Body Stamina Boost Duration: 300s",
     "use_time": "5s",
     "manufacturer": "GRAY",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Gray_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530090230"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Gray_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530090230",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Infinity Isotonic Drink",
@@ -70,7 +100,13 @@
     "charges": "1",
     "effect": "Energy: +5 Hydration: +27",
     "manufacturer": "Infinity",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/IDrink_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601005416"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/IDrink_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601005416",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kaipo Lychee Nectar",
@@ -82,7 +118,13 @@
     "charges": "1",
     "effect": "Hydration: +35 Energy: +10",
     "use_time": "5s",
-    "manufacturer": "Kaipo"
+    "manufacturer": "Kaipo",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Maknav Iced Tea",
@@ -95,7 +137,13 @@
     "effect": "Hydration: +45 Energy: +10",
     "use_time": "6s",
     "manufacturer": "Maknav",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/IcedTea_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601003900"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/IcedTea_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601003900",
+    "numeric_values": {
+      "weight": {
+        "value": 0.95,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Noakon Water 0.6 l",
@@ -108,7 +156,13 @@
     "effect": "Hydration: +60",
     "use_time": "6s",
     "manufacturer": "Noakon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Water3_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530083541"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Water3_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530083541",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Noakon Water 1 l",
@@ -120,7 +174,13 @@
     "charges": "2",
     "effect": "Hydration: +33",
     "manufacturer": "Noakon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Water4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601095756"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Water4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601095756",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Noakon Water 1.5 l",
@@ -133,7 +193,13 @@
     "effect": "Hydration: +50",
     "use_time": "6 seconds",
     "manufacturer": "Noakon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Water5_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530083049"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Water5_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530083049",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "NuKlear Energy: Meltdown Mango",
@@ -146,7 +212,13 @@
     "effect": "Energy: +4 Hydration: +55 Arm Stamina Boost: +40% Arm Stamina Boost Cap: +40% Arm Stamina Boost Duration: 20s Body Stamina Boost: +40% Body Stamina Boost Cap: +40% Body Stamina Boost Duration: 20s",
     "use_time": "6s",
     "manufacturer": "NuKlear",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/EDrink2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530081504"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/EDrink2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530081504",
+    "numeric_values": {
+      "weight": {
+        "value": 0.34,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Power Energy Drink",
@@ -159,7 +231,13 @@
     "effect": "Energy: +20 Hydration: +40 Arm Stamina Boost: +70% Arm Stamina Boost Cap: +70% Arm Stamina Boost Duration: 20s Body Stamina Boost: +70% Body Stamina Boost Cap: +70% Body Stamina Boost Duration: 20s",
     "use_time": "5s",
     "manufacturer": "Power",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/EDrink_inspect.png/revision/latest?cb=20250708220621"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/EDrink_inspect.png/revision/latest?cb=20250708220621",
+    "numeric_values": {
+      "weight": {
+        "value": 0.47,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Riminda Green Bubbly Bliss",
@@ -172,7 +250,13 @@
     "effect": "Hydration: +50 Energy: +15",
     "use_time": "6",
     "manufacturer": "Riminda",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Riminda_Green_Bubbly_Bliss_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603022056"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Riminda_Green_Bubbly_Bliss_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603022056",
+    "numeric_values": {
+      "weight": {
+        "value": 2.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sunrise Cola",
@@ -184,7 +268,13 @@
     "charges": "1",
     "effect": "Hydration: +33 Energy: +15",
     "use_time": "5s",
-    "manufacturer": "Sunrise"
+    "manufacturer": "Sunrise",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sunrise Cola (2 L)",
@@ -196,7 +286,13 @@
     "charges": "3",
     "effect": "Hydration: +38",
     "manufacturer": "Sunrise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Cola2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601193130"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Cola2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601193130",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Touchdown Lemon Soda",
@@ -208,7 +304,13 @@
     "charges": "1",
     "effect": "Hydration: +33 Energy: +5",
     "use_time": "5s",
-    "manufacturer": "Touchdown"
+    "manufacturer": "Touchdown",
+    "numeric_values": {
+      "weight": {
+        "value": 0.38,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "White Orchid Crystal Water 2 l",
@@ -220,6 +322,12 @@
     "charges": "4",
     "effect": "Hydration: +33",
     "manufacturer": "White Orchid",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Water6_inspect.png/revision/latest/scale-to-width-down/267?cb=20250530082550"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Water6_inspect.png/revision/latest/scale-to-width-down/267?cb=20250530082550",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
   }
 ]

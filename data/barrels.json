@@ -8,7 +8,21 @@
     "manufacturer": "COLT",
     "accuracy": "3.89 MOA",
     "muzzle_device_efficiency": "-10 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.538,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.89,
+        "unit": "moa"
+      },
+      "muzzle_device_efficiency": {
+        "value": -10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AR-15 Barrel - 14.5\"",
@@ -18,7 +32,17 @@
     "sold_by": "Gunny R.??",
     "manufacturer": "Colt",
     "accuracy": "2.15 MOA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/AR-15_14.5%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135421"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/AR-15_14.5%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135421",
+    "numeric_values": {
+      "weight": {
+        "value": 0.725,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.15,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "AR-15 Barrel - 16\"",
@@ -29,7 +53,17 @@
     "manufacturer": "Colt",
     "accuracy": "1.83 MOA",
     "muzzle_device_efficiency": "???? %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/AR-15_16%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014723"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/AR-15_16%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014723",
+    "numeric_values": {
+      "weight": {
+        "value": 0.793,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.83,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "AR-15 Barrel - 18\"",
@@ -40,7 +74,21 @@
     "buy_price": "$598",
     "manufacturer": "Colt",
     "accuracy": "1.44 MOA",
-    "muzzle_velocity": "+12 %"
+    "muzzle_velocity": "+12 %",
+    "numeric_values": {
+      "weight": {
+        "value": 1.27,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.44,
+        "unit": "moa"
+      },
+      "muzzle_velocity": {
+        "value": 12.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AR-15 Barrel - 20\"",
@@ -51,7 +99,17 @@
     "manufacturer": "Colt",
     "accuracy": "1.11 MOA",
     "size_change_horizontal": "+4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/AR-15_20%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014754"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/AR-15_20%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014754",
+    "numeric_values": {
+      "weight": {
+        "value": 0.97,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.11,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "AR-15 CQA1 Barrel - 14.5\"",
@@ -63,7 +121,21 @@
     "accuracy": "4.18 MOA",
     "muzzle_velocity": "-4 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/CQA1_14.5%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20251105195340"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/CQA1_14.5%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20251105195340",
+    "numeric_values": {
+      "weight": {
+        "value": 0.725,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 4.18,
+        "unit": "moa"
+      },
+      "muzzle_velocity": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Glock 17 Match Grade Barrel",
@@ -73,7 +145,17 @@
     "sold_by": "Banshee R.2",
     "buy_price": "$204",
     "manufacturer": "Zaffiri Precision",
-    "accuracy": "10.82 MOA"
+    "accuracy": "10.82 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 10.82,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "Glock 17 Match Grade Threaded Barrel (Gold)",
@@ -95,7 +177,17 @@
     "sold_by": "Gunny R.1 Banshee R.1",
     "manufacturer": "Glock",
     "accuracy": "11.70 MOA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/G17_B_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115143"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/G17_B_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115143",
+    "numeric_values": {
+      "weight": {
+        "value": 0.113,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 11.7,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "M700 Barrel - 22\"",
@@ -106,7 +198,17 @@
     "buy_price": "$614",
     "manufacturer": "Remington",
     "accuracy": "0.61 MOA",
-    "size_change_horizontal": "+3"
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.61,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "M700 Heavy Barrel - 26\"",
@@ -117,7 +219,21 @@
     "manufacturer": "Remington",
     "accuracy": "0.48 MOA",
     "muzzle_velocity": "+6.0 %",
-    "size_change_horizontal": "0/+4"
+    "size_change_horizontal": "0/+4",
+    "numeric_values": {
+      "weight": {
+        "value": 2.05,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.48,
+        "unit": "moa"
+      },
+      "muzzle_velocity": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M700 Suppressed Barrel - 20\"",
@@ -128,7 +244,17 @@
     "buy_price": "$1,219",
     "manufacturer": "Remington",
     "accuracy": "1.10 MOA",
-    "size_change_horizontal": "+3"
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.1,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "M700 Threaded Barrel - 18\"",
@@ -138,7 +264,17 @@
     "sold_by": "Banshee R.1",
     "manufacturer": "Remington",
     "accuracy": "1.02 MOA",
-    "size_change_horizontal": "+3"
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.12,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.02,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "M700 VTR Barrel - 22\"",
@@ -149,7 +285,17 @@
     "buy_price": "$1,105",
     "manufacturer": "Remington",
     "accuracy": "0.55 MOA",
-    "size_change_horizontal": "+3"
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.55,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "M870 Barrel - 18.5\"",
@@ -159,7 +305,17 @@
     "sold_by": "Gunny R.1",
     "manufacturer": "Remington",
     "accuracy": "41.60 MOA",
-    "size_change_horizontal": "+2"
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.75,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 41.6,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "M870 Barrel - 23\"",
@@ -170,7 +326,21 @@
     "manufacturer": "Remington",
     "accuracy": "29.60 MOA",
     "muzzle_velocity": "+8 %",
-    "size_change_horizontal": "+2"
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.93,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 29.6,
+        "unit": "moa"
+      },
+      "muzzle_velocity": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M870 Barrel - 26\"",
@@ -181,7 +351,21 @@
     "manufacturer": "Remington",
     "accuracy": "24.50 MOA",
     "muzzle_velocity": "+12 %",
-    "size_change_horizontal": "+3"
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 24.5,
+        "unit": "moa"
+      },
+      "muzzle_velocity": {
+        "value": 12.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M9A1 Standard Barrel",
@@ -190,7 +374,17 @@
     "weight": "0.149 kg",
     "sold_by": "Gunny R.1",
     "manufacturer": "Beretta",
-    "accuracy": "11.70 MOA"
+    "accuracy": "11.70 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.149,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 11.7,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "M9A1 Threaded Barrel",
@@ -199,7 +393,17 @@
     "weight": "0.207 kg",
     "sold_by": "Gunny R.1",
     "manufacturer": "Beretta",
-    "accuracy": "11.70 MOA"
+    "accuracy": "11.70 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.207,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 11.7,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "Mosin-Nagant Barrel - 514mm",
@@ -210,7 +414,17 @@
     "buy_price": "$104",
     "manufacturer": "Kalashnikov concern",
     "accuracy": "3.00 MOA",
-    "size_change_horizontal": "+3"
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.0,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "Mosin-Nagant Barrel - 730mm",
@@ -232,7 +446,17 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$339",
     "manufacturer": "ZEV Technologies",
-    "accuracy": "11.65 MOA"
+    "accuracy": "11.65 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.105,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 11.65,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "SIG MCX Barrel - 16\"",
@@ -243,7 +467,17 @@
     "buy_price": "$1,266",
     "manufacturer": "SIG Sauer",
     "accuracy": "1.95 MOA",
-    "size_change_horizontal": "+2"
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.95,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "SIG MCX Barrel - 6.75\"",
@@ -253,7 +487,17 @@
     "sold_by": "Loot only",
     "manufacturer": "SIG Sauer",
     "accuracy": "3.27 MOA",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.35,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.27,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "SIG MCX Barrel - 9\"",
@@ -266,7 +510,21 @@
     "accuracy": "2.65 MOA",
     "muzzle_velocity": "-11 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/SIG_MCX_9%27_inspect.png/revision/latest?cb=20250614021923"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/SIG_MCX_9%27_inspect.png/revision/latest?cb=20250614021923",
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.65,
+        "unit": "moa"
+      },
+      "muzzle_velocity": {
+        "value": -11.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SVD Barrel - 620mm",
@@ -276,7 +534,17 @@
     "sold_by": "Artisan R.4",
     "manufacturer": "Kalashnikov concern",
     "accuracy": "0.95 MOA",
-    "size_change_horizontal": "+3"
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.95,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "Type 51 Barrel",
@@ -285,7 +553,17 @@
     "weight": "0.060 kg",
     "sold_by": "Loot only",
     "manufacturer": "Norinco",
-    "accuracy": "12.23 MOA"
+    "accuracy": "12.23 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 12.23,
+        "unit": "moa"
+      }
+    }
   },
   {
     "name": "Type 51 Threaded Barrel",
@@ -294,6 +572,16 @@
     "weight": "0.062 kg",
     "sold_by": "Loot only",
     "manufacturer": "Norinco",
-    "accuracy": "12.23 MOA"
+    "accuracy": "12.23 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.062,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 12.23,
+        "unit": "moa"
+      }
+    }
   }
 ]

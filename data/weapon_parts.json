@@ -7,6 +7,12 @@
     "manufacturer": "Sig Sauer",
     "size_change_vertical": "+1",
     "size_change_horizontal": "0",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/MCX_Grip.png/revision/latest/scale-to-width-down/268?cb=20250614023437"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/MCX_Grip.png/revision/latest/scale-to-width-down/268?cb=20250614023437",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   }
 ]

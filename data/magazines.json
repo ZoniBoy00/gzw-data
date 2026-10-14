@@ -20,7 +20,17 @@
     "manufacturer": "Magpul",
     "reload_speed": "+6 %",
     "size_change_vertical": "+1",
-    "caliber": "5.45x39mm"
+    "caliber": "5.45x39mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
@@ -32,7 +42,17 @@
     "manufacturer": "Kalashnikov Concern",
     "reload_speed": "2 %",
     "size_change_vertical": "+1",
-    "caliber": "5.45x39mm"
+    "caliber": "5.45x39mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.22,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK 5.45×39mm 30-Round Black Magazine",
@@ -52,7 +72,13 @@
     "weight": "0.080 kg",
     "sold_by": "Artisan R.1",
     "manufacturer": "Kalashnikov concern",
-    "caliber": "7.62x39mm"
+    "caliber": "7.62x39mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
@@ -63,7 +89,17 @@
     "manufacturer": "Kalashnikov concern",
     "reload_speed": "+2 %",
     "size_change_vertical": "+1",
-    "caliber": "7.62x39mm"
+    "caliber": "7.62x39mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK 7.62x39mm 30-Round PMAG Magazine",
@@ -75,7 +111,17 @@
     "reload_speed": "+6 %",
     "size_change_vertical": "+1",
     "caliber": "7.62x39mm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/AK_7.62_Mag_PMAG%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617004309"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/AK_7.62_Mag_PMAG%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617004309",
+    "numeric_values": {
+      "weight": {
+        "value": 0.725,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK 7.62x39mm 30-Round Stamped Magazine",
@@ -86,7 +132,17 @@
     "manufacturer": "Kalashnikov concern",
     "reload_speed": "+2 %",
     "size_change_vertical": "+1",
-    "caliber": "7.62x39mm"
+    "caliber": "7.62x39mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.37,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK12 5.45x39mm 30-Round Magazine",
@@ -98,7 +154,17 @@
     "manufacturer": "Kalashnikov Concern",
     "reload_speed": "+6 %",
     "caliber": "5.45x39mm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/AK12_Mag%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617011648"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/AK12_Mag%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617011648",
+    "numeric_values": {
+      "weight": {
+        "value": 0.181,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK15 7.62x39mm 30-Round Magazine",
@@ -110,7 +176,17 @@
     "reload_speed": "+6 %",
     "size_change_vertical": "+1",
     "caliber": "7.62x39mm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ed/AK_7.62_Mag_AK15%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615192239"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ed/AK_7.62_Mag_AK15%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615192239",
+    "numeric_values": {
+      "weight": {
+        "value": 0.67,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK19 5.56x45mm 30-Round Magazine",
@@ -122,7 +198,17 @@
     "manufacturer": "Kalashnikov concern",
     "reload_speed": "+6 %",
     "size_change_vertical": "+1",
-    "caliber": "5.56x45mm NATO"
+    "caliber": "5.56x45mm NATO",
+    "numeric_values": {
+      "weight": {
+        "value": 0.181,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AK308 7.62x51mm 20-Round Magazine",
@@ -133,7 +219,13 @@
     "buy_price": "$55",
     "manufacturer": "Kalashnikov concern",
     "size_change_vertical": "+1",
-    "caliber": "7.62x51mm NATO"
+    "caliber": "7.62x51mm NATO",
+    "numeric_values": {
+      "weight": {
+        "value": 0.181,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK74 5.45x39mm 60-Round Magazine",
@@ -145,7 +237,17 @@
     "manufacturer": "Pufgun",
     "reload_speed": "-16 %",
     "size_change_vertical": "+1",
-    "caliber": "5.45x39mm"
+    "caliber": "5.45x39mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -16.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
@@ -157,7 +259,17 @@
     "reload_speed": "-16 %",
     "size_change_vertical": "+1",
     "caliber": "5.56x45mm NATO .300 AAC Blackout",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/ATI_5.56-.300_BLK_Mag%2860_rnds%29_inspect.png/revision/latest?cb=20250620105945"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/ATI_5.56-.300_BLK_Mag%2860_rnds%29_inspect.png/revision/latest?cb=20250620105945",
+    "numeric_values": {
+      "weight": {
+        "value": 0.263,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -16.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Buran's AK 5.45×39mm 30-Round Magazine",
@@ -168,7 +280,13 @@
     "buy_price": "$280",
     "manufacturer": "EGMT",
     "caliber": "5.45x39mm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Buran%27s_AK_5.45x39mm_30-Round_Magazine_inspect.png/revision/latest?cb=20260606115706"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Buran%27s_AK_5.45x39mm_30-Round_Magazine_inspect.png/revision/latest?cb=20260606115706",
+    "numeric_values": {
+      "weight": {
+        "value": 0.22,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Colt 1911 .45ACP 7-Round Magazine",
@@ -178,7 +296,13 @@
     "sold_by": "Loot only",
     "manufacturer": "Colt",
     "caliber": ".45 ACP",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/1911_Mag%287_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727212538"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/1911_Mag%287_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727212538",
+    "numeric_values": {
+      "weight": {
+        "value": 0.215,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
@@ -190,7 +314,17 @@
     "reload_speed": "-5 %",
     "size_change_vertical": "+1",
     "caliber": ".300 BLK / 5.56x45mm 5.56x45mm NATO .300 AAC Blackout",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/DD_5.56-.300_BLK_Mag%2832_rnds%29_inspect.png/revision/latest?cb=20250531195600"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/DD_5.56-.300_BLK_Mag%2832_rnds%29_inspect.png/revision/latest?cb=20250531195600",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Firebrand's AK 5.45x39mm 30-Round Black Magazine",
@@ -201,7 +335,17 @@
     "manufacturer": "EGMT",
     "reload_speed": "-2.0 %",
     "caliber": "5.45x39mm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Firebrands_AK_5.45_Mag_Black%2830_rnds%29_inspect.png/revision/latest?cb=20260512120936"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Firebrands_AK_5.45_Mag_Black%2830_rnds%29_inspect.png/revision/latest?cb=20260512120936",
+    "numeric_values": {
+      "weight": {
+        "value": 0.22,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Glock 17 9x19mm 17-Round Magazine",
@@ -213,7 +357,17 @@
     "reload_speed": "+0 %",
     "size_change_vertical": "+1",
     "caliber": "9x19mm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/G17_Mag%2817_rnds%29_inspect.png/revision/latest/scale-to-width-down/267?cb=20240509115145"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/G17_Mag%2817_rnds%29_inspect.png/revision/latest/scale-to-width-down/267?cb=20240509115145",
+    "numeric_values": {
+      "weight": {
+        "value": 0.048,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Glock 17 9x19mm 27-Round Magazine",
@@ -224,7 +378,17 @@
     "manufacturer": "Promag Industries",
     "reload_speed": "-10 %",
     "size_change_vertical": "+1",
-    "caliber": "9x19mm"
+    "caliber": "9x19mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.056,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Grin's Colt 1911 .45ACP 7-Round Magazine",
@@ -234,7 +398,13 @@
     "sold_by": "Vulture R.1",
     "manufacturer": "Colt",
     "caliber": ".45 ACP",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Grins_1911_Mag%287_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260512044823"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Grins_1911_Mag%287_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260512044823",
+    "numeric_values": {
+      "weight": {
+        "value": 0.068,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M590 12GA 10-Round Magazine",
@@ -246,7 +416,13 @@
     "reload_speed": "??? %",
     "size_change_horizontal": "???",
     "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/M590_Mag%2810_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614000956"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/M590_Mag%2810_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614000956",
+    "numeric_values": {
+      "weight": {
+        "value": 0.94,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M590 12ga 6-Round Cap",
@@ -269,7 +445,17 @@
     "manufacturer": "Accuracy International",
     "reload_speed": "-6 %",
     "size_change_vertical": "+1",
-    "caliber": "7.62x51mm NATO"
+    "caliber": "7.62x51mm NATO",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
@@ -281,7 +467,17 @@
     "reload_speed": "-4.0 %",
     "size_change_vertical": "+1",
     "caliber": "7.62x51mm NATO",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/M700_PMAG10_inspect.PNG/revision/latest?cb=20251106021545"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/M700_PMAG10_inspect.PNG/revision/latest?cb=20251106021545",
+    "numeric_values": {
+      "weight": {
+        "value": 0.124,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M700 7.62x51mm 5-Round Magazine",
@@ -290,7 +486,13 @@
     "weight": "0.170 kg",
     "sold_by": "Banshee R.1",
     "manufacturer": "Accuracy International",
-    "caliber": "7.62x51mm NATO"
+    "caliber": "7.62x51mm NATO",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M870 12ga 10-Round Magazine",
@@ -310,7 +512,13 @@
     "weight": "0.100 kg",
     "sold_by": "Gunny R.1",
     "manufacturer": "General West",
-    "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug"
+    "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M870 12ga 6-Round Magazine",
@@ -320,7 +528,13 @@
     "sold_by": "Gunny R.2",
     "manufacturer": "Remington",
     "size_change_horizontal": "+2",
-    "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug"
+    "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M9A1 9x19mm 15-Round Magazine",
@@ -331,7 +545,13 @@
     "manufacturer": "Beretta",
     "reload_speed": "??? %",
     "size_change_vertical": "???",
-    "caliber": "9x19mm"
+    "caliber": "9x19mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.065,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M9A1 9x19mm 30-Round Magazine",
@@ -352,7 +572,13 @@
     "sold_by": "Artisan R.3",
     "buy_price": "$67",
     "manufacturer": "Program Industries",
-    "caliber": "7.62x54mm R"
+    "caliber": "7.62x54mm R",
+    "numeric_values": {
+      "weight": {
+        "value": 0.227,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mosin-Nagant 7.62x54R 5-Round Internal Magazine",
@@ -361,7 +587,13 @@
     "weight": "0.200 kg",
     "sold_by": "Artisan R.1",
     "manufacturer": "Kalashnikov concern",
-    "caliber": "7.62x54mm R"
+    "caliber": "7.62x54mm R",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP5 Standard 30-Round Magazine",
@@ -372,7 +604,13 @@
     "manufacturer": "Heckler & Koch",
     "size_change_vertical": "+1",
     "caliber": "9x19mm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c0/MP5_Mag%2830_rnds%29_inspect.png/revision/latest?cb=20250426121422"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c0/MP5_Mag%2830_rnds%29_inspect.png/revision/latest?cb=20250426121422",
+    "numeric_values": {
+      "weight": {
+        "value": 0.14,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP7 20-Round Magazine",
@@ -382,7 +620,13 @@
     "sold_by": "Banshee R.2",
     "buy_price": "$178",
     "manufacturer": "Heckler & Koch",
-    "caliber": "4.6x30mm"
+    "caliber": "4.6x30mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP7 30-Round Magazine",
@@ -393,7 +637,17 @@
     "manufacturer": "Heckler & Koch",
     "reload_speed": "-5 %",
     "size_change_vertical": "+1",
-    "caliber": "4.6x30mm"
+    "caliber": "4.6x30mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "MP7 40-Round Magazine",
@@ -405,7 +659,17 @@
     "manufacturer": "Heckler & Koch",
     "reload_speed": "-10 %",
     "size_change_vertical": "+1",
-    "caliber": "4.6x30mm"
+    "caliber": "4.6x30mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine",
@@ -429,7 +693,17 @@
     "reload_speed": "+6 %",
     "size_change_vertical": "+1",
     "caliber": "5.56x45mm NATO .300 AAC Blackout",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/PMAG_5.56-.300_BLK_Mag%2830_rnds%29_inspect.png/revision/latest?cb=20250531201358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/PMAG_5.56-.300_BLK_Mag%2830_rnds%29_inspect.png/revision/latest?cb=20250531201358",
+    "numeric_values": {
+      "weight": {
+        "value": 0.141,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)",
@@ -441,7 +715,17 @@
     "reload_speed": "+5 %",
     "size_change_vertical": "+1",
     "caliber": "5.56x45mm NATO .300 AAC Blackout",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/PMAG_5.56-.300_BLK_Mag%2830_rnds_FDE%29_inspect.png/revision/latest?cb=20250617102736"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/PMAG_5.56-.300_BLK_Mag%2830_rnds_FDE%29_inspect.png/revision/latest?cb=20250617102736",
+    "numeric_values": {
+      "weight": {
+        "value": 0.441,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Schmeisser AK 7.62x39 60-round Magazine",
@@ -454,7 +738,17 @@
     "reload_speed": "-4 %",
     "size_change_vertical": "+1",
     "caliber": "7.62x39mm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/AK_7.62_Mag%2860_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614011844"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/AK_7.62_Mag%2860_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614011844",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SKS 7.62x39mm 10-Round Internal Magazine",
@@ -463,7 +757,13 @@
     "weight": "0.185 kg",
     "sold_by": "Artisan R.1",
     "manufacturer": "Kalashnikov concern",
-    "caliber": "7.62x39mm"
+    "caliber": "7.62x39mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.185,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
@@ -473,7 +773,13 @@
     "sold_by": "Artisan R.2",
     "manufacturer": "Promag Industries",
     "size_change_vertical": "+1",
-    "caliber": "7.62x39mm"
+    "caliber": "7.62x39mm",
+    "numeric_values": {
+      "weight": {
+        "value": 0.295,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
@@ -494,7 +800,13 @@
     "manufacturer": "General West",
     "size_change_vertical": "+1",
     "caliber": "5.56x45mm NATO .300 AAC Blackout",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/STANAG_5.56-.300_BLK_Mag%2820_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614172921"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/STANAG_5.56-.300_BLK_Mag%2820_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614172921",
+    "numeric_values": {
+      "weight": {
+        "value": 0.068,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
@@ -506,7 +818,17 @@
     "reload_speed": "+4 %",
     "size_change_vertical": "+1",
     "caliber": "5.56x45mm NATO .300 AAC Blackout",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/STANAG_5.56-.300_BLK_Mag%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135556"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/STANAG_5.56-.300_BLK_Mag%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135556",
+    "numeric_values": {
+      "weight": {
+        "value": 0.32,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SVD Dragunov 10-Round Magazine",
@@ -516,7 +838,13 @@
     "sold_by": "Artisan R.4",
     "buy_price": "$208",
     "manufacturer": "Kalashnikov concern",
-    "caliber": "7.62x54mm R"
+    "caliber": "7.62x54mm R",
+    "numeric_values": {
+      "weight": {
+        "value": 0.216,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SVD Dragunov 20-Round Magazine",

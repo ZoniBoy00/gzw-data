@@ -9,7 +9,13 @@
     "slots": "16",
     "inventory": "4x4",
     "manufacturer": "FORT technology",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "ALICE",
@@ -19,7 +25,13 @@
     "grid_size": "2x4",
     "sold_by": "Handshake R.1",
     "slots": "8",
-    "inventory": "4x2"
+    "inventory": "4x2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Biker Chest Rig",
@@ -31,7 +43,13 @@
     "slots": "4",
     "inventory": "2x3",
     "manufacturer": "Sepeda",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Biker_inspect.png/revision/latest?cb=20240509070242"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Biker_inspect.png/revision/latest?cb=20240509070242",
+    "numeric_values": {
+      "weight": {
+        "value": 0.35,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Broker's Training Mini Rig",
@@ -43,7 +61,13 @@
     "slots": "9",
     "inventory": "3x3",
     "manufacturer": "Helikon-Tex",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/eb/Broker_TMR_inspect.png/revision/latest?cb=20260527042204"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/eb/Broker_TMR_inspect.png/revision/latest?cb=20260527042204",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Improvized Rig",
@@ -53,7 +77,13 @@
     "grid_size": "2x3",
     "sold_by": "Loot only",
     "slots": "2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/IRig_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182804"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/IRig_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182804",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Recon Chest Rig",
@@ -64,7 +94,13 @@
     "sold_by": "Handshake R.3",
     "slots": "12",
     "inventory": "4x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/4x3_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250608162448"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/4x3_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250608162448",
+    "numeric_values": {
+      "weight": {
+        "value": 0.82,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Small Rig",
@@ -75,7 +111,13 @@
     "sold_by": "Loot only",
     "slots": "4",
     "inventory": "2x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/SRig_inspect.png/revision/latest?cb=20240509070417"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/SRig_inspect.png/revision/latest?cb=20240509070417",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "TacTec Chest Rig",
@@ -87,7 +129,13 @@
     "slots": "10",
     "inventory": "5x2",
     "manufacturer": "5.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/TacTec_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505172154"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/TacTec_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505172154",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Training Mini Rig",
@@ -99,7 +147,13 @@
     "slots": "8",
     "inventory": "3x3",
     "manufacturer": "Helikon-Tex",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/TMR_inspect.png/revision/latest/scale-to-width-down/267?cb=20240505172547"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/TMR_inspect.png/revision/latest/scale-to-width-down/267?cb=20240505172547",
+    "numeric_values": {
+      "weight": {
+        "value": 0.622,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Type 56 AK",
@@ -110,7 +164,13 @@
     "sold_by": "Turncoat R.1",
     "slots": "6",
     "inventory": "3x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/3x2_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240510000746"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/3x2_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240510000746",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Universal Chest Bag",
@@ -120,6 +180,12 @@
     "sold_by": "Artisan R.1 Looting",
     "slots": "4",
     "inventory": "4x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Chest_Bag_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070313"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Chest_Bag_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070313",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   }
 ]

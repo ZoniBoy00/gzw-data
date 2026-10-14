@@ -6,7 +6,13 @@
     "weight": "0.349 kg",
     "sold_by": "Loot only",
     "manufacturer": "Fusion Firearms",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/1911_Com_Slide_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727222408"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/1911_Com_Slide_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727222408",
+    "numeric_values": {
+      "weight": {
+        "value": 0.349,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Colt 1911 Long Slide",
@@ -35,7 +41,13 @@
     "weight": "0.370 kg",
     "sold_by": "Gunny R.1 Banshee R.1",
     "manufacturer": "Glock",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/74/G17_Slide_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115145"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/74/G17_Slide_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115145",
+    "numeric_values": {
+      "weight": {
+        "value": 0.37,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock 17 ZPS.6 Slide",
@@ -46,7 +58,21 @@
     "buy_price": "$353",
     "manufacturer": "Zaffiri Precision",
     "recoil_control": "+6 %",
-    "reload_speed": "-4 %"
+    "reload_speed": "-4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.28,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "reload_speed": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M9A1 Slide",
@@ -54,7 +80,13 @@
     "type": "Slide",
     "weight": "0.290 kg",
     "sold_by": "Gunny R.1",
-    "manufacturer": "Beretta"
+    "manufacturer": "Beretta",
+    "numeric_values": {
+      "weight": {
+        "value": 0.29,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "N17 Reptile EDC Slide",
@@ -64,7 +96,17 @@
     "sold_by": "Banshee R.4",
     "buy_price": "$817",
     "manufacturer": "Norsso",
-    "reload_speed": "+10 %"
+    "reload_speed": "+10 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.37,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "P40 Warhawk Slide",
@@ -75,7 +117,21 @@
     "buy_price": "$752",
     "manufacturer": "Steel City Arsenal",
     "recoil_control": "-4 %",
-    "reload_speed": "+8 %"
+    "reload_speed": "+8 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "reload_speed": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "TT-33 Slide",
@@ -106,7 +162,21 @@
     "buy_price": "$661",
     "manufacturer": "L2D Combat",
     "recoil_control": "-8 %",
-    "reload_speed": "+6 %"
+    "reload_speed": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.29,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": -8.0,
+        "unit": "%"
+      },
+      "reload_speed": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Z17 Citadel Slide",
@@ -117,6 +187,20 @@
     "buy_price": "$864",
     "manufacturer": "ZEV Technologies",
     "recoil_control": "-4 %",
-    "reload_speed": "+6 %"
+    "reload_speed": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "reload_speed": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
   }
 ]
