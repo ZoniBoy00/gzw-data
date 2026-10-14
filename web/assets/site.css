@@ -248,6 +248,9 @@ td:first-child { color: var(--text); font-weight: 650; }
 
 .footer { margin-top: 65px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--subtle); font-size: 11px; }
 .footer a { color: var(--amber); text-decoration: none; }
+.footer .saas-browser-badge { display: inline-flex; margin: 0 0 18px; border-radius: 6px; }
+.footer .saas-browser-badge img { display: block; width: 200px; height: auto; }
+.footer .saas-browser-badge:focus-visible { outline: 2px solid var(--amber); outline-offset: 4px; }
 .loading { padding: 55px 20px; color: var(--subtle); text-align: center; }
 .error-message { padding: 16px; border: 1px solid rgba(239,107,114,.25); border-radius: 10px; color: var(--danger); background: rgba(239,107,114,.08); font-size: 13px; }
 .mono { font-family: var(--mono); }
