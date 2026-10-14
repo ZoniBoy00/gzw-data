@@ -8,7 +8,17 @@
     "manufacturer": "ADE Advanced Optics",
     "weapon_handling": "-1 %",
     "modes": "Red laser",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/ADE_Laser_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530015732"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/ADE_Laser_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530015732",
+    "numeric_values": {
+      "weight": {
+        "value": 0.032,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DBAL-I2",
@@ -19,7 +29,13 @@
     "buy_price": "$900",
     "manufacturer": "Steiner",
     "modes": "Red Laser IR Laser",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/DBAL-I2.png/revision/latest/scale-to-width-down/268?cb=20260513195512"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/DBAL-I2.png/revision/latest/scale-to-width-down/268?cb=20260513195512",
+    "numeric_values": {
+      "weight": {
+        "value": 0.227,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "NcStar Compact Green Laser",
@@ -31,7 +47,17 @@
     "manufacturer": "NcStar",
     "weapon_handling": "-1 %",
     "modes": "Green laser",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/NcStar_Laser_inspect.png/revision/latest/scale-to-width-down/267?cb=20250530022219"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/NcStar_Laser_inspect.png/revision/latest/scale-to-width-down/267?cb=20250530022219",
+    "numeric_values": {
+      "weight": {
+        "value": 0.093,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -1.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "NcStar LED FlashLight",
@@ -42,7 +68,13 @@
     "buy_price": "$200",
     "manufacturer": "NcStar",
     "modes": "Flashlight",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/NcStar_Light_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530002005"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/NcStar_Light_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530002005",
+    "numeric_values": {
+      "weight": {
+        "value": 0.085,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Steiner AN/PEQ-15A DBAL-A2",
@@ -51,7 +83,13 @@
     "weight": "0.227 kg",
     "manufacturer": "Steiner",
     "modes": "Red Laser IR Laser IR Illuminator",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/AN-PEQ-15A_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014659"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/AN-PEQ-15A_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014659",
+    "numeric_values": {
+      "weight": {
+        "value": 0.227,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Steiner CQBL-1",
@@ -62,7 +100,13 @@
     "buy_price": "$964",
     "manufacturer": "Steiner",
     "modes": "Infrared laser Red Laser",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/CQBL-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250528002045"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/CQBL-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250528002045",
+    "numeric_values": {
+      "weight": {
+        "value": 0.159,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Surefire M600 Scout light",
@@ -73,7 +117,13 @@
     "manufacturer": "Surefire",
     "weapon_handling": "+??? %",
     "modes": "Flashlight",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/M600IB_inspect.png/revision/latest/scale-to-width-down/268?cb=20250602131118"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/M600IB_inspect.png/revision/latest/scale-to-width-down/268?cb=20250602131118",
+    "numeric_values": {
+      "weight": {
+        "value": 0.147,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Surefire P1R Peacekeeper",
@@ -84,7 +134,17 @@
     "manufacturer": "Surefire",
     "weapon_handling": "-3.0 %",
     "modes": "Flashlight",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/P1R_inspect.png/revision/latest/scale-to-width-down/268?cb=20250529235203"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/P1R_inspect.png/revision/latest/scale-to-width-down/268?cb=20250529235203",
+    "numeric_values": {
+      "weight": {
+        "value": 0.176,
+        "unit": "kg"
+      },
+      "weapon_handling": {
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Surefire X400V-B-IRC",
@@ -93,7 +153,13 @@
     "weight": "0.136 kg",
     "manufacturer": "Surefire",
     "modes": "Flashlight Green laser",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/X400_inspect.png/revision/latest/scale-to-width-down/268?cb=20250610110856"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/X400_inspect.png/revision/latest/scale-to-width-down/268?cb=20250610110856",
+    "numeric_values": {
+      "weight": {
+        "value": 0.136,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Zenitco Klesch-1",
@@ -104,7 +170,13 @@
     "manufacturer": "Zenitco",
     "weapon_handling": "+??? %",
     "modes": "Flashlight",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Klesch-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530001021"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Klesch-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530001021",
+    "numeric_values": {
+      "weight": {
+        "value": 0.082,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Zenitco Klesch-2",
@@ -114,7 +186,13 @@
     "sold_by": "Turncoat R.2",
     "buy_price": "$260",
     "manufacturer": "Zenitco",
-    "modes": "Flashlight"
+    "modes": "Flashlight",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Zenitco PERST-4",
@@ -124,6 +202,12 @@
     "sold_by": "???",
     "manufacturer": "Zenitco",
     "modes": "IR laser Green laser",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/PERST-4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250204123638"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/PERST-4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250204123638",
+    "numeric_values": {
+      "weight": {
+        "value": 0.21,
+        "unit": "kg"
+      }
+    }
   }
 ]

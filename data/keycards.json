@@ -6,7 +6,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door storage room in Fort Narith Headquarters.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/FN_HQRec_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075303"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/FN_HQRec_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075303",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Operations Room Key Card",
@@ -15,7 +21,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Operations Room in Fort Narith Headquarters.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075206"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075206",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hotel Supply Closet Key Card",
@@ -24,7 +36,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Supply Closet in Midnight Sapphire Hotel",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Keycard-Type2.png/revision/latest?cb=20250531203648"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Keycard-Type2.png/revision/latest?cb=20250531203648",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Keys",
@@ -38,7 +56,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Kiu Vongsa Town Hall",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Town Hall Finance Department Key Card",
@@ -47,7 +71,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Nam Thaven Town Hall",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Town Hall Finance Department Key Card",
@@ -56,7 +86,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Pha Lang Town Hall",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA HQ Office Key Card",
@@ -65,6 +101,12 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door office in Tiger Bay UNLRA HQ.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   }
 ]

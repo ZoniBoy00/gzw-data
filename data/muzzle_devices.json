@@ -8,7 +8,17 @@
     "buy_price": "$146",
     "manufacturer": "Sig Sauer",
     "muzzle_device_efficiency": "+3 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/3_Prong_FH_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614022558"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/3_Prong_FH_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614022558",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "3-Lug threaded HK MP5",
@@ -16,7 +26,13 @@
     "type": "Muzzle Device",
     "weight": "0.080 kg",
     "sold_by": "Gunny R.2",
-    "manufacturer": "Heckler & Koch"
+    "manufacturer": "Heckler & Koch",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "A2 Flash Hider",
@@ -26,7 +42,13 @@
     "sold_by": "Gunny R.??",
     "manufacturer": "Colt",
     "muzzle_device_efficiency": "+???? %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/55/A2_FH_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135421"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/55/A2_FH_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135421",
+    "numeric_values": {
+      "weight": {
+        "value": 0.066,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK Adapter 14-1LH to 24-1.5",
@@ -35,7 +57,13 @@
     "weight": "0.044 kg",
     "sold_by": "Artisan R.4",
     "buy_price": "$41",
-    "manufacturer": "General East"
+    "manufacturer": "General East",
+    "numeric_values": {
+      "weight": {
+        "value": 0.044,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK Bulgarian Flash Hider",
@@ -54,7 +82,17 @@
     "sold_by": "Artisan R.2",
     "buy_price": "$70",
     "manufacturer": "Kalashnikov concern",
-    "muzzle_device_efficiency": "+25 %"
+    "muzzle_device_efficiency": "+25 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 25.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AKM Muzzle Brake",
@@ -73,7 +111,17 @@
     "sold_by": "Artisan R.1",
     "buy_price": "$13",
     "manufacturer": "Kalashnikov concern",
-    "muzzle_device_efficiency": "+20 %"
+    "muzzle_device_efficiency": "+20 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AKS-74U Muzzle Brake",
@@ -83,7 +131,17 @@
     "sold_by": "Turncoat R.1",
     "buy_price": "$13",
     "manufacturer": "Kalashnikov concern",
-    "muzzle_device_efficiency": "+10 %"
+    "muzzle_device_efficiency": "+10 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.19,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "B&T MP5 Flash Hider",
@@ -92,7 +150,17 @@
     "weight": "0.195 kg",
     "sold_by": "Loot only",
     "manufacturer": "B&T",
-    "muzzle_device_efficiency": "+3 %"
+    "muzzle_device_efficiency": "+3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.195,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Colt 1911 Muzzle Brake",
@@ -111,7 +179,17 @@
     "sold_by": "Gunny R.1",
     "manufacturer": "Norinco",
     "muzzle_device_efficiency": "+5 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/CQA2_FH_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614165714"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/CQA2_FH_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614165714",
+    "numeric_values": {
+      "weight": {
+        "value": 0.066,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD Extended Flash Suppressor",
@@ -121,7 +199,13 @@
     "sold_by": "Loot only",
     "manufacturer": "Daniel Defense",
     "muzzle_device_efficiency": "+???? %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/DD_FH_Ext._inspect.png/revision/latest/scale-to-width-down/268?cb=20250613223917"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/DD_FH_Ext._inspect.png/revision/latest/scale-to-width-down/268?cb=20250613223917",
+    "numeric_values": {
+      "weight": {
+        "value": 0.095,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "DTK-1 Muzzle Brake",
@@ -140,7 +224,17 @@
     "sold_by": "Artisan R.3",
     "buy_price": "$117",
     "manufacturer": "Zenitco",
-    "muzzle_device_efficiency": "+40 %"
+    "muzzle_device_efficiency": "+40 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.105,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Fury Titanium Muzzle Brake",
@@ -168,7 +262,17 @@
     "sold_by": "Banshee R.2",
     "buy_price": "$150",
     "manufacturer": "General West",
-    "muzzle_device_efficiency": "+10 %"
+    "muzzle_device_efficiency": "+10 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Hypertap Muzzle Brake 5.56x45",
@@ -186,7 +290,17 @@
     "weight": "0.850 kg",
     "sold_by": "Open World Loot only",
     "manufacturer": "Precision Armaments",
-    "muzzle_device_efficiency": "+45 %"
+    "muzzle_device_efficiency": "+45 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.85,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 45.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M4QD Flash Hider",
@@ -196,7 +310,17 @@
     "sold_by": "Gunny R.2",
     "manufacturer": "KAC",
     "muzzle_device_efficiency": "+7 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/KAC_QD.png/revision/latest/scale-to-width-down/268?cb=20251110211949"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/KAC_QD.png/revision/latest/scale-to-width-down/268?cb=20251110211949",
+    "numeric_values": {
+      "weight": {
+        "value": 0.068,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M700 Thread Cap",
@@ -233,7 +357,17 @@
     "sold_by": "Artisan R.3",
     "buy_price": "$130",
     "manufacturer": "General West",
-    "muzzle_device_efficiency": "+40 %"
+    "muzzle_device_efficiency": "+40 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.257,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Mossberg Salvo 12 Choke Adapter",
@@ -250,7 +384,13 @@
     "type": "Muzzle Device",
     "weight": "0.080 kg",
     "sold_by": "Gunny R.1",
-    "manufacturer": "Heckler & Koch"
+    "manufacturer": "Heckler & Koch",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP5 Muzzle Cap",
@@ -267,7 +407,13 @@
     "type": "Muzzle Device",
     "weight": "0.080 kg",
     "sold_by": "Gunny R.2",
-    "manufacturer": "Heckler & Koch"
+    "manufacturer": "Heckler & Koch",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP7 Flash Hider",
@@ -276,7 +422,17 @@
     "weight": "0.040 kg",
     "sold_by": "???",
     "manufacturer": "Heckler & Koch",
-    "muzzle_device_efficiency": "+5 %"
+    "muzzle_device_efficiency": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "PCAM4-72",
@@ -286,7 +442,17 @@
     "sold_by": "Banshee R.3",
     "buy_price": "$126",
     "manufacturer": "Precision Armament",
-    "muzzle_device_efficiency": "+35 %"
+    "muzzle_device_efficiency": "+35 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 35.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Remington Salvo 12 Choke Adapter",
@@ -295,7 +461,17 @@
     "weight": "0.075 kg",
     "sold_by": "Gunny R.4",
     "manufacturer": "SilencerCo",
-    "accuracy_modifier": "+50 %"
+    "accuracy_modifier": "+50 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.075,
+        "unit": "kg"
+      },
+      "accuracy_modifier": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SKS Muzzle Brake Adapter",
@@ -303,7 +479,13 @@
     "type": "Muzzle Device",
     "weight": "0.055 kg",
     "sold_by": "Loot only",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.055,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Slot Muzzle Brake",
@@ -322,7 +504,17 @@
     "sold_by": "Gunny R.3",
     "manufacturer": "Surefire",
     "muzzle_device_efficiency": "+10 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/SF3P_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616234643"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/SF3P_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616234643",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SRD762-QD Flash Hider",
@@ -331,7 +523,17 @@
     "weight": "0.070 kg",
     "sold_by": "Banshee R.3",
     "manufacturer": "SIG Sauer",
-    "muzzle_device_efficiency": "+4 %"
+    "muzzle_device_efficiency": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SRD762-QD Muzzle Brake",
@@ -341,7 +543,17 @@
     "sold_by": "Banshee R.4",
     "buy_price": "$150",
     "manufacturer": "SIG Sauer",
-    "muzzle_device_efficiency": "+10 %"
+    "muzzle_device_efficiency": "+10 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.095,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SRD762-QD Taper-Lok Muzzle Brake",
@@ -377,7 +589,17 @@
     "weight": "0.162 kg",
     "sold_by": "Loot only",
     "manufacturer": "General West",
-    "muzzle_device_efficiency": "+45 %"
+    "muzzle_device_efficiency": "+45 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.162,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 45.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Vulcan F1",
@@ -387,7 +609,17 @@
     "sold_by": "Gunny R.4",
     "buy_price": "$146",
     "manufacturer": "Antreg",
-    "muzzle_device_efficiency": "+5 %"
+    "muzzle_device_efficiency": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.105,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Vulcan M1",
@@ -397,7 +629,17 @@
     "sold_by": "Gunny R.4",
     "buy_price": "$284",
     "manufacturer": "Antreg",
-    "muzzle_device_efficiency": "+20 %"
+    "muzzle_device_efficiency": "+20 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.105,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "X-Factor Choke",
@@ -406,7 +648,17 @@
     "weight": "0.101 kg",
     "sold_by": "Gunny R.2",
     "manufacturer": "Mossberg",
-    "accuracy_modifier": "+20 %"
+    "accuracy_modifier": "+20 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.101,
+        "unit": "kg"
+      },
+      "accuracy_modifier": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "XM177E2 Moderator Flash Hider",
@@ -415,6 +667,16 @@
     "weight": "0.120 kg",
     "sold_by": "Gunny R.2",
     "manufacturer": "COLT",
-    "muzzle_device_efficiency": "+4 %"
+    "muzzle_device_efficiency": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "muzzle_device_efficiency": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   }
 ]

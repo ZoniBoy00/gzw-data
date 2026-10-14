@@ -6,7 +6,13 @@
     "weight": "0.016 kg",
     "sold_by": "Loot only",
     "manufacturer": "MidwayUSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/1911_Com_Ham_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727223559"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/1911_Com_Ham_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727223559",
+    "numeric_values": {
+      "weight": {
+        "value": 0.016,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Colt 1911 Hammer",
@@ -22,7 +28,13 @@
     "type": "Auxiliary",
     "weight": "0.050 kg",
     "sold_by": "Gunny R.1",
-    "manufacturer": "Beretta"
+    "manufacturer": "Beretta",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SKS Receiver Cover Retaining Pin",
@@ -31,7 +43,13 @@
     "weight": "0.050 kg",
     "sold_by": "Artisan R.1",
     "buy_price": "$29",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SVD Rear Sight Ring",
@@ -40,6 +58,12 @@
     "weight": "0.150 kg",
     "sold_by": "Artisan R.4",
     "buy_price": "$81",
-    "manufacturer": "Kalashnikov concern"
+    "manufacturer": "Kalashnikov concern",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    }
   }
 ]

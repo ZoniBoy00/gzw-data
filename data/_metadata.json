@@ -1,6 +1,6 @@
 {
   "source": "gzw-scraper",
-  "scraperVersion": "4.5.1",
+  "scraperVersion": "4.6.0",
   "parserRevision": "universal-parser-v8",
   "datasetCount": 88,
   "datasets": [
@@ -90,6 +90,28 @@
           "nullable": false,
           "example": ".222 Remington FMJ"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 64,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.01,
+              "unit": "kg"
+            },
+            "muzzle_velocity": {
+              "value": 828.0,
+              "unit": "m/s"
+            },
+            "accuracy_modifier": {
+              "value": -1.0,
+              "unit": "%"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -127,7 +149,7 @@
           "example": "0.007kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": ".222 Remington",
@@ -480,7 +502,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Apparel",
@@ -538,6 +560,20 @@
           "nullable": false,
           "example": "Colt 1911 Commander Hammer"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.016,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -566,7 +602,7 @@
           "example": "0.016 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Colt 1911 Commander Hammer",
@@ -640,6 +676,20 @@
           "nullable": false,
           "example": "6Sh118 Ratnik V2"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 17,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.072,
+              "unit": "kg"
+            }
+          }
+        },
         "slots": {
           "types": [
             "string"
@@ -677,7 +727,7 @@
           "example": "0.072kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "6Sh118 Ratnik V2",
@@ -835,6 +885,28 @@
           "nullable": false,
           "example": "AR-15 Barrel - 10.5\""
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 26,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 2.05,
+              "unit": "kg"
+            },
+            "accuracy": {
+              "value": 0.48,
+              "unit": "moa"
+            },
+            "muzzle_velocity": {
+              "value": 6.0,
+              "unit": "%"
+            }
+          }
+        },
         "size_change_horizontal": {
           "types": [
             "string"
@@ -872,7 +944,7 @@
           "example": ".725 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AR-15 Barrel - 10.5\"",
@@ -1038,6 +1110,20 @@
           "nullable": false,
           "example": "Belt Bag"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.25,
+              "unit": "kg"
+            }
+          }
+        },
         "slots": {
           "types": [
             "string"
@@ -1075,7 +1161,7 @@
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Belt Bag",
@@ -1156,6 +1242,20 @@
           "nullable": false,
           "example": "M1050 LRF Rangefinder"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.53,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -1184,7 +1284,7 @@
           "example": "0.530kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "M1050 LRF Rangefinder",
@@ -1237,7 +1337,7 @@
           "example": "AKU - Conero GTX"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AKU - Conero GTX",
@@ -1334,7 +1434,7 @@
           "example": "Bloudhound needs to be killed for Final Liberation task."
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Bloodhound",
@@ -1411,6 +1511,24 @@
           "nullable": false,
           "example": "CQ A1 Buffer Tube"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.108,
+              "unit": "kg"
+            },
+            "recoil_control": {
+              "value": 2.0,
+              "unit": "%"
+            }
+          }
+        },
         "recoil_control": {
           "types": [
             "string"
@@ -1457,7 +1575,7 @@
           "example": "0.108 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "CQ A1 Buffer Tube",
@@ -1523,6 +1641,24 @@
           "nullable": false,
           "example": "AK RP-1 Charging Handle"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 10,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.028,
+              "unit": "kg"
+            },
+            "reload_speed": {
+              "value": -2.0,
+              "unit": "%"
+            }
+          }
+        },
         "reload_speed": {
           "types": [
             "string"
@@ -1560,7 +1696,7 @@
           "example": "0,080 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AK RP-1 Charging Handle",
@@ -1704,7 +1840,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Cache Report IX",
@@ -1783,6 +1919,24 @@
           "nullable": false,
           "example": "503CU Micro Sight"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 18,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.031,
+              "unit": "kg"
+            },
+            "sighting_range": {
+              "value": 100.0,
+              "unit": "m"
+            }
+          }
+        },
         "sighting_range": {
           "types": [
             "string"
@@ -1829,7 +1983,7 @@
           "example": ".318 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "503CU Micro Sight",
@@ -1981,6 +2135,20 @@
           "nullable": false,
           "example": "Admin Desk"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 27,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.02,
+              "unit": "kg"
+            }
+          }
+        },
         "restrictions": {
           "types": [
             "string"
@@ -2036,7 +2204,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Admin Desk",
@@ -2221,7 +2389,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Bad Idea",
@@ -2392,7 +2560,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Cache Report II",
@@ -2476,6 +2644,20 @@
           "nullable": false,
           "example": "Aques Water 1 l"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.24,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -2513,7 +2695,7 @@
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Aques Water 1 l",
@@ -2639,6 +2821,20 @@
           "nullable": false,
           "example": "Black Luxury Phone"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.1,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -2667,7 +2863,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Black Luxury Phone",
@@ -2741,6 +2937,20 @@
           "nullable": false,
           "example": "Half Mask (Skull)"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.03,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -2769,7 +2979,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Half Mask (Skull)",
@@ -2831,7 +3041,7 @@
           "example": "Bandits"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Bandits",
@@ -3008,6 +3218,36 @@
           "nullable": false,
           "example": "1 Shot Energy Chews"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 19,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.04,
+              "unit": "kg"
+            },
+            "arm_stamina_boost": {
+              "value": 100.0,
+              "unit": "%"
+            },
+            "arm_stamina_boost_cap": {
+              "value": 100.0,
+              "unit": "%"
+            },
+            "body_stamina_boost": {
+              "value": 100.0,
+              "unit": "%"
+            },
+            "body_stamina_boost_cap": {
+              "value": 100.0,
+              "unit": "%"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -3054,7 +3294,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "1 Shot Energy Chews",
@@ -3193,6 +3433,32 @@
           "nullable": false,
           "example": "AFG-2 (FDE)"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.073,
+              "unit": "kg"
+            },
+            "recoil_control": {
+              "value": 12.0,
+              "unit": "%"
+            },
+            "weapon_handling": {
+              "value": -6.0,
+              "unit": "%"
+            },
+            "ergonomics": {
+              "value": -6.0,
+              "unit": "%"
+            }
+          }
+        },
         "recoil_control": {
           "types": [
             "string"
@@ -3239,7 +3505,7 @@
           "example": "0.017 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AFG-2",
@@ -3378,6 +3644,24 @@
           "nullable": false,
           "example": "Back-Up 3 Front Iron Sight"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 16,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.06,
+              "unit": "kg"
+            },
+            "sighting_range": {
+              "value": 0.0,
+              "unit": "m"
+            }
+          }
+        },
         "sighting_range": {
           "types": [
             "string"
@@ -3424,7 +3708,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Back-Up 3 Front Iron Sight",
@@ -3533,6 +3817,20 @@
           "nullable": false,
           "example": "Black Credit Card"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.005,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -3561,7 +3859,7 @@
           "example": "0.005kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Black Credit Card",
@@ -3649,6 +3947,28 @@
           "nullable": false,
           "example": "AK-74 Gas Tube"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 9,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.08,
+              "unit": "kg"
+            },
+            "fire_rate": {
+              "value": 3.0,
+              "unit": "%"
+            },
+            "muzzle_device_efficiency": {
+              "value": 3.0,
+              "unit": "%"
+            }
+          }
+        },
         "slot": {
           "types": [
             "string"
@@ -3686,7 +4006,7 @@
           "example": "0.045 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AK-74 Gas Tube",
@@ -3776,6 +4096,20 @@
           "nullable": false,
           "example": "AMP12"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 16,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.03,
+              "unit": "kg"
+            }
+          }
+        },
         "slots": {
           "types": [
             "string"
@@ -3813,7 +4147,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AMP12",
@@ -3980,6 +4314,20 @@
           "nullable": false,
           "example": "Aviator (Black)"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "flashbang_resistance": {
+              "value": 0.0,
+              "unit": "%"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -4008,7 +4356,7 @@
           "example": "0.090kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Aviator (Black)",
@@ -4097,7 +4445,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "5.11 - Competition Shooting",
@@ -4217,6 +4565,28 @@
           "nullable": false,
           "example": "AK 308 Handguard"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 50,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.17,
+              "unit": "kg"
+            },
+            "recoil_control": {
+              "value": 1.0,
+              "unit": "%"
+            },
+            "ergonomics": {
+              "value": 3.0,
+              "unit": "%"
+            }
+          }
+        },
         "recoil_control": {
           "types": [
             "string"
@@ -4281,7 +4651,7 @@
           "example": "0.110 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AK 308 Handguard",
@@ -4568,6 +4938,20 @@
           "nullable": false,
           "example": "3M Comtac II"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.16,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -4596,7 +4980,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "3M Comtac II",
@@ -4669,6 +5053,20 @@
           "nullable": false,
           "example": "L4 G24 Helmet NVG Mount"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.06,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -4697,7 +5095,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "L4 G24 Helmet NVG Mount",
@@ -4781,6 +5179,24 @@
           "nullable": false,
           "example": "I"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 41,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.06,
+              "unit": "kg"
+            },
+            "rain_protection": {
+              "value": 0.0,
+              "unit": "%"
+            }
+          }
+        },
         "rain_protection": {
           "types": [
             "string"
@@ -4827,7 +5243,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "6B47 Ratnik",
@@ -5067,7 +5483,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "At Doom's Gate",
@@ -5149,6 +5565,20 @@
           "nullable": false,
           "example": "Aramid Cloth"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 20,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.013,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -5177,7 +5607,7 @@
           "example": "0.013kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Aramid Cloth",
@@ -5303,7 +5733,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "George's love letter",
@@ -5399,6 +5829,20 @@
           "nullable": false,
           "example": "Advanced Tracking Tag"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.007,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -5427,7 +5871,7 @@
           "example": "0,014kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Advanced Tracking Tag",
@@ -5493,6 +5937,20 @@
           "nullable": false,
           "example": "Dark Pearl Necklace"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 17,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.01,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -5521,7 +5979,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Dark Pearl Necklace",
@@ -5634,6 +6092,20 @@
           "nullable": false,
           "example": "Fort Narith HQ Reception Storage Key Card"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.01,
+              "unit": "kg"
+            }
+          }
+        },
         "type": {
           "types": [
             "string"
@@ -5662,7 +6134,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Fort Narith HQ Reception Storage Key Card",
@@ -5748,6 +6220,20 @@
           "nullable": false,
           "example": "A102 Key"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 122,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.01,
+              "unit": "kg"
+            }
+          }
+        },
         "room_contains": {
           "types": [
             "string"
@@ -5803,7 +6289,7 @@
           "example": "0.010 Kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "A102 Key",
@@ -6361,6 +6847,20 @@
           "nullable": false,
           "example": "Acetylene Cylinder"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.03,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -6389,7 +6889,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Acetylene Cylinder",
@@ -6483,6 +6983,20 @@
           "nullable": false,
           "example": "SafeLock Protected Ruck Case"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.8,
+              "unit": "kg"
+            }
+          }
+        },
         "slots": {
           "types": [
             "string"
@@ -6511,7 +7025,7 @@
           "example": "0.800kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "SafeLock Protected Ruck Case",
@@ -6587,7 +7101,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Ammo Box (Container)",
@@ -6798,7 +7312,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Loot Box",
@@ -6859,6 +7373,20 @@
           "nullable": false,
           "example": "AN/PYQ-10"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 118,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.004,
+              "unit": "kg"
+            }
+          }
+        },
         "weight": {
           "types": [
             "string"
@@ -6869,7 +7397,7 @@
           "example": "0.004kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Loot",
@@ -6945,6 +7473,24 @@
           "nullable": false,
           "example": "1911 .45ACP 15-Round Extended Magazine"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 40,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.056,
+              "unit": "kg"
+            },
+            "reload_speed": {
+              "value": -10.0,
+              "unit": "%"
+            }
+          }
+        },
         "reload_speed": {
           "types": [
             "string"
@@ -7000,7 +7546,7 @@
           "example": "0.048 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "1911 .45ACP 15-Round Extended Magazine",
@@ -7286,7 +7832,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "A Walk in the Park",
@@ -7471,6 +8017,20 @@
           "nullable": false,
           "example": "ARF Trauma Bandage 4"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.02,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -7508,7 +8068,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "ARF Trauma Bandage 4",
@@ -7693,6 +8253,20 @@
           "nullable": false,
           "example": "AN/PYQ-10"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 14,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.004,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -7721,7 +8295,7 @@
           "example": "0,300kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AN/PYQ-10",
@@ -7842,6 +8416,20 @@
           "nullable": false,
           "example": "Camouflage Fabric"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.1,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -7870,7 +8458,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Camouflage Fabric",
@@ -7949,6 +8537,20 @@
           "nullable": false,
           "example": "M933 120mm HE Cartridge (High Range)"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 13.65,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -7977,7 +8579,7 @@
           "example": "13.650kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "M933 120mm HE Cartridge (High Range)",
@@ -8043,6 +8645,20 @@
           "nullable": false,
           "example": "1911 Grip Scope Mount"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 45,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.006,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -8071,7 +8687,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "1911 Grip Scope Mount",
@@ -8355,6 +8971,24 @@
           "nullable": false,
           "example": "3 Prong Flash Hider"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 29,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.101,
+              "unit": "kg"
+            },
+            "accuracy_modifier": {
+              "value": 20.0,
+              "unit": "%"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -8383,7 +9017,7 @@
           "example": "0.030 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "3 Prong Flash Hider",
@@ -8627,7 +9261,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Newspaper - 10 Years of Independent Lamang",
@@ -8871,6 +9505,20 @@
           "nullable": false,
           "example": "AN/PVS-14 Night Vision Device"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 5,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.338,
+              "unit": "kg"
+            }
+          }
+        },
         "phosphor_color": {
           "types": [
             "string"
@@ -8926,7 +9574,7 @@
           "example": "0.338kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AN/PVS-14 Night Vision Device",
@@ -8983,7 +9631,7 @@
           "example": "Paper"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Shift Roster",
@@ -9050,6 +9698,32 @@
           "nullable": false,
           "example": "A2 Pistol Grip"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 22,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.066,
+              "unit": "kg"
+            },
+            "recoil_control": {
+              "value": 2.0,
+              "unit": "%"
+            },
+            "weapon_handling": {
+              "value": 2.0,
+              "unit": "%"
+            },
+            "ergonomics": {
+              "value": 1.0,
+              "unit": "%"
+            }
+          }
+        },
         "recoil_control": {
           "types": [
             "string"
@@ -9114,7 +9788,7 @@
           "example": "0.055 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "A2 Pistol Grip",
@@ -9304,6 +9978,24 @@
           "nullable": false,
           "example": "III"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 18,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 5.0,
+              "unit": "kg"
+            },
+            "manufacturer": {
+              "value": 4.0,
+              "unit": "m"
+            }
+          }
+        },
         "protection_rating": {
           "types": [
             "string"
@@ -9350,7 +10042,7 @@
           "example": "12.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "CGPC3 TQS",
@@ -9467,6 +10159,20 @@
           "nullable": false,
           "example": "1 Shot Energy Chews"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.01,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -9486,7 +10192,7 @@
           "example": "0.010 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Provisions",
@@ -9535,6 +10241,20 @@
           "nullable": false,
           "example": "NB Research Notes"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.1,
+              "unit": "kg"
+            }
+          }
+        },
         "type": {
           "types": [
             "string"
@@ -9554,7 +10274,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "NB Research Notes",
@@ -9625,6 +10345,24 @@
           "nullable": false,
           "example": "AK Rear Iron Sight"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 19,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.03,
+              "unit": "kg"
+            },
+            "sighting_range": {
+              "value": 0.0,
+              "unit": "m"
+            }
+          }
+        },
         "sighting_range": {
           "types": [
             "string"
@@ -9671,7 +10409,7 @@
           "example": "0.021 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AK Rear Iron Sight",
@@ -9824,7 +10562,7 @@
           "example": "1"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Ban Pa",
@@ -9926,6 +10664,20 @@
           "nullable": false,
           "example": "Call up Papers"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.01,
+              "unit": "kg"
+            }
+          }
+        },
         "required_level": {
           "types": [
             "string"
@@ -9972,7 +10724,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Call up Papers",
@@ -10140,6 +10892,24 @@
           "nullable": false,
           "example": "Equipment Repair Essentials Kit"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 6,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 1.5,
+              "unit": "kg"
+            },
+            "repair_efficiency": {
+              "value": 85.0,
+              "unit": "%"
+            }
+          }
+        },
         "repair_efficiency": {
           "types": [
             "string"
@@ -10186,7 +10956,7 @@
           "example": "1.500kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Equipment Repair Essentials Kit",
@@ -10273,6 +11043,20 @@
           "nullable": false,
           "example": "6Sh104"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 11,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.35,
+              "unit": "kg"
+            }
+          }
+        },
         "slots": {
           "types": [
             "string"
@@ -10310,7 +11094,7 @@
           "example": "0.300kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "6Sh104",
@@ -10426,6 +11210,28 @@
           "nullable": false,
           "example": "ACOG TA01NSN 4x32 Assault Scope"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.45,
+              "unit": "kg"
+            },
+            "ergonomics": {
+              "value": -8.0,
+              "unit": "%"
+            },
+            "sighting_range": {
+              "value": 600.0,
+              "unit": "m"
+            }
+          }
+        },
         "sighting_range": {
           "types": [
             "string"
@@ -10490,7 +11296,7 @@
           "example": "0.292 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "ACOG TA01NSN 4x32 Assault Scope",
@@ -10575,7 +11381,7 @@
           "example": "Clawgear - Combat Operator (Black)"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Clawgear - Combat Operator",
@@ -10755,7 +11561,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -11193,6 +11999,28 @@
           "nullable": false,
           "example": "1911 Commander Slide"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.33,
+              "unit": "kg"
+            },
+            "recoil_control": {
+              "value": -4.0,
+              "unit": "%"
+            },
+            "reload_speed": {
+              "value": 6.0,
+              "unit": "%"
+            }
+          }
+        },
         "recoil_control": {
           "types": [
             "string"
@@ -11239,7 +12067,7 @@
           "example": "0.280 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "1911 Commander Slide",
@@ -11342,7 +12170,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Binary Choir",
@@ -11525,7 +12353,7 @@
           "example": "???kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Box of IDs",
@@ -11799,6 +12627,20 @@
           "nullable": false,
           "example": "AK Buffer Tube Adapter"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 6,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.09,
+              "unit": "kg"
+            }
+          }
+        },
         "size_change_horizontal": {
           "types": [
             "string"
@@ -11836,7 +12678,7 @@
           "example": "0.090 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AK Buffer Tube Adapter",
@@ -11939,6 +12781,28 @@
           "nullable": false,
           "example": "AK MOE Stock (FDE)"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 46,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.361,
+              "unit": "kg"
+            },
+            "recoil_control": {
+              "value": -4.0,
+              "unit": "%"
+            },
+            "ergonomics": {
+              "value": 1.0,
+              "unit": "%"
+            }
+          }
+        },
         "recoil_control": {
           "types": [
             "string"
@@ -12003,7 +12867,7 @@
           "example": "0.087 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AK MOE Stock",
@@ -12343,6 +13207,36 @@
           "nullable": false,
           "example": "762-SD Suppressor"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 21,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.453,
+              "unit": "kg"
+            },
+            "accuracy": {
+              "value": 4.0,
+              "unit": "moa"
+            },
+            "weapon_handling": {
+              "value": -4.0,
+              "unit": "%"
+            },
+            "loudness_reduction": {
+              "value": 20.0,
+              "unit": "%"
+            },
+            "muzzle_device_efficiency": {
+              "value": 7.0,
+              "unit": "%"
+            }
+          }
+        },
         "size_change_horizontal": {
           "types": [
             "string"
@@ -12398,7 +13292,7 @@
           "example": ".476 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "762-SD Suppressor",
@@ -12553,6 +13447,24 @@
           "nullable": false,
           "example": "ADE Advanced Red Laser"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 12,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.032,
+              "unit": "kg"
+            },
+            "weapon_handling": {
+              "value": -1.0,
+              "unit": "%"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -12590,7 +13502,7 @@
           "example": "0.032 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "ADE Advanced Red Laser",
@@ -12683,6 +13595,20 @@
           "nullable": false,
           "example": "Appeal to the Rebels"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 28,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.005,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -12711,7 +13637,7 @@
           "example": ".010kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Appeal to the Rebels",
@@ -13228,7 +14154,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -14309,6 +15235,24 @@
           "nullable": false,
           "example": "F-1"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 8,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.4,
+              "unit": "kg"
+            },
+            "radius": {
+              "value": 15.0,
+              "unit": "m"
+            }
+          }
+        },
         "radius": {
           "types": [
             "string"
@@ -14355,7 +15299,7 @@
           "example": "0.310kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "F-1",
@@ -14450,6 +15394,20 @@
           "nullable": false,
           "example": "Box of Supplies"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 6,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.01,
+              "unit": "kg"
+            }
+          }
+        },
         "sold_by": {
           "types": [
             "string"
@@ -14478,7 +15436,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Box of Supplies",
@@ -14547,7 +15505,7 @@
           "example": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
@@ -14765,6 +15723,20 @@
           "nullable": false,
           "example": "III+"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.16,
+              "unit": "kg"
+            }
+          }
+        },
         "reload_speed": {
           "types": [
             "string"
@@ -14820,7 +15792,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "B Krogan",
@@ -14922,6 +15894,20 @@
           "nullable": false,
           "example": "AK Ratnik Dust Cover"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 13,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.104,
+              "unit": "kg"
+            }
+          }
+        },
         "size_change_horizontal": {
           "types": [
             "string"
@@ -14959,7 +15945,7 @@
           "example": "0.104 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AK Ratnik Dust Cover",
@@ -15064,6 +16050,20 @@
           "nullable": false,
           "example": "Dollars"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.0001,
+              "unit": "kg"
+            }
+          }
+        },
         "type": {
           "types": [
             "string"
@@ -15083,7 +16083,7 @@
           "example": "0.0001kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Dollars",
@@ -15142,7 +16142,7 @@
           "example": "Any"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Artisan",
@@ -15251,6 +16251,20 @@
           "nullable": false,
           "example": "III"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 17,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 1.76,
+              "unit": "kg"
+            }
+          }
+        },
         "protection_rating": {
           "types": [
             "string"
@@ -15288,7 +16302,7 @@
           "example": "1.760kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "6B23-1(Digital)",
@@ -15418,6 +16432,20 @@
           "nullable": false,
           "example": "Allanach Single Malt Scotch - 40y"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 9,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.02,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -15446,7 +16474,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Allanach Single Malt Scotch - 40y",
@@ -15535,6 +16563,20 @@
           "nullable": false,
           "example": "SIG MCX Pistol Grip"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.1,
+              "unit": "kg"
+            }
+          }
+        },
         "size_change_horizontal": {
           "types": [
             "string"
@@ -15572,7 +16614,7 @@
           "example": "0.100 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "SIG MCX Pistol Grip",
@@ -15720,6 +16762,28 @@
           "nullable": false,
           "example": "AK-12"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 31,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 4.438,
+              "unit": "kg"
+            },
+            "accuracy": {
+              "value": 0.8,
+              "unit": "moa"
+            },
+            "fire_rate": {
+              "value": 800.0,
+              "unit": "rpm"
+            }
+          }
+        },
         "recoil_control": {
           "types": [
             "string"
@@ -15784,7 +16848,7 @@
           "example": "0.810 kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "AK-12",
@@ -16014,6 +17078,20 @@
           "nullable": false,
           "example": "Acumulator Drill"
         },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.122,
+              "unit": "kg"
+            }
+          }
+        },
         "sell_price": {
           "types": [
             "string"
@@ -16042,7 +17120,7 @@
           "example": "0.120kg"
         }
       },
-      "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
+      "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
       "sourcePages": [
         {
           "title": "Acumulator Drill",
@@ -16111,6 +17189,6 @@
       ]
     }
   ],
-  "lastScrapedAt": "2026-10-12T15:45:06.687736Z",
-  "lastFullScrapeAt": "2026-10-12T15:45:06.687736Z"
+  "lastScrapedAt": "2026-10-14T13:57:14.348262Z",
+  "lastFullScrapeAt": "2026-10-14T13:57:14.348262Z"
 }

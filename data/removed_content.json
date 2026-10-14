@@ -10,7 +10,13 @@
     "id": "doctors-diary",
     "weight": "0.300kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/18/Doctor%27s_Diary_inspect.png/revision/latest?cb=20250503150933"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/18/Doctor%27s_Diary_inspect.png/revision/latest?cb=20250503150933",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hacker II",
@@ -26,7 +32,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Supply Closet in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "I Went, I Saw, I Conquered II",
@@ -140,7 +152,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door UNLRA HQ Laboratory in Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA II",

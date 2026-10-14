@@ -6,7 +6,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door A102 in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "A103 Key",
@@ -15,7 +21,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door A103 in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "A208 Key",
@@ -24,7 +36,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door A208 in Fort Narith barracks",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "A210 Key",
@@ -33,7 +51,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door A210 in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Airport Storage Shed Key",
@@ -42,7 +66,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door storage shed in Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ban Khamphet House Key",
@@ -51,7 +81,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door XXX in Lamang Island",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ban Pa Elder's House Key",
@@ -60,7 +96,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Elder House in Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ban Pa Elder's Room Key",
@@ -69,7 +111,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Elder Room in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ban Pa Fishing Hut Key",
@@ -78,7 +126,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Fishing Hut in Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ban Pa Warehouse Key",
@@ -87,7 +141,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Warehouse in Ban Pa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ban Phouphienge Room Key",
@@ -96,7 +156,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks a door on the top floor of a house in Ban Phouphienge",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Blue Lagoon Office Storage Key",
@@ -105,7 +171,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Office Storage in Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Blue Lagoon Restaurant Storage Key",
@@ -114,7 +186,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Storage room in Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Blue Lagoon Shack Key",
@@ -123,7 +201,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Shack in Blue Lagoon",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "C101 Key",
@@ -132,7 +216,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door C101 in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "C108 Key",
@@ -141,7 +231,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door C108 in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Cement Factory Storage Key",
@@ -150,7 +246,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door cement factory storage in Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Construction Site Storage Key",
@@ -159,7 +261,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Storage in the Construction Site",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Dongphou Hiking Camp Cottage Key",
@@ -168,7 +276,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Cottage in the Hiking Camp, west of Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fanny Paradise Office Key",
@@ -177,7 +291,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door manager's office in Fanny Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Air Traffic Control Tower Key",
@@ -186,7 +306,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Control Tower in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Dumping Ground Storage Shed Key",
@@ -195,7 +321,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Storage Shed in Dumping Ground, Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Garage Office Key",
@@ -204,7 +336,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door garage office in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith HQ Archive Key",
@@ -213,7 +351,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Archives in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith HQ Reception Storage Key Card",
@@ -222,7 +366,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door storage room in Fort Narith Headquarters.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/FN_HQRec_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075303"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/FN_HQRec_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075303",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith HQ Storage Room Key",
@@ -231,7 +381,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door storage room in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Infirmary ICU Key",
@@ -240,7 +396,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door ICU in Fort Narith infirmary",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Motel Makeshift Armory Key",
@@ -249,7 +411,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door motel room nearby Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Operations Room Key Card",
@@ -258,7 +426,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Operations Room in Fort Narith Headquarters.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075206"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075206",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Outskirts Makeshift Armory Key",
@@ -267,7 +441,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door bandit armory nearby Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fort Narith Shooting Range Office Key",
@@ -276,7 +456,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door shooting range office in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Forth Narith HQ Comms Room Key",
@@ -285,7 +471,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Comms room in Fort Narith",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Golf Club Storage Key",
@@ -294,7 +486,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door storage room in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hangar 03 Key",
@@ -303,7 +501,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Hangar 03 in Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hidden Fields 02 Hut Key",
@@ -312,7 +516,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door hut in north Hidden Poppy",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hidden Fields 03 Hut Key",
@@ -321,7 +531,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door hut in south Hidden Poppy Fields",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hotel Supply Closet Key Card",
@@ -330,7 +546,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Supply Closet in Midnight Sapphire Hotel",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Keycard-Type2.png/revision/latest?cb=20250531203648"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Keycard-Type2.png/revision/latest?cb=20250531203648",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "House by the Pond Key",
@@ -339,7 +561,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door house in Tiger Bay outskirts",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hunter's Paradise Makeshift Motel Armory Key",
@@ -348,7 +576,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door HP 104 in Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hunter's Paradise Motel Room 101 Key",
@@ -357,7 +591,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door HP 101 in Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hunter's Paradise Motel Room 102 Key",
@@ -366,7 +606,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door HP 102 in Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hunter's Paradise Shooting Lines Storage Key",
@@ -375,7 +621,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door shooting lines storage in Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hunter's Paradise Weapon Storage Key",
@@ -394,7 +646,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door bunker room in Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hunter’s Paradise Motel Room 101 Key",
@@ -403,7 +661,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door HP 101 in Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hunter’s Paradise Weapon Storage Key",
@@ -412,7 +676,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Weapon Storage in Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Inthavong Farm Shed Key",
@@ -421,7 +691,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door storage shed in Inthavong farm",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Khamhao Rice Depot Room Key",
@@ -430,7 +706,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Depot Room in Khamhao Rice Depot",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Khonwan Village House Key",
@@ -439,7 +721,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door house in Khonwa Village",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Doctor's Office Key",
@@ -448,7 +736,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Doctor's office in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Lumberyard Maintenance Room Key",
@@ -457,7 +751,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door lumberyard maintenance in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Marketplace Broom Closet Key",
@@ -466,7 +766,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door marketplace broom closet in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Marketplace Office Key",
@@ -475,7 +781,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Marketplace Office in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Marketplace Storeroom Key",
@@ -484,7 +796,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door marketplace storeroom in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Mayor's Mansion Room Key",
@@ -493,7 +811,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Mayor Room in Kiu Vongsa mayor's mansion.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Motel Room Key",
@@ -502,7 +826,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door motel room in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Occupied Villa Bedroom Key",
@@ -511,7 +841,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door occupied villa bedroom in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Restaurant Storage Key",
@@ -520,7 +856,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door attic storage in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa Town Hall Finance Department Key Card",
@@ -529,7 +871,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Kiu Vongsa Town Hall",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kiu Vongsa UNLRA Office Key",
@@ -538,7 +886,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door UNLRA Office in Kiu Vongsa",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LAF Radio Tower Room Key",
@@ -547,7 +901,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Radio Tower Room on Lamang Island",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Makeshift Bandit Lookout Key",
@@ -556,7 +916,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Bandit Lookout in Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Midnight Sapphire Employee Housing Office Key",
@@ -565,7 +931,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Employee housing office in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Midnight Sapphire Hotel \"Party Room\" Key",
@@ -573,7 +945,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks Party Room door in the Midnight Sapphire Hotel",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/MSH_PR_inspect.png/revision/latest?cb=20260404173624"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/MSH_PR_inspect.png/revision/latest?cb=20260404173624",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Midnight Sapphire Hotel Office Key",
@@ -582,7 +960,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door office in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Doctor's Office Key",
@@ -591,7 +975,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door doctor's office in Nam Thaven",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Lumberyard Maintenance Room Key",
@@ -600,7 +990,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door lumberyard maintenance in Nam Thaven",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Marketplace Broom Closet Key",
@@ -609,7 +1005,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door marketplace broom closet in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Marketplace Office Key",
@@ -618,7 +1020,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door marketplace office in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Marketplace Storeroom Key",
@@ -627,7 +1035,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door marketplace storeroom in Nam Thaven",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Motel Room Key",
@@ -636,7 +1050,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door motel room in Nam Thaven",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Occupied Villa Bedroom Key",
@@ -645,7 +1065,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door occupied villa bedroom in Nam Thaven",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Restaurant Storage Key",
@@ -654,7 +1080,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Attic Storage in Nam Thaven",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven Town Hall Finance Department Key Card",
@@ -663,7 +1095,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Nam Thaven Town Hall",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Nam Thaven UNLRA Office Key",
@@ -672,7 +1110,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door UNLRA office in Nam Thaven",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Airfield Meeting Room Key",
@@ -681,7 +1125,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door meeting room in Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Airfield Storage Office Key",
@@ -690,7 +1140,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door office room in Pha Lang Airfield",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Doctor's Office Key",
@@ -699,7 +1155,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Doctor's Office in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Lumberyard Maintenance Room Key",
@@ -708,7 +1170,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door lumberyard maintenance room in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Marketplace Broom Closet Key",
@@ -717,7 +1185,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door marketplace broom closet in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Marketplace Office Key",
@@ -726,7 +1200,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Attic Storage in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Marketplace Storeroom Key",
@@ -735,7 +1215,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door marketplace storeroom in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Motel Room Key",
@@ -744,7 +1230,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door motel room in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Occupied Villa Bedroom Key",
@@ -753,7 +1245,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door occupied villa bedroom in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Restaurant Storage Key",
@@ -762,7 +1260,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Attic Storage in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang Town Hall Finance Department Key Card",
@@ -771,7 +1275,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Pha Lang Town Hall",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pha Lang UNLRA Office Key",
@@ -780,7 +1290,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door UNLRA office in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Phouarun Restaurant Attic Room Key",
@@ -789,7 +1305,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Attic Storage in Phouarun Restaurant",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Phousai Village House Key",
@@ -798,7 +1320,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Attic Storage in Pha Lang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pier Storage Key",
@@ -807,7 +1335,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door pier storage in Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "PLA Shed",
@@ -822,7 +1356,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Sawmill Office in Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sawmill Office Storage Room Key",
@@ -831,7 +1371,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door office storage room in Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sawmill Storage Shed Key",
@@ -840,7 +1386,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door storage shed in Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sawmill Toilet Key",
@@ -849,7 +1401,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door toilets in Sawmill",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SC Case",
@@ -866,7 +1424,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door school room on Lamang Island",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Siang Radio Station Room Key",
@@ -875,7 +1439,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Radio Station room in Siang Radio Station.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Small Marketplace House Key",
@@ -884,7 +1454,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door marketplace house on Lamang Island",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sunset Chalet Cottage Key",
@@ -893,7 +1469,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Sunset Chalet Cottage at Sunset Chalet in Hunter's Paradise region.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sunset Chalet Firearms Case Key",
@@ -902,7 +1484,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks container sunset chalet case at Sunset Chalet",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Key-Type7.png/revision/latest?cb=20250531231310"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Key-Type7.png/revision/latest?cb=20250531231310",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tiger Bay Central Armory Card",
@@ -911,7 +1499,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door armory in Tiger Bay Central",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tiger Bay Outskirts Garage Key",
@@ -920,7 +1514,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door garage southwest of Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tiger Bay Trade Depot Office Key",
@@ -929,7 +1529,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Trade Depot Office in Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Toto Hardware Storage Key",
@@ -938,7 +1544,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Hardware Storage in Tiger Bay Central",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Turncoat's House Key",
@@ -947,7 +1559,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door bedroom in Nakasa village",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA Equipment Container Key",
@@ -956,7 +1574,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door equipment shipping container in Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Key-Type8.png/revision/latest?cb=20250531231320"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Key-Type8.png/revision/latest?cb=20250531231320",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA HQ Office Key Card",
@@ -965,7 +1589,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door office in Tiger Bay UNLRA HQ.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA Medical Container Key",
@@ -974,7 +1604,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door medical shipping container in Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Key-Type8.png/revision/latest?cb=20250531231320"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Key-Type8.png/revision/latest?cb=20250531231320",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA Quarantine Key",
@@ -983,7 +1619,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door UNLRA quarantine container in Tiger Bay",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNRLA Dorm Container Key",
@@ -1000,7 +1642,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door HP 102 in Hunter's Paradise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Villa Anna Jana Key",
@@ -1009,7 +1657,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Villa Anna Jana in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Villa Elena Garage Key",
@@ -1018,7 +1672,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Villa Elena Garage in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Villa Katherine Key",
@@ -1027,7 +1687,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Villa Katherine in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Villa Luisa Key",
@@ -1036,7 +1702,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Villa Luisa in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Villa Lusia Key",
@@ -1045,7 +1717,13 @@
     "weight": "0.010 Kg",
     "size": "1X1",
     "town": "Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Villa_Lusia_Key-1.png/revision/latest/scale-to-width-down/268?cb=20240513215914"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Villa_Lusia_Key-1.png/revision/latest/scale-to-width-down/268?cb=20240513215914",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Villa Marta Monica Garage Key",
@@ -1054,7 +1732,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Marta Monica Garage in Midnight Sapphire",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Villa Vongphet Room Key",
@@ -1063,7 +1747,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door villa vongphet room on Lamang Island",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "YBL-1 Bedroom Key",
@@ -1072,7 +1762,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Bedroom in YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "YBL-1 Corridor D Storage Room Key",
@@ -1081,7 +1777,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Corridor D Storage in YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "YBL-1 Generator Room Key",
@@ -1090,7 +1792,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door generator room in YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "YBL-1 Maintenance Door Key",
@@ -1099,7 +1807,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Maintenance door in YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "YBL-1 Office 02 Key",
@@ -1108,7 +1822,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Office-2 in YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "YBL-1 Office Key 01",
@@ -1117,7 +1837,13 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door Office-1 in YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "YBL-1 Weapon Storage Key",
@@ -1126,6 +1852,12 @@
     "weight": "0.010kg",
     "grid_size": "1x1",
     "usage": "Unlocks door weapon storage in YBL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   }
 ]

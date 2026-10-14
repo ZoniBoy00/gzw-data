@@ -8,7 +8,13 @@
     "sold_by": "Looting",
     "slots": "30",
     "manufacturer": "TsNIITochMash",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/6Sh118_Ratnik_V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404183325"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/6Sh118_Ratnik_V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404183325",
+    "numeric_values": {
+      "weight": {
+        "value": 2.8,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AMP12",
@@ -19,7 +25,13 @@
     "sold_by": "Handshake R.3",
     "slots": "20",
     "manufacturer": "5.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/AMP12_inspect.png/revision/latest/scale-to-width-down/268?cb=20240510004947"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/AMP12_inspect.png/revision/latest/scale-to-width-down/268?cb=20240510004947",
+    "numeric_values": {
+      "weight": {
+        "value": 2.63,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Assault Backpack",
@@ -28,7 +40,13 @@
     "weight": "1.250kg",
     "grid_size": "3x4",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Assault_inspect.png/revision/latest?cb=20240512024613"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Assault_inspect.png/revision/latest?cb=20240512024613",
+    "numeric_values": {
+      "weight": {
+        "value": 1.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "C2 Bag combat compact backpack",
@@ -39,7 +57,13 @@
     "sold_by": "Handshake",
     "slots": "12",
     "manufacturer": "Elite Bags",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/C2_Bag_Combat_Compact_Backpack.png/revision/latest?cb=20260629194552"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/C2_Bag_Combat_Compact_Backpack.png/revision/latest?cb=20260629194552",
+    "numeric_values": {
+      "weight": {
+        "value": 1.33,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Civilian Trekstars 70L Backpack",
@@ -50,7 +74,13 @@
     "sold_by": "Artisan R.4",
     "slots": "42",
     "manufacturer": "Trekstars",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/Trekstars_inspect.png/revision/latest?cb=20260422184817"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/Trekstars_inspect.png/revision/latest?cb=20260422184817",
+    "numeric_values": {
+      "weight": {
+        "value": 2.32,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Delta Backpack",
@@ -60,7 +90,13 @@
     "grid_size": "6x6",
     "sold_by": "Turncoat R.4",
     "slots": "36",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Delta_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509053520"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Delta_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509053520",
+    "numeric_values": {
+      "weight": {
+        "value": 2.63,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Drawstring Backpack",
@@ -69,7 +105,13 @@
     "weight": "0.100kg",
     "grid_size": "2x2",
     "slots": "4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Drawstring_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070327"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Drawstring_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070327",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Falang 28",
@@ -78,7 +120,13 @@
     "weight": "1.300kg",
     "grid_size": "3x4",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/Falang_inspect.png/revision/latest/scale-to-width-down/268?cb=20240511180522"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/Falang_inspect.png/revision/latest/scale-to-width-down/268?cb=20240511180522",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Gunfighter 14",
@@ -88,7 +136,13 @@
     "grid_size": "3x3",
     "sold_by": "Handshake R.1",
     "slots": "9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526",
+    "numeric_values": {
+      "weight": {
+        "value": 0.9,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "JDEN Jam Ball",
@@ -97,7 +151,13 @@
     "weight": "0.900kg",
     "grid_size": "3x4",
     "slots": "12",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/JDEN_inspect.png/revision/latest/scale-to-width-down/268?cb=20240512024534"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/JDEN_inspect.png/revision/latest/scale-to-width-down/268?cb=20240512024534",
+    "numeric_values": {
+      "weight": {
+        "value": 0.9,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Patrol Backpack",
@@ -106,7 +166,13 @@
     "weight": "1.500kg",
     "grid_size": "4x5",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/41/Patrol_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509205614"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/41/Patrol_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509205614",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Patrol backpack (Coyote)",
@@ -116,7 +182,13 @@
     "sold_by": "???",
     "slots": "20",
     "manufacturer": "Techincom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Rush 72 2.0",
@@ -127,7 +199,13 @@
     "sold_by": "Handshake R.4",
     "slots": "25",
     "manufacturer": "5.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Rush_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509054757"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Rush_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509054757",
+    "numeric_values": {
+      "weight": {
+        "value": 2.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Scorpion OCP Convoy Pack",
@@ -138,7 +216,13 @@
     "sold_by": "Handshake R.3",
     "slots": "16",
     "manufacturer": "Condor Outdoor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Scorpion_icon.png/revision/latest?cb=20250622125342"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Scorpion_icon.png/revision/latest?cb=20250622125342",
+    "numeric_values": {
+      "weight": {
+        "value": 1.36,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Scorpion OCP Convoy Pack (Multicam)",
@@ -149,7 +233,13 @@
     "sold_by": "Handshake R.3",
     "slots": "16",
     "manufacturer": "Condor Outdoor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Scorpion_OCP_Convoy_Pack_Multicam.png/revision/latest/scale-to-width-down/268?cb=20260629201005"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Scorpion_OCP_Convoy_Pack_Multicam.png/revision/latest/scale-to-width-down/268?cb=20260629201005",
+    "numeric_values": {
+      "weight": {
+        "value": 1.36,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Small Tourist Backpack",
@@ -158,7 +248,13 @@
     "weight": "0.072kg",
     "grid_size": "2x3",
     "slots": "6",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/STourist_inspect.png/revision/latest?cb=20240509070434"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/STourist_inspect.png/revision/latest?cb=20240509070434",
+    "numeric_values": {
+      "weight": {
+        "value": 0.072,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sport Backpack",
@@ -167,6 +263,12 @@
     "weight": "0.490kg",
     "grid_size": "3x3",
     "slots": "9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/Sport_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070402"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/Sport_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070402",
+    "numeric_values": {
+      "weight": {
+        "value": 0.49,
+        "unit": "kg"
+      }
+    }
   }
 ]

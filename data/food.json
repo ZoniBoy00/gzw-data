@@ -18,7 +18,29 @@
     "manufacturer": "1 Shot",
     "sell_price": "$24",
     "buy_price": "$80",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/1_Shot_Energy_Chews_inspect.png/revision/latest/scale-to-width-down/268?cb=20260411210300"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/1_Shot_Energy_Chews_inspect.png/revision/latest/scale-to-width-down/268?cb=20260411210300",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      },
+      "arm_stamina_boost": {
+        "value": 100.0,
+        "unit": "%"
+      },
+      "arm_stamina_boost_cap": {
+        "value": 100.0,
+        "unit": "%"
+      },
+      "body_stamina_boost": {
+        "value": 100.0,
+        "unit": "%"
+      },
+      "body_stamina_boost_cap": {
+        "value": 100.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Bamboo Shoots",
@@ -30,7 +52,13 @@
     "charges": "1",
     "effect": "Energy: +15 Hydration: +5",
     "use_time": "11s",
-    "manufacturer": "Lucky Panda"
+    "manufacturer": "Lucky Panda",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Berg Bar Cookie Chocolate",
@@ -41,7 +69,13 @@
     "grid_size": "1x1",
     "charges": "1",
     "effect": "Energy: +25 Arm Stamina Boost: +25% Arm Stamina Boost Cap: +25% Arm Stamina Boost Duration: 90s Body Stamina Boost: +25% Body Stamina Boost Cap: +25% Body Stamina Boost Duration: 90s",
-    "manufacturer": "Berg"
+    "manufacturer": "Berg",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Canned Tuna Chunks",
@@ -53,7 +87,13 @@
     "charges": "1",
     "effect": "Energy: +40 Hydration: -10",
     "use_time": "11s",
-    "manufacturer": "Kraken"
+    "manufacturer": "Kraken",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Combat Ration Pack",
@@ -66,7 +106,13 @@
     "effect": "Energy: +75 /charge",
     "use_time": "15s",
     "manufacturer": "Combat Meal Star",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/CRP_inspect.png/revision/latest?cb=20250502143156"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/CRP_inspect.png/revision/latest?cb=20250502143156",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Cowboy Baked Beans",
@@ -79,7 +125,13 @@
     "effect": "Energy: +35 Hydration: +5",
     "use_time": "11s",
     "manufacturer": "Cowboy",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Beans_inspect.png/revision/latest/scale-to-width-down/268?cb=20260614123159"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Beans_inspect.png/revision/latest/scale-to-width-down/268?cb=20260614123159",
+    "numeric_values": {
+      "weight": {
+        "value": 0.425,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Energy Bar Nuts and Fruits",
@@ -90,7 +142,13 @@
     "charges": "1",
     "effect": "Energy: +14 Arm Stamina Boost: +30% Arm Stamina Boost Cap: +30% Arm Stamina Boost Duration: 20s Body Stamina Boost: +30% Body Stamina Boost Cap: +30% Body Stamina Boost Duration: +20s",
     "use_time": "5s",
-    "manufacturer": "Power"
+    "manufacturer": "Power",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "HDR Meal",
@@ -100,7 +158,13 @@
     "sold_by": "Loot only",
     "grid_size": "1x2",
     "charges": "1",
-    "effect": "Energy: +75"
+    "effect": "Energy: +75",
+    "numeric_values": {
+      "weight": {
+        "value": 0.85,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Kasem Chocolate Wafers",
@@ -112,7 +176,13 @@
     "charges": "1",
     "effect": "Energy: +13",
     "use_time": "5s",
-    "manufacturer": "Kasem"
+    "manufacturer": "Kasem",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Lucky Pork Liver Pâté",
@@ -127,7 +197,13 @@
     "energy_per_charge": "35",
     "hydratation_per_charge": "-5",
     "manufacturer": "Lucky",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/P%C3%A2t%C3%A9_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502143331"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/P%C3%A2t%C3%A9_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502143331",
+    "numeric_values": {
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Lychee in Syrup",
@@ -139,7 +215,13 @@
     "charges": "1",
     "effect": "Energy: +26 Hydration: +10",
     "use_time": "11s",
-    "manufacturer": "Topo"
+    "manufacturer": "Topo",
+    "numeric_values": {
+      "weight": {
+        "value": 0.565,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mackerel in Teriyaki Sauce",
@@ -151,7 +233,13 @@
     "charges": "1",
     "effect": "Energy: +60 Hydration: -10",
     "use_time": "11s",
-    "manufacturer": "ThaLao"
+    "manufacturer": "ThaLao",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Organic Tofu",
@@ -163,7 +251,13 @@
     "charges": "1",
     "effect": "Energy: +25",
     "use_time": "11s",
-    "manufacturer": "Clearspring"
+    "manufacturer": "Clearspring",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Premium Pork Luncheon Meat",
@@ -173,7 +267,13 @@
     "sold_by": "Loot only",
     "grid_size": "1x2",
     "charges": "1",
-    "effect": "Energy: +70 Hydration: -10"
+    "effect": "Energy: +70 Hydration: -10",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sinngua Lunch Meat",
@@ -183,7 +283,13 @@
     "sold_by": "Lab Rat R.3",
     "grid_size": "1x2",
     "charges": "1",
-    "effect": "Energy: +60 Hydration: -10"
+    "effect": "Energy: +60 Hydration: -10",
+    "numeric_values": {
+      "weight": {
+        "value": 0.34,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SnipSnap Crunchy",
@@ -195,7 +301,13 @@
     "charges": "1",
     "effect": "Energy: +10 /charge",
     "use_time": "5s",
-    "manufacturer": "Snip Snap"
+    "manufacturer": "Snip Snap",
+    "numeric_values": {
+      "weight": {
+        "value": 0.038,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Spicy Thai Combat Meal",
@@ -208,7 +320,13 @@
     "effect": "Energy: +80 Hydration: -15",
     "use_time": "15s",
     "manufacturer": "Thai Army",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/CMeal_inspect.png/revision/latest?cb=20250502143236"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/CMeal_inspect.png/revision/latest?cb=20250502143236",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "TamTam DoubleChoc",
@@ -220,7 +338,13 @@
     "charges": "1",
     "effect": "Energy: +20 Arm Stamina Boost: +10% Arm Stamina Boost Cap: +10% Arm Stamina Boost Duration: 90s Body Stamina Boost: +10% Body Stamina Boost Cap: +10% Body Stamina Boost Duration: 90s",
     "use_time": "5s",
-    "manufacturer": "TamTam"
+    "manufacturer": "TamTam",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Windmill Almond Chocolate Bar",
@@ -232,6 +356,12 @@
     "charges": "1",
     "effect": "Energy: +16 Arm Stamina Boost: +60% Arm Stamina Boost Cap: +60% Arm Stamina Boost Duration: 20s Body Stamina Boost: +60% Body Stamina Boost Cap: +60% Body Stamina Boost Duration: 20s",
     "use_time": "5s",
-    "manufacturer": "Windmill"
+    "manufacturer": "Windmill",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   }
 ]

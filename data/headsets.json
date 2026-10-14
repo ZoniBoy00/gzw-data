@@ -7,7 +7,13 @@
     "grid_size": "2x2",
     "sold_by": "Banshee R.4",
     "manufacturer": "Peltor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/64/3M_Comtac_II_inspect.png/revision/latest/scale-to-width-down/268?cb=20260506023810"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/64/3M_Comtac_II_inspect.png/revision/latest/scale-to-width-down/268?cb=20260506023810",
+    "numeric_values": {
+      "weight": {
+        "value": 0.68,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Construction Earmuffs",
@@ -17,7 +23,13 @@
     "grid_size": "2x2",
     "sold_by": "Artisan R.1",
     "manufacturer": "Taubchutz",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Earmuffs_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182743"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Earmuffs_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182743",
+    "numeric_values": {
+      "weight": {
+        "value": 0.44,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "GSSH-01",
@@ -27,7 +39,13 @@
     "grid_size": "2x2",
     "sold_by": "Turncoat R.1",
     "buy_price": "$278",
-    "manufacturer": "Zavod Luc"
+    "manufacturer": "Zavod Luc",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Impact Sport",
@@ -37,7 +55,13 @@
     "grid_size": "2x2",
     "sold_by": "Banshee R.2",
     "manufacturer": "Honeywell",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Impact_Sport_inspect.png/revision/latest?cb=20260404191301"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Impact_Sport_inspect.png/revision/latest?cb=20260404191301",
+    "numeric_values": {
+      "weight": {
+        "value": 0.279,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Razor Pro Digital",
@@ -47,7 +71,13 @@
     "grid_size": "2x2",
     "sold_by": "Banshee R.1",
     "manufacturer": "Walkers",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Razor_inspect.png/revision/latest?cb=20250621182815"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Razor_inspect.png/revision/latest?cb=20250621182815",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "TASC 1",
@@ -56,7 +86,13 @@
     "weight": "0.160kg",
     "grid_size": "2x2",
     "sold_by": "???",
-    "manufacturer": "Z-Tactical"
+    "manufacturer": "Z-Tactical",
+    "numeric_values": {
+      "weight": {
+        "value": 0.16,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ultimate Power Muff Quads",
@@ -66,6 +102,12 @@
     "grid_size": "2x2",
     "sold_by": "Banshee R.3",
     "manufacturer": "Walkers",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Quads_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621183504"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Quads_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621183504",
+    "numeric_values": {
+      "weight": {
+        "value": 0.34,
+        "unit": "kg"
+      }
+    }
   }
 ]

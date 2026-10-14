@@ -5,7 +5,13 @@
     "type": "Military Material",
     "weight": "0.061kg",
     "grid_size": "1x2",
-    "sell_price": "$42"
+    "sell_price": "$42",
+    "numeric_values": {
+      "weight": {
+        "value": 0.061,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Bleach",
@@ -14,7 +20,13 @@
     "weight": "3.570kg",
     "grid_size": "1x1",
     "sell_price": "$19",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Bleach_inspect.png/revision/latest?cb=20260331074659"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Bleach_inspect.png/revision/latest?cb=20260331074659",
+    "numeric_values": {
+      "weight": {
+        "value": 3.57,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Car Battery",
@@ -24,7 +36,13 @@
     "grid_size": "2x2",
     "manufacturer": "General Local",
     "sell_price": "$56",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Car_Battery_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075125"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Car_Battery_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075125",
+    "numeric_values": {
+      "weight": {
+        "value": 12.66,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Carton of Tahirs Cigarettes",
@@ -33,7 +51,13 @@
     "weight": "0.250kg",
     "grid_size": "3x1",
     "sell_price": "$27",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Carton_of_Tahirs_Cigarettes_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075357"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Carton_of_Tahirs_Cigarettes_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075357",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Deck of Cards",
@@ -42,7 +66,13 @@
     "weight": "0.088kg",
     "grid_size": "1x1",
     "sell_price": "$3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/Deck_of_Cards_inspect.png/revision/latest?cb=20260331075444"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/Deck_of_Cards_inspect.png/revision/latest?cb=20260331075444",
+    "numeric_values": {
+      "weight": {
+        "value": 0.088,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fishing Line",
@@ -51,7 +81,13 @@
     "weight": "0.130kg",
     "grid_size": "1x1",
     "sell_price": "$3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/Fishing_Line_inspect.png/revision/latest?cb=20260331080253"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/Fishing_Line_inspect.png/revision/latest?cb=20260331080253",
+    "numeric_values": {
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hand Mirror",
@@ -60,7 +96,13 @@
     "weight": "0.400kg",
     "grid_size": "1x2",
     "sell_price": "$9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/Hand_Mirror_inspect.png/revision/latest?cb=20260331080643"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/Hand_Mirror_inspect.png/revision/latest?cb=20260331080643",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Insect Repellant Spray",
@@ -70,7 +112,13 @@
     "grid_size": "1x1",
     "manufacturer": "General Local",
     "sell_price": "$6",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Insect_Repellant_Spray_inspect.png/revision/latest?cb=20260331081404"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Insect_Repellant_Spray_inspect.png/revision/latest?cb=20260331081404",
+    "numeric_values": {
+      "weight": {
+        "value": 0.258,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Lamp Oil",
@@ -79,7 +127,13 @@
     "weight": "1.000kg",
     "grid_size": "1x2",
     "sell_price": "$3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/Lamp_Oil_inspect.png/revision/latest?cb=20260331082338"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/Lamp_Oil_inspect.png/revision/latest?cb=20260331082338",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Lighter",
@@ -88,7 +142,13 @@
     "weight": "0.040kg",
     "grid_size": "1x1",
     "sell_price": "$1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Lighter_inspect.png/revision/latest?cb=20260331082552"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Lighter_inspect.png/revision/latest?cb=20260331082552",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Motorcyle Battery",
@@ -98,7 +158,13 @@
     "grid_size": "1x2",
     "manufacturer": "General Local",
     "sell_price": "$36",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Motorcycle_Battery_inspect.png/revision/latest/scale-to-width-down/268?cb=20260516064534"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Motorcycle_Battery_inspect.png/revision/latest/scale-to-width-down/268?cb=20260516064534",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Naosaoad 100% Clean",
@@ -107,7 +173,13 @@
     "weight": "0.500kg",
     "grid_size": "1x2",
     "sell_price": "$18",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Naosaoad_100%25_Clean_inspect.png/revision/latest?cb=20260331083856"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Naosaoad_100%25_Clean_inspect.png/revision/latest?cb=20260331083856",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pack of AA Batteries",
@@ -116,7 +188,13 @@
     "weight": "0.024kg",
     "grid_size": "1x1",
     "sell_price": "$7",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/Pack_of_AA_Batteries_inspect.png/revision/latest?cb=20260331084204"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/Pack_of_AA_Batteries_inspect.png/revision/latest?cb=20260331084204",
+    "numeric_values": {
+      "weight": {
+        "value": 0.024,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pack of Premium Coffee",
@@ -125,7 +203,13 @@
     "weight": "0.600kg",
     "grid_size": "1x2",
     "sell_price": "$27",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f6/Pack_of_Premium_Coffee_inspect.png/revision/latest?cb=20260331084221"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f6/Pack_of_Premium_Coffee_inspect.png/revision/latest?cb=20260331084221",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Petrolatum",
@@ -134,7 +218,13 @@
     "weight": "0.370kg",
     "grid_size": "1x1",
     "sell_price": "$9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/Petrolatum_inspect.png/revision/latest?cb=20260331084513"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/Petrolatum_inspect.png/revision/latest?cb=20260331084513",
+    "numeric_values": {
+      "weight": {
+        "value": 0.37,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Phone Charger",
@@ -143,7 +233,13 @@
     "weight": "0.075kg",
     "grid_size": "1x1",
     "sell_price": "$9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/Phone_Charger_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331084626"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/Phone_Charger_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331084626",
+    "numeric_values": {
+      "weight": {
+        "value": 0.075,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Propane Bottle",
@@ -151,7 +247,13 @@
     "type": "Household Item",
     "weight": "0.453kg",
     "grid_size": "1x2",
-    "sell_price": "$31"
+    "sell_price": "$31",
+    "numeric_values": {
+      "weight": {
+        "value": 0.453,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Refillable Lighter",
@@ -161,7 +263,13 @@
     "grid_size": "1x1",
     "manufacturer": "General Local",
     "sell_price": "$27",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/Refillable_Lighter_inspect.png/revision/latest?cb=20260331085447"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/Refillable_Lighter_inspect.png/revision/latest?cb=20260331085447",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sewing Set",
@@ -170,7 +278,13 @@
     "weight": "0.146kg",
     "grid_size": "1x1",
     "sell_price": "$1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Sewing_Set_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331085846"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Sewing_Set_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331085846",
+    "numeric_values": {
+      "weight": {
+        "value": 0.146,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tahirs Cigarettes",
@@ -178,6 +292,12 @@
     "type": "Household Item",
     "weight": "0.013kg",
     "grid_size": "1x1",
-    "sell_price": "$5"
+    "sell_price": "$5",
+    "numeric_values": {
+      "weight": {
+        "value": 0.013,
+        "unit": "kg"
+      }
+    }
   }
 ]

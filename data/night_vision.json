@@ -9,7 +9,13 @@
     "field_of_view": "40",
     "figure_of_merit": "1,980",
     "manufacturer": "Elbit Systems",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/PVS14_inspect.png/revision/latest/scale-to-width-down/268?cb=20250206020535"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/PVS14_inspect.png/revision/latest/scale-to-width-down/268?cb=20250206020535",
+    "numeric_values": {
+      "weight": {
+        "value": 0.338,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AN/PVS-31A Night Vision Device",
@@ -22,7 +28,13 @@
     "size_change_vert/horiz": "0/+1",
     "figure_of_merit": "2,356",
     "manufacturer": "L3Harris",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/PVS31A_inspect.png/revision/latest/scale-to-width-down/268?cb=20250203124856"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/PVS31A_inspect.png/revision/latest/scale-to-width-down/268?cb=20250203124856",
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AN/PVS-7 Night Vision Device",
@@ -35,7 +47,13 @@
     "size_change_vert/horiz": "0/+1",
     "figure_of_merit": "1,650",
     "manufacturer": "L3 Harris",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/PVS7_inspect.png/revision/latest/scale-to-width-down/267?cb=20250206021427"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/PVS7_inspect.png/revision/latest/scale-to-width-down/267?cb=20250206021427",
+    "numeric_values": {
+      "weight": {
+        "value": 0.68,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "DT-2 NGS Edition night vision device (Multicam black)",
@@ -48,7 +66,13 @@
     "size_change_vert/horiz": "0/+1",
     "figure_of_merit": "2,489",
     "manufacturer": "KB Enterprise",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/DT-2_NGS_Edition_night_vision_device_%28Multicam_black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260415163858"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/DT-2_NGS_Edition_night_vision_device_%28Multicam_black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260415163858",
+    "numeric_values": {
+      "weight": {
+        "value": 0.56,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "DT-2 NGS Edition night vision device (Multicam)",
@@ -63,6 +87,12 @@
     "size_change_vert/horiz": "0/+1",
     "figure_of_merit": "2,489",
     "manufacturer": "KB Europe",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/DT-2_NGS_Edition_night_vision_device_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260416212733"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/DT-2_NGS_Edition_night_vision_device_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260416212733",
+    "numeric_values": {
+      "weight": {
+        "value": 0.56,
+        "unit": "kg"
+      }
+    }
   }
 ]

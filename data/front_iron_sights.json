@@ -7,7 +7,17 @@
     "sold_by": "Gunny R.2",
     "manufacturer": "Magpul",
     "sighting_range": "600m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/MBUS_Front_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616005112"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/MBUS_Front_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616005112",
+    "numeric_values": {
+      "weight": {
+        "value": 0.025,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 600.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Colt 1911 Commander Front Sight",
@@ -17,7 +27,17 @@
     "sold_by": "Loot only",
     "manufacturer": "Novak",
     "sighting_range": "25m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/1911_Com_Front_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727222800"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/1911_Com_Front_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727222800",
+    "numeric_values": {
+      "weight": {
+        "value": 0.006,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Colt 1911 Front Sight",
@@ -28,7 +48,13 @@
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Colt 1911 Tritium Front Sight",
@@ -39,7 +65,13 @@
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Folding Micro Front Iron Sight",
@@ -50,7 +82,17 @@
     "manufacturer": "KAC",
     "magnification": "1xx",
     "sighting_range": "0m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5e/Micro_Front_inspect.png/revision/latest?cb=20240509144602"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5e/Micro_Front_inspect.png/revision/latest?cb=20240509144602",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 0.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Glock 17 Front Iron Sight",
@@ -61,7 +103,17 @@
     "manufacturer": "Glock",
     "magnification": "1xx",
     "sighting_range": "25m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/G17_Front_inspect.png/revision/latest/scale-to-width-down/267?cb=20240509115145"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/G17_Front_inspect.png/revision/latest/scale-to-width-down/267?cb=20240509115145",
+    "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Glock 17 OEM Front Tritium Sight",
@@ -72,7 +124,17 @@
     "buy_price": "$48",
     "manufacturer": "GLOCK",
     "magnification": "1xx",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "HK MP5 Front Sight",
@@ -82,7 +144,17 @@
     "sold_by": "Gunny R.1",
     "manufacturer": "Heckler & Koch",
     "magnification": "1x",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "M590 Front Ghost Ring Sight",
@@ -93,7 +165,13 @@
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "M870 Bead",
@@ -103,7 +181,17 @@
     "sold_by": "Gunny R.1",
     "manufacturer": "General West",
     "magnification": "1x",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Mosin-Nagant Front Iron Sight",
@@ -113,7 +201,17 @@
     "sold_by": "Artisan R.1",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1x",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "MP7 Flip Front Sight",
@@ -123,7 +221,17 @@
     "sold_by": "???",
     "manufacturer": "Heckler & Koch",
     "magnification": "1x",
-    "sighting_range": "500m"
+    "sighting_range": "500m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 500.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Sig Sauer Flip Up Front Iron Sights",
@@ -135,7 +243,17 @@
     "manufacturer": "Sig Sauer",
     "magnification": "1xx",
     "sighting_range": "0m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/91/Sig_Fl_Front_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614023819"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/91/Sig_Fl_Front_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614023819",
+    "numeric_values": {
+      "weight": {
+        "value": 0.075,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 0.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "SVD Front Sight",
@@ -146,7 +264,17 @@
     "buy_price": "$68",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1x",
-    "sighting_range": "0m"
+    "sighting_range": "0m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 0.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "TT-33 Front Iron Sight",
@@ -157,7 +285,13 @@
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Type 51 Front Iron Sight",
@@ -168,6 +302,12 @@
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
-    "sighting_range": "25m"
+    "sighting_range": "25m",
+    "numeric_values": {
+      "sighting_range": {
+        "value": 25.0,
+        "unit": "m"
+      }
+    }
   }
 ]

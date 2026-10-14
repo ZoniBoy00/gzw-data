@@ -6,7 +6,13 @@
     "weight": "0.108 kg",
     "sold_by": "Gunny R.1",
     "manufacturer": "Norinco",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.108,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M4 Buffer Tube",
@@ -17,7 +23,17 @@
     "manufacturer": "Colt",
     "recoil_control": "+2 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/M4_Buffer_Tube_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509190115"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/M4_Buffer_Tube_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509190115",
+    "numeric_values": {
+      "weight": {
+        "value": 0.108,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M4 Buffer Tube (FDE)",
@@ -27,6 +43,16 @@
     "sold_by": "Loot only",
     "manufacturer": "Colt",
     "recoil_control": "+2 %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.108,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
   }
 ]

@@ -7,7 +7,17 @@
     "sold_by": "Gunny R.3",
     "manufacturer": "Holosun",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/503CU_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615220947"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/503CU_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615220947",
+    "numeric_values": {
+      "weight": {
+        "value": 0.085,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "510C Reflex Sight",
@@ -18,7 +28,17 @@
     "manufacturer": "Holosun",
     "magnification": "1x",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/510C_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615221345"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/510C_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615221345",
+    "numeric_values": {
+      "weight": {
+        "value": 0.14,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Aimpoint ACRO P-2",
@@ -29,7 +49,17 @@
     "buy_price": "$1,015",
     "manufacturer": "Aimpoint",
     "magnification": "1xx",
-    "sighting_range": "300m"
+    "sighting_range": "300m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Aimpoint Micro H-2",
@@ -40,7 +70,17 @@
     "manufacturer": "Aimpoint",
     "magnification": "1x",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/Aimpoint_Micro_H-2_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152421"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/Aimpoint_Micro_H-2_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152421",
+    "numeric_values": {
+      "weight": {
+        "value": 0.093,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Aimpoint Micro T-2",
@@ -62,7 +102,17 @@
     "buy_price": "$989",
     "manufacturer": "Holosun",
     "magnification": "2x",
-    "sighting_range": "100m"
+    "sighting_range": "100m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 100.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "HWS EXPS2 Holographic Sight (1-Dot)",
@@ -73,7 +123,17 @@
     "manufacturer": "Eotech",
     "magnification": "1xx",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/EXPS2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615220654"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/EXPS2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615220654",
+    "numeric_values": {
+      "weight": {
+        "value": 0.318,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "HWS EXPS2 Holographic Sight (Circle 1-Dot)",
@@ -84,7 +144,17 @@
     "manufacturer": "Eotech",
     "magnification": "1x",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/EXPS2_%28Circle_1-Dot%29_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20250729001837"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/EXPS2_%28Circle_1-Dot%29_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20250729001837",
+    "numeric_values": {
+      "weight": {
+        "value": 0.318,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "HWS EXPS2 Holographic Sight (Circle 2-Dot) (FDE)",
@@ -107,7 +177,17 @@
     "manufacturer": "EOTECH",
     "magnification": "1x",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/EXPS3_inspect.png/revision/latest?cb=20240509143204"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/EXPS3_inspect.png/revision/latest?cb=20240509143204",
+    "numeric_values": {
+      "weight": {
+        "value": 0.318,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "HWS EXPS3 Holographic Sight (Circle 2-Dot)",
@@ -118,7 +198,17 @@
     "manufacturer": "Eotech",
     "magnification": "1xx",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/EXPS3_%28Circle_2-Dot%29_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227153514"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/EXPS3_%28Circle_2-Dot%29_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227153514",
+    "numeric_values": {
+      "weight": {
+        "value": 0.318,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Kobra EKP-1S-03 Red Dot Sight",
@@ -129,7 +219,17 @@
     "buy_price": "$678",
     "manufacturer": "Kobra Axion",
     "magnification": "1xx",
-    "sighting_range": "300m"
+    "sighting_range": "300m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.41,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Kobra EKP-8-18 Red Dot Sight",
@@ -140,7 +240,17 @@
     "manufacturer": "Kobra Axion",
     "magnification": "1x",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/EKP-8-18_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152926"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/EKP-8-18_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152926",
+    "numeric_values": {
+      "weight": {
+        "value": 0.41,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Micro T-1 Red Dot Sight",
@@ -151,7 +261,17 @@
     "manufacturer": "Aimpoint",
     "magnification": "1xx",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/T-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616004427"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/T-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616004427",
+    "numeric_values": {
+      "weight": {
+        "value": 0.086,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Micro T-2 Red Dot Sight",
@@ -162,7 +282,17 @@
     "manufacturer": "Aimpoint",
     "magnification": "2x",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Micro_T-2_Red_Dot_Sight_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152607"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Micro_T-2_Red_Dot_Sight_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152607",
+    "numeric_values": {
+      "weight": {
+        "value": 0.084,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "OKP7 Red Dot Sight",
@@ -173,7 +303,17 @@
     "manufacturer": "General East",
     "magnification": "1xx",
     "sighting_range": "300m",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f2/OKP7_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20251114142042"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f2/OKP7_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20251114142042",
+    "numeric_values": {
+      "weight": {
+        "value": 0.34,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Pilad P1x42 Red Dot Sight",
@@ -184,7 +324,17 @@
     "manufacturer": "VOMZ",
     "weapon_handling": "??? %",
     "magnification": "1xx",
-    "sighting_range": "300m"
+    "sighting_range": "300m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.16,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Pilad Р2.5х24L Brevis Assault Scope",
@@ -195,7 +345,17 @@
     "buy_price": "$468",
     "manufacturer": "VOMZ",
     "magnification": "2.5xx",
-    "sighting_range": "600m"
+    "sighting_range": "600m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.29,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 600.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "PK-01 VS Red Dot Sight",
@@ -206,7 +366,17 @@
     "buy_price": "$386",
     "manufacturer": "Belomo",
     "magnification": "2x",
-    "sighting_range": "300m"
+    "sighting_range": "300m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.9,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "Viper Red Dot Sight",
@@ -217,6 +387,16 @@
     "buy_price": "$578",
     "manufacturer": "Vortex optics",
     "magnification": "1xx",
-    "sighting_range": "100m"
+    "sighting_range": "100m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.031,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 100.0,
+        "unit": "m"
+      }
+    }
   }
 ]

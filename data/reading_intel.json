@@ -5,7 +5,13 @@
     "type": "Notebook",
     "weight": "0.100kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/NB_ReNt_inspect.png/revision/latest/scale-to-width-down/268?cb=20260714040128"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/NB_ReNt_inspect.png/revision/latest/scale-to-width-down/268?cb=20260714040128",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Research Papers",

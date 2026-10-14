@@ -8,7 +8,21 @@
     "buy_price": "$80",
     "manufacturer": "Magpul",
     "recoil_control": "+18 %",
-    "weapon_handling": "+4 %"
+    "weapon_handling": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.072,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 18.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AFG-2 (FDE)",
@@ -18,7 +32,21 @@
     "sold_by": "Loot only",
     "manufacturer": "Magpul",
     "recoil_control": "+18 %",
-    "weapon_handling": "+4 %"
+    "weapon_handling": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.072,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 18.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD Vertical Foregrip",
@@ -29,7 +57,21 @@
     "manufacturer": "Daniel Defense",
     "recoil_control": "+10 %",
     "weapon_handling": "+12 %",
-    "ergonomics": "+10 %"
+    "ergonomics": "+10 %",
+    "numeric_values": {
+      "recoil_control": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD Vertical Foregrip (Black)",
@@ -40,7 +82,21 @@
     "manufacturer": "Daniel Defense",
     "recoil_control": "+10 %",
     "weapon_handling": "+12 %",
-    "ergonomics": "+10 %"
+    "ergonomics": "+10 %",
+    "numeric_values": {
+      "recoil_control": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "DD Vertical Foregrip (MILSPEC)",
@@ -51,7 +107,21 @@
     "manufacturer": "Daniel Defense",
     "recoil_control": "+10 %",
     "weapon_handling": "+12 %",
-    "ergonomics": "+10 %"
+    "ergonomics": "+10 %",
+    "numeric_values": {
+      "recoil_control": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M-LOK AFG",
@@ -61,7 +131,21 @@
     "sold_by": "Loot Only",
     "manufacturer": "Magpul",
     "recoil_control": "+18.0 %",
-    "weapon_handling": "+4.0 %"
+    "weapon_handling": "+4.0 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.034,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 18.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "M-LOK AFG (FDE)",
@@ -83,7 +167,25 @@
     "manufacturer": "Leapers, Inc.",
     "recoil_control": "+4 %",
     "weapon_handling": "+5 %",
-    "ergonomics": "+5 %"
+    "ergonomics": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.017,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "RK-0",
@@ -94,7 +196,25 @@
     "manufacturer": "Zenitco",
     "recoil_control": "+9 %",
     "weapon_handling": "-5 %",
-    "ergonomics": "-7 %"
+    "ergonomics": "-7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.138,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 9.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": -7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "RK-1",
@@ -106,7 +226,25 @@
     "manufacturer": "Zenitco",
     "recoil_control": "+15 %",
     "weapon_handling": "-6 %",
-    "ergonomics": "-6 %"
+    "ergonomics": "-6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.16,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 15.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "RK-2",
@@ -140,7 +278,25 @@
     "manufacturer": "Zenitco",
     "recoil_control": "+12 %",
     "weapon_handling": "-5 %",
-    "ergonomics": "-7 %"
+    "ergonomics": "-7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": -7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "RK-6",
@@ -152,7 +308,25 @@
     "manufacturer": "Zenitco",
     "recoil_control": "+13 %",
     "weapon_handling": "+2 %",
-    "ergonomics": "+5 %"
+    "ergonomics": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 13.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "RVG",
@@ -164,7 +338,25 @@
     "recoil_control": "+12 %",
     "weapon_handling": "-6 %",
     "ergonomics": "-6 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/RVG_inspect.png/revision/latest?cb=20250613224315"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/RVG_inspect.png/revision/latest?cb=20250613224315",
+    "numeric_values": {
+      "weight": {
+        "value": 0.073,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "RVG (FDE)",
@@ -176,7 +368,25 @@
     "recoil_control": "+12 %",
     "weapon_handling": "-6 %",
     "ergonomics": "-6 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/RVG%28FDE%29_inspect.png/revision/latest?cb=20250617103102"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/RVG%28FDE%29_inspect.png/revision/latest?cb=20250617103102",
+    "numeric_values": {
+      "weight": {
+        "value": 0.073,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": -6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SHIFT Vertical Foregrip",
@@ -188,7 +398,25 @@
     "manufacturer": "Fortis",
     "recoil_control": "+12 %",
     "weapon_handling": "+2 %",
-    "ergonomics": "+7 %"
+    "ergonomics": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.096,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "Ultra Slim M-LOK MT-FGM01X Foregrip",
@@ -210,6 +438,24 @@
     "manufacturer": "Leapers, Inc.",
     "recoil_control": "+11 %",
     "weapon_handling": "+3 %",
-    "ergonomics": "+1 %"
+    "ergonomics": "+1 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.039,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 11.0,
+        "unit": "%"
+      },
+      "weapon_handling": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
   }
 ]
