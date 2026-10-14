@@ -55,7 +55,7 @@ npm run dev:server
 
 This serves the console at `http://127.0.0.1:4173/`, the Playground at `/playground/`, the Feedback desk at `/feedback/`, and the local API at `/api/v1/health`.
 
-The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The published `@zoniboy/gzw-data-client` 0.7.3 supports Node.js 18+, while the current repository source and next release target Node.js 22+ and modern browsers. New API data remains available at runtime without an npm release.
+The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The published `@zoniboy/gzw-data-client` 0.8.0 requires Node.js 22+ and supports modern browsers; 0.7.3 remains the last Node.js 18+-compatible release. New API data remains available at runtime without an npm release.
 
 Unknown routes use a matching custom 404 page with direct links back to the console, Quick start and API root.
 
