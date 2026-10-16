@@ -15,6 +15,8 @@
   <link rel="icon" type="image/png" sizes="256x256" href="/assets/gzw-data-favicon.png">
   <link rel="apple-touch-icon" href="/assets/gzw-data-favicon.png">
   <link rel="stylesheet" href="/assets/site.css">
+  <meta property="og:image" content="https://gzw-data.dev/assets/gzw-data-logo.png">
+  <meta name="twitter:card" content="summary">
 </head>
 <body data-page="overview">
   <header class="topbar">
@@ -32,8 +34,8 @@
       <a href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a>
     </nav>
     <div class="top-actions">
-      <span class="status-pill"><span class="status-dot"></span><span data-stat="status">Checking API</span></span>
-      <button class="search-trigger" type="button" aria-label="Open command palette"><span>Search docs and data</span><kbd>⌘ K</kbd></button>
+      <span class="status-pill"><span class="status-dot"></span><span data-stat="status">API status</span></span>
+      <button class="search-trigger" type="button" aria-label="Open command palette"><span>Search pages…</span><kbd>⌘ K</kbd></button>
     </div>
   </header>
   <div class="scrim"></div>
@@ -42,12 +44,13 @@
     <aside class="sidebar" aria-label="Documentation navigation">
       <div class="sidebar-section">Workspace</div>
       <a class="active" href="#overview"><span aria-hidden="true">◈</span> Overview</a>
+      <a href="#quickstart"><span aria-hidden="true">▷</span> Quick start</a>
+      <a href="#datasets"><span aria-hidden="true">▦</span> Datasets</a>
       <a href="#explorer"><span aria-hidden="true">⌕</span> Data explorer</a>
       <a href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
       <a href="/feedback/"><span aria-hidden="true">✉</span> Feedback desk</a>
       <a href="/docs/#quickstart"><span aria-hidden="true">⌘</span> API reference</a>
       <div class="sidebar-section">Resources</div>
-      <a href="/docs/#quickstart"><span aria-hidden="true">▷</span> Quick start</a>
       <a href="/docs/sdk/"><span aria-hidden="true">◇</span> JavaScript SDK guide</a>
       <a href="/docs/#responses"><span aria-hidden="true">{ }</span> Response format</a>
       <a href="https://github.com/ZoniBoy00/gzw-data"><span aria-hidden="true">↗</span> Source on GitHub</a>
@@ -59,29 +62,54 @@
         <section class="hero" aria-labelledby="hero-title">
           <div>
             <div class="eyebrow">Gray Zone Warfare · public data</div>
-            <h1 id="hero-title">Game data that stays <em>usable.</em></h1>
-            <p class="hero-copy">A fan-maintained, auto-discovered API for weapons, tasks, gear, loot and everything else the GZW wiki exposes. Built for tools that need clean data without scraping the wiki themselves.</p>
-          </div>
-          <div class="hero-aside">
-            <div class="hero-aside-label">Base URL</div>
-            <code class="base-url">https://gzw-data.dev/api/v1</code>
-            <div class="button-row">
-              <a class="button primary" href="/docs/">Read the docs →</a>
-              <a class="button" href="/docs/sdk/">JavaScript SDK guide</a>
-              <button class="button" type="button" data-copy="https://gzw-data.dev/api/v1">Copy URL</button>
+            <h1 id="hero-title">Gray Zone Warfare data, <em>one clean API.</em></h1>
+            <p class="hero-copy">Weapons, ammo, armor, tasks, keys, loot and more as plain JSON. Free, no API key, updated weekly from the community wiki.</p>
+            <ul class="trust-row" aria-label="Key facts">
+              <li>No API key</li><li>OpenAPI 3 spec</li><li>Search &amp; filters</li><li>Typed JS/TS client</li>
+            </ul>
+            <div class="button-row hero-actions">
+              <a class="button primary" href="#quickstart">Make your first request →</a>
+              <a class="button" href="/docs/">API reference</a>
+              <a class="button" href="/playground/">Playground</a>
             </div>
+          </div>
+          <div class="hero-aside" aria-labelledby="try-title">
+            <div class="hero-aside-label" id="try-title">Try it · live response</div>
+            <div class="request-mini"><span class="method">GET</span><code id="hero-url">/api/v1/weapons?per_page=1</code><button class="copy-button inline" type="button" data-copy="https://gzw-data.dev/api/v1/weapons?per_page=1">Copy</button></div>
+            <pre class="hero-json" id="hero-json" aria-live="polite"><code>{
+  "data": [ { "id": "…", "name": "…" } ],
+  "count": 1,
+  "source": "gray-zone-warfare.fandom.com"
+}</code></pre>
+            <div class="hero-aside-foot"><span>Base URL</span><code class="base-url">https://gzw-data.dev/api/v1</code></div>
           </div>
         </section>
 
+        <noscript><p class="docs-note">The live statistics and data explorer need JavaScript. The API itself works from any HTTP client: <code>https://gzw-data.dev/api/v1/stats</code>.</p></noscript>
+
         <section class="stats-grid" aria-label="Live API statistics">
-          <div class="stat stat-accent"><span class="stat-value" data-stat="datasets">—</span><span class="stat-label">discovered datasets</span></div>
-          <div class="stat"><span class="stat-value" data-stat="items">—</span><span class="stat-label">indexed records</span></div>
-          <div class="stat"><span class="stat-value" data-stat="updated">—</span><span class="stat-label">Last data update</span></div>
+          <div class="stat stat-accent"><span class="stat-value" data-stat="datasets">85+</span><span class="stat-label">datasets</span></div>
+          <div class="stat"><span class="stat-value" data-stat="items">…</span><span class="stat-label">indexed records</span></div>
+          <div class="stat"><span class="stat-value" data-stat="updated">Weekly</span><span class="stat-label">last data update</span></div>
           <div class="stat"><span class="stat-value">300s</span><span class="stat-label">CDN cache window</span></div>
         </section>
 
+        <section id="quickstart" aria-labelledby="quickstart-title">
+          <div class="section-heading"><div><div class="eyebrow">Quick start</div><h2 id="quickstart-title">From zero to data in three steps</h2><p>No signup, no key, no setup.</p></div></div>
+          <ol class="steps-grid">
+            <li class="info-panel"><span class="step-num">1</span><h3>Call the API</h3><p>Every dataset is a JSON endpoint under one base URL.</p><div class="code-block"><button class="copy-button" type="button" data-copy="curl https://gzw-data.dev/api/v1/weapons?per_page=3">Copy</button><code>curl https://gzw-data.dev/api/v1/weapons?per_page=3</code></div></li>
+            <li class="info-panel"><span class="step-num">2</span><h3>Search &amp; filter</h3><p>Search one dataset, or all of them at once.</p><div class="code-block"><button class="copy-button" type="button" data-copy="curl https://gzw-data.dev/api/v1/search?q=AK">Copy</button><code>curl https://gzw-data.dev/api/v1/search?q=AK</code></div></li>
+            <li class="info-panel"><span class="step-num">3</span><h3>Use the SDK</h3><p>Typed, zero-dependency client for Node and browsers.</p><div class="code-block"><button class="copy-button" type="button" data-copy="npm install @zoniboy/gzw-data-client">Copy</button><code>npm install @zoniboy/gzw-data-client</code></div></li>
+          </ol>
+        </section>
+
+        <section id="datasets" aria-labelledby="datasets-title">
+          <div class="section-heading"><div><div class="eyebrow">Catalog</div><h2 id="datasets-title">What data is available</h2><p>Pick a dataset to open it in the explorer below.</p></div><span class="kicker" id="catalog-meta"></span></div>
+          <div class="catalog" id="catalog"><div class="loading">Loading datasets…</div></div>
+        </section>
+
         <section class="update-panel" aria-labelledby="update-title">
-          <div class="update-heading"><div><div class="eyebrow">Data maintenance</div><h2 id="update-title">Latest data update</h2><p>Snapshot information from the live API, not placeholder numbers.</p></div><span class="update-status" id="update-status" aria-live="polite">Loading update…</span></div>
+          <div class="update-heading"><div><div class="eyebrow">Data maintenance</div><h2 id="update-title">Latest data update</h2><p>Snapshot information from the live API.</p></div><span class="update-status" id="update-status" aria-live="polite">Checking…</span></div>
           <div class="update-grid">
             <div><span class="update-label">Snapshot</span><strong class="update-value" id="update-version">—</strong></div>
             <div><span class="update-label">Datasets tracked</span><strong class="update-value" id="update-datasets">—</strong></div>
@@ -94,13 +122,13 @@
         <section id="explorer" aria-labelledby="explorer-title">
           <div class="section-heading">
             <div><div class="eyebrow">Live request builder</div><h2 id="explorer-title">Explore the data</h2><p>Pick a dataset, search it, and inspect the same JSON endpoint your app will call.</p></div>
-            <span class="kicker" id="explorer-meta">Waiting for API…</span>
+            <span class="kicker" id="explorer-meta"></span>
           </div>
           <div class="panel">
             <div class="explorer-toolbar">
               <label class="sr-only" for="dataset-trigger">Dataset</label>
               <div class="dataset-picker" id="dataset-picker">
-                <button class="field dataset-trigger" id="dataset-trigger" type="button" aria-haspopup="listbox" aria-expanded="false"><span id="dataset-label">Loading datasets…</span><span aria-hidden="true">⌄</span></button>
+                <button class="field dataset-trigger" id="dataset-trigger" type="button" aria-haspopup="listbox" aria-expanded="false"><span id="dataset-label">weapons</span><span aria-hidden="true">⌄</span></button>
                 <div class="dataset-menu" id="dataset-menu" role="listbox" aria-label="Choose dataset"></div>
               </div>
               <label class="sr-only" for="explorer-search">Search records</label>

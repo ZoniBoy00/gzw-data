@@ -129,7 +129,8 @@
     const total = entries.reduce((sum, item) => sum + item.count, 0);
     setText("[data-stat=datasets]", entries.length);
     setText("[data-stat=items]", formatNumber(total));
-    setText("[data-stat=status]", "Online");
+    setText("[data-stat=status]", "API online");
+    renderCatalog(entries);
     setText("[data-stat=updated]", stats?.lastScrapedAt
       ? new Date(stats.lastScrapedAt).toLocaleDateString("en-US", { month: "short", day: "numeric" })
       : "Unknown");
@@ -169,6 +170,55 @@
         loadExplorer();
       });
     }
+  }
+
+  const GROUPS = [
+    ["Weapons & ammo", /weapon|ammo|magazine|attachment|scope|optic|grenade|muzzle|barrel|stock|grip|firearm|launcher|collimator|iron_sight|mount|suppressor|handguard|receiver|gas_block|charging|buffer|mortar|throwable|slide|foregrip/i],
+    ["Armor & gear", /armor|armour|vest|helmet|plate|backpack|rig|clothing|headset|mask|gear|uniform|carrier|equipment|tactical|apparel|shirt|trouser|boot|glove|glass|belt|face_cover|night_vision|binocular|auxiliary/i],
+    ["Missions & vendors", /task|mission|quest|vendor|trader|faction|reputation|contract|intel|reading/i],
+    ["World & enemies", /region|boss|map|location|zone|lz|npc|enemy|key|newspaper|poi/i],
+    ["Items & loot", /loot|item|consumable|medical|food|material|valuable|barter|medicine|drug|tool|drink|provision|electronic|paper|jewel|fund|container|lockbox|laboratory|household|workshop|cleanup/i],
+  ];
+  const groupOf = (name) => (GROUPS.find(([, re]) => re.test(name)) || ["Other", null])[0];
+
+  function selectDataset(name) {
+    state.dataset = name;
+    state.page = 1;
+    state.datasetMenuRendered = false;
+    const count = state.datasetEntries.find((item) => item.name === name)?.count || 0;
+    setText("#dataset-label", `${name} · ${formatNumber(count)}`);
+    loadExplorer();
+    $("#explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function renderCatalog(entries) {
+    const root = $("#catalog");
+    if (!root) return;
+    const groups = new Map();
+    entries.forEach((item) => {
+      const name = item.name.replace(/^\//, "").replace(/^api\//, "");
+      const key = groupOf(name);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push({ name, count: item.count });
+    });
+    const order = [...GROUPS.map(([label]) => label), "Other"].filter((label) => groups.has(label));
+    root.innerHTML = order.map((label) => `<div class="catalog-group"><h3>${escapeHtml(label)} <span>${groups.get(label).length}</span></h3><div class="catalog-chips">${groups.get(label).map((item) => `<button class="chip" type="button" data-dataset="${escapeHtml(item.name)}">${escapeHtml(item.name)}<small>${formatNumber(item.count)}</small></button>`).join("")}</div></div>`).join("");
+    setText("#catalog-meta", `${entries.length} datasets`);
+    root.addEventListener("click", (event) => {
+      const chip = event.target.closest("[data-dataset]");
+      if (chip) selectDataset(chip.dataset.dataset);
+    });
+  }
+
+  async function initHeroPreview() {
+    const target = $("#hero-json code");
+    if (!target) return;
+    try {
+      const payload = await fetchJson("/weapons?per_page=1");
+      const text = JSON.stringify(payload, null, 2);
+      target.textContent = text.length > 900 ? `${text.slice(0, 900)}
+  …` : text;
+    } catch { /* keep the static sample */ }
   }
 
   function renderRows(payload) {
@@ -236,7 +286,10 @@
       state.stats = await statsPromise;
       renderStats(state.stats);
     } catch (error) {
-      setText("[data-stat=status]", "Unavailable");
+      setText("[data-stat=status]", "API unavailable");
+      setText("#catalog-meta", "");
+      const catalog = $("#catalog");
+      if (catalog) catalog.innerHTML = `<div class="error-message">Dataset list unavailable right now. Try the <a href="/playground/">Playground</a> or open <code>/api/v1/stats</code> directly.</div>`;
       const body = $("#explorer-body");
       if (body) body.innerHTML = `<tr><td colspan="3"><div class="error-message">The API status could not be loaded right now.</div></td></tr>`;
     }
@@ -380,17 +433,9 @@
     }
   }
 
-  const originalTitle = document.title;
-  const awayTitle = "Come back, I miss you :(";
-
-  document.addEventListener("visibilitychange", () => {
-    document.title = document.hidden ? awayTitle : originalTitle;
-  });
-
-  document.title = originalTitle;
-
   initShell();
   initOverview();
+  initHeroPreview();
   initDocs();
   initPlayground();
   initUpdatePanel();
