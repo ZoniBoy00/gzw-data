@@ -107,10 +107,11 @@
     });
   }
 
+  // Combined views (e.g. "armor") re-expose records of other datasets, so they are not counted twice.
   function normaliseDatasetEntries(stats) {
     const datasets = stats?.datasets || stats?.data || {};
-    return (Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0 })))
-      .map((item) => ({ ...item, name: String(item.name), count: Number(item.count ?? item.total ?? 0) }))
+    return (Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0, derived: Boolean(value?.sources) })))
+      .map((item) => ({ ...item, name: String(item.name), count: Number(item.count ?? item.total ?? 0), derived: Boolean(item.derived) }))
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
@@ -126,8 +127,9 @@
   function renderStats(stats) {
     const entries = normaliseDatasetEntries(stats);
     state.datasetEntries = entries;
-    const total = entries.reduce((sum, item) => sum + item.count, 0);
-    setText("[data-stat=datasets]", entries.length);
+    const sourceEntries = entries.filter((item) => !item.derived);
+    const total = sourceEntries.reduce((sum, item) => sum + item.count, 0);
+    setText("[data-stat=datasets]", sourceEntries.length);
     setText("[data-stat=items]", formatNumber(total));
     setText("[data-stat=status]", "API online");
     renderCatalog(entries);
@@ -199,11 +201,11 @@
       const name = item.name.replace(/^\//, "").replace(/^api\//, "");
       const key = groupOf(name);
       if (!groups.has(key)) groups.set(key, []);
-      groups.get(key).push({ name, count: item.count });
+      groups.get(key).push({ name, count: item.count, derived: item.derived });
     });
     const order = [...GROUPS.map(([label]) => label), "Other"].filter((label) => groups.has(label));
-    root.innerHTML = order.map((label) => `<div class="catalog-group"><h3>${escapeHtml(label)} <span>${groups.get(label).length}</span></h3><div class="catalog-chips">${groups.get(label).map((item) => `<button class="chip" type="button" data-dataset="${escapeHtml(item.name)}">${escapeHtml(item.name)}<small>${formatNumber(item.count)}</small></button>`).join("")}</div></div>`).join("");
-    setText("#catalog-meta", `${entries.length} datasets`);
+    root.innerHTML = order.map((label) => `<div class="catalog-group"><h3>${escapeHtml(label)} <span>${groups.get(label).length}</span></h3><div class="catalog-chips">${groups.get(label).map((item) => `<button class="chip${item.derived ? " chip-view" : ""}" type="button" data-dataset="${escapeHtml(item.name)}"${item.derived ? ' title="Combined view of other datasets"' : ""}>${escapeHtml(item.name)}<small>${formatNumber(item.count)}</small></button>`).join("")}</div></div>`).join("");
+    setText("#catalog-meta", `${entries.filter((item) => !item.derived).length} datasets`);
     root.addEventListener("click", (event) => {
       const chip = event.target.closest("[data-dataset]");
       if (chip) selectDataset(chip.dataset.dataset);

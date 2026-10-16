@@ -6,47 +6,163 @@
   },
   "headers": [
     {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+        }
       ]
     }
   ],
   "redirects": [
-    { "source": "/privacy-policy", "destination": "/privacy-policy/", "permanent": true },
-    { "source": "/terms-of-service", "destination": "/terms-of-service/", "permanent": true },
-    { "source": "/docs", "destination": "/docs/", "permanent": true },
-    { "source": "/docs/examples", "destination": "/docs/examples/", "permanent": true },
-    { "source": "/docs/sdk", "destination": "/docs/sdk/", "permanent": true }
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/terms-of-service/",
+      "permanent": true
+    },
+    {
+      "source": "/docs",
+      "destination": "/docs/",
+      "permanent": true
+    },
+    {
+      "source": "/docs/examples",
+      "destination": "/docs/examples/",
+      "permanent": true
+    },
+    {
+      "source": "/docs/sdk",
+      "destination": "/docs/sdk/",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.js" },
-    { "source": "/assets/(.*)", "destination": "/web/assets/$1" },
-    { "source": "/privacy-policy", "destination": "/web/legal/privacy-policy/index.html" },
-    { "source": "/privacy-policy/", "destination": "/web/legal/privacy-policy/index.html" },
-    { "source": "/terms-of-service", "destination": "/web/legal/terms-of-service/index.html" },
-    { "source": "/terms-of-service/", "destination": "/web/legal/terms-of-service/index.html" },
-    { "source": "/.well-known/security.txt", "destination": "/web/.well-known/security.txt" },
-    { "source": "/docs", "destination": "/web/docs/index.html" },
-    { "source": "/docs/", "destination": "/web/docs/index.html" },
-    { "source": "/docs/examples", "destination": "/web/docs/examples/index.html" },
-    { "source": "/docs/examples/", "destination": "/web/docs/examples/index.html" },
-    { "source": "/docs/sdk", "destination": "/web/docs/sdk/index.html" },
-    { "source": "/docs/sdk/", "destination": "/web/docs/sdk/index.html" },
-    { "source": "/playground", "destination": "/web/playground/index.html" },
-    { "source": "/playground/", "destination": "/web/playground/index.html" },
-    { "source": "/feedback", "destination": "/web/feedback/index.html" },
-    { "source": "/feedback/", "destination": "/web/feedback/index.html" },
-    { "source": "/404.html", "destination": "/web/404.html" },
-    { "source": "/robots.txt", "destination": "/web/robots.txt" },
-    { "source": "/sitemap.xml", "destination": "/web/sitemap.xml" },
-    { "source": "/llms.txt", "destination": "/web/llms.txt" },
-    { "source": "/agents.json", "destination": "/web/agents.json" },
-    { "source": "/pricing.json", "destination": "/web/pricing.json" },
-    { "source": "/", "destination": "/web/index.html" }
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/web/assets/$1"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/web/legal/privacy-policy/index.html"
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/web/legal/privacy-policy/index.html"
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/web/legal/terms-of-service/index.html"
+    },
+    {
+      "source": "/terms-of-service/",
+      "destination": "/web/legal/terms-of-service/index.html"
+    },
+    {
+      "source": "/.well-known/security.txt",
+      "destination": "/web/.well-known/security.txt"
+    },
+    {
+      "source": "/docs",
+      "destination": "/web/docs/index.html"
+    },
+    {
+      "source": "/docs/",
+      "destination": "/web/docs/index.html"
+    },
+    {
+      "source": "/docs/examples",
+      "destination": "/web/docs/examples/index.html"
+    },
+    {
+      "source": "/docs/examples/",
+      "destination": "/web/docs/examples/index.html"
+    },
+    {
+      "source": "/docs/sdk",
+      "destination": "/web/docs/sdk/index.html"
+    },
+    {
+      "source": "/docs/sdk/",
+      "destination": "/web/docs/sdk/index.html"
+    },
+    {
+      "source": "/playground",
+      "destination": "/web/playground/index.html"
+    },
+    {
+      "source": "/playground/",
+      "destination": "/web/playground/index.html"
+    },
+    {
+      "source": "/feedback",
+      "destination": "/web/feedback/index.html"
+    },
+    {
+      "source": "/feedback/",
+      "destination": "/web/feedback/index.html"
+    },
+    {
+      "source": "/404.html",
+      "destination": "/web/404.html"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/web/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/web/sitemap.xml"
+    },
+    {
+      "source": "/llms.txt",
+      "destination": "/web/llms.txt"
+    },
+    {
+      "source": "/agents.json",
+      "destination": "/web/agents.json"
+    },
+    {
+      "source": "/pricing.json",
+      "destination": "/web/pricing.json"
+    },
+    {
+      "source": "/",
+      "destination": "/web/index.html"
+    }
   ]
 }

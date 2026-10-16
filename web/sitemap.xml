@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://gzw-data.dev/</loc></url>
-  <url><loc>https://gzw-data.dev/docs/</loc></url>
-  <url><loc>https://gzw-data.dev/docs/sdk/</loc></url>
-  <url><loc>https://gzw-data.dev/docs/examples/</loc></url>
-  <url><loc>https://gzw-data.dev/playground/</loc></url>
-  <url><loc>https://gzw-data.dev/feedback/</loc></url>
-  <url><loc>https://gzw-data.dev/privacy-policy/</loc></url>
-  <url><loc>https://gzw-data.dev/terms-of-service/</loc></url>
+  <url><loc>https://gzw-data.dev/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://gzw-data.dev/docs/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://gzw-data.dev/docs/sdk/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://gzw-data.dev/docs/examples/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://gzw-data.dev/playground/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://gzw-data.dev/feedback/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://gzw-data.dev/privacy-policy/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://gzw-data.dev/terms-of-service/</loc><lastmod>2026-10-16</lastmod></url>
 </urlset>

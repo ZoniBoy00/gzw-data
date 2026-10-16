@@ -40,6 +40,7 @@ The API includes a dark, responsive developer console for exploring live dataset
 - **Quick start & API reference:** https://gzw-data.dev/docs/#quickstart
 - **JavaScript / TypeScript SDK guide:** https://gzw-data.dev/docs/sdk/
 - **Copyable API & SDK examples:** https://gzw-data.dev/docs/examples/
+- **Python client:** https://github.com/ZoniBoy00/gzw-data-py
 - **OpenAPI spec:** https://gzw-data.dev/api/v1/spec
 - **API root:** https://gzw-data.dev/api/v1
 - **JavaScript / TypeScript client:** https://www.npmjs.com/package/@zoniboy/gzw-data-client

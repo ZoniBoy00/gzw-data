@@ -422,3 +422,4 @@ td:first-child { color: var(--text); font-weight: 650; }
 .chip small { color: var(--subtle); font: 10px var(--mono); }
 .chip:hover { border-color: rgba(240,180,41,.5); background: var(--amber-soft); color: var(--text); }
 @media (max-width: 950px) { .steps-grid, .catalog { grid-template-columns: 1fr; } }
+.chip-view { border-style: dashed; }
