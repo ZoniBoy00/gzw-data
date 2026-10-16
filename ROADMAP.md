@@ -75,6 +75,11 @@ Current implementation: `4.6.0` (verified through the production `/api/v1/versio
 
 ## Completed
 
+- [x] Redesign the web console homepage: quick start, filterable dataset catalog, clients section, consistent spacing, and a multi-column footer.
+- [x] Improve SEO and performance: Open Graph/Twitter tags, JSON-LD, sitemap `lastmod`, `noindex` on 404, smaller favicons, and static-asset cache headers.
+- [x] Count combined views (`armor`, `weapon_parts`, `helmet_mods`) only once in headline totals.
+- [x] Publish an official Python client ([gzw-data-py](https://github.com/ZoniBoy00/gzw-data-py)) alongside the JavaScript SDK.
+
 - [x] Split the API handler into focused modules while keeping `api/index.js` maintainable.
 - [x] Add versioned `/api/v1` routes with legacy `/api` compatibility.
 - [x] Add stable error responses and CORS headers for error paths.

@@ -15,6 +15,7 @@ Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fando
 - **API examples:** https://gzw-data.dev/docs/examples/
 - **OpenAPI spec:** https://gzw-data.dev/api/v1/spec
 - **JavaScript / TypeScript client:** [@zoniboy/gzw-data-client](https://www.npmjs.com/package/@zoniboy/gzw-data-client)
+- **Python client:** [gzw-data-py](https://github.com/ZoniBoy00/gzw-data-py)
 
 The API is intended for community tools, Discord bots, dashboards and other Gray Zone Warfare projects. Data is refreshed by the public scraper workflow and exposes both collection and single-record routes.
 ## Quick Start
