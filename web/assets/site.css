@@ -525,3 +525,20 @@ h1, h2, .brand-name, .feedback-card h2 { font-family: var(--display); text-wrap:
 .checklist li { gap: 0; }
 .client .code-block { overflow-wrap: break-word; }
 .playground-panel-v2 .playground-output { margin: 0 var(--workbench-inset) 32px; }
+
+/* Page lead text, endpoint catalog, and the small link beside buttons. */
+.lede { max-width: 62ch; margin: 22px 0 32px; color: var(--muted); font-size: 16px; line-height: 1.6; }
+.text-link { align-self: center; color: var(--amber); font-size: 13px; font-weight: 700; text-decoration: none; }
+.text-link:hover { text-decoration: underline; }
+.feature-panel .button-row { margin-top: 18px; }
+.endpoint-filter { width: min(320px, 100%); margin: 14px 0 12px; }
+.endpoint-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 28px; border-top: 0; }
+.endpoint-chip { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 9px 2px; border-bottom: 1px solid var(--line); color: var(--muted); text-decoration: none; }
+.endpoint-chip .path { min-width: 0; font-size: 12px; overflow-wrap: anywhere; }
+.endpoint-chip .path b { color: var(--text); font-weight: 600; }
+.endpoint-chip small { flex: 0 0 auto; color: var(--subtle); font: 11px var(--mono); }
+.endpoint-chip:hover { border-bottom-color: var(--line-strong); }
+.endpoint-chip:hover .path b { color: var(--amber); }
+.endpoint-chip[hidden] { display: none; }
+@media (max-width: 950px) { .endpoint-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .endpoint-grid { grid-template-columns: 1fr; } }

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The requested GZW Data page or API resource could not be found.">
+  <title>Page not found · GZW Data</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#090b0d">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/gzw-data-favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/gzw-data-apple-touch.png">
+  <link rel="preload" href="/assets/fonts/barlow-semi-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css?v=1f6dfa18">
+  <link rel="stylesheet" href="/assets/footer.css?v=12a5a91c">
+  <link rel="stylesheet" href="/assets/error.css?v=56dd368b">
+</head>
+<body class="not-found-page">
+  <header class="topbar">
+    <a class="brand" href="/">
+      <picture><source srcset="/assets/gzw-data-logo.webp" type="image/webp"><img class="brand-logo" src="/assets/gzw-data-logo.png" alt="" width="54" height="50"></picture>
+      <span><span class="brand-name">GZW Data</span><span class="brand-sub">developer console · v4</span></span>
+    </a>
+    <div class="top-actions">
+      <span class="status-pill" id="api-status"><span class="status-dot"></span><span>API status</span></span>
+      <a class="top-link" href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a>
+    </div>
+  </header>
+
+  <main class="error-main">
+    <section class="error-grid" aria-labelledby="error-title">
+      <div class="error-copy">
+        <p class="error-code" aria-hidden="true">404</p>
+        <h1 id="error-title">This signal went dark.</h1>
+        <p class="error-lead">There is no page at <code id="missing-path">this address</code>. It may have moved, or the link may have a typo.</p>
+        <div id="suggestions" class="error-suggestions" hidden>
+          <h2>Did you mean</h2>
+          <ul id="suggestion-list"></ul>
+        </div>
+        <div class="not-found-actions">
+          <a class="button primary" href="/">Back to the console</a>
+          <a class="button" href="/docs/">API reference</a>
+          <a class="button" href="/playground/">Playground</a>
+        </div>
+        <p class="error-meta"><span class="mono">HTTP 404</span> Looking for data instead? Every dataset lives at <code>/api/v1/&lt;dataset&gt;</code>.</p>
+      </div>
+
+      <div class="radar" role="img" aria-label="A radar screen sweeping an empty area">
+        <div class="radar-rings"></div>
+        <div class="radar-sweep"></div>
+        <span class="radar-blip b1"></span><span class="radar-blip b2"></span><span class="radar-blip b3"></span>
+        <span class="radar-label">no contact</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer not-found-footer">
+    <div class="footer-grid">
+      <div class="footer-about"><strong>GZW Data</strong><p>A community-run, free data API for Gray Zone Warfare. Not affiliated with MADFINGER Games.</p></div>
+      <nav aria-label="Product"><h2>Product</h2><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">JavaScript SDK</a><a href="/playground/">Playground</a><a href="/docs/examples/">Examples</a></nav>
+      <nav aria-label="Community"><h2>Community</h2><a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub</a><a href="/feedback/">Feedback desk</a></nav>
+      <nav aria-label="Legal"><h2>Legal</h2><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a><a href="https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md">Data sources &amp; licensing</a></nav>
+    </div>
+    <div class="footer-base">© 2026 GZW Data · Code under MIT · Game data from the community wiki (CC BY-SA)</div>
+  </footer>
+  <script src="/assets/error.js?v=1c0a4092" defer></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* Error pages: a radar sweep over an empty map, the way a lost signal reads. */
+.error-main { position: relative; isolation: isolate; display: grid; min-height: calc(100dvh - 72px - 330px); align-items: center; padding: 56px clamp(20px, 6vw, 80px); overflow: hidden; }
+.error-main::before { position: absolute; inset: 0; z-index: -1; content: ""; background: url("/assets/topo.svg") center / cover no-repeat; opacity: .12; mask-image: radial-gradient(ellipse at 70% 50%, #000 20%, transparent 75%); }
+.error-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(280px, .95fr); gap: clamp(32px, 6vw, 88px); align-items: center; width: min(1160px, 100%); margin: 0 auto; }
+.error-code { margin: 0 0 4px; color: var(--amber); font: 700 clamp(72px, 12vw, 148px)/.85 var(--display); letter-spacing: -.02em; text-shadow: 0 0 60px rgba(240,180,41,.18); }
+.error-copy h1 { margin: 0; font-size: clamp(34px, 5vw, 58px); font-weight: 700; line-height: 1; letter-spacing: -.01em; }
+.error-lead { max-width: 480px; margin: 18px 0 0; color: var(--muted); font-size: 16px; }
+.error-lead code, .error-meta code { padding: 2px 6px; border-radius: 4px; background: rgba(255,255,255,.06); color: var(--text); font-size: .9em; overflow-wrap: anywhere; }
+.error-suggestions { margin-top: 24px; }
+.error-suggestions h2 { margin: 0 0 8px; font-size: 18px; font-weight: 700; }
+.error-suggestions ul { display: grid; gap: 6px; padding: 0; margin: 0; list-style: none; }
+.error-suggestions a { display: inline-flex; padding: 6px 0; color: var(--amber); font-family: var(--mono); font-size: 14px; text-decoration: none; }
+.error-suggestions a:hover { text-decoration: underline; }
+.error-copy .not-found-actions { justify-content: flex-start; margin-top: 28px; }
+.error-meta { max-width: 480px; margin: 24px 0 0; color: var(--subtle); font-size: 13px; }
+.error-meta .mono { margin-right: 8px; color: var(--muted); }
+
+.radar { position: relative; width: min(100%, 460px); aspect-ratio: 1; margin-inline: auto; border-radius: 50%; border: 1px solid rgba(68,213,176,.35); background: radial-gradient(circle, rgba(68,213,176,.07), rgba(9,11,13,.4) 70%); box-shadow: 0 0 80px rgba(68,213,176,.08), inset 0 0 60px rgba(0,0,0,.5); }
+.radar-rings { position: absolute; inset: 0; border-radius: 50%; background:
+  repeating-radial-gradient(circle, transparent 0 calc(16.66% - 1px), rgba(68,213,176,.22) calc(16.66% - 1px) 16.66%),
+  linear-gradient(rgba(68,213,176,.2), rgba(68,213,176,.2)) center / 1px 100% no-repeat,
+  linear-gradient(rgba(68,213,176,.2), rgba(68,213,176,.2)) center / 100% 1px no-repeat; }
+.radar-sweep { position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg, rgba(68,213,176,.42), rgba(68,213,176,.12) 40deg, transparent 75deg); animation: sweep 5s linear infinite; }
+.radar-blip { position: absolute; width: 9px; height: 9px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 12px var(--amber); opacity: 0; animation: blip 5s ease-out infinite; }
+.radar-blip.b1 { top: 28%; left: 63%; animation-delay: 1.1s; }
+.radar-blip.b2 { top: 62%; left: 30%; animation-delay: 3s; }
+.radar-blip.b3 { top: 70%; left: 68%; animation-delay: 4.2s; }
+.radar-label { position: absolute; bottom: 9%; left: 50%; translate: -50% 0; color: var(--teal); font: 600 12px var(--mono); letter-spacing: .18em; text-transform: uppercase; animation: flicker 3.2s steps(1) infinite; }
+
+@keyframes sweep { to { transform: rotate(360deg); } }
+@keyframes blip { 0%, 8% { opacity: 1; transform: scale(1.4); } 40% { opacity: 0; transform: scale(1); } 100% { opacity: 0; } }
+@keyframes flicker { 0%, 100% { opacity: 1; } 92% { opacity: .35; } 96% { opacity: 1; } }
+
+@media (max-width: 800px) {
+  .error-grid { grid-template-columns: 1fr; }
+  .radar { order: -1; width: min(70%, 260px); }
+  .error-main { min-height: 0; padding-block: 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .radar-sweep { animation: none; transform: rotate(40deg); }
+  .radar-blip { animation: none; opacity: .9; }
+  .radar-label { animation: none; }
+}

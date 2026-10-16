@@ -42,7 +42,7 @@ function serveStatic(req, res) {
   if (!path.extname(relativePath)) candidates.push(path.join(webRoot, relativePath, 'index.html'));
   const filePath = candidates.find(candidate => candidate.startsWith(`${webRoot}${path.sep}`) && fs.existsSync(candidate) && fs.statSync(candidate).isFile());
   if (!filePath) {
-    const notFound = path.join(webRoot, '404.html');
+    const notFound = path.join(webRoot, '..', '404.html');
     if (!fs.existsSync(notFound)) return send(res, 404, 'Not found');
     res.writeHead(404, { 'Content-Type': mimeTypes['.html'] });
     return fs.createReadStream(notFound).pipe(res);

@@ -27,11 +27,11 @@ function stamp(html) {
 
 function run(check) {
   const stale = [];
-  for (const file of walk(WEB)) {
+  for (const file of [...walk(WEB), path.join(__dirname, '..', '404.html')]) {
     const before = fs.readFileSync(file, 'utf8');
     const after = stamp(before);
     if (before === after) continue;
-    stale.push(path.relative(WEB, file));
+    stale.push(path.relative(path.join(__dirname, '..'), file));
     if (!check) fs.writeFileSync(file, after);
   }
   return stale;

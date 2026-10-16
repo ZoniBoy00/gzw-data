@@ -137,10 +137,6 @@
       "destination": "/web/feedback/index.html"
     },
     {
-      "source": "/404.html",
-      "destination": "/web/404.html"
-    },
-    {
       "source": "/robots.txt",
       "destination": "/web/robots.txt"
     },

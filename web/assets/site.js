@@ -378,12 +378,28 @@
     try {
       const payload = await fetchJson("/stats");
       const datasets = payload?.datasets || payload?.data || {};
-      const entries = Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0 }));
-      list.innerHTML = entries.sort((a, b) => String(a.name).localeCompare(String(b.name))).map((item) => {
-        const name = String(item.name).replace(/^\//, "").replace(/^api\//, "");
-        return `<div class="endpoint-row"><span class="method">GET</span><span class="path">/api/v1/${escapeHtml(name)}</span><span class="endpoint-desc">${formatNumber(item.count || item.total || 0)} records · auto-discovered dataset</span><span class="endpoint-tag">JSON</span></div>`;
-      }).join("");
-      setText("[data-doc-count]", entries.length);
+      const entries = (Array.isArray(datasets) ? datasets : Object.entries(datasets).map(([name, value]) => ({ name, count: value?.total ?? value?.count ?? value ?? 0, derived: Boolean(value?.sources) })))
+        .map((item) => ({ name: String(item.name).replace(/^\//, "").replace(/^api\//, ""), count: Number(item.count ?? item.total ?? 0), derived: Boolean(item.derived) }))
+        .sort((a, b) => a.name.localeCompare(b.name));
+      list.classList.add("endpoint-grid");
+      list.innerHTML = entries.map((item) => `<a class="endpoint-chip" href="/api/v1/${escapeHtml(item.name)}" target="_blank" rel="noopener" data-name="${escapeHtml(item.name)}"><span class="path"><b>${escapeHtml(item.name)}</b></span><small>${formatNumber(item.count)}${item.derived ? " · view" : ""}</small></a>`).join("");
+      if (!$("#endpoint-filter")) {
+        const filter = document.createElement("input");
+        filter.className = "field endpoint-filter";
+        filter.id = "endpoint-filter";
+        filter.type = "search";
+        filter.placeholder = "Filter endpoints…";
+        filter.setAttribute("aria-label", "Filter endpoints");
+        filter.addEventListener("input", () => {
+          const query = filter.value.trim().toLowerCase();
+          $$(".endpoint-chip", list).forEach((chip) => { chip.hidden = Boolean(query) && !chip.dataset.name.toLowerCase().includes(query); });
+        });
+        const note = document.createElement("p");
+        note.className = "docs-note";
+        note.innerHTML = "Every dataset is a <code>GET /api/v1/&lt;name&gt;</code> endpoint. The number is the record count.";
+        list.before(note, filter);
+      }
+      setText("[data-doc-count]", entries.filter((item) => !item.derived).length);
     } catch {
       list.innerHTML = `<div class="error-message">Endpoint catalog unavailable. The static reference below is still usable.</div>`;
     }
