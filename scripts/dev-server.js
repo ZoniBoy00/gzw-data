@@ -35,11 +35,18 @@ function adaptResponse(res) {
 
 function serveStatic(req, res) {
   const requestPath = decodeURIComponent(new URL(req.url, `http://${host}`).pathname);
-  const relativePath = requestPath === '/' ? 'index.html' : requestPath.replace(/^\/+/, '');
+  // Mirror the legal-page rewrites from vercel.json.
+  const legalAlias = requestPath.replace(/\/+$/, '').match(/^\/(privacy-policy|terms-of-service)$/);
+  const relativePath = legalAlias ? `legal/${legalAlias[1]}/index.html` : requestPath === '/' ? 'index.html' : requestPath.replace(/^\/+/, '');
   const candidates = [path.join(webRoot, relativePath)];
   if (!path.extname(relativePath)) candidates.push(path.join(webRoot, relativePath, 'index.html'));
   const filePath = candidates.find(candidate => candidate.startsWith(`${webRoot}${path.sep}`) && fs.existsSync(candidate) && fs.statSync(candidate).isFile());
-  if (!filePath) return send(res, 404, 'Not found');
+  if (!filePath) {
+    const notFound = path.join(webRoot, '404.html');
+    if (!fs.existsSync(notFound)) return send(res, 404, 'Not found');
+    res.writeHead(404, { 'Content-Type': mimeTypes['.html'] });
+    return fs.createReadStream(notFound).pipe(res);
+  }
   const extension = path.extname(filePath).toLowerCase();
   res.writeHead(200, { 'Content-Type': mimeTypes[extension] || 'application/octet-stream' });
   fs.createReadStream(filePath).pipe(res);

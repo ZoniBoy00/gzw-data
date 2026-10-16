@@ -1,0 +1,23 @@
+:root { --subtle: #5f6a69; --muted: #8e9998; --text: #eef1ef; --amber: #f0b429; --line: rgba(255, 255, 255, 0.09); --sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+.site-footer { padding-top: 40px; border-top: 1px solid var(--line); color: var(--subtle); font-size: 12px; }
+.footer-grid { display: grid; grid-template-columns: 1.5fr repeat(3, minmax(0, 1fr)); gap: 36px; }
+.footer-about strong { display: block; margin-bottom: 8px; color: var(--text); font-size: 14px; letter-spacing: .06em; text-transform: uppercase; }
+.footer-about p { max-width: 320px; margin: 0 0 16px; line-height: 1.6; }
+.footer-grid nav { display: grid; align-content: start; gap: 9px; }
+.footer-grid h2 { margin: 0 0 4px; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.footer-grid nav a { color: var(--muted); text-decoration: none; }
+.footer-grid nav a:hover { color: var(--amber); }
+.site-footer .saas-browser-badge { display: inline-flex; border-radius: 6px; }
+.site-footer .saas-browser-badge img { display: block; width: 160px; height: auto; }
+.footer-base { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 11px; }
+
+
+@media (max-width: 950px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-about { grid-column: 1 / -1; }
+}
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+.site-footer { margin-top: 72px; }
+.content.home > .site-footer { margin-top: 0; }

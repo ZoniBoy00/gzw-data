@@ -446,29 +446,32 @@ td:first-child { color: var(--text); font-weight: 650; }
 .client-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .client { display: flex; flex-direction: column; padding: 20px; }
 .client .code-block { margin-top: 14px; padding-right: 64px; overflow-wrap: anywhere; }
-.client .code-block code { white-space: normal; }
 .card-link { margin-top: auto; padding-top: 16px; color: var(--amber); font-size: 12px; font-weight: 700; text-decoration: none; }
 .card-link:hover { text-decoration: underline; }
-
-.site-footer { padding-top: 40px; border-top: 1px solid var(--line); color: var(--subtle); font-size: 12px; }
-.footer-grid { display: grid; grid-template-columns: 1.5fr repeat(3, minmax(0, 1fr)); gap: 36px; }
-.footer-about strong { display: block; margin-bottom: 8px; color: var(--text); font-size: 14px; letter-spacing: .06em; text-transform: uppercase; }
-.footer-about p { max-width: 320px; margin: 0 0 16px; line-height: 1.6; }
-.footer-grid nav { display: grid; align-content: start; gap: 9px; }
-.footer-grid h2 { margin: 0 0 4px; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
-.footer-grid nav a { color: var(--muted); text-decoration: none; }
-.footer-grid nav a:hover { color: var(--amber); }
-.site-footer .saas-browser-badge { display: inline-flex; border-radius: 6px; }
-.site-footer .saas-browser-badge img { display: block; width: 160px; height: auto; }
-.footer-base { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 11px; }
 
 @media (max-width: 950px) {
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .client-grid { grid-template-columns: 1fr; }
-  .footer-grid { grid-template-columns: 1fr 1fr; }
-  .footer-about { grid-column: 1 / -1; }
 }
 @media (max-width: 720px) {
   .content.home { gap: 48px; }
   .feature-grid { grid-template-columns: 1fr; }
 }
+
+/* Code blocks keep the line breaks of the examples they show. */
+.code-block { white-space: pre; }
+.code-block code { font: inherit; }
+
+/* Contact options as three equal cards. */
+.contact-links { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.contact-links p { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: rgba(0,0,0,.14); }
+.contact-links a { font-weight: 700; text-decoration: none; overflow-wrap: anywhere; }
+.contact-links a:hover { text-decoration: underline; }
+.contact-links span { color: var(--subtle); font-size: 12px; }
+@media (max-width: 720px) { .contact-links { grid-template-columns: 1fr; } }
+/* Keep the copy button clear of the code: only the code scrolls, never under the button. */
+.code-block { overflow: visible; }
+.code-block > code { display: block; margin-right: 58px; overflow-x: auto; padding-bottom: 2px; }
+.client .code-block { padding-right: 15px; }
+.client .code-block { white-space: pre-wrap; overflow-wrap: anywhere; }
+.client .code-block > code { overflow-x: visible; }
