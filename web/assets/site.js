@@ -357,7 +357,7 @@
       links.forEach((link) => link.classList.toggle("active", link.getAttribute("href") === `#${current.id}`));
     };
     window.addEventListener("scroll", () => { if (!frame) frame = requestAnimationFrame(update); }, { passive: true });
-    update();
+    frame = requestAnimationFrame(update);
   }
 
   function initScrollspy() {
