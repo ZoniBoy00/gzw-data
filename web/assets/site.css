@@ -507,3 +507,21 @@ h1, h2, .brand-name, .feedback-card h2 { font-family: var(--display); text-wrap:
 .steps-grid .code-block { white-space: pre-wrap; overflow-wrap: anywhere; }
 .steps-grid .code-block > code { overflow-x: visible; }
 .playground-page h1, .feedback-page h1 { font-size: clamp(40px, 5.4vw, 66px); }
+
+/* Restraint pass: one accent colour, fewer boxes, no decorative labels. */
+.hero h1 em, .docs-hero h1 em, .accent-text { color: inherit; font-style: normal; }
+.hero h1 em { display: block; }
+
+/* Open lists instead of cards where the content is just a list. */
+.content.home .steps-grid { gap: 0 32px; }
+.content.home .steps-grid > li.info-panel,
+.content.home .feature-grid > .feature { padding: 18px 0 0; border: 0; border-top: 1px solid var(--line-strong); border-radius: 0; background: none; }
+.content.home .feature-grid { gap: 8px 32px; }
+.content.home .feature-icon { margin-bottom: 12px; }
+.content.home .steps-grid .code-block { margin-top: 12px; }
+.contact-links { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 32px; }
+.contact-links p { padding: 14px 0 0; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: none; }
+.feedback-card { border-radius: var(--radius-sm); }
+.checklist li { gap: 0; }
+.client .code-block { overflow-wrap: break-word; }
+.playground-panel-v2 .playground-output { margin: 0 var(--workbench-inset) 32px; }

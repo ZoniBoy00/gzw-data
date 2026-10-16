@@ -22,7 +22,7 @@
   <meta name="twitter:title" content="Gray Zone Warfare API · Weapons, Missions & Game Data">
   <meta name="twitter:image" content="https://gzw-data.dev/assets/og-image.png">
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/site.css?v=66c19818">
+  <link rel="stylesheet" href="/assets/site.css?v=043d03f6">
   <link rel="stylesheet" href="/assets/footer.css?v=8fba82dc">
   
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://gzw-data.dev/#website","url":"https://gzw-data.dev/","name":"GZW Data","description":"Free Gray Zone Warfare game data API","inLanguage":"en"},{"@type":"WebAPI","name":"GZW Data API","url":"https://gzw-data.dev/api/v1","documentation":"https://gzw-data.dev/docs/","description":"Free, read-only JSON API for Gray Zone Warfare weapons, ammo, armor, tasks and loot. No API key required.","isAccessibleForFree":true,"provider":{"@type":"Person","name":"ZoniBoy00","url":"https://github.com/ZoniBoy00"}}]}</script>
@@ -72,14 +72,14 @@
       <div class="content home">
         <section class="hero" aria-labelledby="hero-title">
           <div>
-            <div class="eyebrow">Gray Zone Warfare · public data</div>
+            
             <h1 id="hero-title">Gray Zone Warfare data, <em>one clean API.</em></h1>
             <p class="hero-copy">Weapons, ammo, armor, tasks, keys, loot and more as plain JSON. Free, no API key, updated weekly from the community wiki.</p>
             <ul class="trust-row" aria-label="Key facts">
               <li>No API key</li><li>OpenAPI 3 spec</li><li>Search &amp; filters</li><li>Typed JS/TS client</li>
             </ul>
             <div class="button-row hero-actions">
-              <a class="button primary" href="#quickstart">Make your first request →</a>
+              <a class="button primary" href="#quickstart">Make your first request</a>
               <a class="button" href="/docs/">API reference</a>
               <a class="button" href="/playground/">Playground</a>
             </div>
@@ -106,7 +106,7 @@
         </section>
 
         <section id="quickstart" aria-labelledby="quickstart-title">
-          <div class="section-heading"><div><div class="eyebrow">Quick start</div><h2 id="quickstart-title">From zero to data in three steps</h2><p>No signup, no key, no setup.</p></div></div>
+          <div class="section-heading"><div><h2 id="quickstart-title">Make your first request</h2><p>Copy a command. No signup, no key.</p></div></div>
           <ol class="steps-grid">
             <li class="info-panel"><span class="step-num">1</span><h3>Call the API</h3><p>Every dataset is a JSON endpoint under one base URL.</p><div class="code-block"><button class="copy-button" type="button" data-copy="curl https://gzw-data.dev/api/v1/weapons?per_page=3">Copy</button><code>curl https://gzw-data.dev/api/v1/weapons?per_page=3</code></div></li>
             <li class="info-panel"><span class="step-num">2</span><h3>Search &amp; filter</h3><p>Search one dataset, or all of them at once.</p><div class="code-block"><button class="copy-button" type="button" data-copy="curl https://gzw-data.dev/api/v1/search?q=AK">Copy</button><code>curl https://gzw-data.dev/api/v1/search?q=AK</code></div></li>
@@ -115,14 +115,14 @@
         </section>
 
         <section id="datasets" aria-labelledby="datasets-title">
-          <div class="section-heading"><div><div class="eyebrow">Catalog</div><h2 id="datasets-title">What data is available</h2><p>Pick a dataset to open it in the explorer below.</p></div><span class="kicker" id="catalog-meta"></span></div>
+          <div class="section-heading"><div><h2 id="datasets-title">What data is available</h2><p>Pick a dataset to open it in the explorer below.</p></div><span class="kicker" id="catalog-meta"></span></div>
           <div class="catalog-tools"><label class="sr-only" for="catalog-filter">Filter datasets</label><input class="field" id="catalog-filter" type="search" placeholder="Filter datasets…" autocomplete="off"></div>
           <div class="catalog" id="catalog"><div class="loading">Loading datasets…</div></div>
         </section>
 
         <section id="explorer" aria-labelledby="explorer-title">
           <div class="section-heading">
-            <div><div class="eyebrow">Live request builder</div><h2 id="explorer-title">Explore the data</h2><p>Pick a dataset, search it, and inspect the same JSON endpoint your app will call.</p></div>
+            <div><h2 id="explorer-title">Explore the data</h2><p>Pick a dataset, search it, and inspect the same JSON endpoint your app will call.</p></div>
             <span class="kicker" id="explorer-meta"></span>
           </div>
           <div class="panel">
@@ -142,12 +142,12 @@
                 <tbody id="explorer-body"><tr><td colspan="3"><div class="loading">Loading live records…</div></td></tr></tbody>
               </table>
             </div>
-            <div class="pagination"><button class="button ghost" id="previous-page" type="button">← Previous</button><span id="page-label">Page 1</span><button class="button ghost" id="next-page" type="button">Next →</button></div>
+            <div class="pagination"><button class="button ghost" id="previous-page" type="button">← Previous</button><span id="page-label">Page 1</span><button class="button ghost" id="next-page" type="button">Next</button></div>
           </div>
         </section>
 
         <section id="why" aria-labelledby="why-title">
-          <div class="section-heading"><div><div class="eyebrow">Why GZW Data</div><h2 id="why-title">Built to be depended on</h2><p>Small surface, predictable behaviour, honest about where the data comes from.</p></div></div>
+          <div class="section-heading"><div><h2 id="why-title">What you can rely on</h2><p>One predictable API, updated on a schedule, with the source of every dataset documented.</p></div></div>
           <div class="feature-grid">
             <article class="info-panel feature"><span class="feature-icon" aria-hidden="true">◈</span><h3>Auto-discovered datasets</h3><p>Every JSON file in the data repository becomes an endpoint. New wiki categories appear without route code.</p></article>
             <article class="info-panel feature"><span class="feature-icon" aria-hidden="true">{ }</span><h3>Stable response contract</h3><p>One envelope for every dataset, stable error codes, pagination, filters and sorting. Breaking changes need a new API line.</p></article>
@@ -157,7 +157,7 @@
         </section>
 
         <section class="update-panel" id="status" aria-labelledby="update-title">
-          <div class="update-heading"><div><div class="eyebrow">Data maintenance</div><h2 id="update-title">Latest data update</h2><p>Snapshot information from the live API.</p></div><span class="update-status" id="update-status" aria-live="polite">Checking…</span></div>
+          <div class="update-heading"><div><h2 id="update-title">Latest data update</h2><p>Snapshot information from the live API.</p></div><span class="update-status" id="update-status" aria-live="polite">Checking…</span></div>
           <div class="update-grid">
             <div><span class="update-label">Snapshot</span><strong class="update-value" id="update-version">—</strong></div>
             <div><span class="update-label">Datasets tracked</span><strong class="update-value" id="update-datasets">—</strong></div>
@@ -168,15 +168,15 @@
         </section>
 
         <section id="clients" aria-labelledby="clients-title">
-          <div class="section-heading"><div><div class="eyebrow">Clients</div><h2 id="clients-title">Use it from your language</h2><p>Plain HTTP works everywhere. These wrappers add pagination, retries and typed errors.</p></div></div>
+          <div class="section-heading"><div><h2 id="clients-title">Clients</h2><p>Plain HTTP works from any language. The clients add pagination, retries and typed errors.</p></div></div>
           <div class="client-grid">
-            <article class="info-panel client"><h3>JavaScript / TypeScript</h3><p>Typed, zero-dependency client for Node 22+ and browsers.</p><div class="code-block"><button class="copy-button" type="button" data-copy="npm install @zoniboy/gzw-data-client">Copy</button><code>npm install @zoniboy/gzw-data-client</code></div><a class="card-link" href="/docs/sdk/">SDK guide →</a></article>
-            <article class="info-panel client"><h3>Python</h3><p>Dependency-free client with pagination, retries and Retry-After support.</p><div class="code-block"><button class="copy-button" type="button" data-copy="pip install git+https://github.com/ZoniBoy00/gzw-data-py">Copy</button><code>pip install git+https://github.com/ZoniBoy00/gzw-data-py</code></div><a class="card-link" href="https://github.com/ZoniBoy00/gzw-data-py">View on GitHub ↗</a></article>
-            <article class="info-panel client"><h3>OpenAPI &amp; Playground</h3><p>Generate a client in any language from the spec, or try requests live first.</p><div class="code-block"><button class="copy-button" type="button" data-copy="https://gzw-data.dev/api/v1/spec">Copy</button><code>https://gzw-data.dev/api/v1/spec</code></div><a class="card-link" href="/playground/">Open Playground →</a></article>
+            <article class="info-panel client"><h3>JavaScript / TypeScript</h3><p>Typed, zero-dependency client for Node 22+ and browsers.</p><div class="code-block"><button class="copy-button" type="button" data-copy="npm install @zoniboy/gzw-data-client">Copy</button><code>npm install @zoniboy/gzw-data-client</code></div><a class="card-link" href="/docs/sdk/">SDK guide</a></article>
+            <article class="info-panel client"><h3>Python</h3><p>Dependency-free client with pagination, retries and Retry-After support.</p><div class="code-block"><button class="copy-button" type="button" data-copy="pip install git+https://github.com/ZoniBoy00/gzw-data-py">Copy</button><code>pip install git+https://github.com/<wbr>ZoniBoy00/<wbr>gzw-data-py</code></div><a class="card-link" href="https://github.com/ZoniBoy00/gzw-data-py">View on GitHub ↗</a></article>
+            <article class="info-panel client"><h3>OpenAPI &amp; Playground</h3><p>Generate a client in any language from the spec, or try requests live first.</p><div class="code-block"><button class="copy-button" type="button" data-copy="https://gzw-data.dev/api/v1/spec">Copy</button><code>https://gzw-data.dev/api/v1/spec</code></div><a class="card-link" href="/playground/">Open Playground</a></article>
           </div>
         </section>
 
-        <section class="info-panel contact-panel" aria-labelledby="contact-title"><div class="eyebrow">Project contact</div><h2 id="contact-title">Need help or found a security issue?</h2><p>Use the right path so support, data corrections, feature requests and security reports stay organized.</p><div class="contact-links"><p><a href="/feedback/">Feedback desk</a><span>Choose bug, missing data, feature or API support</span></p><p><a href="mailto:support@gzw-data.dev">support@gzw-data.dev</a><span>General API questions and support</span></p><p><a href="mailto:security@gzw-data.dev">security@gzw-data.dev</a><span>Private vulnerability reports only</span></p></div></section>
+        <section class="info-panel contact-panel" aria-labelledby="contact-title"><h2 id="contact-title">Need help or found a security issue?</h2><p>Use the right path so support, data corrections, feature requests and security reports stay organized.</p><div class="contact-links"><p><a href="/feedback/">Feedback desk</a><span>Choose bug, missing data, feature or API support</span></p><p><a href="mailto:support@gzw-data.dev">support@gzw-data.dev</a><span>General API questions and support</span></p><p><a href="mailto:security@gzw-data.dev">security@gzw-data.dev</a><span>Private vulnerability reports only</span></p></div></section>
 
         <footer class="site-footer">
           <div class="footer-grid">
@@ -205,6 +205,6 @@
     </div>
   </div>
   <a class="bmc-support-link" href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">☕ Support GZW Data</a>
-  <script src="/assets/site.js?v=57b14a9e" defer></script>
+  <script src="/assets/site.js?v=5143b840" defer></script>
 </body>
 </html>

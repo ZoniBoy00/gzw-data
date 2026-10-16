@@ -348,13 +348,16 @@
     if (document.body.dataset.page !== "overview") return;
     const links = $$('.sidebar a[href^="#"]');
     const sections = links.map((link) => document.querySelector(link.getAttribute("href"))).filter(Boolean);
-    if (!sections.length || !("IntersectionObserver" in window)) return;
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) links.forEach((link) => link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`));
-      });
-    }, { rootMargin: "-90px 0px -65% 0px" });
-    sections.forEach((section) => observer.observe(section));
+    if (!sections.length) return;
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      // The active section is the last one whose top has passed the sticky header.
+      const current = sections.filter((section) => section.getBoundingClientRect().top <= 140).pop() || sections[0];
+      links.forEach((link) => link.classList.toggle("active", link.getAttribute("href") === `#${current.id}`));
+    };
+    window.addEventListener("scroll", () => { if (!frame) frame = requestAnimationFrame(update); }, { passive: true });
+    update();
   }
 
   function initScrollspy() {

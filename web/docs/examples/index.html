@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="API &amp; SDK Examples · GZW Data">
   <meta name="twitter:image" content="https://gzw-data.dev/assets/og-image.png">
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/site.css?v=66c19818">
+  <link rel="stylesheet" href="/assets/site.css?v=043d03f6">
   <link rel="stylesheet" href="/assets/footer.css?v=8fba82dc">
   <title>API &amp; SDK Examples · GZW Data</title>
 </head>
@@ -39,18 +39,18 @@
       <a class="active" href="#rest"><span aria-hidden="true">▷</span> API &amp; SDK examples</a>
       <a href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
       <div class="sidebar-section">On this page</div>
-      <a href="#rest"><span aria-hidden="true">01</span> REST requests</a>
-      <a href="#sdk"><span aria-hidden="true">02</span> SDK quick start</a>
-      <a href="#discover"><span aria-hidden="true">03</span> Live datasets</a>
-      <a href="#browser"><span aria-hidden="true">04</span> Browser fetch</a>
-      <a href="#python"><span aria-hidden="true">05</span> Python</a>
+      <a href="#rest">REST requests</a>
+      <a href="#sdk">SDK quick start</a>
+      <a href="#discover">Live datasets</a>
+      <a href="#browser">Browser fetch</a>
+      <a href="#python">Python</a>
       <div class="sidebar-note"><strong>Public API</strong>No API key · read-only JSON · use <span class="mono">/api/v1</span>.</div>
     </aside>
 
     <main>
       <div class="content">
         <section class="hero docs-hero" aria-labelledby="examples-title">
-          <div><div class="eyebrow">Copy, adapt, ship</div><h1 id="examples-title">One API.<br><em>Pick your client.</em></h1><p class="hero-copy">Every example uses the public, read-only v1 API. Choose plain HTTP for any language, or the official TypeScript client for typed helpers.</p></div>
+          <div><h1 id="examples-title">One API.<br><em>Pick your client.</em></h1><p class="hero-copy">Every example uses the public, read-only v1 API. Choose plain HTTP for any language, or the official TypeScript client for typed helpers.</p></div>
           <div class="hero-aside"><div class="hero-aside-label">Versioned base URL</div><code class="base-url">https://gzw-data.dev/api/v1</code><div class="button-row"><a class="button primary" href="/docs/">Full API reference ↗</a><a class="button" href="/docs/sdk/">SDK guide ↗</a></div></div>
         </section>
 
@@ -63,7 +63,7 @@
         <div class="docs-layout">
           <article class="docs-content">
             <section id="rest">
-              <div class="eyebrow">01 · Any language</div><h2>REST requests with cURL</h2>
+              <h2>REST requests with cURL</h2>
               <p>Use the versioned endpoint directly. The API discovers published datasets automatically; check the <a href="/docs/#endpoints">live route catalog</a> for the current list.</p>
               <h3>List a page</h3>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="curl-list">Copy</button><code id="curl-list">curl -sS "https://gzw-data.dev/api/v1/weapons?page=1&amp;per_page=5"</code></div>
@@ -78,7 +78,7 @@ curl -sS "https://gzw-data.dev/api/v1/metadata?full=true"</code></div>
             </section>
 
             <section id="sdk">
-              <div class="eyebrow">02 · JavaScript / TypeScript</div><h2>Use the SDK for typed helpers</h2>
+              <h2>Use the SDK for typed helpers</h2>
               <p>Install <code>@zoniboy/gzw-data-client</code> in Node.js 22+ (release 0.8.0) or a modern browser app. Node.js 18 consumers can use release 0.7.3. It has no runtime dependencies and needs no API key.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy="npm install @zoniboy/gzw-data-client">Copy</button><code>npm install @zoniboy/gzw-data-client</code></div>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-list">Copy</button><code id="sdk-list">import { GzwDataClient } from "@zoniboy/gzw-data-client";
@@ -88,11 +88,11 @@ const page = await gzw.dataset("weapons").list({ page: 1, perPage: 5 });
 
 console.log(page.data);
 console.log(page.total);</code></div>
-              <p><a href="https://github.com/ZoniBoy00/gzw-data-js/blob/main/examples/sdk/quickstart.ts">Runnable, type-checked quick-start source ↗</a> · <a href="/docs/sdk/">Full SDK guide →</a></p>
+              <p><a href="https://github.com/ZoniBoy00/gzw-data-js/blob/main/examples/sdk/quickstart.ts">Runnable, type-checked quick-start source ↗</a> · <a href="/docs/sdk/">Full SDK guide</a></p>
             </section>
 
             <section id="discover">
-              <div class="eyebrow">03 · Newly added data</div><h2>Build a live dataset picker</h2>
+              <h2>Build a live dataset picker</h2>
               <p>Read names from the API registry at runtime. New datasets and fields are available without updating the npm package; compile-time autocomplete remains a local snapshot.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-discovery-example">Copy</button><code id="sdk-discovery-example">const registry = await gzw.metadata();
 const datasetNames = registry.datasets.map(({ name }) => name);
@@ -105,7 +105,7 @@ const firstPage = await resource.list({ page: 1, perPage: 20 });</code></div>
             </section>
 
             <section id="browser">
-              <div class="eyebrow">04 · No SDK required</div><h2>Fetch from a browser app</h2>
+              <h2>Fetch from a browser app</h2>
               <p>For a small prototype or a non-JavaScript SDK, the REST endpoint can be called with standard <code>fetch</code>. Check <code>response.ok</code> before treating the body as a successful result.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="browser-fetch">Copy</button><code id="browser-fetch">const params = new URLSearchParams({ page: "1", per_page: "5" });
 const response = await fetch(
@@ -119,7 +119,7 @@ console.log(payload.data);</code></div>
             </section>
 
             <section id="python">
-              <div class="eyebrow">05 · Python</div><h2>Use query parameters safely</h2>
+              <h2>Use query parameters safely</h2>
               <p>Pass query values separately instead of building an encoded URL by hand.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="python-example">Copy</button><code id="python-example">import requests
 
@@ -133,7 +133,7 @@ print(response.json()["data"])</code></div>
               <p>For exact parameter names, response shapes, errors, caching and rate limits, use the <a href="/docs/">API reference</a>.</p>
             </section>
 
-            <section class="info-panel contact-panel"><div class="eyebrow">Next steps</div><h2>Keep exploring</h2><div class="button-row docs-action-row"><a class="button" href="/playground/">Try a live request</a><a class="button" href="/docs/">Read the API reference</a><a class="button primary" href="/docs/sdk/">Read the SDK guide</a></div></section>
+            <section class="info-panel contact-panel"><h2>Keep exploring</h2><div class="button-row docs-action-row"><a class="button" href="/playground/">Try a live request</a><a class="button" href="/docs/">Read the API reference</a><a class="button primary" href="/docs/sdk/">Read the SDK guide</a></div></section>
             <footer class="site-footer">
           <div class="footer-grid">
             <div class="footer-about"><strong>GZW Data</strong><p>A community-run, free data API for Gray Zone Warfare. Not affiliated with MADFINGER Games.</p><a class="saas-browser-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="200" height="70" loading="lazy"></a></div>
@@ -152,6 +152,6 @@ print(response.json()["data"])</code></div>
 
   <div class="command-scrim" aria-hidden="true"><div class="command" role="dialog" aria-modal="true" aria-label="Command palette"><input class="command-input" type="search" placeholder="Search navigation…" autocomplete="off"><div class="command-list"><button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button><button class="command-item" type="button" data-target="/docs/"><span>⌘</span> Open API reference <small>Docs</small></button><button class="command-item" type="button" data-target="/docs/sdk/"><span>◇</span> Open JavaScript SDK guide <small>SDK</small></button><button class="command-item" type="button" data-target="/docs/examples/"><span>▷</span> Open API &amp; SDK examples <small>Examples</small></button></div><div class="command-help">Press <span class="mono">Esc</span> to close · <span class="mono">/</span> to open anytime</div></div></div>
   <a class="bmc-support-link" href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">☕ Support GZW Data</a>
-  <script src="/assets/site.js?v=57b14a9e" defer></script>
+  <script src="/assets/site.js?v=5143b840" defer></script>
 </body>
 </html>

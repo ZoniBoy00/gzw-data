@@ -20,7 +20,7 @@
   <meta name="twitter:title" content="JavaScript &amp; TypeScript SDK Guide · GZW Data">
   <meta name="twitter:image" content="https://gzw-data.dev/assets/og-image.png">
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/site.css?v=66c19818">
+  <link rel="stylesheet" href="/assets/site.css?v=043d03f6">
   <link rel="stylesheet" href="/assets/footer.css?v=8fba82dc">
   <title>JavaScript &amp; TypeScript SDK Guide · GZW Data</title>
 </head>
@@ -41,20 +41,20 @@
       <a href="/docs/examples/"><span aria-hidden="true">▷</span> API &amp; SDK examples</a>
       <a href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
       <div class="sidebar-section">On this page</div>
-      <a href="#quickstart"><span aria-hidden="true">01</span> Quick start</a>
-      <a href="#discover"><span aria-hidden="true">02</span> Live datasets</a>
-      <a href="#operations"><span aria-hidden="true">03</span> Dataset operations</a>
-      <a href="#types"><span aria-hidden="true">04</span> TypeScript &amp; autocomplete</a>
-      <a href="#errors"><span aria-hidden="true">05</span> Errors &amp; retries</a>
-      <a href="#configuration"><span aria-hidden="true">06</span> Configuration</a>
-      <a href="#runtime"><span aria-hidden="true">07</span> Runtime &amp; limits</a>
+      <a href="#quickstart">Quick start</a>
+      <a href="#discover">Live datasets</a>
+      <a href="#operations">Dataset operations</a>
+      <a href="#types">TypeScript &amp; autocomplete</a>
+      <a href="#errors">Errors &amp; retries</a>
+      <a href="#configuration">Configuration</a>
+      <a href="#runtime">Runtime &amp; limits</a>
       <div class="sidebar-note"><strong>No API key</strong>Install the package and call the public read-only API.</div>
     </aside>
 
     <main>
       <div class="content">
         <section class="hero docs-hero" aria-labelledby="sdk-title">
-          <div><div class="eyebrow">Official JavaScript / TypeScript client</div><h1 id="sdk-title">Use the API.<br><em>Skip the plumbing.</em></h1><p class="hero-copy">A small, typed client for Node.js 22+ and modern browsers (release 0.8.0). It handles dataset requests, pagination, retry behavior and typed errors without a runtime dependency.</p></div>
+          <div><h1 id="sdk-title">Use the API.<br><em>Skip the plumbing.</em></h1><p class="hero-copy">A small, typed client for Node.js 22+ and modern browsers (release 0.8.0). It handles dataset requests, pagination, retry behavior and typed errors without a runtime dependency.</p></div>
           <div class="hero-aside"><div class="hero-aside-label">Install from npm</div><code class="base-url">@zoniboy/gzw-data-client</code><div class="button-row"><a class="button primary" href="https://www.npmjs.com/package/@zoniboy/gzw-data-client">View npm package ↗</a><a class="button" href="https://github.com/ZoniBoy00/gzw-data-js">Source</a></div></div>
         </section>
 
@@ -73,7 +73,7 @@
         <div class="docs-layout sdk-docs-layout">
           <article class="docs-content">
             <section id="quickstart">
-              <div class="eyebrow">01 · First request</div><h2>Install and fetch a page</h2>
+              <h2>Install and fetch a page</h2>
               <p>Install the package in your application. No API key is needed.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy="npm install @zoniboy/gzw-data-client">Copy</button><code>npm install @zoniboy/gzw-data-client</code></div>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-quickstart">Copy</button><code id="sdk-quickstart">import { GzwDataClient } from "@zoniboy/gzw-data-client";
@@ -91,7 +91,7 @@ console.log(page.total);</code></div>
             </section>
 
             <section id="discover">
-              <div class="eyebrow">02 · Live API registry</div><h2>Discover datasets at runtime</h2>
+              <h2>Discover datasets at runtime</h2>
               <p>Use <code>metadata()</code> when an application needs the current dataset names. Newly added API datasets can be passed to <code>dataset(name)</code> immediately; the SDK does not need a release for data-only additions.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-discovery">Copy</button><code id="sdk-discovery">const registry = await gzw.metadata();
 const datasetNames = registry.datasets.map((dataset) => dataset.name);
@@ -106,7 +106,7 @@ const records = await selectedDataset.list({ page: 1, perPage: 20 });</code></di
             </section>
 
             <section id="operations">
-              <div class="eyebrow">03 · Common operations</div><h2>List, filter, search and fetch</h2>
+              <h2>List, filter, search and fetch</h2>
               <p>Each dataset resource provides the same core operations. Filters and pagination can be combined.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-operations">Copy</button><code id="sdk-operations">const keys = gzw.dataset("keys");
 const keycards = await keys.filter(
@@ -143,14 +143,14 @@ const records = await gzw.dataset("weapons").getMany(
             </section>
 
             <section id="types">
-              <div class="eyebrow">04 · TypeScript</div><h2>Autocomplete is a snapshot; runtime discovery is live</h2>
+              <h2>Autocomplete is a snapshot; runtime discovery is live</h2>
               <p>The <code>KnownGzwDataset</code> union provides editor suggestions for names in the published SDK snapshot. TypeScript autocomplete is computed from local declarations, so it cannot query the API while you type. For a live picker inside your app, populate it from <code>gzw.metadata()</code>.</p>
               <p><code>GzwDataset</code> also accepts arbitrary strings, so a name returned by the API works even if it is absent from the snapshot. Strongly typed models are maintained for selected stable datasets; unknown records use <code>GzwRecord</code>.</p>
               <div class="info-panel"><h3>When does autocomplete change?</h3><p>The SDK repository can refresh its generated names with <code>npm run generate-types</code>. All SDK consumers receive those new editor suggestions only when a later SDK package version is published and installed. Routine API dataset or count changes do not trigger an npm release.</p></div>
             </section>
 
             <section id="errors">
-              <div class="eyebrow">05 · Reliability</div><h2>Errors, retries and cancellation</h2>
+              <h2>Errors, retries and cancellation</h2>
               <p>HTTP failures are exposed as <code>GzwApiError</code>, with status, stable code, request URL and retry information when available. The client retries eligible rate-limit, server, transient network and invalid-response failures by default; it respects <code>Retry-After</code> and does not retry caller-aborted requests.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-errors">Copy</button><code id="sdk-errors">import { GzwApiError } from "@zoniboy/gzw-data-client";
 
@@ -165,7 +165,7 @@ try {
             </section>
 
             <section id="configuration">
-              <div class="eyebrow">06 · Optional controls</div><h2>Configure retries, timeout and cache</h2>
+              <h2>Configure retries, timeout and cache</h2>
               <p>Defaults work for a small app. The response cache is disabled unless a positive TTL is configured; it is in-memory per process, not persistent storage.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-config">Copy</button><code id="sdk-config">const gzw = new GzwDataClient({
   retries: 2,
@@ -176,7 +176,7 @@ try {
             </section>
 
             <section id="runtime">
-              <div class="eyebrow">07 · Data and operations</div><h2>Runtime, freshness and limits</h2>
+              <h2>Runtime, freshness and limits</h2>
               <ul>
                 <li>The current 0.8.0 release targets Node.js 22+ and modern browsers with native <code>fetch</code>; Node.js 18 consumers can continue using 0.7.3. Browser projects should use a bundler such as Vite.</li>
                 <li>The API is public, read-only and requires no key. It has a best-effort rate limit of 100 requests per minute per IP; cache responses and respect <code>Retry-After</code>.</li>
@@ -186,7 +186,7 @@ try {
               <p>For endpoint behavior, query parameters, response envelopes and rate-limit headers, see the <a href="/docs/">API reference</a>. For copyable cURL, browser, Python and SDK recipes, see <a href="/docs/examples/">API &amp; SDK examples</a>.</p>
             </section>
 
-            <section class="info-panel contact-panel" aria-labelledby="sdk-support-title"><div class="eyebrow">Need help?</div><h2 id="sdk-support-title">Ask the right project</h2><p>Report SDK behavior to the client repository; report missing or incorrect game data to GZW Data.</p><div class="button-row docs-action-row"><a class="button" href="https://github.com/ZoniBoy00/gzw-data-js/issues/new/choose">SDK issues ↗</a><a class="button" href="https://github.com/ZoniBoy00/gzw-data/issues">API/data issues ↗</a><a class="button" href="/feedback/">Feedback desk</a></div></section>
+            <section class="info-panel contact-panel" aria-labelledby="sdk-support-title"><h2 id="sdk-support-title">Ask the right project</h2><p>Report SDK behavior to the client repository; report missing or incorrect game data to GZW Data.</p><div class="button-row docs-action-row"><a class="button" href="https://github.com/ZoniBoy00/gzw-data-js/issues/new/choose">SDK issues ↗</a><a class="button" href="https://github.com/ZoniBoy00/gzw-data/issues">API/data issues ↗</a><a class="button" href="/feedback/">Feedback desk</a></div></section>
 
             <footer class="site-footer">
           <div class="footer-grid">
@@ -206,6 +206,6 @@ try {
 
   <div class="command-scrim" aria-hidden="true"><div class="command" role="dialog" aria-modal="true" aria-label="Command palette"><input class="command-input" type="search" placeholder="Search navigation…" autocomplete="off"><div class="command-list"><button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button><button class="command-item" type="button" data-target="/docs/"><span>⌘</span> Open API reference <small>Docs</small></button><button class="command-item" type="button" data-target="/docs/sdk/"><span>◇</span> Open JavaScript SDK guide <small>SDK</small></button><button class="command-item" type="button" data-target="/docs/examples/"><span>▷</span> Open API &amp; SDK examples <small>Examples</small></button><button class="command-item" type="button" data-target="https://github.com/ZoniBoy00/gzw-data"><span>↗</span> View API source on GitHub <small>External</small></button></div><div class="command-help">Press <span class="mono">Esc</span> to close · <span class="mono">/</span> to open anytime</div></div></div>
   <a class="bmc-support-link" href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">☕ Support GZW Data</a>
-  <script src="/assets/site.js?v=57b14a9e" defer></script>
+  <script src="/assets/site.js?v=5143b840" defer></script>
 </body>
 </html>
