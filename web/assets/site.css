@@ -1,3 +1,8 @@
+@font-face { font-family: "Barlow Semi Condensed"; font-style: normal; font-weight: 600; font-display: swap; src: url("/assets/fonts/barlow-semi-condensed-600.woff2") format("woff2"); }
+@font-face { font-family: "Barlow Semi Condensed"; font-style: normal; font-weight: 700; font-display: swap; src: url("/assets/fonts/barlow-semi-condensed-700.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url("/assets/fonts/ibm-plex-mono-400.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 600; font-display: swap; src: url("/assets/fonts/ibm-plex-mono-600.woff2") format("woff2"); }
+
 :root {
   color-scheme: dark;
   --bg: #090b0d;
@@ -8,7 +13,7 @@
   --line-strong: rgba(240, 180, 41, 0.25);
   --text: #eef1ef;
   --muted: #8e9998;
-  --subtle: #5f6a69;
+  --subtle: #7f8b89;
   --amber: #f0b429;
   --amber-soft: rgba(240, 180, 41, 0.12);
   --teal: #44d5b0;
@@ -19,7 +24,8 @@
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
-  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --mono: "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --display: "Barlow Semi Condensed", "Arial Narrow", "Segoe UI", system-ui, sans-serif;
   --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -475,3 +481,29 @@ td:first-child { color: var(--text); font-weight: 650; }
 .client .code-block { padding-right: 15px; }
 .client .code-block { white-space: pre-wrap; overflow-wrap: anywhere; }
 .client .code-block > code { overflow-x: visible; }
+
+/* Typography: condensed display face for headings, Plex Mono for data, system sans for reading. */
+h1, h2, .brand-name, .feedback-card h2 { font-family: var(--display); text-wrap: balance; }
+.brand-name { font-weight: 700; letter-spacing: .12em; font-size: 15px; }
+.hero h1 { max-width: 760px; font-size: clamp(44px, 6.2vw, 84px); font-weight: 700; letter-spacing: -.012em; line-height: .96; }
+.docs-hero h1 { font-size: clamp(40px, 5.6vw, 70px); font-weight: 700; letter-spacing: -.012em; line-height: .98; }
+.not-found-panel h1 { font-size: clamp(34px, 5.4vw, 54px); font-weight: 700; letter-spacing: -.01em; }
+.playground-page h1, .feedback-page h1 { font-weight: 700; letter-spacing: -.012em; line-height: .98; }
+.section-heading h2, .update-heading h2 { font-size: 28px; font-weight: 700; letter-spacing: -.005em; }
+.docs-content h2 { font-size: 30px; font-weight: 700; letter-spacing: -.005em; }
+.playground-panel-head h2, .feedback-card h2, .report-checklist h2 { font-weight: 700; letter-spacing: -.005em; }
+.feedback-card h2 { font-size: 26px; }
+.stat-value { font-weight: 600; letter-spacing: -.03em; }
+.mono, code, pre, .path, .method, .kicker { font-family: var(--mono); }
+@media (max-width: 720px) { .hero h1 { font-size: clamp(42px, 13vw, 62px); } }
+
+/* Subject detail: a contour-map texture behind the hero, the way a terrain sheet reads. */
+.content.home .hero { position: relative; isolation: isolate; }
+.content.home .hero::before { position: absolute; inset: -40px -64px -24px; z-index: -1; content: ""; background: url("/assets/topo.svg") center / cover no-repeat; opacity: .16; mask-image: linear-gradient(to bottom, #000 40%, transparent 100%); pointer-events: none; }
+
+/* Docs rhythm and wrapped quick-start commands. */
+.docs-paths + .docs-layout, .split-grid + .docs-layout { margin-top: 56px; }
+.api-facts { margin-bottom: 18px; }
+.steps-grid .code-block { white-space: pre-wrap; overflow-wrap: anywhere; }
+.steps-grid .code-block > code { overflow-x: visible; }
+.playground-page h1, .feedback-page h1 { font-size: clamp(40px, 5.4vw, 66px); }
