@@ -65,6 +65,11 @@
       "source": "/docs/sdk",
       "destination": "/docs/sdk/",
       "permanent": true
+    },
+    {
+      "source": "/docs/python",
+      "destination": "/docs/python/",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -119,6 +124,14 @@
     {
       "source": "/docs/sdk/",
       "destination": "/web/docs/sdk/index.html"
+    },
+    {
+      "source": "/docs/python",
+      "destination": "/web/docs/python/index.html"
+    },
+    {
+      "source": "/docs/python/",
+      "destination": "/web/docs/python/index.html"
     },
     {
       "source": "/playground",

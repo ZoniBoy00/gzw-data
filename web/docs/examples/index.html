@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Copy practical cURL, JavaScript, TypeScript SDK and Python examples for the public GZW Data API.">
   <meta property="og:title" content="API & SDK Examples · GZW Data">
-  <meta property="og:description" content="Practical requests for the GZW Data REST API and JavaScript/TypeScript client.">
+  <meta property="og:description" content="Practical requests for the GZW Data REST API and the JavaScript/TypeScript and Python clients.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://gzw-data.dev/docs/examples/">
   <link rel="canonical" href="https://gzw-data.dev/docs/examples/">
@@ -27,7 +27,7 @@
   <header class="topbar">
     <button class="icon-button mobile-menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
     <a class="brand" href="/"><picture><source srcset="/assets/gzw-data-logo.webp" type="image/webp"><img class="brand-logo" src="/assets/gzw-data-logo.png" alt="" width="54" height="50"></picture><span><span class="brand-name">GZW Data</span><span class="brand-sub">API &amp; SDK examples</span></span></a>
-    <nav class="topnav" aria-label="Primary navigation"><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">SDK guide</a><a class="active" href="/docs/examples/">Examples</a><a href="/playground/">Playground</a><a href="/feedback/">Feedback</a></nav>
+    <nav class="topnav" aria-label="Primary navigation"><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">SDK guide</a><a href="/docs/python/">Python</a><a class="active" href="/docs/examples/">Examples</a><a href="/playground/">Playground</a><a href="/feedback/">Feedback</a></nav>
   </header>
   <div class="scrim"></div>
 
@@ -36,6 +36,7 @@
       <div class="sidebar-section">Documentation</div>
       <a href="/docs/"><span aria-hidden="true">⌘</span> API reference</a>
       <a href="/docs/sdk/"><span aria-hidden="true">◇</span> JavaScript SDK guide</a>
+      <a href="/docs/python/"><span aria-hidden="true">◈</span> Python client</a>
       <a class="active" href="#rest"><span aria-hidden="true">▷</span> API &amp; SDK examples</a>
       <a href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
       <div class="sidebar-section">On this page</div>
@@ -119,8 +120,15 @@ console.log(payload.data);</code></div>
             </section>
 
             <section id="python">
-              <h2>Use query parameters safely</h2>
-              <p>Pass query values separately instead of building an encoded URL by hand.</p>
+              <h2>Python</h2>
+              <p>Install the client from PyPI. It handles pagination, retries and errors for you.</p>
+              <div class="code-block"><button class="copy-button" type="button" data-copy="pip install gzw-data">Copy</button><code>pip install gzw-data</code></div>
+              <div class="code-block"><button class="copy-button" type="button" data-copy-target="python-client-example">Copy</button><code id="python-client-example">from gzw_data import GzwDataClient
+
+client = GzwDataClient()
+for gun in client.iterate("weapons", search="AK"):
+    print(gun["name"], gun["caliber"])</code></div>
+              <p>Prefer plain HTTP? Pass query values separately instead of building an encoded URL by hand.</p>
               <div class="code-block"><button class="copy-button" type="button" data-copy-target="python-example">Copy</button><code id="python-example">import requests
 
 response = requests.get(
@@ -130,14 +138,14 @@ response = requests.get(
 )
 response.raise_for_status()
 print(response.json()["data"])</code></div>
-              <p>For exact parameter names, response shapes, errors, caching and rate limits, use the <a href="/docs/">API reference</a>.</p>
+              <p>See the <a href="/docs/python/">Python client guide</a> for search, filters, errors and configuration, or the <a href="/docs/">API reference</a> for exact parameter names and rate limits.</p>
             </section>
 
-            <section class="info-panel contact-panel"><h2>Keep exploring</h2><div class="button-row docs-action-row"><a class="button" href="/playground/">Try a live request</a><a class="button" href="/docs/">Read the API reference</a><a class="button primary" href="/docs/sdk/">Read the SDK guide</a></div></section>
+            <section class="info-panel contact-panel"><h2>Keep exploring</h2><div class="button-row docs-action-row"><a class="button" href="/playground/">Try a live request</a><a class="button" href="/docs/">Read the API reference</a><a class="button primary" href="/docs/sdk/">Read the SDK guide</a><a class="button" href="/docs/python/">Python client guide</a></div></section>
             <footer class="site-footer">
           <div class="footer-grid">
             <div class="footer-about"><strong>GZW Data</strong><p>A community-run, free data API for Gray Zone Warfare. Not affiliated with MADFINGER Games.</p><a class="saas-browser-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="200" height="70" loading="lazy"></a></div>
-            <nav aria-label="Product"><h2>Product</h2><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">JavaScript SDK</a><a href="https://github.com/ZoniBoy00/gzw-data-py">Python client</a><a href="/playground/">Playground</a><a href="/docs/examples/">Examples</a></nav>
+            <nav aria-label="Product"><h2>Product</h2><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">JavaScript SDK</a><a href="/docs/python/">Python client</a><a href="/playground/">Playground</a><a href="/docs/examples/">Examples</a></nav>
             <nav aria-label="Community"><h2>Community</h2><a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub</a><a href="/feedback/">Feedback desk</a><a href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">Support the project</a></nav>
             <nav aria-label="Legal"><h2>Legal</h2><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a><a href="https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md">Data sources &amp; licensing</a><a href="/.well-known/security.txt">Security</a></nav>
           </div>
@@ -150,7 +158,7 @@ print(response.json()["data"])</code></div>
     </main>
   </div>
 
-  <div class="command-scrim" aria-hidden="true"><div class="command" role="dialog" aria-modal="true" aria-label="Command palette"><input class="command-input" type="search" placeholder="Search navigation…" autocomplete="off"><div class="command-list"><button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button><button class="command-item" type="button" data-target="/docs/"><span>⌘</span> Open API reference <small>Docs</small></button><button class="command-item" type="button" data-target="/docs/sdk/"><span>◇</span> Open JavaScript SDK guide <small>SDK</small></button><button class="command-item" type="button" data-target="/docs/examples/"><span>▷</span> Open API &amp; SDK examples <small>Examples</small></button></div><div class="command-help">Press <span class="mono">Esc</span> to close · <span class="mono">/</span> to open anytime</div></div></div>
+  <div class="command-scrim" aria-hidden="true"><div class="command" role="dialog" aria-modal="true" aria-label="Command palette"><input class="command-input" type="search" placeholder="Search navigation…" autocomplete="off"><div class="command-list"><button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button><button class="command-item" type="button" data-target="/docs/"><span>⌘</span> Open API reference <small>Docs</small></button><button class="command-item" type="button" data-target="/docs/sdk/"><span>◇</span> Open JavaScript SDK guide <small>SDK</small></button><button class="command-item" type="button" data-target="/docs/python/"><span>◈</span> Open Python client guide <small>Python</small></button><button class="command-item" type="button" data-target="/docs/examples/"><span>▷</span> Open API &amp; SDK examples <small>Examples</small></button></div><div class="command-help">Press <span class="mono">Esc</span> to close · <span class="mono">/</span> to open anytime</div></div></div>
   <a class="bmc-support-link" href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">☕ Support GZW Data</a>
   <script src="/assets/site.js?v=0e03899d" defer></script>
 </body>

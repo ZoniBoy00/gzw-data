@@ -4,7 +4,22 @@
   "homepage": "https://gzw-data.dev/",
   "documentation": "https://gzw-data.dev/docs/",
   "sdk_documentation": "https://gzw-data.dev/docs/sdk/",
-  "examples": "https://gzw-data.dev/docs/examples/",
+  "python_documentation": "https://gzw-data.dev/docs/python/",
+  "python_package": "https://pypi.org/project/gzw-data/",
+  "examples": [
+    {
+      "description": "List weapons",
+      "method": "GET",
+      "url": "https://gzw-data.dev/api/v1/weapons",
+      "curl": "curl https://gzw-data.dev/api/v1/weapons"
+    },
+    {
+      "description": "Search all datasets",
+      "method": "GET",
+      "url": "https://gzw-data.dev/api/v1/search?q=ak-12",
+      "curl": "curl \"https://gzw-data.dev/api/v1/search?q=ak-12\""
+    }
+  ],
   "api_base": "https://gzw-data.dev/api/v1",
   "openapi": "https://gzw-data.dev/api/v1/spec",
   "authentication": {
@@ -26,7 +41,12 @@
     "window": "1 minute",
     "scope": "per IP",
     "enforcement": "best effort",
-    "headers": ["X-RateLimit-Limit", "X-RateLimit-Remaining", "X-RateLimit-Reset", "Retry-After"]
+    "headers": [
+      "X-RateLimit-Limit",
+      "X-RateLimit-Remaining",
+      "X-RateLimit-Reset",
+      "Retry-After"
+    ]
   },
   "use_when": [
     "Building Gray Zone Warfare weapon, mission, loot, armor, container, vendor, or item tools",
@@ -37,20 +57,6 @@
     "You need private server state or player telemetry",
     "You need authentication or write operations",
     "You need guaranteed real-time game events"
-  ],
-  "examples": [
-    {
-      "description": "List weapons",
-      "method": "GET",
-      "url": "https://gzw-data.dev/api/v1/weapons",
-      "curl": "curl https://gzw-data.dev/api/v1/weapons"
-    },
-    {
-      "description": "Search all datasets",
-      "method": "GET",
-      "url": "https://gzw-data.dev/api/v1/search?q=ak-12",
-      "curl": "curl \"https://gzw-data.dev/api/v1/search?q=ak-12\""
-    }
   ],
   "client_libraries": [
     {

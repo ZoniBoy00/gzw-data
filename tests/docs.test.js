@@ -7,6 +7,7 @@ const root = path.resolve(__dirname, '..');
 const docsPages = [
   { route: '/docs/', canonical: 'https://gzw-data.dev/docs/', file: 'web/docs/index.html' },
   { route: '/docs/sdk/', canonical: 'https://gzw-data.dev/docs/sdk/', file: 'web/docs/sdk/index.html' },
+  { route: '/docs/python/', canonical: 'https://gzw-data.dev/docs/python/', file: 'web/docs/python/index.html' },
   { route: '/docs/examples/', canonical: 'https://gzw-data.dev/docs/examples/', file: 'web/docs/examples/index.html' },
 ];
 
@@ -35,6 +36,7 @@ test('developer documentation pages are routed, canonical, and discoverable', ()
   }
 
   assert.ok(llms.includes('https://gzw-data.dev/docs/sdk/'));
+  assert.ok(llms.includes('https://gzw-data.dev/docs/python/'));
   assert.ok(llms.includes('https://gzw-data.dev/docs/examples/'));
 });
 

@@ -15,7 +15,7 @@ Automatically scraped from the [GZW Fandom Wiki](https://gray-zone-warfare.fando
 - **API examples:** https://gzw-data.dev/docs/examples/
 - **OpenAPI spec:** https://gzw-data.dev/api/v1/spec
 - **JavaScript / TypeScript client:** [@zoniboy/gzw-data-client](https://www.npmjs.com/package/@zoniboy/gzw-data-client)
-- **Python client:** [gzw-data-py](https://github.com/ZoniBoy00/gzw-data-py)
+- **Python client:** [`gzw-data` on PyPI](https://pypi.org/project/gzw-data/) (`pip install gzw-data`), [guide](https://gzw-data.dev/docs/python/), [source](https://github.com/ZoniBoy00/gzw-data-py)
 
 The API is intended for community tools, Discord bots, dashboards and other Gray Zone Warfare projects. Data is refreshed by the public scraper workflow and exposes both collection and single-record routes.
 ## Quick Start
@@ -41,7 +41,8 @@ The API includes a dark, responsive developer console for exploring live dataset
 - **Quick start & API reference:** https://gzw-data.dev/docs/#quickstart
 - **JavaScript / TypeScript SDK guide:** https://gzw-data.dev/docs/sdk/
 - **Copyable API & SDK examples:** https://gzw-data.dev/docs/examples/
-- **Python client:** https://github.com/ZoniBoy00/gzw-data-py
+- **Python client guide:** https://gzw-data.dev/docs/python/
+- **Python client on PyPI:** https://pypi.org/project/gzw-data/
 - **OpenAPI spec:** https://gzw-data.dev/api/v1/spec
 - **API root:** https://gzw-data.dev/api/v1
 - **JavaScript / TypeScript client:** https://www.npmjs.com/package/@zoniboy/gzw-data-client

@@ -37,7 +37,7 @@
     <nav class="topnav" aria-label="Primary navigation">
       <a class="active" href="/">Overview</a>
       <a href="/docs/#quickstart">API reference</a>
-      <a href="/docs/sdk/">JavaScript SDK guide</a>
+      <a href="/docs/sdk/">JavaScript SDK guide</a><a href="/docs/python/">Python</a>
       <a href="/playground/">Playground</a>
       <a href="/feedback/">Feedback</a>
       <a href="https://github.com/ZoniBoy00/gzw-data">GitHub ↗</a>
@@ -63,6 +63,7 @@
       <a href="/docs/#quickstart"><span aria-hidden="true">⌘</span> API reference</a>
       <div class="sidebar-section">Resources</div>
       <a href="/docs/sdk/"><span aria-hidden="true">◇</span> JavaScript SDK guide</a>
+      <a href="/docs/python/"><span aria-hidden="true">◈</span> Python client</a>
       <a href="/docs/#responses"><span aria-hidden="true">{ }</span> Response format</a>
       <a href="https://github.com/ZoniBoy00/gzw-data"><span aria-hidden="true">↗</span> Source on GitHub</a>
       <div class="sidebar-note"><strong>Built for GZW Tools</strong>Auto-discovered datasets, stable JSON responses, and a small API surface.</div>
@@ -76,7 +77,7 @@
             <h1 id="hero-title">Gray Zone Warfare data, <em>one clean API.</em></h1>
             <p class="hero-copy">Weapons, ammo, armor, tasks, keys, loot and more as plain JSON. Free, no API key, updated weekly from the community wiki.</p>
             <ul class="trust-row" aria-label="Key facts">
-              <li>No API key</li><li>OpenAPI 3 spec</li><li>Search &amp; filters</li><li>Typed JS/TS client</li>
+              <li>No API key</li><li>OpenAPI 3 spec</li><li>Search &amp; filters</li><li>JS and Python clients</li>
             </ul>
             <div class="button-row hero-actions">
               <a class="button primary" href="#quickstart">Make your first request</a>
@@ -171,7 +172,7 @@
           <div class="section-heading"><div><h2 id="clients-title">Clients</h2><p>Plain HTTP works from any language. The clients add pagination, retries and typed errors.</p></div></div>
           <div class="client-grid">
             <article class="info-panel client"><h3>JavaScript / TypeScript</h3><p>Typed, zero-dependency client for Node 22+ and browsers.</p><div class="code-block"><button class="copy-button" type="button" data-copy="npm install @zoniboy/gzw-data-client">Copy</button><code>npm install @zoniboy/gzw-data-client</code></div><a class="card-link" href="/docs/sdk/">SDK guide</a></article>
-            <article class="info-panel client"><h3>Python</h3><p>Dependency-free client with pagination, retries and Retry-After support.</p><div class="code-block"><button class="copy-button" type="button" data-copy="pip install git+https://github.com/ZoniBoy00/gzw-data-py">Copy</button><code>pip install git+https://github.com/<wbr>ZoniBoy00/<wbr>gzw-data-py</code></div><a class="card-link" href="https://github.com/ZoniBoy00/gzw-data-py">View on GitHub ↗</a></article>
+            <article class="info-panel client"><h3>Python</h3><p>Dependency-free client with pagination, retries and Retry-After support.</p><div class="code-block"><button class="copy-button" type="button" data-copy="pip install gzw-data">Copy</button><code>pip install gzw-data</code></div><a class="card-link" href="/docs/python/">Python guide</a></article>
             <article class="info-panel client"><h3>OpenAPI &amp; Playground</h3><p>Generate a client in any language from the spec, or try requests live first.</p><div class="code-block"><button class="copy-button" type="button" data-copy="https://gzw-data.dev/api/v1/spec">Copy</button><code>https://gzw-data.dev/api/v1/spec</code></div><a class="card-link" href="/playground/">Open Playground</a></article>
           </div>
         </section>
@@ -181,7 +182,7 @@
         <footer class="site-footer">
           <div class="footer-grid">
             <div class="footer-about"><strong>GZW Data</strong><p>A community-run, free data API for Gray Zone Warfare. Not affiliated with MADFINGER Games.</p><a class="saas-browser-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="200" height="70" loading="lazy"></a></div>
-            <nav aria-label="Product"><h2>Product</h2><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">JavaScript SDK</a><a href="https://github.com/ZoniBoy00/gzw-data-py">Python client</a><a href="/playground/">Playground</a><a href="/docs/examples/">Examples</a></nav>
+            <nav aria-label="Product"><h2>Product</h2><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">JavaScript SDK</a><a href="/docs/python/">Python client</a><a href="/playground/">Playground</a><a href="/docs/examples/">Examples</a></nav>
             <nav aria-label="Community"><h2>Community</h2><a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub</a><a href="/feedback/">Feedback desk</a><a href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">Support the project</a></nav>
             <nav aria-label="Legal"><h2>Legal</h2><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a><a href="https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md">Data sources &amp; licensing</a><a href="/.well-known/security.txt">Security</a></nav>
           </div>
@@ -198,7 +199,7 @@
         <button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button>
         <button class="command-item" type="button" data-target="/#explorer"><span>⌕</span> Explore datasets <small>Data</small></button><button class="command-item" type="button" data-target="/playground/"><span>▶</span> Open API Playground <small>Live</small></button>
         <button class="command-item" type="button" data-target="/docs/#quickstart"><span>⌘</span> Open API reference <small>Docs</small></button>
-        <button class="command-item" type="button" data-target="/docs/sdk/"><span>◇</span> Open JavaScript SDK guide <small>SDK</small></button>
+        <button class="command-item" type="button" data-target="/docs/sdk/"><span>◇</span> Open JavaScript SDK guide <small>SDK</small></button><button class="command-item" type="button" data-target="/docs/python/"><span>◈</span> Open Python client guide <small>Python</small></button>
         <button class="command-item" type="button" data-target="https://github.com/ZoniBoy00/gzw-data"><span>↗</span> View source on GitHub <small>External</small></button>
       </div>
       <div class="command-help">Press <span class="mono">Esc</span> to close · <span class="mono">/</span> to open anytime</div>

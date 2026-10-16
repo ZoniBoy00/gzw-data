@@ -9,6 +9,7 @@ GZW Data is a read-only, public API for structured Gray Zone Warfare data. It pr
 - [Website](https://gzw-data.dev/): public project homepage and API overview.
 - [API documentation](https://gzw-data.dev/docs/): endpoint reference and integration guidance.
 - [JavaScript/TypeScript SDK guide](https://gzw-data.dev/docs/sdk/): install, quick start, live dataset discovery, type behavior, errors and examples.
+- [Python client guide](https://gzw-data.dev/docs/python/): `pip install gzw-data`, pagination, search, retries and errors. Package: https://pypi.org/project/gzw-data/
 - [API examples](https://gzw-data.dev/docs/examples/): copyable cURL, JavaScript, TypeScript SDK and Python requests.
 - [OpenAPI specification](https://gzw-data.dev/api/v1/spec): machine-readable API contract.
 - [JavaScript/TypeScript client](https://www.npmjs.com/package/@zoniboy/gzw-data-client): zero-dependency client package.

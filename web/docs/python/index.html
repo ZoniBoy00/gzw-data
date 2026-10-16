@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Install and use the official dependency-free Python client for the GZW Data API from PyPI. Pagination, search, retries that honour Retry-After, and typed errors.">
+  <meta name="keywords" content="GZW Data Python client, Gray Zone Warfare Python API, pip install gzw-data, PyPI, game data API">
+  <meta property="og:title" content="Python Client Guide · GZW Data">
+  <meta property="og:description" content="A practical guide to the official GZW Data Python client on PyPI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gzw-data.dev/docs/python/">
+  <link rel="canonical" href="https://gzw-data.dev/docs/python/">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/gzw-data-favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/gzw-data-apple-touch.png">
+  <meta name="theme-color" content="#090b0d">
+  <meta property="og:site_name" content="GZW Data">
+  <meta property="og:image" content="https://gzw-data.dev/assets/og-image.png">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python Client Guide · GZW Data">
+  <meta name="twitter:image" content="https://gzw-data.dev/assets/og-image.png">
+  <link rel="preload" href="/assets/fonts/barlow-semi-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css?v=1f6dfa18">
+  <link rel="stylesheet" href="/assets/footer.css?v=12a5a91c">
+  <title>Python Client Guide · GZW Data</title>
+</head>
+<body data-page="python-docs">
+  <header class="topbar">
+    <button class="icon-button mobile-menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <a class="brand" href="/"><picture><source srcset="/assets/gzw-data-logo.webp" type="image/webp"><img class="brand-logo" src="/assets/gzw-data-logo.png" alt="" width="54" height="50"></picture><span><span class="brand-name">GZW Data</span><span class="brand-sub">Python client</span></span></a>
+    <nav class="topnav" aria-label="Primary navigation"><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">SDK guide</a><a class="active" href="/docs/python/">Python</a><a href="/docs/examples/">Examples</a><a href="/playground/">Playground</a><a href="/feedback/">Feedback</a></nav>
+    <div class="top-actions"><span class="status-pill"><span class="status-dot"></span><span>Live API</span></span><button class="search-trigger" type="button" aria-label="Search docs and data ⌘ K"><span>Search docs and data</span><kbd>⌘ K</kbd></button></div>
+  </header>
+  <div class="scrim"></div>
+
+  <div class="shell">
+    <aside class="sidebar" aria-label="Documentation navigation">
+      <div class="sidebar-section">Documentation</div>
+      <a href="/docs/"><span aria-hidden="true">⌘</span> API reference</a>
+      <a href="/docs/sdk/"><span aria-hidden="true">◇</span> JavaScript SDK</a>
+      <a class="active" href="#quickstart"><span aria-hidden="true">◈</span> Python client</a>
+      <a href="/docs/examples/"><span aria-hidden="true">▷</span> API &amp; SDK examples</a>
+      <a href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
+      <div class="sidebar-section">On this page</div>
+      <a href="#quickstart">Quick start</a>
+      <a href="#datasets">Datasets and records</a>
+      <a href="#search">Search and filters</a>
+      <a href="#errors">Errors and retries</a>
+      <a href="#configuration">Configuration</a>
+      <a href="#limits">Rate limit</a>
+      <div class="sidebar-note"><strong>No API key</strong>Install from PyPI and call the public read-only API.</div>
+    </aside>
+
+    <main>
+      <div class="content">
+        <section class="hero docs-hero" aria-labelledby="py-title">
+          <div><h1 id="py-title">Python,<br>without the plumbing.</h1><p class="hero-copy">A small client for Python 3.9+ with no dependencies. It handles pagination, search, retries that honour <code>Retry-After</code>, and structured errors.</p></div>
+          <div class="hero-aside"><div class="hero-aside-label">Install from PyPI</div><code class="base-url">pip install gzw-data</code><div class="button-row"><a class="button primary" href="https://pypi.org/project/gzw-data/" target="_blank" rel="noopener noreferrer">View on PyPI ↗</a><a class="button" href="https://github.com/ZoniBoy00/gzw-data-py" target="_blank" rel="noopener noreferrer">Source ↗</a><button class="button" type="button" data-copy="pip install gzw-data">Copy</button></div></div>
+        </section>
+
+        <section class="api-facts sdk-facts" aria-label="Python client facts">
+          <div class="api-fact"><span class="api-fact-label">Dependencies</span><strong>0</strong><span>Built on the standard library only.</span></div>
+          <div class="api-fact"><span class="api-fact-label">Authentication</span><strong>None</strong><span>No API key or account is required.</span></div>
+          <div class="api-fact"><span class="api-fact-label">Python</span><strong>3.9+</strong><span>Tested on 3.9, 3.11 and 3.13.</span></div>
+          <div class="api-fact api-fact-wide"><span class="api-fact-label">Same data as every other client</span><strong>Datasets are resolved from the live API.</strong><span>New datasets work immediately with <code>client.list("name")</code>. There is nothing to update in the package when the data grows.</span></div>
+        </section>
+
+        <div class="docs-layout sdk-docs-layout">
+          <article class="docs-content">
+            <section id="quickstart">
+              <h2>Install and make a request</h2>
+              <p>Install the package from PyPI. No API key is needed.</p>
+              <div class="code-block"><button class="copy-button" type="button" data-copy="pip install gzw-data">Copy</button><code>pip install gzw-data</code></div>
+              <div class="code-block"><button class="copy-button" type="button" data-copy-target="py-quickstart">Copy</button><code id="py-quickstart">from gzw_data import GzwDataClient
+
+client = GzwDataClient()
+
+weapon = client.get("weapons", "ak-12")
+print(weapon["name"], weapon["caliber"])
+
+page = client.list("weapons", per_page=5)
+print(page["total"], [w["name"] for w in page["data"]])</code></div>
+              <p>Every method returns plain dictionaries and lists, exactly as the API sends them.</p>
+            </section>
+
+            <section id="datasets">
+              <h2>Datasets and records</h2>
+              <p><code>datasets()</code> maps every dataset name to its record count. <code>get()</code> returns one record, or <code>None</code> when the id does not exist. <code>iterate()</code> walks every page for you.</p>
+              <div class="code-block"><button class="copy-button" type="button" data-copy-target="py-datasets">Copy</button><code id="py-datasets">names = client.datasets()           # {'ammo': 79, 'weapons': 44, ...}
+print(len(names), "datasets")
+
+record = client.get("weapons", "does-not-exist")   # None
+
+for ammo in client.iterate("ammo"):               # every record, page by page
+    print(ammo["name"])</code></div>
+              <p><code>list()</code> returns one page with the full response envelope: <code>data</code>, <code>page</code>, <code>perPage</code>, <code>total</code> and <code>totalPages</code>.</p>
+            </section>
+
+            <section id="search">
+              <h2>Search and filters</h2>
+              <p>Search inside one dataset with <code>search=</code>, or across all datasets with <code>search()</code>. Extra keyword arguments become query filters.</p>
+              <div class="code-block"><button class="copy-button" type="button" data-copy-target="py-search">Copy</button><code id="py-search"># Inside one dataset
+for gun in client.iterate("weapons", search="AK"):
+    print(gun["name"])
+
+# Across every dataset: {dataset name: [records]}
+results = client.search("AK-12")
+print(list(results))
+
+# Filter by any string field
+keycards = client.list("keys", type="Keycard", per_page=25)</code></div>
+            </section>
+
+            <section id="errors">
+              <h2>Errors and retries</h2>
+              <p>Failures raise <code>GzwApiError</code> with <code>status</code>, a stable <code>code</code>, the request <code>url</code> and, for rate limits, <code>retry_after</code> in seconds. Rate-limit (429) and server (5xx) responses are retried with backoff, and a <code>Retry-After</code> header is honoured up to <code>max_retry_wait</code>. Client errors such as 404 or 400 are not retried.</p>
+              <div class="code-block"><button class="copy-button" type="button" data-copy-target="py-errors">Copy</button><code id="py-errors">from gzw_data import GzwApiError, GzwDataClient
+
+client = GzwDataClient()
+try:
+    client.list("not_a_dataset")
+except GzwApiError as error:
+    print(error.status, error.code)   # 404 ENDPOINT_NOT_FOUND</code></div>
+            </section>
+
+            <section id="configuration">
+              <h2>Configuration</h2>
+              <p>All options are keyword arguments of <code>GzwDataClient</code>.</p>
+              <div class="code-block"><button class="copy-button" type="button" data-copy-target="py-config">Copy</button><code id="py-config">client = GzwDataClient(
+    base_url="https://gzw-data.dev/api/v1",   # default
+    timeout=10.0,                              # seconds per request
+    retries=2,                                 # extra attempts after the first
+    max_retry_wait=65.0,                       # longest Retry-After to wait for
+    user_agent="my-bot/1.0",
+)</code></div>
+              <p>For tests, pass <code>opener=</code> with a function that behaves like <code>urllib.request.urlopen</code>; the client's own test suite does this.</p>
+            </section>
+
+            <section id="limits">
+              <h2>Rate limit</h2>
+              <ul>
+                <li>The API allows about 100 requests per minute per IP address, on a best-effort basis.</li>
+                <li><code>iterate()</code> reads 100 records per request. Walking all 90 datasets takes roughly 90 requests, so cache results in a long-running bot instead of scanning on every command.</li>
+                <li>The client waits and retries when the limit is hit, which can make a large scan pause for up to a minute.</li>
+              </ul>
+              <p>For endpoint behaviour, query parameters and response envelopes, see the <a href="/docs/">API reference</a>. For JavaScript and TypeScript, see the <a href="/docs/sdk/">SDK guide</a>.</p>
+            </section>
+
+            <section class="info-panel contact-panel" aria-labelledby="py-support-title"><h2 id="py-support-title">Ask the right project</h2><p>Report client behaviour to the <a href="https://github.com/ZoniBoy00/gzw-data-py/issues" target="_blank" rel="noopener noreferrer">Python client repository</a>. Report missing or wrong game data through the <a href="/feedback/">feedback desk</a>.</p></section>
+
+            <footer class="site-footer">
+          <div class="footer-grid">
+            <div class="footer-about"><strong>GZW Data</strong><p>A community-run, free data API for Gray Zone Warfare. Not affiliated with MADFINGER Games.</p><a class="saas-browser-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="200" height="70" loading="lazy"></a></div>
+            <nav aria-label="Product"><h2>Product</h2><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">JavaScript SDK</a><a href="/docs/python/">Python client</a><a href="/playground/">Playground</a><a href="/docs/examples/">Examples</a></nav>
+            <nav aria-label="Community"><h2>Community</h2><a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub</a><a href="/feedback/">Feedback desk</a><a href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">Support the project</a></nav>
+            <nav aria-label="Legal"><h2>Legal</h2><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a><a href="https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md">Data sources &amp; licensing</a><a href="/.well-known/security.txt">Security</a></nav>
+          </div>
+          <div class="footer-base">© 2026 GZW Data · Code under MIT · Game data from the community wiki (CC BY-SA)</div>
+        </footer>
+          </article>
+          <nav class="anchor-nav" aria-label="On this page"><a href="#quickstart">Quick start</a><a href="#datasets">Datasets</a><a href="#search">Search</a><a href="#errors">Errors</a><a href="#configuration">Configuration</a><a href="#limits">Limits</a></nav>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="command-scrim" aria-hidden="true"><div class="command" role="dialog" aria-modal="true" aria-label="Command palette"><input class="command-input" type="search" placeholder="Search navigation…" autocomplete="off"><div class="command-list"><button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button><button class="command-item" type="button" data-target="/docs/"><span>⌘</span> Open API reference <small>Docs</small></button><button class="command-item" type="button" data-target="/docs/sdk/"><span>◇</span> Open JavaScript SDK guide <small>SDK</small></button><button class="command-item" type="button" data-target="/docs/python/"><span>◈</span> Open Python client guide <small>Python</small></button><button class="command-item" type="button" data-target="/docs/examples/"><span>▷</span> Open API &amp; SDK examples <small>Examples</small></button><button class="command-item" type="button" data-target="https://github.com/ZoniBoy00/gzw-data"><span>↗</span> View API source on GitHub <small>External</small></button></div><div class="command-help">Press <span class="mono">Esc</span> to close · <span class="mono">/</span> to open anytime</div></div></div>
+  <a class="bmc-support-link" href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">☕ Support GZW Data</a>
+  <script src="/assets/site.js?v=0e03899d" defer></script>
+</body>
+</html>
