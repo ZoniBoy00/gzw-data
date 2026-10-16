@@ -2,7 +2,7 @@
   const API_BASE = "/api/v1";
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
-  const state = { dataset: "weapons", query: "", page: 1, perPage: 8, stats: null, datasetEntries: [], datasetMenuRendered: false };
+  const state = { dataset: "weapons", query: "", page: 1, perPage: 8, stats: null, counts: null, snapshotCounts: null, datasetEntries: [], datasetMenuRendered: false };
 
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>\"']/g, (char) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#039;"
@@ -124,11 +124,21 @@
     state.datasetMenuRendered = true;
   }
 
+  // The headline numbers and the maintenance panel must agree: prefer the /stats figures (combined views excluded).
+  function applyCounts() {
+    const counts = state.counts || state.snapshotCounts;
+    if (!counts) return;
+    setText("#update-datasets", `${formatNumber(counts.datasets)} datasets`);
+    setText("#update-records", formatNumber(counts.records));
+  }
+
   function renderStats(stats) {
     const entries = normaliseDatasetEntries(stats);
     state.datasetEntries = entries;
     const sourceEntries = entries.filter((item) => !item.derived);
     const total = sourceEntries.reduce((sum, item) => sum + item.count, 0);
+    state.counts = { datasets: sourceEntries.length, records: total };
+    applyCounts();
     setText("[data-stat=datasets]", sourceEntries.length);
     setText("[data-stat=items]", formatNumber(total));
     setText("[data-stat=status]", "API online");
@@ -193,6 +203,8 @@
     $("#explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
+  const CATALOG_PREVIEW = 14;
+
   function renderCatalog(entries) {
     const root = $("#catalog");
     if (!root) return;
@@ -204,11 +216,45 @@
       groups.get(key).push({ name, count: item.count, derived: item.derived });
     });
     const order = [...GROUPS.map(([label]) => label), "Other"].filter((label) => groups.has(label));
-    root.innerHTML = order.map((label) => `<div class="catalog-group"><h3>${escapeHtml(label)} <span>${groups.get(label).length}</span></h3><div class="catalog-chips">${groups.get(label).map((item) => `<button class="chip${item.derived ? " chip-view" : ""}" type="button" data-dataset="${escapeHtml(item.name)}"${item.derived ? ' title="Combined view of other datasets"' : ""}>${escapeHtml(item.name)}<small>${formatNumber(item.count)}</small></button>`).join("")}</div></div>`).join("");
+    root.innerHTML = order.map((label) => {
+      const items = groups.get(label);
+      const chips = items.map((item, index) => `<button class="chip${item.derived ? " chip-view" : ""}" type="button" data-dataset="${escapeHtml(item.name)}"${index >= CATALOG_PREVIEW ? " data-extra hidden" : ""}${item.derived ? ' title="Combined view of other datasets"' : ""}>${escapeHtml(item.name)}<small>${formatNumber(item.count)}</small></button>`).join("");
+      const more = items.length > CATALOG_PREVIEW ? `<button class="chip chip-more" type="button" data-more aria-expanded="false">Show all ${items.length}</button>` : "";
+      return `<div class="catalog-group"><h3>${escapeHtml(label)} <span>${items.length}</span></h3><div class="catalog-chips">${chips}${more}</div></div>`;
+    }).join("") + `<div class="catalog-empty" hidden>No dataset matches your filter.</div>`;
     setText("#catalog-meta", `${entries.filter((item) => !item.derived).length} datasets`);
+
     root.addEventListener("click", (event) => {
+      const more = event.target.closest("[data-more]");
+      if (more) {
+        const expanded = more.getAttribute("aria-expanded") === "true";
+        more.setAttribute("aria-expanded", String(!expanded));
+        $$("[data-extra]", more.parentElement).forEach((chip) => { chip.hidden = expanded; });
+        more.textContent = expanded ? `Show all ${$$(".chip[data-dataset]", more.parentElement).length}` : "Show less";
+        return;
+      }
       const chip = event.target.closest("[data-dataset]");
       if (chip) selectDataset(chip.dataset.dataset);
+    });
+
+    $("#catalog-filter")?.addEventListener("input", (event) => {
+      const query = event.target.value.trim().toLowerCase();
+      let visible = 0;
+      $$(".catalog-group", root).forEach((group) => {
+        const chips = $$(".chip[data-dataset]", group);
+        const more = $("[data-more]", group);
+        let matches = 0;
+        chips.forEach((chip) => {
+          const match = !query || chip.dataset.dataset.toLowerCase().includes(query);
+          const collapsed = !query && chip.hasAttribute("data-extra") && more?.getAttribute("aria-expanded") !== "true";
+          chip.hidden = !match || collapsed;
+          if (match) matches += 1;
+        });
+        if (more) more.hidden = Boolean(query);
+        group.hidden = matches === 0;
+        visible += matches;
+      });
+      $(".catalog-empty", root).hidden = visible > 0;
     });
   }
 
@@ -296,6 +342,19 @@
       if (body) body.innerHTML = `<tr><td colspan="3"><div class="error-message">The API status could not be loaded right now.</div></td></tr>`;
     }
     await explorerPromise;
+  }
+
+  function initHomeSpy() {
+    if (document.body.dataset.page !== "overview") return;
+    const links = $$('.sidebar a[href^="#"]');
+    const sections = links.map((link) => document.querySelector(link.getAttribute("href"))).filter(Boolean);
+    if (!sections.length || !("IntersectionObserver" in window)) return;
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) links.forEach((link) => link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`));
+      });
+    }, { rootMargin: "-90px 0px -65% 0px" });
+    sections.forEach((section) => observer.observe(section));
   }
 
   function initScrollspy() {
@@ -424,8 +483,8 @@
       const snapshotDate = snapshot?.capturedAt || version?.data?.dataVersion;
       const formattedDate = snapshotDate ? new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "UTC" }).format(new Date(snapshotDate)) : "Unavailable";
       setText("#update-version", formattedDate);
-      setText("#update-datasets", `${formatNumber(datasetCount)} datasets`);
-      setText("#update-records", formatNumber(recordCount));
+      state.snapshotCounts = { datasets: datasetCount, records: recordCount };
+      applyCounts();
       setText("#update-changes", changeData.hasHistory ? `${changed} changed` : "First snapshot");
       setText("#update-status", "Live metadata");
       setText("#update-note", changeData.hasHistory ? `${formatNumber(added)} datasets added · ${formatNumber(removed)} removed · counts compared with the previous snapshot.` : "This is the first stored snapshot. Dataset-level changes will appear after the next snapshot.");
@@ -442,4 +501,5 @@
   initPlayground();
   initUpdatePanel();
   initScrollspy();
+  initHomeSpy();
 })();

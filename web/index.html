@@ -54,6 +54,8 @@
       <a href="#quickstart"><span aria-hidden="true">▷</span> Quick start</a>
       <a href="#datasets"><span aria-hidden="true">▦</span> Datasets</a>
       <a href="#explorer"><span aria-hidden="true">⌕</span> Data explorer</a>
+      <a href="#clients"><span aria-hidden="true">◇</span> Clients</a>
+      <a href="#status"><span aria-hidden="true">↻</span> Data status</a>
       <a href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
       <a href="/feedback/"><span aria-hidden="true">✉</span> Feedback desk</a>
       <a href="/docs/#quickstart"><span aria-hidden="true">⌘</span> API reference</a>
@@ -65,7 +67,7 @@
     </aside>
 
     <main id="overview">
-      <div class="content">
+      <div class="content home">
         <section class="hero" aria-labelledby="hero-title">
           <div>
             <div class="eyebrow">Gray Zone Warfare · public data</div>
@@ -112,18 +114,8 @@
 
         <section id="datasets" aria-labelledby="datasets-title">
           <div class="section-heading"><div><div class="eyebrow">Catalog</div><h2 id="datasets-title">What data is available</h2><p>Pick a dataset to open it in the explorer below.</p></div><span class="kicker" id="catalog-meta"></span></div>
+          <div class="catalog-tools"><label class="sr-only" for="catalog-filter">Filter datasets</label><input class="field" id="catalog-filter" type="search" placeholder="Filter datasets…" autocomplete="off"></div>
           <div class="catalog" id="catalog"><div class="loading">Loading datasets…</div></div>
-        </section>
-
-        <section class="update-panel" aria-labelledby="update-title">
-          <div class="update-heading"><div><div class="eyebrow">Data maintenance</div><h2 id="update-title">Latest data update</h2><p>Snapshot information from the live API.</p></div><span class="update-status" id="update-status" aria-live="polite">Checking…</span></div>
-          <div class="update-grid">
-            <div><span class="update-label">Snapshot</span><strong class="update-value" id="update-version">—</strong></div>
-            <div><span class="update-label">Datasets tracked</span><strong class="update-value" id="update-datasets">—</strong></div>
-            <div><span class="update-label">Indexed records</span><strong class="update-value" id="update-records">—</strong></div>
-            <div><span class="update-label">Change history</span><strong class="update-value" id="update-changes">—</strong></div>
-          </div>
-          <p class="update-note" id="update-note">Checking the latest snapshot metadata…</p>
         </section>
 
         <section id="explorer" aria-labelledby="explorer-title">
@@ -152,16 +144,47 @@
           </div>
         </section>
 
-        <section class="info-panel playground-cta" aria-labelledby="playground-cta-title"><div class="eyebrow">Try it live</div><h2 id="playground-cta-title">Explore the API Playground</h2><p>Run read-only requests, change parameters and inspect real JSON responses without writing code.</p><div class="button-row"><a class="button primary" href="/playground/">Open API Playground →</a><a class="button" href="/docs/">Read the reference</a></div></section>
+        <section id="why" aria-labelledby="why-title">
+          <div class="section-heading"><div><div class="eyebrow">Why GZW Data</div><h2 id="why-title">Built to be depended on</h2><p>Small surface, predictable behaviour, honest about where the data comes from.</p></div></div>
+          <div class="feature-grid">
+            <article class="info-panel feature"><span class="feature-icon" aria-hidden="true">◈</span><h3>Auto-discovered datasets</h3><p>Every JSON file in the data repository becomes an endpoint. New wiki categories appear without route code.</p></article>
+            <article class="info-panel feature"><span class="feature-icon" aria-hidden="true">{ }</span><h3>Stable response contract</h3><p>One envelope for every dataset, stable error codes, pagination, filters and sorting. Breaking changes need a new API line.</p></article>
+            <article class="info-panel feature"><span class="feature-icon" aria-hidden="true">↻</span><h3>Reviewed weekly updates</h3><p>A scraper refreshes the data every week and opens a pull request, so changes are reviewed and a drop-guard blocks accidental data loss.</p></article>
+            <article class="info-panel feature"><span class="feature-icon" aria-hidden="true">§</span><h3>Transparent provenance</h3><p>Data comes from the community wiki under CC BY-SA. Licensing, sources and revision hints are documented openly.</p></article>
+          </div>
+        </section>
 
-        <div class="split-grid">
-          <section class="info-panel"><h3>One endpoint, many datasets</h3><p>Every JSON file in the repository is discovered automatically. New wiki categories become endpoints without hand-written route code.</p><div class="code-block"><button class="copy-button" type="button" data-copy="curl https://gzw-data.dev/api/v1/weapons">Copy</button><code>curl https://gzw-data.dev/api/v1/weapons</code></div></section>
-          <section class="info-panel"><h3>Designed for small tools</h3><p>Pagination, filters, search, sorting, cache headers and an OpenAPI document make the API practical for GZW Tools and community projects.</p><div class="code-block"><button class="copy-button" type="button" data-copy="fetch('https://gzw-data.dev/api/v1/stats')">Copy</button><code>fetch('/api/v1/stats')</code></div></section>
-        </div>
+        <section class="update-panel" id="status" aria-labelledby="update-title">
+          <div class="update-heading"><div><div class="eyebrow">Data maintenance</div><h2 id="update-title">Latest data update</h2><p>Snapshot information from the live API.</p></div><span class="update-status" id="update-status" aria-live="polite">Checking…</span></div>
+          <div class="update-grid">
+            <div><span class="update-label">Snapshot</span><strong class="update-value" id="update-version">—</strong></div>
+            <div><span class="update-label">Datasets tracked</span><strong class="update-value" id="update-datasets">—</strong></div>
+            <div><span class="update-label">Indexed records</span><strong class="update-value" id="update-records">—</strong></div>
+            <div><span class="update-label">Change history</span><strong class="update-value" id="update-changes">—</strong></div>
+          </div>
+          <p class="update-note" id="update-note">Checking the latest snapshot metadata…</p>
+        </section>
+
+        <section id="clients" aria-labelledby="clients-title">
+          <div class="section-heading"><div><div class="eyebrow">Clients</div><h2 id="clients-title">Use it from your language</h2><p>Plain HTTP works everywhere. These wrappers add pagination, retries and typed errors.</p></div></div>
+          <div class="client-grid">
+            <article class="info-panel client"><h3>JavaScript / TypeScript</h3><p>Typed, zero-dependency client for Node 22+ and browsers.</p><div class="code-block"><button class="copy-button" type="button" data-copy="npm install @zoniboy/gzw-data-client">Copy</button><code>npm install @zoniboy/gzw-data-client</code></div><a class="card-link" href="/docs/sdk/">SDK guide →</a></article>
+            <article class="info-panel client"><h3>Python</h3><p>Dependency-free client with pagination, retries and Retry-After support.</p><div class="code-block"><button class="copy-button" type="button" data-copy="pip install git+https://github.com/ZoniBoy00/gzw-data-py">Copy</button><code>pip install git+https://github.com/ZoniBoy00/gzw-data-py</code></div><a class="card-link" href="https://github.com/ZoniBoy00/gzw-data-py">View on GitHub ↗</a></article>
+            <article class="info-panel client"><h3>OpenAPI &amp; Playground</h3><p>Generate a client in any language from the spec, or try requests live first.</p><div class="code-block"><button class="copy-button" type="button" data-copy="https://gzw-data.dev/api/v1/spec">Copy</button><code>https://gzw-data.dev/api/v1/spec</code></div><a class="card-link" href="/playground/">Open Playground →</a></article>
+          </div>
+        </section>
 
         <section class="info-panel contact-panel" aria-labelledby="contact-title"><div class="eyebrow">Project contact</div><h2 id="contact-title">Need help or found a security issue?</h2><p>Use the right path so support, data corrections, feature requests and security reports stay organized.</p><div class="contact-links"><p><a href="/feedback/">Feedback desk</a><span>Choose bug, missing data, feature or API support</span></p><p><a href="mailto:support@gzw-data.dev">support@gzw-data.dev</a><span>General API questions and support</span></p><p><a href="mailto:security@gzw-data.dev">security@gzw-data.dev</a><span>Private vulnerability reports only</span></p></div></section>
 
-        <footer class="footer"><a class="saas-browser-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="200" height="70" loading="lazy"></a><div>GZW Data is a community project and is not affiliated with MADFINGER Games. <a href="/docs/">API documentation</a> · <a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools</a> · <a href="/privacy-policy/">Privacy Policy</a> · <a href="/terms-of-service/">Terms of Service</a> · <a href="https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md">Data sources &amp; licensing</a> · <a href="https://github.com/ZoniBoy00/gzw-data">GitHub</a></div></footer>
+        <footer class="site-footer">
+          <div class="footer-grid">
+            <div class="footer-about"><strong>GZW Data</strong><p>A community-run, free data API for Gray Zone Warfare. Not affiliated with MADFINGER Games.</p><a class="saas-browser-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="200" height="70" loading="lazy"></a></div>
+            <nav aria-label="Product"><h2>Product</h2><a href="/docs/">API reference</a><a href="/docs/sdk/">JavaScript SDK</a><a href="https://github.com/ZoniBoy00/gzw-data-py">Python client</a><a href="/playground/">Playground</a><a href="/docs/examples/">Examples</a></nav>
+            <nav aria-label="Community"><h2>Community</h2><a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub</a><a href="/feedback/">Feedback desk</a><a href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">Support the project</a></nav>
+            <nav aria-label="Legal"><h2>Legal</h2><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a><a href="https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md">Data sources &amp; licensing</a><a href="/.well-known/security.txt">Security</a></nav>
+          </div>
+          <div class="footer-base">© 2026 GZW Data · Code under MIT · Game data from the community wiki (CC BY-SA)</div>
+        </footer>
       </div>
     </main>
   </div>
