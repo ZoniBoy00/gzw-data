@@ -3,7 +3,6 @@
 .github
 scripts
 tests
-docs
 node_modules
 eslint.config.js
 CONTRIBUTING.md
