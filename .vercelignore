@@ -1,0 +1,11 @@
+# Not needed at runtime; keeps repo internals off the public deployment.
+# lib/ and data/ stay: the API function reads them.
+.github
+scripts
+tests
+docs
+node_modules
+eslint.config.js
+CONTRIBUTING.md
+ROADMAP.md
+SECURITY.md
