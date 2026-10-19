@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-14T13:57:14.445694Z",
+  "generatedAt": "2026-10-19T13:34:50.165557Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -336,7 +336,7 @@
     "side_task": {
       "file": "side_task.json",
       "records": 96,
-      "sha256": "7c4afe1fad0d354821d14afd135b70440ea7f5d6cf3cdcfc052fb7704a020a96"
+      "sha256": "55602aa6dcea24545c3b2295deb5428310ab5dc79d807bf6d6e85c05bd6baef4"
     },
     "slides": {
       "file": "slides.json",
@@ -381,7 +381,7 @@
     "tasks": {
       "file": "tasks.json",
       "records": 250,
-      "sha256": "e5ba3482b1ec2c44d3b617fefe396bccb8553f7492640aa6408d7b9967a46f08"
+      "sha256": "ad08ea97b793137ed743229eac2f0be9fc472a60ee0bc59665b6cc4376e4d9a5"
     },
     "throwables": {
       "file": "throwables.json",
