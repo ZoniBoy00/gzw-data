@@ -97,6 +97,8 @@ Current implementation: `4.6.0` (verified through the production `/api/v1/versio
 
 ## Next priorities
 
+_Last reviewed: 2026-10-23 against implementation `4.6.0`. Every unchecked item below is deliberately conditional: none has a known consumer or measured need yet, so none is scheduled._
+
 ### 1. API and SDK contract tests
 
 - [x] Add an explicit contract test for the 429/rate-limit response.
@@ -114,16 +116,16 @@ Current implementation: `4.6.0` (verified through the production `/api/v1/versio
 
 - [x] Make every public operation codegen-ready with route-specific response schemas.
 - [x] Document list, pagination, single-record, metadata, schema, and error envelopes. (Implemented in `docs/API_CONTRACT.md` and the web API reference.)
-- [x] Separate `apiVersion: v1` from `implementationVersion: 4.4.0` in public documentation.
+- [x] Separate `apiVersion: v1` from `implementationVersion` (currently `4.6.0`) in public documentation.
 - [x] Define how breaking dataset field changes are versioned and deprecated.
 
 ### 4. Caching and performance
 
 - [x] Verify CDN conditional requests and document the `dataVersion` validator context.
-- [ ] Consider field selection, for example `?fields=id,name,image`, only for a real consumer.
+- [ ] Consider field selection, for example `?fields=id,name,image`, only for a real consumer. (Not started; no consumer request. Note `/search?fields=` already selects fields to *search*, not to return.)
 - [ ] Consider multi-value filters only when a real consumer needs them.
-- [ ] Build an inverse index for `/items/{id}/context` if dataset size or request volume makes the current scan expensive.
-- [ ] Replace the warm-instance rate limiter with a shared store only if traffic requires a strict global quota.
+- [ ] Build an inverse index for `/items/{id}/context` if dataset size or request volume makes the current scan expensive. (The published `data/` is about 2 MB, so the scan is cheap today.)
+- [ ] Replace the warm-instance rate limiter with a shared store only if traffic requires a strict global quota. (Current limiter is best-effort per warm instance, as documented in the README.)
 
 ### 5. Snapshot and data integrity
 

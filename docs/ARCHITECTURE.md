@@ -7,9 +7,11 @@ flowchart LR
   D --> A["Public Vercel API /api/v1"]
   D --> C["Web console, Playground, Feedback, OpenAPI"]
   A --> J["@zoniboy/gzw-data-client"]
+  A --> P["gzw-data (PyPI) Python client"]
   J --> T["gzw-tools"]
   J --> B["Discord bots and integrations"]
   A --> H["Snapshots, changes, health, readiness"]
+  M["Daily freshness monitor"] -.->|stale-data issue| D
 ```
 
 ## Ownership
@@ -17,6 +19,7 @@ flowchart LR
 - `gzw-scraper` discovers and parses source wiki pages, validates output, and emits generated datasets plus `_manifest.json`.
 - `gzw-data` publishes the generated datasets, API handler, metadata, OpenAPI document, snapshot history, and web console.
 - `@zoniboy/gzw-data-client` provides the typed zero-dependency JavaScript/TypeScript API client.
+- `gzw-data` (PyPI, source in `gzw-data-py`) provides the Python client.
 - `gzw-tools`, Discord bots, and other consumers use the public API or SDK; they do not edit generated data.
 
 ## Data flow
@@ -25,8 +28,9 @@ flowchart LR
 2. The scraper creates a manifest with per-dataset record counts and SHA-256 checksums.
 3. The workflow copies datasets and the manifest to `gzw-data`.
 4. CI validates JSON, metadata/data consistency, syntax, lint, tests, and whitespace.
-5. Snapshot recording preserves a bounded history of immutable version identifiers.
+5. Snapshot recording preserves a bounded history (30 snapshots) of immutable version identifiers.
 6. Vercel serves the read-only API and web documentation.
+7. A daily workflow checks `lastFullScrapeAt` and raises or closes a stale-data issue.
 
 ## Contract boundary
 

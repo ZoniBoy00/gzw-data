@@ -58,7 +58,7 @@ npm run dev:server
 
 This serves the console at `http://127.0.0.1:4173/`, the Playground at `/playground/`, the Feedback desk at `/feedback/`, and the local API at `/api/v1/health`.
 
-The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The published `@zoniboy/gzw-data-client` 0.8.0 requires Node.js 22+ and supports modern browsers; 0.7.3 remains the last Node.js 18+-compatible release. New API data remains available at runtime without an npm release.
+The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The published `@zoniboy/gzw-data-client` 0.8.1 requires Node.js 22+ and supports modern browsers; 0.7.3 remains the last Node.js 18+-compatible release. New API data remains available at runtime without an npm release.
 
 Unknown routes use a matching custom 404 page with direct links back to the console, Quick start and API root.
 
@@ -119,6 +119,7 @@ Both prefixes currently expose the same API contract. New integrations should pr
 
 ### Project documentation
 
+- [Roadmap](ROADMAP.md)
 - [Security policy](SECURITY.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [API response contract](docs/API_CONTRACT.md)
@@ -315,7 +316,9 @@ Data and code have separate licensing scope; see [Data sources and licensing](DA
 
 ## Automation
 
-The scraper runs every Monday at 06:17 UTC via GitHub Actions. It validates the generated data and API tests, then opens a reviewable pull request against `gzw-data` rather than pushing scraped output directly to `main`. The cross-repository handoff requires the `GH_PAT` Actions secret in the scraper repository.
+The scraper runs every Monday at 06:17 UTC via GitHub Actions. It validates the generated data and API tests, then opens a reviewable pull request against `gzw-data` (reusing the `scrape/data-update` branch) rather than pushing scraped output directly to `main`. The cross-repository handoff requires the `GH_PAT` Actions secret in the scraper repository.
+
+A separate daily workflow (08:00 UTC) checks the published `lastFullScrapeAt` timestamp and opens a stale-data issue if no full scrape has completed recently; the issue is closed automatically after recovery. Dependabot proposes npm updates weekly and GitHub Actions updates monthly.
 
 ## Response Format
 

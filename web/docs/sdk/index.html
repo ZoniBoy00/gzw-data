@@ -55,14 +55,14 @@
     <main>
       <div class="content">
         <section class="hero docs-hero" aria-labelledby="sdk-title">
-          <div><h1 id="sdk-title">Use the API.<br><em>Skip the plumbing.</em></h1><p class="hero-copy">A small, typed client for Node.js 22+ and modern browsers (release 0.8.0). It handles dataset requests, pagination, retry behavior and typed errors without a runtime dependency.</p></div>
+          <div><h1 id="sdk-title">Use the API.<br><em>Skip the plumbing.</em></h1><p class="hero-copy">A small, typed client for Node.js 22+ and modern browsers (release 0.8.1). It handles dataset requests, pagination, retry behavior and typed errors without a runtime dependency.</p></div>
           <div class="hero-aside"><div class="hero-aside-label">Install from npm</div><code class="base-url">@zoniboy/gzw-data-client</code><div class="button-row"><a class="button primary" href="https://www.npmjs.com/package/@zoniboy/gzw-data-client">View npm package ↗</a><a class="button" href="https://github.com/ZoniBoy00/gzw-data-js">Source</a></div></div>
         </section>
 
         <section class="api-facts sdk-facts" aria-label="SDK facts">
           <div class="api-fact"><span class="api-fact-label">Runtime dependencies</span><strong>0</strong><span>Uses the platform's native fetch.</span></div>
           <div class="api-fact"><span class="api-fact-label">Authentication</span><strong>None</strong><span>No API key or account is required.</span></div>
-          <div class="api-fact"><span class="api-fact-label">Runtime</span><strong>Node.js 22+</strong><span>Release 0.8.0 also supports modern browser apps.</span></div>
+          <div class="api-fact"><span class="api-fact-label">Runtime</span><strong>Node.js 22+</strong><span>Release 0.8.1 also supports modern browser apps.</span></div>
           <div class="api-fact api-fact-wide"><span class="api-fact-label">Important</span><strong>Dataset names and data are resolved from the live API.</strong><span>The SDK's generated TypeScript autocomplete list is only a snapshot; new API datasets remain usable without an npm update.</span></div>
         </section>
 
@@ -179,7 +179,7 @@ try {
             <section id="runtime">
               <h2>Runtime, freshness and limits</h2>
               <ul>
-                <li>The current 0.8.0 release targets Node.js 22+ and modern browsers with native <code>fetch</code>; Node.js 18 consumers can continue using 0.7.3. Browser projects should use a bundler such as Vite.</li>
+                <li>The current 0.8.1 release targets Node.js 22+ and modern browsers with native <code>fetch</code>; Node.js 18 consumers can continue using 0.7.3. Browser projects should use a bundler such as Vite.</li>
                 <li>The API is public, read-only and requires no key. It has a best-effort rate limit of 100 requests per minute per IP; cache responses and respect <code>Retry-After</code>.</li>
                 <li>The API's published dataset is refreshed by the scraper workflow. Data routes use a CDN cache window, so newly scraped data may not appear immediately.</li>
                 <li>Use <code>gzw.version()</code>, response <code>dataVersion</code>, or <code>gzw.metadata()</code> to inspect current API and data metadata. A data refresh is not an SDK release.</li>

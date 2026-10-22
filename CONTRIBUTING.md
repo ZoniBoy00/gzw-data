@@ -57,6 +57,11 @@ Current module areas include:
 - `lib/smart-routes.js` — explicitly defined combined routes
 - `lib/response.js` — response envelopes and headers
 - `lib/rate-limit.js` — best-effort rate limiting
+- `lib/export.js` — bounded dataset export
+- `lib/id-aliases.js` — reviewed legacy record ID aliases
+- `lib/numeric-values.js` — unit-aware `numeric_values` projections
+- `lib/routing.js` — API path and version-prefix handling
+- `lib/config.js` and `lib/version.js` — shared limits and version constants
 
 When changing an endpoint:
 
@@ -88,7 +93,7 @@ After a verified data update, record the snapshot with:
 npm run snapshot:record
 ```
 
-Do not treat `_metadata.json` or `_history.json` as normal game datasets.
+Do not treat underscore-prefixed files (`_metadata.json`, `_history.json`, `_manifest.json`, `_id_aliases.json`, `_field_preservation.json`) as normal game datasets. Legacy ID aliases are added to `data/_id_aliases.json` only after review, never inferred from name similarity.
 
 ## Tests and checks
 
@@ -96,15 +101,13 @@ Run the complete local check before opening a pull request:
 
 ```bash
 node --check api/index.js
+npm run lint
+npm run validate:data
 npm test
 git diff --check
 ```
 
-If lint dependencies are installed, also run:
-
-```bash
-npm run lint
-```
+CI runs the same checks on Node.js 22 and 24.
 
 For API contract changes, test both the local handler and the deployed `/api/v1` endpoint when appropriate. Live checks must be read-only and must not use secrets in command output.
 
