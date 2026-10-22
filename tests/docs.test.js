@@ -56,3 +56,30 @@ test('SDK documentation explains live registry versus static autocomplete', () =
   assert.equal(agents.sdk_documentation, 'https://gzw-data.dev/docs/sdk/');
   assert.equal(pricing.support.sdk_documentation, 'https://gzw-data.dev/docs/sdk/');
 });
+
+test('pages with auto-updating package versions load the script and the CSP allows both registries', () => {
+  const csp = JSON.parse(read('vercel.json')).headers
+    .flatMap((rule) => rule.headers)
+    .find((header) => header.key === 'Content-Security-Policy').value;
+  const connectSrc = csp.split(';').map((part) => part.trim()).find((part) => part.startsWith('connect-src'));
+  const script = read('web/assets/versions.js');
+
+  for (const origin of ['https://registry.npmjs.org', 'https://pypi.org']) {
+    assert.ok(connectSrc.split(' ').includes(origin), `CSP connect-src must allow ${origin}`);
+    assert.ok(script.includes(origin), `versions.js should fetch from ${origin}`);
+  }
+
+  let pagesWithVersions = 0;
+  for (const page of docsPages) {
+    const html = read(page.file);
+    const registries = [...html.matchAll(/data-pkg-version="([^"]+)"/g)].map((match) => match[1]);
+    if (registries.length === 0) continue;
+    pagesWithVersions += 1;
+    assert.ok(registries.every((registry) => ['npm', 'pypi'].includes(registry)), `${page.file} uses an unknown registry`);
+    assert.match(html, /<script src="\/assets\/versions\.js\?v=[0-9a-f]{8}" type="module"><\/script>/, `${page.file} must load versions.js`);
+    for (const match of html.matchAll(/<[a-z]+ [^>]*data-pkg-version="[^"]+"[^>]*>([^<]*)</g)) {
+      assert.match(match[1], /^\d+\.\d+\.\d+$/, `${page.file} needs a static fallback version`);
+    }
+  }
+  assert.equal(pagesWithVersions, 3);
+});

@@ -64,4 +64,4 @@ const page = await gzw.dataset("weapons").list({ page: 1, perPage: 20 });
 
 Use the OpenAPI specification when generating an integration. Dataset routes may support filtering, sorting, pagination, and `all=true` according to the endpoint contract. Cache responses respectfully and handle rate-limit responses using the returned headers and `Retry-After` value when present.
 
-The official JavaScript/TypeScript client targets `/api/v1`, has no runtime dependencies, and supports Node.js 22+ (release 0.8.1) and modern browsers; release 0.7.3 remains compatible with Node.js 18+.
+The official JavaScript/TypeScript client targets `/api/v1`, has no runtime dependencies, and supports Node.js 22+ (release 0.9.0) and modern browsers; release 0.7.3 remains compatible with Node.js 18+.
