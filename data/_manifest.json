@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-25T15:56:00.022494Z",
+  "generatedAt": "2026-10-25T16:48:04.725809Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -93,15 +93,10 @@
       "records": 4,
       "sha256": "ad5a9b1e64bcae1f18d13c0500eec2eeec319e5c6261b31f144fcbee7e7a9dfe"
     },
-    "disassembly_materia": {
-      "file": "disassembly_materia.json",
-      "records": 1,
-      "sha256": "2ba742aec9004e5d571262e6dfa1e6e1797a3b8ebe315817906071e82f07f83e"
-    },
     "disassembly_material": {
       "file": "disassembly_material.json",
-      "records": 4,
-      "sha256": "f9926a6f0819a924f41a91261ae4a966db7f35ef46812d0822955378ee57baee"
+      "records": 5,
+      "sha256": "cae6f0da04cfe9d3c5978c8bcf940e138de04b2257067f6efd2494ff85b68e0e"
     },
     "drinks": {
       "file": "drinks.json",

@@ -1,7 +1,7 @@
 [
   {
-    "version": "2026-10-25T15:55:59.851473Z",
-    "capturedAt": "2026-10-25T15:55:59.851473Z",
+    "version": "2026-10-25T16:48:04.562923Z",
+    "capturedAt": "2026-10-25T16:48:04.562923Z",
     "datasets": {
       "ammo": 79,
       "apparel_items": 63,
@@ -21,8 +21,7 @@
       "contract": 29,
       "contracts": 3,
       "crafting_material": 4,
-      "disassembly_materia": 1,
-      "disassembly_material": 4,
+      "disassembly_material": 5,
       "drinks": 18,
       "electronics": 5,
       "evidence": 13,
