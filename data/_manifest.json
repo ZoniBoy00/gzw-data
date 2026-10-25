@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-25T16:48:04.725809Z",
+  "generatedAt": "2026-10-25T18:34:10.228119Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -97,6 +97,11 @@
       "file": "disassembly_material.json",
       "records": 5,
       "sha256": "cae6f0da04cfe9d3c5978c8bcf940e138de04b2257067f6efd2494ff85b68e0e"
+    },
+    "disassembly_recipes": {
+      "file": "disassembly_recipes.json",
+      "records": 15,
+      "sha256": "b1128936e0fc4c9812eaf451ef6f5c275b3ff7ce5775778f15042aa02c23d96a"
     },
     "drinks": {
       "file": "drinks.json",
@@ -197,6 +202,11 @@
       "file": "hideout.json",
       "records": 1,
       "sha256": "15ed1f35ce6e944d55ae5fd3e8d43b6fe8b71868112a1cccbba4739e28015f29"
+    },
+    "hideout_modules": {
+      "file": "hideout_modules.json",
+      "records": 36,
+      "sha256": "2bc3a1cc917786554dd53a47bbd1874896f1e8b5828298e36b348d492ade24c0"
     },
     "household_item": {
       "file": "household_item.json",

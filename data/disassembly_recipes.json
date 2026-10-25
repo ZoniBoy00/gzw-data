@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Artillery Ballistic Calculator",
+    "id": "artillery-ballistic-calculator",
+    "duration": "12 hours",
+    "outcome": [
+      "LAF Artillery Data Logs"
+    ],
+    "outcome_text": "LAF Artillery Data Logs"
+  },
+  {
+    "name": "Baget-53-31 Onboard Computer",
+    "id": "baget-53-31-onboard-computer",
+    "duration": "12 hours",
+    "outcome": [
+      "Flight Data Drive",
+      "Avionics Processor Board"
+    ],
+    "outcome_text": "Flight Data Drive, Avionics Processor Board"
+  },
+  {
+    "name": "Chemical Containment Container",
+    "id": "chemical-containment-container",
+    "duration": "12 hours",
+    "outcome": [
+      "Biohazard Canister"
+    ],
+    "outcome_text": "Biohazard Canister"
+  },
+  {
+    "name": "Chemical Munitions Container",
+    "id": "chemical-munitions-container",
+    "duration": "12 hours",
+    "outcome": [
+      "Sarin Canister"
+    ],
+    "outcome_text": "Sarin Canister"
+  },
+  {
+    "name": "Counter IED/Jammer Unit",
+    "id": "counter-ied-jammer-unit",
+    "duration": "12 hours",
+    "outcome": [
+      "Electronic Warfare Configuration Drive",
+      "Digital Synthesis Engine"
+    ],
+    "outcome_text": "Electronic Warfare Configuration Drive, Digital Synthesis Engine"
+  },
+  {
+    "name": "Drone Interceptor",
+    "id": "drone-interceptor",
+    "duration": "12 hours",
+    "outcome": [
+      "AI Targeting Module"
+    ],
+    "outcome_text": "AI Targeting Module"
+  },
+  {
+    "name": "IMSI Catcher",
+    "id": "imsi-catcher",
+    "duration": "12 hours",
+    "outcome": [
+      "Incriminating Phone Logs",
+      "Spoofing ASIC Module"
+    ],
+    "outcome_text": "Incriminating Phone Logs, Spoofing ASIC Module"
+  },
+  {
+    "name": "Last Line Defense Container",
+    "id": "last-line-defense-container",
+    "duration": "12 hours",
+    "outcome": [
+      "Nerve Gas Canister"
+    ],
+    "outcome_text": "Nerve Gas Canister"
+  },
+  {
+    "name": "Manpack Tactical Radio",
+    "id": "manpack-tactical-radio",
+    "duration": "12 hours",
+    "outcome": [
+      "Encryption Key Drive",
+      "FPGA Module"
+    ],
+    "outcome_text": "Encryption Key Drive, FPGA Module"
+  },
+  {
+    "name": "Missile Seeker Head",
+    "id": "missile-seeker-head",
+    "duration": "12 hours",
+    "outcome": [
+      "Missile Guidance Circuit"
+    ],
+    "outcome_text": "Missile Guidance Circuit"
+  },
+  {
+    "name": "Portable SATCOM Terminal",
+    "id": "portable-satcom-terminal",
+    "duration": "12 hours",
+    "outcome": [
+      "Uplink Credentials Drive",
+      "Oven-Controlled Crystal Oscillator"
+    ],
+    "outcome_text": "Uplink Credentials Drive, Oven-Controlled Crystal Oscillator"
+  },
+  {
+    "name": "Radar Signal Processor",
+    "id": "radar-signal-processor",
+    "duration": "12 hours",
+    "outcome": [
+      "Deep-Space Observation Data Drive",
+      "High-Speed Digital Processor Board"
+    ],
+    "outcome_text": "Deep-Space Observation Data Drive, High-Speed Digital Processor Board"
+  },
+  {
+    "name": "Radioisotope Fuel Cell",
+    "id": "radioisotope-fuel-cell",
+    "duration": "12 hours",
+    "outcome": [
+      "Plutonium Canister"
+    ],
+    "outcome_text": "Plutonium Canister"
+  },
+  {
+    "name": "ST1122 Storage Computer",
+    "id": "st1122-storage-computer",
+    "duration": "12 hours",
+    "outcome": [
+      "Incriminating Data Drive",
+      "Server RAM Module"
+    ],
+    "outcome_text": "Incriminating Data Drive, Server RAM Module"
+  },
+  {
+    "name": "UNLRA Field Terminal",
+    "id": "unlra-field-terminal",
+    "duration": "12 hours",
+    "outcome": [
+      "UNLRA Relief Manifest",
+      "Multi-Bus Converter"
+    ],
+    "outcome_text": "UNLRA Relief Manifest, Multi-Bus Converter"
+  }
+]
