@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Baget-53-31 Onboard Computer",
+    "id": "baget-53-31-onboard-computer",
+    "type": "Disassembly Material",
+    "weight": "5.500kg",
+    "grid_size": "3x2",
+    "sell_price": "$3,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bc/Baget-53-31_Onboard_Computer_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024200431",
+    "numeric_values": {
+      "weight": {
+        "value": 5.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Counter IED/Jammer Unit",
+    "id": "counter-ied/jammer-unit",
+    "type": "Disassembly Material",
+    "weight": "9.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$4,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9f/Counter_IED-Jammer_Unit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024231625",
+    "numeric_values": {
+      "weight": {
+        "value": 9.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Last Line Defense Container",
+    "id": "last-line-defense-container",
+    "type": "Disassembly Material",
+    "weight": "8.000kg",
+    "grid_size": "3x2",
+    "sell_price": "$15,000",
+    "numeric_values": {
+      "weight": {
+        "value": 8.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Radar Signal Processor",
+    "id": "radar-signal-processor",
+    "type": "Disassembly Material",
+    "weight": "15.000kg",
+    "grid_size": "3x3",
+    "sell_price": "$4,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Radar_Signal_Processor_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024231628",
+    "numeric_values": {
+      "weight": {
+        "value": 15.0,
+        "unit": "kg"
+      }
+    }
+  }
+]

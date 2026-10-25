@@ -158,21 +158,6 @@
     }
   },
   {
-    "name": "Motor Oil",
-    "id": "motor-oil",
-    "type": "Workshop Supplies",
-    "weight": "4.300kg",
-    "grid_size": "2x2",
-    "sell_price": "$15",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Motor_Oil_inspect.png/revision/latest?cb=20260331083529",
-    "numeric_values": {
-      "weight": {
-        "value": 4.3,
-        "unit": "kg"
-      }
-    }
-  },
-  {
     "name": "Multitool",
     "id": "multitool",
     "type": "Workshop Supplies",
@@ -194,21 +179,6 @@
     "grid_size": "1x2",
     "sell_price": "$51",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Rubber_Renue_inspect.png/revision/latest?cb=20260331085609",
-    "numeric_values": {
-      "weight": {
-        "value": 1.0,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Toolset",
-    "id": "toolset",
-    "type": "Workshop Supplies",
-    "weight": "1.000kg",
-    "grid_size": "2x2",
-    "sell_price": "$142",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/Toolset_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331090251",
     "numeric_values": {
       "weight": {
         "value": 1.0,

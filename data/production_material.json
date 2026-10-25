@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Chloroform",
+    "id": "chloroform",
+    "type": "Production Material",
+    "weight": "1.000kg",
+    "grid_size": "1x2",
+    "sell_price": "$45",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Citric Acid",
+    "id": "citric-acid",
+    "type": "Production Material",
+    "weight": "1.000kg",
+    "grid_size": "1x2",
+    "sell_price": "$15",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Garden Lime",
+    "id": "garden-lime",
+    "type": "Production Material",
+    "weight": "3.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$15",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Medium-Quality Morphine Base",
+    "id": "medium-quality-morphine-base",
+    "type": "Production Material",
+    "weight": "1.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$2,500",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Methanol",
+    "id": "methanol",
+    "type": "Production Material",
+    "weight": "0.500kg",
+    "grid_size": "1x2",
+    "sell_price": "$30",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Opium Gum",
+    "id": "opium-gum",
+    "type": "Production Material",
+    "weight": "2.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$150",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Purified Water",
+    "id": "purified-water",
+    "type": "Production Material",
+    "weight": "5.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$30",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
+  }
+]

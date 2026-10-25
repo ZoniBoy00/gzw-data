@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-19T13:34:50.165557Z",
+  "generatedAt": "2026-10-25T15:30:05.230960Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -20,8 +20,8 @@
     },
     "backpacks": {
       "file": "backpacks.json",
-      "records": 17,
-      "sha256": "d384e8f4e53817b4f9bf8697cfa13201c59257bc668cd94578e402193d544496"
+      "records": 18,
+      "sha256": "255bbf3d69b6921c48d73cc11ed25a6dd30cbed79ac516abada949a52f59484f"
     },
     "barrels": {
       "file": "barrels.json",
@@ -53,6 +53,11 @@
       "records": 3,
       "sha256": "eb77862213151dd4903594b91b86b1cceabbe1bbf347f2ecaf4b804628d06e43"
     },
+    "building_material": {
+      "file": "building_material.json",
+      "records": 37,
+      "sha256": "dfeb34e502b2f97473a234c3d322ef7469e11bcb57899f7a86d13d5b8ab95bb7"
+    },
     "charging_handle": {
       "file": "charging_handle.json",
       "records": 11,
@@ -82,6 +87,21 @@
       "file": "contracts.json",
       "records": 3,
       "sha256": "a5dc0f4e941d86741991b7645b660958198ed36e651a9bb8dd3af60ef6aa7ac3"
+    },
+    "crafting_material": {
+      "file": "crafting_material.json",
+      "records": 4,
+      "sha256": "ad5a9b1e64bcae1f18d13c0500eec2eeec319e5c6261b31f144fcbee7e7a9dfe"
+    },
+    "disassembly_materia": {
+      "file": "disassembly_materia.json",
+      "records": 1,
+      "sha256": "2ba742aec9004e5d571262e6dfa1e6e1797a3b8ebe315817906071e82f07f83e"
+    },
+    "disassembly_material": {
+      "file": "disassembly_material.json",
+      "records": 4,
+      "sha256": "f9926a6f0819a924f41a91261ae4a966db7f35ef46812d0822955378ee57baee"
     },
     "drinks": {
       "file": "drinks.json",
@@ -122,6 +142,11 @@
       "file": "funds.json",
       "records": 4,
       "sha256": "2248a4cfae4ac6f22fad17aab3d26e92d75af1fb23ee7fede1c8d48a6bb82a14"
+    },
+    "game_systems": {
+      "file": "game_systems.json",
+      "records": 10,
+      "sha256": "2fd12e588c39805f7043ca2933bb2e931cb223fde59b53a2695c8078b33689c6"
     },
     "gas_blocks": {
       "file": "gas_blocks.json",
@@ -167,6 +192,11 @@
       "file": "hidden_task.json",
       "records": 7,
       "sha256": "e81f9d066bab988427de4c5f7da53aa83879e67bc44ad80d0d073b4ef80ec681"
+    },
+    "hideout": {
+      "file": "hideout.json",
+      "records": 1,
+      "sha256": "15ed1f35ce6e944d55ae5fd3e8d43b6fe8b71868112a1cccbba4739e28015f29"
     },
     "household_item": {
       "file": "household_item.json",
@@ -241,7 +271,7 @@
     "military_equipment": {
       "file": "military_equipment.json",
       "records": 19,
-      "sha256": "dce570f888c0ef8a0bfa8514b6bf6aa6b3bb41a57924b3e1d8d6c5259d6b5b82"
+      "sha256": "592344f7d64a6f802347e4d8b3c66a3f36c57ede77577569eeea920cfb7197d0"
     },
     "military_material": {
       "file": "military_material.json",
@@ -287,6 +317,11 @@
       "file": "plate_carriers.json",
       "records": 18,
       "sha256": "8eff69e42fe1539a5d6dd29fd9b1ee909de16c57b341e77ad10b0f2f670c33d7"
+    },
+    "production_material": {
+      "file": "production_material.json",
+      "records": 7,
+      "sha256": "90bdd6ffb3f738b2be556627ed4379a23f921bd7c58f0a7c7b0fbe216952b86b"
     },
     "provisions": {
       "file": "provisions.json",
@@ -380,8 +415,8 @@
     },
     "tasks": {
       "file": "tasks.json",
-      "records": 250,
-      "sha256": "ad08ea97b793137ed743229eac2f0be9fc472a60ee0bc59665b6cc4376e4d9a5"
+      "records": 254,
+      "sha256": "cba4f7f495a95f7e3ecfb744506c22d5459c3fdf027b226f640873d678cd10fd"
     },
     "throwables": {
       "file": "throwables.json",
@@ -397,6 +432,11 @@
       "file": "trousers.json",
       "records": 23,
       "sha256": "3232c2df6a1cfe5844b1ef5e0f19df92f735d534f40aeb036c72424e7570875d"
+    },
+    "uncategorized": {
+      "file": "uncategorized.json",
+      "records": 67,
+      "sha256": "6eb6639437582750ab90ecda16f2155d21968b7448b98687d2a9787497971738"
     },
     "upcoming_content": {
       "file": "upcoming_content.json",
@@ -440,8 +480,8 @@
     },
     "workshop_supplies": {
       "file": "workshop_supplies.json",
-      "records": 16,
-      "sha256": "f8ac4077a31ae64c72bc5b7326c474ffa0a42f34b54e6209afde822cee1d072e"
+      "records": 14,
+      "sha256": "959708c259ffab14867b022e566cd6cedde8d63b1e01e05e3b872d93cdc0b466"
     }
   }
 }

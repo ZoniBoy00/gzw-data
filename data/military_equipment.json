@@ -133,7 +133,7 @@
     "type": "Military Equipment",
     "weight": "14.000kg",
     "grid_size": "3x3",
-    "sell_price": "$60,000",
+    "sell_price": "$64,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/LTSD-4-3_Laser_Designator_inspect.png/revision/latest/scale-to-width-down/268?cb=20260410150502",
     "numeric_values": {
       "weight": {

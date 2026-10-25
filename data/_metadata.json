@@ -1,8 +1,8 @@
 {
   "source": "gzw-scraper",
-  "scraperVersion": "4.6.0",
+  "scraperVersion": "4.6.1",
   "parserRevision": "universal-parser-v8",
-  "datasetCount": 88,
+  "datasetCount": 96,
   "datasets": [
     {
       "name": "ammo",
@@ -149,7 +149,7 @@
           "example": "0.007kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": ".222 Remington",
@@ -502,7 +502,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Apparel",
@@ -602,7 +602,7 @@
           "example": "0.016 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Colt 1911 Commander Hammer",
@@ -629,13 +629,13 @@
     {
       "name": "backpacks",
       "file": "backpacks.json",
-      "itemCount": 17,
+      "itemCount": 18,
       "fields": {
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 17,
           "optional": true,
           "nullable": false,
           "example": "2x2"
@@ -644,7 +644,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "6sh118-ratnik-v2"
@@ -653,7 +653,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526"
@@ -671,7 +671,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "6Sh118 Ratnik V2"
@@ -680,7 +680,7 @@
           "types": [
             "object"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": {
@@ -694,7 +694,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "12"
@@ -712,7 +712,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "Backpack"
@@ -721,13 +721,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 17,
+          "presentCount": 18,
           "optional": false,
           "nullable": false,
           "example": "0.072kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "6Sh118 Ratnik V2",
@@ -772,6 +772,10 @@
         {
           "title": "Patrol Backpack",
           "revisionId": 24875
+        },
+        {
+          "title": "Patrol Backpack (Coyote)",
+          "revisionId": 24874
         },
         {
           "title": "Patrol backpack (Coyote)",
@@ -944,7 +948,7 @@
           "example": ".725 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AR-15 Barrel - 10.5\"",
@@ -1161,7 +1165,7 @@
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Belt Bag",
@@ -1284,7 +1288,7 @@
           "example": "0.530kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "M1050 LRF Rangefinder",
@@ -1337,7 +1341,7 @@
           "example": "AKU - Conero GTX"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AKU - Conero GTX",
@@ -1434,7 +1438,7 @@
           "example": "Bloudhound needs to be killed for Final Liberation task."
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Bloodhound",
@@ -1575,7 +1579,7 @@
           "example": "0.108 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "CQ A1 Buffer Tube",
@@ -1588,6 +1592,259 @@
         {
           "title": "M4 Buffer Tube (FDE)",
           "revisionId": 18596
+        }
+      ]
+    },
+    {
+      "name": "building_material",
+      "file": "building_material.json",
+      "itemCount": 37,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "0.800"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "analog-indicator"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 22,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Analog_Indicator_inspect.png/revision/latest?cb=20261024183758"
+        },
+        "inventory_layout_(x/y)": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "Analog Indicator"
+        },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 36,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.02,
+              "unit": "kg"
+            }
+          }
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "$120"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "Building Material"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 36,
+          "optional": true,
+          "nullable": false,
+          "example": "0.020kg"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "sourcePages": [
+        {
+          "title": "Analog Indicator",
+          "revisionId": 25370
+        },
+        {
+          "title": "Burner Head",
+          "revisionId": 25371
+        },
+        {
+          "title": "CNC Drill Bits",
+          "revisionId": 25390
+        },
+        {
+          "title": "CPU",
+          "revisionId": 25373
+        },
+        {
+          "title": "Circuit Board",
+          "revisionId": 25381
+        },
+        {
+          "title": "Civilian Software",
+          "revisionId": 25382
+        },
+        {
+          "title": "Complex Glass Electrode",
+          "revisionId": 25372
+        },
+        {
+          "title": "Construction Material",
+          "revisionId": 25258
+        },
+        {
+          "title": "Copper",
+          "revisionId": 25358
+        },
+        {
+          "title": "Crystal Prism",
+          "revisionId": 25379
+        },
+        {
+          "title": "Dynamo",
+          "revisionId": 25399
+        },
+        {
+          "title": "Electrical Parts",
+          "revisionId": 25366
+        },
+        {
+          "title": "Fabrics",
+          "revisionId": 25365
+        },
+        {
+          "title": "Fine Metal Mesh",
+          "revisionId": 25360
+        },
+        {
+          "title": "Glass",
+          "revisionId": 25359
+        },
+        {
+          "title": "Graphics Card",
+          "revisionId": 25374
+        },
+        {
+          "title": "Laboratory Flask",
+          "revisionId": 25385
+        },
+        {
+          "title": "Mechanical Parts",
+          "revisionId": 25367
+        },
+        {
+          "title": "Mechanical Pipette",
+          "revisionId": 25384
+        },
+        {
+          "title": "Microscope",
+          "revisionId": 25361
+        },
+        {
+          "title": "Military Software",
+          "revisionId": 25387
+        },
+        {
+          "title": "Motherboard",
+          "revisionId": 25309
+        },
+        {
+          "title": "Motor Oil",
+          "revisionId": 25377
+        },
+        {
+          "title": "Multimeter",
+          "revisionId": 25400
+        },
+        {
+          "title": "PC Fan",
+          "revisionId": 25388
+        },
+        {
+          "title": "Plastics",
+          "revisionId": 25369
+        },
+        {
+          "title": "Plumbing Parts",
+          "revisionId": 25319
+        },
+        {
+          "title": "Power Supply",
+          "revisionId": 25386
+        },
+        {
+          "title": "Refrigerant",
+          "revisionId": 25362
+        },
+        {
+          "title": "Server CPU",
+          "revisionId": 25383
+        },
+        {
+          "title": "Signal Generator",
+          "revisionId": 25375
+        },
+        {
+          "title": "Silicone Sealant",
+          "revisionId": 25378
+        },
+        {
+          "title": "Soldering Iron",
+          "revisionId": 25389
+        },
+        {
+          "title": "Steel",
+          "revisionId": 25363
+        },
+        {
+          "title": "Toolset",
+          "revisionId": 25376
+        },
+        {
+          "title": "Wood",
+          "revisionId": 25446
+        },
+        {
+          "title": "Zinc Electrode",
+          "revisionId": 25380
         }
       ]
     },
@@ -1696,7 +1953,7 @@
           "example": "0,080 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AK RP-1 Charging Handle",
@@ -1840,7 +2097,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Cache Report IX",
@@ -1983,7 +2240,7 @@
           "example": ".318 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "503CU Micro Sight",
@@ -2204,7 +2461,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Admin Desk",
@@ -2389,7 +2646,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Bad Idea",
@@ -2560,7 +2817,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Cache Report II",
@@ -2573,6 +2830,303 @@
         {
           "title": "They Are Everywhere",
           "revisionId": 24904
+        }
+      ]
+    },
+    {
+      "name": "crafting_material",
+      "file": "crafting_material.json",
+      "itemCount": 4,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "empty-autoinjector"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Server_RAM_Module_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024200428"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Empty Autoinjector"
+        },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.05,
+              "unit": "kg"
+            }
+          }
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "$15"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Crafting Material"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "0.050kg"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "sourcePages": [
+        {
+          "title": "Empty Autoinjector",
+          "revisionId": 25401
+        },
+        {
+          "title": "FPGA Module",
+          "revisionId": 25454
+        },
+        {
+          "title": "Human Growth Hormone",
+          "revisionId": 25445
+        },
+        {
+          "title": "Server RAM Module",
+          "revisionId": 25453
+        }
+      ]
+    },
+    {
+      "name": "disassembly_materia",
+      "file": "disassembly_materia.json",
+      "itemCount": 1,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "missile-seeker-head"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/Missile_Seeker_Head_inspect.png/revision/latest?cb=20261024200424"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Missile Seeker Head"
+        },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 6.0,
+              "unit": "kg"
+            }
+          }
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "$10,000"
+        },
+        "sold_by": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "3x3"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Disassembly Material"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "6.000kg"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "sourcePages": [
+        {
+          "title": "Missile Seeker Head",
+          "revisionId": 25452
+        }
+      ]
+    },
+    {
+      "name": "disassembly_material",
+      "file": "disassembly_material.json",
+      "itemCount": 4,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "baget-53-31-onboard-computer"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Radar_Signal_Processor_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024231628"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Baget-53-31 Onboard Computer"
+        },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 15.0,
+              "unit": "kg"
+            }
+          }
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "$15,000"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Disassembly Material"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "15.000kg"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "sourcePages": [
+        {
+          "title": "Baget-53-31 Onboard Computer",
+          "revisionId": 25451
+        },
+        {
+          "title": "Counter IED/Jammer Unit",
+          "revisionId": 25478
+        },
+        {
+          "title": "Last Line Defense Container",
+          "revisionId": 25364
+        },
+        {
+          "title": "Radar Signal Processor",
+          "revisionId": 25483
         }
       ]
     },
@@ -2695,7 +3249,7 @@
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Aques Water 1 l",
@@ -2863,7 +3417,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Black Luxury Phone",
@@ -2979,7 +3533,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Half Mask (Skull)",
@@ -3041,7 +3595,7 @@
           "example": "Bandits"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Bandits",
@@ -3294,7 +3848,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "1 Shot Energy Chews",
@@ -3505,7 +4059,7 @@
           "example": "0.017 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AFG-2",
@@ -3708,7 +4262,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Back-Up 3 Front Iron Sight",
@@ -3859,7 +4413,7 @@
           "example": "0.005kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Black Credit Card",
@@ -3876,6 +4430,92 @@
         {
           "title": "Platinum Credit Card",
           "revisionId": 19767
+        }
+      ]
+    },
+    {
+      "name": "game_systems",
+      "file": "game_systems.json",
+      "itemCount": 10,
+      "fields": {
+        "content": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "Gray Zone Warfare features a character level system that increase with specific actions giving a specific amount of experience in Lamang . The more experience you get, the more levels you get. A few actions grants the player a few experience points. Completing tasks , killing enemy factions , capturing combat outposts , discovers points of interest ... Lamang enemies kill EXP Type Experience Rebels / Bandits (Tier 1 areas) 5 Rebels/Bandits (Tier 2 and 3 areas) 10 LAF Soldiers 15 LAF Commanders 30 Other PMCs (Players) 200 Discovering POIs Landing Zones 150 Points of Interest Capturing Combat Outposts Major Combat Outposts Minor Combat Outposts 50 The table below shows level threshold and the rewards of each level achieved. Icon Level Level Threshold Rewards 1 0 5.11 - Competition Shooting Tactical Gloves (Blue) Tactical Gloves (Orange) AKU - Conero GTX Lowa - Zephyr GTX Mid TF US BDU (Woodland) Clawgear - Raider Mk IV (Olive) Clawgear - Raider Mk IV (Coyote) Long Sleeves Tactical Clawgear - Combat Operator (Ranger Green) Clawgear - Combat Operator (Coyote) 2 600 3 1,500 Tactical T-shirt (Green) 4 2,700 4,200 Crye Precision - G3 (Multicam) Mechanix Wear - Original 6 6,000 7 8,100 8 10,500 Clawgear - Combat Operator (Black) 9 13,200 16,200 Crye Precision - G3 (Ranger Green) Crye Precision - G4 (Ranger Green) 11 19,500 12 23,100 13 27,000 Clawgear - Raider Mk IV (Flecktarn) 14 31,200 35,700 Tactical T-shirt Jeans (Gray) Pentagon - Hybrid (Black) 16 40,500 17 45,600 18 51,000 19 56,700 20 62,700 Long Sleeves Mechanix Wear - Fast Fit Clawgear - Raider Mk IV (Woodland) Pentagon - Hybrid 21 69,000 22 75,600 23 82,500 Crye Precision - G4 (Multicam) 24 89,700 25 97,200 US Army - Blouse (M64 Vietnam) US BDU (Olive) 26 105,000 27 113,100 28 121,500 Clawgear - Raider Mk IV (Multicam Black) 29 130,200 139,200 Long Sleeves Tactical (Blue) Jeans (Blue) Tactical Gloves (Green) 31 148,500 32 158,100 33 168,000 US BDU (Desert) 34 178,200 35 188,700 Crye Precision - G3 (Multicam Black) Crye Precision - G4 (Multicam Black) 36 199,500 37 210,600 38 222,000 Clawgear - Combat Operator 39 233,700 40 245,700 Functional Shirt Arcteryx Leaf - Assault Pant AR gen 2 (Multicam) Mechanix Wear - M-Pact Covert 41 258,000 42 270,600 43 283,500 Tactical Jeans - Rappel Seat 44 296,700 45 310,200 Crye Precision - G3 (Multicam Tropic) Crye Precision - G4 (Multicam Tropic) Magnum - Wild-Fire Tactical 46 324,000 47 338,100 48 352,500 49 367,200 382,200 Long Sleeves (Black) Tactical Jeans - Rappel Seat (Black) Mechanix Wear - Original (Black)"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "experience"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Specialist.png/revision/latest?cb=20250601170728"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 10,
+          "optional": false,
+          "nullable": false,
+          "example": "Experience"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "sourcePages": [
+        {
+          "title": "Experience",
+          "revisionId": 21231
+        },
+        {
+          "title": "FAQ",
+          "revisionId": 156
+        },
+        {
+          "title": "Game modes",
+          "revisionId": 15227
+        },
+        {
+          "title": "Health system",
+          "revisionId": 21950
+        },
+        {
+          "title": "Lamang Island",
+          "revisionId": 21229
+        },
+        {
+          "title": "Locations",
+          "revisionId": 24298
+        },
+        {
+          "title": "Looting",
+          "revisionId": 24152
+        },
+        {
+          "title": "System requirements",
+          "revisionId": 13340
+        },
+        {
+          "title": "Trading",
+          "revisionId": 19098
+        },
+        {
+          "title": "Weather",
+          "revisionId": 13468
         }
       ]
     },
@@ -4006,7 +4646,7 @@
           "example": "0.045 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AK-74 Gas Tube",
@@ -4147,7 +4787,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AMP12",
@@ -4356,7 +4996,7 @@
           "example": "0.090kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Aviator (Black)",
@@ -4445,7 +5085,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "5.11 - Competition Shooting",
@@ -4651,7 +5291,7 @@
           "example": "0.110 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AK 308 Handguard",
@@ -4980,7 +5620,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "3M Comtac II",
@@ -5095,7 +5735,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "L4 G24 Helmet NVG Mount",
@@ -5243,7 +5883,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "6B47 Ratnik",
@@ -5483,7 +6123,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "At Doom's Gate",
@@ -5512,6 +6152,56 @@
         {
           "title": "The Rebel Path",
           "revisionId": 17610
+        }
+      ]
+    },
+    {
+      "name": "hideout",
+      "file": "hideout.json",
+      "itemCount": 1,
+      "fields": {
+        "content": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "The Hideout in Gray Zone Warfare is the players's personal workspace. It consists of several rooms, each dedicated to creating different types of items. To make full use of the Hideout, the player needs to build and upgrade stations within its rooms. These stations expand the capabilities of individual rooms and allow the player to perform more complex pipelines. The player also needs to acquire recipes, which provide the knowledge needed to create specific items in the Hideout. / Heat Source Extraction Vessel Reaction Vessel Filtration Analysis Glassware Laboratory Storage Equipment Safety Level Requirements Function 1 3 Steel 2 Construction Material 1 Wood + x Heat control 2 4 Steel 2 Plumbing Parts 3 Construction Material 1 Burner Head 10 Steel 5 Plumbing Parts 5 Construction Material 2 Burner Head 2 Mechanical Parts $40,000 Dollars + 2 Heat control 1 Steel 1 Copper 1 Plumbing Parts 1 Analog Indicator + x Extraction & Reaction 5 Copper 1 Water Pump 2 Plastics 1 Construction Material 1 Silicone Sealant 2 Chemicals 1 Zinc Electrode 3 12 Steel 3 Stainless Steel Sheet 6 Mechanical Parts $45,000 Dollars 2 Wood 4 Fabrics + 1 Filtration & Processing 3 Fine Metal Mesh 1 Electrical Parts 1 Circuit Board + x Analysis & Precision 4 Electrical Parts 3 Circuit Board 1 Vapor Lamp 1 Crystal Prism $35,000 Dollars 1 Glass 1 Plastics 1 Laboratory Flask 2 Glass 1 Mechanical Pipette Storage Equipment 1 Refrigerant + 2 Storage Capacity 3 Glass 6 Steel 5 Glass 2 Refrigerant 2 Electrical Parts 2 Circuit Board 2 PC Fan + x Safety 5 Electrical Parts 3 PC Fan 1 HEPA Filter Hardware Software Micro Electronics Machine Tools RF Sensors Workshop Storage Equipment 1 Motherboard 1 Graphics Card 1 CPU 1 PC Fan 1 RAM 1 Power Supply + x Compute Capacity 1 Server CPU 4 RAM + 2 Compute Capacity 3 Civilian Software 1 Military Software 6 Civilian Software 2 Military Software 1 Soldering Iron 1 Multimeter 1 Toolset 1 Woods + 1 Electronics Capability 2 Soldering Iron 1 Oscilloscope + 2 Electronics Capability 1 Microscope + 3 Electronics Capability + 1 Mechanical Engineering 1 Tooling Coolant 1 CNC Drill Bits + 2 Mechanical Engineering 1 Signal Generator + 1 Sensor and RF Processing 1 Laser Tube $30,000 Dollars + 2 Sensor and RF Processing 1 Mechanical Parts 9 Steel 3 Mechanical Parts 4 Stainless Steel Sheet Generator 1 Motor Oil 1 Dynamo + 9 Available Power 2 Steel Disassembly is a specialized pipeline that allows the player to dismantle complex devices into their components.To disassemble an item, the player must move it from their Locker into the disassembly grid. Items in the grid are disassembled sequentially, with priority given to those closest to the top-left corner. The time required to disassemble each item is displayed on the disassembly button.\\n\\nMoving an item within the grid or returning it to the Locker resets its disassembly time.Items obtained through disassembly are stored in the Electronics Workshop storage space.Disassembly continues even while the player is offline. Recipes Disassembled item Duration Outcome File:Artillery Ballistic Calculator icon.png Artillery Ballistic Calculator → 12 hours File:LAF Artillery Data Logs icon.png LAF Artillery Data Logs Baget-53-31 Onboard Computer File:Flight Data Drive icon.png Flight Data Drive + File:Avionics Processor Board icon.png Avionics Processor Board File:Chemical Munitions Container icon.png Chemical Munitions Container File:Sarin Canister icon.png Sarin Canister File:Counter IED/Jammer Unit icon.png Counter IED/Jammer Unit File:Electronic Warfare Configuration Drive icon.png Electronic Warfare Configuration Drive + File:Digital Synthesis Engine icon.png Digital Synthesis Engine File:Drone Interceptor icon.png Drone Interceptor AI Targeting Module File:IMSI Catcher icon.png IMSI Catcher File:Incriminating Phone Logs icon.png Incriminating Phone Logs + File:Spoofing ASIC Module icon.png Spoofing ASIC Module File:Last Line Defense Container icon.png Last Line Defense Container File:Nerve Gas Canister icon.png Nerve Gas Canister File:Manpack Tactical Radio icon.png Manpack Tactical Radio Encryption Key Drive + FPGA Module File:Chemical Containment Container icon.png Chemical Containment Container File:Biohazard Canister icon.png Biohazard Canister File:Portable SATCOM Terminal icon.png Portable SATCOM Terminal File:Uplink Credentials Drive icon.png Uplink Credentials Drive + File:Oven-Controlled Crystal Oscillator icon.png Oven-Controlled Crystal Oscillator Radar Signal Processor File:Deep-Space Observation Data Drive icon.png Deep-Space Observation Data Drive + File:High-Speed Digital Processor Board icon.png High-Speed Digital Processor Board Missile Seeker Head Missile Guidance Circuit File:ST1122 Storage Computer icon.png ST1122 Storage Computer Incriminating Data Drive + Server RAM Module File:Radioisotope Fuel Cell icon.png Radioisotope Fuel Cell File:Plutonium Canister icon.png Plutonium Canister File:UNLRA Field Terminal icon.png UNLRA Field Terminal File:UNLRA Relief Manifest icon.png UNLRA Relief Manifest + File:Multi-Bus Converter icon.png Multi-Bus Converter"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "hideout"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Radar_Signal_Processor_icon.png/revision/latest?cb=20261024231627"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": false,
+          "nullable": false,
+          "example": "Hideout"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "sourcePages": [
+        {
+          "title": "Hideout",
+          "revisionId": 25482
         }
       ]
     },
@@ -5607,7 +6297,7 @@
           "example": "0.013kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Aramid Cloth",
@@ -5733,7 +6423,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "George's love letter",
@@ -5871,7 +6561,7 @@
           "example": "0,014kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Advanced Tracking Tag",
@@ -5979,7 +6669,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Dark Pearl Necklace",
@@ -6134,7 +6824,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Fort Narith HQ Reception Storage Key Card",
@@ -6289,7 +6979,7 @@
           "example": "0.010 Kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "A102 Key",
@@ -6889,7 +7579,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Acetylene Cylinder",
@@ -7025,7 +7715,7 @@
           "example": "0.800kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "SafeLock Protected Ruck Case",
@@ -7101,7 +7791,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Ammo Box (Container)",
@@ -7312,7 +8002,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Loot Box",
@@ -7397,11 +8087,11 @@
           "example": "0.004kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Loot",
-          "revisionId": 24417
+          "revisionId": 25229
         }
       ]
     },
@@ -7546,7 +8236,7 @@
           "example": "0.048 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "1911 .45ACP 15-Round Extended Magazine",
@@ -7832,7 +8522,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "A Walk in the Park",
@@ -8068,7 +8758,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "ARF Trauma Bandage 4",
@@ -8148,7 +8838,7 @@
         },
         {
           "title": "Medical",
-          "revisionId": 24958
+          "revisionId": 25153
         },
         {
           "title": "Medium Blood Bag",
@@ -8295,7 +8985,7 @@
           "example": "0,300kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AN/PYQ-10",
@@ -8339,7 +9029,7 @@
         },
         {
           "title": "LTSD-4-3 Laser Designator",
-          "revisionId": 19461
+          "revisionId": 25489
         },
         {
           "title": "NPI-2 Navigation Receiver",
@@ -8458,7 +9148,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Camouflage Fabric",
@@ -8579,7 +9269,7 @@
           "example": "13.650kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "M933 120mm HE Cartridge (High Range)",
@@ -8687,7 +9377,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "1911 Grip Scope Mount",
@@ -9017,7 +9707,7 @@
           "example": "0.030 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "3 Prong Flash Hider",
@@ -9261,7 +9951,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Newspaper - 10 Years of Independent Lamang",
@@ -9574,7 +10264,7 @@
           "example": "0.338kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AN/PVS-14 Night Vision Device",
@@ -9631,7 +10321,7 @@
           "example": "Paper"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Shift Roster",
@@ -9788,7 +10478,7 @@
           "example": "0.055 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "A2 Pistol Grip",
@@ -10042,7 +10732,7 @@
           "example": "12.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "CGPC3 TQS",
@@ -10115,6 +10805,112 @@
         {
           "title": "Yen's Pantsir 2.0",
           "revisionId": 22759
+        }
+      ]
+    },
+    {
+      "name": "production_material",
+      "file": "production_material.json",
+      "itemCount": 7,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "1x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "chloroform"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "Chloroform"
+        },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.5,
+              "unit": "kg"
+            }
+          }
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "$15"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "Production Material"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 7,
+          "optional": false,
+          "nullable": false,
+          "example": "0.500kg"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "sourcePages": [
+        {
+          "title": "Chloroform",
+          "revisionId": 25396
+        },
+        {
+          "title": "Citric Acid",
+          "revisionId": 25397
+        },
+        {
+          "title": "Garden Lime",
+          "revisionId": 25393
+        },
+        {
+          "title": "Medium-Quality Morphine Base",
+          "revisionId": 25392
+        },
+        {
+          "title": "Methanol",
+          "revisionId": 25398
+        },
+        {
+          "title": "Opium Gum",
+          "revisionId": 25394
+        },
+        {
+          "title": "Purified Water",
+          "revisionId": 25395
         }
       ]
     },
@@ -10192,7 +10988,7 @@
           "example": "0.010 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Provisions",
@@ -10274,7 +11070,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "NB Research Notes",
@@ -10409,7 +11205,7 @@
           "example": "0.021 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AK Rear Iron Sight",
@@ -10562,7 +11358,7 @@
           "example": "1"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Ban Pa",
@@ -10724,7 +11520,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Call up Papers",
@@ -10956,7 +11752,7 @@
           "example": "1.500kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Equipment Repair Essentials Kit",
@@ -11094,7 +11890,7 @@
           "example": "0.300kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "6Sh104",
@@ -11296,7 +12092,7 @@
           "example": "0.292 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "ACOG TA01NSN 4x32 Assault Scope",
@@ -11381,7 +12177,7 @@
           "example": "Clawgear - Combat Operator (Black)"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Clawgear - Combat Operator",
@@ -11561,7 +12357,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -11889,7 +12685,7 @@
         },
         {
           "title": "Sunny Skies",
-          "revisionId": 20491
+          "revisionId": 25481
         },
         {
           "title": "The Congressman",
@@ -12067,7 +12863,7 @@
           "example": "0.280 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "1911 Commander Slide",
@@ -12170,7 +12966,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Binary Choir",
@@ -12353,7 +13149,7 @@
           "example": "???kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Box of IDs",
@@ -12678,7 +13474,7 @@
           "example": "0.090 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AK Buffer Tube Adapter",
@@ -12867,7 +13663,7 @@
           "example": "0.087 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AK MOE Stock",
@@ -13292,7 +14088,7 @@
           "example": ".476 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "762-SD Suppressor",
@@ -13502,7 +14298,7 @@
           "example": "0.032 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "ADE Advanced Red Laser",
@@ -13637,7 +14433,7 @@
           "example": ".010kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Appeal to the Rebels",
@@ -14052,7 +14848,7 @@
     {
       "name": "tasks",
       "file": "tasks.json",
-      "itemCount": 250,
+      "itemCount": 254,
       "fields": {
         "alternate": {
           "types": [
@@ -14094,7 +14890,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 250,
+          "presentCount": 254,
           "optional": false,
           "nullable": false,
           "example": "a-shot-in-the-dark"
@@ -14103,8 +14899,8 @@
           "types": [
             "string"
           ],
-          "presentCount": 250,
-          "optional": false,
+          "presentCount": 253,
+          "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
         },
@@ -14112,7 +14908,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 247,
+          "presentCount": 249,
           "optional": true,
           "nullable": false,
           "example": "Ban Pa"
@@ -14121,7 +14917,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 250,
+          "presentCount": 254,
           "optional": false,
           "nullable": false,
           "example": "A Shot in the Dark"
@@ -14130,7 +14926,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 204,
+          "presentCount": 206,
           "optional": true,
           "nullable": false,
           "example": "Ascertain the state of all official entrances into Fort Narith Check the barracks entrance Check the main entrance Check the fuel supply entrance Check the airfield back entrance Check the barracks entrance Check the main entrance Check the fuel supply entrance Check the airfield back entrance"
@@ -14148,13 +14944,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 250,
-          "optional": false,
+          "presentCount": 252,
+          "optional": true,
           "nullable": false,
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -14329,6 +15125,10 @@
           "revisionId": 17675
         },
         {
+          "title": "Distant Voice",
+          "revisionId": 25472
+        },
+        {
           "title": "Domesticated Rat",
           "revisionId": 24079
         },
@@ -14447,6 +15247,10 @@
         {
           "title": "Fresh Meat III",
           "revisionId": 17708
+        },
+        {
+          "title": "Friendly Conveyance",
+          "revisionId": 24320
         },
         {
           "title": "Friendly Suggestion",
@@ -14670,7 +15474,7 @@
         },
         {
           "title": "Lost Hope",
-          "revisionId": 24540
+          "revisionId": 25176
         },
         {
           "title": "Lost Lover",
@@ -14699,6 +15503,10 @@
         {
           "title": "Memory Leak",
           "revisionId": 24895
+        },
+        {
+          "title": "Mercenary Delivery Service",
+          "revisionId": 25072
         },
         {
           "title": "Mire Job",
@@ -14885,6 +15693,10 @@
           "revisionId": 17540
         },
         {
+          "title": "Silent Night",
+          "revisionId": 25470
+        },
+        {
           "title": "Silent Village",
           "revisionId": 24774
         },
@@ -14930,7 +15742,7 @@
         },
         {
           "title": "Sunny Skies",
-          "revisionId": 20491
+          "revisionId": 25481
         },
         {
           "title": "Supernatural",
@@ -15299,7 +16111,7 @@
           "example": "0.310kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "F-1",
@@ -15436,7 +16248,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Box of Supplies",
@@ -15505,7 +16317,7 @@
           "example": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
@@ -15598,6 +16410,311 @@
         {
           "title": "US BDU (Woodland)",
           "revisionId": 17157
+        }
+      ]
+    },
+    {
+      "name": "uncategorized",
+      "file": "uncategorized.json",
+      "itemCount": 67,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "2x2"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 67,
+          "optional": false,
+          "nullable": false,
+          "example": "10%-morphine-solution"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 67,
+          "optional": false,
+          "nullable": false,
+          "example": "10% Morphine Solution"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "sourcePages": [
+        {
+          "title": "10% Morphine Solution",
+          "revisionId": 25236
+        },
+        {
+          "title": "Acetic Anhydride",
+          "revisionId": 25237
+        },
+        {
+          "title": "Ammonium Chloride",
+          "revisionId": 25238
+        },
+        {
+          "title": "Aniline",
+          "revisionId": 25240
+        },
+        {
+          "title": "Artillery Ballistic Calculator",
+          "revisionId": 25241
+        },
+        {
+          "title": "Avionics Processor Board",
+          "revisionId": 25242
+        },
+        {
+          "title": "Biohazard Canister",
+          "revisionId": 25244
+        },
+        {
+          "title": "Bone Density Stimulant",
+          "revisionId": 25245
+        },
+        {
+          "title": "Bromopyridine",
+          "revisionId": 25246
+        },
+        {
+          "title": "CPU Card",
+          "revisionId": 25260
+        },
+        {
+          "title": "Chemical Containment Container",
+          "revisionId": 25248
+        },
+        {
+          "title": "Chemical Munitions Container",
+          "revisionId": 25249
+        },
+        {
+          "title": "Chemicals",
+          "revisionId": 25250
+        },
+        {
+          "title": "Deep-Space Observation Data Drive",
+          "revisionId": 25263
+        },
+        {
+          "title": "Digital Synthesis Engine",
+          "revisionId": 25264
+        },
+        {
+          "title": "Edetate Disodium",
+          "revisionId": 25266
+        },
+        {
+          "title": "Electronic Warfare Configuration Drive",
+          "revisionId": 25268
+        },
+        {
+          "title": "Encryption Key Drive",
+          "revisionId": 25270
+        },
+        {
+          "title": "Ether",
+          "revisionId": 25271
+        },
+        {
+          "title": "Ethyl Alcohol",
+          "revisionId": 25272
+        },
+        {
+          "title": "Flight Data Drive",
+          "revisionId": 25275
+        },
+        {
+          "title": "Glucose",
+          "revisionId": 25279
+        },
+        {
+          "title": "Gray Heroin",
+          "revisionId": 25281
+        },
+        {
+          "title": "HEPA Filter",
+          "revisionId": 25283
+        },
+        {
+          "title": "Healing Agent",
+          "revisionId": 25282
+        },
+        {
+          "title": "High-Quality Morphine Base",
+          "revisionId": 25284
+        },
+        {
+          "title": "High-Speed Digital Processor Board",
+          "revisionId": 25285
+        },
+        {
+          "title": "Hydrochloric Acid",
+          "revisionId": 25287
+        },
+        {
+          "title": "IMSI Catcher",
+          "revisionId": 25288
+        },
+        {
+          "title": "Incriminating Data Drive",
+          "revisionId": 25289
+        },
+        {
+          "title": "Incriminating Phone Logs",
+          "revisionId": 25290
+        },
+        {
+          "title": "Iron Sucrose",
+          "revisionId": 25291
+        },
+        {
+          "title": "LAF Artillery Data Logs",
+          "revisionId": 25293
+        },
+        {
+          "title": "Laser Tube",
+          "revisionId": 25294
+        },
+        {
+          "title": "Lead",
+          "revisionId": 25296
+        },
+        {
+          "title": "Low-Quality Morphine Base",
+          "revisionId": 25297
+        },
+        {
+          "title": "Manpack Tactical Radio",
+          "revisionId": 25298
+        },
+        {
+          "title": "Methylene Blue",
+          "revisionId": 25303
+        },
+        {
+          "title": "Methylparaben",
+          "revisionId": 25304
+        },
+        {
+          "title": "Multi-Bus Converter",
+          "revisionId": 25310
+        },
+        {
+          "title": "Nerve Gas Canister",
+          "revisionId": 25312
+        },
+        {
+          "title": "Noir Mist Cigarettes",
+          "revisionId": 25313
+        },
+        {
+          "title": "Oscilloscope",
+          "revisionId": 25315
+        },
+        {
+          "title": "Oven-Controlled Crystal Oscillator",
+          "revisionId": 25316
+        },
+        {
+          "title": "Plutonium Canister",
+          "revisionId": 25320
+        },
+        {
+          "title": "Portable SATCOM Terminal",
+          "revisionId": 25321
+        },
+        {
+          "title": "Pure White Heroin",
+          "revisionId": 25323
+        },
+        {
+          "title": "RAM",
+          "revisionId": 25327
+        },
+        {
+          "title": "Radioisotope Fuel Cell",
+          "revisionId": 25326
+        },
+        {
+          "title": "Red Blood Cell Growth Accelerator",
+          "revisionId": 25328
+        },
+        {
+          "title": "ST1122 Storage Computer",
+          "revisionId": 25340
+        },
+        {
+          "title": "Saline",
+          "revisionId": 25330
+        },
+        {
+          "title": "Sarin Canister",
+          "revisionId": 25331
+        },
+        {
+          "title": "Sodium Carbonate",
+          "revisionId": 25336
+        },
+        {
+          "title": "Sodium Citrate",
+          "revisionId": 25337
+        },
+        {
+          "title": "Spoofing ASIC Module",
+          "revisionId": 25339
+        },
+        {
+          "title": "Stabilized Morphine Sulfate Liquid",
+          "revisionId": 25341
+        },
+        {
+          "title": "Stainless Steel Sheet",
+          "revisionId": 25342
+        },
+        {
+          "title": "Theophylline",
+          "revisionId": 25344
+        },
+        {
+          "title": "Tooling Coolant",
+          "revisionId": 25345
+        },
+        {
+          "title": "UNLRA Field Terminal",
+          "revisionId": 25346
+        },
+        {
+          "title": "UNLRA Relief Manifest",
+          "revisionId": 25347
+        },
+        {
+          "title": "USP Morphine Sulfate",
+          "revisionId": 25349
+        },
+        {
+          "title": "Uplink Credentials Drive",
+          "revisionId": 25348
+        },
+        {
+          "title": "Vapor Lamp",
+          "revisionId": 25350
+        },
+        {
+          "title": "Vitamin B12",
+          "revisionId": 25351
+        },
+        {
+          "title": "Water Pump",
+          "revisionId": 25352
         }
       ]
     },
@@ -15792,7 +16909,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "B Krogan",
@@ -15945,7 +17062,7 @@
           "example": "0.104 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AK Ratnik Dust Cover",
@@ -16083,7 +17200,7 @@
           "example": "0.0001kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Dollars",
@@ -16142,7 +17259,7 @@
           "example": "Any"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Artisan",
@@ -16302,7 +17419,7 @@
           "example": "1.760kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "6B23-1(Digital)",
@@ -16474,7 +17591,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Allanach Single Malt Scotch - 40y",
@@ -16614,7 +17731,7 @@
           "example": "0.100 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "SIG MCX Pistol Grip",
@@ -16848,7 +17965,7 @@
           "example": "0.810 kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "AK-12",
@@ -17031,13 +18148,13 @@
     {
       "name": "workshop_supplies",
       "file": "workshop_supplies.json",
-      "itemCount": 16,
+      "itemCount": 14,
       "fields": {
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 14,
           "optional": false,
           "nullable": false,
           "example": "1x1"
@@ -17046,7 +18163,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 14,
           "optional": false,
           "nullable": false,
           "example": "acumulator-drill"
@@ -17055,7 +18172,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 12,
+          "presentCount": 10,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Acumulator_Drill.png/revision/latest/scale-to-width-down/200?cb=20260419122005"
@@ -17073,7 +18190,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 14,
           "optional": false,
           "nullable": false,
           "example": "Acumulator Drill"
@@ -17082,7 +18199,7 @@
           "types": [
             "object"
           ],
-          "presentCount": 15,
+          "presentCount": 13,
           "optional": true,
           "nullable": false,
           "example": {
@@ -17096,16 +18213,16 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 14,
           "optional": false,
           "nullable": false,
-          "example": "$142"
+          "example": "$150"
         },
         "type": {
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 14,
           "optional": false,
           "nullable": false,
           "example": "Workshop SUpplies"
@@ -17114,13 +18231,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 16,
+          "presentCount": 14,
           "optional": false,
           "nullable": false,
           "example": "0.120kg"
         }
       },
-      "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
+      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
       "sourcePages": [
         {
           "title": "Acumulator Drill",
@@ -17189,6 +18306,6 @@
       ]
     }
   ],
-  "lastScrapedAt": "2026-10-19T13:34:50.048025Z",
-  "lastFullScrapeAt": "2026-10-19T13:34:50.048025Z"
+  "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+  "lastFullScrapeAt": "2026-10-25T15:30:05.065042Z"
 }
