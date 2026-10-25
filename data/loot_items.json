@@ -2,7 +2,9 @@
   {
     "name": "Acetylene Cylinder",
     "id": "acetylene-cylinder",
+    "grid_size": "2x4",
     "weight": "11.500kg",
+    "sell_price": "$56",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Acetylene_Cylinder_icon.png/revision/latest?cb=20260404013900",
     "numeric_values": {
       "weight": {
@@ -14,13 +16,18 @@
   {
     "name": "Acumulator Drill",
     "id": "acumulator-drill",
+    "grid_size": "2x2",
     "weight": "???kg",
+    "sell_price": "$???",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Acumulator_Drill_icon.png/revision/latest?cb=20260420114742"
   },
   {
     "name": "Allanach Single Malt Scotch - 40y",
     "id": "allanach-single-malt-scotch---40y",
+    "grid_size": "1x2",
     "weight": "2.100 kg",
+    "sell_price": "$5,451",
+    "price_per_grid_cell": "$2,726",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Allanach_Single_Malt_Scotch_-_40y_icon.png/revision/latest?cb=20260410145813",
     "numeric_values": {
       "weight": {
@@ -32,7 +39,10 @@
   {
     "name": "AN/PYQ-10",
     "id": "an/pyq-10",
+    "grid_size": "1x2",
     "weight": "0.970kg",
+    "sell_price": "$3,150",
+    "price_per_grid_cell": "$1,575",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/AN-PYQ-10_icon.png/revision/latest?cb=20260402070649",
     "numeric_values": {
       "weight": {
@@ -44,7 +54,9 @@
   {
     "name": "Aramid Cloth",
     "id": "aramid-cloth",
+    "grid_size": "2x1",
     "weight": "0.061kg",
+    "sell_price": "$42",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Aramid_Cloth_icon.png/revision/latest?cb=20260402235156",
     "numeric_values": {
       "weight": {
@@ -56,7 +68,10 @@
   {
     "name": "Army Intel",
     "id": "army-intel",
+    "grid_size": "1x2",
     "weight": "0.100kg",
+    "sell_price": "$1,280",
+    "price_per_grid_cell": "$640",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/Army_Intel_icon.png/revision/latest?cb=20250509091908",
     "numeric_values": {
       "weight": {
@@ -68,7 +83,10 @@
   {
     "name": "ATM Hacking Tool",
     "id": "atm-hacking-tool",
+    "grid_size": "1x1",
     "weight": "0.150kg",
+    "sell_price": "$750",
+    "price_per_grid_cell": "$750",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/ATM_Hacking_Tool_icon.png/revision/latest?cb=20260412113618",
     "numeric_values": {
       "weight": {
@@ -80,7 +98,10 @@
   {
     "name": "AZART P1 Radio",
     "id": "azart-p1-radio",
+    "grid_size": "1x2",
     "weight": "0.720kg",
+    "sell_price": "$825",
+    "price_per_grid_cell": "$413",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/AZART_P1_Radio_icon.png/revision/latest?cb=20260404223341",
     "numeric_values": {
       "weight": {
@@ -92,7 +113,10 @@
   {
     "name": "Biometric Access Card",
     "id": "biometric-access-card",
+    "grid_size": "1x1",
     "weight": "0.008kg",
+    "sell_price": "$1,950",
+    "price_per_grid_cell": "$1,950",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/Biometric_Access_Card_icon.png/revision/latest?cb=20260402043728",
     "numeric_values": {
       "weight": {
@@ -104,7 +128,10 @@
   {
     "name": "Biometric Thumb Drive",
     "id": "biometric-thumb-drive",
+    "grid_size": "1x1",
     "weight": "0.004kg",
+    "sell_price": "$1,875",
+    "price_per_grid_cell": "$1,875",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Biometric_Thumb_Drive_icon.png/revision/latest?cb=20260403092909",
     "numeric_values": {
       "weight": {
@@ -116,7 +143,9 @@
   {
     "name": "Black Credit Card",
     "id": "black-credit-card",
+    "grid_size": "1x1",
     "weight": "0.010kg",
+    "sell_price": "$15,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/Black_Credit_Card_icon.png/revision/latest?cb=20250612210156",
     "numeric_values": {
       "weight": {
@@ -128,7 +157,9 @@
   {
     "name": "Black Luxury Phone",
     "id": "black-luxury-phone",
+    "grid_size": "1x1",
     "weight": "0.100kg",
+    "sell_price": "$1,500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Black_Luxury_Phone_icon.png/revision/latest?cb=20250508230836",
     "numeric_values": {
       "weight": {
@@ -140,7 +171,9 @@
   {
     "name": "Bleach",
     "id": "bleach",
+    "grid_size": "1x1",
     "weight": "3.570kg",
+    "sell_price": "$19",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Bleach_icon.png/revision/latest?cb=20260331074658",
     "numeric_values": {
       "weight": {
@@ -165,7 +198,9 @@
   {
     "name": "Brake Fluid",
     "id": "brake-fluid",
+    "grid_size": "2x2",
     "weight": "3.800kg",
+    "sell_price": "$21",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Brake_Fluid_icon.png/revision/latest?cb=20260331074803",
     "numeric_values": {
       "weight": {
@@ -177,7 +212,10 @@
   {
     "name": "Breda Rum - 30y",
     "id": "breda-rum---30y",
+    "grid_size": "1x2",
     "weight": "1.700 kg",
+    "sell_price": "$3,802",
+    "price_per_grid_cell": "$1,901",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/Breda_Rum_-_30y_icon.png/revision/latest?cb=20250729190947",
     "numeric_values": {
       "weight": {
@@ -189,7 +227,9 @@
   {
     "name": "Broken Angle Grinder",
     "id": "broken-angle-grinder",
+    "grid_size": "2x2",
     "weight": "2.499kg",
+    "sell_price": "$56",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Broken_Angle_Grinder_icon.png/revision/latest?cb=20260404004925",
     "numeric_values": {
       "weight": {
@@ -201,7 +241,9 @@
   {
     "name": "Broken Carpentry Hammer",
     "id": "broken-carpentry-hammer",
+    "grid_size": "1x2",
     "weight": "0.312kg",
+    "sell_price": "$6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/Broken_Carpentry_Hammer_icon.png/revision/latest?cb=20260331075234",
     "numeric_values": {
       "weight": {
@@ -213,7 +255,9 @@
   {
     "name": "Broken Handsaw",
     "id": "broken-handsaw",
+    "grid_size": "2x2",
     "weight": "0.680kg",
+    "sell_price": "$24",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/44/Broken_Handsaw_icon.png/revision/latest?cb=20260403095209",
     "numeric_values": {
       "weight": {
@@ -225,7 +269,9 @@
   {
     "name": "Broken Jigsaw",
     "id": "broken-jigsaw",
+    "grid_size": "2x2",
     "weight": "2.000kg",
+    "sell_price": "$55",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Broken_Jigsaw_icon.png/revision/latest?cb=20260403234749",
     "numeric_values": {
       "weight": {
@@ -237,7 +283,9 @@
   {
     "name": "Broken Nailgun",
     "id": "broken-nailgun",
+    "grid_size": "2x2",
     "weight": "2.500kg",
+    "sell_price": "$75",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Broken_Nailgun_icon.png/revision/latest?cb=20260404004748",
     "numeric_values": {
       "weight": {
@@ -249,7 +297,9 @@
   {
     "name": "Broken Screwdriver",
     "id": "broken-screwdriver",
+    "grid_size": "1x1",
     "weight": "0.120kg",
+    "sell_price": "$6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/Broken_Screwdriver_icon.png/revision/latest?cb=20260331085809",
     "numeric_values": {
       "weight": {
@@ -261,7 +311,10 @@
   {
     "name": "Businessman ID Card",
     "id": "businessman-id-card",
+    "grid_size": "1x1",
     "weight": "0.050kg",
+    "sell_price": "$937",
+    "price_per_grid_cell": "$937",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/Businessman_ID_Card_icon.png/revision/latest?cb=20260402072144",
     "numeric_values": {
       "weight": {
@@ -273,7 +326,10 @@
   {
     "name": "C2 Military Laptop",
     "id": "c2-military-laptop",
+    "grid_size": "2x2",
     "weight": "5.000kg",
+    "sell_price": "$4,900",
+    "price_per_grid_cell": "$1,225",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/C2_Military_Laptop_icon.png/revision/latest?cb=20260406080037",
     "numeric_values": {
       "weight": {
@@ -287,6 +343,7 @@
     "id": "camera-wiretap",
     "grid_size": "1x1",
     "weight": "0.010 kg",
+    "trader": "Handshake LL1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Camera_Wiretap_icon.png/revision/latest?cb=20250621155427",
     "numeric_values": {
       "weight": {
@@ -298,7 +355,9 @@
   {
     "name": "Camouflage Fabric",
     "id": "camouflage-fabric",
+    "grid_size": "2x1",
     "weight": "0.480kg",
+    "sell_price": "$10",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Camouflage_Fabric_icon.png/revision/latest?cb=20260331075043",
     "numeric_values": {
       "weight": {
@@ -310,7 +369,9 @@
   {
     "name": "Car Battery",
     "id": "car-battery",
+    "grid_size": "2x2",
     "weight": "12.660kg",
+    "sell_price": "$56",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Car_Battery_icon.png/revision/latest?cb=20260331075125",
     "numeric_values": {
       "weight": {
@@ -322,7 +383,9 @@
   {
     "name": "Carton of Tahirs Cigarettes",
     "id": "carton-of-tahirs-cigarettes",
+    "grid_size": "3x1",
     "weight": "0.250kg",
+    "sell_price": "$27",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Carton_of_Tahirs_Cigarettes_icon.png/revision/latest?cb=20260331075356",
     "numeric_values": {
       "weight": {
@@ -334,7 +397,9 @@
   {
     "name": "Common Credit Card",
     "id": "common-credit-card",
+    "grid_size": "1x1",
     "weight": "0.005kg",
+    "sell_price": "$600",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Common_Credit_Card_icon.png/revision/latest?cb=20250508162633",
     "numeric_values": {
       "weight": {
@@ -346,7 +411,10 @@
   {
     "name": "Crime-related Intel",
     "id": "crime-related-intel",
+    "grid_size": "1x2",
     "weight": "0.100kg",
+    "sell_price": "$140",
+    "price_per_grid_cell": "$70",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Crime-related_Intel_icon.png/revision/latest?cb=20250518152237",
     "numeric_values": {
       "weight": {
@@ -358,7 +426,9 @@
   {
     "name": "Dark Pearl Necklace",
     "id": "dark-pearl-necklace",
+    "grid_size": "1x1",
     "weight": "0.050kg",
+    "sell_price": "$1,350",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/Dark_Pearl_Necklace_icon.png/revision/latest?cb=20260404014101",
     "numeric_values": {
       "weight": {
@@ -370,7 +440,9 @@
   {
     "name": "Deck of Cards",
     "id": "deck-of-cards",
+    "grid_size": "1x1",
     "weight": "0.088kg",
+    "sell_price": "$3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Deck_of_Cards_icon.png/revision/latest?cb=20260331075443",
     "numeric_values": {
       "weight": {
@@ -382,7 +454,10 @@
   {
     "name": "Delicate Perfume Bottle",
     "id": "delicate-perfume-bottle",
+    "grid_size": "1x1",
     "weight": "0.300 kg",
+    "sell_price": "$150",
+    "price_per_grid_cell": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Delicate_Perfume_Bottle_icon.png/revision/latest?cb=20260331075650",
     "numeric_values": {
       "weight": {
@@ -394,7 +469,9 @@
   {
     "name": "Diamond Earrings",
     "id": "diamond-earrings",
+    "grid_size": "1x1",
     "weight": "0.020kg",
+    "sell_price": "$5,700",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/Diamond_Earrings_icon.png/revision/latest?cb=20260404014256",
     "numeric_values": {
       "weight": {
@@ -406,7 +483,9 @@
   {
     "name": "Diamond Ring",
     "id": "diamond-ring",
+    "grid_size": "1x1",
     "weight": "0.010kg",
+    "sell_price": "$7,700",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/Diamond_Ring_icon.png/revision/latest?cb=20250514034532",
     "numeric_values": {
       "weight": {
@@ -418,7 +497,9 @@
   {
     "name": "Diamond-Coral Ring",
     "id": "diamond-coral-ring",
+    "grid_size": "1x1",
     "weight": "0.020kg",
+    "sell_price": "$5,250",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Diamond-Coral_Ring_icon.png/revision/latest?cb=20260404014720",
     "numeric_values": {
       "weight": {
@@ -430,7 +511,10 @@
   {
     "name": "Digital Camera",
     "id": "digital-camera",
+    "grid_size": "1x1",
     "weight": "0.250kg",
+    "sell_price": "$112",
+    "price_per_grid_cell": "$112",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Digital_Camera_icon.png/revision/latest?cb=20250621182741",
     "numeric_values": {
       "weight": {
@@ -442,7 +526,9 @@
   {
     "name": "Disinfectant",
     "id": "disinfectant",
+    "grid_size": "1x1",
     "weight": "1.000kg",
+    "sell_price": "$199",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Disinfectant_icon.png/revision/latest?cb=20260402215318",
     "numeric_values": {
       "weight": {
@@ -454,7 +540,9 @@
   {
     "name": "Drain Cleaner",
     "id": "drain-cleaner",
+    "grid_size": "2x2",
     "weight": "5.000kg",
+    "sell_price": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Drain_Cleaner_icon.png/revision/latest?cb=20260402235121",
     "numeric_values": {
       "weight": {
@@ -466,7 +554,10 @@
   {
     "name": "Driver's Licence",
     "id": "drivers-licence",
+    "grid_size": "1x1",
     "weight": "0.050kg",
+    "sell_price": "$262",
+    "price_per_grid_cell": "$262",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/Driver%27s_Licence_icon.png/revision/latest?cb=20260331080050",
     "numeric_values": {
       "weight": {
@@ -478,7 +569,9 @@
   {
     "name": "Elaborate Ring",
     "id": "elaborate-ring",
+    "grid_size": "1x1",
     "weight": "0.020kg",
+    "sell_price": "$4,400",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Elaborate_Ring_icon.png/revision/latest?cb=20260404014804",
     "numeric_values": {
       "weight": {
@@ -490,7 +583,9 @@
   {
     "name": "Emerald Necklace",
     "id": "emerald-necklace",
+    "grid_size": "1x1",
     "weight": "0.050kg",
+    "sell_price": "$5,300",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Emerald_Necklace_icon.png/revision/latest?cb=20250508233719",
     "numeric_values": {
       "weight": {
@@ -502,7 +597,10 @@
   {
     "name": "Encrypted Hard Disk Drive",
     "id": "encrypted-hard-disk-drive",
+    "grid_size": "1x1",
     "weight": "0.180kg",
+    "sell_price": "$3,450",
+    "price_per_grid_cell": "$3,450",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/Encrypted_Hard_Disk_Drive_icon.png/revision/latest?cb=20260410165933",
     "numeric_values": {
       "weight": {
@@ -514,7 +612,9 @@
   {
     "name": "Expensive Smartphone",
     "id": "expensive-smartphone",
+    "grid_size": "1x1",
     "weight": "0.100kg",
+    "sell_price": "$350",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Expensive_Smartphone_icon.png/revision/latest?cb=20250506122257",
     "numeric_values": {
       "weight": {
@@ -526,7 +626,9 @@
   {
     "name": "Fishing Line",
     "id": "fishing-line",
+    "grid_size": "1x1",
     "weight": "0.130kg",
+    "sell_price": "$3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/Fishing_Line_icon.png/revision/latest?cb=20260331080254",
     "numeric_values": {
       "weight": {
@@ -538,7 +640,10 @@
   {
     "name": "Fragrant Perfume Bottle",
     "id": "fragrant-perfume-bottle",
+    "grid_size": "1x2",
     "weight": "0.250 kg",
+    "sell_price": "$75",
+    "price_per_grid_cell": "$38",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Fragrant_Perfume_Bottle_icon.png/revision/latest?cb=20260331080330",
     "numeric_values": {
       "weight": {
@@ -550,7 +655,9 @@
   {
     "name": "Fuel Canister",
     "id": "fuel-canister",
+    "grid_size": "2x2",
     "weight": "5.000kg",
+    "sell_price": "$21",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Fuel_Canister_icon.png/revision/latest?cb=20260404004846",
     "numeric_values": {
       "weight": {
@@ -562,7 +669,9 @@
   {
     "name": "Gemstone Ring",
     "id": "gemstone-ring",
+    "grid_size": "1x1",
     "weight": "0.010kg",
+    "sell_price": "$820",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/Gemstone_Ring_icon.png/revision/latest?cb=20250506122237",
     "numeric_values": {
       "weight": {
@@ -574,7 +683,10 @@
   {
     "name": "GLONASS Grot-M Navigation Receiver",
     "id": "glonass-grot-m-navigation-receiver",
+    "grid_size": "1x2",
     "weight": "0.800kg",
+    "sell_price": "$937",
+    "price_per_grid_cell": "$469",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/GLONASS_Grot-M_Navigation_Receiver_icon.png/revision/latest?cb=20260402045518",
     "numeric_values": {
       "weight": {
@@ -586,7 +698,9 @@
   {
     "name": "Gold Credit Card",
     "id": "gold-credit-card",
+    "grid_size": "1x1",
     "weight": "0.005kg",
+    "sell_price": "$2,200",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Gold_Credit_Card_icon.png/revision/latest?cb=20250506122203",
     "numeric_values": {
       "weight": {
@@ -598,7 +712,9 @@
   {
     "name": "Gold Necklace",
     "id": "gold-necklace",
+    "grid_size": "1x1",
     "weight": "0.020kg",
+    "sell_price": "$180",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Gold_Necklace_icon.png/revision/latest?cb=20250507135627",
     "numeric_values": {
       "weight": {
@@ -610,7 +726,9 @@
   {
     "name": "Gold Ring",
     "id": "gold-ring",
+    "grid_size": "1x1",
     "weight": "0.020kg",
+    "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Gold_Ring_icon.png/revision/latest?cb=20250506174317",
     "numeric_values": {
       "weight": {
@@ -622,7 +740,10 @@
   {
     "name": "Goodlad Whiskey - 20y",
     "id": "goodlad-whiskey---20y",
+    "grid_size": "1x2",
     "weight": "1.600 kg",
+    "sell_price": "$450",
+    "price_per_grid_cell": "$225",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/Goodlad_Whiskey_-_20y_icon.png/revision/latest?cb=20250621182752",
     "numeric_values": {
       "weight": {
@@ -636,6 +757,7 @@
     "id": "gps-tracker",
     "grid_size": "1x1",
     "weight": "0.050 kg",
+    "trader": "Gunny LL1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/Tracker_Icon.png/revision/latest?cb=20250621155139",
     "numeric_values": {
       "weight": {
@@ -647,7 +769,9 @@
   {
     "name": "Hand Mirror",
     "id": "hand-mirror",
+    "grid_size": "1x2",
     "weight": "0.400kg",
+    "sell_price": "$9",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Hand_Mirror_icon.png/revision/latest?cb=20260331080642",
     "numeric_values": {
       "weight": {
@@ -659,7 +783,10 @@
   {
     "name": "Handheld ECM Jammer",
     "id": "handheld-ecm-jammer",
+    "grid_size": "1x2",
     "weight": "2.000kg",
+    "sell_price": "$712",
+    "price_per_grid_cell": "$356",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/eb/Handheld_ECM_Jammer_icon.png/revision/latest?cb=20260402044213",
     "numeric_values": {
       "weight": {
@@ -671,13 +798,19 @@
   {
     "name": "Heavenly Perfume Bottle",
     "id": "heavenly-perfume-bottle",
+    "grid_size": "1x2",
     "weight": "??? kg",
+    "sell_price": "$335",
+    "price_per_grid_cell": "$168",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Heavenly_Perfume_Bottle_icon.png/revision/latest?cb=20260402235001"
   },
   {
     "name": "HGCS-30 UAV Control Station",
     "id": "hgcs-30-uav-control-station",
+    "grid_size": "2x2",
     "weight": "3.000kg",
+    "sell_price": "$2,000",
+    "price_per_grid_cell": "$500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/HGCS-30_UAV_Control_Station_icon.png/revision/latest?cb=20260331081049",
     "numeric_values": {
       "weight": {
@@ -689,7 +822,10 @@
   {
     "name": "Hyperborea Cigarettes",
     "id": "hyperborea-cigarettes",
+    "grid_size": "1x1",
     "weight": "0.020 kg",
+    "sell_price": "$139",
+    "price_per_grid_cell": "$139",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Hyperborea_Cigarettes_icon.png/revision/latest?cb=20260402042858",
     "numeric_values": {
       "weight": {
@@ -701,7 +837,9 @@
   {
     "name": "Industrial Solvent",
     "id": "industrial-solvent",
+    "grid_size": "2x2",
     "weight": "3.800kg",
+    "sell_price": "$29",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Industrial_Solvent_icon.png/revision/latest?cb=20260525092626",
     "numeric_values": {
       "weight": {
@@ -713,7 +851,9 @@
   {
     "name": "Insect Repellant Spray",
     "id": "insect-repellant-spray",
+    "grid_size": "1x1",
     "weight": "0.258kg",
+    "sell_price": "$6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e0/Insect_Repellant_Spray_icon.png/revision/latest?cb=20260331081403",
     "numeric_values": {
       "weight": {
@@ -725,7 +865,9 @@
   {
     "name": "Jumper Cables",
     "id": "jumper-cables",
+    "grid_size": "2x2",
     "weight": "2.340kg",
+    "sell_price": "$30",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/Jumper_Cables_icon.png/revision/latest?cb=20260403094142",
     "numeric_values": {
       "weight": {
@@ -737,7 +879,10 @@
   {
     "name": "KIK-11 Tactical Key Loader",
     "id": "kik-11-tactical-key-loader",
+    "grid_size": "1x1",
     "weight": "0.450kg",
+    "sell_price": "$2,900",
+    "price_per_grid_cell": "$2,900",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/KIK-11_Tactical_Key_Loader_icon.png/revision/latest?cb=20260404034236",
     "numeric_values": {
       "weight": {
@@ -749,7 +894,10 @@
   {
     "name": "Lambert Cigars",
     "id": "lambert-cigars",
+    "grid_size": "1x2",
     "weight": "0.600 kg",
+    "sell_price": "$282",
+    "price_per_grid_cell": "$141",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Lambert_Cigars_icon.png/revision/latest?cb=20260402071045",
     "numeric_values": {
       "weight": {
@@ -761,7 +909,9 @@
   {
     "name": "Lamp Oil",
     "id": "lamp-oil",
+    "grid_size": "1x2",
     "weight": "1.000kg",
+    "sell_price": "$3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Lamp_Oil_icon.png/revision/latest?cb=20260331082337",
     "numeric_values": {
       "weight": {
@@ -773,7 +923,10 @@
   {
     "name": "Laptop",
     "id": "laptop",
+    "grid_size": "2x2",
     "weight": "1.500kg",
+    "sell_price": "$750",
+    "price_per_grid_cell": "$188",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Laptop_icon.png/revision/latest?cb=20260402225000",
     "numeric_values": {
       "weight": {
@@ -785,7 +938,9 @@
   {
     "name": "Lighter",
     "id": "lighter",
+    "grid_size": "1x1",
     "weight": "0.040kg",
+    "sell_price": "$1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Lighter_icon.png/revision/latest?cb=20260402235406",
     "numeric_values": {
       "weight": {
@@ -797,7 +952,10 @@
   {
     "name": "Local ID Card",
     "id": "local-id-card",
+    "grid_size": "1x1",
     "weight": "0.050kg",
+    "sell_price": "$187",
+    "price_per_grid_cell": "$187",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/Local_ID_Card_icon.png/revision/latest?cb=20260402044604",
     "numeric_values": {
       "weight": {
@@ -809,7 +967,9 @@
   {
     "name": "Low-Grade Gunpowder",
     "id": "low-grade-gunpowder",
+    "grid_size": "1x2",
     "weight": "0.450kg",
+    "sell_price": "$23",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8d/Low-Grade_Gunpowder_icon.png/revision/latest?cb=20260331082736",
     "numeric_values": {
       "weight": {
@@ -821,7 +981,10 @@
   {
     "name": "LTSD-4-3 Laser Designator",
     "id": "ltsd-4-3-laser-designator",
+    "grid_size": "3x3",
     "weight": "14.000kg",
+    "sell_price": "$60,000",
+    "price_per_grid_cell": "$6,667",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/LTSD-4-3_Laser_Designator_icon.png/revision/latest?cb=20260404034007",
     "numeric_values": {
       "weight": {
@@ -833,7 +996,9 @@
   {
     "name": "Luxury Smartphone",
     "id": "luxury-smartphone",
+    "grid_size": "1x1",
     "weight": "0.100kg",
+    "sell_price": "$1,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Luxury_Smartphone_icon.png/revision/latest?cb=20250508181126",
     "numeric_values": {
       "weight": {
@@ -845,7 +1010,9 @@
   {
     "name": "Luxury Smartwatch",
     "id": "luxury-smartwatch",
+    "grid_size": "1x1",
     "weight": "0.150kg",
+    "sell_price": "$600",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Luxury_Smartwatch_icon.png/revision/latest?cb=20250507035901",
     "numeric_values": {
       "weight": {
@@ -857,7 +1024,9 @@
   {
     "name": "Majestic Titanium Watch",
     "id": "majestic-titanium-watch",
+    "grid_size": "1x1",
     "weight": "0.100kg",
+    "sell_price": "$8,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Majestic_Titanium_Watch_icon.png/revision/latest?cb=20250702190239",
     "numeric_values": {
       "weight": {
@@ -869,7 +1038,9 @@
   {
     "name": "Master Carbon SEAL Automatic Watch",
     "id": "master-carbon-seal-automatic-watch",
+    "grid_size": "1x1",
     "weight": "0.170kg",
+    "sell_price": "$1,450",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Master_Carbon_SEAL_Automatic_Watch_icon.png/revision/latest?cb=20260402051640",
     "numeric_values": {
       "weight": {
@@ -881,7 +1052,9 @@
   {
     "name": "Modern Watch",
     "id": "modern-watch",
+    "grid_size": "1x1",
     "weight": "0.120kg",
+    "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/Modern_Watch_icon.png/revision/latest?cb=20250502160158",
     "numeric_values": {
       "weight": {
@@ -893,7 +1066,9 @@
   {
     "name": "Motor Oil",
     "id": "motor-oil",
+    "grid_size": "2x2",
     "weight": "4.300kg",
+    "sell_price": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Motor_Oil_icon.png/revision/latest?cb=20260331083528",
     "numeric_values": {
       "weight": {
@@ -905,7 +1080,9 @@
   {
     "name": "Motorbike Battery",
     "id": "motorbike-battery",
+    "grid_size": "2x1",
     "weight": "2.000kg",
+    "sell_price": "$36",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/Motorbike_Battery_icon.png/revision/latest?cb=20260331083649",
     "numeric_values": {
       "weight": {
@@ -917,7 +1094,10 @@
   {
     "name": "Moutai - 50y",
     "id": "moutai---50y",
+    "grid_size": "1x2",
     "weight": "1.500 kg",
+    "sell_price": "$15,000",
+    "price_per_grid_cell": "$7,500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Moutai_-_50y_icon.png/revision/latest?cb=20250531204306",
     "numeric_values": {
       "weight": {
@@ -929,7 +1109,9 @@
   {
     "name": "Naosaoad 100% Clean",
     "id": "naosaoad-100%-clean",
+    "grid_size": "1x2",
     "weight": "0.500kg",
+    "sell_price": "$18",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Naosaoad_100%25_Clean_icon.png/revision/latest?cb=20260331083855",
     "numeric_values": {
       "weight": {
@@ -941,7 +1123,10 @@
   {
     "name": "NPI-2 Navigation Receiver",
     "id": "npi-2-navigation-receiver",
+    "grid_size": "1x1",
     "weight": "0.300kg",
+    "sell_price": "$1,100",
+    "price_per_grid_cell": "$1,100",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/NPI-2_Navigation_Receiver_icon.png/revision/latest?cb=20260402045946",
     "numeric_values": {
       "weight": {
@@ -953,7 +1138,10 @@
   {
     "name": "One-Time Pad Key Sheets",
     "id": "one-time-pad-key-sheets",
+    "grid_size": "1x1",
     "weight": "0.100kg",
+    "sell_price": "$2,400",
+    "price_per_grid_cell": "$2,400",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/One-Time_Pad_Key_Sheets_icon.png/revision/latest?cb=20260402050119",
     "numeric_values": {
       "weight": {
@@ -965,7 +1153,10 @@
   {
     "name": "Operation Data Encrypted Hard Disk",
     "id": "operation-data-encrypted-hard-disk",
+    "grid_size": "1x1",
     "weight": "0.180kg",
+    "sell_price": "$4,875",
+    "price_per_grid_cell": "$4,875",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Operation_Data_Encrypted_Hard_Disk_icon.png/revision/latest?cb=20260411164244",
     "numeric_values": {
       "weight": {
@@ -977,7 +1168,9 @@
   {
     "name": "Pack of AA Batteries",
     "id": "pack-of-aa-batteries",
+    "grid_size": "1x1",
     "weight": "0.024kg",
+    "sell_price": "$7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Pack_of_AA_Batteries_icon.png/revision/latest?cb=20260331084203",
     "numeric_values": {
       "weight": {
@@ -989,7 +1182,9 @@
   {
     "name": "Pack of Premium Coffee",
     "id": "pack-of-premium-coffee",
+    "grid_size": "1x2",
     "weight": "0.600kg",
+    "sell_price": "$27",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/Pack_of_Premium_Coffee_icon.png/revision/latest?cb=20260331084220",
     "numeric_values": {
       "weight": {
@@ -1001,7 +1196,9 @@
   {
     "name": "Paracord",
     "id": "paracord",
+    "grid_size": "2x1",
     "weight": "0.100kg",
+    "sell_price": "$9",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Paracord_icon.png/revision/latest?cb=20260331084246",
     "numeric_values": {
       "weight": {
@@ -1013,7 +1210,10 @@
   {
     "name": "PBG-01+ UAV Control Station",
     "id": "pbg-01+-uav-control-station",
+    "grid_size": "2x2",
     "weight": "14.200kg",
+    "sell_price": "$6,400",
+    "price_per_grid_cell": "$1,600",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/PBG-01%2B_UAV_Control_Station_icon.png/revision/latest?cb=20260331084340",
     "numeric_values": {
       "weight": {
@@ -1025,7 +1225,9 @@
   {
     "name": "Perfect Pearl Earrings",
     "id": "perfect-pearl-earrings",
+    "grid_size": "1x1",
     "weight": "0.010kg",
+    "sell_price": "$5,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/Perfect_Pearl_Earrings_icon.png/revision/latest?cb=20250513043843",
     "numeric_values": {
       "weight": {
@@ -1037,7 +1239,9 @@
   {
     "name": "Petrolatum",
     "id": "petrolatum",
+    "grid_size": "1x1",
     "weight": "0.370kg",
+    "sell_price": "$9",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Petrolatum_icon.png/revision/latest?cb=20260331084512",
     "numeric_values": {
       "weight": {
@@ -1049,7 +1253,9 @@
   {
     "name": "Phone Charger",
     "id": "phone-charger",
+    "grid_size": "1x1",
     "weight": "0.075kg",
+    "sell_price": "$9",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Phone_Charger_icon.png/revision/latest?cb=20260331084625",
     "numeric_values": {
       "weight": {
@@ -1061,7 +1267,9 @@
   {
     "name": "Platinum Credit Card",
     "id": "platinum-credit-card",
+    "grid_size": "1x1",
     "weight": "0.005kg",
+    "sell_price": "$6,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/Platinum_Credit_Card_icon.png/revision/latest?cb=20260402234915",
     "numeric_values": {
       "weight": {
@@ -1073,7 +1281,9 @@
   {
     "name": "Platinum Ring",
     "id": "platinum-ring",
+    "grid_size": "1x1",
     "weight": "0.010kg",
+    "sell_price": "$10,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/Platinum_Ring_icon.png/revision/latest?cb=20250702190225",
     "numeric_values": {
       "weight": {
@@ -1087,6 +1297,7 @@
     "id": "pro-multitool",
     "grid_size": "1x1",
     "weight": "0.120 kg",
+    "trader": "Handshake LL1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Pro_Multitool_icon.png/revision/latest?cb=20250128181319",
     "numeric_values": {
       "weight": {
@@ -1098,7 +1309,9 @@
   {
     "name": "Propane Bottle",
     "id": "propane-bottle",
+    "grid_size": "1x2",
     "weight": "0.453kg",
+    "sell_price": "$31",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Propane_Bottle_icon.png/revision/latest?cb=20260403075825",
     "numeric_values": {
       "weight": {
@@ -1110,7 +1323,10 @@
   {
     "name": "R-438 Barrier-T",
     "id": "r-438-barrier-t",
+    "grid_size": "3x3",
     "weight": "16.000kg",
+    "sell_price": "$45,000",
+    "price_per_grid_cell": "$5,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/R-438_Barrier-T_icon.png/revision/latest?cb=20260404034119",
     "numeric_values": {
       "weight": {
@@ -1122,7 +1338,9 @@
   {
     "name": "Refillable Lighter",
     "id": "refillable-lighter",
+    "grid_size": "1x1",
     "weight": "0.080kg",
+    "sell_price": "$37",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Refillable_Lighter_icon.png/revision/latest?cb=20260331085446",
     "numeric_values": {
       "weight": {
@@ -1134,7 +1352,10 @@
   {
     "name": "Reflex Camera",
     "id": "reflex-camera",
+    "grid_size": "2x1",
     "weight": "0.400kg",
+    "sell_price": "$960",
+    "price_per_grid_cell": "$480",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/Reflex_Camera_icon.png/revision/latest?cb=20250508181135",
     "numeric_values": {
       "weight": {
@@ -1146,7 +1367,10 @@
   {
     "name": "Reinforced Military Laptop",
     "id": "reinforced-military-laptop",
+    "grid_size": "2x2",
     "weight": "2.500kg",
+    "sell_price": "$2,304",
+    "price_per_grid_cell": "$576",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Reinforced_Military_Laptop_icon.png/revision/latest?cb=20250516193035",
     "numeric_values": {
       "weight": {
@@ -1158,7 +1382,9 @@
   {
     "name": "Rubber Renue",
     "id": "rubber-renue",
+    "grid_size": "1x2",
     "weight": "1.000kg",
+    "sell_price": "$51",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Rubber_Renue_icon.png/revision/latest?cb=20260331085608",
     "numeric_values": {
       "weight": {
@@ -1170,7 +1396,10 @@
   {
     "name": "Rugged Military Tablet",
     "id": "rugged-military-tablet",
+    "grid_size": "2x2",
     "weight": "2.000kg",
+    "sell_price": "$1,200",
+    "price_per_grid_cell": "$300",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Rugged_Military_Tablet_icon.png/revision/latest?cb=20260404034408",
     "numeric_values": {
       "weight": {
@@ -1195,7 +1424,9 @@
   {
     "name": "Sapphire Pendant",
     "id": "sapphire-pendant",
+    "grid_size": "1x1",
     "weight": "0.010kg",
+    "sell_price": "$3,600",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Sapphire_Pendant_icon.png/revision/latest?cb=20250513042856",
     "numeric_values": {
       "weight": {
@@ -1207,7 +1438,9 @@
   {
     "name": "Sewing Set",
     "id": "sewing-set",
+    "grid_size": "1x1",
     "weight": "0.146kg",
+    "sell_price": "$1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Sewing_Set_icon.png/revision/latest?cb=20260331085847",
     "numeric_values": {
       "weight": {
@@ -1219,7 +1452,10 @@
   {
     "name": "Signal Repeater RT97S",
     "id": "signal-repeater-rt97s",
+    "grid_size": "3x2",
     "weight": "1.660kg",
+    "sell_price": "$675",
+    "price_per_grid_cell": "$113",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Signal_Repeater_RT97S_icon.png/revision/latest?cb=20260402044834",
     "numeric_values": {
       "weight": {
@@ -1231,7 +1467,9 @@
   {
     "name": "Sleek Luxury Watch",
     "id": "sleek-luxury-watch",
+    "grid_size": "1x1",
     "weight": "0.130kg",
+    "sell_price": "$1,700",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Sleek_Luxury_Watch_icon.png/revision/latest?cb=20250507135948",
     "numeric_values": {
       "weight": {
@@ -1243,7 +1481,9 @@
   {
     "name": "Smartphone",
     "id": "smartphone",
+    "grid_size": "1x1",
     "weight": "0.100kg",
+    "sell_price": "$250",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/Smartphone_icon.png/revision/latest?cb=20250508230706",
     "numeric_values": {
       "weight": {
@@ -1255,7 +1495,10 @@
   {
     "name": "Snake Wine",
     "id": "snake-wine",
+    "grid_size": "1x2",
     "weight": "1.400 kg",
+    "sell_price": "$399",
+    "price_per_grid_cell": "$200",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/Snake_Wine_icon.png/revision/latest?cb=20260402071910",
     "numeric_values": {
       "weight": {
@@ -1267,7 +1510,10 @@
   {
     "name": "STRELETS-M Tablet",
     "id": "strelets-m-tablet",
+    "grid_size": "1x2",
     "weight": "1.400kg",
+    "sell_price": "$4,650",
+    "price_per_grid_cell": "$2,325",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/STRELETS-M_Tablet_icon.png/revision/latest?cb=20260404034623",
     "numeric_values": {
       "weight": {
@@ -1279,7 +1525,9 @@
   {
     "name": "Sulfuric Acid",
     "id": "sulfuric-acid",
+    "grid_size": "2x2",
     "weight": "5.030kg",
+    "sell_price": "$99",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/Sulfuric_Acid_icon.png/revision/latest?cb=20260402235100",
     "numeric_values": {
       "weight": {
@@ -1291,7 +1539,9 @@
   {
     "name": "Tahirs Cigarettes",
     "id": "tahirs-cigarettes",
+    "grid_size": "1x1",
     "weight": "0.013kg",
+    "sell_price": "$5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/Tahirs_Cigarettes_icon.png/revision/latest?cb=20260402214909",
     "numeric_values": {
       "weight": {
@@ -1303,7 +1553,9 @@
   {
     "name": "Thermal Blanket",
     "id": "thermal-blanket",
+    "grid_size": "1x1",
     "weight": "0.057kg",
+    "sell_price": "$1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/18/Thermal_Blanket_icon.png/revision/latest?cb=20260403200545",
     "numeric_values": {
       "weight": {
@@ -1315,7 +1567,9 @@
   {
     "name": "Toolset",
     "id": "toolset",
+    "grid_size": "2x2",
     "weight": "1.000kg",
+    "sell_price": "$142",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Toolset_icon.png/revision/latest?cb=20260331090253",
     "numeric_values": {
       "weight": {
@@ -1327,7 +1581,10 @@
   {
     "name": "Tourist ID Card",
     "id": "tourist-id-card",
+    "grid_size": "1x1",
     "weight": "0.050kg",
+    "sell_price": "$112",
+    "price_per_grid_cell": "$112",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/Tourist_ID_Card_icon.png/revision/latest?cb=20260402185951",
     "numeric_values": {
       "weight": {
@@ -1339,7 +1596,10 @@
   {
     "name": "Tourist Passport",
     "id": "tourist-passport",
+    "grid_size": "1x1",
     "weight": "0.050kg",
+    "sell_price": "$2,625",
+    "price_per_grid_cell": "$2,625",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/Tourist_Passport_icon.png/revision/latest?cb=20260402190015",
     "numeric_values": {
       "weight": {
@@ -1351,7 +1611,10 @@
   {
     "name": "Tzintzimitl Tequila - 25y",
     "id": "tzintzimitl-tequila---25y",
+    "grid_size": "1x2",
     "weight": "1.800 kg",
+    "sell_price": "$2,020",
+    "price_per_grid_cell": "$1,010",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Tzintzimitl_Tequila_-_25y_icon.png/revision/latest?cb=20250629141827",
     "numeric_values": {
       "weight": {
@@ -1363,7 +1626,9 @@
   {
     "name": "UN Medical Tools",
     "id": "un-medical-tools",
+    "grid_size": "1x2",
     "weight": "0.500kg",
+    "sell_price": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fb/UN_Medical_Tools_icon.png/revision/latest?cb=20260402235041",
     "numeric_values": {
       "weight": {
@@ -1375,7 +1640,9 @@
   {
     "name": "Vial of Antigens",
     "id": "vial-of-antigens",
+    "grid_size": "1x1",
     "weight": "0.030kg",
+    "sell_price": "$947",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Vial_of_Antigens_icon.png/revision/latest?cb=20260403234415",
     "numeric_values": {
       "weight": {
@@ -1387,7 +1654,10 @@
   {
     "name": "VIP Passport",
     "id": "vip-passport",
+    "grid_size": "1x1",
     "weight": "0.050kg",
+    "sell_price": "$6,800",
+    "price_per_grid_cell": "$6,800",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VIP_Passport_icon.png/revision/latest?cb=20260402190035",
     "numeric_values": {
       "weight": {
@@ -1399,7 +1669,9 @@
   {
     "name": "Water Purification Tablets",
     "id": "water-purification-tablets",
+    "grid_size": "1x1",
     "weight": "0.125kg",
+    "sell_price": "$27",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/Water_Purification_Tablets_icon.png/revision/latest?cb=20260402235230",
     "numeric_values": {
       "weight": {
@@ -1411,7 +1683,9 @@
   {
     "name": "Weapon Oil",
     "id": "weapon-oil",
+    "grid_size": "1x2",
     "weight": "0.272kg",
+    "sell_price": "$9",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Weapon_Oil_icon.png/revision/latest?cb=20260331090617",
     "numeric_values": {
       "weight": {
@@ -1423,7 +1697,9 @@
   {
     "name": "White Lithium Grease",
     "id": "white-lithium-grease",
+    "grid_size": "2x3",
     "weight": "15.880kg",
+    "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/White_Lithium_Grease_icon.png/revision/latest?cb=20260403095948",
     "numeric_values": {
       "weight": {

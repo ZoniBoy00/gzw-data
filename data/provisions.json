@@ -2,8 +2,10 @@
   {
     "name": "1 Shot Energy Chews",
     "id": "1-shot-energy-chews",
+    "energy": "+5",
     "grid_size": "1x1",
     "weight": "0.040 kg",
+    "total_energy_per_grid": "+15",
     "sold_by": "Lab Rat R.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/1_Shot_Energy_Chews_icon.png/revision/latest?cb=20260411210258",
     "numeric_values": {
@@ -16,8 +18,10 @@
   {
     "name": "Aques Water 1 l",
     "id": "aques-water-1-l",
+    "hydration": "+33",
     "grid_size": "1x2",
     "weight": "1.000 kg",
+    "total_hydration_per_grid": "+33",
     "sold_by": "Lab Rat Lv.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/92/Water1_icon.png/revision/latest?cb=20250502142820",
     "numeric_values": {
@@ -30,8 +34,10 @@
   {
     "name": "Aques Water 1.5 l",
     "id": "aques-water-1.5-l",
+    "hydration": "+50",
     "grid_size": "1x2",
     "weight": "1.500 kg",
+    "total_hydration_per_grid": "+75",
     "sold_by": "Lab Rat Lv.3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Water2_icon.png/revision/latest?cb=20250502142032",
     "numeric_values": {
@@ -44,8 +50,11 @@
   {
     "name": "Bamboo Shoots",
     "id": "bamboo-shoots",
+    "hydration": "+5",
+    "energy": "+15",
     "grid_size": "1x2",
     "weight": "0.600 kg",
+    "total_energy_per_grid": "+7.5",
     "sold_by": "Looting",
     "numeric_values": {
       "weight": {
@@ -57,8 +66,10 @@
   {
     "name": "Berg Bar Cookie Chocolate *",
     "id": "berg-bar-cookie-chocolate-*",
+    "energy": "+25",
     "grid_size": "1x1",
     "weight": "0.070 kg",
+    "total_energy_per_grid": "+25",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/44/ChBar4_icon.png/revision/latest?cb=20250610042853",
     "numeric_values": {
@@ -71,8 +82,11 @@
   {
     "name": "Canned Tuna Chunks",
     "id": "canned-tuna-chunks",
+    "hydration": "-10",
+    "energy": "+40",
     "grid_size": "1x1",
     "weight": "0.170 kg",
+    "total_energy_per_grid": "+40",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Tuna_icon.png/revision/latest?cb=20250610053427",
     "numeric_values": {
@@ -85,8 +99,10 @@
   {
     "name": "Coco Jumbo Coconut Juice Drink",
     "id": "coco-jumbo-coconut-juice-drink",
+    "hydration": "+24",
     "grid_size": "1x1",
     "weight": "0.240 kg",
+    "total_hydration_per_grid": "+24",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/CDrink_icon.png/revision/latest?cb=20250502155148",
     "numeric_values": {
@@ -99,8 +115,10 @@
   {
     "name": "Combat Ration Pack",
     "id": "combat-ration-pack",
+    "energy": "+75",
     "grid_size": "1x2",
     "weight": "0.600 kg",
+    "total_energy_per_grid": "+37.5",
     "sold_by": "Lab Rat Lv.3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/CRP_icon.png/revision/latest?cb=20250502142633",
     "numeric_values": {
@@ -113,8 +131,11 @@
   {
     "name": "Cowboy Baked Beans",
     "id": "cowboy-baked-beans",
+    "hydration": "+5",
+    "energy": "+35",
     "grid_size": "1x2",
     "weight": "0.425 kg",
+    "total_energy_per_grid": "+17.5",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/Beans_icon.png/revision/latest?cb=20250610071124",
     "numeric_values": {
@@ -127,8 +148,11 @@
   {
     "name": "Dark Star Iced Coffee *",
     "id": "dark-star-iced-coffee-*",
+    "hydration": "+20",
+    "energy": "+5",
     "grid_size": "1x1",
     "weight": "0.200 kg",
+    "total_hydration_per_grid": "+20",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Coffee_icon.png/revision/latest?cb=20250621182737",
     "numeric_values": {
@@ -141,8 +165,10 @@
   {
     "name": "Energy Bar Nuts and Fruits *",
     "id": "energy-bar-nuts-and-fruits-*",
+    "energy": "+14",
     "grid_size": "1x1",
     "weight": "0.040 kg",
+    "total_energy_per_grid": "+14",
     "sold_by": "Lab Rat Lv.1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/EBar_icon.png/revision/latest?cb=20250502142245",
     "numeric_values": {
@@ -155,8 +181,11 @@
   {
     "name": "Gray Focused Energy *",
     "id": "gray-focused-energy-*",
+    "hydration": "+35",
+    "energy": "+5",
     "grid_size": "1x1",
     "weight": "0.400 kg",
+    "total_hydration_per_grid": "+35",
     "sold_by": "Lab Rat Lv.3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Gray_icon.png/revision/latest?cb=20250621182754",
     "numeric_values": {
@@ -169,8 +198,10 @@
   {
     "name": "HDR Meal",
     "id": "hdr-meal",
+    "energy": "+80",
     "grid_size": "1x2",
     "weight": "0.850 kg",
+    "total_energy_per_grid": "+40",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/54/HDR_icon.png/revision/latest?cb=20250610053132",
     "numeric_values": {
@@ -183,8 +214,11 @@
   {
     "name": "Infinity Isotonic Drink",
     "id": "infinity-isotonic-drink",
+    "hydration": "+40",
+    "energy": "+5",
     "grid_size": "1x1",
     "weight": "0.330 kg",
+    "total_hydration_per_grid": "+40",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/56/IDrink_icon.png/revision/latest?cb=20240520001016",
     "numeric_values": {
@@ -197,8 +231,11 @@
   {
     "name": "Kaipo Lychee Nectar",
     "id": "kaipo-lychee-nectar",
+    "hydration": "+35",
+    "energy": "+10",
     "grid_size": "1x1",
     "weight": "0.400 kg",
+    "total_hydration_per_grid": "+35",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/Nectar_icon.png/revision/latest?cb=20250621182658",
     "numeric_values": {
@@ -211,8 +248,11 @@
   {
     "name": "Kasem Chocolate Wafers",
     "id": "kasem-chocolate-wafers",
+    "hydration": "-5",
+    "energy": "+14",
     "grid_size": "1x1",
     "weight": "0.010 kg",
+    "total_energy_per_grid": "+14",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d2/Wafers_icon.png/revision/latest?cb=20250610042619",
     "numeric_values": {
@@ -225,8 +265,11 @@
   {
     "name": "Lucky Pork Liver Pâté",
     "id": "lucky-pork-liver-pâté",
+    "hydration": "-5",
+    "energy": "+35",
     "grid_size": "1x1",
     "weight": "0.130 kg",
+    "total_energy_per_grid": "+35",
     "sold_by": "Lab Rat Lv.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/P%C3%A2t%C3%A9_icon.png/revision/latest?cb=20250502142115",
     "numeric_values": {
@@ -239,8 +282,11 @@
   {
     "name": "Lychee in Syrup",
     "id": "lychee-in-syrup",
+    "hydration": "+10",
+    "energy": "+26",
     "grid_size": "1x2",
     "weight": "0.565 kg",
+    "total_energy_per_grid": "+13",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Lychee_icon.png/revision/latest?cb=20250610053931",
     "numeric_values": {
@@ -253,8 +299,11 @@
   {
     "name": "Mackerel in Teriyaki Sauce",
     "id": "mackerel-in-teriyaki-sauce",
+    "hydration": "-10",
+    "energy": "+60",
     "grid_size": "1x1",
     "weight": "0.200 kg",
+    "total_energy_per_grid": "+60",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Mackerel_icon.png/revision/latest?cb=20250610053549",
     "numeric_values": {
@@ -267,8 +316,11 @@
   {
     "name": "Maknav Iced Tea",
     "id": "maknav-iced-tea",
+    "hydration": "+45",
+    "energy": "+10",
     "grid_size": "1x2",
     "weight": "0.950 kg",
+    "total_hydration_per_grid": "+45",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/IcedTea_icon.png/revision/latest?cb=20240520061937",
     "numeric_values": {
@@ -281,8 +333,10 @@
   {
     "name": "Noakon Water 0.6 l",
     "id": "noakon-water-0.6-l",
+    "hydration": "+60",
     "grid_size": "1x1",
     "weight": "0.600 kg",
+    "total_hydration_per_grid": "+60",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/Water3_icon.png/revision/latest?cb=20250530075823",
     "numeric_values": {
@@ -295,8 +349,10 @@
   {
     "name": "Noakon Water 1 l",
     "id": "noakon-water-1-l",
+    "hydration": "+33",
     "grid_size": "1x2",
     "weight": "1.000 kg",
+    "total_hydration_per_grid": "+33",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/Water4_icon.png/revision/latest?cb=20250601090830",
     "numeric_values": {
@@ -309,8 +365,10 @@
   {
     "name": "Noakon Water 1.5 l",
     "id": "noakon-water-1.5-l",
+    "hydration": "+50",
     "grid_size": "1x2",
     "weight": "1.500 kg",
+    "total_hydration_per_grid": "+75",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/16/Water5_icon.png/revision/latest?cb=20250218195547",
     "numeric_values": {
@@ -323,8 +381,11 @@
   {
     "name": "NuKlear Energy: Meltdown Mango *",
     "id": "nuklear-energy:-meltdown-mango-*",
+    "hydration": "+55",
+    "energy": "+4",
     "grid_size": "1x1",
     "weight": "0.340 kg",
+    "total_hydration_per_grid": "+22",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/af/EDrink2_icon.png/revision/latest?cb=20250621160244",
     "numeric_values": {
@@ -337,8 +398,11 @@
   {
     "name": "Organic Tofu",
     "id": "organic-tofu",
+    "hydration": "-10",
+    "energy": "+18",
     "grid_size": "1x1",
     "weight": "0.200 kg",
+    "total_energy_per_grid": "+18",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Tofu_icon.png/revision/latest?cb=20250610053001",
     "numeric_values": {
@@ -351,8 +415,11 @@
   {
     "name": "Power Energy Fuel *",
     "id": "power-energy-fuel-*",
+    "hydration": "+40",
+    "energy": "+20",
     "grid_size": "1x1",
     "weight": "0.470 kg",
+    "total_hydration_per_grid": "+40",
     "sold_by": "Lab Rat Lv.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/EDrink_icon.png/revision/latest?cb=20250502141947",
     "numeric_values": {
@@ -365,8 +432,10 @@
   {
     "name": "Premium Pork Luncheon Meat",
     "id": "premium-pork-luncheon-meat",
+    "energy": "+70",
     "grid_size": "1x2",
     "weight": "0.400 kg",
+    "total_energy_per_grid": "+35",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/LMeat2_icon.png/revision/latest?cb=20250610052339",
     "numeric_values": {
@@ -379,8 +448,11 @@
   {
     "name": "Riminda Green Bubbly Bliss *",
     "id": "riminda-green-bubbly-bliss-*",
+    "hydration": "+50",
+    "energy": "+15",
     "grid_size": "1x2",
     "weight": "2.000 kg",
+    "total_hydration_per_grid": "+50",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Soda2_icon.png/revision/latest?cb=20250601191618",
     "numeric_values": {
@@ -393,8 +465,11 @@
   {
     "name": "Sinngua Lunch Meat",
     "id": "sinngua-lunch-meat",
+    "hydration": "-10",
+    "energy": "+60",
     "grid_size": "1x2",
     "weight": "0.340 kg",
+    "total_energy_per_grid": "+30",
     "sold_by": "Lab Rat Lv.3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/LMeat_icon.png/revision/latest?cb=20250530080109",
     "numeric_values": {
@@ -407,8 +482,10 @@
   {
     "name": "SnipSnap Crunchy",
     "id": "snipsnap-crunchy",
+    "energy": "+10",
     "grid_size": "1x1",
     "weight": "0.038 kg",
+    "total_energy_per_grid": "+10",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/ChBar1_icon.png/revision/latest?cb=20250610042711",
     "numeric_values": {
@@ -421,8 +498,11 @@
   {
     "name": "Spicy Thai Combat Meal",
     "id": "spicy-thai-combat-meal",
+    "hydration": "-15",
+    "energy": "+80",
     "grid_size": "1x2",
     "weight": "0.800 kg",
+    "total_energy_per_grid": "+40",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/CMeal_icon.png/revision/latest?cb=20250502142635",
     "numeric_values": {
@@ -435,8 +515,11 @@
   {
     "name": "Sunrise Cola",
     "id": "sunrise-cola",
+    "hydration": "+33",
+    "energy": "+15",
     "grid_size": "1x1",
     "weight": "0.300 kg",
+    "total_hydration_per_grid": "+33",
     "sold_by": "Lab Rat Lv.1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Cola_icon.png/revision/latest?cb=20250621182739",
     "numeric_values": {
@@ -449,8 +532,10 @@
   {
     "name": "Sunrise Cola (2 L)",
     "id": "sunrise-cola-(2-l)",
+    "hydration": "+38",
     "grid_size": "1x2",
     "weight": "2.000 kg",
+    "total_hydration_per_grid": "+??",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
     "numeric_values": {
@@ -463,8 +548,10 @@
   {
     "name": "TamTam DoubleChoc *",
     "id": "tamtam-doublechoc-*",
+    "energy": "+20",
     "grid_size": "1x1",
     "weight": "0.200 kg",
+    "total_energy_per_grid": "+20",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/ChBar3_icon.png/revision/latest?cb=20250610042828",
     "numeric_values": {
@@ -477,8 +564,10 @@
   {
     "name": "Touchdown Lemon Soda",
     "id": "touchdown-lemon-soda",
+    "hydration": "+18",
     "grid_size": "1x1",
     "weight": "0.330 kg",
+    "total_hydration_per_grid": "+18",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Soda_icon.png/revision/latest?cb=20250502155224",
     "numeric_values": {
@@ -491,8 +580,10 @@
   {
     "name": "White Orchid Crystal Water 2 l",
     "id": "white-orchid-crystal-water-2-l",
+    "hydration": "+50",
     "grid_size": "1x2",
     "weight": "2.000 kg",
+    "total_hydration_per_grid": "+100",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Water6_icon.png/revision/latest?cb=20250530080413",
     "numeric_values": {
@@ -505,8 +596,10 @@
   {
     "name": "Windmill Almond Chocolate Bar *",
     "id": "windmill-almond-chocolate-bar-*",
+    "energy": "+16",
     "grid_size": "1x1",
     "weight": "0.040 kg",
+    "total_energy_per_grid": "+16",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/ChBar2_icon.png/revision/latest?cb=20250610042744",
     "numeric_values": {

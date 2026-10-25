@@ -1,0 +1,65 @@
+[
+  {
+    "name": "LAF Commanders",
+    "id": "laf-commanders",
+    "category": "Lamang enemies kill EXP",
+    "action": "LAF Commanders",
+    "experience": 30
+  },
+  {
+    "name": "LAF Soldiers",
+    "id": "laf-soldiers",
+    "category": "Lamang enemies kill EXP",
+    "action": "LAF Soldiers",
+    "experience": 15
+  },
+  {
+    "name": "Landing Zones",
+    "id": "landing-zones",
+    "category": "Discovering POIs",
+    "action": "Landing Zones",
+    "experience": 150
+  },
+  {
+    "name": "Major Combat Outposts",
+    "id": "major-combat-outposts",
+    "category": "Capturing Combat Outposts",
+    "action": "Major Combat Outposts",
+    "experience": 150
+  },
+  {
+    "name": "Minor Combat Outposts",
+    "id": "minor-combat-outposts",
+    "category": "Capturing Combat Outposts",
+    "action": "Minor Combat Outposts",
+    "experience": 50
+  },
+  {
+    "name": "Other PMCs (Players)",
+    "id": "other-pmcs-players",
+    "category": "Lamang enemies kill EXP",
+    "action": "Other PMCs (Players)",
+    "experience": 200
+  },
+  {
+    "name": "Points of Interest",
+    "id": "points-of-interest",
+    "category": "Discovering POIs",
+    "action": "Points of Interest",
+    "experience": 30
+  },
+  {
+    "name": "Rebels / Bandits (Tier 1 areas)",
+    "id": "rebels-bandits-tier-1-areas",
+    "category": "Lamang enemies kill EXP",
+    "action": "Rebels / Bandits (Tier 1 areas)",
+    "experience": 5
+  },
+  {
+    "name": "Rebels/Bandits (Tier 2 and 3 areas)",
+    "id": "rebels-bandits-tier-2-and-3-areas",
+    "category": "Lamang enemies kill EXP",
+    "action": "Rebels/Bandits (Tier 2 and 3 areas)",
+    "experience": 10
+  }
+]

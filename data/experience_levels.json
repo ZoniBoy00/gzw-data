@@ -1,0 +1,467 @@
+[
+  {
+    "name": "Level 1",
+    "id": "level-1",
+    "level": 1,
+    "threshold": 0,
+    "rewards": [
+      "5.11 - Competition Shooting",
+      "Tactical Gloves (Blue)",
+      "Tactical Gloves (Orange)",
+      "AKU - Conero GTX",
+      "Lowa - Zephyr GTX Mid TF",
+      "US BDU (Woodland)",
+      "Clawgear - Raider Mk IV (Olive)",
+      "Clawgear - Raider Mk IV (Coyote)",
+      "Long Sleeves Tactical",
+      "Clawgear - Combat Operator (Ranger Green)",
+      "Clawgear - Combat Operator (Coyote)"
+    ],
+    "rewards_text": "5.11 - Competition Shooting, Tactical Gloves (Blue), Tactical Gloves (Orange), AKU - Conero GTX, Lowa - Zephyr GTX Mid TF, US BDU (Woodland), Clawgear - Raider Mk IV (Olive), Clawgear - Raider Mk IV (Coyote), Long Sleeves Tactical, Clawgear - Combat Operator (Ranger Green), Clawgear - Combat Operator (Coyote)"
+  },
+  {
+    "name": "Level 10",
+    "id": "level-10",
+    "level": 10,
+    "threshold": 16200,
+    "rewards": [
+      "Crye Precision - G3 (Ranger Green)",
+      "Crye Precision - G4 (Ranger Green)"
+    ],
+    "rewards_text": "Crye Precision - G3 (Ranger Green), Crye Precision - G4 (Ranger Green)"
+  },
+  {
+    "name": "Level 11",
+    "id": "level-11",
+    "level": 11,
+    "threshold": 19500,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 12",
+    "id": "level-12",
+    "level": 12,
+    "threshold": 23100,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 13",
+    "id": "level-13",
+    "level": 13,
+    "threshold": 27000,
+    "rewards": [
+      "Clawgear - Raider Mk IV (Flecktarn)"
+    ],
+    "rewards_text": "Clawgear - Raider Mk IV (Flecktarn)"
+  },
+  {
+    "name": "Level 14",
+    "id": "level-14",
+    "level": 14,
+    "threshold": 31200,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 15",
+    "id": "level-15",
+    "level": 15,
+    "threshold": 35700,
+    "rewards": [
+      "Tactical T-shirt",
+      "Jeans (Gray)",
+      "Pentagon - Hybrid (Black)"
+    ],
+    "rewards_text": "Tactical T-shirt, Jeans (Gray), Pentagon - Hybrid (Black)"
+  },
+  {
+    "name": "Level 16",
+    "id": "level-16",
+    "level": 16,
+    "threshold": 40500,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 17",
+    "id": "level-17",
+    "level": 17,
+    "threshold": 45600,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 18",
+    "id": "level-18",
+    "level": 18,
+    "threshold": 51000,
+    "rewards": [
+      "Crye Precision - G3 (Multicam)"
+    ],
+    "rewards_text": "Crye Precision - G3 (Multicam)"
+  },
+  {
+    "name": "Level 19",
+    "id": "level-19",
+    "level": 19,
+    "threshold": 56700,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 2",
+    "id": "level-2",
+    "level": 2,
+    "threshold": 600,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 20",
+    "id": "level-20",
+    "level": 20,
+    "threshold": 62700,
+    "rewards": [
+      "Long Sleeves",
+      "Mechanix Wear - Fast Fit",
+      "Clawgear - Raider Mk IV (Woodland)",
+      "Pentagon - Hybrid"
+    ],
+    "rewards_text": "Long Sleeves, Mechanix Wear - Fast Fit, Clawgear - Raider Mk IV (Woodland), Pentagon - Hybrid"
+  },
+  {
+    "name": "Level 21",
+    "id": "level-21",
+    "level": 21,
+    "threshold": 69000,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 22",
+    "id": "level-22",
+    "level": 22,
+    "threshold": 75600,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 23",
+    "id": "level-23",
+    "level": 23,
+    "threshold": 82500,
+    "rewards": [
+      "Crye Precision - G4 (Multicam)"
+    ],
+    "rewards_text": "Crye Precision - G4 (Multicam)"
+  },
+  {
+    "name": "Level 24",
+    "id": "level-24",
+    "level": 24,
+    "threshold": 89700,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 25",
+    "id": "level-25",
+    "level": 25,
+    "threshold": 97200,
+    "rewards": [
+      "US Army - Blouse (M64 Vietnam)",
+      "US BDU (Olive)"
+    ],
+    "rewards_text": "US Army - Blouse (M64 Vietnam), US BDU (Olive)"
+  },
+  {
+    "name": "Level 26",
+    "id": "level-26",
+    "level": 26,
+    "threshold": 105000,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 27",
+    "id": "level-27",
+    "level": 27,
+    "threshold": 113100,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 28",
+    "id": "level-28",
+    "level": 28,
+    "threshold": 121500,
+    "rewards": [
+      "Clawgear - Raider Mk IV (Multicam Black)"
+    ],
+    "rewards_text": "Clawgear - Raider Mk IV (Multicam Black)"
+  },
+  {
+    "name": "Level 29",
+    "id": "level-29",
+    "level": 29,
+    "threshold": 130200,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 3",
+    "id": "level-3",
+    "level": 3,
+    "threshold": 1500,
+    "rewards": [
+      "Tactical T-shirt (Green)"
+    ],
+    "rewards_text": "Tactical T-shirt (Green)"
+  },
+  {
+    "name": "Level 30",
+    "id": "level-30",
+    "level": 30,
+    "threshold": 139200,
+    "rewards": [
+      "Long Sleeves Tactical (Blue)",
+      "Jeans (Blue)",
+      "Tactical Gloves (Green)"
+    ],
+    "rewards_text": "Long Sleeves Tactical (Blue), Jeans (Blue), Tactical Gloves (Green)"
+  },
+  {
+    "name": "Level 31",
+    "id": "level-31",
+    "level": 31,
+    "threshold": 148500,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 32",
+    "id": "level-32",
+    "level": 32,
+    "threshold": 158100,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 33",
+    "id": "level-33",
+    "level": 33,
+    "threshold": 168000,
+    "rewards": [
+      "US BDU (Desert)"
+    ],
+    "rewards_text": "US BDU (Desert)"
+  },
+  {
+    "name": "Level 34",
+    "id": "level-34",
+    "level": 34,
+    "threshold": 178200,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 35",
+    "id": "level-35",
+    "level": 35,
+    "threshold": 188700,
+    "rewards": [
+      "Crye Precision - G4 (Multicam Black)"
+    ],
+    "rewards_text": "Crye Precision - G4 (Multicam Black)"
+  },
+  {
+    "name": "Level 36",
+    "id": "level-36",
+    "level": 36,
+    "threshold": 199500,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 37",
+    "id": "level-37",
+    "level": 37,
+    "threshold": 210600,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 38",
+    "id": "level-38",
+    "level": 38,
+    "threshold": 222000,
+    "rewards": [
+      "Clawgear - Combat Operator"
+    ],
+    "rewards_text": "Clawgear - Combat Operator"
+  },
+  {
+    "name": "Level 39",
+    "id": "level-39",
+    "level": 39,
+    "threshold": 233700,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 4",
+    "id": "level-4",
+    "level": 4,
+    "threshold": 2700,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 40",
+    "id": "level-40",
+    "level": 40,
+    "threshold": 245700,
+    "rewards": [
+      "Functional Shirt",
+      "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
+      "Mechanix Wear - M-Pact Covert"
+    ],
+    "rewards_text": "Functional Shirt, Arcteryx Leaf - Assault Pant AR gen 2 (Multicam), Mechanix Wear - M-Pact Covert"
+  },
+  {
+    "name": "Level 41",
+    "id": "level-41",
+    "level": 41,
+    "threshold": 258000,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 42",
+    "id": "level-42",
+    "level": 42,
+    "threshold": 270600,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 43",
+    "id": "level-43",
+    "level": 43,
+    "threshold": 283500,
+    "rewards": [
+      "Tactical Jeans - Rappel Seat"
+    ],
+    "rewards_text": "Tactical Jeans - Rappel Seat"
+  },
+  {
+    "name": "Level 44",
+    "id": "level-44",
+    "level": 44,
+    "threshold": 296700,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 45",
+    "id": "level-45",
+    "level": 45,
+    "threshold": 310200,
+    "rewards": [
+      "Crye Precision - G4 (Multicam Black)",
+      "Magnum - Wild-Fire Tactical"
+    ],
+    "rewards_text": "Crye Precision - G4 (Multicam Black), Magnum - Wild-Fire Tactical"
+  },
+  {
+    "name": "Level 46",
+    "id": "level-46",
+    "level": 46,
+    "threshold": 324000,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 47",
+    "id": "level-47",
+    "level": 47,
+    "threshold": 338100,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 48",
+    "id": "level-48",
+    "level": 48,
+    "threshold": 352500,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 49",
+    "id": "level-49",
+    "level": 49,
+    "threshold": 367200,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 5",
+    "id": "level-5",
+    "level": 5,
+    "threshold": 4200,
+    "rewards": [
+      "Crye Precision - G3 (Multicam)",
+      "Mechanix Wear - Original"
+    ],
+    "rewards_text": "Crye Precision - G3 (Multicam), Mechanix Wear - Original"
+  },
+  {
+    "name": "Level 50",
+    "id": "level-50",
+    "level": 50,
+    "threshold": 382200,
+    "rewards": [
+      "Long Sleeves (Black)",
+      "Tactical Jeans - Rappel Seat (Black)",
+      "Mechanix Wear - Original (Black)"
+    ],
+    "rewards_text": "Long Sleeves (Black), Tactical Jeans - Rappel Seat (Black), Mechanix Wear - Original (Black)"
+  },
+  {
+    "name": "Level 6",
+    "id": "level-6",
+    "level": 6,
+    "threshold": 6000,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 7",
+    "id": "level-7",
+    "level": 7,
+    "threshold": 8100,
+    "rewards": [],
+    "rewards_text": ""
+  },
+  {
+    "name": "Level 8",
+    "id": "level-8",
+    "level": 8,
+    "threshold": 10500,
+    "rewards": [
+      "Clawgear - Combat Operator (Black)"
+    ],
+    "rewards_text": "Clawgear - Combat Operator (Black)"
+  },
+  {
+    "name": "Level 9",
+    "id": "level-9",
+    "level": 9,
+    "threshold": 13200,
+    "rewards": [],
+    "rewards_text": ""
+  }
+]

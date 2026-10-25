@@ -3,43 +3,57 @@
     "name": "Artisan",
     "id": "artisan",
     "full_name": "Laya Hoang",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Artisan_square.png/revision/latest/scale-to-width-down/268?cb=20260411114656"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Artisan_square.png/revision/latest/scale-to-width-down/268?cb=20260411114656",
+    "sells": "Primary Weapons, Secondary Weapons, Ammunition, Magazines, Weapon parts, Attachments, Throwables and Tools. Specifically specializing in AK and Eastern weapon variants. Also sells 7.62 ammo types.",
+    "buys": "Primary Weapons, Secondary Weapons, Ammunition, Magazines, Weapon parts, Attachments, Throwables and Tools."
   },
   {
     "name": "Banshee",
     "id": "banshee",
     "full_name": "James Miller",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/55/Vendor-Banshee.png/revision/latest/scale-to-width-down/268?cb=20240505160347"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/55/Vendor-Banshee.png/revision/latest/scale-to-width-down/268?cb=20240505160347",
+    "sells": "Weapons, Ammunition, Weapon Parts, Containers",
+    "buys": "Weapons, Ammunition, Weapon Parts, Containers"
   },
   {
     "name": "Gunny",
     "id": "gunny",
     "full_name": "Anton Jackson",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Gunny_square.png/revision/latest/scale-to-width-down/268?cb=20240502171554"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Gunny_square.png/revision/latest/scale-to-width-down/268?cb=20240502171554",
+    "sells": "Primary Weapons, Secondary Weapons, Ammunition, Magazines, Weapon parts, Attachments, Throwables and Tools. Specifically specializing in NATO variant weapons. Also sells 5.56 ammo and M933 high-explosive mortar round types.",
+    "buys": "Primary Weapons, Secondary Weapons, Ammunition, Magazines, Weapon parts, Attachments, Throwables and Tools."
   },
   {
     "name": "Handshake",
     "id": "handshake",
     "full_name": "Lewis Pell",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Handshake_square.png/revision/latest/scale-to-width-down/268?cb=20240502171644"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Handshake_square.png/revision/latest/scale-to-width-down/268?cb=20240502171644",
+    "sells": "Helmets, Glasses, Hats, Headphones, Plate Carriers, Vests, Backpacks, Belts, Tactical Rigs and Tools.",
+    "buys": "Helmets, Glasses, Hats, Headphones, Plate Carriers, Vests, Backpacks, Belts, Tactical Rigs, Tools and Secure Lockboxes."
   },
   {
     "name": "Lab Rat",
     "id": "lab-rat",
     "full_name": "Jie Xianlong",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Labrat_square.png/revision/latest/scale-to-width-down/268?cb=20240502171433"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Labrat_square.png/revision/latest/scale-to-width-down/268?cb=20240502171433",
+    "sells": "Medkits, Medication, Drinks, Food and Tools.",
+    "buys": "Medkits, Medication, Drinks, Food and Tools."
   },
   {
     "name": "Turncoat",
     "id": "turncoat",
     "full_name": "Unknown",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/Turncoat_square.png/revision/latest/scale-to-width-down/268?cb=20240502171507"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/Turncoat_square.png/revision/latest/scale-to-width-down/268?cb=20240502171507",
+    "sells": "Weapons, Ammunition, Weapon Parts, Headwear, Plate Carriers, Armor Vests",
+    "buys": "Weapons, Ammunition, Weapon Parts, Containers, Headwear"
   },
   {
     "name": "Vulture",
     "id": "vulture",
     "full_name": "Unknown",
     "wares": "Any",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/Vendor-Vulture.png/revision/latest/scale-to-width-down/268?cb=20260328020207"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/Vendor-Vulture.png/revision/latest/scale-to-width-down/268?cb=20260328020207",
+    "sells": "Any.",
+    "buys": "Valuables"
   }
 ]
