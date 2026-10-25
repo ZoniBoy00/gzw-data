@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-25T15:30:05.230960Z",
+  "generatedAt": "2026-10-25T15:56:00.022494Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -56,7 +56,7 @@
     "building_material": {
       "file": "building_material.json",
       "records": 37,
-      "sha256": "dfeb34e502b2f97473a234c3d322ef7469e11bcb57899f7a86d13d5b8ab95bb7"
+      "sha256": "0bf47b2c9148f7bd54944ae4e4bf0f829fec8d044d7344d47589e95310c178e7"
     },
     "charging_handle": {
       "file": "charging_handle.json",
@@ -113,6 +113,11 @@
       "records": 5,
       "sha256": "87ba10eb29ddd4dfe434e7e126f55c6c0932d869d1407d1023b952654ebc8ee6"
     },
+    "evidence": {
+      "file": "evidence.json",
+      "records": 13,
+      "sha256": "2a74d78fa372ae1f3123775f959aac6a6c86a30ebd4a9deef486e529f271f2e4"
+    },
     "face_cover": {
       "file": "face_cover.json",
       "records": 4,
@@ -145,8 +150,8 @@
     },
     "game_systems": {
       "file": "game_systems.json",
-      "records": 10,
-      "sha256": "2fd12e588c39805f7043ca2933bb2e931cb223fde59b53a2695c8078b33689c6"
+      "records": 11,
+      "sha256": "a3c32f8ae954b7cff5714f0c9b9b1063f33fc86f78888ce46b07015d3cce7708"
     },
     "gas_blocks": {
       "file": "gas_blocks.json",
@@ -407,6 +412,11 @@
       "file": "tactical_devices.json",
       "records": 12,
       "sha256": "69ca9ebd78ca666fc5a244d7d83c98a3de99d6a77f3c155bd119335a0cdfd94d"
+    },
+    "task_guides": {
+      "file": "task_guides.json",
+      "records": 4,
+      "sha256": "e350e8413968aab5b8dbee721295b0c228ab0f0ea425d15e52fa69fb18ca2def"
     },
     "task_items": {
       "file": "task_items.json",

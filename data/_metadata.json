@@ -2,7 +2,7 @@
   "source": "gzw-scraper",
   "scraperVersion": "4.6.1",
   "parserRevision": "universal-parser-v8",
-  "datasetCount": 96,
+  "datasetCount": 98,
   "datasets": [
     {
       "name": "ammo",
@@ -149,7 +149,7 @@
           "example": "0.007kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": ".222 Remington",
@@ -502,7 +502,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Apparel",
@@ -602,7 +602,7 @@
           "example": "0.016 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Colt 1911 Commander Hammer",
@@ -727,7 +727,7 @@
           "example": "0.072kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "6Sh118 Ratnik V2",
@@ -948,7 +948,7 @@
           "example": ".725 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AR-15 Barrel - 10.5\"",
@@ -1165,7 +1165,7 @@
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Belt Bag",
@@ -1288,7 +1288,7 @@
           "example": "0.530kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "M1050 LRF Rangefinder",
@@ -1341,7 +1341,7 @@
           "example": "AKU - Conero GTX"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AKU - Conero GTX",
@@ -1438,7 +1438,7 @@
           "example": "Bloudhound needs to be killed for Final Liberation task."
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Bloodhound",
@@ -1579,7 +1579,7 @@
           "example": "0.108 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "CQ A1 Buffer Tube",
@@ -1622,7 +1622,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 22,
+          "presentCount": 24,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Analog_Indicator_inspect.png/revision/latest?cb=20261024183758"
@@ -1696,7 +1696,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Analog Indicator",
@@ -1728,11 +1728,11 @@
         },
         {
           "title": "Construction Material",
-          "revisionId": 25258
+          "revisionId": 25491
         },
         {
           "title": "Copper",
-          "revisionId": 25358
+          "revisionId": 25493
         },
         {
           "title": "Crystal Prism",
@@ -1953,7 +1953,7 @@
           "example": "0,080 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AK RP-1 Charging Handle",
@@ -2097,7 +2097,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Cache Report IX",
@@ -2240,7 +2240,7 @@
           "example": ".318 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "503CU Micro Sight",
@@ -2461,7 +2461,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Admin Desk",
@@ -2646,7 +2646,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Bad Idea",
@@ -2817,7 +2817,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Cache Report II",
@@ -2916,7 +2916,7 @@
           "example": "0.050kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Empty Autoinjector",
@@ -3019,7 +3019,7 @@
           "example": "6.000kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Missile Seeker Head",
@@ -3110,7 +3110,7 @@
           "example": "15.000kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Baget-53-31 Onboard Computer",
@@ -3249,7 +3249,7 @@
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Aques Water 1 l",
@@ -3417,7 +3417,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Black Luxury Phone",
@@ -3438,6 +3438,154 @@
         {
           "title": "Smartphone",
           "revisionId": 19758
+        }
+      ]
+    },
+    {
+      "name": "evidence",
+      "file": "evidence.json",
+      "itemCount": 13,
+      "fields": {
+        "grid_size": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "1x1"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "army-intel"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 11,
+          "optional": true,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Intel%28Army%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509092020"
+        },
+        "manufacturer": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": true,
+          "nullable": false,
+          "example": "General Local"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "Army Intel"
+        },
+        "numeric_values": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 11,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "weight": {
+              "value": 0.05,
+              "unit": "kg"
+            }
+          }
+        },
+        "sell_price": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "$1,250"
+        },
+        "type": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "Evidence"
+        },
+        "weight": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 13,
+          "optional": false,
+          "nullable": false,
+          "example": "0,050kg"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
+      "sourcePages": [
+        {
+          "title": "Army Intel",
+          "revisionId": 19997
+        },
+        {
+          "title": "Businessman ID Card",
+          "revisionId": 24467
+        },
+        {
+          "title": "Crime-related Intel",
+          "revisionId": 19996
+        },
+        {
+          "title": "Digital Camera",
+          "revisionId": 19992
+        },
+        {
+          "title": "Driver's Licence",
+          "revisionId": 24466
+        },
+        {
+          "title": "Encrypted Hard Disk Drive",
+          "revisionId": 24660
+        },
+        {
+          "title": "Laptop",
+          "revisionId": 19993
+        },
+        {
+          "title": "Local ID Card",
+          "revisionId": 19182
+        },
+        {
+          "title": "Reflex Camera",
+          "revisionId": 24669
+        },
+        {
+          "title": "Reinforced Military Laptop",
+          "revisionId": 24666
+        },
+        {
+          "title": "Tourist ID Card",
+          "revisionId": 24662
+        },
+        {
+          "title": "Tourist Passport",
+          "revisionId": 24657
+        },
+        {
+          "title": "VIP Passport",
+          "revisionId": 24713
         }
       ]
     },
@@ -3533,7 +3681,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Half Mask (Skull)",
@@ -3595,7 +3743,7 @@
           "example": "Bandits"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Bandits",
@@ -3848,7 +3996,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "1 Shot Energy Chews",
@@ -4059,7 +4207,7 @@
           "example": "0.017 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AFG-2",
@@ -4262,7 +4410,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Back-Up 3 Front Iron Sight",
@@ -4413,7 +4561,7 @@
           "example": "0.005kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Black Credit Card",
@@ -4436,13 +4584,13 @@
     {
       "name": "game_systems",
       "file": "game_systems.json",
-      "itemCount": 10,
+      "itemCount": 11,
       "fields": {
         "content": {
           "types": [
             "string"
           ],
-          "presentCount": 10,
+          "presentCount": 11,
           "optional": false,
           "nullable": false,
           "example": "Gray Zone Warfare features a character level system that increase with specific actions giving a specific amount of experience in Lamang . The more experience you get, the more levels you get. A few actions grants the player a few experience points. Completing tasks , killing enemy factions , capturing combat outposts , discovers points of interest ... Lamang enemies kill EXP Type Experience Rebels / Bandits (Tier 1 areas) 5 Rebels/Bandits (Tier 2 and 3 areas) 10 LAF Soldiers 15 LAF Commanders 30 Other PMCs (Players) 200 Discovering POIs Landing Zones 150 Points of Interest Capturing Combat Outposts Major Combat Outposts Minor Combat Outposts 50 The table below shows level threshold and the rewards of each level achieved. Icon Level Level Threshold Rewards 1 0 5.11 - Competition Shooting Tactical Gloves (Blue) Tactical Gloves (Orange) AKU - Conero GTX Lowa - Zephyr GTX Mid TF US BDU (Woodland) Clawgear - Raider Mk IV (Olive) Clawgear - Raider Mk IV (Coyote) Long Sleeves Tactical Clawgear - Combat Operator (Ranger Green) Clawgear - Combat Operator (Coyote) 2 600 3 1,500 Tactical T-shirt (Green) 4 2,700 4,200 Crye Precision - G3 (Multicam) Mechanix Wear - Original 6 6,000 7 8,100 8 10,500 Clawgear - Combat Operator (Black) 9 13,200 16,200 Crye Precision - G3 (Ranger Green) Crye Precision - G4 (Ranger Green) 11 19,500 12 23,100 13 27,000 Clawgear - Raider Mk IV (Flecktarn) 14 31,200 35,700 Tactical T-shirt Jeans (Gray) Pentagon - Hybrid (Black) 16 40,500 17 45,600 18 51,000 19 56,700 20 62,700 Long Sleeves Mechanix Wear - Fast Fit Clawgear - Raider Mk IV (Woodland) Pentagon - Hybrid 21 69,000 22 75,600 23 82,500 Crye Precision - G4 (Multicam) 24 89,700 25 97,200 US Army - Blouse (M64 Vietnam) US BDU (Olive) 26 105,000 27 113,100 28 121,500 Clawgear - Raider Mk IV (Multicam Black) 29 130,200 139,200 Long Sleeves Tactical (Blue) Jeans (Blue) Tactical Gloves (Green) 31 148,500 32 158,100 33 168,000 US BDU (Desert) 34 178,200 35 188,700 Crye Precision - G3 (Multicam Black) Crye Precision - G4 (Multicam Black) 36 199,500 37 210,600 38 222,000 Clawgear - Combat Operator 39 233,700 40 245,700 Functional Shirt Arcteryx Leaf - Assault Pant AR gen 2 (Multicam) Mechanix Wear - M-Pact Covert 41 258,000 42 270,600 43 283,500 Tactical Jeans - Rappel Seat 44 296,700 45 310,200 Crye Precision - G3 (Multicam Tropic) Crye Precision - G4 (Multicam Tropic) Magnum - Wild-Fire Tactical 46 324,000 47 338,100 48 352,500 49 367,200 382,200 Long Sleeves (Black) Tactical Jeans - Rappel Seat (Black) Mechanix Wear - Original (Black)"
@@ -4451,7 +4599,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 10,
+          "presentCount": 11,
           "optional": false,
           "nullable": false,
           "example": "experience"
@@ -4460,7 +4608,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Specialist.png/revision/latest?cb=20250601170728"
@@ -4469,13 +4617,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 10,
+          "presentCount": 11,
           "optional": false,
           "nullable": false,
           "example": "Experience"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Experience",
@@ -4504,6 +4652,10 @@
         {
           "title": "Looting",
           "revisionId": 24152
+        },
+        {
+          "title": "Patches",
+          "revisionId": 24541
         },
         {
           "title": "System requirements",
@@ -4646,7 +4798,7 @@
           "example": "0.045 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AK-74 Gas Tube",
@@ -4787,7 +4939,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AMP12",
@@ -4996,7 +5148,7 @@
           "example": "0.090kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Aviator (Black)",
@@ -5085,7 +5237,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "5.11 - Competition Shooting",
@@ -5291,7 +5443,7 @@
           "example": "0.110 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AK 308 Handguard",
@@ -5620,7 +5772,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "3M Comtac II",
@@ -5735,7 +5887,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "L4 G24 Helmet NVG Mount",
@@ -5883,7 +6035,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "6B47 Ratnik",
@@ -6123,7 +6275,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "At Doom's Gate",
@@ -6197,7 +6349,7 @@
           "example": "Hideout"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Hideout",
@@ -6297,7 +6449,7 @@
           "example": "0.013kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Aramid Cloth",
@@ -6423,7 +6575,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "George's love letter",
@@ -6561,7 +6713,7 @@
           "example": "0,014kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Advanced Tracking Tag",
@@ -6669,7 +6821,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Dark Pearl Necklace",
@@ -6824,7 +6976,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Fort Narith HQ Reception Storage Key Card",
@@ -6979,7 +7131,7 @@
           "example": "0.010 Kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "A102 Key",
@@ -7579,7 +7731,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Acetylene Cylinder",
@@ -7715,7 +7867,7 @@
           "example": "0.800kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "SafeLock Protected Ruck Case",
@@ -7791,7 +7943,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Ammo Box (Container)",
@@ -8002,7 +8154,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Loot Box",
@@ -8087,7 +8239,7 @@
           "example": "0.004kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Loot",
@@ -8236,7 +8388,7 @@
           "example": "0.048 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "1911 .45ACP 15-Round Extended Magazine",
@@ -8522,7 +8674,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "A Walk in the Park",
@@ -8758,7 +8910,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "ARF Trauma Bandage 4",
@@ -8985,7 +9137,7 @@
           "example": "0,300kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AN/PYQ-10",
@@ -9148,7 +9300,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Camouflage Fabric",
@@ -9269,7 +9421,7 @@
           "example": "13.650kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "M933 120mm HE Cartridge (High Range)",
@@ -9377,7 +9529,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "1911 Grip Scope Mount",
@@ -9707,7 +9859,7 @@
           "example": "0.030 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "3 Prong Flash Hider",
@@ -9951,7 +10103,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Newspaper - 10 Years of Independent Lamang",
@@ -10264,7 +10416,7 @@
           "example": "0.338kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AN/PVS-14 Night Vision Device",
@@ -10321,7 +10473,7 @@
           "example": "Paper"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Shift Roster",
@@ -10478,7 +10630,7 @@
           "example": "0.055 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "A2 Pistol Grip",
@@ -10732,7 +10884,7 @@
           "example": "12.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "CGPC3 TQS",
@@ -10882,7 +11034,7 @@
           "example": "0.500kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Chloroform",
@@ -10988,7 +11140,7 @@
           "example": "0.010 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Provisions",
@@ -11070,7 +11222,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "NB Research Notes",
@@ -11205,7 +11357,7 @@
           "example": "0.021 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AK Rear Iron Sight",
@@ -11358,7 +11510,7 @@
           "example": "1"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Ban Pa",
@@ -11520,7 +11672,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Call up Papers",
@@ -11752,7 +11904,7 @@
           "example": "1.500kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Equipment Repair Essentials Kit",
@@ -11890,7 +12042,7 @@
           "example": "0.300kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "6Sh104",
@@ -12092,7 +12244,7 @@
           "example": "0.292 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "ACOG TA01NSN 4x32 Assault Scope",
@@ -12177,7 +12329,7 @@
           "example": "Clawgear - Combat Operator (Black)"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Clawgear - Combat Operator",
@@ -12357,7 +12509,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -12863,7 +13015,7 @@
           "example": "0.280 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "1911 Commander Slide",
@@ -12966,7 +13118,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Binary Choir",
@@ -13149,7 +13301,7 @@
           "example": "???kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Box of IDs",
@@ -13474,7 +13626,7 @@
           "example": "0.090 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AK Buffer Tube Adapter",
@@ -13663,7 +13815,7 @@
           "example": "0.087 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AK MOE Stock",
@@ -14088,7 +14240,7 @@
           "example": ".476 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "762-SD Suppressor",
@@ -14298,7 +14450,7 @@
           "example": "0.032 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "ADE Advanced Red Laser",
@@ -14347,6 +14499,68 @@
         {
           "title": "Zenitco PERST-4",
           "revisionId": 18273
+        }
+      ]
+    },
+    {
+      "name": "task_guides",
+      "file": "task_guides.json",
+      "itemCount": 4,
+      "fields": {
+        "content": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Guide for Repossession II. [1] Part: Getting the mission item At 158, 156, you will find a green house with the briefcase inside. It is located on the second floor, behind the door on the left under the bed [2] Part: Delivering the item at 158, 153 you will find a small hut where you can deliver the briefcase in a gray container which is on the left at 158, 156 you will find the house with the briefcase inside on the left door on the 2nd floor [[File:Image333.png|thumb|The house with the mission object inside[[File:Left Door.png|thumb|Take the left door on the 2nd floor The item you need to pick up is a gray briefcase which is located under the bed at 158, 153 you will find a small hut where you can deliver the briefcase |left|397x397px]]|left|360x360px]]"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "letter-from-beyond"
+        },
+        "image": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/Boat_shack_location.jpg/revision/latest/scale-to-width-down/200?cb=20260501025633"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "Letter From Beyond"
+        }
+      },
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
+      "sourcePages": [
+        {
+          "title": "Letter From Beyond",
+          "revisionId": 22853
+        },
+        {
+          "title": "Repossession II",
+          "revisionId": 21466
+        },
+        {
+          "title": "The Call of Phi Pa Mum",
+          "revisionId": 24528
+        },
+        {
+          "title": "The Great Escape",
+          "revisionId": 25122
         }
       ]
     },
@@ -14433,7 +14647,7 @@
           "example": ".010kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Appeal to the Rebels",
@@ -14950,7 +15164,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -16111,7 +16325,7 @@
           "example": "0.310kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "F-1",
@@ -16248,7 +16462,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Box of Supplies",
@@ -16317,7 +16531,7 @@
           "example": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
@@ -16446,7 +16660,7 @@
           "example": "10% Morphine Solution"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "10% Morphine Solution",
@@ -16909,7 +17123,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "B Krogan",
@@ -17062,7 +17276,7 @@
           "example": "0.104 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AK Ratnik Dust Cover",
@@ -17200,7 +17414,7 @@
           "example": "0.0001kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Dollars",
@@ -17259,7 +17473,7 @@
           "example": "Any"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Artisan",
@@ -17419,7 +17633,7 @@
           "example": "1.760kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "6B23-1(Digital)",
@@ -17591,7 +17805,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Allanach Single Malt Scotch - 40y",
@@ -17731,7 +17945,7 @@
           "example": "0.100 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "SIG MCX Pistol Grip",
@@ -17965,7 +18179,7 @@
           "example": "0.810 kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "AK-12",
@@ -18237,7 +18451,7 @@
           "example": "0.120kg"
         }
       },
-      "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
+      "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
       "sourcePages": [
         {
           "title": "Acumulator Drill",
@@ -18306,6 +18520,6 @@
       ]
     }
   ],
-  "lastScrapedAt": "2026-10-25T15:30:05.065042Z",
-  "lastFullScrapeAt": "2026-10-25T15:30:05.065042Z"
+  "lastScrapedAt": "2026-10-25T15:55:59.851473Z",
+  "lastFullScrapeAt": "2026-10-25T15:55:59.851473Z"
 }

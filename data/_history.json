@@ -1,7 +1,7 @@
 [
   {
-    "version": "2026-10-25T15:30:05.065042Z",
-    "capturedAt": "2026-10-25T15:30:05.065042Z",
+    "version": "2026-10-25T15:55:59.851473Z",
+    "capturedAt": "2026-10-25T15:55:59.851473Z",
     "datasets": {
       "ammo": 79,
       "apparel_items": 63,
@@ -25,13 +25,14 @@
       "disassembly_material": 4,
       "drinks": 18,
       "electronics": 5,
+      "evidence": 13,
       "face_cover": 4,
       "factions": 6,
       "food": 19,
       "foregrips": 19,
       "front_iron_sights": 16,
       "funds": 4,
-      "game_systems": 10,
+      "game_systems": 11,
       "gas_blocks": 9,
       "gear": 26,
       "glasses": 13,
@@ -84,6 +85,7 @@
       "stocks": 58,
       "suppressors": 23,
       "tactical_devices": 12,
+      "task_guides": 4,
       "task_items": 102,
       "tasks": 254,
       "throwables": 8,

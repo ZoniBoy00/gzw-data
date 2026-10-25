@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Army Intel",
+    "id": "army-intel",
+    "type": "Evidence",
+    "weight": "0.100kg",
+    "grid_size": "1x2",
+    "sell_price": "$1.280",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Intel%28Army%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509092020",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Businessman ID Card",
+    "id": "businessman-id-card",
+    "type": "Evidence",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "sell_price": "$1,250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/Businessman_ID_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20260403094423",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Crime-related Intel",
+    "id": "crime-related-intel",
+    "type": "Evidence",
+    "weight": "0.100kg",
+    "grid_size": "1x2",
+    "sell_price": "$140",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Intel%28Crime%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422203148",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Digital Camera",
+    "id": "digital-camera",
+    "type": "Evidence",
+    "weight": "0.250kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$112",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/DigiCam_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506171437",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Driver's Licence",
+    "id": "drivers-licence",
+    "type": "Evidence",
+    "weight": "0,050kg",
+    "grid_size": "1x1",
+    "sell_price": "$350",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Driver%27s_Licence_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331080051"
+  },
+  {
+    "name": "Encrypted Hard Disk Drive",
+    "id": "encrypted-hard-disk-drive",
+    "type": "Evidence",
+    "weight": "0.180kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$3,450",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/EnHDD_inspect.png/revision/latest?cb=20260410165943",
+    "numeric_values": {
+      "weight": {
+        "value": 0.18,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Laptop",
+    "id": "laptop",
+    "type": "Evidence",
+    "weight": "1.500kg",
+    "grid_size": "2x2",
+    "manufacturer": "General West",
+    "sell_price": "$750",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Laptop_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508230237",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Local ID Card",
+    "id": "local-id-card",
+    "type": "Evidence",
+    "weight": "???kg",
+    "grid_size": "1x1",
+    "sell_price": "$187"
+  },
+  {
+    "name": "Reflex Camera",
+    "id": "reflex-camera",
+    "type": "Evidence",
+    "weight": "0.400kg",
+    "grid_size": "1x2",
+    "sell_price": "$1,280",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3f/DSLR_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422023835",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Reinforced Military Laptop",
+    "id": "reinforced-military-laptop",
+    "type": "Evidence",
+    "weight": "2.500kg",
+    "grid_size": "2x2",
+    "sell_price": "$2,304",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/ReLaptop_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509092729",
+    "numeric_values": {
+      "weight": {
+        "value": 2.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tourist ID Card",
+    "id": "tourist-id-card",
+    "type": "Evidence",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "sell_price": "$112",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/Tourist_ID_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20260403094255",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tourist Passport",
+    "id": "tourist-passport",
+    "type": "Evidence",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "sell_price": "$2,625",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Tourist_Passport_inspect.png/revision/latest/scale-to-width-down/268?cb=20260506023557",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "VIP Passport",
+    "id": "vip-passport",
+    "type": "Evidence",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "sell_price": "$9,000",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  }
+]
