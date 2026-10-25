@@ -1,0 +1,1010 @@
+[
+  {
+    "name": "Analysis Level 1 (Laboratory)",
+    "id": "laboratory-analysis-level-1",
+    "room": "Laboratory",
+    "module": "Analysis",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Plastics",
+        "quantity": 2
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Circuit Board",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "2 Plastics, 1 Electrical Parts, 1 Circuit Board",
+    "function": "+ x Analysis & Precision"
+  },
+  {
+    "name": "Analysis Level 2 (Laboratory)",
+    "id": "laboratory-analysis-level-2",
+    "room": "Laboratory",
+    "module": "Analysis",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Plastics",
+        "quantity": 2
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 4
+      },
+      {
+        "name": "Circuit Board",
+        "quantity": 3
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Vapor Lamp",
+        "quantity": 1
+      },
+      {
+        "name": "Crystal Prism",
+        "quantity": 1
+      },
+      {
+        "name": "Dollars",
+        "quantity": 35000
+      }
+    ],
+    "requirements_text": "2 Plastics, 4 Electrical Parts, 3 Circuit Board, 2 Mechanical Parts, 1 Vapor Lamp, 1 Crystal Prism, 35000 Dollars",
+    "function": "+ x Analysis & Precision"
+  },
+  {
+    "name": "Extraction Vessel Level 1 (Laboratory)",
+    "id": "laboratory-extraction-vessel-level-1",
+    "room": "Laboratory",
+    "module": "Extraction Vessel",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 1
+      },
+      {
+        "name": "Copper",
+        "quantity": 1
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Analog Indicator",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Steel, 1 Copper, 1 Plumbing Parts, 1 Analog Indicator",
+    "function": "+ x Extraction & Reaction"
+  },
+  {
+    "name": "Extraction Vessel Level 2 (Laboratory)",
+    "id": "laboratory-extraction-vessel-level-2",
+    "room": "Laboratory",
+    "module": "Extraction Vessel",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Copper",
+        "quantity": 5
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Analog Indicator",
+        "quantity": 1
+      },
+      {
+        "name": "Water Pump",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "5 Copper, 1 Plumbing Parts, 1 Analog Indicator, 1 Water Pump",
+    "function": "+ x Extraction & Reaction"
+  },
+  {
+    "name": "Filtration Level 1 (Laboratory)",
+    "id": "laboratory-filtration-level-1",
+    "room": "Laboratory",
+    "module": "Filtration",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Wood",
+        "quantity": 2
+      },
+      {
+        "name": "Fabrics",
+        "quantity": 4
+      }
+    ],
+    "requirements_text": "2 Wood, 4 Fabrics",
+    "function": "+ 1 Filtration & Processing"
+  },
+  {
+    "name": "Filtration Level 2 (Laboratory)",
+    "id": "laboratory-filtration-level-2",
+    "room": "Laboratory",
+    "module": "Filtration",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 3
+      },
+      {
+        "name": "Fine Metal Mesh",
+        "quantity": 3
+      }
+    ],
+    "requirements_text": "3 Steel, 3 Fine Metal Mesh",
+    "function": "+ 1 Filtration & Processing"
+  },
+  {
+    "name": "Generator Level 1 (Utility Room)",
+    "id": "utility-room-generator-level-1",
+    "room": "Utility Room",
+    "module": "Generator",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 1
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Motor Oil",
+        "quantity": 1
+      },
+      {
+        "name": "Dynamo",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Steel, 1 Mechanical Parts, 1 Motor Oil, 1 Dynamo",
+    "function": "+ 9 Available Power"
+  },
+  {
+    "name": "Generator Level 2 (Utility Room)",
+    "id": "utility-room-generator-level-2",
+    "room": "Utility Room",
+    "module": "Generator",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 2
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Motor Oil",
+        "quantity": 1
+      },
+      {
+        "name": "Dynamo",
+        "quantity": 1
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "2 Steel, 2 Mechanical Parts, 1 Motor Oil, 1 Dynamo, 1 Plumbing Parts, 1 Electrical Parts",
+    "function": "+ 9 Available Power"
+  },
+  {
+    "name": "Glassware Level 1 (Laboratory)",
+    "id": "laboratory-glassware-level-1",
+    "room": "Laboratory",
+    "module": "Glassware",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Glass",
+        "quantity": 1
+      },
+      {
+        "name": "Plastics",
+        "quantity": 1
+      },
+      {
+        "name": "Laboratory Flask",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Glass, 1 Plastics, 1 Laboratory Flask",
+    "function": "+ x Analysis & Precision"
+  },
+  {
+    "name": "Glassware Level 2 (Laboratory)",
+    "id": "laboratory-glassware-level-2",
+    "room": "Laboratory",
+    "module": "Glassware",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Glass",
+        "quantity": 2
+      },
+      {
+        "name": "Plastics",
+        "quantity": 1
+      },
+      {
+        "name": "Laboratory Flask",
+        "quantity": 1
+      },
+      {
+        "name": "Mechanical Pipette",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "2 Glass, 1 Plastics, 1 Laboratory Flask, 1 Mechanical Pipette",
+    "function": "+ x Analysis & Precision"
+  },
+  {
+    "name": "Hardware Level 1 (Electronics Workshop)",
+    "id": "electronics-workshop-hardware-level-1",
+    "room": "Electronics Workshop",
+    "module": "Hardware",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Motherboard",
+        "quantity": 1
+      },
+      {
+        "name": "Graphics Card",
+        "quantity": 1
+      },
+      {
+        "name": "CPU",
+        "quantity": 1
+      },
+      {
+        "name": "PC Fan",
+        "quantity": 1
+      },
+      {
+        "name": "RAM",
+        "quantity": 1
+      },
+      {
+        "name": "Power Supply",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Motherboard, 1 Graphics Card, 1 CPU, 1 PC Fan, 1 RAM, 1 Power Supply",
+    "function": "+ x Compute Capacity"
+  },
+  {
+    "name": "Hardware Level 2 (Electronics Workshop)",
+    "id": "electronics-workshop-hardware-level-2",
+    "room": "Electronics Workshop",
+    "module": "Hardware",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Motherboard",
+        "quantity": 1
+      },
+      {
+        "name": "Graphics Card",
+        "quantity": 1
+      },
+      {
+        "name": "CPU",
+        "quantity": 1
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 2
+      },
+      {
+        "name": "RAM",
+        "quantity": 1
+      },
+      {
+        "name": "Power Supply",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Motherboard, 1 Graphics Card, 1 CPU, 2 Plumbing Parts, 1 RAM, 1 Power Supply",
+    "function": "+ x Compute Capacity"
+  },
+  {
+    "name": "Hardware Level 3 (Electronics Workshop)",
+    "id": "electronics-workshop-hardware-level-3",
+    "room": "Electronics Workshop",
+    "module": "Hardware",
+    "level": 3,
+    "requirements": [
+      {
+        "name": "Motherboard",
+        "quantity": 1
+      },
+      {
+        "name": "Server CPU",
+        "quantity": 1
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 5
+      },
+      {
+        "name": "RAM",
+        "quantity": 4
+      },
+      {
+        "name": "Power Supply",
+        "quantity": 1
+      },
+      {
+        "name": "Dollars",
+        "quantity": 45000
+      }
+    ],
+    "requirements_text": "1 Motherboard, 1 Server CPU, 5 Electrical Parts, 4 RAM, 1 Power Supply, 45000 Dollars",
+    "function": "+ 2 Compute Capacity"
+  },
+  {
+    "name": "Heat Source Level 1 (Laboratory)",
+    "id": "laboratory-heat-source-level-1",
+    "room": "Laboratory",
+    "module": "Heat Source",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 3
+      },
+      {
+        "name": "Construction Material",
+        "quantity": 2
+      },
+      {
+        "name": "Wood",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "3 Steel, 2 Construction Material, 1 Wood",
+    "function": "+ x Heat control"
+  },
+  {
+    "name": "Heat Source Level 2 (Laboratory)",
+    "id": "laboratory-heat-source-level-2",
+    "room": "Laboratory",
+    "module": "Heat Source",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 4
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Construction Material",
+        "quantity": 3
+      },
+      {
+        "name": "Burner Head",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "4 Steel, 2 Plumbing Parts, 3 Construction Material, 1 Burner Head",
+    "function": "+ x Heat control"
+  },
+  {
+    "name": "Heat Source Level 3 (Laboratory)",
+    "id": "laboratory-heat-source-level-3",
+    "room": "Laboratory",
+    "module": "Heat Source",
+    "level": 3,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 10
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 5
+      },
+      {
+        "name": "Construction Material",
+        "quantity": 5
+      },
+      {
+        "name": "Burner Head",
+        "quantity": 2
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Dollars",
+        "quantity": 40000
+      }
+    ],
+    "requirements_text": "10 Steel, 5 Plumbing Parts, 5 Construction Material, 2 Burner Head, 2 Mechanical Parts, 40000 Dollars",
+    "function": "+ 2 Heat control"
+  },
+  {
+    "name": "Machine Tools Level 1 (Electronics Workshop)",
+    "id": "electronics-workshop-machine-tools-level-1",
+    "room": "Electronics Workshop",
+    "module": "Machine Tools",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Woods",
+        "quantity": 1
+      },
+      {
+        "name": "Steel",
+        "quantity": 1
+      },
+      {
+        "name": "Toolset",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Woods, 1 Steel, 1 Toolset",
+    "function": "+ 1 Mechanical Engineering"
+  },
+  {
+    "name": "Machine Tools Level 2 (Electronics Workshop)",
+    "id": "electronics-workshop-machine-tools-level-2",
+    "room": "Electronics Workshop",
+    "module": "Machine Tools",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 3
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Tooling Coolant",
+        "quantity": 1
+      },
+      {
+        "name": "CNC Drill Bits",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "3 Steel, 1 Electrical Parts, 1 Tooling Coolant, 1 CNC Drill Bits",
+    "function": "+ 2 Mechanical Engineering"
+  },
+  {
+    "name": "Micro Electronics Level 1 (Electronics Workshop)",
+    "id": "electronics-workshop-micro-electronics-level-1",
+    "room": "Electronics Workshop",
+    "module": "Micro Electronics",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Soldering Iron",
+        "quantity": 1
+      },
+      {
+        "name": "Multimeter",
+        "quantity": 1
+      },
+      {
+        "name": "Toolset",
+        "quantity": 1
+      },
+      {
+        "name": "Power Supply",
+        "quantity": 1
+      },
+      {
+        "name": "Woods",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Soldering Iron, 1 Multimeter, 1 Toolset, 1 Power Supply, 1 Woods",
+    "function": "+ 1 Electronics Capability"
+  },
+  {
+    "name": "Micro Electronics Level 2 (Electronics Workshop)",
+    "id": "electronics-workshop-micro-electronics-level-2",
+    "room": "Electronics Workshop",
+    "module": "Micro Electronics",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Soldering Iron",
+        "quantity": 2
+      },
+      {
+        "name": "Multimeter",
+        "quantity": 1
+      },
+      {
+        "name": "Power Supply",
+        "quantity": 1
+      },
+      {
+        "name": "Oscilloscope",
+        "quantity": 1
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 4
+      }
+    ],
+    "requirements_text": "2 Soldering Iron, 1 Multimeter, 1 Power Supply, 1 Oscilloscope, 4 Electrical Parts",
+    "function": "+ 2 Electronics Capability"
+  },
+  {
+    "name": "Micro Electronics Level 3 (Electronics Workshop)",
+    "id": "electronics-workshop-micro-electronics-level-3",
+    "room": "Electronics Workshop",
+    "module": "Micro Electronics",
+    "level": 3,
+    "requirements": [
+      {
+        "name": "Microscope",
+        "quantity": 1
+      },
+      {
+        "name": "Multimeter",
+        "quantity": 1
+      },
+      {
+        "name": "Circuit Board",
+        "quantity": 2
+      },
+      {
+        "name": "Power Supply",
+        "quantity": 1
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 5
+      },
+      {
+        "name": "Dollars",
+        "quantity": 35000
+      }
+    ],
+    "requirements_text": "1 Microscope, 1 Multimeter, 2 Circuit Board, 1 Power Supply, 5 Electrical Parts, 35000 Dollars",
+    "function": "+ 3 Electronics Capability"
+  },
+  {
+    "name": "Reaction Vessel Level 1 (Laboratory)",
+    "id": "laboratory-reaction-vessel-level-1",
+    "room": "Laboratory",
+    "module": "Reaction Vessel",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Plastics",
+        "quantity": 2
+      },
+      {
+        "name": "Construction Material",
+        "quantity": 1
+      },
+      {
+        "name": "Silicone Sealant",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "2 Plastics, 1 Construction Material, 1 Silicone Sealant",
+    "function": "+ x Extraction & Reaction"
+  },
+  {
+    "name": "Reaction Vessel Level 2 (Laboratory)",
+    "id": "laboratory-reaction-vessel-level-2",
+    "room": "Laboratory",
+    "module": "Reaction Vessel",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 4
+      },
+      {
+        "name": "Chemicals",
+        "quantity": 2
+      },
+      {
+        "name": "Zinc Electrode",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "4 Steel, 2 Chemicals, 1 Zinc Electrode",
+    "function": "+ x Extraction & Reaction"
+  },
+  {
+    "name": "Reaction Vessel Level 3 (Laboratory)",
+    "id": "laboratory-reaction-vessel-level-3",
+    "room": "Laboratory",
+    "module": "Reaction Vessel",
+    "level": 3,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Stainless Steel Sheet",
+        "quantity": 3
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 6
+      },
+      {
+        "name": "Dollars",
+        "quantity": 45000
+      }
+    ],
+    "requirements_text": "12 Steel, 3 Stainless Steel Sheet, 6 Mechanical Parts, 45000 Dollars",
+    "function": "+ x Extraction & Reaction"
+  },
+  {
+    "name": "RF Sensors Level 1 (Electronics Workshop)",
+    "id": "electronics-workshop-rf-sensors-level-1",
+    "room": "Electronics Workshop",
+    "module": "RF Sensors",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Woods",
+        "quantity": 1
+      },
+      {
+        "name": "Steel",
+        "quantity": 1
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Signal Generator",
+        "quantity": 1
+      },
+      {
+        "name": "Soldering Iron",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Woods, 1 Steel, 1 Electrical Parts, 1 Signal Generator, 1 Soldering Iron",
+    "function": "+ 1 Sensor and RF Processing"
+  },
+  {
+    "name": "RF Sensors Level 2 (Electronics Workshop)",
+    "id": "electronics-workshop-rf-sensors-level-2",
+    "room": "Electronics Workshop",
+    "module": "RF Sensors",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 6
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 4
+      },
+      {
+        "name": "Signal Generator",
+        "quantity": 1
+      },
+      {
+        "name": "Oscilloscope",
+        "quantity": 1
+      },
+      {
+        "name": "Laser Tube",
+        "quantity": 1
+      },
+      {
+        "name": "Dollars",
+        "quantity": 30000
+      }
+    ],
+    "requirements_text": "6 Steel, 2 Mechanical Parts, 4 Electrical Parts, 1 Signal Generator, 1 Oscilloscope, 1 Laser Tube, 30000 Dollars",
+    "function": "+ 2 Sensor and RF Processing"
+  },
+  {
+    "name": "Safety Level 1 (Laboratory)",
+    "id": "laboratory-safety-level-1",
+    "room": "Laboratory",
+    "module": "Safety",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Mechanical Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Plastics",
+        "quantity": 2
+      },
+      {
+        "name": "PC Fan",
+        "quantity": 2
+      }
+    ],
+    "requirements_text": "2 Mechanical Parts, 2 Plastics, 2 PC Fan",
+    "function": "+ x Safety"
+  },
+  {
+    "name": "Safety Level 2 (Laboratory)",
+    "id": "laboratory-safety-level-2",
+    "room": "Laboratory",
+    "module": "Safety",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 10
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 5
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 5
+      },
+      {
+        "name": "PC Fan",
+        "quantity": 3
+      },
+      {
+        "name": "HEPA Filter",
+        "quantity": 1
+      },
+      {
+        "name": "Dollars",
+        "quantity": 35000
+      }
+    ],
+    "requirements_text": "10 Steel, 5 Electrical Parts, 5 Plumbing Parts, 3 PC Fan, 1 HEPA Filter, 35000 Dollars",
+    "function": "+ x Safety"
+  },
+  {
+    "name": "Software Level 1 (Electronics Workshop)",
+    "id": "electronics-workshop-software-level-1",
+    "room": "Electronics Workshop",
+    "module": "Software",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Civilian Software",
+        "quantity": 3
+      },
+      {
+        "name": "Military Software",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "3 Civilian Software, 1 Military Software",
+    "function": "+ 2 Compute Capacity"
+  },
+  {
+    "name": "Software Level 2 (Electronics Workshop)",
+    "id": "electronics-workshop-software-level-2",
+    "room": "Electronics Workshop",
+    "module": "Software",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Civilian Software",
+        "quantity": 6
+      },
+      {
+        "name": "Military Software",
+        "quantity": 2
+      },
+      {
+        "name": "Graphics Card",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "6 Civilian Software, 2 Military Software, 1 Graphics Card",
+    "function": "+ 2 Compute Capacity"
+  },
+  {
+    "name": "Storage Equipment Level 1 (Electronics Workshop)",
+    "id": "electronics-workshop-storage-equipment-level-1",
+    "room": "Electronics Workshop",
+    "module": "Storage Equipment",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Woods",
+        "quantity": 1
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Woods, 1 Mechanical Parts",
+    "function": "+ 2 Storage Capacity"
+  },
+  {
+    "name": "Storage Equipment Level 1 (Laboratory)",
+    "id": "laboratory-storage-equipment-level-1",
+    "room": "Laboratory",
+    "module": "Storage Equipment",
+    "level": 1,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 1
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Refrigerant",
+        "quantity": 1
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "1 Steel, 1 Electrical Parts, 1 Refrigerant, 1 Plumbing Parts",
+    "function": "+ 2 Storage Capacity"
+  },
+  {
+    "name": "Storage Equipment Level 2 (Electronics Workshop)",
+    "id": "electronics-workshop-storage-equipment-level-2",
+    "room": "Electronics Workshop",
+    "module": "Storage Equipment",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 9
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 3
+      }
+    ],
+    "requirements_text": "9 Steel, 3 Mechanical Parts",
+    "function": "+ 2 Storage Capacity"
+  },
+  {
+    "name": "Storage Equipment Level 2 (Laboratory)",
+    "id": "laboratory-storage-equipment-level-2",
+    "room": "Laboratory",
+    "module": "Storage Equipment",
+    "level": 2,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 3
+      },
+      {
+        "name": "Glass",
+        "quantity": 3
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 1
+      },
+      {
+        "name": "Refrigerant",
+        "quantity": 1
+      }
+    ],
+    "requirements_text": "3 Steel, 3 Glass, 2 Plumbing Parts, 1 Electrical Parts, 1 Refrigerant",
+    "function": "+ 2 Storage Capacity"
+  },
+  {
+    "name": "Storage Equipment Level 3 (Electronics Workshop)",
+    "id": "electronics-workshop-storage-equipment-level-3",
+    "room": "Electronics Workshop",
+    "module": "Storage Equipment",
+    "level": 3,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Mechanical Parts",
+        "quantity": 6
+      },
+      {
+        "name": "Stainless Steel Sheet",
+        "quantity": 4
+      },
+      {
+        "name": "Dollars",
+        "quantity": 45000
+      }
+    ],
+    "requirements_text": "12 Steel, 6 Mechanical Parts, 4 Stainless Steel Sheet, 45000 Dollars",
+    "function": "+ 2 Storage Capacity"
+  },
+  {
+    "name": "Storage Equipment Level 3 (Laboratory)",
+    "id": "laboratory-storage-equipment-level-3",
+    "room": "Laboratory",
+    "module": "Storage Equipment",
+    "level": 3,
+    "requirements": [
+      {
+        "name": "Steel",
+        "quantity": 6
+      },
+      {
+        "name": "Glass",
+        "quantity": 5
+      },
+      {
+        "name": "Plumbing Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Refrigerant",
+        "quantity": 2
+      },
+      {
+        "name": "Electrical Parts",
+        "quantity": 2
+      },
+      {
+        "name": "Circuit Board",
+        "quantity": 2
+      },
+      {
+        "name": "Dollars",
+        "quantity": 45000
+      }
+    ],
+    "requirements_text": "6 Steel, 5 Glass, 2 Plumbing Parts, 2 Refrigerant, 2 Electrical Parts, 2 Circuit Board, 45000 Dollars",
+    "function": "+ 2 Storage Capacity"
+  }
+]
