@@ -1,0 +1,4732 @@
+[
+  {
+    "name": ".222 Remington FMJ (Artisan)",
+    "id": "artisan-ammo-222-remington-fmj",
+    "item": ".222 Remington FMJ",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": ".222 Remington HP (Artisan)",
+    "id": "artisan-ammo-222-remington-hp",
+    "item": ".222 Remington HP",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": ".222 Remington SP (Artisan)",
+    "id": "artisan-ammo-222-remington-sp",
+    "item": ".222 Remington SP",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": ".222 Remington VMax (Artisan)",
+    "id": "artisan-ammo-222-remington-vmax",
+    "item": ".222 Remington VMax",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": ".300 AAC Blackout CQ (Banshee)",
+    "id": "banshee-ammo-300-aac-blackout-cq",
+    "item": ".300 AAC Blackout CQ",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": ".300 AAC Blackout FMJ (Banshee)",
+    "id": "banshee-ammo-300-aac-blackout-fmj",
+    "item": ".300 AAC Blackout FMJ",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": ".300 AAC Blackout Subsonic (Banshee)",
+    "id": "banshee-ammo-300-aac-blackout-subsonic",
+    "item": ".300 AAC Blackout Subsonic",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Ammunition Type"
+  },
+  {
+    "name": ".300 AAC Blackout V-MAX (Banshee)",
+    "id": "banshee-ammo-300-aac-blackout-v-max",
+    "item": ".300 AAC Blackout V-MAX",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": ".45 ACP AP (Artisan)",
+    "id": "artisan-ammo-45-acp-ap",
+    "item": ".45 ACP AP",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": ".45 ACP FMJ (Artisan)",
+    "id": "artisan-ammo-45-acp-fmj",
+    "item": ".45 ACP FMJ",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": ".45 ACP Hydra-Shok (Artisan)",
+    "id": "artisan-ammo-45-acp-hydra-shok",
+    "item": ".45 ACP Hydra-Shok",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": ".45 ACP JHP +P (Artisan)",
+    "id": "artisan-ammo-45-acp-jhp-p",
+    "item": ".45 ACP JHP +P",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": "1 Shot Energy Chews (Lab Rat)",
+    "id": "lab-rat-food-1-shot-energy-chews",
+    "item": "1 Shot Energy Chews",
+    "vendor": "Lab Rat",
+    "rank": 4,
+    "category": "food",
+    "type": "Food",
+    "buy_price": "$80"
+  },
+  {
+    "name": "12GA 00 Buckshot (Gunny)",
+    "id": "gunny-ammo-12ga-00-buckshot",
+    "item": "12GA 00 Buckshot",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "12GA FC 00 Buckshot (Gunny)",
+    "id": "gunny-ammo-12ga-fc-00-buckshot",
+    "item": "12GA FC 00 Buckshot",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "12GA Slug (Gunny)",
+    "id": "gunny-ammo-12ga-slug",
+    "item": "12GA Slug",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "12GA SST Sabot Slug (Gunny)",
+    "id": "gunny-ammo-12ga-sst-sabot-slug",
+    "item": "12GA SST Sabot Slug",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "1911 Grip Scope Mount (Vulture)",
+    "id": "vulture-mounts-1911-grip-scope-mount",
+    "item": "1911 Grip Scope Mount",
+    "vendor": "Vulture",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "3 Prong Flash Hider (Banshee)",
+    "id": "banshee-muzzle-devices-3-prong-flash-hider",
+    "item": "3 Prong Flash Hider",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$146"
+  },
+  {
+    "name": "3-Lug threaded HK MP5 (Gunny)",
+    "id": "gunny-muzzle-devices-3-lug-threaded-hk-mp5",
+    "item": "3-Lug threaded HK MP5",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "3M Comtac II (Banshee)",
+    "id": "banshee-headsets-3m-comtac-ii",
+    "item": "3M Comtac II",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "headsets",
+    "type": "Headset"
+  },
+  {
+    "name": "4.6x30mm Action SX (Banshee)",
+    "id": "banshee-ammo-4-6x30mm-action-sx",
+    "item": "4.6x30mm Action SX",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": "4.6x30mm AP SX (Banshee)",
+    "id": "banshee-ammo-4-6x30mm-ap-sx",
+    "item": "4.6x30mm AP SX",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": "4.6x30mm FMJ SX (Banshee)",
+    "id": "banshee-ammo-4-6x30mm-fmj-sx",
+    "item": "4.6x30mm FMJ SX",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": "4.6x30mm Subsonic SX (Banshee)",
+    "id": "banshee-ammo-4-6x30mm-subsonic-sx",
+    "item": "4.6x30mm Subsonic SX",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": "5.45x39mm FMJ (Turncoat)",
+    "id": "turncoat-ammo-5-45x39mm-fmj",
+    "item": "5.45x39mm FMJ",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.45x39mm HP (Turncoat)",
+    "id": "turncoat-ammo-5-45x39mm-hp",
+    "item": "5.45x39mm HP",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.45x39mm PP (7N10) (Turncoat)",
+    "id": "turncoat-ammo-5-45x39mm-pp-7n10",
+    "item": "5.45x39mm PP (7N10)",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.45x39mm WOLF (Turncoat)",
+    "id": "turncoat-ammo-5-45x39mm-wolf",
+    "item": "5.45x39mm WOLF",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.56x45mm AP (M855) (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-ap-m855",
+    "item": "5.56x45mm AP (M855)",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.56x45mm AP (M855A1) (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-ap-m855a1",
+    "item": "5.56x45mm AP (M855A1)",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.56x45mm AP (M995) (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-ap-m995",
+    "item": "5.56x45mm AP (M995)",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.56x45mm FMJ (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-fmj",
+    "item": "5.56x45mm FMJ",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.56x45mm HPBT (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-hpbt",
+    "item": "5.56x45mm HPBT",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.56x45mm SP (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-sp",
+    "item": "5.56x45mm SP",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "5.56x45mm Tracer (M856) (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-tracer-m856",
+    "item": "5.56x45mm Tracer (M856)",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "503CU Micro Sight (Gunny)",
+    "id": "gunny-collimators-503cu-micro-sight",
+    "item": "503CU Micro Sight",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "collimators",
+    "type": "Collimator"
+  },
+  {
+    "name": "510C Reflex Sight (Gunny)",
+    "id": "gunny-collimators-510c-reflex-sight",
+    "item": "510C Reflex Sight",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "collimators",
+    "type": "Collimator"
+  },
+  {
+    "name": "7.62x25mm FMJ (Artisan)",
+    "id": "artisan-ammo-7-62x25mm-fmj",
+    "item": "7.62x25mm FMJ",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": "7.62x25mm PST (Artisan)",
+    "id": "artisan-ammo-7-62x25mm-pst",
+    "item": "7.62x25mm PST",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x25mm PT (Artisan)",
+    "id": "artisan-ammo-7-62x25mm-pt",
+    "item": "7.62x25mm PT",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x39mm PS (57-N-231C) (Artisan)",
+    "id": "artisan-ammo-7-62x39mm-ps-57-n-231c",
+    "item": "7.62x39mm PS (57-N-231C)",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x39mm SP (Artisan)",
+    "id": "artisan-ammo-7-62x39mm-sp",
+    "item": "7.62x39mm SP",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x39mm US (Artisan)",
+    "id": "artisan-ammo-7-62x39mm-us",
+    "item": "7.62x39mm US",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x51mm FMJ (M80) (Gunny)",
+    "id": "gunny-ammo-7-62x51mm-fmj-m80",
+    "item": "7.62x51mm FMJ (M80)",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x51mm FMJ (M80A1) (Banshee)",
+    "id": "banshee-ammo-7-62x51mm-fmj-m80a1",
+    "item": "7.62x51mm FMJ (M80A1)",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x51mm HPBT (Banshee)",
+    "id": "banshee-ammo-7-62x51mm-hpbt",
+    "item": "7.62x51mm HPBT",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x54R LPS (57-N-323S) (Artisan)",
+    "id": "artisan-ammo-7-62x54r-lps-57-n-323s",
+    "item": "7.62x54R LPS (57-N-323S)",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.62x54R Tracer (T-46M) (Artisan)",
+    "id": "artisan-ammo-7-62x54r-tracer-t-46m",
+    "item": "7.62x54R Tracer (T-46M)",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.65 Browning FMJ (Artisan)",
+    "id": "artisan-ammo-7-65-browning-fmj",
+    "item": "7.65 Browning FMJ",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "7.65 Browning JHP (Artisan)",
+    "id": "artisan-ammo-7-65-browning-jhp",
+    "item": "7.65 Browning JHP",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "762-SD Suppressor (Banshee)",
+    "id": "banshee-suppressors-762-sd-suppressor",
+    "item": "762-SD Suppressor",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$1,961"
+  },
+  {
+    "name": "9x19mm FMJ (Gunny)",
+    "id": "gunny-ammo-9x19mm-fmj",
+    "item": "9x19mm FMJ",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "9x19mm HP (Gunny)",
+    "id": "gunny-ammo-9x19mm-hp",
+    "item": "9x19mm HP",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "9x19mm Libra Snail (Gunny)",
+    "id": "gunny-ammo-9x19mm-libra-snail",
+    "item": "9x19mm Libra Snail",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "ammo",
+    "type": "Ammunition Round"
+  },
+  {
+    "name": "9x19mm Tracer (Gunny)",
+    "id": "gunny-ammo-9x19mm-tracer",
+    "item": "9x19mm Tracer",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "9x19mm Xtreme Penetrator P+ (Gunny)",
+    "id": "gunny-ammo-9x19mm-xtreme-penetrator-p",
+    "item": "9x19mm Xtreme Penetrator P+",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "ammo",
+    "type": "Round"
+  },
+  {
+    "name": "ACOG Mount (Gunny)",
+    "id": "gunny-mounts-acog-mount",
+    "item": "ACOG Mount",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "ACOG TA01NSN 4x32 Assault Scope (Gunny)",
+    "id": "gunny-scopes-acog-ta01nsn-4x32-assault-scope",
+    "item": "ACOG TA01NSN 4x32 Assault Scope",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "scopes",
+    "type": "Scope"
+  },
+  {
+    "name": "Activated Charcoal (Lab Rat)",
+    "id": "lab-rat-medical-activated-charcoal",
+    "item": "Activated Charcoal",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "medical",
+    "type": "Pill"
+  },
+  {
+    "name": "ADE Advanced Red Laser (Gunny)",
+    "id": "gunny-tactical-devices-ade-advanced-red-laser",
+    "item": "ADE Advanced Red Laser",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "tactical_devices",
+    "type": "Tactical Device"
+  },
+  {
+    "name": "Admin Desk (Artisan)",
+    "id": "artisan-containers-admin-desk",
+    "item": "Admin Desk",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$89,481"
+  },
+  {
+    "name": "Admin Pouch (Artisan)",
+    "id": "artisan-containers-admin-pouch",
+    "item": "Admin Pouch",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$75,881"
+  },
+  {
+    "name": "Advanced Flexible Splint (Lab Rat)",
+    "id": "lab-rat-medical-advanced-flexible-splint",
+    "item": "Advanced Flexible Splint",
+    "vendor": "Lab Rat",
+    "rank": 4,
+    "category": "medical",
+    "type": "Splint"
+  },
+  {
+    "name": "Advanced Tracking Tag (Banshee)",
+    "id": "banshee-items-advanced-tracking-tag",
+    "item": "Advanced Tracking Tag",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "items",
+    "buy_price": "$899"
+  },
+  {
+    "name": "AFG-2 (Gunny)",
+    "id": "gunny-foregrips-afg-2",
+    "item": "AFG-2",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "foregrips",
+    "type": "Foregrip",
+    "buy_price": "$80"
+  },
+  {
+    "name": "Aimpoint ACRO P-2 (Banshee)",
+    "id": "banshee-collimators-aimpoint-acro-p-2",
+    "item": "Aimpoint ACRO P-2",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "collimators",
+    "type": "Collimator",
+    "buy_price": "$1,015"
+  },
+  {
+    "name": "Aimpoint Acro Picatinny Mount (Banshee)",
+    "id": "banshee-mounts-aimpoint-acro-picatinny-mount",
+    "item": "Aimpoint Acro Picatinny Mount",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$88"
+  },
+  {
+    "name": "AK 5.45x39mm 30-Round PMAG Magazine (Turncoat)",
+    "id": "turncoat-magazines-ak-5-45x39mm-30-round-pmag-magazine",
+    "item": "AK 5.45x39mm 30-Round PMAG Magazine",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$101"
+  },
+  {
+    "name": "AK 5.45×39mm 30-Round Bakelite Magazine (Turncoat)",
+    "id": "turncoat-magazines-ak-5-45-39mm-30-round-bakelite-magazine",
+    "item": "AK 5.45×39mm 30-Round Bakelite Magazine",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$76"
+  },
+  {
+    "name": "AK 7.62x39mm 10-Round Steel Magazine (Artisan)",
+    "id": "artisan-magazines-ak-7-62x39mm-10-round-steel-magazine",
+    "item": "AK 7.62x39mm 10-Round Steel Magazine",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "AK 7.62x39mm 30-Round Bakelite Magazine (Artisan)",
+    "id": "artisan-magazines-ak-7-62x39mm-30-round-bakelite-magazine",
+    "item": "AK 7.62x39mm 30-Round Bakelite Magazine",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "AK 7.62x39mm 30-Round Stamped Magazine (Artisan)",
+    "id": "artisan-magazines-ak-7-62x39mm-30-round-stamped-magazine",
+    "item": "AK 7.62x39mm 30-Round Stamped Magazine",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "AK Adapter 14-1LH to 24-1.5 (Artisan)",
+    "id": "artisan-muzzle-devices-ak-adapter-14-1lh-to-24-1-5",
+    "item": "AK Adapter 14-1LH to 24-1.5",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$41"
+  },
+  {
+    "name": "AK B10M + B19 Handguard (Turncoat)",
+    "id": "turncoat-handguards-ak-b10m-b19-handguard",
+    "item": "AK B10M + B19 Handguard",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$167"
+  },
+  {
+    "name": "AK Buffer Tube Adapter (Artisan)",
+    "id": "artisan-stock-adapters-ak-buffer-tube-adapter",
+    "item": "AK Buffer Tube Adapter",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "stock_adapters",
+    "type": "Stock Adapter",
+    "buy_price": "$68"
+  },
+  {
+    "name": "AK MOE Handguard (Artisan)",
+    "id": "artisan-handguards-ak-moe-handguard",
+    "item": "AK MOE Handguard",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard"
+  },
+  {
+    "name": "AK MOE Stock (Artisan)",
+    "id": "artisan-stocks-ak-moe-stock",
+    "item": "AK MOE Stock",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$211"
+  },
+  {
+    "name": "AK Polymer Handguard with Picatinny Rail (Turncoat)",
+    "id": "turncoat-handguards-ak-polymer-handguard-with-picatinny-rail",
+    "item": "AK Polymer Handguard with Picatinny Rail",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$89"
+  },
+  {
+    "name": "AK Polymer Pistol Grip (Artisan)",
+    "id": "artisan-pistol-grips-ak-polymer-pistol-grip",
+    "item": "AK Polymer Pistol Grip",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$27"
+  },
+  {
+    "name": "AK PT-1 Stock (Turncoat)",
+    "id": "turncoat-stocks-ak-pt-1-stock",
+    "item": "AK PT-1 Stock",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$423"
+  },
+  {
+    "name": "AK Rear Iron Sight (Artisan)",
+    "id": "artisan-rear-iron-sights-ak-rear-iron-sight",
+    "item": "AK Rear Iron Sight",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight",
+    "buy_price": "$26"
+  },
+  {
+    "name": "AK RP-1 Charging Handle (Artisan)",
+    "id": "artisan-charging-handle-ak-rp-1-charging-handle",
+    "item": "AK RP-1 Charging Handle",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "charging_handle",
+    "type": "Charging Handle"
+  },
+  {
+    "name": "AK Zhukov Stock (Artisan)",
+    "id": "artisan-stocks-ak-zhukov-stock",
+    "item": "AK Zhukov Stock",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$226"
+  },
+  {
+    "name": "AK-100 Series Muzzle Brake (Artisan)",
+    "id": "artisan-muzzle-devices-ak-100-series-muzzle-brake",
+    "item": "AK-100 Series Muzzle Brake",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$70"
+  },
+  {
+    "name": "AK-12 (Turncoat)",
+    "id": "turncoat-weapons-ak-12",
+    "item": "AK-12",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "AK-12 Suppressor (Turncoat)",
+    "id": "turncoat-suppressors-ak-12-suppressor",
+    "item": "AK-12 Suppressor",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$1,160"
+  },
+  {
+    "name": "AK-15 (Artisan)",
+    "id": "artisan-weapons-ak-15",
+    "item": "AK-15",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "AK-15 Suppressor (Artisan)",
+    "id": "artisan-suppressors-ak-15-suppressor",
+    "item": "AK-15 Suppressor",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$1,160"
+  },
+  {
+    "name": "AK-303M Mount (Turncoat)",
+    "id": "turncoat-mounts-ak-303m-mount",
+    "item": "AK-303M Mount",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$113"
+  },
+  {
+    "name": "AK-308 (Vulture)",
+    "id": "vulture-weapons-ak-308",
+    "item": "AK-308",
+    "vendor": "Vulture",
+    "rank": 4,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "AK-47/AKM Wooden Stock (Artisan)",
+    "id": "artisan-stocks-ak-47-akm-wooden-stock",
+    "item": "AK-47/AKM Wooden Stock",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "AK-74 Gas Tube (Turncoat)",
+    "id": "turncoat-gas-blocks-ak-74-gas-tube",
+    "item": "AK-74 Gas Tube",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "gas_blocks",
+    "type": "Gas Block",
+    "buy_price": "$7"
+  },
+  {
+    "name": "AK-74 Polymer Handguard (Turncoat)",
+    "id": "turncoat-handguards-ak-74-polymer-handguard",
+    "item": "AK-74 Polymer Handguard",
+    "vendor": "Turncoat",
+    "rank": null,
+    "category": "handguards",
+    "type": "Handguard"
+  },
+  {
+    "name": "AK-74N Wooden Stock (Turncoat)",
+    "id": "turncoat-stocks-ak-74n-wooden-stock",
+    "item": "AK-74N Wooden Stock",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$52"
+  },
+  {
+    "name": "AK/AKM BP-02 Side Mount (Artisan)",
+    "id": "artisan-mounts-ak-akm-bp-02-side-mount",
+    "item": "AK/AKM BP-02 Side Mount",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$96"
+  },
+  {
+    "name": "AK12 5.45x39mm 30-Round Magazine (Turncoat)",
+    "id": "turncoat-magazines-ak12-5-45x39mm-30-round-magazine",
+    "item": "AK12 5.45x39mm 30-Round Magazine",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$146"
+  },
+  {
+    "name": "AK15 7.62x39mm 30-Round Magazine (Artisan)",
+    "id": "artisan-magazines-ak15-7-62x39mm-30-round-magazine",
+    "item": "AK15 7.62x39mm 30-Round Magazine",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "AK19 5.56x45mm 30-Round Magazine (Turncoat)",
+    "id": "turncoat-magazines-ak19-5-56x45mm-30-round-magazine",
+    "item": "AK19 5.56x45mm 30-Round Magazine",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$68"
+  },
+  {
+    "name": "AK308 7.62x51mm 20-Round Magazine (Turncoat)",
+    "id": "turncoat-magazines-ak308-7-62x51mm-20-round-magazine",
+    "item": "AK308 7.62x51mm 20-Round Magazine",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$55"
+  },
+  {
+    "name": "AK74 5.45x39mm 60-Round Magazine (Turncoat)",
+    "id": "turncoat-magazines-ak74-5-45x39mm-60-round-magazine",
+    "item": "AK74 5.45x39mm 60-Round Magazine",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$165"
+  },
+  {
+    "name": "AKM (Artisan)",
+    "id": "artisan-weapons-akm",
+    "item": "AKM",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "AKM Gas Tube (Artisan)",
+    "id": "artisan-gas-blocks-akm-gas-tube",
+    "item": "AKM Gas Tube",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "gas_blocks",
+    "type": "Gas Block",
+    "buy_price": "$10"
+  },
+  {
+    "name": "AKM Slant Brake (Artisan)",
+    "id": "artisan-muzzle-devices-akm-slant-brake",
+    "item": "AKM Slant Brake",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$13"
+  },
+  {
+    "name": "AKM Wooden Handguard (Artisan)",
+    "id": "artisan-handguards-akm-wooden-handguard",
+    "item": "AKM Wooden Handguard",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$59"
+  },
+  {
+    "name": "AKM Zhukov Adapter (Artisan)",
+    "id": "artisan-stock-adapters-akm-zhukov-adapter",
+    "item": "AKM Zhukov Adapter",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "stock_adapters",
+    "type": "Stock Adapter",
+    "buy_price": "$81"
+  },
+  {
+    "name": "AKMSN Foldable Stock (Artisan)",
+    "id": "artisan-stocks-akmsn-foldable-stock",
+    "item": "AKMSN Foldable Stock",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$91"
+  },
+  {
+    "name": "AKS-74U Buffer Tube Adapter (Turncoat)",
+    "id": "turncoat-stock-adapters-aks-74u-buffer-tube-adapter",
+    "item": "AKS-74U Buffer Tube Adapter",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "stock_adapters",
+    "type": "Stock Adapter"
+  },
+  {
+    "name": "AKS-74U Dust Cover (Turncoat)",
+    "id": "turncoat-upper-receivers-aks-74u-dust-cover",
+    "item": "AKS-74U Dust Cover",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "upper_receivers",
+    "type": "Upper Receiver",
+    "buy_price": "$107"
+  },
+  {
+    "name": "AKS-74U Foldable Stock (Turncoat)",
+    "id": "turncoat-stocks-aks-74u-foldable-stock",
+    "item": "AKS-74U Foldable Stock",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$163"
+  },
+  {
+    "name": "AKS-74U Gas Tube (Turncoat)",
+    "id": "turncoat-gas-blocks-aks-74u-gas-tube",
+    "item": "AKS-74U Gas Tube",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "gas_blocks",
+    "type": "Gas Block",
+    "buy_price": "$68"
+  },
+  {
+    "name": "AKS-74U M4 Foldable Stock (Turncoat)",
+    "id": "turncoat-stocks-aks-74u-m4-foldable-stock",
+    "item": "AKS-74U M4 Foldable Stock",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$271"
+  },
+  {
+    "name": "AKS-74U Mlok Handguard (Turncoat)",
+    "id": "turncoat-handguards-aks-74u-mlok-handguard",
+    "item": "AKS-74U Mlok Handguard",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$84"
+  },
+  {
+    "name": "AKS-74U Muzzle Brake (Turncoat)",
+    "id": "turncoat-muzzle-devices-aks-74u-muzzle-brake",
+    "item": "AKS-74U Muzzle Brake",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$13"
+  },
+  {
+    "name": "AKS-74U Quad-Rail Handguard (Turncoat)",
+    "id": "turncoat-handguards-aks-74u-quad-rail-handguard",
+    "item": "AKS-74U Quad-Rail Handguard",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$50"
+  },
+  {
+    "name": "AKS-74U Rear sight (Turncoat)",
+    "id": "turncoat-rear-iron-sights-aks-74u-rear-sight",
+    "item": "AKS-74U Rear sight",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight",
+    "buy_price": "$22"
+  },
+  {
+    "name": "AKS-74U Wooden handguard (Turncoat)",
+    "id": "turncoat-handguards-aks-74u-wooden-handguard",
+    "item": "AKS-74U Wooden handguard",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$33"
+  },
+  {
+    "name": "ALICE (Handshake)",
+    "id": "handshake-rigs-alice",
+    "item": "ALICE",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "rigs",
+    "type": "Tactical Rig"
+  },
+  {
+    "name": "AMP12 (Handshake)",
+    "id": "handshake-backpacks-amp12",
+    "item": "AMP12",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "backpacks",
+    "type": "Backpack"
+  },
+  {
+    "name": "AN/PVS-14 Night Vision Device (Banshee)",
+    "id": "banshee-night-vision-an-pvs-14-night-vision-device",
+    "item": "AN/PVS-14 Night Vision Device",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "night_vision",
+    "type": "Night Vision"
+  },
+  {
+    "name": "AN/PVS-31A Night Vision Device (Banshee)",
+    "id": "banshee-night-vision-an-pvs-31a-night-vision-device",
+    "item": "AN/PVS-31A Night Vision Device",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "night_vision",
+    "type": "Night Vision"
+  },
+  {
+    "name": "AN/PVS-7 Night Vision Device (Banshee)",
+    "id": "banshee-night-vision-an-pvs-7-night-vision-device",
+    "item": "AN/PVS-7 Night Vision Device",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "night_vision",
+    "type": "Night Vision"
+  },
+  {
+    "name": "Aques Water 1 l (Lab Rat)",
+    "id": "lab-rat-drinks-aques-water-1-l",
+    "item": "Aques Water 1 l",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "drinks",
+    "type": "Drink"
+  },
+  {
+    "name": "Aques Water 1.5 l (Lab Rat)",
+    "id": "lab-rat-drinks-aques-water-1-5-l",
+    "item": "Aques Water 1.5 l",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "drinks",
+    "type": "Drink"
+  },
+  {
+    "name": "AR-15 Archangel Low-Profile Buttstock (Gunny)",
+    "id": "gunny-stocks-ar-15-archangel-low-profile-buttstock",
+    "item": "AR-15 Archangel Low-Profile Buttstock",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "AR-15 Barrel - 10.5\" (Gunny)",
+    "id": "gunny-barrels-ar-15-barrel-10-5",
+    "item": "AR-15 Barrel - 10.5\"",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "AR-15 Barrel - 16\" (Gunny)",
+    "id": "gunny-barrels-ar-15-barrel-16",
+    "item": "AR-15 Barrel - 16\"",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "AR-15 Barrel - 18\" (Gunny)",
+    "id": "gunny-barrels-ar-15-barrel-18",
+    "item": "AR-15 Barrel - 18\"",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$598"
+  },
+  {
+    "name": "AR-15 Carrying Handle (Gunny)",
+    "id": "gunny-rear-iron-sights-ar-15-carrying-handle",
+    "item": "AR-15 Carrying Handle",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight"
+  },
+  {
+    "name": "AR-15 CQA1 Barrel - 14.5\" (Gunny)",
+    "id": "gunny-barrels-ar-15-cqa1-barrel-14-5",
+    "item": "AR-15 CQA1 Barrel - 14.5\"",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "AR-15 GRIP-N-RIP Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-ar-15-grip-n-rip-charging-handle",
+    "item": "AR-15 GRIP-N-RIP Charging Handle",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "charging_handle",
+    "type": "Charging Handle"
+  },
+  {
+    "name": "AR-15 JPGS-10D Gas Block (Gunny)",
+    "id": "gunny-gas-blocks-ar-15-jpgs-10d-gas-block",
+    "item": "AR-15 JPGS-10D Gas Block",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "gas_blocks",
+    "type": "Gas Block"
+  },
+  {
+    "name": "AR-15 M401 Nylon Stock (Gunny)",
+    "id": "gunny-stocks-ar-15-m401-nylon-stock",
+    "item": "AR-15 M401 Nylon Stock",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$89"
+  },
+  {
+    "name": "AR-15 MOE M-LOK Carbine Handguard (Gunny)",
+    "id": "gunny-handguards-ar-15-moe-m-lok-carbine-handguard",
+    "item": "AR-15 MOE M-LOK Carbine Handguard",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard"
+  },
+  {
+    "name": "AR-15 Supreme Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-ar-15-supreme-charging-handle",
+    "item": "AR-15 Supreme Charging Handle",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$166"
+  },
+  {
+    "name": "AR15 MOE Stock (Gunny)",
+    "id": "gunny-stocks-ar15-moe-stock",
+    "item": "AR15 MOE Stock",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$167"
+  },
+  {
+    "name": "Archangel AK-Series Pistol Grip (Artisan)",
+    "id": "artisan-pistol-grips-archangel-ak-series-pistol-grip",
+    "item": "Archangel AK-Series Pistol Grip",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$70"
+  },
+  {
+    "name": "ARF Trauma Bandage 4 (Lab Rat)",
+    "id": "lab-rat-medical-arf-trauma-bandage-4",
+    "item": "ARF Trauma Bandage 4",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "medical",
+    "type": "Bandage"
+  },
+  {
+    "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine (Gunny)",
+    "id": "gunny-magazines-ati-s60-5-56x45mm-300-blk-60-round-magazine",
+    "item": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "B&T BT-21343 HK MP5SD Tri-Rail Handguard (Gunny)",
+    "id": "gunny-handguards-b-t-bt-21343-hk-mp5sd-tri-rail-handguard",
+    "item": "B&T BT-21343 HK MP5SD Tri-Rail Handguard",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$481"
+  },
+  {
+    "name": "B&T HK MP5 TL-99A1 3 Rail Handguard (Gunny)",
+    "id": "gunny-handguards-b-t-hk-mp5-tl-99a1-3-rail-handguard",
+    "item": "B&T HK MP5 TL-99A1 3 Rail Handguard",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$345"
+  },
+  {
+    "name": "Back-Up 3 Front Iron Sight (Gunny)",
+    "id": "gunny-front-iron-sights-back-up-3-front-iron-sight",
+    "item": "Back-Up 3 Front Iron Sight",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "front_iron_sights",
+    "type": "Front Iron Sight"
+  },
+  {
+    "name": "Back-Up 3 Rear Iron Sight (Gunny)",
+    "id": "gunny-rear-iron-sights-back-up-3-rear-iron-sight",
+    "item": "Back-Up 3 Rear Iron Sight",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight"
+  },
+  {
+    "name": "BANISH 45 Suppressor (Banshee)",
+    "id": "banshee-suppressors-banish-45-suppressor",
+    "item": "BANISH 45 Suppressor",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$1,544"
+  },
+  {
+    "name": "Baseball Cap (Black) (Handshake)",
+    "id": "handshake-helmets-baseball-cap-black",
+    "item": "Baseball Cap (Black)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "helmets"
+  },
+  {
+    "name": "Baseball Cap (Blue) (Handshake)",
+    "id": "handshake-helmets-baseball-cap-blue",
+    "item": "Baseball Cap (Blue)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "helmets"
+  },
+  {
+    "name": "Baseball Cap (Green) (Handshake)",
+    "id": "handshake-helmets-baseball-cap-green",
+    "item": "Baseball Cap (Green)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "helmets"
+  },
+  {
+    "name": "Baseball Cap (Khaki) (Handshake)",
+    "id": "handshake-helmets-baseball-cap-khaki",
+    "item": "Baseball Cap (Khaki)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "helmets"
+  },
+  {
+    "name": "Baseball Cap (Red) (Handshake)",
+    "id": "handshake-helmets-baseball-cap-red",
+    "item": "Baseball Cap (Red)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "helmets"
+  },
+  {
+    "name": "Basic Surgical & Suture Kit (Lab Rat)",
+    "id": "lab-rat-medical-basic-surgical-suture-kit",
+    "item": "Basic Surgical & Suture Kit",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "Surgery Kit"
+  },
+  {
+    "name": "Basic Tracking Tag (Banshee)",
+    "id": "banshee-items-basic-tracking-tag",
+    "item": "Basic Tracking Tag",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "items",
+    "buy_price": "$349"
+  },
+  {
+    "name": "Beretta M9A1 (Gunny)",
+    "id": "gunny-weapons-beretta-m9a1",
+    "item": "Beretta M9A1",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "weapons",
+    "type": "Pistol"
+  },
+  {
+    "name": "BM-1 AKM Accessory Mount (Artisan)",
+    "id": "artisan-mounts-bm-1-akm-accessory-mount",
+    "item": "BM-1 AKM Accessory Mount",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$94"
+  },
+  {
+    "name": "Buran's AK 5.45×39mm 30-Round Magazine (Turncoat)",
+    "id": "turncoat-magazines-buran-s-ak-5-45-39mm-30-round-magazine",
+    "item": "Buran's AK 5.45×39mm 30-Round Magazine",
+    "vendor": "Turncoat",
+    "rank": null,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$280"
+  },
+  {
+    "name": "Buran's AK-74N (Turncoat)",
+    "id": "turncoat-weapons-buran-s-ak-74n",
+    "item": "Buran's AK-74N",
+    "vendor": "Turncoat",
+    "rank": null,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "C2 Bag combat compact backpack (Handshake)",
+    "id": "handshake-backpacks-c2-bag-combat-compact-backpack",
+    "item": "C2 Bag combat compact backpack",
+    "vendor": "Handshake",
+    "rank": null,
+    "category": "backpacks",
+    "type": "Backpack"
+  },
+  {
+    "name": "Camera Wiretap (Handshake)",
+    "id": "handshake-tools-camera-wiretap",
+    "item": "Camera Wiretap",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "tools",
+    "type": "Tool",
+    "buy_price": "$150"
+  },
+  {
+    "name": "Chest Rig 901 Elite 4 (Handshake)",
+    "id": "handshake-plate-carriers-chest-rig-901-elite-4",
+    "item": "Chest Rig 901 Elite 4",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "plate_carriers",
+    "type": "Plate Carrier"
+  },
+  {
+    "name": "Civilian Flexible Splint (Lab Rat)",
+    "id": "lab-rat-medical-civilian-flexible-splint",
+    "item": "Civilian Flexible Splint",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "medical",
+    "type": "Splint"
+  },
+  {
+    "name": "Civilian Trekstars 70L Backpack (Artisan)",
+    "id": "artisan-backpacks-civilian-trekstars-70l-backpack",
+    "item": "Civilian Trekstars 70L Backpack",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "backpacks",
+    "type": "Backpack"
+  },
+  {
+    "name": "Combat Ration Pack (Lab Rat)",
+    "id": "lab-rat-food-combat-ration-pack",
+    "item": "Combat Ration Pack",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "food",
+    "type": "Food"
+  },
+  {
+    "name": "Combat Tourniquet (Lab Rat)",
+    "id": "lab-rat-medical-combat-tourniquet",
+    "item": "Combat Tourniquet",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "Tourniquet"
+  },
+  {
+    "name": "Commander (Navy) (Handshake)",
+    "id": "handshake-vests-commander-navy",
+    "item": "Commander (Navy)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "vests",
+    "type": "Armor vest"
+  },
+  {
+    "name": "Construction Earmuffs (Artisan)",
+    "id": "artisan-headsets-construction-earmuffs",
+    "item": "Construction Earmuffs",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "headsets",
+    "type": "Headset"
+  },
+  {
+    "name": "CPU Hat Nyco Ripstop (Handshake)",
+    "id": "handshake-helmets-cpu-hat-nyco-ripstop",
+    "item": "CPU Hat Nyco Ripstop",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "helmets"
+  },
+  {
+    "name": "CQ A1 (Gunny)",
+    "id": "gunny-weapons-cq-a1",
+    "item": "CQ A1",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "CQ A1 Buffer Tube (Gunny)",
+    "id": "gunny-buffer-tubes-cq-a1-buffer-tube",
+    "item": "CQ A1 Buffer Tube",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "buffer_tubes",
+    "type": "Buffer Tube"
+  },
+  {
+    "name": "CQ A1 Buttstock (Gunny)",
+    "id": "gunny-stocks-cq-a1-buttstock",
+    "item": "CQ A1 Buttstock",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "CQ A1 Carbine Handguard (Gunny)",
+    "id": "gunny-handguards-cq-a1-carbine-handguard",
+    "item": "CQ A1 Carbine Handguard",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard"
+  },
+  {
+    "name": "CQ A1 Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-cq-a1-charging-handle",
+    "item": "CQ A1 Charging Handle",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "charging_handle",
+    "type": "Charging Handle"
+  },
+  {
+    "name": "CQ A1 Upper Receiver (Gunny)",
+    "id": "gunny-upper-receivers-cq-a1-upper-receiver",
+    "item": "CQ A1 Upper Receiver",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "upper_receivers",
+    "type": "Upper Receiver",
+    "buy_price": "$126"
+  },
+  {
+    "name": "CQ A2 Flash Hider (Gunny)",
+    "id": "gunny-muzzle-devices-cq-a2-flash-hider",
+    "item": "CQ A2 Flash Hider",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "CQA1 Standard Gas Block (Gunny)",
+    "id": "gunny-gas-blocks-cqa1-standard-gas-block",
+    "item": "CQA1 Standard Gas Block",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "gas_blocks",
+    "type": "Gas Block"
+  },
+  {
+    "name": "Custom Gear Lowpro Belt (Turncoat)",
+    "id": "turncoat-belts-custom-gear-lowpro-belt",
+    "item": "Custom Gear Lowpro Belt",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "belts",
+    "type": "Belt"
+  },
+  {
+    "name": "DBAL-I2 (Banshee)",
+    "id": "banshee-tactical-devices-dbal-i2",
+    "item": "DBAL-I2",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "tactical_devices",
+    "type": "Tactical Device",
+    "buy_price": "$900"
+  },
+  {
+    "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine (Gunny)",
+    "id": "gunny-magazines-dd-5-56x45mm-300-blk-32-round-magazine",
+    "item": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "DD Enhanced AR Pistol Grip (Black) (Gunny)",
+    "id": "gunny-pistol-grips-dd-enhanced-ar-pistol-grip-black",
+    "item": "DD Enhanced AR Pistol Grip (Black)",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$323"
+  },
+  {
+    "name": "DD Enhanced AR Pistol Grip (Gunny)",
+    "id": "gunny-pistol-grips-dd-enhanced-ar-pistol-grip",
+    "item": "DD Enhanced AR Pistol Grip",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$323"
+  },
+  {
+    "name": "DD Enhanced AR Pistol Grip (MILSPEC) (Gunny)",
+    "id": "gunny-pistol-grips-dd-enhanced-ar-pistol-grip-milspec",
+    "item": "DD Enhanced AR Pistol Grip (MILSPEC)",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$323"
+  },
+  {
+    "name": "DD RIS II 12 (Gunny)",
+    "id": "gunny-handguards-dd-ris-ii-12",
+    "item": "DD RIS II 12",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$504"
+  },
+  {
+    "name": "DDM4 (Gunny)",
+    "id": "gunny-weapons-ddm4",
+    "item": "DDM4",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "Delta Backpack (Turncoat)",
+    "id": "turncoat-backpacks-delta-backpack",
+    "item": "Delta Backpack",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "backpacks",
+    "type": "Backpack"
+  },
+  {
+    "name": "Dog Leg Rail (Artisan)",
+    "id": "artisan-upper-receivers-dog-leg-rail",
+    "item": "Dog Leg Rail",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "upper_receivers",
+    "type": "Upper Receiver"
+  },
+  {
+    "name": "DT-0X (Lab Rat)",
+    "id": "lab-rat-medical-dt-0x",
+    "item": "DT-0X",
+    "vendor": "Lab Rat",
+    "rank": 4,
+    "category": "medical",
+    "type": "Stimulator"
+  },
+  {
+    "name": "DT-2 NGS Edition night vision device (Multicam) (Banshee)",
+    "id": "banshee-night-vision-dt-2-ngs-edition-night-vision-device-multicam",
+    "item": "DT-2 NGS Edition night vision device (Multicam)",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "night_vision",
+    "type": "Night Vision",
+    "buy_price": "$23,500"
+  },
+  {
+    "name": "DTK-2 Muzzle Brake (Artisan)",
+    "id": "artisan-muzzle-devices-dtk-2-muzzle-brake",
+    "item": "DTK-2 Muzzle Brake",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$117"
+  },
+  {
+    "name": "Emergency Suture Kit (Lab Rat)",
+    "id": "lab-rat-medical-emergency-suture-kit",
+    "item": "Emergency Suture Kit",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "Surgery Kit"
+  },
+  {
+    "name": "Energy Bar Nuts and Fruits * (Lab Rat)",
+    "id": "lab-rat-provisions-energy-bar-nuts-and-fruits",
+    "item": "Energy Bar Nuts and Fruits *",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "provisions"
+  },
+  {
+    "name": "EPO (Lab Rat)",
+    "id": "lab-rat-medical-epo",
+    "item": "EPO",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "medical",
+    "type": "Stimulator"
+  },
+  {
+    "name": "Equipment Repair Essentials Kit (Handshake)",
+    "id": "handshake-repair-kits-equipment-repair-essentials-kit",
+    "item": "Equipment Repair Essentials Kit",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "repair_kits",
+    "type": "Consumable",
+    "buy_price": "$500"
+  },
+  {
+    "name": "EXFIL (Coyote Brown) (Handshake)",
+    "id": "handshake-helmets-exfil-coyote-brown",
+    "item": "EXFIL (Coyote Brown)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "helmets"
+  },
+  {
+    "name": "EXFIL (Multicam) (Handshake)",
+    "id": "handshake-helmets-exfil-multicam",
+    "item": "EXFIL (Multicam)",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "helmets"
+  },
+  {
+    "name": "ExSOF Cap (Banshee)",
+    "id": "banshee-helmets-exsof-cap",
+    "item": "ExSOF Cap",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "helmets"
+  },
+  {
+    "name": "F-1 (Gunny)",
+    "id": "gunny-throwables-f-1",
+    "item": "F-1",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "throwables",
+    "type": "Explosive Grenade",
+    "buy_price": "$61"
+  },
+  {
+    "name": "F1 Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-f1-charging-handle",
+    "item": "F1 Charging Handle",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "charging_handle",
+    "type": "Charging Handle"
+  },
+  {
+    "name": "FAST MT (Multicam) (Handshake)",
+    "id": "handshake-helmets-fast-mt-multicam",
+    "item": "FAST MT (Multicam)",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "helmets"
+  },
+  {
+    "name": "FAST MT (Tan) (Handshake)",
+    "id": "handshake-helmets-fast-mt-tan",
+    "item": "FAST MT (Tan)",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "helmets"
+  },
+  {
+    "name": "Firearm Cleaning Set (Gunny)",
+    "id": "gunny-repair-kits-firearm-cleaning-set",
+    "item": "Firearm Cleaning Set",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "repair_kits",
+    "type": "Repair Kit",
+    "buy_price": "$450"
+  },
+  {
+    "name": "Firearm Tool Set (Gunny)",
+    "id": "gunny-repair-kits-firearm-tool-set",
+    "item": "Firearm Tool Set",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "repair_kits",
+    "type": "Repair Kit",
+    "buy_price": "$950"
+  },
+  {
+    "name": "First Aid Case (Lab Rat)",
+    "id": "lab-rat-containers-first-aid-case",
+    "item": "First Aid Case",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container"
+  },
+  {
+    "name": "Flexible Splint (Lab Rat)",
+    "id": "lab-rat-medical-flexible-splint",
+    "item": "Flexible Splint",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "medical",
+    "type": "Splint"
+  },
+  {
+    "name": "Folding Micro Front Iron Sight (Gunny)",
+    "id": "gunny-front-iron-sights-folding-micro-front-iron-sight",
+    "item": "Folding Micro Front Iron Sight",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "front_iron_sights",
+    "type": "Front Iron Sight"
+  },
+  {
+    "name": "Folding Micro Rear Iron Sight (Gunny)",
+    "id": "gunny-rear-iron-sights-folding-micro-rear-iron-sight",
+    "item": "Folding Micro Rear Iron Sight",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight"
+  },
+  {
+    "name": "Gatorz Magnum (Black) (Banshee)",
+    "id": "banshee-glasses-gatorz-magnum-black",
+    "item": "Gatorz Magnum (Black)",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "glasses",
+    "type": "Glasses"
+  },
+  {
+    "name": "Glock 17 9x19mm 17-Round Magazine (Gunny)",
+    "id": "gunny-magazines-glock-17-9x19mm-17-round-magazine",
+    "item": "Glock 17 9x19mm 17-Round Magazine",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "Glock 17 9x19mm 27-Round Magazine (Banshee)",
+    "id": "banshee-magazines-glock-17-9x19mm-27-round-magazine",
+    "item": "Glock 17 9x19mm 27-Round Magazine",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "Glock 17 Match Grade Barrel (Banshee)",
+    "id": "banshee-barrels-glock-17-match-grade-barrel",
+    "item": "Glock 17 Match Grade Barrel",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$204"
+  },
+  {
+    "name": "Glock 17 OEM Front Tritium Sight (Banshee)",
+    "id": "banshee-front-iron-sights-glock-17-oem-front-tritium-sight",
+    "item": "Glock 17 OEM Front Tritium Sight",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "front_iron_sights",
+    "type": "Front Iron Sight",
+    "buy_price": "$48"
+  },
+  {
+    "name": "Glock 17 OEM Rear Tritium Sight (Banshee)",
+    "id": "banshee-rear-iron-sights-glock-17-oem-rear-tritium-sight",
+    "item": "Glock 17 OEM Rear Tritium Sight",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight",
+    "buy_price": "$48"
+  },
+  {
+    "name": "Glock 17 Rear Sight Acro Mount (Banshee)",
+    "id": "banshee-mounts-glock-17-rear-sight-acro-mount",
+    "item": "Glock 17 Rear Sight Acro Mount",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$58"
+  },
+  {
+    "name": "Glock 17 Velocity Muzzle Brake (Banshee)",
+    "id": "banshee-muzzle-devices-glock-17-velocity-muzzle-brake",
+    "item": "Glock 17 Velocity Muzzle Brake",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$150"
+  },
+  {
+    "name": "Glock 17 Vortex Viper Adapter (Banshee)",
+    "id": "banshee-mounts-glock-17-vortex-viper-adapter",
+    "item": "Glock 17 Vortex Viper Adapter",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$52"
+  },
+  {
+    "name": "Glock 17 ZPS.6 Slide (Banshee)",
+    "id": "banshee-slides-glock-17-zps-6-slide",
+    "item": "Glock 17 ZPS.6 Slide",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "slides",
+    "type": "Slide",
+    "buy_price": "$353"
+  },
+  {
+    "name": "Glock Micro Mount (Banshee)",
+    "id": "banshee-mounts-glock-micro-mount",
+    "item": "Glock Micro Mount",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$65"
+  },
+  {
+    "name": "Glock17 Holosun 507c Adapter (Banshee)",
+    "id": "banshee-mounts-glock17-holosun-507c-adapter",
+    "item": "Glock17 Holosun 507c Adapter",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$54"
+  },
+  {
+    "name": "GPS Tracker (Gunny)",
+    "id": "gunny-tools-gps-tracker",
+    "item": "GPS Tracker",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "tools",
+    "buy_price": "$50"
+  },
+  {
+    "name": "Gray Focused Energy (Lab Rat)",
+    "id": "lab-rat-drinks-gray-focused-energy",
+    "item": "Gray Focused Energy",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "drinks",
+    "type": "Drink"
+  },
+  {
+    "name": "Gray Focused Energy * (Lab Rat)",
+    "id": "lab-rat-provisions-gray-focused-energy",
+    "item": "Gray Focused Energy *",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "provisions"
+  },
+  {
+    "name": "Grin's Colt 1911 .45ACP 7-Round Magazine (Vulture)",
+    "id": "vulture-magazines-grin-s-colt-1911-45acp-7-round-magazine",
+    "item": "Grin's Colt 1911 .45ACP 7-Round Magazine",
+    "vendor": "Vulture",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "GSSH-01 (Turncoat)",
+    "id": "turncoat-headsets-gssh-01",
+    "item": "GSSH-01",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "headsets",
+    "type": "Headset",
+    "buy_price": "$278"
+  },
+  {
+    "name": "Gunfighter 14 (Handshake)",
+    "id": "handshake-backpacks-gunfighter-14",
+    "item": "Gunfighter 14",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "backpacks",
+    "type": "Backpack"
+  },
+  {
+    "name": "Gunsmith Tool Set (Gunny)",
+    "id": "gunny-repair-kits-gunsmith-tool-set",
+    "item": "Gunsmith Tool Set",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "repair_kits",
+    "type": "Repair Kit",
+    "buy_price": "$600"
+  },
+  {
+    "name": "Half mask (Black) (Banshee)",
+    "id": "banshee-face-cover-half-mask-black",
+    "item": "Half mask (Black)",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "face_cover",
+    "type": "Face Mask"
+  },
+  {
+    "name": "Half Mask (Woodland) (Handshake)",
+    "id": "handshake-face-cover-half-mask-woodland",
+    "item": "Half Mask (Woodland)",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "face_cover",
+    "type": "Face Mask"
+  },
+  {
+    "name": "Hand Grenade Storage Box (Turncoat)",
+    "id": "turncoat-containers-hand-grenade-storage-box",
+    "item": "Hand Grenade Storage Box",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$75,452"
+  },
+  {
+    "name": "HARDE Case (Gunny)",
+    "id": "gunny-containers-harde-case",
+    "item": "HARDE Case",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$76,788"
+  },
+  {
+    "name": "High Sight Mount (Gunny)",
+    "id": "gunny-mounts-high-sight-mount",
+    "item": "High Sight Mount",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "HK MP5 Cocking Handle (Gunny)",
+    "id": "gunny-charging-handle-hk-mp5-cocking-handle",
+    "item": "HK MP5 Cocking Handle",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "charging_handle",
+    "type": "Charging Handle"
+  },
+  {
+    "name": "HK MP5 Front Sight (Gunny)",
+    "id": "gunny-front-iron-sights-hk-mp5-front-sight",
+    "item": "HK MP5 Front Sight",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "front_iron_sights",
+    "type": "Front Iron Sight"
+  },
+  {
+    "name": "HK MP5 Rear Sight (Gunny)",
+    "id": "gunny-rear-iron-sights-hk-mp5-rear-sight",
+    "item": "HK MP5 Rear Sight",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight"
+  },
+  {
+    "name": "HpR 3-S (Lab Rat)",
+    "id": "lab-rat-medical-hpr-3-s",
+    "item": "HpR 3-S",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "medical",
+    "type": "Stimulator"
+  },
+  {
+    "name": "HS507C X2 Reflex Sight (Banshee)",
+    "id": "banshee-collimators-hs507c-x2-reflex-sight",
+    "item": "HS507C X2 Reflex Sight",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "collimators",
+    "type": "Collimator",
+    "buy_price": "$989"
+  },
+  {
+    "name": "HWS EXPS2 Holographic Sight (1-Dot) (Gunny)",
+    "id": "gunny-collimators-hws-exps2-holographic-sight-1-dot",
+    "item": "HWS EXPS2 Holographic Sight (1-Dot)",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator"
+  },
+  {
+    "name": "HWS EXPS3 Holographic Sight (Circle 1-Dot) (Banshee)",
+    "id": "banshee-collimators-hws-exps3-holographic-sight-circle-1-dot",
+    "item": "HWS EXPS3 Holographic Sight (Circle 1-Dot)",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "collimators",
+    "type": "Collimator",
+    "buy_price": "$1,043"
+  },
+  {
+    "name": "Ibalin (Lab Rat)",
+    "id": "lab-rat-medical-ibalin",
+    "item": "Ibalin",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "Pill"
+  },
+  {
+    "name": "Impact Sport (Banshee)",
+    "id": "banshee-headsets-impact-sport",
+    "item": "Impact Sport",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "headsets",
+    "type": "Headset"
+  },
+  {
+    "name": "Injector Case (Lab Rat)",
+    "id": "lab-rat-containers-injector-case",
+    "item": "Injector Case",
+    "vendor": "Lab Rat",
+    "rank": 4,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$5,000"
+  },
+  {
+    "name": "IV Truncase (Artisan)",
+    "id": "artisan-containers-iv-truncase",
+    "item": "IV Truncase",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$61,665"
+  },
+  {
+    "name": "Kaps Classic 4x36 OC (Banshee)",
+    "id": "banshee-scopes-kaps-classic-4x36-oc",
+    "item": "Kaps Classic 4x36 OC",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "scopes",
+    "type": "Scope"
+  },
+  {
+    "name": "Key Case (Artisan)",
+    "id": "artisan-containers-key-case",
+    "item": "Key Case",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "containers",
+    "type": "Container"
+  },
+  {
+    "name": "KeyMod Rail - 5 Slot (Banshee)",
+    "id": "banshee-mounts-keymod-rail-5-slot",
+    "item": "KeyMod Rail - 5 Slot",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$380"
+  },
+  {
+    "name": "KeyMod Rail - 7 Slot (Banshee)",
+    "id": "banshee-mounts-keymod-rail-7-slot",
+    "item": "KeyMod Rail - 7 Slot",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$380"
+  },
+  {
+    "name": "Kobra EKP-1S-03 Red Dot Sight (Turncoat)",
+    "id": "turncoat-collimators-kobra-ekp-1s-03-red-dot-sight",
+    "item": "Kobra EKP-1S-03 Red Dot Sight",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator",
+    "buy_price": "$678"
+  },
+  {
+    "name": "Kochetov Mount (Artisan)",
+    "id": "artisan-mounts-kochetov-mount",
+    "item": "Kochetov Mount",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$37"
+  },
+  {
+    "name": "Kombat Folder (Artisan)",
+    "id": "artisan-containers-kombat-folder",
+    "item": "Kombat Folder",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$75,423"
+  },
+  {
+    "name": "L4 G24 Helmet NVG Mount (Banshee)",
+    "id": "banshee-helmet-mounts-l4-g24-helmet-nvg-mount",
+    "item": "L4 G24 Helmet NVG Mount",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "helmet_mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "L403A1 (Gunny)",
+    "id": "gunny-weapons-l403a1",
+    "item": "L403A1",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "Large Blood Bag (Lab Rat)",
+    "id": "lab-rat-medical-large-blood-bag",
+    "item": "Large Blood Bag",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "IV"
+  },
+  {
+    "name": "Large Hemostatic Syringe (Lab Rat)",
+    "id": "lab-rat-medical-large-hemostatic-syringe",
+    "item": "Large Hemostatic Syringe",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "Syringe"
+  },
+  {
+    "name": "Large Key Case (Artisan)",
+    "id": "artisan-containers-large-key-case",
+    "item": "Large Key Case",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$9,022"
+  },
+  {
+    "name": "Large Safe (Vulture)",
+    "id": "vulture-containers-large-safe",
+    "item": "Large Safe",
+    "vendor": "Vulture",
+    "rank": 4,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$105,560"
+  },
+  {
+    "name": "Leafy Boonie (Camo) (Handshake)",
+    "id": "handshake-helmets-leafy-boonie-camo",
+    "item": "Leafy Boonie (Camo)",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "helmets"
+  },
+  {
+    "name": "LEAP/01 Mount (Gunny)",
+    "id": "gunny-mounts-leap-01-mount",
+    "item": "LEAP/01 Mount",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "LEAP/03 Acro Mount (Banshee)",
+    "id": "banshee-mounts-leap-03-acro-mount",
+    "item": "LEAP/03 Acro Mount",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$279"
+  },
+  {
+    "name": "Leather Key Holder (Artisan)",
+    "id": "artisan-containers-leather-key-holder",
+    "item": "Leather Key Holder",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$4,511"
+  },
+  {
+    "name": "Light Anatomical Belt Type 2 (Olive) (Turncoat)",
+    "id": "turncoat-belts-light-anatomical-belt-type-2-olive",
+    "item": "Light Anatomical Belt Type 2 (Olive)",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "belts",
+    "type": "Belt"
+  },
+  {
+    "name": "Light Mount V-Block and Rings (Banshee)",
+    "id": "banshee-mounts-light-mount-v-block-and-rings",
+    "item": "Light Mount V-Block and Rings",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "Low Profile O-ring - 30mm (Banshee)",
+    "id": "banshee-mounts-low-profile-o-ring-30mm",
+    "item": "Low Profile O-ring - 30mm",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$292"
+  },
+  {
+    "name": "Low Profile O-ring - 34mm (Banshee)",
+    "id": "banshee-mounts-low-profile-o-ring-34mm",
+    "item": "Low Profile O-ring - 34mm",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$292"
+  },
+  {
+    "name": "Low Sight Mount (Gunny)",
+    "id": "gunny-mounts-low-sight-mount",
+    "item": "Low Sight Mount",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "Lucky Pork Liver Pâté (Lab Rat)",
+    "id": "lab-rat-food-lucky-pork-liver-p-t",
+    "item": "Lucky Pork Liver Pâté",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "food",
+    "type": "Food"
+  },
+  {
+    "name": "M-LOK Rail - 3 slot (Gunny)",
+    "id": "gunny-mounts-m-lok-rail-3-slot",
+    "item": "M-LOK Rail - 3 slot",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$20"
+  },
+  {
+    "name": "M-LOK Rail - 5 slot (Gunny)",
+    "id": "gunny-mounts-m-lok-rail-5-slot",
+    "item": "M-LOK Rail - 5 slot",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$24"
+  },
+  {
+    "name": "M-LOK Rail - 7 slot (Gunny)",
+    "id": "gunny-mounts-m-lok-rail-7-slot",
+    "item": "M-LOK Rail - 7 slot",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$28"
+  },
+  {
+    "name": "M-LOK Rail - 9 slot (Gunny)",
+    "id": "gunny-mounts-m-lok-rail-9-slot",
+    "item": "M-LOK Rail - 9 slot",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$33"
+  },
+  {
+    "name": "M.F.A.T. Tourniquet (Lab Rat)",
+    "id": "lab-rat-medical-m-f-a-t-tourniquet",
+    "item": "M.F.A.T. Tourniquet",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "medical",
+    "type": "Tourniquet"
+  },
+  {
+    "name": "M1050R Binocular (Banshee)",
+    "id": "banshee-binoculars-m1050r-binocular",
+    "item": "M1050R Binocular",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "binoculars",
+    "type": "Binoculars"
+  },
+  {
+    "name": "M16 A1 (Gunny)",
+    "id": "gunny-weapons-m16-a1",
+    "item": "M16 A1",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "M16A1 Upper Receiver (Gunny)",
+    "id": "gunny-upper-receivers-m16a1-upper-receiver",
+    "item": "M16A1 Upper Receiver",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "upper_receivers",
+    "type": "Upper Receiver",
+    "buy_price": "$214"
+  },
+  {
+    "name": "M18 Smoke Grenade (Green) (Gunny)",
+    "id": "gunny-throwables-m18-smoke-grenade-green",
+    "item": "M18 Smoke Grenade (Green)",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "throwables",
+    "type": "Smoke Grenade",
+    "buy_price": "$37"
+  },
+  {
+    "name": "M18 Smoke Grenade (Red) (Gunny)",
+    "id": "gunny-throwables-m18-smoke-grenade-red",
+    "item": "M18 Smoke Grenade (Red)",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "throwables",
+    "type": "Smoke Grenade",
+    "buy_price": "$37"
+  },
+  {
+    "name": "M18 Smoke Grenade (Yellow) (Gunny)",
+    "id": "gunny-throwables-m18-smoke-grenade-yellow",
+    "item": "M18 Smoke Grenade (Yellow)",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "throwables",
+    "type": "Smoke Grenade",
+    "buy_price": "$37"
+  },
+  {
+    "name": "M1A Rifle (Banshee)",
+    "id": "banshee-weapons-m1a-rifle",
+    "item": "M1A Rifle",
+    "vendor": "Banshee",
+    "rank": null,
+    "category": "weapons",
+    "type": "Rifle"
+  },
+  {
+    "name": "M26 (Gunny)",
+    "id": "gunny-throwables-m26",
+    "item": "M26",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "throwables",
+    "type": "Explosive Grenade",
+    "buy_price": "$62"
+  },
+  {
+    "name": "M4 Buffer Tube (Gunny)",
+    "id": "gunny-buffer-tubes-m4-buffer-tube",
+    "item": "M4 Buffer Tube",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "buffer_tubes",
+    "type": "Buffer Tube"
+  },
+  {
+    "name": "M4 RAS (Gunny)",
+    "id": "gunny-handguards-m4-ras",
+    "item": "M4 RAS",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard"
+  },
+  {
+    "name": "M4A1 (Gunny)",
+    "id": "gunny-weapons-m4a1",
+    "item": "M4A1",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "M4QD Flash Hider (Gunny)",
+    "id": "gunny-muzzle-devices-m4qd-flash-hider",
+    "item": "M4QD Flash Hider",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "M67 (Gunny)",
+    "id": "gunny-throwables-m67",
+    "item": "M67",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "throwables",
+    "type": "Explosive Grenade",
+    "buy_price": "$61"
+  },
+  {
+    "name": "M700 (Gunny)",
+    "id": "gunny-weapons-m700",
+    "item": "M700",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "weapons",
+    "type": "Rifle"
+  },
+  {
+    "name": "M700 7.62x51mm 10-Round Magazine (Banshee)",
+    "id": "banshee-magazines-m700-7-62x51mm-10-round-magazine",
+    "item": "M700 7.62x51mm 10-Round Magazine",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$110"
+  },
+  {
+    "name": "M700 7.62x51mm 5-Round Magazine (Banshee)",
+    "id": "banshee-magazines-m700-7-62x51mm-5-round-magazine",
+    "item": "M700 7.62x51mm 5-Round Magazine",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "M700 Barrel - 22\" (Banshee)",
+    "id": "banshee-barrels-m700-barrel-22",
+    "item": "M700 Barrel - 22\"",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$614"
+  },
+  {
+    "name": "M700 Heavy Barrel - 26\" (Gunny)",
+    "id": "gunny-barrels-m700-heavy-barrel-26",
+    "item": "M700 Heavy Barrel - 26\"",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "M700 Hunter Stock (Banshee)",
+    "id": "banshee-stocks-m700-hunter-stock",
+    "item": "M700 Hunter Stock",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "M700 MOD*X Handguard (Banshee)",
+    "id": "banshee-handguards-m700-mod-x-handguard",
+    "item": "M700 MOD*X Handguard",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$271"
+  },
+  {
+    "name": "M700 MOD*X Rail (Banshee)",
+    "id": "banshee-mounts-m700-mod-x-rail",
+    "item": "M700 MOD*X Rail",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$72"
+  },
+  {
+    "name": "M700 MOD*X Stock (Banshee)",
+    "id": "banshee-stocks-m700-mod-x-stock",
+    "item": "M700 MOD*X Stock",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$852"
+  },
+  {
+    "name": "M700 Stock (Banshee)",
+    "id": "banshee-stocks-m700-stock",
+    "item": "M700 Stock",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "M700 Suppressed Barrel - 20\" (Banshee)",
+    "id": "banshee-barrels-m700-suppressed-barrel-20",
+    "item": "M700 Suppressed Barrel - 20\"",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$1,219"
+  },
+  {
+    "name": "M700 Threaded Barrel - 18\" (Banshee)",
+    "id": "banshee-barrels-m700-threaded-barrel-18",
+    "item": "M700 Threaded Barrel - 18\"",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "M700 VTR Barrel - 22\" (Banshee)",
+    "id": "banshee-barrels-m700-vtr-barrel-22",
+    "item": "M700 VTR Barrel - 22\"",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$1,105"
+  },
+  {
+    "name": "M830R Binocular (Banshee)",
+    "id": "banshee-binoculars-m830r-binocular",
+    "item": "M830R Binocular",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "binoculars",
+    "type": "Binoculars"
+  },
+  {
+    "name": "M84 Stun Grenade (Gunny)",
+    "id": "gunny-throwables-m84-stun-grenade",
+    "item": "M84 Stun Grenade",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "throwables",
+    "type": "Stun Grenade",
+    "buy_price": "$41"
+  },
+  {
+    "name": "M870 (Gunny)",
+    "id": "gunny-weapons-m870",
+    "item": "M870",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "weapons",
+    "type": "Shotgun"
+  },
+  {
+    "name": "M870 12ga 4-Round Cap (Gunny)",
+    "id": "gunny-magazines-m870-12ga-4-round-cap",
+    "item": "M870 12ga 4-Round Cap",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "M870 12ga 6-Round Magazine (Gunny)",
+    "id": "gunny-magazines-m870-12ga-6-round-magazine",
+    "item": "M870 12ga 6-Round Magazine",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "M870 Barrel - 18.5\" (Gunny)",
+    "id": "gunny-barrels-m870-barrel-18-5",
+    "item": "M870 Barrel - 18.5\"",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "M870 Barrel - 23\" (Gunny)",
+    "id": "gunny-barrels-m870-barrel-23",
+    "item": "M870 Barrel - 23\"",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "M870 Bead (Gunny)",
+    "id": "gunny-front-iron-sights-m870-bead",
+    "item": "M870 Bead",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "front_iron_sights",
+    "type": "Front Iron Sight"
+  },
+  {
+    "name": "M870 Express Stock (Gunny)",
+    "id": "gunny-stocks-m870-express-stock",
+    "item": "M870 Express Stock",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "M870 Forend (OD Green) (Gunny)",
+    "id": "gunny-handguards-m870-forend-od-green",
+    "item": "M870 Forend (OD Green)",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard"
+  },
+  {
+    "name": "M870 MOE Handguard (Gunny)",
+    "id": "gunny-handguards-m870-moe-handguard",
+    "item": "M870 MOE Handguard",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$83"
+  },
+  {
+    "name": "M870 Picatinny Quad Rail (Gunny)",
+    "id": "gunny-mounts-m870-picatinny-quad-rail",
+    "item": "M870 Picatinny Quad Rail",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$497"
+  },
+  {
+    "name": "M870 Picatinny Rail (Gunny)",
+    "id": "gunny-mounts-m870-picatinny-rail",
+    "item": "M870 Picatinny Rail",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "M870 Stock (OD Green) (Gunny)",
+    "id": "gunny-stocks-m870-stock-od-green",
+    "item": "M870 Stock (OD Green)",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "M870 VOA Handguard (Gunny)",
+    "id": "gunny-handguards-m870-voa-handguard",
+    "item": "M870 VOA Handguard",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$100"
+  },
+  {
+    "name": "M870 Walnut Forend (Gunny)",
+    "id": "gunny-handguards-m870-walnut-forend",
+    "item": "M870 Walnut Forend",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$33"
+  },
+  {
+    "name": "M933 120mm HE Cartridge (Low Range) (Gunny)",
+    "id": "gunny-mortar-rounds-m933-120mm-he-cartridge-low-range",
+    "item": "M933 120mm HE Cartridge (Low Range)",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mortar_rounds",
+    "buy_price": "$500"
+  },
+  {
+    "name": "M933 120mm HE Cartridge (Medium Range) (Gunny)",
+    "id": "gunny-mortar-rounds-m933-120mm-he-cartridge-medium-range",
+    "item": "M933 120mm HE Cartridge (Medium Range)",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "mortar_rounds",
+    "buy_price": "$1,000"
+  },
+  {
+    "name": "M9A1 9x19mm 15-Round Magazine (Gunny)",
+    "id": "gunny-magazines-m9a1-9x19mm-15-round-magazine",
+    "item": "M9A1 9x19mm 15-Round Magazine",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "M9A1 Hammer (Gunny)",
+    "id": "gunny-auxiliary-m9a1-hammer",
+    "item": "M9A1 Hammer",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "auxiliary",
+    "type": "Auxiliary"
+  },
+  {
+    "name": "M9A1 Rubber Grip (Gunny)",
+    "id": "gunny-pistol-grips-m9a1-rubber-grip",
+    "item": "M9A1 Rubber Grip",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$31"
+  },
+  {
+    "name": "M9A1 Slide (Gunny)",
+    "id": "gunny-slides-m9a1-slide",
+    "item": "M9A1 Slide",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "slides",
+    "type": "Slide"
+  },
+  {
+    "name": "M9A1 Standard Barrel (Gunny)",
+    "id": "gunny-barrels-m9a1-standard-barrel",
+    "item": "M9A1 Standard Barrel",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "M9A1 Threaded Barrel (Gunny)",
+    "id": "gunny-barrels-m9a1-threaded-barrel",
+    "item": "M9A1 Threaded Barrel",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "M9A1 Wooden Grip (Gunny)",
+    "id": "gunny-pistol-grips-m9a1-wooden-grip",
+    "item": "M9A1 Wooden Grip",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$50"
+  },
+  {
+    "name": "Magazine Case (Gunny)",
+    "id": "gunny-containers-magazine-case",
+    "item": "Magazine Case",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$69,054"
+  },
+  {
+    "name": "MC50 Laser Edition (Handshake)",
+    "id": "handshake-belts-mc50-laser-edition",
+    "item": "MC50 Laser Edition",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "belts",
+    "type": "Belt"
+  },
+  {
+    "name": "MCX/MPX Minimalist Folding Stock (Banshee)",
+    "id": "banshee-stocks-mcx-mpx-minimalist-folding-stock",
+    "item": "MCX/MPX Minimalist Folding Stock",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$405"
+  },
+  {
+    "name": "MCX/MPX Telescoping Stock (Banshee)",
+    "id": "banshee-stocks-mcx-mpx-telescoping-stock",
+    "item": "MCX/MPX Telescoping Stock",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$455"
+  },
+  {
+    "name": "Medical Box (Lab Rat)",
+    "id": "lab-rat-containers-medical-box",
+    "item": "Medical Box",
+    "vendor": "Lab Rat",
+    "rank": 4,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$92,940"
+  },
+  {
+    "name": "Medium Blood Bag (Lab Rat)",
+    "id": "lab-rat-medical-medium-blood-bag",
+    "item": "Medium Blood Bag",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "IV"
+  },
+  {
+    "name": "Meloxicam (Lab Rat)",
+    "id": "lab-rat-medical-meloxicam",
+    "item": "Meloxicam",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "medical",
+    "type": "Pill"
+  },
+  {
+    "name": "Metal Ammo Box (Turncoat)",
+    "id": "turncoat-containers-metal-ammo-box",
+    "item": "Metal Ammo Box",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$60,278"
+  },
+  {
+    "name": "Methylphenidate (Lab Rat)",
+    "id": "lab-rat-medical-methylphenidate",
+    "item": "Methylphenidate",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "medical",
+    "type": "Stimulator"
+  },
+  {
+    "name": "MIAD Pistol Grip (Gunny)",
+    "id": "gunny-pistol-grips-miad-pistol-grip",
+    "item": "MIAD Pistol Grip",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$204"
+  },
+  {
+    "name": "Mich TC-2000 (Ranger Green) (Handshake)",
+    "id": "handshake-helmets-mich-tc-2000-ranger-green",
+    "item": "Mich TC-2000 (Ranger Green)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "helmets"
+  },
+  {
+    "name": "MICH TC-2002 (Tan) (Handshake)",
+    "id": "handshake-helmets-mich-tc-2002-tan",
+    "item": "MICH TC-2002 (Tan)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "helmets"
+  },
+  {
+    "name": "Micro T-1 Red Dot Sight (Gunny)",
+    "id": "gunny-collimators-micro-t-1-red-dot-sight",
+    "item": "Micro T-1 Red Dot Sight",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator"
+  },
+  {
+    "name": "Mini First Aid Kit (Lab Rat)",
+    "id": "lab-rat-containers-mini-first-aid-kit",
+    "item": "Mini First Aid Kit",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container"
+  },
+  {
+    "name": "MM Ammo Box (Turncoat)",
+    "id": "turncoat-containers-mm-ammo-box",
+    "item": "MM Ammo Box",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$90,316"
+  },
+  {
+    "name": "Modular Operator Carrier Gen II (Handshake)",
+    "id": "handshake-plate-carriers-modular-operator-carrier-gen-ii",
+    "item": "Modular Operator Carrier Gen II",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "plate_carriers",
+    "type": "Plate Carrier"
+  },
+  {
+    "name": "MOE AK Pistol Grip (Artisan)",
+    "id": "artisan-pistol-grips-moe-ak-pistol-grip",
+    "item": "MOE AK Pistol Grip",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$41"
+  },
+  {
+    "name": "MOE Pistol Grip (FDE) (Gunny)",
+    "id": "gunny-pistol-grips-moe-pistol-grip-fde",
+    "item": "MOE Pistol Grip (FDE)",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$221"
+  },
+  {
+    "name": "MOE Pistol Grip (Gunny)",
+    "id": "gunny-pistol-grips-moe-pistol-grip",
+    "item": "MOE Pistol Grip",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$221"
+  },
+  {
+    "name": "Morphine (Lab Rat)",
+    "id": "lab-rat-medical-morphine",
+    "item": "Morphine",
+    "vendor": "Lab Rat",
+    "rank": 4,
+    "category": "medical",
+    "type": "Painkiller (Autoinjector)"
+  },
+  {
+    "name": "Mortar Round Crate (Gunny)",
+    "id": "gunny-containers-mortar-round-crate",
+    "item": "Mortar Round Crate",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$75,547"
+  },
+  {
+    "name": "Mosin-Nagant (Artisan)",
+    "id": "artisan-weapons-mosin-nagant",
+    "item": "Mosin-Nagant",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "weapons",
+    "type": "Rifle"
+  },
+  {
+    "name": "Mosin-Nagant (Sniper) (Artisan)",
+    "id": "artisan-weapons-mosin-nagant-sniper",
+    "item": "Mosin-Nagant (Sniper)",
+    "vendor": "Artisan",
+    "rank": null,
+    "category": "weapons",
+    "type": "Rifle"
+  },
+  {
+    "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine (Artisan)",
+    "id": "artisan-magazines-mosin-nagant-7-62x54r-10-round-archangel-magazine",
+    "item": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$67"
+  },
+  {
+    "name": "Mosin-Nagant 7.62x54R 5-Round Internal Magazine (Artisan)",
+    "id": "artisan-magazines-mosin-nagant-7-62x54r-5-round-internal-magazine",
+    "item": "Mosin-Nagant 7.62x54R 5-Round Internal Magazine",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "Mosin-Nagant Archangel Stock (Artisan)",
+    "id": "artisan-stocks-mosin-nagant-archangel-stock",
+    "item": "Mosin-Nagant Archangel Stock",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$284"
+  },
+  {
+    "name": "Mosin-Nagant Barrel - 514mm (Artisan)",
+    "id": "artisan-barrels-mosin-nagant-barrel-514mm",
+    "item": "Mosin-Nagant Barrel - 514mm",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$104"
+  },
+  {
+    "name": "Mosin-Nagant Bramit Suppressor (Artisan)",
+    "id": "artisan-suppressors-mosin-nagant-bramit-suppressor",
+    "item": "Mosin-Nagant Bramit Suppressor",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$880"
+  },
+  {
+    "name": "Mosin-Nagant Front Iron Sight (Artisan)",
+    "id": "artisan-front-iron-sights-mosin-nagant-front-iron-sight",
+    "item": "Mosin-Nagant Front Iron Sight",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "front_iron_sights",
+    "type": "Front Iron Sight"
+  },
+  {
+    "name": "Mosin-Nagant PU 3.5x22 Scope (Artisan)",
+    "id": "artisan-scopes-mosin-nagant-pu-3-5x22-scope",
+    "item": "Mosin-Nagant PU 3.5x22 Scope",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "scopes",
+    "type": "Scope"
+  },
+  {
+    "name": "Mosin-Nagant Rear Iron Sight (Artisan)",
+    "id": "artisan-rear-iron-sights-mosin-nagant-rear-iron-sight",
+    "item": "Mosin-Nagant Rear Iron Sight",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight",
+    "buy_price": "$26"
+  },
+  {
+    "name": "Mosin-Nagant Tanker Muzzle Brake (Artisan)",
+    "id": "artisan-muzzle-devices-mosin-nagant-tanker-muzzle-brake",
+    "item": "Mosin-Nagant Tanker Muzzle Brake",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$130"
+  },
+  {
+    "name": "Mosin-Nagant Tri-Rail Scope Mount (Artisan)",
+    "id": "artisan-mounts-mosin-nagant-tri-rail-scope-mount",
+    "item": "Mosin-Nagant Tri-Rail Scope Mount",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$37"
+  },
+  {
+    "name": "Mosin-Nagant Wooden Stock (Carbine) (Artisan)",
+    "id": "artisan-stocks-mosin-nagant-wooden-stock-carbine",
+    "item": "Mosin-Nagant Wooden Stock (Carbine)",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$114"
+  },
+  {
+    "name": "Moxifloxacin (Lab Rat)",
+    "id": "lab-rat-medical-moxifloxacin",
+    "item": "Moxifloxacin",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "medical",
+    "type": "Pill"
+  },
+  {
+    "name": "MP5 (Gunny)",
+    "id": "gunny-weapons-mp5",
+    "item": "MP5",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "weapons",
+    "type": "Submachine Gun"
+  },
+  {
+    "name": "MP5 3 Lug Adapter (Gunny)",
+    "id": "gunny-muzzle-devices-mp5-3-lug-adapter",
+    "item": "MP5 3 Lug Adapter",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "MP5 A2 Stock (Gunny)",
+    "id": "gunny-stocks-mp5-a2-stock",
+    "item": "MP5 A2 Stock",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "MP5 A3 Stock (Gunny)",
+    "id": "gunny-stocks-mp5-a3-stock",
+    "item": "MP5 A3 Stock",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "MP5 Standard 30-Round Magazine (Gunny)",
+    "id": "gunny-magazines-mp5-standard-30-round-magazine",
+    "item": "MP5 Standard 30-Round Magazine",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "MP5 Threaded 3 Lug Adapter (Gunny)",
+    "id": "gunny-muzzle-devices-mp5-threaded-3-lug-adapter",
+    "item": "MP5 Threaded 3 Lug Adapter",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "MP5 Upper Receiver (Gunny)",
+    "id": "gunny-upper-receivers-mp5-upper-receiver",
+    "item": "MP5 Upper Receiver",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "upper_receivers",
+    "type": "Upper Receiver"
+  },
+  {
+    "name": "MP5 Wide Forearm (Gunny)",
+    "id": "gunny-handguards-mp5-wide-forearm",
+    "item": "MP5 Wide Forearm",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard"
+  },
+  {
+    "name": "MP5/G3 Low Profile Mount (Gunny)",
+    "id": "gunny-mounts-mp5-g3-low-profile-mount",
+    "item": "MP5/G3 Low Profile Mount",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "MP5/HK33/53 Stock (Gunny)",
+    "id": "gunny-stocks-mp5-hk33-53-stock",
+    "item": "MP5/HK33/53 Stock",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$448"
+  },
+  {
+    "name": "MP5SD Forearm (Gunny)",
+    "id": "gunny-handguards-mp5sd-forearm",
+    "item": "MP5SD Forearm",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$476"
+  },
+  {
+    "name": "MP7 20-Round Magazine (Banshee)",
+    "id": "banshee-magazines-mp7-20-round-magazine",
+    "item": "MP7 20-Round Magazine",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$178"
+  },
+  {
+    "name": "MP7 30-Round Magazine (Banshee)",
+    "id": "banshee-magazines-mp7-30-round-magazine",
+    "item": "MP7 30-Round Magazine",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "MP7 40-Round Magazine (Banshee)",
+    "id": "banshee-magazines-mp7-40-round-magazine",
+    "item": "MP7 40-Round Magazine",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$234"
+  },
+  {
+    "name": "MP7 Rotex Suppressor (Banshee)",
+    "id": "banshee-suppressors-mp7-rotex-suppressor",
+    "item": "MP7 Rotex Suppressor",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$2,535"
+  },
+  {
+    "name": "MP7A1 (Banshee)",
+    "id": "banshee-weapons-mp7a1",
+    "item": "MP7A1",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "weapons",
+    "type": "Submachine Gun"
+  },
+  {
+    "name": "MP7A1 Retractable Stock (Banshee)",
+    "id": "banshee-stocks-mp7a1-retractable-stock",
+    "item": "MP7A1 Retractable Stock",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$432"
+  },
+  {
+    "name": "MP7A2 (Vulture)",
+    "id": "vulture-weapons-mp7a2",
+    "item": "MP7A2",
+    "vendor": "Vulture",
+    "rank": 2,
+    "category": "weapons",
+    "type": "Submachine Gun"
+  },
+  {
+    "name": "Muxxum Rifle Case (Gunny)",
+    "id": "gunny-containers-muxxum-rifle-case",
+    "item": "Muxxum Rifle Case",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$105,435"
+  },
+  {
+    "name": "N17 Reptile EDC Slide (Banshee)",
+    "id": "banshee-slides-n17-reptile-edc-slide",
+    "item": "N17 Reptile EDC Slide",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "slides",
+    "type": "Slide",
+    "buy_price": "$817"
+  },
+  {
+    "name": "NcStar Compact Green Laser (Gunny)",
+    "id": "gunny-tactical-devices-ncstar-compact-green-laser",
+    "item": "NcStar Compact Green Laser",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "tactical_devices",
+    "type": "Tactical Device",
+    "buy_price": "$350"
+  },
+  {
+    "name": "NcStar LED FlashLight (Gunny)",
+    "id": "gunny-tactical-devices-ncstar-led-flashlight",
+    "item": "NcStar LED FlashLight",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "tactical_devices",
+    "type": "Tactical Device",
+    "buy_price": "$200"
+  },
+  {
+    "name": "Norinco CQA1 Pistol Grip (Gunny)",
+    "id": "gunny-pistol-grips-norinco-cqa1-pistol-grip",
+    "item": "Norinco CQA1 Pistol Grip",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$102"
+  },
+  {
+    "name": "O-ring - 30mm (Banshee)",
+    "id": "banshee-mounts-o-ring-30mm",
+    "item": "O-ring - 30mm",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$345"
+  },
+  {
+    "name": "O-ring - 34mm (Banshee)",
+    "id": "banshee-mounts-o-ring-34mm",
+    "item": "O-ring - 34mm",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$345"
+  },
+  {
+    "name": "OKP7 Red Dot Sight (Artisan)",
+    "id": "artisan-collimators-okp7-red-dot-sight",
+    "item": "OKP7 Red Dot Sight",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator"
+  },
+  {
+    "name": "Optimized Glock 17 Match Grade Threaded Barrel (Banshee)",
+    "id": "banshee-barrels-optimized-glock-17-match-grade-threaded-barrel",
+    "item": "Optimized Glock 17 Match Grade Threaded Barrel",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$339"
+  },
+  {
+    "name": "ORI-12 (Lab Rat)",
+    "id": "lab-rat-medical-ori-12",
+    "item": "ORI-12",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "medical",
+    "type": "Stimulator"
+  },
+  {
+    "name": "P40 Warhawk Slide (Banshee)",
+    "id": "banshee-slides-p40-warhawk-slide",
+    "item": "P40 Warhawk Slide",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "slides",
+    "type": "Slide",
+    "buy_price": "$752"
+  },
+  {
+    "name": "Pandatac Sun Mask (Handshake)",
+    "id": "handshake-face-cover-pandatac-sun-mask",
+    "item": "Pandatac Sun Mask",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "face_cover",
+    "type": "Face Mask"
+  },
+  {
+    "name": "Pandatac Trucker Cap (Handshake)",
+    "id": "handshake-helmets-pandatac-trucker-cap",
+    "item": "Pandatac Trucker Cap",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "helmets"
+  },
+  {
+    "name": "Pantsir 2.0 (Turncoat)",
+    "id": "turncoat-plate-carriers-pantsir-2-0",
+    "item": "Pantsir 2.0",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "plate_carriers",
+    "type": "Plate Carrier"
+  },
+  {
+    "name": "Paracetamol (Lab Rat)",
+    "id": "lab-rat-medical-paracetamol",
+    "item": "Paracetamol",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "medical",
+    "type": "Pill"
+  },
+  {
+    "name": "PASGT (Turncoat)",
+    "id": "turncoat-helmets-pasgt",
+    "item": "PASGT",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "helmets"
+  },
+  {
+    "name": "PCAM4-72 (Banshee)",
+    "id": "banshee-muzzle-devices-pcam4-72",
+    "item": "PCAM4-72",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$126"
+  },
+  {
+    "name": "Personal Cooler (Artisan)",
+    "id": "artisan-containers-personal-cooler",
+    "item": "Personal Cooler",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$60,237"
+  },
+  {
+    "name": "Picatinny Dust Cover (Turncoat)",
+    "id": "turncoat-upper-receivers-picatinny-dust-cover",
+    "item": "Picatinny Dust Cover",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "upper_receivers",
+    "type": "Upper Receiver",
+    "buy_price": "$326"
+  },
+  {
+    "name": "Pilad Р2.5х24L Brevis Assault Scope (Turncoat)",
+    "id": "turncoat-collimators-pilad-2-5-24l-brevis-assault-scope",
+    "item": "Pilad Р2.5х24L Brevis Assault Scope",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator",
+    "buy_price": "$468"
+  },
+  {
+    "name": "PK-01 VS Red Dot Sight (Artisan)",
+    "id": "artisan-collimators-pk-01-vs-red-dot-sight",
+    "item": "PK-01 VS Red Dot Sight",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator",
+    "buy_price": "$386"
+  },
+  {
+    "name": "Potassium Iodide (Lab Rat)",
+    "id": "lab-rat-medical-potassium-iodide",
+    "item": "Potassium Iodide",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "medical",
+    "type": "Pill"
+  },
+  {
+    "name": "Power Energy Drink (Lab Rat)",
+    "id": "lab-rat-drinks-power-energy-drink",
+    "item": "Power Energy Drink",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "drinks",
+    "type": "Drink"
+  },
+  {
+    "name": "Power Energy Fuel * (Lab Rat)",
+    "id": "lab-rat-provisions-power-energy-fuel",
+    "item": "Power Energy Fuel *",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "provisions"
+  },
+  {
+    "name": "Pro M-LOK Handstop (Gunny)",
+    "id": "gunny-foregrips-pro-m-lok-handstop",
+    "item": "Pro M-LOK Handstop",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "foregrips",
+    "type": "Foregrip"
+  },
+  {
+    "name": "Pro Multitool (Handshake)",
+    "id": "handshake-tools-pro-multitool",
+    "item": "Pro Multitool",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "tools",
+    "buy_price": "$50"
+  },
+  {
+    "name": "PSO-1 4x24 (Artisan)",
+    "id": "artisan-scopes-pso-1-4x24",
+    "item": "PSO-1 4x24",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "scopes",
+    "type": "Scope",
+    "buy_price": "$1,990"
+  },
+  {
+    "name": "PU 3.5×22 Kochetov Rings (Artisan)",
+    "id": "artisan-mounts-pu-3-5-22-kochetov-rings",
+    "item": "PU 3.5×22 Kochetov Rings",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$23"
+  },
+  {
+    "name": "PVS-14 Arm (Banshee)",
+    "id": "banshee-helmet-mounts-pvs-14-arm",
+    "item": "PVS-14 Arm",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "helmet_mounts",
+    "type": "Mount"
+  },
+  {
+    "name": "QDSS NT4 Suppressor (Gunny)",
+    "id": "gunny-suppressors-qdss-nt4-suppressor",
+    "item": "QDSS NT4 Suppressor",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "suppressors",
+    "type": "Suppressor"
+  },
+  {
+    "name": "Quick Release First Aid Kit (Lab Rat)",
+    "id": "lab-rat-containers-quick-release-first-aid-kit",
+    "item": "Quick Release First Aid Kit",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "containers",
+    "type": "Container"
+  },
+  {
+    "name": "Ratnik Foldable Stock (Artisan)",
+    "id": "artisan-stocks-ratnik-foldable-stock",
+    "item": "Ratnik Foldable Stock",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "RAZOR 1-6x Rifle Scope (Banshee)",
+    "id": "banshee-scopes-razor-1-6x-rifle-scope",
+    "item": "RAZOR 1-6x Rifle Scope",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "scopes",
+    "type": "Scope",
+    "buy_price": "$3,250"
+  },
+  {
+    "name": "Razor Pro Digital (Banshee)",
+    "id": "banshee-headsets-razor-pro-digital",
+    "item": "Razor Pro Digital",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "headsets",
+    "type": "Headset"
+  },
+  {
+    "name": "Recoil Reducing Pad (Artisan)",
+    "id": "artisan-stocks-recoil-reducing-pad",
+    "item": "Recoil Reducing Pad",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$141"
+  },
+  {
+    "name": "Recon Chest Rig (Handshake)",
+    "id": "handshake-rigs-recon-chest-rig",
+    "item": "Recon Chest Rig",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "rigs",
+    "type": "Tactical Rig"
+  },
+  {
+    "name": "Recon Plate Carrier (Handshake)",
+    "id": "handshake-plate-carriers-recon-plate-carrier",
+    "item": "Recon Plate Carrier",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "plate_carriers",
+    "type": "Plate Carrier"
+  },
+  {
+    "name": "Regiment Cap (Banshee)",
+    "id": "banshee-helmets-regiment-cap",
+    "item": "Regiment Cap",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "helmets"
+  },
+  {
+    "name": "Remington 788 (Artisan)",
+    "id": "artisan-weapons-remington-788",
+    "item": "Remington 788",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "weapons",
+    "type": "Rifle"
+  },
+  {
+    "name": "Remington Salvo 12 Choke Adapter (Gunny)",
+    "id": "gunny-muzzle-devices-remington-salvo-12-choke-adapter",
+    "item": "Remington Salvo 12 Choke Adapter",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "RIP-AWAY EMT POUCH (Lab Rat)",
+    "id": "lab-rat-containers-rip-away-emt-pouch",
+    "item": "RIP-AWAY EMT POUCH",
+    "vendor": "Lab Rat",
+    "rank": 4,
+    "category": "containers",
+    "type": "Container"
+  },
+  {
+    "name": "RK-1 (Turncoat)",
+    "id": "turncoat-foregrips-rk-1",
+    "item": "RK-1",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "foregrips",
+    "type": "Foregrip",
+    "buy_price": "$70"
+  },
+  {
+    "name": "RK-5 (Turncoat)",
+    "id": "turncoat-foregrips-rk-5",
+    "item": "RK-5",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "foregrips",
+    "type": "Foregrip",
+    "buy_price": "$59"
+  },
+  {
+    "name": "RK-6 (Turncoat)",
+    "id": "turncoat-foregrips-rk-6",
+    "item": "RK-6",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "foregrips",
+    "type": "Foregrip",
+    "buy_price": "$55"
+  },
+  {
+    "name": "RK-9 Pistol Grip (Artisan)",
+    "id": "artisan-pistol-grips-rk-9-pistol-grip",
+    "item": "RK-9 Pistol Grip",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$94"
+  },
+  {
+    "name": "Rush 72 2.0 (Handshake)",
+    "id": "handshake-backpacks-rush-72-2-0",
+    "item": "Rush 72 2.0",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "backpacks",
+    "type": "Backpack"
+  },
+  {
+    "name": "RVG (FDE) (Gunny)",
+    "id": "gunny-foregrips-rvg-fde",
+    "item": "RVG (FDE)",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "foregrips",
+    "type": "Foregrip"
+  },
+  {
+    "name": "RVG (Gunny)",
+    "id": "gunny-foregrips-rvg",
+    "item": "RVG",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "foregrips",
+    "type": "Foregrip"
+  },
+  {
+    "name": "Sa vz. 58 (Banshee)",
+    "id": "banshee-weapons-sa-vz-58",
+    "item": "Sa vz. 58",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "Salvo 12 Suppressor (Gunny)",
+    "id": "gunny-suppressors-salvo-12-suppressor",
+    "item": "Salvo 12 Suppressor",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$2,390"
+  },
+  {
+    "name": "SCH 5.56 Charging Handle (DDC) (Gunny)",
+    "id": "gunny-charging-handle-sch-5-56-charging-handle-ddc",
+    "item": "SCH 5.56 Charging Handle (DDC)",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$232"
+  },
+  {
+    "name": "SCH 5.56 Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-sch-5-56-charging-handle",
+    "item": "SCH 5.56 Charging Handle",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "charging_handle",
+    "type": "Charging Handle"
+  },
+  {
+    "name": "Schmeisser AK 7.62x39 60-round Magazine (Artisan)",
+    "id": "artisan-magazines-schmeisser-ak-7-62x39-60-round-magazine",
+    "item": "Schmeisser AK 7.62x39 60-round Magazine",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$156"
+  },
+  {
+    "name": "Scorpion OCP Convoy Pack (Handshake)",
+    "id": "handshake-backpacks-scorpion-ocp-convoy-pack",
+    "item": "Scorpion OCP Convoy Pack",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "backpacks",
+    "type": "Backpack"
+  },
+  {
+    "name": "Scorpion OCP Convoy Pack (Multicam) (Handshake)",
+    "id": "handshake-backpacks-scorpion-ocp-convoy-pack-multicam",
+    "item": "Scorpion OCP Convoy Pack (Multicam)",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "backpacks",
+    "type": "Backpack"
+  },
+  {
+    "name": "Seal modular bandage (Lab Rat)",
+    "id": "lab-rat-medical-seal-modular-bandage",
+    "item": "Seal modular bandage",
+    "vendor": "Lab Rat",
+    "rank": 4,
+    "category": "medical",
+    "type": "Wound Care"
+  },
+  {
+    "name": "SHIFT Vertical Foregrip (Banshee)",
+    "id": "banshee-foregrips-shift-vertical-foregrip",
+    "item": "SHIFT Vertical Foregrip",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "foregrips",
+    "type": "Foregrip",
+    "buy_price": "$78"
+  },
+  {
+    "name": "SIG MCX (Banshee)",
+    "id": "banshee-weapons-sig-mcx",
+    "item": "SIG MCX",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "weapons",
+    "type": "Assault Rifle"
+  },
+  {
+    "name": "SIG MCX 10\" Handguard (Banshee)",
+    "id": "banshee-handguards-sig-mcx-10-handguard",
+    "item": "SIG MCX 10\" Handguard",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$434"
+  },
+  {
+    "name": "SIG MCX 16\" Handguard (Banshee)",
+    "id": "banshee-handguards-sig-mcx-16-handguard",
+    "item": "SIG MCX 16\" Handguard",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$438"
+  },
+  {
+    "name": "SIG MCX 8\" Handguard (Banshee)",
+    "id": "banshee-handguards-sig-mcx-8-handguard",
+    "item": "SIG MCX 8\" Handguard",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$365"
+  },
+  {
+    "name": "SIG MCX Barrel - 16\" (Banshee)",
+    "id": "banshee-barrels-sig-mcx-barrel-16",
+    "item": "SIG MCX Barrel - 16\"",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$1,266"
+  },
+  {
+    "name": "SIG MCX Barrel - 9\" (Banshee)",
+    "id": "banshee-barrels-sig-mcx-barrel-9",
+    "item": "SIG MCX Barrel - 9\"",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "barrels",
+    "type": "Barrel",
+    "buy_price": "$1,255"
+  },
+  {
+    "name": "SIG MCX Charging Handle (Banshee)",
+    "id": "banshee-charging-handle-sig-mcx-charging-handle",
+    "item": "SIG MCX Charging Handle",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$162"
+  },
+  {
+    "name": "SIG MCX Gas Block (Banshee)",
+    "id": "banshee-gas-blocks-sig-mcx-gas-block",
+    "item": "SIG MCX Gas Block",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "gas_blocks",
+    "type": "Gas Block",
+    "buy_price": "$312"
+  },
+  {
+    "name": "SIG MCX Upper Receiver (Banshee)",
+    "id": "banshee-upper-receivers-sig-mcx-upper-receiver",
+    "item": "SIG MCX Upper Receiver",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "upper_receivers",
+    "type": "Upper Receiver",
+    "buy_price": "$894"
+  },
+  {
+    "name": "Sig Sauer Flip Up Front Iron Sights (Banshee)",
+    "id": "banshee-front-iron-sights-sig-sauer-flip-up-front-iron-sights",
+    "item": "Sig Sauer Flip Up Front Iron Sights",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "front_iron_sights",
+    "type": "Front Iron Sight",
+    "buy_price": "$52"
+  },
+  {
+    "name": "Sig Sauer Flip Up Rear Iron Sights (Banshee)",
+    "id": "banshee-rear-iron-sights-sig-sauer-flip-up-rear-iron-sights",
+    "item": "Sig Sauer Flip Up Rear Iron Sights",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight",
+    "buy_price": "$52"
+  },
+  {
+    "name": "Sinngua Lunch Meat (Lab Rat)",
+    "id": "lab-rat-food-sinngua-lunch-meat",
+    "item": "Sinngua Lunch Meat",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "food",
+    "type": "Food"
+  },
+  {
+    "name": "SK-S Ballistic Vest (Turncoat)",
+    "id": "turncoat-vests-sk-s-ballistic-vest",
+    "item": "SK-S Ballistic Vest",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "vests",
+    "type": "Ballistic Vest"
+  },
+  {
+    "name": "SKS 7.62x39mm 10-Round Internal Magazine (Artisan)",
+    "id": "artisan-magazines-sks-7-62x39mm-10-round-internal-magazine",
+    "item": "SKS 7.62x39mm 10-Round Internal Magazine",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine (Artisan)",
+    "id": "artisan-magazines-sks-7-62x39mm-20-round-archangel-lvx-magazine",
+    "item": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "SKS Barrel Picatinny Mount (Artisan)",
+    "id": "artisan-mounts-sks-barrel-picatinny-mount",
+    "item": "SKS Barrel Picatinny Mount",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$42"
+  },
+  {
+    "name": "SKS Rear Iron Sight (Artisan)",
+    "id": "artisan-rear-iron-sights-sks-rear-iron-sight",
+    "item": "SKS Rear Iron Sight",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "rear_iron_sights",
+    "type": "Rear Iron Sight",
+    "buy_price": "$23"
+  },
+  {
+    "name": "SKS Rear Sight Picatinny Rail (Artisan)",
+    "id": "artisan-mounts-sks-rear-sight-picatinny-rail",
+    "item": "SKS Rear Sight Picatinny Rail",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$65"
+  },
+  {
+    "name": "SKS Receiver Cover Retaining Pin (Artisan)",
+    "id": "artisan-auxiliary-sks-receiver-cover-retaining-pin",
+    "item": "SKS Receiver Cover Retaining Pin",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "auxiliary",
+    "type": "Auxiliary",
+    "buy_price": "$29"
+  },
+  {
+    "name": "SKS Sabertooth MKII Stock (Artisan)",
+    "id": "artisan-stocks-sks-sabertooth-mkii-stock",
+    "item": "SKS Sabertooth MKII Stock",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "SKS Stock (Artisan)",
+    "id": "artisan-stocks-sks-stock",
+    "item": "SKS Stock",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "stocks",
+    "type": "Stock"
+  },
+  {
+    "name": "SKS Strikeforce TactLite Stock (Artisan)",
+    "id": "artisan-stocks-sks-strikeforce-tactlite-stock",
+    "item": "SKS Strikeforce TactLite Stock",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$206"
+  },
+  {
+    "name": "SLH300TI-QD Suppressor (Banshee)",
+    "id": "banshee-suppressors-slh300ti-qd-suppressor",
+    "item": "SLH300TI-QD Suppressor",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$2,198"
+  },
+  {
+    "name": "SLH762-QD Suppressor (Banshee)",
+    "id": "banshee-suppressors-slh762-qd-suppressor",
+    "item": "SLH762-QD Suppressor",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$2,314"
+  },
+  {
+    "name": "Small Blood Bag (Lab Rat)",
+    "id": "lab-rat-medical-small-blood-bag",
+    "item": "Small Blood Bag",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "IV"
+  },
+  {
+    "name": "Small Hemostatic Syringe (Lab Rat)",
+    "id": "lab-rat-medical-small-hemostatic-syringe",
+    "item": "Small Hemostatic Syringe",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "Syringe"
+  },
+  {
+    "name": "Small Safe (Vulture)",
+    "id": "vulture-containers-small-safe",
+    "item": "Small Safe",
+    "vendor": "Vulture",
+    "rank": 3,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$75,509"
+  },
+  {
+    "name": "Small Suture Kit (Lab Rat)",
+    "id": "lab-rat-medical-small-suture-kit",
+    "item": "Small Suture Kit",
+    "vendor": "Lab Rat",
+    "rank": null,
+    "category": "medical",
+    "type": "Surgery Kit"
+  },
+  {
+    "name": "SOCOM 3 Prong Flash Hider (Gunny)",
+    "id": "gunny-muzzle-devices-socom-3-prong-flash-hider",
+    "item": "SOCOM 3 Prong Flash Hider",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "SOCOM556 RC1 Suppressor (Gunny)",
+    "id": "gunny-suppressors-socom556-rc1-suppressor",
+    "item": "SOCOM556 RC1 Suppressor",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "suppressors",
+    "type": "Suppressor"
+  },
+  {
+    "name": "Specialized Equipment Repair Kit (Handshake)",
+    "id": "handshake-repair-kits-specialized-equipment-repair-kit",
+    "item": "Specialized Equipment Repair Kit",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "repair_kits",
+    "type": "Repair Kit",
+    "buy_price": "$4,250"
+  },
+  {
+    "name": "SpecterDR 1-4x Assault Scope (Gunny)",
+    "id": "gunny-scopes-specterdr-1-4x-assault-scope",
+    "item": "SpecterDR 1-4x Assault Scope",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "scopes",
+    "type": "Scope"
+  },
+  {
+    "name": "SRD762-QD Flash Hider (Banshee)",
+    "id": "banshee-muzzle-devices-srd762-qd-flash-hider",
+    "item": "SRD762-QD Flash Hider",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "SRD762-QD Muzzle Brake (Banshee)",
+    "id": "banshee-muzzle-devices-srd762-qd-muzzle-brake",
+    "item": "SRD762-QD Muzzle Brake",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$150"
+  },
+  {
+    "name": "SSh-60 (Artisan)",
+    "id": "artisan-helmets-ssh-60",
+    "item": "SSh-60",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "helmets"
+  },
+  {
+    "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine (Gunny)",
+    "id": "gunny-magazines-stanag-5-56x45mm-300-blk-20-round-magazine",
+    "item": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine (Gunny)",
+    "id": "gunny-magazines-stanag-5-56x45mm-300-blk-30-round-magazine",
+    "item": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "magazines",
+    "type": "Magazine"
+  },
+  {
+    "name": "Sunrise Cola (Lab Rat)",
+    "id": "lab-rat-drinks-sunrise-cola",
+    "item": "Sunrise Cola",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "drinks",
+    "type": "Drink"
+  },
+  {
+    "name": "Surefire M600 Scout light (Gunny)",
+    "id": "gunny-tactical-devices-surefire-m600-scout-light",
+    "item": "Surefire M600 Scout light",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "tactical_devices",
+    "type": "Tactical Device"
+  },
+  {
+    "name": "Surefire P1R Peacekeeper (Banshee)",
+    "id": "banshee-tactical-devices-surefire-p1r-peacekeeper",
+    "item": "Surefire P1R Peacekeeper",
+    "vendor": "Banshee",
+    "rank": 1,
+    "category": "tactical_devices",
+    "type": "Tactical Device"
+  },
+  {
+    "name": "SVD Barrel - 620mm (Artisan)",
+    "id": "artisan-barrels-svd-barrel-620mm",
+    "item": "SVD Barrel - 620mm",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "barrels",
+    "type": "Barrel"
+  },
+  {
+    "name": "SVD Dragunov 10-Round Magazine (Artisan)",
+    "id": "artisan-magazines-svd-dragunov-10-round-magazine",
+    "item": "SVD Dragunov 10-Round Magazine",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "magazines",
+    "type": "Magazine",
+    "buy_price": "$208"
+  },
+  {
+    "name": "SVD Dust Cover (Artisan)",
+    "id": "artisan-upper-receivers-svd-dust-cover",
+    "item": "SVD Dust Cover",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "upper_receivers",
+    "type": "Upper Receiver",
+    "buy_price": "$192"
+  },
+  {
+    "name": "SVD Front Sight (Artisan)",
+    "id": "artisan-front-iron-sights-svd-front-sight",
+    "item": "SVD Front Sight",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "front_iron_sights",
+    "type": "Front Iron Sight",
+    "buy_price": "$68"
+  },
+  {
+    "name": "SVD Polymer Handguard (Artisan)",
+    "id": "artisan-handguards-svd-polymer-handguard",
+    "item": "SVD Polymer Handguard",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$555"
+  },
+  {
+    "name": "SVD Polymer Stock with Grip (Artisan)",
+    "id": "artisan-stocks-svd-polymer-stock-with-grip",
+    "item": "SVD Polymer Stock with Grip",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "stocks",
+    "type": "Stock",
+    "buy_price": "$591"
+  },
+  {
+    "name": "SVD Rear Sight Ring (Artisan)",
+    "id": "artisan-auxiliary-svd-rear-sight-ring",
+    "item": "SVD Rear Sight Ring",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "auxiliary",
+    "type": "Auxiliary",
+    "buy_price": "$81"
+  },
+  {
+    "name": "Tactical Belt (Handshake)",
+    "id": "handshake-belts-tactical-belt",
+    "item": "Tactical Belt",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "belts",
+    "type": "Belt"
+  },
+  {
+    "name": "Tactical Equipment Repair Kit (Handshake)",
+    "id": "handshake-repair-kits-tactical-equipment-repair-kit",
+    "item": "Tactical Equipment Repair Kit",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "repair_kits",
+    "type": "Repair Kit",
+    "buy_price": "$1,050"
+  },
+  {
+    "name": "Tactical Wallet (Artisan)",
+    "id": "artisan-containers-tactical-wallet",
+    "item": "Tactical Wallet",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$7,532"
+  },
+  {
+    "name": "Torque Pistol Grip (Gunny)",
+    "id": "gunny-pistol-grips-torque-pistol-grip",
+    "item": "Torque Pistol Grip",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "pistol_grips",
+    "type": "Pistol Grip",
+    "buy_price": "$314"
+  },
+  {
+    "name": "Tracking Tag (Banshee)",
+    "id": "banshee-items-tracking-tag",
+    "item": "Tracking Tag",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "items",
+    "buy_price": "$649"
+  },
+  {
+    "name": "Training Mini Rig (Handshake)",
+    "id": "handshake-rigs-training-mini-rig",
+    "item": "Training Mini Rig",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "rigs",
+    "type": "Tactical Rig"
+  },
+  {
+    "name": "Triumph HD binocular (Banshee)",
+    "id": "banshee-binoculars-triumph-hd-binocular",
+    "item": "Triumph HD binocular",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "binoculars",
+    "type": "Binoculars"
+  },
+  {
+    "name": "Type 56 AK (Turncoat)",
+    "id": "turncoat-rigs-type-56-ak",
+    "item": "Type 56 AK",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "rigs",
+    "type": "Tactical Rig"
+  },
+  {
+    "name": "Tyton Glock 17 Slide (Banshee)",
+    "id": "banshee-slides-tyton-glock-17-slide",
+    "item": "Tyton Glock 17 Slide",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "slides",
+    "type": "Slide",
+    "buy_price": "$661"
+  },
+  {
+    "name": "Ultima Suppressor (Banshee)",
+    "id": "banshee-suppressors-ultima-suppressor",
+    "item": "Ultima Suppressor",
+    "vendor": "Banshee",
+    "rank": null,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$935"
+  },
+  {
+    "name": "Ultimate Power Muff Quads (Banshee)",
+    "id": "banshee-headsets-ultimate-power-muff-quads",
+    "item": "Ultimate Power Muff Quads",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "headsets",
+    "type": "Headset"
+  },
+  {
+    "name": "UltraSlim Angled Foregrip (Gunny)",
+    "id": "gunny-foregrips-ultraslim-angled-foregrip",
+    "item": "UltraSlim Angled Foregrip",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "foregrips",
+    "type": "Foregrip"
+  },
+  {
+    "name": "Viper PST Gen II 5-25x50 Rifle Scope (Banshee)",
+    "id": "banshee-scopes-viper-pst-gen-ii-5-25x50-rifle-scope",
+    "item": "Viper PST Gen II 5-25x50 Rifle Scope",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "scopes",
+    "type": "Scope",
+    "buy_price": "$2,468"
+  },
+  {
+    "name": "Viper Red Dot Sight (Banshee)",
+    "id": "banshee-collimators-viper-red-dot-sight",
+    "item": "Viper Red Dot Sight",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator",
+    "buy_price": "$578"
+  },
+  {
+    "name": "VLC 556 MARK 1 Suppressor (Gunny)",
+    "id": "gunny-suppressors-vlc-556-mark-1-suppressor",
+    "item": "VLC 556 MARK 1 Suppressor",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "suppressors",
+    "type": "Suppressor",
+    "buy_price": "$2,004"
+  },
+  {
+    "name": "Vortex High Mount (Gunny)",
+    "id": "gunny-mounts-vortex-high-mount",
+    "item": "Vortex High Mount",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$291"
+  },
+  {
+    "name": "Vortex Low Mount (Gunny)",
+    "id": "gunny-mounts-vortex-low-mount",
+    "item": "Vortex Low Mount",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "mounts",
+    "type": "Mount",
+    "buy_price": "$299"
+  },
+  {
+    "name": "Vortex Spitfire HD Gen II 5x (Gunny)",
+    "id": "gunny-scopes-vortex-spitfire-hd-gen-ii-5x",
+    "item": "Vortex Spitfire HD Gen II 5x",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "scopes",
+    "type": "Scope"
+  },
+  {
+    "name": "Vudu 3.5-18x50 FFP Rifle Scope (Banshee)",
+    "id": "banshee-scopes-vudu-3-5-18x50-ffp-rifle-scope",
+    "item": "Vudu 3.5-18x50 FFP Rifle Scope",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "scopes",
+    "type": "Scope",
+    "buy_price": "$2,420"
+  },
+  {
+    "name": "Vulcan F1 (Gunny)",
+    "id": "gunny-muzzle-devices-vulcan-f1",
+    "item": "Vulcan F1",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$146"
+  },
+  {
+    "name": "Vulcan M1 (Gunny)",
+    "id": "gunny-muzzle-devices-vulcan-m1",
+    "item": "Vulcan M1",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device",
+    "buy_price": "$284"
+  },
+  {
+    "name": "Wallet (Artisan)",
+    "id": "artisan-containers-wallet",
+    "item": "Wallet",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$4,576"
+  },
+  {
+    "name": "Weapon Parts Case (Gunny)",
+    "id": "gunny-containers-weapon-parts-case",
+    "item": "Weapon Parts Case",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "containers",
+    "type": "Container",
+    "buy_price": "$74,442"
+  },
+  {
+    "name": "X-Factor Choke (Gunny)",
+    "id": "gunny-muzzle-devices-x-factor-choke",
+    "item": "X-Factor Choke",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "X7M-13 Handguard (Gunny)",
+    "id": "gunny-handguards-x7m-13-handguard",
+    "item": "X7M-13 Handguard",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$508"
+  },
+  {
+    "name": "X7M-15 Handguard (Gunny)",
+    "id": "gunny-handguards-x7m-15-handguard",
+    "item": "X7M-15 Handguard",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$508"
+  },
+  {
+    "name": "X7M-7 Handguard (Gunny)",
+    "id": "gunny-handguards-x7m-7-handguard",
+    "item": "X7M-7 Handguard",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard"
+  },
+  {
+    "name": "XM177E2 Moderator Flash Hider (Gunny)",
+    "id": "gunny-muzzle-devices-xm177e2-moderator-flash-hider",
+    "item": "XM177E2 Moderator Flash Hider",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "muzzle_devices",
+    "type": "Muzzle Device"
+  },
+  {
+    "name": "Z17 Citadel Slide (Banshee)",
+    "id": "banshee-slides-z17-citadel-slide",
+    "item": "Z17 Citadel Slide",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "slides",
+    "type": "Slide",
+    "buy_price": "$864"
+  },
+  {
+    "name": "Zenitco Klesch-2 (Turncoat)",
+    "id": "turncoat-tactical-devices-zenitco-klesch-2",
+    "item": "Zenitco Klesch-2",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "tactical_devices",
+    "type": "Tactical Device",
+    "buy_price": "$260"
+  }
+]

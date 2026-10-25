@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-25T18:34:10.228119Z",
+  "generatedAt": "2026-10-25T19:36:48.170151Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -11,7 +11,7 @@
     "apparel_items": {
       "file": "apparel_items.json",
       "records": 63,
-      "sha256": "3af13f328585dc62421deff4457bb6822cbb8c1c4cafb462a09fe5b9e3c75d7a"
+      "sha256": "9b94517a45e9635d4faff54a1cc1d7d8829b7056478421f55235e9317c7af635"
     },
     "auxiliary": {
       "file": "auxiliary.json",
@@ -118,6 +118,16 @@
       "records": 13,
       "sha256": "2a74d78fa372ae1f3123775f959aac6a6c86a30ebd4a9deef486e529f271f2e4"
     },
+    "experience_actions": {
+      "file": "experience_actions.json",
+      "records": 9,
+      "sha256": "4c9f5560d050d4189db17d3687f8bfe94c394537cea6c08d13096937616a28c2"
+    },
+    "experience_levels": {
+      "file": "experience_levels.json",
+      "records": 50,
+      "sha256": "ca34a086051875a1c83643d92c67ea76eb726ee39821d2b6a36c36bb87eac36f"
+    },
     "face_cover": {
       "file": "face_cover.json",
       "records": 4,
@@ -201,7 +211,7 @@
     "hideout": {
       "file": "hideout.json",
       "records": 1,
-      "sha256": "15ed1f35ce6e944d55ae5fd3e8d43b6fe8b71868112a1cccbba4739e28015f29"
+      "sha256": "f32606326a821f9e904cea2c96bc6f25f5abc93164dcbcb2e872af109bd9ae4e"
     },
     "hideout_modules": {
       "file": "hideout_modules.json",
@@ -261,7 +271,7 @@
     "loot_items": {
       "file": "loot_items.json",
       "records": 120,
-      "sha256": "0ab30515bea897f19afa7cdd33c2c94288f4c6b0c0c95a1827e4c9d6b8773f89"
+      "sha256": "85ca33e8cf2e80109940c5b401d0a7d958f84875291fdbd2230902db658aeb77"
     },
     "magazines": {
       "file": "magazines.json",
@@ -336,7 +346,7 @@
     "provisions": {
       "file": "provisions.json",
       "records": 37,
-      "sha256": "1cf935e69d6c480d5ca70da75700a01758d25c77fa625872045228647bc62f37"
+      "sha256": "c7d84c1ca97e9dbc29c7132c2f97ba2350fd43f9f0ef2810d93435b9832c496a"
     },
     "reading_intel": {
       "file": "reading_intel.json",
@@ -451,7 +461,7 @@
     "uncategorized": {
       "file": "uncategorized.json",
       "records": 67,
-      "sha256": "6eb6639437582750ab90ecda16f2155d21968b7448b98687d2a9787497971738"
+      "sha256": "1cf472acf9e2f10355aed138713a4f2e53144aa518a3467699916d1a17e01c3b"
     },
     "upcoming_content": {
       "file": "upcoming_content.json",
@@ -468,10 +478,15 @@
       "records": 1,
       "sha256": "d6329f081acb97d941baae2ef83935fb10d5be16fb0d5cda3593162eeccee1f1"
     },
+    "vendor_stock": {
+      "file": "vendor_stock.json",
+      "records": 504,
+      "sha256": "4755870b599e1b971ee8a79e4ab690a8655a15447b96bcb0ef1d4c713c44cea1"
+    },
     "vendors": {
       "file": "vendors.json",
       "records": 7,
-      "sha256": "c3b3a25fdffcd96f64a81c3ea2198d6edaa473119252e0bc61aa665442ddc36c"
+      "sha256": "5b9efb9c63c8b86987bde29e8a91cd61c1f65bd2de147824bfb317916ff69266"
     },
     "vests": {
       "file": "vests.json",
