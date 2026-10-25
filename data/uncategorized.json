@@ -1,0 +1,271 @@
+[
+  {
+    "name": "10% Morphine Solution",
+    "id": "10%-morphine-solution",
+    "grid_size": "2x2"
+  },
+  {
+    "name": "Acetic Anhydride",
+    "id": "acetic-anhydride"
+  },
+  {
+    "name": "Ammonium Chloride",
+    "id": "ammonium-chloride"
+  },
+  {
+    "name": "Aniline",
+    "id": "aniline"
+  },
+  {
+    "name": "Artillery Ballistic Calculator",
+    "id": "artillery-ballistic-calculator"
+  },
+  {
+    "name": "Avionics Processor Board",
+    "id": "avionics-processor-board"
+  },
+  {
+    "name": "Biohazard Canister",
+    "id": "biohazard-canister"
+  },
+  {
+    "name": "Bone Density Stimulant",
+    "id": "bone-density-stimulant"
+  },
+  {
+    "name": "Bromopyridine",
+    "id": "bromopyridine"
+  },
+  {
+    "name": "Chemical Containment Container",
+    "id": "chemical-containment-container"
+  },
+  {
+    "name": "Chemical Munitions Container",
+    "id": "chemical-munitions-container"
+  },
+  {
+    "name": "Chemicals",
+    "id": "chemicals"
+  },
+  {
+    "name": "CPU Card",
+    "id": "cpu-card"
+  },
+  {
+    "name": "Deep-Space Observation Data Drive",
+    "id": "deep-space-observation-data-drive"
+  },
+  {
+    "name": "Digital Synthesis Engine",
+    "id": "digital-synthesis-engine"
+  },
+  {
+    "name": "Edetate Disodium",
+    "id": "edetate-disodium"
+  },
+  {
+    "name": "Electronic Warfare Configuration Drive",
+    "id": "electronic-warfare-configuration-drive"
+  },
+  {
+    "name": "Encryption Key Drive",
+    "id": "encryption-key-drive"
+  },
+  {
+    "name": "Ether",
+    "id": "ether"
+  },
+  {
+    "name": "Ethyl Alcohol",
+    "id": "ethyl-alcohol"
+  },
+  {
+    "name": "Flight Data Drive",
+    "id": "flight-data-drive"
+  },
+  {
+    "name": "Glucose",
+    "id": "glucose"
+  },
+  {
+    "name": "Gray Heroin",
+    "id": "gray-heroin"
+  },
+  {
+    "name": "Healing Agent",
+    "id": "healing-agent"
+  },
+  {
+    "name": "HEPA Filter",
+    "id": "hepa-filter"
+  },
+  {
+    "name": "High-Quality Morphine Base",
+    "id": "high-quality-morphine-base"
+  },
+  {
+    "name": "High-Speed Digital Processor Board",
+    "id": "high-speed-digital-processor-board"
+  },
+  {
+    "name": "Hydrochloric Acid",
+    "id": "hydrochloric-acid"
+  },
+  {
+    "name": "IMSI Catcher",
+    "id": "imsi-catcher"
+  },
+  {
+    "name": "Incriminating Data Drive",
+    "id": "incriminating-data-drive"
+  },
+  {
+    "name": "Incriminating Phone Logs",
+    "id": "incriminating-phone-logs"
+  },
+  {
+    "name": "Iron Sucrose",
+    "id": "iron-sucrose"
+  },
+  {
+    "name": "LAF Artillery Data Logs",
+    "id": "laf-artillery-data-logs"
+  },
+  {
+    "name": "Laser Tube",
+    "id": "laser-tube"
+  },
+  {
+    "name": "Lead",
+    "id": "lead"
+  },
+  {
+    "name": "Low-Quality Morphine Base",
+    "id": "low-quality-morphine-base"
+  },
+  {
+    "name": "Manpack Tactical Radio",
+    "id": "manpack-tactical-radio"
+  },
+  {
+    "name": "Methylene Blue",
+    "id": "methylene-blue"
+  },
+  {
+    "name": "Methylparaben",
+    "id": "methylparaben"
+  },
+  {
+    "name": "Multi-Bus Converter",
+    "id": "multi-bus-converter"
+  },
+  {
+    "name": "Nerve Gas Canister",
+    "id": "nerve-gas-canister"
+  },
+  {
+    "name": "Noir Mist Cigarettes",
+    "id": "noir-mist-cigarettes"
+  },
+  {
+    "name": "Oscilloscope",
+    "id": "oscilloscope"
+  },
+  {
+    "name": "Oven-Controlled Crystal Oscillator",
+    "id": "oven-controlled-crystal-oscillator"
+  },
+  {
+    "name": "Plutonium Canister",
+    "id": "plutonium-canister"
+  },
+  {
+    "name": "Portable SATCOM Terminal",
+    "id": "portable-satcom-terminal"
+  },
+  {
+    "name": "Pure White Heroin",
+    "id": "pure-white-heroin"
+  },
+  {
+    "name": "Radioisotope Fuel Cell",
+    "id": "radioisotope-fuel-cell"
+  },
+  {
+    "name": "RAM",
+    "id": "ram"
+  },
+  {
+    "name": "Red Blood Cell Growth Accelerator",
+    "id": "red-blood-cell-growth-accelerator"
+  },
+  {
+    "name": "Saline",
+    "id": "saline"
+  },
+  {
+    "name": "Sarin Canister",
+    "id": "sarin-canister"
+  },
+  {
+    "name": "Sodium Carbonate",
+    "id": "sodium-carbonate"
+  },
+  {
+    "name": "Sodium Citrate",
+    "id": "sodium-citrate"
+  },
+  {
+    "name": "Spoofing ASIC Module",
+    "id": "spoofing-asic-module"
+  },
+  {
+    "name": "ST1122 Storage Computer",
+    "id": "st1122-storage-computer"
+  },
+  {
+    "name": "Stabilized Morphine Sulfate Liquid",
+    "id": "stabilized-morphine-sulfate-liquid"
+  },
+  {
+    "name": "Stainless Steel Sheet",
+    "id": "stainless-steel-sheet"
+  },
+  {
+    "name": "Theophylline",
+    "id": "theophylline"
+  },
+  {
+    "name": "Tooling Coolant",
+    "id": "tooling-coolant"
+  },
+  {
+    "name": "UNLRA Field Terminal",
+    "id": "unlra-field-terminal"
+  },
+  {
+    "name": "UNLRA Relief Manifest",
+    "id": "unlra-relief-manifest"
+  },
+  {
+    "name": "Uplink Credentials Drive",
+    "id": "uplink-credentials-drive"
+  },
+  {
+    "name": "USP Morphine Sulfate",
+    "id": "usp-morphine-sulfate"
+  },
+  {
+    "name": "Vapor Lamp",
+    "id": "vapor-lamp"
+  },
+  {
+    "name": "Vitamin B12",
+    "id": "vitamin-b12"
+  },
+  {
+    "name": "Water Pump",
+    "id": "water-pump"
+  }
+]

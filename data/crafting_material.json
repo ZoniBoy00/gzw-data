@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Empty Autoinjector",
+    "id": "empty-autoinjector",
+    "type": "Crafting Material",
+    "weight": "0.090kg",
+    "grid_size": "1x1",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/Empty_Autoinjector_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183752",
+    "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "FPGA Module",
+    "id": "fpga-module",
+    "type": "Crafting Material",
+    "weight": "0.200kg",
+    "grid_size": "2x1",
+    "sell_price": "$900",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/FPGA_Module_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024200429",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Human Growth Hormone",
+    "id": "human-growth-hormone",
+    "type": "Crafting Material",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "sell_price": "$30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c8/Human_Growth_Hormone_inspect.png/revision/latest?cb=20261024185208",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Server RAM Module",
+    "id": "server-ram-module",
+    "type": "Crafting Material",
+    "weight": "0.050kg",
+    "grid_size": "2x1",
+    "sell_price": "$900",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Server_RAM_Module_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024200428",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  }
+]

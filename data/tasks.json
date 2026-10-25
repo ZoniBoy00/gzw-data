@@ -396,6 +396,13 @@
     "objectives": "Place the tracker in a weapon crate in a restaurant in Tiger Bay (22:00-5:00)"
   },
   {
+    "name": "Distant Voice",
+    "id": "distant-voice",
+    "vendor": "Lab Rat",
+    "location": "RLSL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
     "name": "Domesticated Rat",
     "id": "domesticated-rat",
     "vendor": "Handshake",
@@ -662,6 +669,12 @@
     "location": "Blue Lagoon",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
     "briefing": "The intel you found in the Blue Lagoon is very troubling. If there was indeed a government-sanctioned human trafficking operation run from that place, we need to investigate further. It's likely that the tourists were lured by gang members somewhere, drugged, and then transported around the island to their grim fates. We need to pinpoint where this was taking place to validate our suspicions. Conduct a thorough investigation of the Blue Lagoon area and search for any building that might have facilitated this operation. Once you locate such a structure, try to gain access to confirm our theory."
+  },
+  {
+    "name": "Friendly Conveyance",
+    "id": "friendly-conveyance",
+    "objectives": "Locate the Cartons of Tahir Cigarettes and report back to Turncoat",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Carton_of_Tahirs_Cigarettes_icon.png/revision/latest?cb=20260331075356"
   },
   {
     "name": "Friendly Suggestion",
@@ -1231,6 +1244,11 @@
     "objectives": "Use the USB autocracker to secure all the data from the server on the golf course Retrieve the USB autocracker from the hidden cache under a billboard Retrieve the USB autocracker from the hidden cache under a billboard Use the Micro SD autocracker to secure all the data from the server in the Midnight Sapphire Hotel Retrieve the Micro SD autocracker from the hidden cache under a billboard Retrieve the Micro SD autocracker from the hidden cache under a billboard Access and transfer all data from the laptop at the main entrance of Midnight Sapphire Access and transfer all the data from the PC at the Golf Club"
   },
   {
+    "name": "Mercenary Delivery Service",
+    "id": "mercenary-delivery-service",
+    "objectives": "Locate the buckets of White Lithium Grease and report back to Artisan (0/2)"
+  },
+  {
     "name": "Mire Job",
     "id": "mire-job",
     "vendor": "Handshake",
@@ -1642,6 +1660,13 @@
     "location": "YBL-1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
     "briefing": "Hey, man. You like the narrow places, right? We managed to get some intel on the bunker where the fucking rebels are holed up. Apparently, there's a secret passageway somewhere in the compound that connects the bunker to the military base. Finding it would be a smash because we could enter Fort Narith undetected. Which, needless to say, is a huge tactical advantage. I want you to take a good look around the bunker and find the place that connects these two locations. Any advantage, even the slightest, is crucial to us now, and i trust you to complete this task with flying colors. When you've fullfilled your task, report back to me."
+  },
+  {
+    "name": "Silent Night",
+    "id": "silent-night",
+    "vendor": "Gunny",
+    "location": "RLSL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
     "name": "Silent Village",

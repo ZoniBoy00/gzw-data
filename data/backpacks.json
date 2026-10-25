@@ -191,6 +191,21 @@
     }
   },
   {
+    "name": "Patrol Backpack (Coyote)",
+    "id": "patrol-backpack-coyote",
+    "type": "Backpack",
+    "weight": "1.500kg",
+    "grid_size": "4x5",
+    "slots": "20",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Patrol_Backpack_Coyote_inspect.png/revision/latest/scale-to-width-down/268?cb=20260701163737",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Rush 72 2.0",
     "id": "rush-72-2.0",
     "type": "Backpack",

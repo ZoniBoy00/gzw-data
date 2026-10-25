@@ -1,0 +1,539 @@
+[
+  {
+    "name": "Analog Indicator",
+    "id": "analog-indicator",
+    "type": "Building Material",
+    "weight": "0.500kg",
+    "grid_size": "1x1",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Analog_Indicator_inspect.png/revision/latest?cb=20261024183758",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Burner Head",
+    "id": "burner-head",
+    "type": "Building Material",
+    "weight": "0.250kg",
+    "grid_size": "1x1",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Burner_Head_inspect.png/revision/latest?cb=20261024183800",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Circuit Board",
+    "id": "circuit-board",
+    "type": "Building Material",
+    "weight": "0.300kg",
+    "grid_size": "1x1",
+    "sell_price": "$45",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/Circuit_Board_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183802",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Civilian Software",
+    "id": "civilian-software",
+    "type": "Building Material",
+    "weight": "0.020kg",
+    "grid_size": "1x1",
+    "sell_price": "$75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/Civilian_Software_inspect.png/revision/latest?cb=20261024185208",
+    "numeric_values": {
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "CNC Drill Bits",
+    "id": "cnc-drill-bits",
+    "type": "Building Material",
+    "weight": "0.420kg",
+    "grid_size": "1x1",
+    "sell_price": "$60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/CNC_Drill_Bits_inspect.png/revision/latest?cb=20261024183801",
+    "numeric_values": {
+      "weight": {
+        "value": 0.42,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Complex Glass Electrode",
+    "id": "complex-glass-electrode",
+    "type": "Building Material",
+    "weight": "0.450kg",
+    "grid_size": "1x2",
+    "sell_price": "$150",
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Construction Material",
+    "id": "construction-material",
+    "type": "Building Material",
+    "weight": "10.000kg",
+    "grid_size": "3x3",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Icon_Construction_Mat.png/revision/latest?cb=20261025152947",
+    "numeric_values": {
+      "weight": {
+        "value": 10.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Copper",
+    "id": "copper",
+    "type": "Building Material",
+    "weight": "3.000kg",
+    "grid_size": "3x3",
+    "sell_price": "$30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/Icon_Copper.png/revision/latest?cb=20261025153337",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "CPU",
+    "id": "cpu",
+    "type": "Building Material",
+    "weight": "0.070kg",
+    "grid_size": "1x1",
+    "sell_price": "$90",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/CPU_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024185210",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Crystal Prism",
+    "id": "crystal-prism",
+    "type": "Building Material",
+    "weight": "0.035kg",
+    "grid_size": "1x1",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/Crystal_Prism_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024185209",
+    "numeric_values": {
+      "weight": {
+        "value": 0.035,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Dynamo",
+    "id": "dynamo",
+    "type": "Building Material",
+    "weight": "3.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$150",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Electrical Parts",
+    "id": "electrical-parts",
+    "type": "Building Material",
+    "weight": "1.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Electrical_Parts_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183806",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Fabrics",
+    "id": "fabrics",
+    "type": "Building Material",
+    "weight": "2.000kg",
+    "grid_size": "1x4",
+    "sell_price": "$15",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Fine Metal Mesh",
+    "id": "fine-metal-mesh",
+    "type": "Building Material",
+    "weight": "1.500kg",
+    "grid_size": "3x2",
+    "sell_price": "$75",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Glass",
+    "id": "glass",
+    "type": "Building Material",
+    "weight": "4.0kg",
+    "grid_size": "2x2",
+    "sell_price": "$45",
+    "numeric_values": {
+      "weight": {
+        "value": 4.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Graphics Card",
+    "id": "graphics-card",
+    "type": "Building Material",
+    "weight": "0.500kg",
+    "grid_size": "2x1",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/Graphics_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024185212",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Laboratory Flask",
+    "id": "laboratory-flask",
+    "type": "Building Material",
+    "weight": "0.100kg",
+    "grid_size": "1x2",
+    "sell_price": "$30",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Mechanical Parts",
+    "id": "mechanical-parts",
+    "type": "Building Material",
+    "weight": "1.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$60",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Mechanical Pipette",
+    "id": "mechanical-pipette",
+    "type": "Building Material",
+    "weight": "0.130kg",
+    "grid_size": "1x2",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Mechanical_Pipette_inspect.png/revision/latest?cb=20261024183810",
+    "numeric_values": {
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Microscope",
+    "id": "microscope",
+    "type": "Building Material",
+    "weight": "1.600kg",
+    "grid_size": "2x3",
+    "sell_price": "$300",
+    "numeric_values": {
+      "weight": {
+        "value": 1.6,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Military Software",
+    "id": "military-software",
+    "type": "Building Material",
+    "weight": "0.030kg",
+    "grid_size": "1x1",
+    "sell_price": "$75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/Military_Software_inspect.png/revision/latest?cb=20261024185206",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Motherboard",
+    "id": "motherboard",
+    "type": "Building Material",
+    "grid_size": "0.800",
+    "inventory_layout_(x/y)": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$90"
+  },
+  {
+    "name": "Motor Oil",
+    "id": "motor-oil",
+    "type": "Building Material",
+    "weight": "4.300kg",
+    "grid_size": "2x2",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Motor_Oil_inspect.png/revision/latest?cb=20260331083529",
+    "numeric_values": {
+      "weight": {
+        "value": 4.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Multimeter",
+    "id": "multimeter",
+    "type": "Building Material",
+    "weight": "0.500kg",
+    "grid_size": "1x2",
+    "sell_price": "$60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Multimeter_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183757",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "PC Fan",
+    "id": "pc-fan",
+    "type": "Building Material",
+    "weight": "0.120kg",
+    "grid_size": "1x1",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/PC_Fan_inspect.png/revision/latest?cb=20261024183803",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Plastics",
+    "id": "plastics",
+    "type": "Building Material",
+    "weight": "1.000kg",
+    "grid_size": "1x2",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Plastics_inspect.png/revision/latest?cb=20261024183755",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Plumbing Parts",
+    "id": "plumbing-parts",
+    "type": "Building Material",
+    "weight": "1.0kg",
+    "grid_size": "2x2",
+    "sell_price": "$60",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Power Supply",
+    "id": "power-supply",
+    "type": "Building Material",
+    "weight": "1.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$75",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Refrigerant",
+    "id": "refrigerant",
+    "type": "Building Material",
+    "weight": "3.000kg",
+    "grid_size": "2x3",
+    "sell_price": "$45",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Server CPU",
+    "id": "server-cpu",
+    "type": "Building Material",
+    "weight": "0.080kg",
+    "grid_size": "1x1",
+    "sell_price": "$180",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/16/Server_CPU_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183804",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Signal Generator",
+    "id": "signal-generator",
+    "type": "Building Material",
+    "weight": "1.200kg",
+    "grid_size": "2x2",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/Signal_Generator_inspect.png/revision/latest?cb=20261024185211",
+    "numeric_values": {
+      "weight": {
+        "value": 1.2,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Silicone Sealant",
+    "id": "silicone-sealant",
+    "type": "Building Material",
+    "weight": "1.000kg",
+    "grid_size": "1x3",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/82/Silicone_Sealant_inspect.png/revision/latest?cb=20261024183807",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Soldering Iron",
+    "id": "soldering-iron",
+    "type": "Building Material",
+    "weight": "0.300kg",
+    "grid_size": "1x1",
+    "sell_price": "$30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bc/Soldering_Iron_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183754",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Steel",
+    "id": "steel",
+    "type": "Building Material",
+    "weight": "4.400kg",
+    "grid_size": "4x2",
+    "sell_price": "$30",
+    "numeric_values": {
+      "weight": {
+        "value": 4.4,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Toolset",
+    "id": "toolset",
+    "type": "Building Material",
+    "weight": "1.600kg",
+    "grid_size": "2x2",
+    "sell_price": "$60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/Toolset_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331090251",
+    "numeric_values": {
+      "weight": {
+        "value": 1.6,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Wood",
+    "id": "wood",
+    "type": "Building Material",
+    "weight": "3.000kg",
+    "grid_size": "4x1",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024185544",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Zinc Electrode",
+    "id": "zinc-electrode",
+    "type": "Building Material",
+    "weight": "0.500kg",
+    "grid_size": "1x2",
+    "sell_price": "$120",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/Zinc_Electrode_inspect.png/revision/latest?cb=20261024183823",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  }
+]
