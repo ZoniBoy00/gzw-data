@@ -95,13 +95,13 @@
     "weight": "10.000kg",
     "grid_size": "3x3",
     "sell_price": "$15",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Icon_Construction_Mat.png/revision/latest?cb=20261025152947",
     "numeric_values": {
       "weight": {
         "value": 10.0,
         "unit": "kg"
       }
-    }
+    },
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Icon_Construction_Mat.png/revision/latest?cb=20261025152947"
   },
   {
     "name": "Copper",
@@ -110,13 +110,13 @@
     "weight": "3.000kg",
     "grid_size": "3x3",
     "sell_price": "$30",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/Icon_Copper.png/revision/latest?cb=20261025153337",
     "numeric_values": {
       "weight": {
         "value": 3.0,
         "unit": "kg"
       }
-    }
+    },
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/Icon_Copper.png/revision/latest?cb=20261025153337"
   },
   {
     "name": "CPU",

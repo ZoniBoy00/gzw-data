@@ -59,6 +59,21 @@
     }
   },
   {
+    "name": "Portable SATCOM Terminal",
+    "id": "portable-satcom-terminal",
+    "type": "Disassembly Material",
+    "weight": "12.200kg",
+    "grid_size": "3x3",
+    "sell_price": "$4,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/Portable_SATCOM_Terminal_inspect.png/revision/latest?cb=20261026020134",
+    "numeric_values": {
+      "weight": {
+        "value": 12.2,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Radar Signal Processor",
     "id": "radar-signal-processor",
     "type": "Disassembly Material",

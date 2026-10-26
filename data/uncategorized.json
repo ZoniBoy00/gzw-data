@@ -65,10 +65,6 @@
     "id": "edetate-disodium"
   },
   {
-    "name": "Electronic Warfare Configuration Drive",
-    "id": "electronic-warfare-configuration-drive"
-  },
-  {
     "name": "Encryption Key Drive",
     "id": "encryption-key-drive"
   },
@@ -181,10 +177,6 @@
     "id": "plutonium-canister"
   },
   {
-    "name": "Portable SATCOM Terminal",
-    "id": "portable-satcom-terminal"
-  },
-  {
     "name": "Pure White Heroin",
     "id": "pure-white-heroin"
   },
@@ -223,7 +215,7 @@
   {
     "name": "ST1122 Storage Computer",
     "id": "st1122-storage-computer",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/Screenshot_2026-10-25_205246.png/revision/latest/scale-to-width-down/200?cb=20261025183832"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7c/ST1122_Storage_Computer_Midnight_Sapphire_MSH_Supply_Closet_Room_Spawn.png/revision/latest/scale-to-width-down/200?cb=20261025183832"
   },
   {
     "name": "Stabilized Morphine Sulfate Liquid",

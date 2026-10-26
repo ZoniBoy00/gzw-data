@@ -15,6 +15,21 @@
     }
   },
   {
+    "name": "Electronic Warfare Configuration Drive",
+    "id": "electronic-warfare-configuration-drive",
+    "type": "Tech",
+    "weight": "0.080kg",
+    "grid_size": "1x1",
+    "sell_price": "$12,800",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Electronic_Warfare_Configuration_Drive_inspect.png/revision/latest?cb=20261026020130",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Expensive Smartphone",
     "id": "expensive-smartphone",
     "type": "Electronics",

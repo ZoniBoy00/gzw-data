@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-25T19:36:48.170151Z",
+  "generatedAt": "2026-10-26T13:24:38.884600Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -56,7 +56,7 @@
     "building_material": {
       "file": "building_material.json",
       "records": 37,
-      "sha256": "0bf47b2c9148f7bd54944ae4e4bf0f829fec8d044d7344d47589e95310c178e7"
+      "sha256": "faf836278d85434be5068b669de1f2e4b85e4050dc7974eebb4a1b564a61ab9e"
     },
     "charging_handle": {
       "file": "charging_handle.json",
@@ -95,8 +95,8 @@
     },
     "disassembly_material": {
       "file": "disassembly_material.json",
-      "records": 5,
-      "sha256": "cae6f0da04cfe9d3c5978c8bcf940e138de04b2257067f6efd2494ff85b68e0e"
+      "records": 6,
+      "sha256": "b8a6c1efa3a3dfd8b8ea1767c4abbfd677a256f42b6eef2eefb36b88382f3a78"
     },
     "disassembly_recipes": {
       "file": "disassembly_recipes.json",
@@ -110,8 +110,8 @@
     },
     "electronics": {
       "file": "electronics.json",
-      "records": 5,
-      "sha256": "87ba10eb29ddd4dfe434e7e126f55c6c0932d869d1407d1023b952654ebc8ee6"
+      "records": 6,
+      "sha256": "4a458209674cb2fcf1d5a5db3953fffff8c787dbd6b6ef428ebed301e4186c4e"
     },
     "evidence": {
       "file": "evidence.json",
@@ -211,7 +211,7 @@
     "hideout": {
       "file": "hideout.json",
       "records": 1,
-      "sha256": "f32606326a821f9e904cea2c96bc6f25f5abc93164dcbcb2e872af109bd9ae4e"
+      "sha256": "20ba1739f16bfe8e16f44f9e52d3a1c3f0004005a330d017ef57699601edd208"
     },
     "hideout_modules": {
       "file": "hideout_modules.json",
@@ -460,8 +460,8 @@
     },
     "uncategorized": {
       "file": "uncategorized.json",
-      "records": 67,
-      "sha256": "1cf472acf9e2f10355aed138713a4f2e53144aa518a3467699916d1a17e01c3b"
+      "records": 65,
+      "sha256": "44a2a7f539f293f09e889ab5f1c3095cf00ef014281f300b46857e93aa8a8395"
     },
     "upcoming_content": {
       "file": "upcoming_content.json",
