@@ -32,3 +32,8 @@ ship-safe-report.html
 # Temp
 *.log
 .tmp/
+
+# Security browser reports and authentication state
+playwright-report/
+test-results/
+blob-report/

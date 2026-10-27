@@ -333,3 +333,7 @@ All endpoints return consistent JSON:
   "dataVersion": "2026-08-25T11:12:54.629187Z"
 }
 ```
+
+## Browser, API and CDN regression tests
+
+`npm run test:security` runs the local Playwright security suite in Chromium and Firefox, plus real OpenAPI contract and CDN/header regression checks. See [security testing](docs/security-testing.md) for local runs, Vercel previews, protected-preview setup and report artifacts.

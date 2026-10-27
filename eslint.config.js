@@ -5,17 +5,20 @@ module.exports = [
     ignores: ["data/**", "web/**", "examples/**", "node_modules/**"],
   },
   {
-    files: ["api/**/*.js", "lib/**/*.js", "scripts/**/*.js", "tests/**/*.js"],
+    files: ["api/**/*.js", "lib/**/*.js", "scripts/**/*.js", "tests/**/*.js", "playwright.config.js"],
     languageOptions: {
       ecmaVersion: "latest",
       sourceType: "commonjs",
       globals: {
         console: "readonly",
+        globalThis: "readonly",
         process: "readonly",
         Buffer: "readonly",
         URL: "readonly",
         URLSearchParams: "readonly",
         AbortController: "readonly",
+        AbortSignal: "readonly",
+        fetch: "readonly",
         setTimeout: "readonly",
         clearTimeout: "readonly",
         module: "readonly",
