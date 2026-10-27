@@ -53,6 +53,9 @@ a command argument or a URL. The setup sends it once to the validated preview
 without following redirects and stores the resulting scoped cookie under
 `.tmp/security-auth.json`. It never applies bypass headers to registry requests.
 Remote traces are disabled, and authentication state is not uploaded as an artifact.
+Browser navigations to the target send Vercel's supported `x-vercel-skip-toolbar: 1`
+automation header, so the preview toolbar does not inject an external script.
+The application's CSP remains strict and CSP violations still fail tests.
 Missing/invalid preview access fails the run rather than silently skipping tests.
 
 ## GitHub Actions

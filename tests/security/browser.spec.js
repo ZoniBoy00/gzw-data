@@ -13,6 +13,15 @@ const test = base.extend({
         globalThis.__cspViolations.push({ directive: event.effectiveDirective, blocked: event.blockedURI });
       });
     });
+    // Disable Vercel's preview-only toolbar using its supported automation header.
+    // Keep CSP assertions strict; do not allow the toolbar's external script or ignore violations.
+    await page.route('**/*', route => {
+      const request = route.request();
+      if (request.isNavigationRequest() && new URL(request.url()).origin === new URL(baseURL).origin) {
+        return route.continue({ headers: { ...request.headers(), 'x-vercel-skip-toolbar': '1' } });
+      }
+      return route.continue();
+    });
     // Registry calls are deterministic. Do not send preview cookies/headers to external test services.
     await page.route('https://registry.npmjs.org/**', route => route.fulfill({ json: { version: '1.2.3' } }));
     await page.route('https://pypi.org/**', route => route.fulfill({ json: { info: { version: '1.2.3' } } }));
