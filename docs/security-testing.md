@@ -76,7 +76,7 @@ A protected preview requires the optional secret before remote checks can pass.
 | Area | What is exercised |
 | --- | --- |
 | OpenAPI contracts | Real health, list, record, search, export and metadata responses validated against the deployed spec using AJV |
-| Invalid inputs | Bounded long/missing queries, prototype-like names, record IDs and pagination/query-order combinations |
+| Invalid inputs | Bounded long/missing queries, prototype-like names, record IDs and pagination/query-order combinations; null-byte paths may be rejected by the Vercel edge (400) before the application (404) |
 | Read-only behavior | POST/PUT/DELETE denial and non-credentialed public CORS |
 | Headers | CSP/nosniff/frame denial on regular, prefetch-shaped and 404 HTML |
 | CDN regression | Forwarding-header isolation on unique health and dataset query URLs, followed by an ordinary request |

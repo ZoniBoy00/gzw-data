@@ -34,11 +34,27 @@ test('bounded malformed inputs return structured errors instead of server errors
     [`/api/v1/search?q=${'a'.repeat(201)}`, 400],
     ['/api/v1/constructor', 404],
     ['/api/v1/export/__proto__', 404],
-    ['/api/v1/weapons/%00', 404],
+    ['/api/v1/weapons/security-missing-record', 404],
   ]) {
-    const body = await json(await get(request, url), status);
-    expect(body.error.code).toEqual(expect.any(String));
-    expect(JSON.stringify(body)).not.toMatch(/node:internal|\\Users\\|\.js:\d+:\d+/);
+    await test.step(url, async () => {
+      const body = await json(await get(request, url), status);
+      expect(body.error.code).toEqual(expect.any(String));
+      expect(JSON.stringify(body)).not.toMatch(/node:internal|\\Users\\|\.js:\d+:\d+/);
+    });
+  }
+});
+
+test('null-byte paths are rejected by either the edge or application', async ({ request }) => {
+  const response = await get(request, '/api/v1/weapons/%00');
+  if (response.status() === 400) {
+    // Vercel rejects this URL before the application; the edge does not use our JSON envelope.
+    expect(response.headers()['content-type']).toContain('text/plain');
+    const body = await response.text();
+    expect(body.length).toBeLessThan(4096);
+    expect(body).not.toMatch(/node:internal|\.js:\d+:\d+/);
+  } else {
+    const body = await json(response, 404);
+    expect(body.error.code).toBe('RECORD_NOT_FOUND');
   }
 });
 
