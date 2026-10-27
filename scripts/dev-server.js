@@ -2,6 +2,7 @@ const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
 const apiHandler = require('../api/index.js');
+const deployment = require('../vercel.json');
 
 const host = process.env.HOST || '127.0.0.1';
 const port = Number(process.env.PORT || 4173);
@@ -14,6 +15,8 @@ const mimeTypes = {
   '.png': 'image/png',
   '.svg': 'image/svg+xml',
   '.webp': 'image/webp',
+  '.woff': 'font/woff',
+  '.woff2': 'font/woff2',
 };
 
 function send(res, statusCode, body, headers = {}) {
@@ -34,7 +37,12 @@ function adaptResponse(res) {
 }
 
 function serveStatic(req, res) {
-  const requestPath = decodeURIComponent(new URL(req.url, `http://${host}`).pathname);
+  let requestPath;
+  try {
+    requestPath = decodeURIComponent(new URL(req.url, `http://${host}`).pathname);
+  } catch {
+    return send(res, 400, 'Bad request');
+  }
   // Mirror the legal-page rewrites from vercel.json.
   const legalAlias = requestPath.replace(/\/+$/, '').match(/^\/(privacy-policy|terms-of-service)$/);
   const relativePath = legalAlias ? `legal/${legalAlias[1]}/index.html` : requestPath === '/' ? 'index.html' : requestPath.replace(/^\/+/, '');
@@ -49,17 +57,35 @@ function serveStatic(req, res) {
   }
   const extension = path.extname(filePath).toLowerCase();
   res.writeHead(200, { 'Content-Type': mimeTypes[extension] || 'application/octet-stream' });
+  if (req.method === 'HEAD') return res.end();
   fs.createReadStream(filePath).pipe(res);
 }
 
-const server = http.createServer((req, res) => {
-  if (req.url.startsWith('/api')) return apiHandler(req, adaptResponse(res));
-  if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'Method not allowed');
-  return serveStatic(req, res);
-});
+function createServer() {
+  return http.createServer((req, res) => {
+    // Mirror production security headers so local browser tests exercise the same CSP.
+    for (const entry of deployment.headers || []) {
+      if (entry.source !== '/(.*)') continue;
+      for (const header of entry.headers) res.setHeader(header.key, header.value);
+    }
+    const requestPath = req.url.split('?')[0];
+    const redirect = deployment.redirects?.find(entry => entry.source === requestPath);
+    if (redirect) {
+      res.writeHead(redirect.permanent ? 308 : 307, { Location: redirect.destination });
+      return res.end();
+    }
+    if (req.url.startsWith('/api')) return apiHandler(req, adaptResponse(res));
+    if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'Method not allowed');
+    return serveStatic(req, res);
+  });
+}
 
-server.listen(port, host, () => {
-  console.log(`GZW Data local server: http://${host}:${port}`);
-  console.log(`Playground: http://${host}:${port}/playground/`);
-  console.log(`API: http://${host}:${port}/api/v1/health`);
-});
+if (require.main === module) {
+  const server = createServer();
+  server.listen(port, host, () => {
+    const actualPort = server.address().port;
+    console.log(`GZW Data local server: http://${host}:${actualPort}`);
+  });
+}
+
+module.exports = { createServer };

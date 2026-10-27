@@ -95,6 +95,11 @@ Current implementation: `4.6.0` (verified through the production `/api/v1/versio
 - [x] Keep unsupported weapon compatibility and task requirement relationships unavailable until verified source data exists.
 - [x] Add GitHub Issue Forms for API bugs, data quality issues, and feature requests.
 
+## Security regression coverage
+
+- [x] Add browser, API contract and CDN/header regression tests with local/preview targets and CI report artifacts. See [security testing](docs/security-testing.md).
+- [ ] Confirm a complete remote run for each protected-preview configuration and keep its automation bypass secret configured if needed.
+
 ## Next priorities
 
 _Last reviewed: 2026-10-23 against implementation `4.6.0`. Every unchecked item below is deliberately conditional: none has a known consumer or measured need yet, so none is scheduled._

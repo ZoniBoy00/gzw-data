@@ -1,0 +1,89 @@
+name: Security regressions
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  deployment_status:
+  workflow_dispatch:
+    inputs:
+      preview_url:
+        description: 'Optional gzw-data Vercel preview origin; empty runs locally'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: security-${{ github.event_name }}-${{ github.event.deployment.id || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  local:
+    if: github.event_name != 'deployment_status' && (github.event_name != 'workflow_dispatch' || inputs.preview_url == '')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npx playwright install --with-deps chromium firefox
+      - run: npm run test:security
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: security-local-${{ github.run_id }}
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
+          if-no-files-found: ignore
+
+  preview:
+    if: >-
+      (github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success' &&
+       github.event.deployment.production_environment == false &&
+       (startsWith(github.event.deployment.environment, 'Preview') || startsWith(github.event.deployment.environment, 'preview'))) ||
+      (github.event_name == 'workflow_dispatch' && inputs.preview_url != '')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Run the reviewed harness from main, never scripts supplied by a preview/fork commit.
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - name: Validate preview origin
+        id: target
+        env:
+          REQUESTED_PREVIEW_URL: ${{ inputs.preview_url }}
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/security-preview-target.js
+      - run: npm ci --ignore-scripts
+      - run: npx playwright install --with-deps chromium firefox
+      - name: Test deployed preview
+        env:
+          SECURITY_BASE_URL: ${{ steps.target.outputs.base_url }}
+          VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+        run: npm run test:security
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: security-preview-${{ github.run_id }}
+          # Never upload .tmp/: it may hold a protection-bypass cookie. Remote traces are disabled.
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
+          if-no-files-found: ignore

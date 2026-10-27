@@ -8,3 +8,9 @@ eslint.config.js
 CONTRIBUTING.md
 ROADMAP.md
 SECURITY.md
+
+playwright.config.js
+playwright-report
+test-results
+blob-report
+.tmp
