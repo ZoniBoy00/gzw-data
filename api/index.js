@@ -652,9 +652,9 @@ module.exports = (req, res) => {
       });
     }
 
-    // Parse route
-    const forwardedUrl = req.headers['x-vercel-forwarded-url'];
-    const url = forwardedUrl || req.url;
+    // Route only by the requested URL. Forwarding headers are client-controlled
+    // and are not part of the CDN cache key.
+    const url = req.url;
     if (typeof url === 'string' && url.length > MAX_REQUEST_URL_LENGTH) {
       return errorResponse(res, 414, 'URI_TOO_LONG', 'Request URL is too long', {
         maxLength: MAX_REQUEST_URL_LENGTH,

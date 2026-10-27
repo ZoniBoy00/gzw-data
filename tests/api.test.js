@@ -364,6 +364,50 @@ describe('GZW Data API', () => {
     assert.strictEqual(getBody().error.code, 'INVALID_REQUEST');
   });
 
+  it('routes health probes by the requested URL despite a forged forwarding header', () => {
+    for (const prefix of ['/api', '/api/v1']) {
+      const result = mockRes();
+      handler(mockReq(`${prefix}/health`, 'GET', {
+        'x-forwarded-for': 'forwarded-health-regression',
+        'x-vercel-forwarded-url': '/api/v1/weapons?limit=1',
+      }), result.res);
+      assert.strictEqual(result.getStatus(), 200);
+      assert.strictEqual(result.getBody().data.status, 'ok');
+      assert.strictEqual(Array.isArray(result.getBody().data), false);
+      assert.ok(!result.getHeader('cache-control'), 'health must not inherit dataset caching');
+    }
+  });
+
+  it('preserves dataset query parameters when a forwarding header supplies another query', () => {
+    const result = mockRes();
+    handler(mockReq('/api/v1/weapons?limit=2&all=true', 'GET', {
+      'x-forwarded-for': 'forwarded-query-regression',
+      'x-vercel-forwarded-url': '/api/v1/weapons?limit=1&all=true',
+    }), result.res);
+    assert.strictEqual(result.getStatus(), 200);
+    assert.strictEqual(result.getBody().data.length, 2);
+  });
+
+  it('cannot hide an overlong requested URL behind a short forwarding header', () => {
+    const result = mockRes();
+    handler(mockReq(`/api/v1/health?x=${'a'.repeat(4096)}`, 'GET', {
+      'x-forwarded-for': 'forwarded-length-regression',
+      'x-vercel-forwarded-url': '/api/v1/health',
+    }), result.res);
+    assert.strictEqual(result.getStatus(), 414);
+    assert.strictEqual(result.getBody().error.code, 'URI_TOO_LONG');
+  });
+
+  it('ignores an oversized forwarding header for a valid requested URL', () => {
+    const result = mockRes();
+    handler(mockReq('/api/v1/health', 'GET', {
+      'x-forwarded-for': 'forwarded-oversized-regression',
+      'x-vercel-forwarded-url': `/api/v1/health?x=${'a'.repeat(4096)}`,
+    }), result.res);
+    assert.strictEqual(result.getStatus(), 200);
+    assert.strictEqual(result.getBody().data.status, 'ok');
+  });
+
   it('should reject overlong request URLs', () => {
     const { res, getStatus, getBody } = mockRes();
     handler(mockReq(`/api/stats?x=${'a'.repeat(4096)}`), res);
