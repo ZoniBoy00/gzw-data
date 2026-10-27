@@ -17,7 +17,9 @@ module.exports = async () => {
         maxRedirects: 0,
         timeout: 15000,
       });
-      if (!response.ok()) throw new Error('Preview protection bypass failed');
+      // Vercel sets the bypass cookie on a redirect; keep redirects disabled so the secret never follows it.
+      const cookieRedirect = [301, 302, 303, 307, 308].includes(response.status());
+      if (!response.ok() && !cookieRedirect) throw new Error('Preview protection bypass failed');
     }
     const health = await context.get('/api/v1/health', { maxRedirects: 0 });
     if (!health.ok() || !(health.headers()['content-type'] || '').includes('application/json')) {
