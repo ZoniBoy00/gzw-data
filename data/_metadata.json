@@ -2,7 +2,7 @@
   "source": "gzw-scraper",
   "scraperVersion": "4.6.1",
   "parserRevision": "universal-parser-v8",
-  "datasetCount": 103,
+  "datasetCount": 102,
   "datasets": [
     {
       "name": "ammo",
@@ -2872,13 +2872,13 @@
     {
       "name": "crafting_material",
       "file": "crafting_material.json",
-      "itemCount": 7,
+      "itemCount": 8,
       "fields": {
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": false,
           "nullable": false,
           "example": "1x1"
@@ -2887,7 +2887,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": false,
           "nullable": false,
           "example": "digital-synthesis-engine"
@@ -2896,7 +2896,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/High-Speed_Digital_Processor_Board_inspect.png/revision/latest/scale-to-width-down/268?cb=20261026212129"
@@ -2905,7 +2905,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": false,
           "nullable": false,
           "example": "Digital Synthesis Engine"
@@ -2914,7 +2914,7 @@
           "types": [
             "object"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": false,
           "nullable": false,
           "example": {
@@ -2928,7 +2928,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": false,
           "nullable": false,
           "example": "$1,200"
@@ -2937,7 +2937,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": false,
           "nullable": false,
           "example": "Crafting Material"
@@ -2946,7 +2946,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 7,
+          "presentCount": 8,
           "optional": false,
           "nullable": false,
           "example": "0.010kg"
@@ -2979,99 +2979,12 @@
           "revisionId": 25639
         },
         {
-          "title": "Server RAM Module",
-          "revisionId": 25453
-        }
-      ]
-    },
-    {
-      "name": "crating_material",
-      "file": "crating_material.json",
-      "itemCount": 1,
-      "fields": {
-        "grid_size": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": false,
-          "nullable": false,
-          "example": "1x1"
-        },
-        "id": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": false,
-          "nullable": false,
-          "example": "oven-controlled-crystal-oscillator"
-        },
-        "image": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": false,
-          "nullable": false,
-          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Oven-Controlled_Crystal_Oscillator_inspect.png/revision/latest?cb=20261026212131"
-        },
-        "name": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": false,
-          "nullable": false,
-          "example": "Oven-Controlled Crystal Oscillator"
-        },
-        "numeric_values": {
-          "types": [
-            "object"
-          ],
-          "presentCount": 1,
-          "optional": false,
-          "nullable": false,
-          "example": {
-            "weight": {
-              "value": 0.01,
-              "unit": "kg"
-            }
-          }
-        },
-        "sell_price": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": false,
-          "nullable": false,
-          "example": "$1,200"
-        },
-        "type": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": false,
-          "nullable": false,
-          "example": "Crating Material"
-        },
-        "weight": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": false,
-          "nullable": false,
-          "example": "0.010kg"
-        }
-      },
-      "lastScrapedAt": "2026-11-02T16:13:19.465474Z",
-      "sourcePages": [
-        {
           "title": "Oven-Controlled Crystal Oscillator",
           "revisionId": 25522
+        },
+        {
+          "title": "Server RAM Module",
+          "revisionId": 25453
         }
       ]
     },
@@ -17899,7 +17812,7 @@
     {
       "name": "vendor_stock",
       "file": "vendor_stock.json",
-      "itemCount": 505,
+      "itemCount": 524,
       "fields": {
         "buy_price": {
           "types": [
@@ -17914,7 +17827,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 505,
+          "presentCount": 524,
           "optional": false,
           "nullable": false,
           "example": "ammo"
@@ -17923,7 +17836,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 505,
+          "presentCount": 524,
           "optional": false,
           "nullable": false,
           "example": "artisan-ammo-222-remington-fmj"
@@ -17932,7 +17845,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 505,
+          "presentCount": 524,
           "optional": false,
           "nullable": false,
           "example": ".222 Remington FMJ"
@@ -17941,7 +17854,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 505,
+          "presentCount": 524,
           "optional": false,
           "nullable": false,
           "example": ".222 Remington FMJ (Artisan)"
@@ -17951,7 +17864,7 @@
             "null",
             "number"
           ],
-          "presentCount": 505,
+          "presentCount": 524,
           "optional": false,
           "nullable": true,
           "example": 1
@@ -17960,7 +17873,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 477,
+          "presentCount": 495,
           "optional": true,
           "nullable": false,
           "example": "Ammunition Round"
@@ -17969,7 +17882,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 505,
+          "presentCount": 524,
           "optional": false,
           "nullable": false,
           "example": "Artisan"

@@ -90,13 +90,8 @@
     },
     "crafting_material": {
       "file": "crafting_material.json",
-      "records": 7,
-      "sha256": "fd7fc2fee5aec66f2206b89fe12a44a7eb89ee284daefedd9dd30b09b85a96ea"
-    },
-    "crating_material": {
-      "file": "crating_material.json",
-      "records": 1,
-      "sha256": "db74140b980389c460fc84e0b4fda27b24ed1fb9be77137b7318390245ebd0a5"
+      "records": 8,
+      "sha256": "a417caace05b7ac59bc8f7193a388f46710bf0d389a2f639088d889e4bc5e888"
     },
     "disassembly_material": {
       "file": "disassembly_material.json",
@@ -485,8 +480,8 @@
     },
     "vendor_stock": {
       "file": "vendor_stock.json",
-      "records": 505,
-      "sha256": "cf2983870c608abc3c3d9c35b3dbfa37e0c1b5b1103ae6e666169e7818f0962e"
+      "records": 524,
+      "sha256": "306eca7952310e68ab2f17d3bca495a6a093efec8b225f3fac52ccd7f87ed54c"
     },
     "vendors": {
       "file": "vendors.json",
