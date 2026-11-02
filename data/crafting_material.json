@@ -1,5 +1,20 @@
 [
   {
+    "name": "Digital Synthesis Engine",
+    "id": "digital-synthesis-engine",
+    "type": "Crafting Material",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "sell_price": "$1,200",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Digital_Synthesis_Engine_inspect.png/revision/latest?cb=20261026212133",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Empty Autoinjector",
     "id": "empty-autoinjector",
     "type": "Crafting Material",
@@ -30,6 +45,21 @@
     }
   },
   {
+    "name": "High-Speed Digital Processor Board",
+    "id": "high-speed-digital-processor-board",
+    "type": "Crafting Material",
+    "weight": "0.100kg",
+    "grid_size": "2x1",
+    "sell_price": "$1,200",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/High-Speed_Digital_Processor_Board_inspect.png/revision/latest/scale-to-width-down/268?cb=20261026212129",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Human Growth Hormone",
     "id": "human-growth-hormone",
     "type": "Crafting Material",
@@ -40,6 +70,21 @@
     "numeric_values": {
       "weight": {
         "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Multi-Bus Converter",
+    "id": "multi-bus-converter",
+    "type": "Crafting Material",
+    "weight": "0.252kg",
+    "grid_size": "1x1",
+    "sell_price": "$600",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/Multi-Bus_Converter_inspect.png/revision/latest?cb=20261102054420",
+    "numeric_values": {
+      "weight": {
+        "value": 0.252,
         "unit": "kg"
       }
     }

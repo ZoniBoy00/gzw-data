@@ -620,6 +620,24 @@
     "buy_price": "$88"
   },
   {
+    "name": "Aimpoint Micro H-2 (Gunny)",
+    "id": "gunny-collimators-aimpoint-micro-h-2",
+    "item": "Aimpoint Micro H-2",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "collimators",
+    "type": "Collimator"
+  },
+  {
+    "name": "Aimpoint Micro T-2 (Banshee)",
+    "id": "banshee-collimators-aimpoint-micro-t-2",
+    "item": "Aimpoint Micro T-2",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator"
+  },
+  {
     "name": "AK 5.45x39mm 30-Round PMAG Magazine (Turncoat)",
     "id": "turncoat-magazines-ak-5-45x39mm-30-round-pmag-magazine",
     "item": "AK 5.45x39mm 30-Round PMAG Magazine",
@@ -3879,15 +3897,6 @@
     "category": "pistol_grips",
     "type": "Pistol Grip",
     "buy_price": "$94"
-  },
-  {
-    "name": "Rush 72 2.0 (Handshake)",
-    "id": "handshake-backpacks-rush-72-2-0",
-    "item": "Rush 72 2.0",
-    "vendor": "Handshake",
-    "rank": 4,
-    "category": "backpacks",
-    "type": "Backpack"
   },
   {
     "name": "RVG (FDE) (Gunny)",

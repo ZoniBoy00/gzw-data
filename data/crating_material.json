@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Oven-Controlled Crystal Oscillator",
+    "id": "oven-controlled-crystal-oscillator",
+    "type": "Crating Material",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "sell_price": "$1,200",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Oven-Controlled_Crystal_Oscillator_inspect.png/revision/latest?cb=20261026212131",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
+  }
+]

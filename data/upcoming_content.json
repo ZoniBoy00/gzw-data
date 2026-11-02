@@ -39,9 +39,10 @@
     "id": "m1050-lrf-rangefinder",
     "type": "Rangefinder",
     "weight": "1.270kg",
-    "grid_size": "???",
     "sold_by": "???",
+    "slots": "1x2",
     "manufacturer": "Safran Group",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/M1050_LRF_View.png/revision/latest/scale-to-width-down/200?cb=20261028021526",
     "numeric_values": {
       "weight": {
         "value": 1.27,
