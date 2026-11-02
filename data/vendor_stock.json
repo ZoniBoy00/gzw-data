@@ -344,6 +344,24 @@
     "type": "Collimator"
   },
   {
+    "name": "6B23-1(Flora) (Turncoat)",
+    "id": "turncoat-vests-6b23-1-flora",
+    "item": "6B23-1(Flora)",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "vests",
+    "type": "Ballistic Vest"
+  },
+  {
+    "name": "6Sh104 (Turncoat)",
+    "id": "turncoat-rigs-6sh104",
+    "item": "6Sh104",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "rigs",
+    "type": "Tactical Rig"
+  },
+  {
     "name": "7.62x25mm FMJ (Artisan)",
     "id": "artisan-ammo-7-62x25mm-fmj",
     "item": "7.62x25mm FMJ",
@@ -618,6 +636,24 @@
     "category": "mounts",
     "type": "Mount",
     "buy_price": "$88"
+  },
+  {
+    "name": "Aimpoint Micro H-2 (Gunny)",
+    "id": "gunny-collimators-aimpoint-micro-h-2",
+    "item": "Aimpoint Micro H-2",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "collimators",
+    "type": "Collimator"
+  },
+  {
+    "name": "Aimpoint Micro T-2 (Banshee)",
+    "id": "banshee-collimators-aimpoint-micro-t-2",
+    "item": "Aimpoint Micro T-2",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "collimators",
+    "type": "Collimator"
   },
   {
     "name": "AK 5.45x39mm 30-Round PMAG Magazine (Turncoat)",
@@ -1291,6 +1327,15 @@
     "type": "Bandage"
   },
   {
+    "name": "ATBV Vest (Turncoat)",
+    "id": "turncoat-vests-atbv-vest",
+    "item": "ATBV Vest",
+    "vendor": "Turncoat",
+    "rank": 2,
+    "category": "vests",
+    "type": "Ballistic Vest"
+  },
+  {
     "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine (Gunny)",
     "id": "gunny-magazines-ati-s60-5-56x45mm-300-blk-60-round-magazine",
     "item": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
@@ -1415,6 +1460,15 @@
     "type": "Pistol"
   },
   {
+    "name": "Biker Chest Rig (Artisan)",
+    "id": "artisan-rigs-biker-chest-rig",
+    "item": "Biker Chest Rig",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "rigs",
+    "type": "Tactical Rig"
+  },
+  {
     "name": "BM-1 AKM Accessory Mount (Artisan)",
     "id": "artisan-mounts-bm-1-akm-accessory-mount",
     "item": "BM-1 AKM Accessory Mount",
@@ -1463,6 +1517,15 @@
     "buy_price": "$150"
   },
   {
+    "name": "CGPC3 TQS (Handshake)",
+    "id": "handshake-plate-carriers-cgpc3-tqs",
+    "item": "CGPC3 TQS",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "plate_carriers",
+    "type": "Plate Carrier"
+  },
+  {
     "name": "Chest Rig 901 Elite 4 (Handshake)",
     "id": "handshake-plate-carriers-chest-rig-901-elite-4",
     "item": "Chest Rig 901 Elite 4",
@@ -1479,6 +1542,24 @@
     "rank": 1,
     "category": "medical",
     "type": "Splint"
+  },
+  {
+    "name": "Civilian Leather Fanny Pack (Artisan)",
+    "id": "artisan-belts-civilian-leather-fanny-pack",
+    "item": "Civilian Leather Fanny Pack",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "belts",
+    "type": "Belt"
+  },
+  {
+    "name": "Civilian Sport Fanny Pack (Artisan)",
+    "id": "artisan-belts-civilian-sport-fanny-pack",
+    "item": "Civilian Sport Fanny Pack",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "belts",
+    "type": "Belt"
   },
   {
     "name": "Civilian Trekstars 70L Backpack (Artisan)",
@@ -1508,9 +1589,27 @@
     "type": "Tourniquet"
   },
   {
+    "name": "Commander (Black) (Handshake)",
+    "id": "handshake-vests-commander-black",
+    "item": "Commander (Black)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "vests",
+    "type": "Armor vest"
+  },
+  {
     "name": "Commander (Navy) (Handshake)",
     "id": "handshake-vests-commander-navy",
     "item": "Commander (Navy)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "vests",
+    "type": "Armor vest"
+  },
+  {
+    "name": "Commander (Olive) (Handshake)",
+    "id": "handshake-vests-commander-olive",
+    "item": "Commander (Olive)",
     "vendor": "Handshake",
     "rank": 1,
     "category": "vests",
@@ -1614,6 +1713,15 @@
     "rank": 2,
     "category": "belts",
     "type": "Belt"
+  },
+  {
+    "name": "CZ VIP (Black) (Handshake)",
+    "id": "handshake-vests-cz-vip-black",
+    "item": "CZ VIP (Black)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "vests",
+    "type": "Ballistic Vest"
   },
   {
     "name": "DBAL-I2 (Banshee)",
@@ -2337,6 +2445,15 @@
     "buy_price": "$105,560"
   },
   {
+    "name": "LCS Sentry (Handshake)",
+    "id": "handshake-plate-carriers-lcs-sentry",
+    "item": "LCS Sentry",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "plate_carriers",
+    "type": "Plate Carrier"
+  },
+  {
     "name": "Leafy Boonie (Camo) (Handshake)",
     "id": "handshake-helmets-leafy-boonie-camo",
     "item": "Leafy Boonie (Camo)",
@@ -2428,6 +2545,15 @@
     "rank": 2,
     "category": "food",
     "type": "Food"
+  },
+  {
+    "name": "LVS Tactical (Multicam) (Handshake)",
+    "id": "handshake-vests-lvs-tactical-multicam",
+    "item": "LVS Tactical (Multicam)",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "vests",
+    "type": "Ballistic Vest"
   },
   {
     "name": "M-LOK Rail - 3 slot (Gunny)",
@@ -3137,6 +3263,15 @@
     "buy_price": "$221"
   },
   {
+    "name": "Molle Vest (Artisan)",
+    "id": "artisan-vests-molle-vest",
+    "item": "Molle Vest",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "vests",
+    "type": "Ballistic Vest"
+  },
+  {
     "name": "Morphine (Lab Rat)",
     "id": "lab-rat-medical-morphine",
     "item": "Morphine",
@@ -3629,6 +3764,15 @@
     "buy_price": "$60,237"
   },
   {
+    "name": "Phantom Type 2 (Turncoat)",
+    "id": "turncoat-plate-carriers-phantom-type-2",
+    "item": "Phantom Type 2",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "plate_carriers",
+    "type": "Plate Carrier"
+  },
+  {
     "name": "Picatinny Dust Cover (Turncoat)",
     "id": "turncoat-upper-receivers-picatinny-dust-cover",
     "item": "Picatinny Dust Cover",
@@ -3657,6 +3801,15 @@
     "category": "collimators",
     "type": "Collimator",
     "buy_price": "$386"
+  },
+  {
+    "name": "Plate6 Plate Carrier (Handshake)",
+    "id": "handshake-plate-carriers-plate6-plate-carrier",
+    "item": "Plate6 Plate Carrier",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "plate_carriers",
+    "type": "Plate Carrier"
   },
   {
     "name": "Potassium Iodide (Lab Rat)",
@@ -4291,6 +4444,14 @@
     "buy_price": "$4,250"
   },
   {
+    "name": "Specter (Handshake)",
+    "id": "handshake-plate-carriers-specter",
+    "item": "Specter",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "plate_carriers"
+  },
+  {
     "name": "SpecterDR 1-4x Assault Scope (Gunny)",
     "id": "gunny-scopes-specterdr-1-4x-assault-scope",
     "item": "SpecterDR 1-4x Assault Scope",
@@ -4441,6 +4602,15 @@
     "buy_price": "$81"
   },
   {
+    "name": "TacTec Chest Rig (Handshake)",
+    "id": "handshake-rigs-tactec-chest-rig",
+    "item": "TacTec Chest Rig",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "rigs",
+    "type": "Tactical Rig"
+  },
+  {
     "name": "Tactical Belt (Handshake)",
     "id": "handshake-belts-tactical-belt",
     "item": "Tactical Belt",
@@ -4552,6 +4722,15 @@
     "rank": 2,
     "category": "foregrips",
     "type": "Foregrip"
+  },
+  {
+    "name": "Universal Chest Bag (Artisan)",
+    "id": "artisan-rigs-universal-chest-bag",
+    "item": "Universal Chest Bag",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "rigs",
+    "type": "Tactical Rig"
   },
   {
     "name": "Viper PST Gen II 5-25x50 Rifle Scope (Banshee)",

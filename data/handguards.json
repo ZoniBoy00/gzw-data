@@ -469,6 +469,25 @@
     }
   },
   {
+    "name": "Benelli M4 Handguard",
+    "id": "benelli-m4-handguard",
+    "type": "Handguard",
+    "weight": "0.022 kg",
+    "manufacturer": "Benelli",
+    "reload_speed": "+3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/M1014_HG_Inspect.png/revision/latest?cb=20261031205028",
+    "numeric_values": {
+      "weight": {
+        "value": 0.022,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
     "name": "CQ A1 Carbine Handguard",
     "id": "cq-a1-carbine-handguard",
     "type": "Handguard",

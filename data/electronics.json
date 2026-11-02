@@ -30,6 +30,21 @@
     }
   },
   {
+    "name": "Encryption Key Drive",
+    "id": "encryption-key-drive",
+    "type": "Tech",
+    "weight": "0.110kg",
+    "grid_size": "1x1",
+    "sell_price": "$9,600",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/54/Encryption_Key_Drive_inspect.png/revision/latest/scale-to-width-down/268?cb=20261031070040",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Expensive Smartphone",
     "id": "expensive-smartphone",
     "type": "Electronics",
@@ -62,6 +77,21 @@
     }
   },
   {
+    "name": "Missile Guidance Circuit",
+    "id": "missile-guidance-circuit",
+    "type": "Electronics",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "sell_price": "$15,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Missile_Guidance_Circuit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183805",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Motorbike Battery",
     "id": "motorbike-battery",
     "type": "Household Item",
@@ -88,6 +118,21 @@
     "numeric_values": {
       "weight": {
         "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "UNLRA Relief Manifest",
+    "id": "unlra-relief-manifest",
+    "type": "Tech",
+    "weight": "0.240kg",
+    "grid_size": "1x1",
+    "sell_price": "$6,400",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/UNLRA_Relief_Manifest_inspect.png/revision/latest?cb=20261102054525",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
         "unit": "kg"
       }
     }

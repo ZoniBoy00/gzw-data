@@ -36,9 +36,26 @@
     "weight": "8.000kg",
     "grid_size": "3x2",
     "sell_price": "$15,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Last_Line_Defense_Container_inspect.png/revision/latest/scale-to-width-down/268?cb=20261028195624",
     "numeric_values": {
       "weight": {
         "value": 8.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Manpack Tactical Radio",
+    "id": "manpack-tactical-radio",
+    "type": "Disassembly Material",
+    "weight": "4.980kg",
+    "grid_size": "2x3",
+    "manufacturer": "General Local",
+    "sell_price": "$3,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/Manpack_Tactical_Radio_inspect.png/revision/latest/scale-to-width-down/268?cb=20261028195627",
+    "numeric_values": {
+      "weight": {
+        "value": 4.98,
         "unit": "kg"
       }
     }

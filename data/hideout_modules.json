@@ -17,9 +17,13 @@
       {
         "name": "Circuit Board",
         "quantity": 1
+      },
+      {
+        "name": "Complex Glass Electrode",
+        "quantity": 1
       }
     ],
-    "requirements_text": "2 Plastics, 1 Electrical Parts, 1 Circuit Board",
+    "requirements_text": "2 Plastics, 1 Electrical Parts, 1 Circuit Board, 1 Complex Glass Electrode",
     "function": "+ x Analysis & Precision"
   },
   {
@@ -325,14 +329,14 @@
       },
       {
         "name": "RAM",
-        "quantity": 1
+        "quantity": 3
       },
       {
         "name": "Power Supply",
         "quantity": 1
       }
     ],
-    "requirements_text": "1 Motherboard, 1 Graphics Card, 1 CPU, 2 Plumbing Parts, 1 RAM, 1 Power Supply",
+    "requirements_text": "1 Motherboard, 1 Graphics Card, 1 CPU, 2 Plumbing Parts, 3 RAM, 1 Power Supply",
     "function": "+ x Compute Capacity"
   },
   {
@@ -490,6 +494,10 @@
         "quantity": 3
       },
       {
+        "name": "Mechanical Parts",
+        "quantity": 2
+      },
+      {
         "name": "Electrical Parts",
         "quantity": 1
       },
@@ -502,7 +510,7 @@
         "quantity": 1
       }
     ],
-    "requirements_text": "3 Steel, 1 Electrical Parts, 1 Tooling Coolant, 1 CNC Drill Bits",
+    "requirements_text": "3 Steel, 2 Mechanical Parts, 1 Electrical Parts, 1 Tooling Coolant, 1 CNC Drill Bits",
     "function": "+ 2 Mechanical Engineering"
   },
   {
@@ -529,11 +537,11 @@
         "quantity": 1
       },
       {
-        "name": "Woods",
+        "name": "Wood",
         "quantity": 1
       }
     ],
-    "requirements_text": "1 Soldering Iron, 1 Multimeter, 1 Toolset, 1 Power Supply, 1 Woods",
+    "requirements_text": "1 Soldering Iron, 1 Multimeter, 1 Toolset, 1 Power Supply, 1 Wood",
     "function": "+ 1 Electronics Capability"
   },
   {
@@ -591,6 +599,10 @@
         "quantity": 1
       },
       {
+        "name": "Oscilloscope",
+        "quantity": 1
+      },
+      {
         "name": "Electrical Parts",
         "quantity": 5
       },
@@ -599,7 +611,7 @@
         "quantity": 35000
       }
     ],
-    "requirements_text": "1 Microscope, 1 Multimeter, 2 Circuit Board, 1 Power Supply, 5 Electrical Parts, 35000 Dollars",
+    "requirements_text": "1 Microscope, 1 Multimeter, 2 Circuit Board, 1 Power Supply, 1 Oscilloscope, 5 Electrical Parts, 35000 Dollars",
     "function": "+ 3 Electronics Capability"
   },
   {
@@ -753,7 +765,7 @@
     "level": 1,
     "requirements": [
       {
-        "name": "Mechanical Parts",
+        "name": "Electrical Parts",
         "quantity": 2
       },
       {
@@ -765,7 +777,7 @@
         "quantity": 2
       }
     ],
-    "requirements_text": "2 Mechanical Parts, 2 Plastics, 2 PC Fan",
+    "requirements_text": "2 Electrical Parts, 2 Plastics, 2 PC Fan",
     "function": "+ x Safety"
   },
   {
@@ -962,10 +974,10 @@
       },
       {
         "name": "Dollars",
-        "quantity": 45000
+        "quantity": 30000
       }
     ],
-    "requirements_text": "12 Steel, 6 Mechanical Parts, 4 Stainless Steel Sheet, 45000 Dollars",
+    "requirements_text": "12 Steel, 6 Mechanical Parts, 4 Stainless Steel Sheet, 30000 Dollars",
     "function": "+ 2 Storage Capacity"
   },
   {

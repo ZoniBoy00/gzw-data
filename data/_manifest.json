@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-10-26T13:24:38.884600Z",
+  "generatedAt": "2026-11-02T16:13:19.581396Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -21,7 +21,7 @@
     "backpacks": {
       "file": "backpacks.json",
       "records": 18,
-      "sha256": "255bbf3d69b6921c48d73cc11ed25a6dd30cbed79ac516abada949a52f59484f"
+      "sha256": "2216e2d5fe8214150bb5c86b091cbc132adef1d3f22bacd2cbdd85a3bafbd1e6"
     },
     "barrels": {
       "file": "barrels.json",
@@ -36,7 +36,7 @@
     "binoculars": {
       "file": "binoculars.json",
       "records": 4,
-      "sha256": "8950671e0dc388b574337946481d646032d6bd1b5ba18576721a9147604cc283"
+      "sha256": "3b240b2880e29268e64af4b8f4fffe01dba358096646ee8eac761ef33ff5232a"
     },
     "boots": {
       "file": "boots.json",
@@ -71,7 +71,7 @@
     "collimators": {
       "file": "collimators.json",
       "records": 20,
-      "sha256": "9df767ba79d280f9fa42ad011e1de2ff9218fb322be04b1f2b8fdc8e25e1b950"
+      "sha256": "a462ba4bd3e7b64ecd1d884b515c65eb025d136603a40b80f0d7c88163c1e5bd"
     },
     "containers": {
       "file": "containers.json",
@@ -90,13 +90,13 @@
     },
     "crafting_material": {
       "file": "crafting_material.json",
-      "records": 4,
-      "sha256": "ad5a9b1e64bcae1f18d13c0500eec2eeec319e5c6261b31f144fcbee7e7a9dfe"
+      "records": 8,
+      "sha256": "a417caace05b7ac59bc8f7193a388f46710bf0d389a2f639088d889e4bc5e888"
     },
     "disassembly_material": {
       "file": "disassembly_material.json",
-      "records": 6,
-      "sha256": "b8a6c1efa3a3dfd8b8ea1767c4abbfd677a256f42b6eef2eefb36b88382f3a78"
+      "records": 7,
+      "sha256": "40c3c965719a3472ceac47a99e75228af4e0a3b6501cc4666e6e396dfa35ad97"
     },
     "disassembly_recipes": {
       "file": "disassembly_recipes.json",
@@ -110,8 +110,8 @@
     },
     "electronics": {
       "file": "electronics.json",
-      "records": 6,
-      "sha256": "4a458209674cb2fcf1d5a5db3953fffff8c787dbd6b6ef428ebed301e4186c4e"
+      "records": 9,
+      "sha256": "545206c1a7c8bf79f9019a71150ee593e77fd470b9664e4e013ce4d628745299"
     },
     "evidence": {
       "file": "evidence.json",
@@ -136,7 +136,7 @@
     "factions": {
       "file": "factions.json",
       "records": 6,
-      "sha256": "18ecb75d0c49c6804ae13d9478377883b9a7364734f88ddb11fbf3ffa05b747b"
+      "sha256": "ca96c12421343a00035ebe6f6ecf043e457e1fed216d08fd407a32ae2c93fcc0"
     },
     "food": {
       "file": "food.json",
@@ -171,7 +171,7 @@
     "gear": {
       "file": "gear.json",
       "records": 26,
-      "sha256": "5c61818de6980d1b005d7a964a24c921d208506aa65a2c7e19fa6194cc844959"
+      "sha256": "da237dbb193431f2837b200c4d8d7ea7d2de5de6c94b6b9cfdfebd8dabe775ca"
     },
     "glasses": {
       "file": "glasses.json",
@@ -185,8 +185,8 @@
     },
     "handguards": {
       "file": "handguards.json",
-      "records": 56,
-      "sha256": "90a15eee1debb7f168d70af7f7341d99fde79b4011335a722e23fa59a427e2cd"
+      "records": 57,
+      "sha256": "1aaa3690fc63fa7769aa715767173119acbe70e54b7e860a716d62d227e4d9fe"
     },
     "headsets": {
       "file": "headsets.json",
@@ -211,12 +211,12 @@
     "hideout": {
       "file": "hideout.json",
       "records": 1,
-      "sha256": "20ba1739f16bfe8e16f44f9e52d3a1c3f0004005a330d017ef57699601edd208"
+      "sha256": "c8dd4d4b8cc499a3cd95c70a23c814a6d73ca88d5910cb1735eab53f7e90321c"
     },
     "hideout_modules": {
       "file": "hideout_modules.json",
       "records": 36,
-      "sha256": "2bc3a1cc917786554dd53a47bbd1874896f1e8b5828298e36b348d492ade24c0"
+      "sha256": "3d3700e1215824c95d3e7aa74a23247b31020e440f89eed3f7e94044f54b243c"
     },
     "household_item": {
       "file": "household_item.json",
@@ -441,7 +441,7 @@
     "tasks": {
       "file": "tasks.json",
       "records": 254,
-      "sha256": "cba4f7f495a95f7e3ecfb744506c22d5459c3fdf027b226f640873d678cd10fd"
+      "sha256": "639435e1f3bf494e94de5b8aa633af8c00611eb2ed1094c47aede4e6db6eaf11"
     },
     "throwables": {
       "file": "throwables.json",
@@ -460,13 +460,13 @@
     },
     "uncategorized": {
       "file": "uncategorized.json",
-      "records": 65,
-      "sha256": "44a2a7f539f293f09e889ab5f1c3095cf00ef014281f300b46857e93aa8a8395"
+      "records": 58,
+      "sha256": "9c40cc716f6fb035e54f56701b7a900330535a8c2e7cf7e09c46e8cf1e8cfaa5"
     },
     "upcoming_content": {
       "file": "upcoming_content.json",
       "records": 12,
-      "sha256": "39b83c98ea643482ec76ee2f7587ec9c5dbd59ec68ed076bb4e6b9c9ecf2b609"
+      "sha256": "4b02a4b5fbf3bea5ec52a8f9757b25c73418bc63f2266164e435d80f35103932"
     },
     "upper_receivers": {
       "file": "upper_receivers.json",
@@ -480,8 +480,8 @@
     },
     "vendor_stock": {
       "file": "vendor_stock.json",
-      "records": 504,
-      "sha256": "4755870b599e1b971ee8a79e4ab690a8655a15447b96bcb0ef1d4c713c44cea1"
+      "records": 524,
+      "sha256": "306eca7952310e68ab2f17d3bca495a6a093efec8b225f3fac52ccd7f87ed54c"
     },
     "vendors": {
       "file": "vendors.json",

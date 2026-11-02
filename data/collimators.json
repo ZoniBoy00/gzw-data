@@ -66,7 +66,7 @@
     "id": "aimpoint-micro-h-2",
     "type": "Collimator",
     "weight": "0.093 kg",
-    "sold_by": "Loot only",
+    "sold_by": "Gunny R3",
     "manufacturer": "Aimpoint",
     "magnification": "1x",
     "sighting_range": "300m",
@@ -86,12 +86,21 @@
     "name": "Aimpoint Micro T-2",
     "id": "aimpoint-micro-t-2",
     "type": "Collimator",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "weapon_handling": "??? %",
-    "magnification": "???x",
-    "sighting_range": "???m"
+    "weight": "0.084 kg",
+    "sold_by": "Banshee R2",
+    "manufacturer": "Aimpoint",
+    "magnification": "1x",
+    "sighting_range": "300m",
+    "numeric_values": {
+      "weight": {
+        "value": 0.084,
+        "unit": "kg"
+      },
+      "sighting_range": {
+        "value": 300.0,
+        "unit": "m"
+      }
+    }
   },
   {
     "name": "HS507C X2 Reflex Sight",

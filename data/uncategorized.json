@@ -54,19 +54,12 @@
   },
   {
     "name": "Deep-Space Observation Data Drive",
-    "id": "deep-space-observation-data-drive"
-  },
-  {
-    "name": "Digital Synthesis Engine",
-    "id": "digital-synthesis-engine"
+    "id": "deep-space-observation-data-drive",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Deep-Space_Observation_Data_Drive_inspect.png/revision/latest?cb=20261028195051"
   },
   {
     "name": "Edetate Disodium",
     "id": "edetate-disodium"
-  },
-  {
-    "name": "Encryption Key Drive",
-    "id": "encryption-key-drive"
   },
   {
     "name": "Ether",
@@ -99,10 +92,6 @@
   {
     "name": "High-Quality Morphine Base",
     "id": "high-quality-morphine-base"
-  },
-  {
-    "name": "High-Speed Digital Processor Board",
-    "id": "high-speed-digital-processor-board"
   },
   {
     "name": "Hydrochloric Acid",
@@ -141,20 +130,12 @@
     "id": "low-quality-morphine-base"
   },
   {
-    "name": "Manpack Tactical Radio",
-    "id": "manpack-tactical-radio"
-  },
-  {
     "name": "Methylene Blue",
     "id": "methylene-blue"
   },
   {
     "name": "Methylparaben",
     "id": "methylparaben"
-  },
-  {
-    "name": "Multi-Bus Converter",
-    "id": "multi-bus-converter"
   },
   {
     "name": "Nerve Gas Canister",
@@ -166,11 +147,8 @@
   },
   {
     "name": "Oscilloscope",
-    "id": "oscilloscope"
-  },
-  {
-    "name": "Oven-Controlled Crystal Oscillator",
-    "id": "oven-controlled-crystal-oscillator"
+    "id": "oscilloscope",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/Oscilloscope_inspect.png/revision/latest/scale-to-width-down/268?cb=20261028195631"
   },
   {
     "name": "Plutonium Canister",
@@ -235,15 +213,13 @@
   },
   {
     "name": "UNLRA Field Terminal",
-    "id": "unlra-field-terminal"
-  },
-  {
-    "name": "UNLRA Relief Manifest",
-    "id": "unlra-relief-manifest"
+    "id": "unlra-field-terminal",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/UNLRA_Field_Terminal_inspect.png/revision/latest?cb=20261028195902"
   },
   {
     "name": "Uplink Credentials Drive",
-    "id": "uplink-credentials-drive"
+    "id": "uplink-credentials-drive",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Uplink_Credentials_Drive_inspect.png/revision/latest?cb=20261028195049"
   },
   {
     "name": "USP Morphine Sulfate",
