@@ -28,6 +28,9 @@
     "vercel"
   ],
   "license": "MIT",
+  "overrides": {
+    "minimatch": "^11.0.1"
+  },
   "devDependencies": {
     "@playwright/test": "1.64.1",
     "ajv": "8.20.0",
