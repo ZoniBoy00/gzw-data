@@ -366,6 +366,22 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
 .plain .footer { margin-top: 40px; }
 
 @media (max-width: 1180px) { .shell { grid-template-columns: var(--sidebar) minmax(0, 1fr); } .toc { display: none; } }
+/* Medium screens: keep the whole top bar on one line (no wrapping labels, no horizontal scroll). */
+.tabs a, .icon-link, .brand { white-space: nowrap; }
+@media (max-width: 1180px) {
+  .topbar { gap: 14px; padding: 0 14px; }
+  .tabs a { padding: 0 10px; }
+  .tabs a::after { left: 10px; right: 10px; }
+  .top-right { gap: 10px; }
+  .search-btn { width: 190px; }
+  .search-btn kbd { display: none; }
+  .status [data-status] { min-width: 0; }
+}
+@media (max-width: 1040px) {
+  .search-btn .stext { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+  .search-btn { width: 40px; justify-content: center; padding: 6px; }
+  .status [data-status] { display: none; }
+}
 @media (max-width: 860px) {
   .tabs, .status, .icon-link { display: none; }
   .search-btn .stext, .search-btn kbd { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
