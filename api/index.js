@@ -478,10 +478,7 @@ function handleRoute(route, params, res, rateInfo) {
     for (const [key, info] of Object.entries(registry)) {
       stats[key] = { total: info.count };
     }
-    for (const [name, def] of Object.entries(SMART_ROUTES)) {
-      const items = getSmartData(name, asArray);
-      if (items) stats[name] = { total: items.length, sources: def.sources };
-    }
+    // Smart routes are combined views over these datasets, so counting them would double-count records.
     return json(res, stats, 200, { lastScrapedAt: getLastScrapedAt() });
   }
 
