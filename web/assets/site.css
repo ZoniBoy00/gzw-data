@@ -81,7 +81,7 @@ main:focus { outline: none; }
 }
 
 /* Top bar */
-.topbar { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; gap: 22px; height: var(--topbar); padding: 0 20px; background: var(--topbar-bg); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); view-transition-name: topbar; }
+.topbar { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; gap: 22px; height: var(--topbar); padding: 0 20px; background: var(--topbar-bg); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
 .brand { display: flex; align-items: center; gap: 10px; color: var(--text); font: 700 21px/1 var(--display); letter-spacing: 0.03em; text-decoration: none; }
 .brand:hover { text-decoration: none; }
 .brand img { width: 32px; height: 30px; object-fit: contain; }
@@ -114,7 +114,7 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
 
 /* Shell */
 .shell { display: grid; grid-template-columns: var(--sidebar) minmax(0, 1fr) var(--toc); max-width: 1500px; margin: 0 auto; }
-.sidebar { position: sticky; top: var(--topbar); align-self: start; height: calc(100vh - var(--topbar)); overflow-y: auto; padding: 28px 14px 48px 20px; border-right: 1px solid var(--line); view-transition-name: sidebar; scrollbar-width: thin; }
+.sidebar { position: sticky; top: var(--topbar); align-self: start; height: calc(100vh - var(--topbar)); overflow-y: auto; padding: 28px 14px 48px 20px; border-right: 1px solid var(--line); scrollbar-width: thin; }
 .nav-group + .nav-group { margin-top: 26px; }
 .nav-title { margin: 0 0 6px 12px; font: 600 17px/1.3 var(--display); letter-spacing: 0.02em; color: var(--text); }
 .nav-group ul { list-style: none; margin: 0; padding: 0 0 0 12px; border-left: 1px solid var(--line); }
@@ -124,7 +124,7 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
 .nav-group a .ext { margin-left: auto; opacity: 0.6; transition: transform 0.2s var(--ease), opacity 0.2s; }
 .nav-group a:hover .ext { transform: translate(2px, -2px); opacity: 1; }
 
-.main { min-width: 0; padding: 34px 52px 88px; view-transition-name: content; }
+.main { min-width: 0; padding: 34px 52px 88px; }
 .crumbs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; font-size: 14px; color: var(--muted); }
 .crumbs a { color: var(--muted); }
 .crumbs span[aria-hidden] { opacity: 0.5; }
@@ -265,7 +265,7 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
 .pager small { display: block; color: var(--muted); font-size: 14px; }
 .pager strong { font: 700 20px var(--display); color: var(--accent-text); }
 .edit { margin-top: 28px; font-size: 14px; }
-.toc { position: sticky; top: var(--topbar); align-self: start; max-height: calc(100vh - var(--topbar)); overflow-y: auto; padding: 34px 20px 40px 8px; font-size: 14px; view-transition-name: toc; }
+.toc { position: sticky; top: var(--topbar); align-self: start; max-height: calc(100vh - var(--topbar)); overflow-y: auto; padding: 34px 20px 40px 8px; font-size: 14px; }
 .toc-title { margin: 0 0 10px; font: 700 17px var(--display); letter-spacing: 0.02em; }
 .toc-links { position: relative; }
 .toc-links::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: var(--line); }
@@ -297,11 +297,7 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
 .palette-empty { padding: 16px; color: var(--muted); }
 .scrim { display: none; }
 
-/* Page-to-page transitions: chrome stays put, content crossfades */
-@view-transition { navigation: auto; }
-/* Content swaps instantly: any fade shows old and new text overlapping. The browser keeps the old page on screen until the new one is ready. */
-::view-transition-old(content), ::view-transition-new(content) { animation: none; }
-::view-transition-group(topbar), ::view-transition-group(sidebar), ::view-transition-group(toc) { animation-duration: 0s; }
+/* Page-to-page navigation is a plain swap: the .main area has no background, so any view transition shows old and new text through each other. */
 
 .table-wrap { overflow-x: auto; margin: 18px 0; }
 .table-wrap table { margin: 0; }
@@ -381,7 +377,7 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
 .theme-anim, .theme-anim *, .theme-anim *::before, .theme-anim *::after { transition: background-color 0.3s, color 0.3s, border-color 0.3s !important; }
 .menu-btn { display: block; }
   .shell { display: block; }
-  .sidebar { position: fixed; z-index: 70; left: 0; top: var(--topbar); width: min(310px, 88vw); background: var(--bg); transform: translateX(-100%); visibility: hidden; transition: transform 0.3s var(--ease), visibility 0s 0.3s; view-transition-name: none; }
+  .sidebar { position: fixed; z-index: 70; left: 0; top: var(--topbar); width: min(310px, 88vw); background: var(--bg); transform: translateX(-100%); visibility: hidden; transition: transform 0.3s var(--ease), visibility 0s 0.3s; }
   .sidebar.open { transform: none; visibility: visible; transition-delay: 0s; }
   .scrim.open { display: block; position: fixed; inset: 0; z-index: 60; background: var(--scrim); animation: fade 0.2s ease-out; }
   .main { padding: 24px 16px 64px; }
@@ -399,5 +395,4 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
   .progress { display: none; }
   .hero::before, .nf::before { animation: none; }
-  @view-transition { navigation: none; }
 }
