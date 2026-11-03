@@ -107,6 +107,24 @@
     "objectives": "Recon the house Recon the roadside shelter"
   },
   {
+    "name": "Controlled Delivery",
+    "id": "controlled-delivery",
+    "vendor": "Banshee",
+    "location": "Blue Lagoon Region",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
+    "objectives": "Plant a GPS Tracker on a drug shipment"
+  },
+  {
+    "name": "Controlled Delivery II",
+    "id": "controlled-delivery-ii",
+    "vendor": "Banshee",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
+    "objectives": "Plant a GPS Tracker on a drug shipment"
+  },
+  {
     "name": "Deep Waters",
     "id": "deep-waters",
     "vendor": "Artisan",

@@ -18,8 +18,9 @@
     "id": "acumulator-drill",
     "grid_size": "2x2",
     "weight": "???kg",
-    "sell_price": "$???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Acumulator_Drill_icon.png/revision/latest?cb=20260420114742"
+    "sell_price": "$249",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Acumulator_Drill_icon.png/revision/latest?cb=20260420114742",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Allanach Single Malt Scotch - 40y",
@@ -1299,6 +1300,8 @@
     "weight": "0.120 kg",
     "trader": "Handshake LL1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Pro_Multitool_icon.png/revision/latest?cb=20250128181319",
+    "sell_price": "$50",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.12,

@@ -1,12 +1,12 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-11-02T16:13:19.581396Z",
+  "generatedAt": "2026-11-03T21:05:01.517960Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
       "file": "ammo.json",
       "records": 79,
-      "sha256": "6681cdd8f20d84ea3993b3120cf05930b45777d9b0b575760fdf116b051dc63e"
+      "sha256": "405a7c7b79aad79d87d6b94767b9bbafc2138df25525601f2dc2edaa7952eaa8"
     },
     "apparel_items": {
       "file": "apparel_items.json",
@@ -66,7 +66,7 @@
     "cleanup": {
       "file": "cleanup.json",
       "records": 4,
-      "sha256": "0a70ce005101520673d6d132d080eabab3235fc21880a367e2353453fe2f809d"
+      "sha256": "c32f1f72b1b3c42830f94018476a2ff10196f62365ab26ed1dd0746d49a200d3"
     },
     "collimators": {
       "file": "collimators.json",
@@ -80,8 +80,8 @@
     },
     "contract": {
       "file": "contract.json",
-      "records": 29,
-      "sha256": "143bdc33b95b600b208e521172b9e888f430aa3e3952dbb77f55f92018e4eaa4"
+      "records": 31,
+      "sha256": "73f73e43e41c5cad58c61c11c4d615d5372462e27ff0ed029e72c04d77c63fea"
     },
     "contracts": {
       "file": "contracts.json",
@@ -101,12 +101,12 @@
     "disassembly_recipes": {
       "file": "disassembly_recipes.json",
       "records": 15,
-      "sha256": "b1128936e0fc4c9812eaf451ef6f5c275b3ff7ce5775778f15042aa02c23d96a"
+      "sha256": "3f21cad63db8844ece396551cf3a059d149ede159600c829850be6db45b6c327"
     },
     "drinks": {
       "file": "drinks.json",
       "records": 18,
-      "sha256": "af704aa3d97f28d524924f289c3f2266072ccbd240fb18b8d79dff2381042246"
+      "sha256": "2e9a91a58cada35c28ef0c116b7742dfff2718dd303a0bb0946510800461c1bd"
     },
     "electronics": {
       "file": "electronics.json",
@@ -136,12 +136,12 @@
     "factions": {
       "file": "factions.json",
       "records": 6,
-      "sha256": "ca96c12421343a00035ebe6f6ecf043e457e1fed216d08fd407a32ae2c93fcc0"
+      "sha256": "51754c941547fedc40d2e89ccc13202956a95059fa1eb91e46d332a3fef938c2"
     },
     "food": {
       "file": "food.json",
       "records": 19,
-      "sha256": "1812edfaedc5a4afa07530ed120d1ab44940218cab337f796c66e0f2cd65d02e"
+      "sha256": "f8d97c2624efcc73031101529dd0669dbc920abbcab41616ce4dbd064bea0113"
     },
     "foregrips": {
       "file": "foregrips.json",
@@ -241,12 +241,12 @@
     "keycards": {
       "file": "keycards.json",
       "records": 8,
-      "sha256": "13e49af1dfce36ede7584390f8e67bc251fe693b053ba2355f7515d9835ad4ee"
+      "sha256": "e28b3fd114840b262936d8403c0e8d905e97d03eaf8082fd540352fcb99b20a2"
     },
     "keys": {
       "file": "keys.json",
       "records": 126,
-      "sha256": "96f837232d72a0257a7086a37cdf938b47d19c317f0f3cfea0923b54f6f594c2"
+      "sha256": "cb838ded5264f06e5e94f9fb285aeab5b953db549c845495a4dcd83829dd0b51"
     },
     "laboratory_supplies": {
       "file": "laboratory_supplies.json",
@@ -271,7 +271,7 @@
     "loot_items": {
       "file": "loot_items.json",
       "records": 120,
-      "sha256": "85ca33e8cf2e80109940c5b401d0a7d958f84875291fdbd2230902db658aeb77"
+      "sha256": "6433ee5989ac0614aaed79f5553b7bb8302381d1f3e1dbced38fe39db58448de"
     },
     "magazines": {
       "file": "magazines.json",
@@ -286,7 +286,7 @@
     "medical": {
       "file": "medical.json",
       "records": 35,
-      "sha256": "b76aa67f04042bce1ce1e7511e1b038e28ec689d0c7de4dc1f87e4ee69ca6ad0"
+      "sha256": "54ed870bcc2dfeef3e5ab0f4743a59135995eb4fb5dfc3a0f3ab8844ddf912bd"
     },
     "military_equipment": {
       "file": "military_equipment.json",
@@ -346,7 +346,7 @@
     "provisions": {
       "file": "provisions.json",
       "records": 37,
-      "sha256": "c7d84c1ca97e9dbc29c7132c2f97ba2350fd43f9f0ef2810d93435b9832c496a"
+      "sha256": "5a95eed7ecd6336344257ce351de3de861e3578300369a260f5da71129bd37ee"
     },
     "reading_intel": {
       "file": "reading_intel.json",
@@ -451,7 +451,7 @@
     "tools": {
       "file": "tools.json",
       "records": 8,
-      "sha256": "26b9370656d363089c64f37906e155976b06869eac65f42e0c6917f29d211e9e"
+      "sha256": "452fda80ee4913210e3dd7dba696f4e96ba37b0022f1004b2aa78d2f12520d3d"
     },
     "trousers": {
       "file": "trousers.json",
@@ -461,7 +461,7 @@
     "uncategorized": {
       "file": "uncategorized.json",
       "records": 58,
-      "sha256": "9c40cc716f6fb035e54f56701b7a900330535a8c2e7cf7e09c46e8cf1e8cfaa5"
+      "sha256": "ce4091b9f04c52a7d66ca5d573d75fe58f5ba95bf17788e8453ae74932b85324"
     },
     "upcoming_content": {
       "file": "upcoming_content.json",

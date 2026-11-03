@@ -16,7 +16,9 @@
       "Flight Data Drive",
       "Avionics Processor Board"
     ],
-    "outcome_text": "Flight Data Drive, Avionics Processor Board"
+    "outcome_text": "Flight Data Drive, Avionics Processor Board",
+    "sell_price": "$3,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Chemical Containment Container",
@@ -44,7 +46,9 @@
       "Electronic Warfare Configuration Drive",
       "Digital Synthesis Engine"
     ],
-    "outcome_text": "Electronic Warfare Configuration Drive, Digital Synthesis Engine"
+    "outcome_text": "Electronic Warfare Configuration Drive, Digital Synthesis Engine",
+    "sell_price": "$4,500",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Drone Interceptor",
@@ -53,7 +57,9 @@
     "outcome": [
       "AI Targeting Module"
     ],
-    "outcome_text": "AI Targeting Module"
+    "outcome_text": "AI Targeting Module",
+    "sell_price": "$10,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "IMSI Catcher",
@@ -63,7 +69,9 @@
       "Incriminating Phone Logs",
       "Spoofing ASIC Module"
     ],
-    "outcome_text": "Incriminating Phone Logs, Spoofing ASIC Module"
+    "outcome_text": "Incriminating Phone Logs, Spoofing ASIC Module",
+    "sell_price": "$1,500",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Last Line Defense Container",
@@ -82,7 +90,9 @@
       "Encryption Key Drive",
       "FPGA Module"
     ],
-    "outcome_text": "Encryption Key Drive, FPGA Module"
+    "outcome_text": "Encryption Key Drive, FPGA Module",
+    "sell_price": "$3,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Missile Seeker Head",
@@ -101,7 +111,9 @@
       "Uplink Credentials Drive",
       "Oven-Controlled Crystal Oscillator"
     ],
-    "outcome_text": "Uplink Credentials Drive, Oven-Controlled Crystal Oscillator"
+    "outcome_text": "Uplink Credentials Drive, Oven-Controlled Crystal Oscillator",
+    "sell_price": "$4,500",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Radar Signal Processor",
@@ -111,7 +123,9 @@
       "Deep-Space Observation Data Drive",
       "High-Speed Digital Processor Board"
     ],
-    "outcome_text": "Deep-Space Observation Data Drive, High-Speed Digital Processor Board"
+    "outcome_text": "Deep-Space Observation Data Drive, High-Speed Digital Processor Board",
+    "sell_price": "$4.5",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Radioisotope Fuel Cell",
@@ -130,7 +144,9 @@
       "Incriminating Data Drive",
       "Server RAM Module"
     ],
-    "outcome_text": "Incriminating Data Drive, Server RAM Module"
+    "outcome_text": "Incriminating Data Drive, Server RAM Module",
+    "sell_price": "$3,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "UNLRA Field Terminal",

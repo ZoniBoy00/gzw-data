@@ -2,19 +2,27 @@
   {
     "name": "10% Morphine Solution",
     "id": "10%-morphine-solution",
-    "grid_size": "2x2"
+    "grid_size": "2x2",
+    "sell_price": "$4,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Acetic Anhydride",
-    "id": "acetic-anhydride"
+    "id": "acetic-anhydride",
+    "sell_price": "$75",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Ammonium Chloride",
-    "id": "ammonium-chloride"
+    "id": "ammonium-chloride",
+    "sell_price": "$45",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Aniline",
-    "id": "aniline"
+    "id": "aniline",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Artillery Ballistic Calculator",
@@ -22,7 +30,9 @@
   },
   {
     "name": "Avionics Processor Board",
-    "id": "avionics-processor-board"
+    "id": "avionics-processor-board",
+    "sell_price": "$900",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Biohazard Canister",
@@ -30,11 +40,15 @@
   },
   {
     "name": "Bone Density Stimulant",
-    "id": "bone-density-stimulant"
+    "id": "bone-density-stimulant",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Bromopyridine",
-    "id": "bromopyridine"
+    "id": "bromopyridine",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Chemical Containment Container",
@@ -46,16 +60,22 @@
   },
   {
     "name": "Chemicals",
-    "id": "chemicals"
+    "id": "chemicals",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "CPU Card",
-    "id": "cpu-card"
+    "id": "cpu-card",
+    "sell_price": "$600",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Deep-Space Observation Data Drive",
     "id": "deep-space-observation-data-drive",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Deep-Space_Observation_Data_Drive_inspect.png/revision/latest?cb=20261028195051"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Deep-Space_Observation_Data_Drive_inspect.png/revision/latest?cb=20261028195051",
+    "sell_price": "$12,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Edetate Disodium",
@@ -63,23 +83,33 @@
   },
   {
     "name": "Ether",
-    "id": "ether"
+    "id": "ether",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Ethyl Alcohol",
-    "id": "ethyl-alcohol"
+    "id": "ethyl-alcohol",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Flight Data Drive",
-    "id": "flight-data-drive"
+    "id": "flight-data-drive",
+    "sell_price": "$9,600",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Glucose",
-    "id": "glucose"
+    "id": "glucose",
+    "sell_price": "$15",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Gray Heroin",
-    "id": "gray-heroin"
+    "id": "gray-heroin",
+    "sell_price": "$7,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Healing Agent",
@@ -87,19 +117,27 @@
   },
   {
     "name": "HEPA Filter",
-    "id": "hepa-filter"
+    "id": "hepa-filter",
+    "sell_price": "$150",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "High-Quality Morphine Base",
-    "id": "high-quality-morphine-base"
+    "id": "high-quality-morphine-base",
+    "sell_price": "$3,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Hydrochloric Acid",
-    "id": "hydrochloric-acid"
+    "id": "hydrochloric-acid",
+    "sell_price": "$150",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "IMSI Catcher",
-    "id": "imsi-catcher"
+    "id": "imsi-catcher",
+    "sell_price": "$1,500",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Incriminating Data Drive",
@@ -107,11 +145,15 @@
   },
   {
     "name": "Incriminating Phone Logs",
-    "id": "incriminating-phone-logs"
+    "id": "incriminating-phone-logs",
+    "sell_price": "$6,400",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Iron Sucrose",
-    "id": "iron-sucrose"
+    "id": "iron-sucrose",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "LAF Artillery Data Logs",
@@ -119,7 +161,9 @@
   },
   {
     "name": "Laser Tube",
-    "id": "laser-tube"
+    "id": "laser-tube",
+    "sell_price": "$150",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Lead",
@@ -127,15 +171,21 @@
   },
   {
     "name": "Low-Quality Morphine Base",
-    "id": "low-quality-morphine-base"
+    "id": "low-quality-morphine-base",
+    "sell_price": "$2,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Methylene Blue",
-    "id": "methylene-blue"
+    "id": "methylene-blue",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Methylparaben",
-    "id": "methylparaben"
+    "id": "methylparaben",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Nerve Gas Canister",
@@ -148,7 +198,9 @@
   {
     "name": "Oscilloscope",
     "id": "oscilloscope",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/Oscilloscope_inspect.png/revision/latest/scale-to-width-down/268?cb=20261028195631"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/Oscilloscope_inspect.png/revision/latest/scale-to-width-down/268?cb=20261028195631",
+    "sell_price": "$150",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Plutonium Canister",
@@ -164,7 +216,9 @@
   },
   {
     "name": "RAM",
-    "id": "ram"
+    "id": "ram",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Red Blood Cell Growth Accelerator",
@@ -172,15 +226,21 @@
   },
   {
     "name": "Saline",
-    "id": "saline"
+    "id": "saline",
+    "sell_price": "$15",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Sarin Canister",
-    "id": "sarin-canister"
+    "id": "sarin-canister",
+    "sell_price": "$12,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Sodium Carbonate",
-    "id": "sodium-carbonate"
+    "id": "sodium-carbonate",
+    "sell_price": "$36",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Sodium Citrate",
@@ -188,12 +248,16 @@
   },
   {
     "name": "Spoofing ASIC Module",
-    "id": "spoofing-asic-module"
+    "id": "spoofing-asic-module",
+    "sell_price": "$600",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "ST1122 Storage Computer",
     "id": "st1122-storage-computer",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7c/ST1122_Storage_Computer_Midnight_Sapphire_MSH_Supply_Closet_Room_Spawn.png/revision/latest/scale-to-width-down/200?cb=20261025183832"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7c/ST1122_Storage_Computer_Midnight_Sapphire_MSH_Supply_Closet_Room_Spawn.png/revision/latest/scale-to-width-down/200?cb=20261025183832",
+    "sell_price": "$3,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Stabilized Morphine Sulfate Liquid",
@@ -201,15 +265,21 @@
   },
   {
     "name": "Stainless Steel Sheet",
-    "id": "stainless-steel-sheet"
+    "id": "stainless-steel-sheet",
+    "sell_price": "$45",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Theophylline",
-    "id": "theophylline"
+    "id": "theophylline",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Tooling Coolant",
-    "id": "tooling-coolant"
+    "id": "tooling-coolant",
+    "sell_price": "$75",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "UNLRA Field Terminal",
@@ -227,14 +297,20 @@
   },
   {
     "name": "Vapor Lamp",
-    "id": "vapor-lamp"
+    "id": "vapor-lamp",
+    "sell_price": "$150",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Vitamin B12",
-    "id": "vitamin-b12"
+    "id": "vitamin-b12",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Water Pump",
-    "id": "water-pump"
+    "id": "water-pump",
+    "sell_price": "$450",
+    "sell_price_source": "gzwitems.com"
   }
 ]
