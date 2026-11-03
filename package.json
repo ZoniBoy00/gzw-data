@@ -21,7 +21,7 @@
     "test:security:report": "playwright show-report"
   },
   "engines": {
-    "node": ">=22"
+    "node": "24.x"
   },
   "keywords": [
     "gray-zone-warfare",
