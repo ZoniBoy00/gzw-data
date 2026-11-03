@@ -1,0 +1,48 @@
+name: Refresh sitemap
+
+# lastmod dates come from each page's last git commit, so they can only be correct after the page
+# change has landed. Run on main and commit the refreshed sitemap back when it differs.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - '!web/sitemap.xml'
+      - 'scripts/update-sitemap.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sitemap
+  cancel-in-progress: false
+
+jobs:
+  sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Update sitemap lastmod dates
+        run: node scripts/update-sitemap.js
+
+      - name: Commit refreshed sitemap
+        run: |
+          if git diff --quiet -- web/sitemap.xml; then
+            echo "Sitemap already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/sitemap.xml
+          git commit -m "chore: refresh sitemap lastmod dates"
+          git push
