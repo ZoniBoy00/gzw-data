@@ -264,6 +264,8 @@ ${callout('note', 'Timestamps', '<p><code>timestamp</code> is the response time.
 </tbody></table>
 <h2>Caching</h2>
 <p>Data endpoints send <code>Cache-Control: public, max-age=300</code>. The wiki-backed data is refreshed by the scraper, so caching for a few minutes loses nothing. Newly scraped data may take a short while to pass through the CDN.</p>
+<h2>Identify your app (optional)</h2>
+<p>Send an <code>X-Client</code> header with your app's name, for example <code>X-Client: my-discord-bot</code>, so usage can be counted per app. It is optional and no key is needed. Only request counts per endpoint, status and this label are stored, never IP addresses.</p>
 ${callout('warn', 'Be a good client', '<p>Do not proxy or hammer the API to bypass limits. Bots and dashboards should cache responses and use <code>dataVersion</code> to detect changes.</p>')}
 `,
   },

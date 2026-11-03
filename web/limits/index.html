@@ -113,6 +113,8 @@
 </tbody></table></div>
 <h2 id="caching">Caching<a class="anchor" href="#caching" aria-label="Link to this section">#</a></h2>
 <p>Data endpoints send <code>Cache-Control: public, max-age=300</code>. The wiki-backed data is refreshed by the scraper, so caching for a few minutes loses nothing. Newly scraped data may take a short while to pass through the CDN.</p>
+<h2 id="identify-your-app-optional">Identify your app (optional)<a class="anchor" href="#identify-your-app-optional" aria-label="Link to this section">#</a></h2>
+<p>Send an <code>X-Client</code> header with your app's name, for example <code>X-Client: my-discord-bot</code>, so usage can be counted per app. It is optional and no key is needed. Only request counts per endpoint, status and this label are stored, never IP addresses.</p>
 <div class="callout warn"><strong class="title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-triangle-alert"></use></svg> Be a good client</strong><p>Do not proxy or hammer the API to bypass limits. Bots and dashboards should cache responses and use <code>dataVersion</code> to detect changes.</p></div>
 
       </article>
@@ -131,7 +133,7 @@
         <a class="saas-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="140" height="49" loading="lazy"></a>
       </footer>
     </main>
-    <nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc-links"><span class="toc-marker" aria-hidden="true"></span><a href="#rate-limit">Rate limit</a><a href="#caching">Caching</a></div></nav>
+    <nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc-links"><span class="toc-marker" aria-hidden="true"></span><a href="#rate-limit">Rate limit</a><a href="#caching">Caching</a><a href="#identify-your-app-optional">Identify your app (optional)</a></div></nav>
   </div>
   <div class="palette" role="dialog" aria-modal="true" aria-label="Search documentation"><div class="palette-box"><input type="text" name="q" role="combobox" aria-expanded="false" aria-controls="palette-list" aria-autocomplete="list" placeholder="Search pages and sections…" autocomplete="off" aria-label="Search documentation"><div class="palette-list" id="palette-list" role="listbox" aria-label="Results"></div></div></div>
   <script src="/assets/nav.js?v=1ff1e9b8"></script>

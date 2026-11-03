@@ -10,9 +10,16 @@ const { buildSnapshot, getSnapshotHistory, buildChanges } = require('../lib/snap
 const { MAX_EXPORT_RECORDS, buildExport } = require('../lib/export');
 const { API_VERSION, IMPLEMENTATION_VERSION } = require('../lib/version');
 const { resolveIdAlias } = require('../lib/id-aliases');
+const { FIXED_ROUTES, recordUsage } = require('../lib/usage');
 
 loadDatasets();
 setDataVersion(getLastScrapedAt());
+
+const KNOWN_ROUTES = new Set([
+  ...Object.keys(datasets).filter(name => !name.startsWith('_')),
+  ...Object.keys(SMART_ROUTES),
+  ...FIXED_ROUTES,
+]);
 
 // ─── Related data helpers ───
 
@@ -629,6 +636,14 @@ module.exports = (req, res) => {
       res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
       res.setHeader('Access-Control-Allow-Headers', '*');
       return res.status(204).end();
+    }
+
+    // Anonymous usage counters (no-op without Redis credentials), recorded once the response is sent.
+    if (typeof res.on === 'function') {
+      res.on('finish', () => {
+        const route = parseRoute(String(req.url || '')).path;
+        recordUsage({ route, status: res.statusCode, headers: req.headers || {}, known: KNOWN_ROUTES });
+      });
     }
 
     // Request metadata and rate limit
