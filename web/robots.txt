@@ -2,6 +2,8 @@ User-agent: *
 Allow: /
 Allow: /api/v1/stats
 Allow: /api/v1/weapons
+Allow: /api/v1/spec
+Allow: /api/v1$
 Disallow: /api/
 
 Sitemap: https://gzw-data.dev/sitemap.xml

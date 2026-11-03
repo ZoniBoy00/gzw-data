@@ -12,6 +12,7 @@
     "lint": "eslint api/ lib/ scripts/ tests/ playwright.config.js",
     "validate:data": "node scripts/validate-data.js",
     "stamp": "node scripts/stamp-assets.js",
+    "sitemap": "node scripts/update-sitemap.js",
     "test:security": "playwright test",
     "test:security:api": "playwright test --project=http",
     "test:security:browser": "playwright test --project=chromium --project=firefox",
