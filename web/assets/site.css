@@ -299,10 +299,8 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
 
 /* Page-to-page transitions: chrome stays put, content crossfades */
 @view-transition { navigation: auto; }
-/* The old page stays solid underneath while the new one fades in on top, so the content never dips to transparent. */
-::view-transition-old(content) { animation: none; }
-::view-transition-new(content) { animation: 0.18s ease-out both content-in; }
-@keyframes content-in { from { opacity: 0; } }
+/* Content swaps instantly: any fade shows old and new text overlapping. The browser keeps the old page on screen until the new one is ready. */
+::view-transition-old(content), ::view-transition-new(content) { animation: none; }
 ::view-transition-group(topbar), ::view-transition-group(sidebar), ::view-transition-group(toc) { animation-duration: 0s; }
 
 .table-wrap { overflow-x: auto; margin: 18px 0; }
