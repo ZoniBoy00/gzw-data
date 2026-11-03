@@ -152,6 +152,7 @@ const footer = link(`<footer class="footer">
         <nav class="footer-links" aria-label="Footer">
           <a href="~/data-sources/">Data sources</a><a href="~/privacy/">Privacy</a><a href="~/terms/">Terms</a><a href="~/feedback/">Feedback</a><a href="/.well-known/security.txt">Security</a>
           <a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools {{i:external-link}}</a>
+          <a href="https://gzwitems.com/" target="_blank" rel="noopener noreferrer">GZW Items {{i:external-link}}</a>
           <a href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">{{i:coffee}} Support the project</a>
         </nav>
         <a class="saas-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="140" height="49" loading="lazy"></a>

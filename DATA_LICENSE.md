@@ -12,6 +12,10 @@ That general notice does not establish that every structured fact, game-related 
 
 The data files store image URLs rather than copies of the images. Linked images are served from their source hosts and remain subject to the rights and terms applicable to those assets.
 
+## Community prices
+
+Where the wiki has no sell price for an item, the price is filled from [GZW Items](https://gzwitems.com/), a community-maintained price tracker, used with its maintainers' permission. Wiki values always take priority. Filled values carry `"sell_price_source": "gzwitems.com"` on the record. Contribute to those prices at <https://gzwitems.com/contribute>.
+
 ## Attribution and provenance
 
 When reusing wiki material that is covered by CC BY-SA, follow the license terms: identify and link the license, provide attribution to the source article (or an equivalent source record), and indicate modifications. The API exposes dataset-level source-page titles and revision IDs when available; these are provenance hints, not a complete per-record author history.

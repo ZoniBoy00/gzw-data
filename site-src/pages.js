@@ -593,6 +593,8 @@ ${callout('note', 'Where to report problems', `<p>Client behaviour goes to the <
 <p class="lead">Code is MIT. Game data is collected from the community wiki and may carry separate rights.</p>
 <h2>Where the data comes from</h2>
 <p>Datasets are scraped from the <a href="https://gray-zone-warfare.fandom.com/wiki/Gray_Zone_Warfare_Wiki">Gray Zone Warfare Wiki on Fandom</a>. Wiki text is generally offered under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, but individual records, images and assets can have separate rights. Images are linked from their source hosts, not copied.</p>
+<h2>Community prices from GZW Items</h2>
+<p>Some items have no sell price on the wiki. Where a price is missing, GZW Data fills it from <a href="https://gzwitems.com/" target="_blank" rel="noopener noreferrer">GZW Items</a>, a community-maintained price tracker, used with the maintainers' permission. Wiki prices always take priority, and a price taken from GZW Items carries <code>"sell_price_source": "gzwitems.com"</code> on the record so you can tell where it came from. Thank you to the GZW Items team and its contributors; if you want to help improve the prices, you can <a href="https://gzwitems.com/contribute" target="_blank" rel="noopener noreferrer">contribute there</a>.</p>
 <h2>Crediting the data</h2>
 <ul>
   <li>Credit the source wiki and link the license.</li>
