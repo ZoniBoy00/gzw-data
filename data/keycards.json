@@ -22,6 +22,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Operations Room in Fort Narith Headquarters.",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075206",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -37,6 +39,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Supply Closet in Midnight Sapphire Hotel",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Keycard-Type2.png/revision/latest?cb=20250531203648",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,

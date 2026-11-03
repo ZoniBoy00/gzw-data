@@ -24,6 +24,8 @@
     "room_contains": "2 Weapon Crates, Random loose weapon parts",
     "town": "Hunter's Paradise",
     "map_location": "160x168",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Hunter%27s_Paradise_Weapon_Storage_Key.png/revision/latest/scale-to-width-down/268?cb=20240504043117"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Hunter%27s_Paradise_Weapon_Storage_Key.png/revision/latest/scale-to-width-down/268?cb=20240504043117",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com"
   }
 ]

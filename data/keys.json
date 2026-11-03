@@ -22,6 +22,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door A103 in Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -37,6 +39,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door A208 in Fort Narith barracks",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -52,6 +56,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door A210 in Pha Lang",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -97,6 +103,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Elder House in Ban Pa",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -112,6 +120,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Elder Room in Pha Lang",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -127,6 +137,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Fishing Hut in Ban Pa",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest?cb=20250528145150",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -142,6 +154,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Warehouse in Ban Pa",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -217,6 +231,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door C101 in Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest?cb=20250528145533",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -337,6 +353,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door garage office in Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -352,6 +370,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Archives in Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -397,6 +417,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door ICU in Fort Narith infirmary",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -412,6 +434,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door motel room nearby Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -427,6 +451,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Operations Room in Fort Narith Headquarters.",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075206",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -457,6 +483,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door shooting range office in Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -502,6 +530,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Hangar 03 in Pha Lang Airfield",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest?cb=20250528145158",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -547,6 +577,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Supply Closet in Midnight Sapphire Hotel",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Keycard-Type2.png/revision/latest?cb=20250531203648",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -637,7 +669,9 @@
     "room_contains": "2 Weapon Crates, Random loose weapon parts",
     "town": "Hunter's Paradise",
     "map_location": "160x168",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Hunter%27s_Paradise_Weapon_Storage_Key.png/revision/latest/scale-to-width-down/268?cb=20240504043117"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Hunter%27s_Paradise_Weapon_Storage_Key.png/revision/latest/scale-to-width-down/268?cb=20240504043117",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Hunter’s Paradise Bunker Key",
@@ -677,6 +711,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Weapon Storage in Hunter's Paradise",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -692,6 +728,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door storage shed in Inthavong farm",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest?cb=20250528145142",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1126,6 +1164,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door meeting room in Pha Lang Airfield",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1201,6 +1241,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Attic Storage in Pha Lang",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "sell_price": "$29",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1261,6 +1303,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Attic Storage in Pha Lang",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "sell_price": "$29",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1357,6 +1401,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Sawmill Office in Sawmill",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1402,6 +1448,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door toilets in Sawmill",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1500,6 +1548,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door armory in Tiger Bay Central",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1620,6 +1670,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door UNLRA quarantine container in Tiger Bay",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1748,6 +1800,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door villa vongphet room on Lamang Island",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest?cb=20250528145215",
+    "sell_price": "$59",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,

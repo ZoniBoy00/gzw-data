@@ -10,6 +10,8 @@
     "effect": "Hydration: +33",
     "manufacturer": "Aques",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Water1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530084550",
+    "sell_price": "$16",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -28,6 +30,8 @@
     "effect": "Hydration: +33",
     "manufacturer": "Aques",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/Water2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601001425",
+    "sell_price": "$16",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -46,6 +50,8 @@
     "effect": "Hydration: +24",
     "use_time": "5s",
     "manufacturer": "Coco Jumbo",
+    "sell_price": "$2",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.24,
@@ -64,6 +70,8 @@
     "effect": "Energy: +5 Hydration: +20 Arm Stamina Boost: +15% Arm Stamina Boost Cap: +15% Arm Stamina Boost Duration: 90s Body Stamina Boost: +15% Body Stamina Boost Cap: +15% Body Stamina Boost Duration: 90s",
     "use_time": "5s",
     "manufacturer": "Dark Star",
+    "sell_price": "$6",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -83,6 +91,8 @@
     "use_time": "5s",
     "manufacturer": "GRAY",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Gray_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530090230",
+    "sell_price": "$21",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -101,6 +111,8 @@
     "effect": "Energy: +5 Hydration: +27",
     "manufacturer": "Infinity",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/IDrink_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601005416",
+    "sell_price": "$4",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.33,
@@ -119,6 +131,8 @@
     "effect": "Hydration: +35 Energy: +10",
     "use_time": "5s",
     "manufacturer": "Kaipo",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -138,6 +152,8 @@
     "use_time": "6s",
     "manufacturer": "Maknav",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/IcedTea_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601003900",
+    "sell_price": "$11",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.95,
@@ -157,6 +173,8 @@
     "use_time": "6s",
     "manufacturer": "Noakon",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Water3_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530083541",
+    "sell_price": "$6",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -194,6 +212,8 @@
     "use_time": "6 seconds",
     "manufacturer": "Noakon",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Water5_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530083049",
+    "sell_price": "$16",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -213,6 +233,8 @@
     "use_time": "6s",
     "manufacturer": "NuKlear",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/EDrink2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530081504",
+    "sell_price": "$10",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.34,
@@ -251,6 +273,8 @@
     "use_time": "6",
     "manufacturer": "Riminda",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Riminda_Green_Bubbly_Bliss_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603022056",
+    "sell_price": "$28",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.08,
@@ -269,6 +293,8 @@
     "effect": "Hydration: +33 Energy: +15",
     "use_time": "5s",
     "manufacturer": "Sunrise",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -287,6 +313,8 @@
     "effect": "Hydration: +38",
     "manufacturer": "Sunrise",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Cola2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601193130",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -305,6 +333,8 @@
     "effect": "Hydration: +33 Energy: +5",
     "use_time": "5s",
     "manufacturer": "Touchdown",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.38,
@@ -323,6 +353,8 @@
     "effect": "Hydration: +33",
     "manufacturer": "White Orchid",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Water6_inspect.png/revision/latest/scale-to-width-down/267?cb=20250530082550",
+    "sell_price": "$24",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,

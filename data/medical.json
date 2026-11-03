@@ -10,6 +10,8 @@
     "effect": "Intoxication: -10",
     "manufacturer": "S.R. Hawkin",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Charcoal_inspect.png/revision/latest?cb=20250502211847",
+    "sell_price": "$5",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -29,6 +31,8 @@
     "use_time": "8 s",
     "manufacturer": "Henderson",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/AdvFlexSplint.png/revision/latest?cb=20260408101540",
+    "sell_price": "$17",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.13,
@@ -47,6 +51,8 @@
     "effect": "Heals wounds",
     "manufacturer": "Henderson",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Bandage_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502181823",
+    "sell_price": "$9",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.07,
@@ -65,6 +71,8 @@
     "use_time": "20s",
     "manufacturer": "US Army",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/SurKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501082435",
+    "sell_price": "$195",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -83,6 +91,8 @@
     "effect": "Removes Limping effect",
     "manufacturer": "Narithcare",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/CivilianSplint_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211703",
+    "sell_price": "$4",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.15,
@@ -100,6 +110,8 @@
     "effect": "Heals wounds",
     "manufacturer": "Narithcare",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Gauze_inspect.png/revision/latest/scale-to-width-down/268?cb=20250504074656",
+    "sell_price": "$2",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.02,
@@ -118,6 +130,8 @@
     "effect": "Stops heavy bleeding.",
     "manufacturer": "Henderson",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/CT_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501090154",
+    "sell_price": "$24",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.09,
@@ -156,6 +170,8 @@
     "use_time": "20s",
     "manufacturer": "Henderson",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/EKit_inspect.png/revision/latest?cb=20260404064048",
+    "sell_price": "$54",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -214,6 +230,8 @@
     "duration": "3 min",
     "manufacturer": "General Local",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Fenethyl_inspect.png/revision/latest?cb=20250621182751",
+    "sell_price": "$29",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -231,6 +249,8 @@
     "charges": "4",
     "effect": "Removes Fracture",
     "manufacturer": "Henderson",
+    "sell_price": "$10",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.13,
@@ -251,6 +271,8 @@
     "duration": "4 minutes",
     "manufacturer": "Parasol Corp",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/HpR_3-S_inspect.png/revision/latest/scale-to-width-down/267?cb=20260428090404",
+    "sell_price": "$285",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -288,6 +310,8 @@
     "effect": "150s Duration: Efficiency: +33%",
     "manufacturer": "Narithcare",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Ibalin_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210313",
+    "sell_price": "$2",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -307,6 +331,8 @@
     "use_time": "12",
     "manufacturer": "MedCare",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/LargeBloodBag.png/revision/latest/scale-to-width-down/268?cb=20250501081851",
+    "sell_price": "$294",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -326,6 +352,8 @@
     "use_time": "2",
     "manufacturer": "Rev Med X",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/LHem_inspect.png/revision/latest?cb=20260421080856",
+    "sell_price": "$63",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.15,
@@ -344,6 +372,8 @@
     "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
     "manufacturer": "Pressing Medical",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/MFAT_inspect.png/revision/latest?cb=20250502211227",
+    "sell_price": "$19",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.08,
@@ -368,6 +398,8 @@
     "use_time": "12s",
     "manufacturer": "MedCare",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Screenshot_2026-04-03_235410.png/revision/latest/scale-to-width-down/268?cb=20260404065601",
+    "sell_price": "$225",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.6,
@@ -386,6 +418,8 @@
     "effect": "300s Duration: Remove pain effects",
     "manufacturer": "Jeremiah Pharmaceutical",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Melox_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211523",
+    "sell_price": "$4",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -424,6 +458,8 @@
     "duration": "4 minutes",
     "manufacturer": "Parasol Corp",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Morphine_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428092328",
+    "sell_price": "$135",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -441,6 +477,8 @@
     "charges": "4",
     "effect": "Intoxication: -25",
     "manufacturer": "MWunder Pharmaceutical",
+    "sell_price": "$37",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -497,6 +535,8 @@
     "effect": "Removes Pain",
     "duration": "300s",
     "manufacturer": "Fernsby's Healthcare",
+    "sell_price": "$1",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -515,6 +555,8 @@
     "effect": "Radiation: -4",
     "manufacturer": "S.R. Hawkins",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Ki_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210111",
+    "sell_price": "$36",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -530,7 +572,9 @@
     "grid_size": "1x1",
     "charges": "1",
     "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
-    "manufacturer": "Narithcare"
+    "manufacturer": "Narithcare",
+    "sell_price": "$7",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Seal modular bandage",
@@ -543,6 +587,8 @@
     "effect": "Heals 4 Wounds per Charge",
     "use_time": "3 seconds",
     "manufacturer": "SEAL Medical",
+    "sell_price": "$16",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.09,
@@ -562,6 +608,8 @@
     "use_time": "12s",
     "manufacturer": "MedCare",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/SBlood_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211339",
+    "sell_price": "$84",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.5,
@@ -581,6 +629,8 @@
     "use_time": "2",
     "manufacturer": "Rev Med X",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/SHem_inspect.png/revision/latest?cb=20260404062657",
+    "sell_price": "$39",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -599,6 +649,8 @@
     "use_time": "20s",
     "manufacturer": "Henderson",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/SutKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501090058",
+    "sell_price": "$81",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.35,
@@ -617,6 +669,8 @@
     "effect": "Blocks Stamina Drain Drain arm stamina Increase intoxication Increase energy drain Gives pain",
     "duration": "1 min",
     "manufacturer": "Parasol Corp",
+    "sell_price": "$180",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.1,

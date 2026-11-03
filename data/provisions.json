@@ -8,6 +8,8 @@
     "total_energy_per_grid": "+15",
     "sold_by": "Lab Rat R.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/1_Shot_Energy_Chews_icon.png/revision/latest?cb=20260411210258",
+    "sell_price": "$24",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.04,
@@ -24,6 +26,8 @@
     "total_hydration_per_grid": "+33",
     "sold_by": "Lab Rat Lv.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/92/Water1_icon.png/revision/latest?cb=20250502142820",
+    "sell_price": "$16",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -40,6 +44,8 @@
     "total_hydration_per_grid": "+75",
     "sold_by": "Lab Rat Lv.3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Water2_icon.png/revision/latest?cb=20250502142032",
+    "sell_price": "$16",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -56,6 +62,8 @@
     "weight": "0.600 kg",
     "total_energy_per_grid": "+7.5",
     "sold_by": "Looting",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -72,6 +80,8 @@
     "total_energy_per_grid": "+25",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/44/ChBar4_icon.png/revision/latest?cb=20250610042853",
+    "sell_price": "$22",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.07,
@@ -89,6 +99,8 @@
     "total_energy_per_grid": "+40",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Tuna_icon.png/revision/latest?cb=20250610053427",
+    "sell_price": "$7",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.17,
@@ -105,6 +117,8 @@
     "total_hydration_per_grid": "+24",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/CDrink_icon.png/revision/latest?cb=20250502155148",
+    "sell_price": "$2",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.24,
@@ -121,6 +135,8 @@
     "total_energy_per_grid": "+37.5",
     "sold_by": "Lab Rat Lv.3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/CRP_icon.png/revision/latest?cb=20250502142633",
+    "sell_price": "$21",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -138,6 +154,8 @@
     "total_energy_per_grid": "+17.5",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/Beans_icon.png/revision/latest?cb=20250610071124",
+    "sell_price": "$11",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.425,
@@ -155,6 +173,8 @@
     "total_hydration_per_grid": "+20",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Coffee_icon.png/revision/latest?cb=20250621182737",
+    "sell_price": "$6",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -171,6 +191,8 @@
     "total_energy_per_grid": "+14",
     "sold_by": "Lab Rat Lv.1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/EBar_icon.png/revision/latest?cb=20250502142245",
+    "sell_price": "$6",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.04,
@@ -188,6 +210,8 @@
     "total_hydration_per_grid": "+35",
     "sold_by": "Lab Rat Lv.3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Gray_icon.png/revision/latest?cb=20250621182754",
+    "sell_price": "$21",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -204,6 +228,8 @@
     "total_energy_per_grid": "+40",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/54/HDR_icon.png/revision/latest?cb=20250610053132",
+    "sell_price": "$22",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.85,
@@ -221,6 +247,8 @@
     "total_hydration_per_grid": "+40",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/56/IDrink_icon.png/revision/latest?cb=20240520001016",
+    "sell_price": "$4",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.33,
@@ -238,6 +266,8 @@
     "total_hydration_per_grid": "+35",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/Nectar_icon.png/revision/latest?cb=20250621182658",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -255,6 +285,8 @@
     "total_energy_per_grid": "+14",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d2/Wafers_icon.png/revision/latest?cb=20250610042619",
+    "sell_price": "$2",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -272,6 +304,8 @@
     "total_energy_per_grid": "+35",
     "sold_by": "Lab Rat Lv.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/P%C3%A2t%C3%A9_icon.png/revision/latest?cb=20250502142115",
+    "sell_price": "$8",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.13,
@@ -289,6 +323,8 @@
     "total_energy_per_grid": "+13",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Lychee_icon.png/revision/latest?cb=20250610053931",
+    "sell_price": "$9",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.565,
@@ -306,6 +342,8 @@
     "total_energy_per_grid": "+60",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Mackerel_icon.png/revision/latest?cb=20250610053549",
+    "sell_price": "$14",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -323,6 +361,8 @@
     "total_hydration_per_grid": "+45",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/IcedTea_icon.png/revision/latest?cb=20240520061937",
+    "sell_price": "$11",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.95,
@@ -339,6 +379,8 @@
     "total_hydration_per_grid": "+60",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/Water3_icon.png/revision/latest?cb=20250530075823",
+    "sell_price": "$6",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -371,6 +413,8 @@
     "total_hydration_per_grid": "+75",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/16/Water5_icon.png/revision/latest?cb=20250218195547",
+    "sell_price": "$16",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -388,6 +432,8 @@
     "total_hydration_per_grid": "+22",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/af/EDrink2_icon.png/revision/latest?cb=20250621160244",
+    "sell_price": "$10",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.34,
@@ -405,6 +451,8 @@
     "total_energy_per_grid": "+18",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Tofu_icon.png/revision/latest?cb=20250610053001",
+    "sell_price": "$5",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -422,6 +470,8 @@
     "total_hydration_per_grid": "+40",
     "sold_by": "Lab Rat Lv.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/EDrink_icon.png/revision/latest?cb=20250502141947",
+    "sell_price": "$13",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.47,
@@ -438,6 +488,8 @@
     "total_energy_per_grid": "+35",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/LMeat2_icon.png/revision/latest?cb=20250610052339",
+    "sell_price": "$19",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -455,6 +507,8 @@
     "total_hydration_per_grid": "+50",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Soda2_icon.png/revision/latest?cb=20250601191618",
+    "sell_price": "$28",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -472,6 +526,8 @@
     "total_energy_per_grid": "+30",
     "sold_by": "Lab Rat Lv.3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/LMeat_icon.png/revision/latest?cb=20250530080109",
+    "sell_price": "$15",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.34,
@@ -488,6 +544,8 @@
     "total_energy_per_grid": "+10",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/ChBar1_icon.png/revision/latest?cb=20250610042711",
+    "sell_price": "$2",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.038,
@@ -505,6 +563,8 @@
     "total_energy_per_grid": "+40",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/CMeal_icon.png/revision/latest?cb=20250502142635",
+    "sell_price": "$17",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -522,6 +582,8 @@
     "total_hydration_per_grid": "+33",
     "sold_by": "Lab Rat Lv.1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Cola_icon.png/revision/latest?cb=20250621182739",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -538,6 +600,8 @@
     "total_hydration_per_grid": "+??",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -554,6 +618,8 @@
     "total_energy_per_grid": "+20",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/ChBar3_icon.png/revision/latest?cb=20250610042828",
+    "sell_price": "$10",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -570,6 +636,8 @@
     "total_hydration_per_grid": "+18",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Soda_icon.png/revision/latest?cb=20250502155224",
+    "sell_price": "$3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.33,
@@ -586,6 +654,8 @@
     "total_hydration_per_grid": "+100",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Water6_icon.png/revision/latest?cb=20250530080413",
+    "sell_price": "$24",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -602,6 +672,8 @@
     "total_energy_per_grid": "+16",
     "sold_by": "Looting",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/ChBar2_icon.png/revision/latest?cb=20250610042744",
+    "sell_price": "$11",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.04,

@@ -88,6 +88,8 @@
     "grid_size": "1x1",
     "buy_price": "$50",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Pro_Multitool_inspect.png/revision/latest/scale-to-width-down/268?cb=20250427044634",
+    "sell_price": "$50",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.12,
