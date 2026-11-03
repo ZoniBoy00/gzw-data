@@ -116,3 +116,20 @@ test('mobile navigation drawer and explorer remain usable', async ({ page }) => 
   await expect(page.locator('.sidebar')).not.toHaveClass(/open/);
   await expect(page.locator('[data-ex-rows]')).toContainText('AK fixture');
 });
+
+for (const width of [860, 1000, 1040, 1041, 1180]) {
+  test(`header layout holds at ${width}px without overflow`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 800 });
+    await mockApi(page);
+    await page.goto('/explorer/');
+    await expect(page.locator('[data-ex-rows]')).toContainText('AK fixture');
+    const overflow = await page.evaluate(() => globalThis.document.documentElement.scrollWidth - globalThis.document.documentElement.clientWidth);
+    expect(overflow, 'horizontal page overflow').toBeLessThanOrEqual(0);
+    // Between 861 and 1040px the pill text is visually hidden but must stay in the accessibility tree.
+    if (width > 860) {
+      const status = page.locator('.status [data-status]');
+      await expect(status).toHaveText(/API/);
+      expect(await status.evaluate(el => globalThis.getComputedStyle(el).display)).not.toBe('none');
+    }
+  });
+}

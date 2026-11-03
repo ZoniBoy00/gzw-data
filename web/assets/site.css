@@ -380,7 +380,7 @@ kbd { font: 600 11px/1 var(--mono); padding: 4px 6px; border: 1px solid var(--li
 @media (max-width: 1040px) {
   .search-btn .stext { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
   .search-btn { width: 40px; justify-content: center; padding: 6px; }
-  .status [data-status] { display: none; }
+  .status [data-status] { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
 }
 @media (max-width: 860px) {
   .tabs, .status, .icon-link { display: none; }
