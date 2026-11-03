@@ -98,3 +98,17 @@ test('generated site files match their sources', () => {
   const result = spawnSync(process.execPath, [path.join(root, 'scripts', 'build-site.js'), '--check'], { encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr || 'run "npm run build:site"');
 });
+
+test('every dataset gets a docs page from one shared, noindex template', () => {
+  const config = JSON.parse(read('vercel.json'));
+  const html = read('web/dataset/index.html');
+  const sitemap = read('web/sitemap.xml');
+
+  assert.ok(config.rewrites.some((rule) => rule.source === '/datasets/:name/' && rule.destination === '/web/dataset/index.html'));
+  assert.ok(config.redirects.some((rule) => rule.source === '/datasets/:name' && rule.destination === '/datasets/:name/' && rule.permanent));
+  assert.match(html, /name="robots" content="noindex"/);
+  assert.doesNotMatch(html, /rel="canonical"/, 'the shared template must not claim one canonical URL');
+  assert.match(html, /<script src="\/assets\/dataset\.js\?v=[0-9a-f]{8}" defer><\/script>/);
+  assert.ok(!sitemap.includes('/dataset/'), 'the template is not a real page');
+  assert.ok(read('web/assets/site.js').includes('/datasets/${encodeURIComponent(n)}/'), 'the dataset list should link to the docs pages');
+});

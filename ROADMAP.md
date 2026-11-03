@@ -75,6 +75,7 @@ Current implementation: `4.6.0` (verified through the production `/api/v1/versio
 
 ## Completed
 
+- [x] Redesign the public site as a generated docs site, with a live reference page for every dataset (`/datasets/{dataset}/`) and runtime dataset search.
 - [x] Redesign the web console homepage: quick start, filterable dataset catalog, clients section, consistent spacing, and a multi-column footer.
 - [x] Improve SEO and performance: Open Graph/Twitter tags, JSON-LD, sitemap `lastmod`, `noindex` on 404, smaller favicons, and static-asset cache headers.
 - [x] Count combined views (`armor`, `weapon_parts`, `helmet_mods`) only once in headline totals.

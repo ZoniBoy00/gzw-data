@@ -58,7 +58,9 @@ npm run dev:server
 
 This serves the docs site at `http://127.0.0.1:4173/`, the Playground at `/playground/`, the Feedback desk at `/feedback/`, and the local API at `/api/v1/health`.
 
-The site is static HTML generated from `site-src/pages.js` (page content), `site-src/legal/` (Privacy Policy and Terms text) and `site-src/icons/` (Lucide icons, ISC). After editing any of them, run `npm run build:site` to regenerate `web/**/index.html`, `404.html` and the search index; `npm test` fails when the generated files are stale. Styles and scripts live in `web/assets/` and must stay CSP-safe (no inline scripts or styles).
+The site is static HTML generated from `site-src/pages.js` (page content), `site-src/legal/` (Privacy Policy and Terms text) and `site-src/icons/` (Lucide icons, ISC). After editing any of them, run `npm run build:site` to regenerate `web/**/index.html`, `404.html` and the static search index (datasets are added to the search palette at runtime from `/api/v1/stats`); `npm test` fails when the generated files are stale. Styles and scripts live in `web/assets/` and must stay CSP-safe (no inline scripts or styles).
+
+Every dataset also gets its own reference page at `/datasets/{dataset}/` (fields, types, coverage, filters and example requests). All of them share one template, `web/dataset/index.html`, which `web/assets/dataset.js` fills from `/api/v1/metadata/{dataset}`, so a dataset the scraper discovers is documented, listed and searchable without rebuilding the site.
 
 The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The published `@zoniboy/gzw-data-client` 0.9.0 requires Node.js 22+ and supports modern browsers; 0.7.3 remains the last Node.js 18+-compatible release. New API data remains available at runtime without an npm release.
 

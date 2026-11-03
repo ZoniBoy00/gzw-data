@@ -17,7 +17,7 @@ flowchart LR
 ## Ownership
 
 - `gzw-scraper` discovers and parses source wiki pages, validates output, and emits generated datasets plus `_manifest.json`.
-- `gzw-data` publishes the generated datasets, API handler, metadata, OpenAPI document, snapshot history, and web console.
+- `gzw-data` publishes the generated datasets, API handler, metadata, OpenAPI document, snapshot history, and web console. The console lists, searches and documents datasets (`/datasets/{dataset}/`) from the live API, so new datasets need no site rebuild.
 - `@zoniboy/gzw-data-client` provides the typed zero-dependency JavaScript/TypeScript API client.
 - `gzw-data` (PyPI, source in `gzw-data-py`) provides the Python client.
 - `gzw-tools`, Discord bots, and other consumers use the public API or SDK; they do not edit generated data.

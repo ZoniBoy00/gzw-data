@@ -131,7 +131,7 @@
       grid.textContent = "";
       names.forEach((n) => {
         const a = document.createElement("a");
-        a.href = `${API}/${n}`; a.dataset.name = n;
+        a.href = `/datasets/${encodeURIComponent(n)}/`; a.dataset.name = n;
         a.append(document.createTextNode(n));
         const b = document.createElement("b"); b.textContent = fmt(data[n].total);
         a.append(b);
@@ -238,7 +238,11 @@
   const palette = $(".palette"), pInput = $(".palette input"), pList = $(".palette-list");
   const searchBtn = $(".search-btn");
   let index = [], sel = 0, opener = null;
-  fetch("/assets/search-index.json").then((r) => r.json()).then((j) => { index = j; }).catch(() => {});
+  fetch("/assets/search-index.json").then((r) => r.json()).then((j) => { index = index.concat(j); }).catch(() => {});
+  // Datasets come from the live API, so a dataset the scraper just discovered is searchable without a site rebuild.
+  fetch(`${API}/stats`).then((r) => r.json()).then(({ data }) => {
+    index = index.concat(Object.keys(data).sort().map((n) => ({ title: n, section: "Dataset", url: `/datasets/${encodeURIComponent(n)}/` })));
+  }).catch(() => {});
   if (/Mac|iPhone|iPad/.test(navigator.platform)) { const k = $(".search-btn kbd"); if (k) k.textContent = "⌘K"; }
 
   const setSel = (i) => {

@@ -52,6 +52,11 @@
       "permanent": true
     },
     {
+      "source": "/datasets/:name",
+      "destination": "/datasets/:name/",
+      "permanent": true
+    },
+    {
       "source": "/querying",
       "destination": "/querying/",
       "permanent": true
@@ -187,6 +192,10 @@
     {
       "source": "/datasets/",
       "destination": "/web/datasets/index.html"
+    },
+    {
+      "source": "/datasets/:name/",
+      "destination": "/web/dataset/index.html"
     },
     {
       "source": "/querying/",

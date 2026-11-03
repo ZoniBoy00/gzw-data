@@ -134,6 +134,39 @@ ${callout('note', 'Context routes', '<p>References come from the current dataset
 `,
   },
   {
+    // One shared template served for /datasets/{name}/ (see vercel.json). dataset.js fills it from the live API,
+    // so a dataset the scraper just discovered has a docs page without any rebuild.
+    slug: 'dataset', hidden: true, icon: 'database', group: 'API reference', nav: 'Dataset', tab: 'API reference', scripts: ['dataset.js'],
+    title: 'Dataset', desc: 'Fields, types, filters and example requests for a GZW Data dataset.',
+    body: `
+<noscript><p>This page needs JavaScript to load the dataset description. The same information is available from <code>${BASE}/metadata/{dataset}</code>.</p></noscript>
+<div data-dataset-page>
+  <p class="lead" data-ds-lead>Loading dataset…</p>
+  <div class="callout warn" data-ds-error hidden><strong class="title">{{i:triangle-alert}} Dataset not found</strong><p data-ds-error-text></p><p><a href="~/datasets/">Browse all datasets</a></p></div>
+  <div data-ds-content hidden>
+    <dl class="kv">
+      <div><dt>Records</dt><dd data-ds-kv="records">…</dd></div>
+      <div><dt>Fields</dt><dd data-ds-kv="fields">…</dd></div>
+      <div><dt>Last scraped</dt><dd data-ds-kv="scraped">…</dd></div>
+      <div><dt>Source file</dt><dd data-ds-kv="file">…</dd></div>
+    </dl>
+    <h2 data-id="endpoints">Endpoints</h2>
+    <div class="ex-table-wrap"><table class="ex-table"><thead><tr><th scope="col">Route</th><th scope="col">Returns</th></tr></thead><tbody data-ds-endpoints></tbody></table></div>
+    <h2 data-id="example">Example request</h2>
+    <div class="code"><span class="label">cURL</span><pre><code data-ds-curl></code></pre></div>
+    <div class="code"><span class="label">JavaScript</span><pre><code data-ds-js></code></pre></div>
+    <h2 data-id="fields">Fields</h2>
+    <p class="muted">Observed from the current data. <strong>Optional</strong> fields are missing from some records; the coverage column shows how many records have the field.</p>
+    <div class="ex-table-wrap"><table class="ex-table"><thead><tr><th scope="col">Field</th><th scope="col">Type</th><th scope="col">Coverage</th><th scope="col">Example</th></tr></thead><tbody data-ds-fields></tbody></table></div>
+    <h2 data-id="filters">Filters</h2>
+    <p data-ds-filters-lead></p>
+    <ul data-ds-filters></ul>
+    <p>See <a href="~/querying/">Filters, search &amp; pagination</a> for sorting and paging, or try this dataset in the <a data-ds-explorer href="~/explorer/">data explorer</a>.</p>
+  </div>
+</div>
+`,
+  },
+  {
     slug: 'querying', icon: 'filter', group: 'API reference', nav: 'Filters, search & pagination', tab: 'API reference',
     title: 'Filters, search & pagination', desc: 'Query any GZW Data dataset with composable filter, search, sort and pagination parameters.',
     body: `

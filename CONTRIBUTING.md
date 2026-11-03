@@ -63,6 +63,8 @@ Current module areas include:
 - `lib/routing.js` — API path and version-prefix handling
 - `lib/config.js` and `lib/version.js` — shared limits and version constants
 
+The public site is generated from `site-src/pages.js` with `npm run build:site` (see the README). Pages marked `hidden: true`, such as the shared dataset template served for `/datasets/{name}/`, are built but kept out of navigation, search and the sitemap.
+
 When changing an endpoint:
 
 1. Preserve the `/api/v1` contract.

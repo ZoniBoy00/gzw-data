@@ -53,9 +53,13 @@ function serveStatic(req, res) {
     res.writeHead(404, { 'Content-Type': mimeTypes['.html'] });
     return fs.createReadStream(notFound).pipe(res);
   }
+  return serveFile(res, filePath, req.method);
+}
+
+function serveFile(res, filePath, method) {
   const extension = path.extname(filePath).toLowerCase();
   res.writeHead(200, { 'Content-Type': mimeTypes[extension] || 'application/octet-stream' });
-  if (req.method === 'HEAD') return res.end();
+  if (method === 'HEAD') return res.end();
   fs.createReadStream(filePath).pipe(res);
 }
 
@@ -72,6 +76,12 @@ function createServer() {
       res.writeHead(redirect.permanent ? 308 : 307, { Location: redirect.destination });
       return res.end();
     }
+    const datasetPage = requestPath.match(/^\/datasets\/([^/]+)(\/?)$/);
+    if (datasetPage && !datasetPage[2]) {
+      res.writeHead(308, { Location: `${requestPath}/` });
+      return res.end();
+    }
+    if (datasetPage) return serveFile(res, path.join(webRoot, 'dataset', 'index.html'), req.method);
     if (req.url.startsWith('/api')) return apiHandler(req, adaptResponse(res));
     if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'Method not allowed');
     return serveStatic(req, res);

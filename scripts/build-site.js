@@ -16,7 +16,7 @@ const ORIGIN = 'https://gzw-data.dev';
 // search rankings survive the redesign.
 const ROUTES = {
   '': '/', quickstart: '/docs/', datasets: '/datasets/', querying: '/querying/', records: '/records/',
-  responses: '/responses/', limits: '/limits/', examples: '/docs/examples/', clients: '/clients/',
+  dataset: '/dataset/', responses: '/responses/', limits: '/limits/', examples: '/docs/examples/', clients: '/clients/',
   sdk: '/docs/sdk/', python: '/docs/python/', playground: '/playground/', explorer: '/explorer/',
   status: '/status/', 'data-sources': '/data-sources/', feedback: '/feedback/',
   privacy: '/privacy-policy/', terms: '/terms-of-service/',
@@ -70,7 +70,7 @@ function processHeadings(html) {
 function sidebar(current) {
   return GROUP_ORDER.map(group => {
     const links = [
-      ...pages.filter(p => p.group === group).map(p =>
+      ...pages.filter(p => p.group === group && !p.hidden).map(p =>
         `<a href="${urlOf(p)}"${p === current ? ' class="active" aria-current="page"' : ''}>${ic(p.icon || 'file-text')}<span>${esc(p.nav)}</span></a>`),
       ...external.filter(e => e.group === group).map(e =>
         `<a href="${link(e.url)}"${e.url.startsWith('http') ? ' target="_blank" rel="noopener noreferrer"' : ''}>${ic(e.icon || 'external-link')}<span>${esc(e.nav)}</span>${ic('external-link', 'ext')}</a>`),
@@ -106,7 +106,7 @@ function head(page, title, canonical) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  ${page.plain ? '<meta name="robots" content="noindex">' : ''}
+  ${page.plain || page.hidden ? '<meta name="robots" content="noindex">' : ''}
   <title>${esc(title)}</title>
   <meta name="description" content="${d}">
   ${page.keywords ? `<meta name="keywords" content="${esc(page.keywords)}">` : ''}
@@ -128,7 +128,7 @@ function head(page, title, canonical) {
   <script src="/assets/theme.js"></script>
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/site.css">
-  ${canonical && !page.plain ? jsonLd(page) : ''}
+  ${canonical && !page.plain && !page.hidden ? jsonLd(page) : ''}
 </head>`;
 }
 
@@ -170,7 +170,8 @@ function render(page, idx) {
   const { headings } = processed;
   // Wide tables scroll inside their own region instead of stretching the page on phones.
   const body = processed.body.replace(/<table(?![^>]*ex-table)[\s\S]*?<\/table>/g, m => `<div class="table-wrap" role="region" aria-label="Scrollable table" tabindex="0">${m}</div>`);
-  const prev = pages[idx - 1], next = pages[idx + 1];
+  const visible = pages.filter(p => !p.hidden), at = visible.indexOf(page);
+  const prev = at < 0 ? null : visible[at - 1], next = at < 0 ? null : visible[at + 1];
   const toc = headings.length
     ? `<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc-links"><span class="toc-marker" aria-hidden="true"></span>${headings.map(h => `<a href="#${h.id}"${h.level === 3 ? ' class="sub"' : ''}>${esc(h.text)}</a>`).join('')}</div></nav>`
     : '<div class="toc"></div>';
@@ -178,7 +179,7 @@ function render(page, idx) {
     ? `<a href="/">{{i:house}} Docs</a><span aria-hidden="true">/</span><span>${esc(page.group)}</span><span aria-hidden="true">/</span><span>${esc(page.nav)}</span>`
     : '<span>{{i:house}} Docs</span>';
   const title = page.seoTitle || `${page.title} · GZW Data`;
-  const html = `${head(page, title, `${ORIGIN}${urlOf(page)}`)}
+  const html = `${head(page, title, page.hidden ? '' : `${ORIGIN}${urlOf(page)}`)}
 <body>
   <a class="skip" href="#content">Skip to content</a>
   <div class="progress" aria-hidden="true"></div>
@@ -235,6 +236,7 @@ const htmlPath = url => path.join('web', url, 'index.html');
 const searchIndex = [];
 pages.forEach((page, idx) => {
   emit(htmlPath(urlOf(page)), render(page, idx));
+  if (page.hidden) return;
   searchIndex.push({ title: page.nav, section: page.group, url: urlOf(page) });
   for (const h of processHeadings(bodyOf(page)).headings) {
     searchIndex.push({ title: h.text, section: page.nav, url: `${urlOf(page)}#${h.id}` });

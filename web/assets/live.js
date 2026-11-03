@@ -19,6 +19,8 @@
     const dataset = $("#ex-dataset"), search = $("#ex-search"), rows = $("[data-ex-rows]", ex);
     const summary = $("[data-ex-summary]", ex), pageLabel = $("[data-ex-page]", ex), json = $("[data-ex-json]", ex);
     const prev = $("[data-ex-prev]", ex), next = $("[data-ex-next]", ex);
+    const preset = new URLSearchParams(location.search).get("dataset");
+    if (preset && /^[w.-]+$/.test(preset)) dataset.value = preset;
     const state = { page: 1, perPage: 10, totalPages: 1, token: 0, timer: 0 };
     const HIDDEN = new Set(["name", "id", "image", "numeric_values"]);
 
