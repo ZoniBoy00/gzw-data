@@ -37,3 +37,5 @@ ship-safe-report.html
 playwright-report/
 test-results/
 blob-report/
+.vercel
+.env*
