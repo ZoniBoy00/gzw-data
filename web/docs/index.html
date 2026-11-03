@@ -103,18 +103,18 @@
         <h1>Quick start</h1>
 
 <p class="lead">All routes are read-only and return JSON. Use <code>/api/v1</code> for new integrations.</p>
-<h2 id="1-list-a-dataset">1. List a dataset<a class="anchor" href="#1-list-a-dataset" aria-label="Link to this section">#</a></h2>
+<h2 id="1-list-a-dataset"><span id="quickstart"></span>1. List a dataset<a class="anchor" href="#1-list-a-dataset" aria-label="Link to this section">#</a></h2>
 <div class="tabset"><div class="tab-list" role="tablist"><button type="button" role="tab" id="t1-0" aria-controls="t1-p0" aria-selected="true">cURL</button><button type="button" role="tab" id="t1-1" aria-controls="t1-p1" aria-selected="false" tabindex="-1">JavaScript</button><button type="button" role="tab" id="t1-2" aria-controls="t1-p2" aria-selected="false" tabindex="-1">Python</button></div><div role="tabpanel" id="t1-p0" aria-labelledby="t1-0"><div class="code"><pre><code>curl "https://gzw-data.dev/api/v1/weapons?per_page=5"</code></pre></div></div><div role="tabpanel" id="t1-p1" aria-labelledby="t1-1" hidden><div class="code"><pre><code>const res = await fetch("https://gzw-data.dev/api/v1/weapons?per_page=5");
 const { data } = await res.json();</code></pre></div></div><div role="tabpanel" id="t1-p2" aria-labelledby="t1-2" hidden><div class="code"><pre><code>import requests
 
 data = requests.get("https://gzw-data.dev/api/v1/weapons?per_page=5").json()["data"]</code></pre></div></div></div>
-<h2 id="2-fetch-one-record">2. Fetch one record<a class="anchor" href="#2-fetch-one-record" aria-label="Link to this section">#</a></h2>
+<h2 id="2-fetch-one-record"><span id="single-record"></span>2. Fetch one record<a class="anchor" href="#2-fetch-one-record" aria-label="Link to this section">#</a></h2>
 <p>Records are addressed by canonical ID. Reviewed legacy IDs resolve to the same record.</p>
 <div class="tabset"><div class="tab-list" role="tablist"><button type="button" role="tab" id="t2-0" aria-controls="t2-p0" aria-selected="true">cURL</button><button type="button" role="tab" id="t2-1" aria-controls="t2-p1" aria-selected="false" tabindex="-1">JavaScript</button><button type="button" role="tab" id="t2-2" aria-controls="t2-p2" aria-selected="false" tabindex="-1">Python</button></div><div role="tabpanel" id="t2-p0" aria-labelledby="t2-0"><div class="code"><pre><code>curl "https://gzw-data.dev/api/v1/weapons/ak-12"</code></pre></div></div><div role="tabpanel" id="t2-p1" aria-labelledby="t2-1" hidden><div class="code"><pre><code>const res = await fetch("https://gzw-data.dev/api/v1/weapons/ak-12");
 const { data } = await res.json();</code></pre></div></div><div role="tabpanel" id="t2-p2" aria-labelledby="t2-2" hidden><div class="code"><pre><code>import requests
 
 data = requests.get("https://gzw-data.dev/api/v1/weapons/ak-12").json()["data"]</code></pre></div></div></div>
-<h2 id="3-read-the-response">3. Read the response<a class="anchor" href="#3-read-the-response" aria-label="Link to this section">#</a></h2>
+<h2 id="3-read-the-response"><span id="responses"></span>3. Read the response<a class="anchor" href="#3-read-the-response" aria-label="Link to this section">#</a></h2>
 <p>Every successful response carries <code>data</code>, <code>source</code>, <code>timestamp</code> and <code>dataVersion</code>. See <a href="/responses/">Response format</a>.</p>
 <div class="code"><span class="label">example response</span><pre><code>{
   "data": { "name": "AK-12", "id": "ak-12", "type": "Assault Rifle", "caliber": "5.45x39mm" },

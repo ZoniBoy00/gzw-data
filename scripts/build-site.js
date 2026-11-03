@@ -56,11 +56,13 @@ const sprite = html => {
 // Add ids and hover anchors to headings; collect them for the right-hand TOC and search index.
 function processHeadings(html) {
   const headings = [];
-  // <h2 data-id="sdk"> pins an anchor that older external links already use.
-  const body = html.replace(/<h([23])(?: data-id="([a-z0-9-]+)")?>(.*?)<\/h\1>/g, (_m, level, pinned, inner) => {
+  // <h2 data-id="sdk"> pins the heading's id; <h2 data-alias="quickstart"> also keeps an anchor that older
+  // external links already use (an empty span, so the page still scrolls to the right section).
+  const body = html.replace(/<h([23])(?: data-id="([a-z0-9-]+)")?(?: data-alias="([a-z0-9 -]+)")?>(.*?)<\/h\1>/g, (_m, level, pinned, aliases, inner) => {
     const id = pinned || slugify(inner);
     headings.push({ level: Number(level), id, text: inner.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&') });
-    return `<h${level} id="${id}">${inner}<a class="anchor" href="#${id}" aria-label="Link to this section">#</a></h${level}>`;
+    const legacy = (aliases || '').split(' ').filter(Boolean).map(a => `<span id="${a}"></span>`).join('');
+    return `<h${level} id="${id}">${legacy}${inner}<a class="anchor" href="#${id}" aria-label="Link to this section">#</a></h${level}>`;
   });
   return { body, headings };
 }

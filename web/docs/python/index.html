@@ -105,7 +105,7 @@
 <p class="lead">A small client for Python 3.9+ with no dependencies. It handles pagination, search, retries that honour <code>Retry-After</code>, and structured errors.</p>
 <p><a href="https://pypi.org/project/gzw-data/" target="_blank" rel="noopener noreferrer">gzw-data on PyPI ↗</a>, latest release <code data-pkg-version="pypi">0.2.0</code>. Tested on Python 3.9, 3.11 and 3.13.</p>
 <div class="callout note"><strong class="title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-info"></use></svg> Same data as every other client</strong><p>Datasets are resolved from the live API. New datasets work immediately with <code>client.list("name")</code>, with nothing to update in the package.</p></div>
-<h2 id="install-and-make-a-request">Install and make a request<a class="anchor" href="#install-and-make-a-request" aria-label="Link to this section">#</a></h2>
+<h2 id="install-and-make-a-request"><span id="quickstart"></span>Install and make a request<a class="anchor" href="#install-and-make-a-request" aria-label="Link to this section">#</a></h2>
 <div class="code"><pre><code>pip install gzw-data</code></pre></div>
 <div class="code"><pre><code>from gzw_data import GzwDataClient
 
@@ -116,7 +116,7 @@ print(weapon["name"], weapon["caliber"])
 page = client.list("weapons", per_page=5)
 print(page["total"], [w["name"] for w in page["data"]])</code></pre></div>
 <p>Every method returns plain dictionaries and lists, exactly as the API sends them.</p>
-<h2 id="datasets-and-records">Datasets and records<a class="anchor" href="#datasets-and-records" aria-label="Link to this section">#</a></h2>
+<h2 id="datasets-and-records"><span id="datasets"></span>Datasets and records<a class="anchor" href="#datasets-and-records" aria-label="Link to this section">#</a></h2>
 <p><code>datasets()</code> maps every dataset name to its record count. <code>get()</code> returns one record, or <code>None</code> when the ID does not exist. <code>iterate()</code> walks every page for you.</p>
 <div class="code"><pre><code>names = client.datasets()           # {'ammo': 79, 'weapons': 44, ...}
 print(len(names), "datasets")
@@ -126,7 +126,7 @@ record = client.get("weapons", "does-not-exist")   # None
 for ammo in client.iterate("ammo"):               # every record, page by page
     print(ammo["name"])</code></pre></div>
 <p><code>list()</code> returns one page with the full envelope: <code>data</code>, <code>page</code>, <code>perPage</code>, <code>total</code> and <code>totalPages</code>.</p>
-<h2 id="search-and-filters">Search and filters<a class="anchor" href="#search-and-filters" aria-label="Link to this section">#</a></h2>
+<h2 id="search-and-filters"><span id="search"></span>Search and filters<a class="anchor" href="#search-and-filters" aria-label="Link to this section">#</a></h2>
 <p>Search inside one dataset with <code>search=</code>, or across all datasets with <code>search()</code>. Extra keyword arguments become query filters.</p>
 <div class="code"><pre><code># Inside one dataset
 for gun in client.iterate("weapons", search="AK"):
@@ -138,7 +138,7 @@ print(list(results))
 
 # Filter by any string field
 keycards = client.list("keys", type="Keycard", per_page=25)</code></pre></div>
-<h2 id="errors-and-retries">Errors and retries<a class="anchor" href="#errors-and-retries" aria-label="Link to this section">#</a></h2>
+<h2 id="errors-and-retries"><span id="errors"></span>Errors and retries<a class="anchor" href="#errors-and-retries" aria-label="Link to this section">#</a></h2>
 <p>Failures raise <code>GzwApiError</code> with <code>status</code>, a stable <code>code</code>, the request <code>url</code> and, for rate limits, <code>retry_after</code> in seconds. Rate-limit (429) and server (5xx) responses are retried with backoff, and a <code>Retry-After</code> header is honoured up to <code>max_retry_wait</code>. Client errors such as 404 or 400 are not retried.</p>
 <div class="code"><pre><code>from gzw_data import GzwApiError, GzwDataClient
 
@@ -157,7 +157,7 @@ except GzwApiError as error:
     user_agent="my-bot/1.0",
 )</code></pre></div>
 <p>For tests, pass <code>opener=</code> with a function that behaves like <code>urllib.request.urlopen</code>. The client's own test suite does this.</p>
-<h2 id="rate-limit">Rate limit<a class="anchor" href="#rate-limit" aria-label="Link to this section">#</a></h2>
+<h2 id="rate-limit"><span id="limits"></span>Rate limit<a class="anchor" href="#rate-limit" aria-label="Link to this section">#</a></h2>
 <ul>
   <li>The API allows about 100 requests per minute per IP address, on a best-effort basis.</li>
   <li><code>iterate()</code> reads 100 records per request. Walking all datasets takes roughly one request per dataset, so cache results in a long-running bot instead of scanning on every command.</li>

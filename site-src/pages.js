@@ -90,12 +90,12 @@ ${callout('note', 'Fan-made project', '<p>GZW Data is community-run and not affi
     title: 'Quick start', desc: 'Make your first GZW Data API request in cURL, JavaScript or Python.',
     body: `
 <p class="lead">All routes are read-only and return JSON. Use <code>/api/v1</code> for new integrations.</p>
-<h2>1. List a dataset</h2>
+<h2 data-alias="quickstart">1. List a dataset</h2>
 ${requestTabs('weapons?per_page=5')}
-<h2>2. Fetch one record</h2>
+<h2 data-alias="single-record">2. Fetch one record</h2>
 <p>Records are addressed by canonical ID. Reviewed legacy IDs resolve to the same record.</p>
 ${requestTabs('weapons/ak-12')}
-<h2>3. Read the response</h2>
+<h2 data-alias="responses">3. Read the response</h2>
 <p>Every successful response carries <code>data</code>, <code>source</code>, <code>timestamp</code> and <code>dataVersion</code>. See <a href="~/responses/">Response format</a>.</p>
 ${code(`{
   "data": { "name": "AK-12", "id": "ak-12", "type": "Assault Rifle", "caliber": "5.45x39mm" },
@@ -239,12 +239,12 @@ ${callout('warn', 'Be a good client', '<p>Do not proxy or hammer the API to bypa
     title: 'Examples', desc: 'Copyable cURL, JavaScript, TypeScript SDK and Python requests for the GZW Data API.',
     body: `
 <p class="lead">Every example uses the public, read-only v1 API. Use plain HTTP from any language, or a client library for typed helpers.</p>
-<h2>List a page</h2>
+<h2 data-alias="rest">List a page</h2>
 ${code(`curl -sS "${BASE}/weapons?page=1&per_page=5"`)}
 <p>REST uses <code>per_page</code>. The JavaScript SDK uses the equivalent camelCase option <code>perPage</code>.</p>
 <h2>Fetch one record by ID</h2>
 ${code(`curl -sS ${BASE}/weapons/ak-12`)}
-<h2>Search and inspect metadata</h2>
+<h2 data-alias="discover">Search and inspect metadata</h2>
 ${code(`curl -sS "${BASE}/search?q=AK&dataset=weapons&limit=5"
 curl -sS "${BASE}/metadata?full=true"`)}
 <h2 data-id="sdk">Use the SDK for typed helpers</h2>
@@ -264,7 +264,7 @@ const selectedName: string = datasetNames[0] ?? "weapons";
 const resource = gzw.dataset(selectedName);
 const info = await resource.info();
 const firstPage = await resource.list({ page: 1, perPage: 20 });`)}
-<h2>Fetch from a browser app</h2>
+<h2 data-alias="browser">Fetch from a browser app</h2>
 <p>For a small prototype, call the REST endpoint with standard <code>fetch</code>. Check <code>response.ok</code> before treating the body as a success.</p>
 ${code(`const params = new URLSearchParams({ page: "1", per_page: "5" });
 const response = await fetch(
@@ -321,7 +321,7 @@ ${callout('note', 'Older Node.js', '<p>Client 0.9.0 needs Node.js 22+. Version 0
 <p class="lead">A small, typed client for Node.js 22+ and modern browsers. It handles dataset requests, pagination, retries and typed errors without a runtime dependency.</p>
 <p><a href="https://www.npmjs.com/package/@zoniboy/gzw-data-client" target="_blank" rel="noopener noreferrer">@zoniboy/gzw-data-client on npm ↗</a>, latest release <code data-pkg-version="npm">0.9.0</code>.</p>
 ${callout('note', 'Datasets come from the live API', '<p>The generated TypeScript autocomplete list is only a snapshot. New API datasets stay usable without an npm update.</p>')}
-<h2>Install and fetch a page</h2>
+<h2 data-alias="quickstart">Install and fetch a page</h2>
 ${code('npm install @zoniboy/gzw-data-client')}
 ${code(`import { GzwDataClient } from "@zoniboy/gzw-data-client";
 
@@ -333,7 +333,7 @@ const page = await gzw.dataset("weapons").list({
 console.log(page.data);
 console.log(page.total);`)}
 <p>The SDK uses camelCase options such as <code>perPage</code>. Direct REST requests use the API's query spelling, <code>per_page</code>.</p>
-<h2>Discover datasets at runtime</h2>
+<h2 data-alias="discover">Discover datasets at runtime</h2>
 <p>Use <code>metadata()</code> when an application needs the current dataset names. Newly added datasets can be passed to <code>dataset(name)</code> immediately.</p>
 ${code(`const registry = await gzw.metadata();
 const datasetNames = registry.datasets.map((dataset) => dataset.name);
@@ -342,7 +342,7 @@ const selectedDataset = gzw.dataset(selectedName);
 const info = await selectedDataset.info();
 const records = await selectedDataset.list({ page: 1, perPage: 20 });`)}
 <p>For a newly discovered dataset, TypeScript uses the generic <code>GzwRecord</code> fallback: fields stay accessible, but fields without a curated model have type <code>unknown</code>.</p>
-<h2>List, filter, search and fetch</h2>
+<h2 data-alias="operations">List, filter, search and fetch</h2>
 <p>Each dataset resource provides the same core operations. Filters and pagination can be combined.</p>
 ${code(`const keys = gzw.dataset("keys");
 const keycards = await keys.filter(
@@ -374,11 +374,11 @@ const records = await gzw.dataset("weapons").getMany(
   { concurrency: 4 },
 );`)}
 <p>Helpers are also available for <code>stats()</code>, <code>health()</code>, <code>ready()</code>, <code>version()</code>, <code>metadata()</code>, <code>schema()</code>, <code>changes()</code>, <code>images()</code> and <code>spec()</code>.</p>
-<h2>Types and autocomplete</h2>
+<h2 data-alias="types">Types and autocomplete</h2>
 <p>The <code>KnownGzwDataset</code> union gives editor suggestions for names in the published SDK snapshot. Autocomplete is computed from local declarations, so it cannot query the API while you type. For a live picker inside your app, populate it from <code>gzw.metadata()</code>.</p>
 <p><code>GzwDataset</code> also accepts arbitrary strings, so a name returned by the API works even if it is absent from the snapshot. Strongly typed models exist for selected stable datasets; unknown records use <code>GzwRecord</code>.</p>
 ${callout('tip', 'When does autocomplete change?', '<p>The SDK repository can refresh its generated names with <code>npm run generate-types</code>. Consumers receive new suggestions only when a later package version is published and installed. Routine dataset or count changes never trigger an npm release.</p>')}
-<h2>Errors, retries and cancellation</h2>
+<h2 data-alias="errors">Errors, retries and cancellation</h2>
 <p>HTTP failures are exposed as <code>GzwApiError</code> with status, stable code, request URL and retry information. The client retries eligible rate-limit, server, transient network and invalid-response failures by default. It respects <code>Retry-After</code> and does not retry caller-aborted requests.</p>
 ${code(`import { GzwApiError } from "@zoniboy/gzw-data-client";
 
@@ -390,7 +390,7 @@ try {
   }
 }`)}
 <p>Pass an <code>AbortSignal</code> as the final method argument to cancel a request. A configured <code>timeoutMs</code> bounds each network attempt.</p>
-<h2>Configure retries, timeout and cache</h2>
+<h2 data-alias="configuration">Configure retries, timeout and cache</h2>
 <p>Defaults work for a small app. The response cache is off unless you configure a positive TTL, and it is in-memory per process, not persistent storage.</p>
 ${code(`const gzw = new GzwDataClient({
   retries: 2,
@@ -398,7 +398,7 @@ ${code(`const gzw = new GzwDataClient({
   cache: { ttlMs: 30_000, maxEntries: 100 },
 });`)}
 <p>Only successful GET responses are cached. Use <code>clearCache()</code> to clear all entries, or pass a path to invalidate one route's cached query variants.</p>
-<h2>Runtime, freshness and limits</h2>
+<h2 data-alias="runtime">Runtime, freshness and limits</h2>
 <ul>
   <li>Release 0.9.0 targets Node.js 22+ and modern browsers with native <code>fetch</code>. Node.js 18 consumers can keep using 0.7.3. Browser projects should use a bundler such as Vite.</li>
   <li>The API is public, read-only and keyless, with a best-effort limit of 100 requests per minute per IP. See <a href="~/limits/">rate limits</a>.</li>
@@ -414,7 +414,7 @@ ${callout('note', 'Where to report problems', `<p>SDK behaviour goes to the <a h
 <p class="lead">A small client for Python 3.9+ with no dependencies. It handles pagination, search, retries that honour <code>Retry-After</code>, and structured errors.</p>
 <p><a href="https://pypi.org/project/gzw-data/" target="_blank" rel="noopener noreferrer">gzw-data on PyPI ↗</a>, latest release <code data-pkg-version="pypi">0.2.0</code>. Tested on Python 3.9, 3.11 and 3.13.</p>
 ${callout('note', 'Same data as every other client', '<p>Datasets are resolved from the live API. New datasets work immediately with <code>client.list("name")</code>, with nothing to update in the package.</p>')}
-<h2>Install and make a request</h2>
+<h2 data-alias="quickstart">Install and make a request</h2>
 ${code(`pip install gzw-data`)}
 ${code(`from gzw_data import GzwDataClient
 
@@ -425,7 +425,7 @@ print(weapon["name"], weapon["caliber"])
 page = client.list("weapons", per_page=5)
 print(page["total"], [w["name"] for w in page["data"]])`)}
 <p>Every method returns plain dictionaries and lists, exactly as the API sends them.</p>
-<h2>Datasets and records</h2>
+<h2 data-alias="datasets">Datasets and records</h2>
 <p><code>datasets()</code> maps every dataset name to its record count. <code>get()</code> returns one record, or <code>None</code> when the ID does not exist. <code>iterate()</code> walks every page for you.</p>
 ${code(`names = client.datasets()           # {'ammo': 79, 'weapons': 44, ...}
 print(len(names), "datasets")
@@ -435,7 +435,7 @@ record = client.get("weapons", "does-not-exist")   # None
 for ammo in client.iterate("ammo"):               # every record, page by page
     print(ammo["name"])`)}
 <p><code>list()</code> returns one page with the full envelope: <code>data</code>, <code>page</code>, <code>perPage</code>, <code>total</code> and <code>totalPages</code>.</p>
-<h2>Search and filters</h2>
+<h2 data-alias="search">Search and filters</h2>
 <p>Search inside one dataset with <code>search=</code>, or across all datasets with <code>search()</code>. Extra keyword arguments become query filters.</p>
 ${code(`# Inside one dataset
 for gun in client.iterate("weapons", search="AK"):
@@ -447,7 +447,7 @@ print(list(results))
 
 # Filter by any string field
 keycards = client.list("keys", type="Keycard", per_page=25)`)}
-<h2>Errors and retries</h2>
+<h2 data-alias="errors">Errors and retries</h2>
 <p>Failures raise <code>GzwApiError</code> with <code>status</code>, a stable <code>code</code>, the request <code>url</code> and, for rate limits, <code>retry_after</code> in seconds. Rate-limit (429) and server (5xx) responses are retried with backoff, and a <code>Retry-After</code> header is honoured up to <code>max_retry_wait</code>. Client errors such as 404 or 400 are not retried.</p>
 ${code(`from gzw_data import GzwApiError, GzwDataClient
 
@@ -466,7 +466,7 @@ ${code(`client = GzwDataClient(
     user_agent="my-bot/1.0",
 )`)}
 <p>For tests, pass <code>opener=</code> with a function that behaves like <code>urllib.request.urlopen</code>. The client's own test suite does this.</p>
-<h2>Rate limit</h2>
+<h2 data-alias="limits">Rate limit</h2>
 <ul>
   <li>The API allows about 100 requests per minute per IP address, on a best-effort basis.</li>
   <li><code>iterate()</code> reads 100 records per request. Walking all datasets takes roughly one request per dataset, so cache results in a long-running bot instead of scanning on every command.</li>

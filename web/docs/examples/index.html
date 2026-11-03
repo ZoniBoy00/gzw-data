@@ -101,12 +101,12 @@
         <h1>Examples</h1>
 
 <p class="lead">Every example uses the public, read-only v1 API. Use plain HTTP from any language, or a client library for typed helpers.</p>
-<h2 id="list-a-page">List a page<a class="anchor" href="#list-a-page" aria-label="Link to this section">#</a></h2>
+<h2 id="list-a-page"><span id="rest"></span>List a page<a class="anchor" href="#list-a-page" aria-label="Link to this section">#</a></h2>
 <div class="code"><pre><code>curl -sS "https://gzw-data.dev/api/v1/weapons?page=1&amp;per_page=5"</code></pre></div>
 <p>REST uses <code>per_page</code>. The JavaScript SDK uses the equivalent camelCase option <code>perPage</code>.</p>
 <h2 id="fetch-one-record-by-id">Fetch one record by ID<a class="anchor" href="#fetch-one-record-by-id" aria-label="Link to this section">#</a></h2>
 <div class="code"><pre><code>curl -sS https://gzw-data.dev/api/v1/weapons/ak-12</code></pre></div>
-<h2 id="search-and-inspect-metadata">Search and inspect metadata<a class="anchor" href="#search-and-inspect-metadata" aria-label="Link to this section">#</a></h2>
+<h2 id="search-and-inspect-metadata"><span id="discover"></span>Search and inspect metadata<a class="anchor" href="#search-and-inspect-metadata" aria-label="Link to this section">#</a></h2>
 <div class="code"><pre><code>curl -sS "https://gzw-data.dev/api/v1/search?q=AK&amp;dataset=weapons&amp;limit=5"
 curl -sS "https://gzw-data.dev/api/v1/metadata?full=true"</code></pre></div>
 <h2 id="sdk">Use the SDK for typed helpers<a class="anchor" href="#sdk" aria-label="Link to this section">#</a></h2>
@@ -126,7 +126,7 @@ const selectedName: string = datasetNames[0] ?? "weapons";
 const resource = gzw.dataset(selectedName);
 const info = await resource.info();
 const firstPage = await resource.list({ page: 1, perPage: 20 });</code></pre></div>
-<h2 id="fetch-from-a-browser-app">Fetch from a browser app<a class="anchor" href="#fetch-from-a-browser-app" aria-label="Link to this section">#</a></h2>
+<h2 id="fetch-from-a-browser-app"><span id="browser"></span>Fetch from a browser app<a class="anchor" href="#fetch-from-a-browser-app" aria-label="Link to this section">#</a></h2>
 <p>For a small prototype, call the REST endpoint with standard <code>fetch</code>. Check <code>response.ok</code> before treating the body as a success.</p>
 <div class="code"><pre><code>const params = new URLSearchParams({ page: "1", per_page: "5" });
 const response = await fetch(
