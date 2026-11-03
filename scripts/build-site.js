@@ -160,7 +160,8 @@ const footer = link(`<footer class="footer">
 const palette = `<div class="palette" role="dialog" aria-modal="true" aria-label="Search documentation"><div class="palette-box"><input type="text" name="q" role="combobox" aria-expanded="false" aria-controls="palette-list" aria-autocomplete="list" placeholder="Search pages and sections…" autocomplete="off" aria-label="Search documentation"><div class="palette-list" id="palette-list" role="listbox" aria-label="Results"></div></div></div>`;
 
 function scriptsFor(page) {
-  const deferred = [`/assets/versions.js`, '/assets/site.js', ...(page.scripts || []).map(f => `/assets/${f}`)]
+  // Vercel Web Analytics serves this script from our own origin, so it fits script-src 'self'.
+  const deferred = [`/assets/versions.js`, '/assets/site.js', ...(page.scripts || []).map(f => `/assets/${f}`), '/_vercel/insights/script.js']
     .map(src => `<script src="${src}" defer></script>`).join('\n  ');
   return `<script src="/assets/nav.js"></script>\n  ${deferred}`;
 }

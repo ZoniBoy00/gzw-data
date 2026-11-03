@@ -599,7 +599,7 @@ ${callout('note', 'Where to report problems', `<p>Client behaviour goes to the <
 </ul>
 ${callout('warn', 'Not legal advice', `<p>Verify the license for the specific source page and asset you reuse. See the full <a href="${GH}/blob/main/DATA_LICENSE.md">DATA_LICENSE.md</a>.</p>`)}
 <h2>Privacy and terms</h2>
-<p>No accounts, no cookies, no analytics. Read the <a href="~/privacy/">Privacy Policy</a> and <a href="~/terms/">Terms of Service</a>.</p>
+<p>No accounts, no cookies, only anonymous aggregate page-view statistics. Read the <a href="~/privacy/">Privacy Policy</a> and <a href="~/terms/">Terms of Service</a>.</p>
 `,
   },
   {
