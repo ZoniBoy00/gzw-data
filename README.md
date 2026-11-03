@@ -38,7 +38,7 @@ The API includes a dark, responsive developer console for exploring live dataset
 - **Console:** https://gzw-data.dev/
 - **API Playground:** https://gzw-data.dev/playground/
 - **Feedback desk:** https://gzw-data.dev/feedback/
-- **Quick start & API reference:** https://gzw-data.dev/docs/#quickstart
+- **Quick start & API reference:** https://gzw-data.dev/docs/
 - **JavaScript / TypeScript SDK guide:** https://gzw-data.dev/docs/sdk/
 - **Copyable API & SDK examples:** https://gzw-data.dev/docs/examples/
 - **Python client guide:** https://gzw-data.dev/docs/python/
@@ -56,7 +56,9 @@ npm install
 npm run dev:server
 ```
 
-This serves the console at `http://127.0.0.1:4173/`, the Playground at `/playground/`, the Feedback desk at `/feedback/`, and the local API at `/api/v1/health`.
+This serves the docs site at `http://127.0.0.1:4173/`, the Playground at `/playground/`, the Feedback desk at `/feedback/`, and the local API at `/api/v1/health`.
+
+The site is static HTML generated from `site-src/pages.js` (page content), `site-src/legal/` (Privacy Policy and Terms text) and `site-src/icons/` (Lucide icons, ISC). After editing any of them, run `npm run build:site` to regenerate `web/**/index.html`, `404.html` and the search index; `npm test` fails when the generated files are stale. Styles and scripts live in `web/assets/` and must stay CSP-safe (no inline scripts or styles).
 
 The console includes a live dataset explorer, search, pagination, dataset counts, endpoint catalog, query examples and responsive mobile navigation. No API key is required. The published `@zoniboy/gzw-data-client` 0.9.0 requires Node.js 22+ and supports modern browsers; 0.7.3 remains the last Node.js 18+-compatible release. New API data remains available at runtime without an npm release.
 

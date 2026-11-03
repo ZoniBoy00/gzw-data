@@ -43,9 +43,7 @@ function serveStatic(req, res) {
   } catch {
     return send(res, 400, 'Bad request');
   }
-  // Mirror the legal-page rewrites from vercel.json.
-  const legalAlias = requestPath.replace(/\/+$/, '').match(/^\/(privacy-policy|terms-of-service)$/);
-  const relativePath = legalAlias ? `legal/${legalAlias[1]}/index.html` : requestPath === '/' ? 'index.html' : requestPath.replace(/^\/+/, '');
+  const relativePath = requestPath === '/' ? 'index.html' : requestPath.replace(/^\/+/, '');
   const candidates = [path.join(webRoot, relativePath)];
   if (!path.extname(relativePath)) candidates.push(path.join(webRoot, relativePath, 'index.html'));
   const filePath = candidates.find(candidate => candidate.startsWith(`${webRoot}${path.sep}`) && fs.existsSync(candidate) && fs.statSync(candidate).isFile());

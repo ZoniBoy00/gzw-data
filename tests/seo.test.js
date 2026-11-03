@@ -7,12 +7,12 @@ const root = path.resolve(__dirname, '..');
 const legalPages = [
   {
     path: '/privacy-policy/',
-    file: 'web/legal/privacy-policy/index.html',
+    file: 'web/privacy-policy/index.html',
     canonical: 'https://gzw-data.dev/privacy-policy/',
   },
   {
     path: '/terms-of-service/',
-    file: 'web/legal/terms-of-service/index.html',
+    file: 'web/terms-of-service/index.html',
     canonical: 'https://gzw-data.dev/terms-of-service/',
   },
 ];
@@ -23,9 +23,8 @@ for (const page of legalPages) {
     const sitemap = fs.readFileSync(path.join(root, 'web/sitemap.xml'), 'utf8');
 
     assert.match(html, new RegExp(`<link\\s+rel=["']canonical["']\\s+href=["']${page.canonical}["']`));
-    assert.match(html, /<link\s+rel=["']stylesheet["']\s+href=["']\/assets\/legal\.css(?:\?v=[0-9a-f]+)?["']/);
+    assert.match(html, /<link\s+rel=["']stylesheet["']\s+href=["']\/assets\/site\.css(?:\?v=[0-9a-f]+)?["']/);
     assert.doesNotMatch(html, /<style\b/i);
-    assert.ok(fs.existsSync(path.join(root, 'web/assets/legal.css')));
     assert.equal(sitemap.split(page.canonical).length - 1, 1);
   });
 }

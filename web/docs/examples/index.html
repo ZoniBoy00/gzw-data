@@ -1,136 +1,152 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Copy practical cURL, JavaScript, TypeScript SDK and Python examples for the public GZW Data API.">
-  <meta property="og:title" content="API & SDK Examples · GZW Data">
-  <meta property="og:description" content="Practical requests for the GZW Data REST API and the JavaScript/TypeScript and Python clients.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://gzw-data.dev/docs/examples/">
+  <meta name="color-scheme" content="dark light">
+
+  <title>Examples · GZW Data</title>
+  <meta name="description" content="Copyable cURL, JavaScript, TypeScript SDK and Python requests for the GZW Data API.">
+
   <link rel="canonical" href="https://gzw-data.dev/docs/examples/">
-  <link rel="icon" type="image/png" sizes="48x48" href="/assets/gzw-data-favicon-48.png">
-  <link rel="apple-touch-icon" href="/assets/gzw-data-apple-touch.png">
-  <meta name="theme-color" content="#090b0d">
+  <meta name="theme-color" content="#0a0c0e">
+  <meta property="og:title" content="Examples · GZW Data">
+  <meta property="og:description" content="Copyable cURL, JavaScript, TypeScript SDK and Python requests for the GZW Data API.">
+  <meta property="og:type" content="website">
   <meta property="og:site_name" content="GZW Data">
+  <meta property="og:url" content="https://gzw-data.dev/docs/examples/">
   <meta property="og:image" content="https://gzw-data.dev/assets/og-image.png">
   <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="API &amp; SDK Examples · GZW Data">
+  <meta name="twitter:title" content="Examples · GZW Data">
   <meta name="twitter:image" content="https://gzw-data.dev/assets/og-image.png">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/gzw-data-favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/gzw-data-apple-touch.png">
+  <script src="/assets/theme.js?v=42a98b74"></script>
   <link rel="preload" href="/assets/fonts/barlow-semi-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/site.css?v=1f6dfa18">
-  <link rel="stylesheet" href="/assets/footer.css?v=12a5a91c">
-  <title>API &amp; SDK Examples · GZW Data</title>
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"GZW Data","item":"https://gzw-data.dev/"},{"@type":"ListItem","position":2,"name":"API reference","item":"https://gzw-data.dev/docs/"},{"@type":"ListItem","position":3,"name":"Examples","item":"https://gzw-data.dev/docs/examples/"}]},{"@type":"TechArticle","headline":"API & SDK Examples","description":"Copy practical cURL, JavaScript, TypeScript SDK and Python examples for the public GZW Data API.","url":"https://gzw-data.dev/docs/examples/","inLanguage":"en","isPartOf":{"@id":"https://gzw-data.dev/#website"},"author":{"@type":"Person","name":"ZoniBoy00","url":"https://github.com/ZoniBoy00"}}]}</script>
+  <link rel="stylesheet" href="/assets/site.css?v=5806cafe">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"GZW Data","item":"https://gzw-data.dev/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://gzw-data.dev/"},{"@type":"ListItem","position":3,"name":"Examples","item":"https://gzw-data.dev/docs/examples/"}]},{"@type":"TechArticle","headline":"Examples","description":"Copyable cURL, JavaScript, TypeScript SDK and Python requests for the GZW Data API.","url":"https://gzw-data.dev/docs/examples/","inLanguage":"en","isPartOf":{"@id":"https://gzw-data.dev/#website"},"author":{"@type":"Person","name":"ZoniBoy00","url":"https://github.com/ZoniBoy00"}}]}</script>
 </head>
-<body data-page="api-examples">
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false"><symbol id="i-activity" viewBox="0 0 24 24"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" /></symbol><symbol id="i-book-marked" viewBox="0 0 24 24"><path d="M10 2v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834A.25.25 0 0016 9.751V2" />
+  <path d="M4 19.5v-15A2.5 2.5 0 016.5 2H19a1 1 0 011 1v18a1 1 0 01-1 1H6.5a1 1 0 010-5H20" /></symbol><symbol id="i-book-open" viewBox="0 0 24 24"><path d="M12 5v16" />
+  <path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol><symbol id="i-braces" viewBox="0 0 24 24"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1" />
+  <path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1" /></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol><symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6" /></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6" /></symbol><symbol id="i-circle-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" />
+  <line x1="12" x2="12" y1="8" y2="12" />
+  <line x1="12" x2="12.01" y1="16" y2="16" /></symbol><symbol id="i-circle-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></symbol><symbol id="i-coffee" viewBox="0 0 24 24"><path d="M10 2v2" />
+  <path d="M14 2v2" />
+  <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+  <path d="M6 2v2" /></symbol><symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" />
+  <path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z" /></symbol><symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" /></symbol><symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3" />
+  <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+  <path d="M3 12A9 3 0 0 0 21 12" /></symbol><symbol id="i-external-link" viewBox="0 0 24 24"><path d="M15 3h6v6" />
+  <path d="M10 14 21 3" />
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></symbol><symbol id="i-file-json" viewBox="0 0 24 24"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1" />
+  <path d="M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1" /></symbol><symbol id="i-file-text" viewBox="0 0 24 24"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+  <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+  <path d="M10 9H8" />
+  <path d="M16 13H8" />
+  <path d="M16 17H8" /></symbol><symbol id="i-filter" viewBox="0 0 24 24"><path d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z" /></symbol><symbol id="i-flask-conical" viewBox="0 0 24 24"><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2" />
+  <path d="M6.453 15h11.094" />
+  <path d="M8.5 2h7" /></symbol><symbol id="i-gauge" viewBox="0 0 24 24"><path d="m12 14 4-4" />
+  <path d="M3.34 19a10 10 0 1 1 17.32 0" /></symbol><symbol id="i-house" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+  <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
+  <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" />
+  <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" /></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" /></symbol><symbol id="i-message-square" viewBox="0 0 24 24"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" /></symbol><symbol id="i-package" viewBox="0 0 24 24"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" />
+  <path d="M12 22V12" />
+  <polyline points="3.29 7 12 12 20.71 7" />
+  <path d="m7.5 4.27 9 5.15" /></symbol><symbol id="i-rocket" viewBox="0 0 24 24"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+  <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09" />
+  <path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z" />
+  <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05" /></symbol><symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18" />
+  <path d="m19 8 3 8a5 5 0 0 1-6 0zV7" />
+  <path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1" />
+  <path d="m5 8 3 8a5 5 0 0 1-6 0zV7" />
+  <path d="M7 21h10" /></symbol><symbol id="i-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" />
+  <circle cx="11" cy="11" r="8" /></symbol><symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /></symbol><symbol id="i-square-terminal" viewBox="0 0 24 24"><path d="m7 11 2-2-2-2" />
+  <path d="M11 13h4" />
+  <rect width="18" height="18" x="3" y="3" rx="2" ry="2" /></symbol><symbol id="i-sun-moon" viewBox="0 0 24 24"><path d="M12 2v2" />
+  <path d="M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715" />
+  <path d="M16 12a4 4 0 0 0-4-4" />
+  <path d="m19 5-1.256 1.256" />
+  <path d="M20 12h2" /></symbol><symbol id="i-terminal" viewBox="0 0 24 24"><path d="M12 19h8" />
+  <path d="m4 17 6-6-6-6" /></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18" />
+  <path d="m6 6 12 12" /></symbol></svg>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
   <header class="topbar">
-    <button class="icon-button mobile-menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <a class="brand" href="/"><picture><source srcset="/assets/gzw-data-logo.webp" type="image/webp"><img class="brand-logo" src="/assets/gzw-data-logo.png" alt="" width="54" height="50"></picture><span><span class="brand-name">GZW Data</span><span class="brand-sub">API &amp; SDK examples</span></span></a>
-    <nav class="topnav" aria-label="Primary navigation"><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">SDK guide</a><a href="/docs/python/">Python</a><a class="active" href="/docs/examples/">Examples</a><a href="/playground/">Playground</a><a href="/feedback/">Feedback</a></nav>
+    <button class="menu-btn" type="button" aria-label="Toggle navigation" aria-controls="docs-nav" aria-expanded="false"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-menu"></use></svg></button>
+    <a class="brand" href="/"><picture><source srcset="/assets/gzw-data-logo.webp" type="image/webp"><img src="/assets/gzw-data-logo.png" alt="" width="30" height="28"></picture>GZW Data <small>docs</small></a>
+    <nav class="tabs" aria-label="Site sections"><a href="/" class="active" aria-current="true">Docs</a><a href="/datasets/">API reference</a><a href="/clients/">Clients</a><a href="/playground/">Tools</a></nav>
+    <div class="top-right">
+      <span class="status" role="status"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-activity"></use></svg><span data-status>API</span></span>
+      <button class="search-btn" type="button"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"></use></svg><span class="stext">Search docs…</span><kbd>Ctrl K</kbd></button>
+      <button class="theme-btn" type="button" aria-label="Switch to light theme"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-sun-moon"></use></svg></button>
+      <a class="icon-link" href="https://github.com/ZoniBoy00/gzw-data" target="_blank" rel="noopener noreferrer">GitHub <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a>
+    </div>
   </header>
   <div class="scrim"></div>
-
   <div class="shell">
-    <aside class="sidebar" aria-label="Documentation navigation">
-      <div class="sidebar-section">Documentation</div>
-      <a href="/docs/"><span aria-hidden="true">⌘</span> API reference</a>
-      <a href="/docs/sdk/"><span aria-hidden="true">◇</span> JavaScript SDK guide</a>
-      <a href="/docs/python/"><span aria-hidden="true">◈</span> Python client</a>
-      <a class="active" href="#rest"><span aria-hidden="true">▷</span> API &amp; SDK examples</a>
-      <a href="/playground/"><span aria-hidden="true">▶</span> API Playground</a>
-      <div class="sidebar-section">On this page</div>
-      <a href="#rest">REST requests</a>
-      <a href="#sdk">SDK quick start</a>
-      <a href="#discover">Live datasets</a>
-      <a href="#browser">Browser fetch</a>
-      <a href="#python">Python</a>
-      <div class="sidebar-note"><strong>Public API</strong>No API key · read-only JSON · use <span class="mono">/api/v1</span>.</div>
-    </aside>
+    <nav class="sidebar" id="docs-nav" aria-label="Documentation"><div class="nav-group"><p class="nav-title">Getting started</p><ul><li><a href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-house"></use></svg><span>Introduction</span></a></li><li><a href="/docs/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-rocket"></use></svg><span>Quick start</span></a></li></ul></div><div class="nav-group"><p class="nav-title">API reference</p><ul><li><a href="/datasets/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-database"></use></svg><span>Datasets</span></a></li><li><a href="/querying/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-filter"></use></svg><span>Filters, search &amp; pagination</span></a></li><li><a href="/records/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-file-json"></use></svg><span>Records &amp; metadata</span></a></li><li><a href="/responses/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-braces"></use></svg><span>Response format</span></a></li><li><a href="/limits/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-gauge"></use></svg><span>Rate limits &amp; caching</span></a></li></ul></div><div class="nav-group"><p class="nav-title">Guides</p><ul><li><a href="/docs/examples/" class="active" aria-current="page"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book-open"></use></svg><span>Examples</span></a></li></ul></div><div class="nav-group"><p class="nav-title">Clients</p><ul><li><a href="/clients/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-package"></use></svg><span>Overview</span></a></li><li><a href="/docs/sdk/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-square-terminal"></use></svg><span>JavaScript &amp; TypeScript</span></a></li><li><a href="/docs/python/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-terminal"></use></svg><span>Python</span></a></li><li><a href="https://www.npmjs.com/package/@zoniboy/gzw-data-client" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-package"></use></svg><span>npm package</span><svg class="icon ext" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a></li><li><a href="https://pypi.org/project/gzw-data/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-package"></use></svg><span>PyPI package</span><svg class="icon ext" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a></li></ul></div><div class="nav-group"><p class="nav-title">Tools</p><ul><li><a href="/playground/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flask-conical"></use></svg><span>Playground</span></a></li><li><a href="/explorer/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-compass"></use></svg><span>Data explorer</span></a></li><li><a href="/status/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-activity"></use></svg><span>Data status</span></a></li><li><a href="/api/v1/spec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-file-json"></use></svg><span>OpenAPI spec</span><svg class="icon ext" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a></li></ul></div><div class="nav-group"><p class="nav-title">Project</p><ul><li><a href="/data-sources/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-scale"></use></svg><span>Data sources &amp; licensing</span></a></li><li><a href="/feedback/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-message-square"></use></svg><span>Feedback</span></a></li><li><a href="/privacy-policy/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"></use></svg><span>Privacy Policy</span></a></li><li><a href="/terms-of-service/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-file-text"></use></svg><span>Terms of Service</span></a></li><li><a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-layers"></use></svg><span>GZW Tools</span><svg class="icon ext" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a></li><li><a href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-coffee"></use></svg><span>Support the project</span><svg class="icon ext" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a></li><li><a href="https://github.com/ZoniBoy00/gzw-data" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book-marked"></use></svg><span>GitHub</span><svg class="icon ext" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a></li></ul></div></nav>
+    <main class="main" id="content" tabindex="-1">
+      <div class="crumbs"><a href="/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-house"></use></svg> Docs</a><span aria-hidden="true">/</span><span>Guides</span><span aria-hidden="true">/</span><span>Examples</span></div>
+      <article class="doc">
+        <h1>Examples</h1>
 
-    <main>
-      <div class="content">
-        <section class="hero docs-hero" aria-labelledby="examples-title">
-          <div><h1 id="examples-title">One API.<br><em>Pick your client.</em></h1><p class="hero-copy">Every example uses the public, read-only v1 API. Choose plain HTTP for any language, or the official TypeScript client for typed helpers.</p></div>
-          <div class="hero-aside"><div class="hero-aside-label">Versioned base URL</div><code class="base-url">https://gzw-data.dev/api/v1</code><div class="button-row"><a class="button primary" href="/docs/">Full API reference ↗</a><a class="button" href="/docs/sdk/">SDK guide ↗</a></div></div>
-        </section>
-
-        <section class="api-facts" aria-label="API facts">
-          <div class="api-fact"><span class="api-fact-label">Authentication</span><strong>None</strong><span>No key or account required.</span></div>
-          <div class="api-fact"><span class="api-fact-label">Response</span><strong>JSON</strong><span>Read-only GET routes.</span></div>
-          <div class="api-fact"><span class="api-fact-label">Rate limit</span><strong>Best-effort</strong><span>Cache and respect Retry-After.</span></div>
-        </section>
-
-        <div class="docs-layout">
-          <article class="docs-content">
-            <section id="rest">
-              <h2>REST requests with cURL</h2>
-              <p>Use the versioned endpoint directly. The API discovers published datasets automatically; check the <a href="/docs/#endpoints">live route catalog</a> for the current list.</p>
-              <h3>List a page</h3>
-              <div class="code-block"><button class="copy-button" type="button" data-copy-target="curl-list">Copy</button><code id="curl-list">curl -sS "https://gzw-data.dev/api/v1/weapons?page=1&amp;per_page=5"</code></div>
-              <p>REST uses <code>per_page</code>; the SDK uses the equivalent camelCase option <code>perPage</code>.</p>
-              <h3>Fetch one record by ID</h3>
-              <div class="code-block"><button class="copy-button" type="button" data-copy="curl -sS https://gzw-data.dev/api/v1/weapons/ak-12">Copy</button><code>curl -sS https://gzw-data.dev/api/v1/weapons/ak-12</code></div>
-              <h3>Search and inspect metadata</h3>
-              <div class="code-block"><button class="copy-button" type="button" data-copy-target="curl-search">Copy</button><code id="curl-search">curl -sS "https://gzw-data.dev/api/v1/search?q=AK&amp;dataset=weapons&amp;limit=5"
-
-curl -sS "https://gzw-data.dev/api/v1/metadata?full=true"</code></div>
-              <p>Search and metadata parameters are documented in the <a href="/docs/#queries">query guide</a> and <a href="/docs/#metadata">metadata reference</a>.</p>
-            </section>
-
-            <section id="sdk">
-              <h2>Use the SDK for typed helpers</h2>
-              <p>Install <code>@zoniboy/gzw-data-client</code> in Node.js 22+ (release <span data-pkg-version="npm">0.9.0</span>) or a modern browser app. Node.js 18 consumers can use release 0.7.3. It has no runtime dependencies and needs no API key.</p>
-              <div class="code-block"><button class="copy-button" type="button" data-copy="npm install @zoniboy/gzw-data-client">Copy</button><code>npm install @zoniboy/gzw-data-client</code></div>
-              <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-list">Copy</button><code id="sdk-list">import { GzwDataClient } from "@zoniboy/gzw-data-client";
+<p class="lead">Every example uses the public, read-only v1 API. Use plain HTTP from any language, or a client library for typed helpers.</p>
+<h2 id="list-a-page">List a page<a class="anchor" href="#list-a-page" aria-label="Link to this section">#</a></h2>
+<div class="code"><pre><code>curl -sS "https://gzw-data.dev/api/v1/weapons?page=1&amp;per_page=5"</code></pre></div>
+<p>REST uses <code>per_page</code>. The JavaScript SDK uses the equivalent camelCase option <code>perPage</code>.</p>
+<h2 id="fetch-one-record-by-id">Fetch one record by ID<a class="anchor" href="#fetch-one-record-by-id" aria-label="Link to this section">#</a></h2>
+<div class="code"><pre><code>curl -sS https://gzw-data.dev/api/v1/weapons/ak-12</code></pre></div>
+<h2 id="search-and-inspect-metadata">Search and inspect metadata<a class="anchor" href="#search-and-inspect-metadata" aria-label="Link to this section">#</a></h2>
+<div class="code"><pre><code>curl -sS "https://gzw-data.dev/api/v1/search?q=AK&amp;dataset=weapons&amp;limit=5"
+curl -sS "https://gzw-data.dev/api/v1/metadata?full=true"</code></pre></div>
+<h2 id="sdk">Use the SDK for typed helpers<a class="anchor" href="#sdk" aria-label="Link to this section">#</a></h2>
+<p>Install <code>@zoniboy/gzw-data-client</code> in Node.js 22+ or a modern browser app. It has no runtime dependencies and needs no API key. Details are in the <a href="/docs/sdk/">SDK guide</a>.</p>
+<div class="code"><pre><code>npm install @zoniboy/gzw-data-client</code></pre></div>
+<div class="code"><pre><code>import { GzwDataClient } from "@zoniboy/gzw-data-client";
 
 const gzw = new GzwDataClient();
 const page = await gzw.dataset("weapons").list({ page: 1, perPage: 5 });
-
 console.log(page.data);
-console.log(page.total);</code></div>
-              <p><a href="https://github.com/ZoniBoy00/gzw-data-js/blob/main/examples/sdk/quickstart.ts">Runnable, type-checked quick-start source ↗</a> · <a href="/docs/sdk/">Full SDK guide</a></p>
-            </section>
-
-            <section id="discover">
-              <h2>Build a live dataset picker</h2>
-              <p>Read names from the API registry at runtime. New datasets and fields are available without updating the npm package; compile-time autocomplete remains a local snapshot.</p>
-              <div class="code-block"><button class="copy-button" type="button" data-copy-target="sdk-discovery-example">Copy</button><code id="sdk-discovery-example">const registry = await gzw.metadata();
-const datasetNames = registry.datasets.map(({ name }) => name);
-
+console.log(page.total);</code></pre></div>
+<h2 id="build-a-live-dataset-picker">Build a live dataset picker<a class="anchor" href="#build-a-live-dataset-picker" aria-label="Link to this section">#</a></h2>
+<p>Read names from the API registry at runtime. New datasets and fields work without updating the npm package.</p>
+<div class="code"><pre><code>const registry = await gzw.metadata();
+const datasetNames = registry.datasets.map(({ name }) =&gt; name);
 const selectedName: string = datasetNames[0] ?? "weapons";
 const resource = gzw.dataset(selectedName);
 const info = await resource.info();
-const firstPage = await resource.list({ page: 1, perPage: 20 });</code></div>
-              <p>Unknown record fields use the generic <code>GzwRecord</code> fallback. See the <a href="/docs/sdk/#types">autocomplete explanation</a> and <a href="https://github.com/ZoniBoy00/gzw-data-js/blob/main/examples/sdk/dynamic-datasets.ts">runnable discovery example ↗</a>.</p>
-            </section>
-
-            <section id="browser">
-              <h2>Fetch from a browser app</h2>
-              <p>For a small prototype or a non-JavaScript SDK, the REST endpoint can be called with standard <code>fetch</code>. Check <code>response.ok</code> before treating the body as a successful result.</p>
-              <div class="code-block"><button class="copy-button" type="button" data-copy-target="browser-fetch">Copy</button><code id="browser-fetch">const params = new URLSearchParams({ page: "1", per_page: "5" });
+const firstPage = await resource.list({ page: 1, perPage: 20 });</code></pre></div>
+<h2 id="fetch-from-a-browser-app">Fetch from a browser app<a class="anchor" href="#fetch-from-a-browser-app" aria-label="Link to this section">#</a></h2>
+<p>For a small prototype, call the REST endpoint with standard <code>fetch</code>. Check <code>response.ok</code> before treating the body as a success.</p>
+<div class="code"><pre><code>const params = new URLSearchParams({ page: "1", per_page: "5" });
 const response = await fetch(
   `https://gzw-data.dev/api/v1/weapons?${params}`,
   { headers: { Accept: "application/json" } },
 );
-
 if (!response.ok) throw new Error(`GZW Data API: HTTP ${response.status}`);
 const payload = await response.json();
-console.log(payload.data);</code></div>
-            </section>
+console.log(payload.data);</code></pre></div>
+<h2 id="python">Python<a class="anchor" href="#python" aria-label="Link to this section">#</a></h2>
+<p>The client handles pagination, retries and errors. See the <a href="/docs/python/">Python guide</a>.</p>
+<div class="code"><pre><code>pip install gzw-data
 
-            <section id="python">
-              <h2>Python</h2>
-              <p>Install the client from PyPI. It handles pagination, retries and errors for you.</p>
-              <div class="code-block"><button class="copy-button" type="button" data-copy="pip install gzw-data">Copy</button><code>pip install gzw-data</code></div>
-              <div class="code-block"><button class="copy-button" type="button" data-copy-target="python-client-example">Copy</button><code id="python-client-example">from gzw_data import GzwDataClient
+from gzw_data import GzwDataClient
 
 client = GzwDataClient()
 for gun in client.iterate("weapons", search="AK"):
-    print(gun["name"], gun["caliber"])</code></div>
-              <p>Prefer plain HTTP? Pass query values separately instead of building an encoded URL by hand.</p>
-              <div class="code-block"><button class="copy-button" type="button" data-copy-target="python-example">Copy</button><code id="python-example">import requests
+    print(gun["name"], gun["caliber"])</code></pre></div>
+<p>Prefer plain HTTP? Pass query values separately instead of building an encoded URL by hand.</p>
+<div class="code"><pre><code>import requests
 
 response = requests.get(
     "https://gzw-data.dev/api/v1/search",
@@ -138,31 +154,29 @@ response = requests.get(
     timeout=10,
 )
 response.raise_for_status()
-print(response.json()["data"])</code></div>
-              <p>See the <a href="/docs/python/">Python client guide</a> for search, filters, errors and configuration, or the <a href="/docs/">API reference</a> for exact parameter names and rate limits.</p>
-            </section>
+print(response.json()["data"])</code></pre></div>
 
-            <section class="info-panel contact-panel"><h2>Keep exploring</h2><div class="button-row docs-action-row"><a class="button" href="/playground/">Try a live request</a><a class="button" href="/docs/">Read the API reference</a><a class="button primary" href="/docs/sdk/">Read the SDK guide</a><a class="button" href="/docs/python/">Python client guide</a></div></section>
-            <footer class="site-footer">
-          <div class="footer-grid">
-            <div class="footer-about"><strong>GZW Data</strong><p>A community-run, free data API for Gray Zone Warfare. Not affiliated with MADFINGER Games.</p><a class="saas-browser-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="200" height="70" loading="lazy"></a></div>
-            <nav aria-label="Product"><h2>Product</h2><a href="/">Overview</a><a href="/docs/">API reference</a><a href="/docs/sdk/">JavaScript SDK</a><a href="/docs/python/">Python client</a><a href="/playground/">Playground</a><a href="/docs/examples/">Examples</a></nav>
-            <nav aria-label="Community"><h2>Community</h2><a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools</a><a href="https://github.com/ZoniBoy00/gzw-data">GitHub</a><a href="/feedback/">Feedback desk</a><a href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">Support the project</a></nav>
-            <nav aria-label="Legal"><h2>Legal</h2><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a><a href="https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md">Data sources &amp; licensing</a><a href="/.well-known/security.txt">Security</a></nav>
-          </div>
-          <div class="footer-base">© <span data-year>2026</span> GZW Data · Code under MIT · Game data from the community wiki (CC BY-SA)</div>
-        </footer>
-          </article>
-          <nav class="anchor-nav" aria-label="On this page"><a href="#rest">REST</a><a href="#sdk">SDK</a><a href="#discover">Live datasets</a><a href="#browser">Browser</a><a href="#python">Python</a></nav>
-        </div>
+      </article>
+      <div class="pager">
+        <a class="prev" href="/limits/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-left"></use></svg><span><small>Previous</small><strong>Rate limits &amp; caching</strong></span></a>
+        <a class="next" href="/clients/"><span><small>Next</small><strong>Overview</strong></span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron-right"></use></svg></a>
       </div>
+      <p class="edit"><a href="https://github.com/ZoniBoy00/gzw-data/issues/new" target="_blank" rel="noopener noreferrer">Report a docs issue <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a></p>
+      <footer class="footer">
+        <p class="footer-note">© <span data-year>2026</span> GZW Data. Code under MIT, data from the community wiki (CC BY-SA). Not affiliated with MADFINGER Games.</p>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="/data-sources/">Data sources</a><a href="/privacy-policy/">Privacy</a><a href="/terms-of-service/">Terms</a><a href="/feedback/">Feedback</a><a href="/.well-known/security.txt">Security</a>
+          <a href="https://gzw-tools.vercel.app/" target="_blank" rel="noopener noreferrer">GZW Tools <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-external-link"></use></svg></a>
+          <a href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-coffee"></use></svg> Support the project</a>
+        </nav>
+        <a class="saas-badge" href="https://saasbrowser.com/en/saas/1693997/gzw-data" target="_blank" rel="noopener noreferrer"><img src="/assets/saas-browser-badge-12.svg" alt="GZW Data on SaaS Browser" width="140" height="49" loading="lazy"></a>
+      </footer>
     </main>
+    <nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><div class="toc-links"><span class="toc-marker" aria-hidden="true"></span><a href="#list-a-page">List a page</a><a href="#fetch-one-record-by-id">Fetch one record by ID</a><a href="#search-and-inspect-metadata">Search and inspect metadata</a><a href="#sdk">Use the SDK for typed helpers</a><a href="#build-a-live-dataset-picker">Build a live dataset picker</a><a href="#fetch-from-a-browser-app">Fetch from a browser app</a><a href="#python">Python</a></div></nav>
   </div>
-
-  <div class="command-scrim" aria-hidden="true"><div class="command" role="dialog" aria-modal="true" aria-label="Command palette"><input class="command-input" type="search" placeholder="Search navigation…" autocomplete="off"><div class="command-list"><button class="command-item" type="button" data-target="/"><span>◈</span> Open overview <small>Home</small></button><button class="command-item" type="button" data-target="/docs/"><span>⌘</span> Open API reference <small>Docs</small></button><button class="command-item" type="button" data-target="/docs/sdk/"><span>◇</span> Open JavaScript SDK guide <small>SDK</small></button><button class="command-item" type="button" data-target="/docs/python/"><span>◈</span> Open Python client guide <small>Python</small></button><button class="command-item" type="button" data-target="/docs/examples/"><span>▷</span> Open API &amp; SDK examples <small>Examples</small></button></div><div class="command-help">Press <span class="mono">Esc</span> to close · <span class="mono">/</span> to open anytime</div></div></div>
-  <a class="bmc-support-link" href="https://www.buymeacoffee.com/zoniboy00" target="_blank" rel="noopener noreferrer">☕ Support GZW Data</a>
-  <script src="/assets/site.js?v=0e03899d" defer></script>
-  <script src="/assets/versions.js?v=4f471746" type="module"></script>
-  <script src="/assets/year.js?v=aa7522b9" defer></script>
+  <div class="palette" role="dialog" aria-modal="true" aria-label="Search documentation"><div class="palette-box"><input type="text" name="q" role="combobox" aria-expanded="false" aria-controls="palette-list" aria-autocomplete="list" placeholder="Search pages and sections…" autocomplete="off" aria-label="Search documentation"><div class="palette-list" id="palette-list" role="listbox" aria-label="Results"></div></div></div>
+  <script src="/assets/nav.js?v=1ff1e9b8"></script>
+  <script src="/assets/versions.js?v=4f471746" defer></script>
+  <script src="/assets/site.js?v=afeeac6c" defer></script>
 </body>
 </html>

@@ -51,48 +51,49 @@ async function mockApi(page, { malicious = false, failed = false } = {}) {
 }
 
 test('real explorer loads and browser code runs under the deployed CSP', async ({ page }) => {
-  await page.goto('/');
-  await expect(page.locator('#explorer-body td.mono').first()).toBeVisible();
-  await expect(page.locator('#explorer-body .error-message')).toHaveCount(0);
+  await page.goto('/explorer/');
+  await expect(page.locator('[data-ex-rows] tr').first()).toBeVisible();
+  await expect(page.locator('[data-ex-summary].bad')).toHaveCount(0);
 });
 
 test('explorer search updates the table without a full navigation', async ({ page }) => {
   await mockApi(page);
-  await page.goto('/');
-  await expect(page.locator('#explorer-body tr')).toHaveCount(2);
-  await page.locator('#explorer-search').fill('Medical');
-  await expect(page.locator('#explorer-body tr')).toHaveCount(1);
-  await expect(page.locator('#explorer-body')).toContainText('Medical fixture');
+  await page.goto('/explorer/');
+  await expect(page.locator('[data-ex-rows] tr')).toHaveCount(2);
+  await page.locator('#ex-search').fill('Medical');
+  await expect(page.locator('[data-ex-rows] tr')).toHaveCount(1);
+  await expect(page.locator('[data-ex-rows]')).toContainText('Medical fixture');
 });
 
 test('scraped-looking HTML remains text in explorer cells', async ({ page }) => {
   await mockApi(page, { malicious: true });
-  await page.goto('/');
-  await expect(page.locator('#explorer-body')).toContainText(payload);
-  await expect(page.locator('#explorer-body img')).toHaveCount(0);
+  await page.goto('/explorer/');
+  await expect(page.locator('[data-ex-rows]')).toContainText(payload);
+  await expect(page.locator('[data-ex-rows] img')).toHaveCount(0);
   expect(await page.evaluate(() => globalThis.__securityInjected)).toBe(0);
 });
 
 test('API failure is displayed safely and the explorer can recover', async ({ page }) => {
   await mockApi(page, { failed: true });
-  await page.goto('/');
-  await expect(page.locator('#explorer-body .error-message')).toBeVisible();
-  await expect(page.locator('#explorer-body img')).toHaveCount(0);
+  await page.goto('/explorer/');
+  await expect(page.locator('[data-ex-summary].bad')).toBeVisible();
+  await expect(page.locator('[data-ex-rows] img')).toHaveCount(0);
   await page.unroute('**/api/v1/**');
   await mockApi(page);
-  await page.locator('#explorer-search').fill('AK');
-  await expect(page.locator('#explorer-body')).toContainText('AK fixture');
+  await page.locator('#ex-search').fill('AK');
+  await expect(page.locator('[data-ex-rows]')).toContainText('AK fixture');
 });
 
 test('playground sends a same-origin API request and renders hostile JSON as text', async ({ page }) => {
   await mockApi(page, { malicious: true });
   await page.goto('/playground/');
-  await expect(page.locator('#playground-output')).toContainText('onerror');
-  await expect(page.locator('#playground-output img')).toHaveCount(0);
-  await page.locator('#playground-endpoint').selectOption('health');
-  await page.locator('#playground-run').click();
-  await expect(page.locator('#playground-output')).toContainText('"status": "ok"');
-  await expect(page.locator('#playground-url')).toHaveText('/api/v1/health');
+  await page.locator('[data-pg-run]').click();
+  await expect(page.locator('[data-pg-body]')).toContainText('onerror');
+  await expect(page.locator('[data-pg-body] img')).toHaveCount(0);
+  await page.locator('#pg-endpoint').selectOption('health');
+  await page.locator('[data-pg-run]').click();
+  await expect(page.locator('[data-pg-body]')).toContainText('"status": "ok"');
+  await expect(page.locator('[data-pg-url]')).toContainText('/api/v1/health');
 });
 
 test('404 path is rendered as text and navigation remains same-origin', async ({ page, baseURL }) => {
@@ -105,12 +106,13 @@ test('404 path is rendered as text and navigation remains same-origin', async ({
   await expect(page).toHaveURL(`${baseURL}/`);
 });
 
-test('mobile explorer and navigation remain usable', async ({ page }) => {
+test('mobile navigation drawer and explorer remain usable', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await mockApi(page);
-  await page.goto('/');
-  await page.locator('#dataset-trigger').click();
-  await expect(page.locator('#dataset-menu')).toHaveClass(/open/);
-  await page.locator('#dataset-menu [data-value="weapons"]').click();
-  await expect(page.locator('#explorer-body')).toContainText('AK fixture');
+  await page.goto('/explorer/');
+  await page.locator('.menu-btn').click();
+  await expect(page.locator('.sidebar')).toHaveClass(/open/);
+  await page.locator('.scrim').click({ position: { x: 370, y: 400 } });
+  await expect(page.locator('.sidebar')).not.toHaveClass(/open/);
+  await expect(page.locator('[data-ex-rows]')).toContainText('AK fixture');
 });

@@ -42,23 +42,43 @@
   ],
   "redirects": [
     {
-      "source": "/privacy-policy",
-      "destination": "/privacy-policy/",
-      "permanent": true
-    },
-    {
-      "source": "/terms-of-service",
-      "destination": "/terms-of-service/",
-      "permanent": true
-    },
-    {
       "source": "/docs",
       "destination": "/docs/",
       "permanent": true
     },
     {
+      "source": "/datasets",
+      "destination": "/datasets/",
+      "permanent": true
+    },
+    {
+      "source": "/querying",
+      "destination": "/querying/",
+      "permanent": true
+    },
+    {
+      "source": "/records",
+      "destination": "/records/",
+      "permanent": true
+    },
+    {
+      "source": "/responses",
+      "destination": "/responses/",
+      "permanent": true
+    },
+    {
+      "source": "/limits",
+      "destination": "/limits/",
+      "permanent": true
+    },
+    {
       "source": "/docs/examples",
       "destination": "/docs/examples/",
+      "permanent": true
+    },
+    {
+      "source": "/clients",
+      "destination": "/clients/",
       "permanent": true
     },
     {
@@ -69,6 +89,61 @@
     {
       "source": "/docs/python",
       "destination": "/docs/python/",
+      "permanent": true
+    },
+    {
+      "source": "/playground",
+      "destination": "/playground/",
+      "permanent": true
+    },
+    {
+      "source": "/explorer",
+      "destination": "/explorer/",
+      "permanent": true
+    },
+    {
+      "source": "/status",
+      "destination": "/status/",
+      "permanent": true
+    },
+    {
+      "source": "/data-sources",
+      "destination": "/data-sources/",
+      "permanent": true
+    },
+    {
+      "source": "/feedback",
+      "destination": "/feedback/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/terms-of-service/",
+      "permanent": true
+    },
+    {
+      "source": "/legal/privacy-policy",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/legal/privacy-policy/",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/legal/terms-of-service",
+      "destination": "/terms-of-service/",
+      "permanent": true
+    },
+    {
+      "source": "/legal/terms-of-service/",
+      "destination": "/terms-of-service/",
       "permanent": true
     }
   ],
@@ -82,72 +157,8 @@
       "destination": "/web/assets/$1"
     },
     {
-      "source": "/privacy-policy",
-      "destination": "/web/legal/privacy-policy/index.html"
-    },
-    {
-      "source": "/privacy-policy/",
-      "destination": "/web/legal/privacy-policy/index.html"
-    },
-    {
-      "source": "/terms-of-service",
-      "destination": "/web/legal/terms-of-service/index.html"
-    },
-    {
-      "source": "/terms-of-service/",
-      "destination": "/web/legal/terms-of-service/index.html"
-    },
-    {
       "source": "/.well-known/security.txt",
       "destination": "/web/.well-known/security.txt"
-    },
-    {
-      "source": "/docs",
-      "destination": "/web/docs/index.html"
-    },
-    {
-      "source": "/docs/",
-      "destination": "/web/docs/index.html"
-    },
-    {
-      "source": "/docs/examples",
-      "destination": "/web/docs/examples/index.html"
-    },
-    {
-      "source": "/docs/examples/",
-      "destination": "/web/docs/examples/index.html"
-    },
-    {
-      "source": "/docs/sdk",
-      "destination": "/web/docs/sdk/index.html"
-    },
-    {
-      "source": "/docs/sdk/",
-      "destination": "/web/docs/sdk/index.html"
-    },
-    {
-      "source": "/docs/python",
-      "destination": "/web/docs/python/index.html"
-    },
-    {
-      "source": "/docs/python/",
-      "destination": "/web/docs/python/index.html"
-    },
-    {
-      "source": "/playground",
-      "destination": "/web/playground/index.html"
-    },
-    {
-      "source": "/playground/",
-      "destination": "/web/playground/index.html"
-    },
-    {
-      "source": "/feedback",
-      "destination": "/web/feedback/index.html"
-    },
-    {
-      "source": "/feedback/",
-      "destination": "/web/feedback/index.html"
     },
     {
       "source": "/robots.txt",
@@ -168,6 +179,74 @@
     {
       "source": "/pricing.json",
       "destination": "/web/pricing.json"
+    },
+    {
+      "source": "/docs/",
+      "destination": "/web/docs/index.html"
+    },
+    {
+      "source": "/datasets/",
+      "destination": "/web/datasets/index.html"
+    },
+    {
+      "source": "/querying/",
+      "destination": "/web/querying/index.html"
+    },
+    {
+      "source": "/records/",
+      "destination": "/web/records/index.html"
+    },
+    {
+      "source": "/responses/",
+      "destination": "/web/responses/index.html"
+    },
+    {
+      "source": "/limits/",
+      "destination": "/web/limits/index.html"
+    },
+    {
+      "source": "/docs/examples/",
+      "destination": "/web/docs/examples/index.html"
+    },
+    {
+      "source": "/clients/",
+      "destination": "/web/clients/index.html"
+    },
+    {
+      "source": "/docs/sdk/",
+      "destination": "/web/docs/sdk/index.html"
+    },
+    {
+      "source": "/docs/python/",
+      "destination": "/web/docs/python/index.html"
+    },
+    {
+      "source": "/playground/",
+      "destination": "/web/playground/index.html"
+    },
+    {
+      "source": "/explorer/",
+      "destination": "/web/explorer/index.html"
+    },
+    {
+      "source": "/status/",
+      "destination": "/web/status/index.html"
+    },
+    {
+      "source": "/data-sources/",
+      "destination": "/web/data-sources/index.html"
+    },
+    {
+      "source": "/feedback/",
+      "destination": "/web/feedback/index.html"
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/web/privacy-policy/index.html"
+    },
+    {
+      "source": "/terms-of-service/",
+      "destination": "/web/terms-of-service/index.html"
     },
     {
       "source": "/",

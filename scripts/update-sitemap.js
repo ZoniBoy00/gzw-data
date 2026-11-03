@@ -10,8 +10,6 @@ const SITEMAP = path.join(ROOT, 'web', 'sitemap.xml');
 const ORIGIN = 'https://gzw-data.dev';
 const FILES = {
   '/': 'web/index.html',
-  '/privacy-policy/': 'web/legal/privacy-policy/index.html',
-  '/terms-of-service/': 'web/legal/terms-of-service/index.html',
 };
 
 function sourceFor(pathname) {
