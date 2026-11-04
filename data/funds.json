@@ -3,13 +3,14 @@
     "name": "Black Credit Card",
     "id": "black-credit-card",
     "type": "Funds",
-    "weight": "0.010kg",
+    "weight": "0.005 kg",
     "grid_size": "1x1",
     "sell_price": "$15,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/BCCArd_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182734",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.005,
         "unit": "kg"
       }
     }

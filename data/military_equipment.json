@@ -69,13 +69,14 @@
     "name": "C2 Military Laptop",
     "id": "c2-military-laptop",
     "type": "Military Equipment",
-    "weight": "5.000kg",
+    "weight": "5.5 kg",
     "grid_size": "2x2",
     "sell_price": "$4,900",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/C2_Military_Laptop_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603042356",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 5.0,
+        "value": 5.5,
         "unit": "kg"
       }
     }
@@ -94,8 +95,9 @@
     "id": "handheld-ecm-jammer",
     "type": "Military Equipment",
     "weight": "2.0kg",
-    "grid_size": "1x1",
+    "grid_size": "1x2",
     "sell_price": "$712",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -123,9 +125,10 @@
     "id": "kik-11-tactical-key-loader",
     "type": "Military Equipment",
     "weight": "0,450kg",
-    "grid_size": "2x1",
+    "grid_size": "1x1",
     "sell_price": "$2,900",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/KIK-11_Tactical_Key_Loader_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603042447"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/KIK-11_Tactical_Key_Loader_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603042447",
+    "grid_size_source": "game-files"
   },
   {
     "name": "LTSD-4-3 Laser Designator",

@@ -5,9 +5,10 @@
     "type": "Upper Receiver",
     "weight": "0.210 kg",
     "sold_by": "Artisan R.3 Turncoat R.2",
-    "buy_price": "$487",
+    "buy_price": "$850",
     "manufacturer": "Kalashnikov Concern",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/AK_Ratnik_Dust_Cover_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615191602",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.21,
@@ -51,8 +52,9 @@
     "type": "Upper Receiver",
     "weight": "0.104 kg",
     "sold_by": "Turncoat R.1",
-    "buy_price": "$107",
+    "buy_price": "$170",
     "manufacturer": "Kalashnikov concern",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.104,
@@ -65,9 +67,11 @@
     "id": "cq-a1-upper-receiver",
     "type": "Upper Receiver",
     "weight": "0.240 kg",
-    "sold_by": "Gunny R.2",
-    "buy_price": "$126",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$425",
     "manufacturer": "Norinco",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.24,
@@ -95,8 +99,9 @@
     "id": "dog-leg-rail",
     "type": "Upper Receiver",
     "weight": "0.175 kg",
-    "sold_by": "Artisan R.3",
+    "sold_by": "Turncoat R.3",
     "manufacturer": "Texas Weapons Systems",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.175,
@@ -171,8 +176,9 @@
     "type": "Upper Receiver",
     "weight": "0.194 kg",
     "sold_by": "Turncoat R.4",
-    "buy_price": "$326",
+    "buy_price": "$850",
     "manufacturer": "F.A.B.",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.194,
@@ -186,9 +192,10 @@
     "type": "Upper Receiver",
     "weight": "0.700 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$894",
+    "buy_price": "$935",
     "manufacturer": "Sig Sauer",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/MCX_Upper_inspect.png/revision/latest?cb=20250614021321",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -201,9 +208,11 @@
     "id": "svd-dust-cover",
     "type": "Upper Receiver",
     "weight": "0.256 kg",
-    "sold_by": "Artisan R.4",
-    "buy_price": "$192",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$595",
     "manufacturer": "Kalashnikov concern",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.256,

@@ -55,10 +55,11 @@
     "type": "Slide",
     "weight": "0.280 kg",
     "sold_by": "Banshee R.2",
-    "buy_price": "$353",
+    "buy_price": "$561",
     "manufacturer": "Zaffiri Precision",
     "recoil_control": "+6 %",
     "reload_speed": "-4 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.28,
@@ -94,9 +95,10 @@
     "type": "Slide",
     "weight": "0.370 kg",
     "sold_by": "Banshee R.4",
-    "buy_price": "$817",
+    "buy_price": "$1,360",
     "manufacturer": "Norsso",
     "reload_speed": "+10 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.37,
@@ -159,10 +161,11 @@
     "type": "Slide",
     "weight": "0.290 kg",
     "sold_by": "Banshee R.2",
-    "buy_price": "$661",
+    "buy_price": "$765",
     "manufacturer": "L2D Combat",
     "recoil_control": "-8 %",
     "reload_speed": "+6 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.29,
@@ -184,10 +187,11 @@
     "type": "Slide",
     "weight": "0.330 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$864",
+    "buy_price": "$884",
     "manufacturer": "ZEV Technologies",
     "recoil_control": "-4 %",
     "reload_speed": "+6 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.33,

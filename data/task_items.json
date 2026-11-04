@@ -2,8 +2,9 @@
   {
     "name": "Appeal to the Rebels",
     "id": "appeal-to-the-rebels",
-    "weight": ".010kg",
+    "weight": "0.01 kg",
     "grid_size": "1x1",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -26,15 +27,23 @@
   {
     "name": "Arrest Warrant",
     "id": "arrest-warrant",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.05 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Artisan's Toolbox",
     "id": "artisans-toolbox",
     "weight": "5.000kg",
-    "grid_size": "1x1",
+    "grid_size": "2x2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/Artisan%27s_Toolbox_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505170209",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 5.0,
@@ -59,8 +68,15 @@
   {
     "name": "Blue Lagoon Intel",
     "id": "blue-lagoon-intel",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Box of Food Supplies",
@@ -93,8 +109,16 @@
   {
     "name": "Box of Passports",
     "id": "box-of-passports",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "1.5 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Briefcase",
@@ -124,34 +148,69 @@
   {
     "name": "Case with a Revolver",
     "id": "case-with-a-revolver",
-    "weight": "?kg",
-    "grid_size": "2x2"
+    "weight": "2 kg",
+    "grid_size": "2x2",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Client's Passport",
     "id": "clients-passport",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.05 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Client's Phone",
     "id": "clients-phone",
-    "weight": "?kg",
+    "weight": "0.3 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6e/Client%27s_Phone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250503115550"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6e/Client%27s_Phone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250503115550",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Commander Details Folder",
     "id": "commander-details-folder",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Compromising Materials",
     "id": "compromising-materials",
-    "weight": "?kg",
+    "weight": "0.01 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/Compromising_Materials_inspect.png/revision/latest/scale-to-width-down/268?cb=20260630032203"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/Compromising_Materials_inspect.png/revision/latest/scale-to-width-down/268?cb=20260630032203",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Convict's Notepad",
@@ -169,28 +228,57 @@
   {
     "name": "Detonator Case",
     "id": "detonator-case",
-    "weight": "?kg",
-    "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7b/Briefcase_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505154632"
+    "weight": "5 kg",
+    "grid_size": "2x2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7b/Briefcase_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505154632",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "ELISA Testing Kit",
     "id": "elisa-testing-kit",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.01 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Encrypted Letter",
     "id": "encrypted-letter",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.05 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Evacuation Orders",
     "id": "evacuation-orders",
-    "weight": "?kg",
+    "weight": "0.05 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d1/Evacuation_Orders_inspect.png/revision/latest/scale-to-width-down/268?cb=20260630140436"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d1/Evacuation_Orders_inspect.png/revision/latest/scale-to-width-down/268?cb=20260630140436",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Evacuation Restrictions Memorandum",
@@ -209,20 +297,41 @@
   {
     "name": "Fake Intel",
     "id": "fake-intel",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fighter Jet Deal",
     "id": "fighter-jet-deal",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Flight Manifest Database",
     "id": "flight-manifest-database",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.3 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Flight Recorder",
@@ -240,34 +349,69 @@
   {
     "name": "FN Infirmary Samples",
     "id": "fn-infirmary-samples",
-    "weight": "?kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Goodbye Letter",
     "id": "goodbye-letter",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.05 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Government Laptop",
     "id": "government-laptop",
-    "weight": "?kg",
-    "grid_size": "2x2"
+    "weight": "3 kg",
+    "grid_size": "2x2",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ground Samples",
     "id": "ground-samples",
-    "weight": "?kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Guest List",
     "id": "guest-list",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hardware Key",
@@ -285,16 +429,24 @@
   {
     "name": "HP Bio Samples",
     "id": "hp-bio-samples",
-    "weight": "?kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Industrial Air Filter",
     "id": "industrial-air-filter",
     "weight": "1.500kg",
-    "grid_size": "1x1",
+    "grid_size": "1x2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Industrial_Air_Filter_inspect.png/revision/latest?cb=20250620144653",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -311,8 +463,15 @@
   {
     "name": "Informant's Smartphone",
     "id": "informants-smartphone",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.3 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Intelligence Folder",
@@ -330,9 +489,16 @@
   {
     "name": "Interrogation Orders",
     "id": "interrogation-orders",
-    "weight": "?kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Wanted_Man_Objective_1_intel_text.png/revision/latest/scale-to-width-down/200?cb=20260716135216"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Wanted_Man_Objective_1_intel_text.png/revision/latest/scale-to-width-down/200?cb=20260716135216",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Interrogation Transcript",
@@ -364,8 +530,15 @@
   {
     "name": "LAF GZ Laptop",
     "id": "laf-gz-laptop",
-    "weight": "?kg",
-    "grid_size": "2x2"
+    "weight": "2.5 kg",
+    "grid_size": "2x2",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 2.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LAF Hardware Key",
@@ -377,14 +550,28 @@
   {
     "name": "LAF Medical Records",
     "id": "laf-medical-records",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LAF Orders",
     "id": "laf-orders",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LAF Orders 2",
@@ -395,8 +582,15 @@
   {
     "name": "List of Evacuees",
     "id": "list-of-evacuees",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "List of Names",
@@ -407,14 +601,28 @@
   {
     "name": "List of Orders",
     "id": "list-of-orders",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.01 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LLA Attack Plans",
     "id": "lla-attack-plans",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LLA Expansion Plans",
@@ -432,15 +640,29 @@
   {
     "name": "Lost Smartphone",
     "id": "lost-smartphone",
-    "weight": "?kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/Lost_Smartphone_inspect.png/revision/latest?cb=20250507045356"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/Lost_Smartphone_inspect.png/revision/latest?cb=20250507045356",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Medic's Notes",
     "id": "medics-notes",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.3 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mercenary's Diary",
@@ -470,37 +692,66 @@
   {
     "name": "Military Flash Drive",
     "id": "military-flash-drive",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.01 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Military Intel",
     "id": "military-intel",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Military Patrol Schedule",
     "id": "military-patrol-schedule",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.05 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MS Intel Phone",
     "id": "ms-intel-phone",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.3 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MS USB Drive",
     "id": "ms-usb-drive",
     "type": "Tool",
-    "weight": "0.100kg",
+    "weight": "0.01 kg",
     "grid_size": "1x1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dc/MS_USB_Drive_inspect.png/revision/latest?cb=20260409205825",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.01,
         "unit": "kg"
       }
     }
@@ -522,14 +773,28 @@
   {
     "name": "Osprey's laptop",
     "id": "ospreys-laptop",
-    "weight": "?kg",
-    "grid_size": "2x2"
+    "weight": "3 kg",
+    "grid_size": "2x2",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Personal Folder 00616",
     "id": "personal-folder-00616",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Pile of Gold",
@@ -559,8 +824,15 @@
   {
     "name": "Poison Vial",
     "id": "poison-vial",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.02 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Politician's Flash Drive",
@@ -579,11 +851,12 @@
   {
     "name": "Precious Cigars",
     "id": "precious-cigars",
-    "weight": "8.000kg",
+    "weight": "5 kg",
     "grid_size": "1x1",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 8.0,
+        "value": 5.0,
         "unit": "kg"
       }
     }
@@ -591,90 +864,181 @@
   {
     "name": "Precious Golf Club",
     "id": "precious-golf-club",
-    "weight": "?kg",
+    "weight": "5 kg",
     "grid_size": "1x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Precious_Golf_Club_inspect.png/revision/latest?cb=20260408212440"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Precious_Golf_Club_inspect.png/revision/latest?cb=20260408212440",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Prisoner Info Folder",
     "id": "prisoner-info-folder",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "R. Taylor UNLRA Employee Card",
     "id": "r.-taylor-unlra-employee-card",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: AK-308",
     "id": "range-&-rifle:-ak-308",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: AKMN",
     "id": "range-&-rifle:-akmn",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: DDM4",
     "id": "range-&-rifle:-ddm4",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: M14",
     "id": "range-&-rifle:-m14",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: M700",
     "id": "range-&-rifle:-m700",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: MCX",
     "id": "range-&-rifle:-mcx",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: Mossberg 590",
     "id": "range-&-rifle:-mossberg-590",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: MP7A2",
     "id": "range-&-rifle:-mp7a2",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Range & Rifle: SVD",
     "id": "range-&-rifle:-svd",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Recovered VHS",
     "id": "recovered-vhs",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SD Card",
@@ -706,14 +1070,29 @@
   {
     "name": "Soldier's Diary",
     "id": "soldiers-diary",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Suspicious Box",
     "id": "suspicious-box",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "5 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Thug's Smartphone",
@@ -731,87 +1110,180 @@
   {
     "name": "Tourist's Diary",
     "id": "tourists-diary",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Turncoat's Box",
     "id": "turncoats-box",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "1 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Turncoat's Valuables",
     "id": "turncoats-valuables",
-    "weight": "?kg",
-    "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7b/Briefcase_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505154632"
+    "weight": "5 kg",
+    "grid_size": "2x2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7b/Briefcase_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505154632",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA Bio Samples",
     "id": "unlra-bio-samples",
-    "weight": "?kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA Details",
     "id": "unlra-details",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA File",
     "id": "unlra-file",
-    "weight": "?kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/UNLRA_File_inspect.png/revision/latest?cb=20250621182701"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/UNLRA_File_inspect.png/revision/latest?cb=20250621182701",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA HQ Orders",
     "id": "unlra-hq-orders",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA Medical Records",
     "id": "unlra-medical-records",
-    "weight": "?kg",
+    "weight": "1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/UNLRA_Medical_Records_inspect.png/revision/latest/scale-to-width-down/268?cb=20250201034448"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/UNLRA_Medical_Records_inspect.png/revision/latest/scale-to-width-down/268?cb=20250201034448",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA Medical Supplies",
     "id": "unlra-medical-supplies",
-    "weight": "?kg",
+    "weight": "5 kg",
     "grid_size": "2x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/UNLRA_Medical_Supplies_inspect.png/revision/latest?cb=20260331094618"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/UNLRA_Medical_Supplies_inspect.png/revision/latest?cb=20260331094618",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA Peacekeeper Bio Samples",
     "id": "unlra-peacekeeper-bio-samples",
-    "weight": "?kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HP_Bio_Samples_inspect.png/revision/latest?cb=20250621182759",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "UNLRA USB Drive",
     "id": "unlra-usb-drive",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.01 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "VIP Client List",
     "id": "vip-client-list",
-    "weight": "0.1kgkg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/VIP_Client_List_inspect.png/revision/latest/scale-to-width-down/268?cb=20260509041405"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/VIP_Client_List_inspect.png/revision/latest/scale-to-width-down/268?cb=20260509041405",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "VIP Program Info",
     "id": "vip-program-info",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.3 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Water Samples",
@@ -830,14 +1302,28 @@
   {
     "name": "Weird book",
     "id": "weird-book",
-    "weight": "?kg",
+    "weight": "0.3 kg",
     "grid_size": "1x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Weird_Book_inspect.png/revision/latest?cb=20241221170652"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Weird_Book_inspect.png/revision/latest?cb=20241221170652",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "YBL-1 Interrogation Footage",
     "id": "ybl-1-interrogation-footage",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.3 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   }
 ]

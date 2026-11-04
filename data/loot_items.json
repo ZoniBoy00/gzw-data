@@ -17,10 +17,17 @@
     "name": "Acumulator Drill",
     "id": "acumulator-drill",
     "grid_size": "2x2",
-    "weight": "???kg",
+    "weight": "1.18 kg",
     "sell_price": "$249",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Acumulator_Drill_icon.png/revision/latest?cb=20260420114742",
-    "sell_price_source": "gzwitems.com"
+    "sell_price_source": "gzwitems.com",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 1.18,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Allanach Single Malt Scotch - 40y",
@@ -62,21 +69,6 @@
     "numeric_values": {
       "weight": {
         "value": 0.061,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Army Intel",
-    "id": "army-intel",
-    "grid_size": "1x2",
-    "weight": "0.100kg",
-    "sell_price": "$1,280",
-    "price_per_grid_cell": "$640",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/Army_Intel_icon.png/revision/latest?cb=20250509091908",
-    "numeric_values": {
-      "weight": {
-        "value": 0.1,
         "unit": "kg"
       }
     }
@@ -145,12 +137,13 @@
     "name": "Black Credit Card",
     "id": "black-credit-card",
     "grid_size": "1x1",
-    "weight": "0.010kg",
+    "weight": "0.005 kg",
     "sell_price": "$15,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/Black_Credit_Card_icon.png/revision/latest?cb=20250612210156",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.005,
         "unit": "kg"
       }
     }
@@ -159,12 +152,13 @@
     "name": "Black Luxury Phone",
     "id": "black-luxury-phone",
     "grid_size": "1x1",
-    "weight": "0.100kg",
+    "weight": "0.22 kg",
     "sell_price": "$1,500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Black_Luxury_Phone_icon.png/revision/latest?cb=20250508230836",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.22,
         "unit": "kg"
       }
     }
@@ -172,10 +166,11 @@
   {
     "name": "Bleach",
     "id": "bleach",
-    "grid_size": "1x1",
+    "grid_size": "1x2",
     "weight": "3.570kg",
     "sell_price": "$19",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Bleach_icon.png/revision/latest?cb=20260331074658",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 3.57,
@@ -328,13 +323,14 @@
     "name": "C2 Military Laptop",
     "id": "c2-military-laptop",
     "grid_size": "2x2",
-    "weight": "5.000kg",
+    "weight": "5.5 kg",
     "sell_price": "$4,900",
     "price_per_grid_cell": "$1,225",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/C2_Military_Laptop_icon.png/revision/latest?cb=20260406080037",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 5.0,
+        "value": 5.5,
         "unit": "kg"
       }
     }
@@ -405,21 +401,6 @@
     "numeric_values": {
       "weight": {
         "value": 0.005,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Crime-related Intel",
-    "id": "crime-related-intel",
-    "grid_size": "1x2",
-    "weight": "0.100kg",
-    "sell_price": "$140",
-    "price_per_grid_cell": "$70",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Crime-related_Intel_icon.png/revision/latest?cb=20250518152237",
-    "numeric_values": {
-      "weight": {
-        "value": 0.1,
         "unit": "kg"
       }
     }
@@ -513,13 +494,14 @@
     "name": "Digital Camera",
     "id": "digital-camera",
     "grid_size": "1x1",
-    "weight": "0.250kg",
+    "weight": "0.35 kg",
     "sell_price": "$112",
     "price_per_grid_cell": "$112",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Digital_Camera_icon.png/revision/latest?cb=20250621182741",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.25,
+        "value": 0.35,
         "unit": "kg"
       }
     }
@@ -614,12 +596,13 @@
     "name": "Expensive Smartphone",
     "id": "expensive-smartphone",
     "grid_size": "1x1",
-    "weight": "0.100kg",
+    "weight": "0.25 kg",
     "sell_price": "$350",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Expensive_Smartphone_icon.png/revision/latest?cb=20250506122257",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.25,
         "unit": "kg"
       }
     }
@@ -714,12 +697,13 @@
     "name": "Gold Necklace",
     "id": "gold-necklace",
     "grid_size": "1x1",
-    "weight": "0.020kg",
+    "weight": "0.05 kg",
     "sell_price": "$180",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Gold_Necklace_icon.png/revision/latest?cb=20250507135627",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.02,
+        "value": 0.05,
         "unit": "kg"
       }
     }
@@ -728,12 +712,13 @@
     "name": "Gold Ring",
     "id": "gold-ring",
     "grid_size": "1x1",
-    "weight": "0.020kg",
+    "weight": "0.01 kg",
     "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Gold_Ring_icon.png/revision/latest?cb=20250506174317",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.02,
+        "value": 0.01,
         "unit": "kg"
       }
     }
@@ -799,11 +784,19 @@
   {
     "name": "Heavenly Perfume Bottle",
     "id": "heavenly-perfume-bottle",
-    "grid_size": "1x2",
-    "weight": "??? kg",
+    "grid_size": "1x1",
+    "weight": "0.3 kg",
     "sell_price": "$335",
     "price_per_grid_cell": "$168",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Heavenly_Perfume_Bottle_icon.png/revision/latest?cb=20260402235001"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Heavenly_Perfume_Bottle_icon.png/revision/latest?cb=20260402235001",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "HGCS-30 UAV Control Station",
@@ -998,12 +991,13 @@
     "name": "Luxury Smartphone",
     "id": "luxury-smartphone",
     "grid_size": "1x1",
-    "weight": "0.100kg",
+    "weight": "0.22 kg",
     "sell_price": "$1,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Luxury_Smartphone_icon.png/revision/latest?cb=20250508181126",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.22,
         "unit": "kg"
       }
     }
@@ -1356,13 +1350,14 @@
     "name": "Reflex Camera",
     "id": "reflex-camera",
     "grid_size": "2x1",
-    "weight": "0.400kg",
+    "weight": "0.95 kg",
     "sell_price": "$960",
     "price_per_grid_cell": "$480",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/Reflex_Camera_icon.png/revision/latest?cb=20250508181135",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.4,
+        "value": 0.95,
         "unit": "kg"
       }
     }
@@ -1485,12 +1480,13 @@
     "name": "Smartphone",
     "id": "smartphone",
     "grid_size": "1x1",
-    "weight": "0.100kg",
+    "weight": "0.22 kg",
     "sell_price": "$250",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/Smartphone_icon.png/revision/latest?cb=20250508230706",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.22,
         "unit": "kg"
       }
     }
@@ -1571,12 +1567,13 @@
     "name": "Toolset",
     "id": "toolset",
     "grid_size": "2x2",
-    "weight": "1.000kg",
+    "weight": "1.6 kg",
     "sell_price": "$142",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Toolset_icon.png/revision/latest?cb=20260331090253",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 1.0,
+        "value": 1.6,
         "unit": "kg"
       }
     }
@@ -1700,13 +1697,15 @@
   {
     "name": "White Lithium Grease",
     "id": "white-lithium-grease",
-    "grid_size": "2x3",
-    "weight": "15.880kg",
+    "grid_size": "2x2",
+    "weight": "5.22 kg",
     "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/White_Lithium_Grease_icon.png/revision/latest?cb=20260403095948",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 15.88,
+        "value": 5.22,
         "unit": "kg"
       }
     }

@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Aques Water 1.5 l",
+    "id": "aques-water-1.5-l",
+    "type": "Drink",
+    "weight": "1.5kg",
+    "sold_by": "Loot only",
+    "grid_size": "1x2",
+    "charges": "150",
+    "use_time": "3s",
+    "manufacturer": "Aques",
+    "sell_price": "$16",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Coco Jumbo Coconut Juice Drink",
+    "id": "coco-jumbo-coconut-juice-drink",
+    "type": "Drink",
+    "weight": "0.24kg",
+    "sold_by": "Lab Rat R.1",
+    "grid_size": "1x1",
+    "charges": "1",
+    "use_time": "5s",
+    "hydratation_per_charge": "+24",
+    "manufacturer": "Coco Jumbo",
+    "sell_price": "$2",
+    "buy_price": "$7",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Dark Star Iced Coffee",
+    "id": "dark-star-iced-coffee",
+    "type": "Drink",
+    "weight": "0.2kg",
+    "sold_by": "Lab Rat R.2",
+    "grid_size": "1x1",
+    "charges": "1",
+    "use_time": "5s",
+    "energy_per_charge": "+5",
+    "hydratation_per_charge": "+20",
+    "stamina_regen_duration": "+90 s",
+    "stamina_regen_rate": "+15 %",
+    "manufacturer": "Dark Star",
+    "sell_price": "$6",
+    "buy_price": "$22",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      },
+      "stamina_regen_rate": {
+        "value": 15.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Gray Focused Energy",
+    "id": "gray-focused-energy",
+    "type": "Drink",
+    "weight": "0.4kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "1x1",
+    "charges": "1",
+    "use_time": "5s",
+    "energy_per_charge": "+5",
+    "hydratation_per_charge": "+35",
+    "stamina_regen_duration": "+300 s",
+    "stamina_regen_rate": "+30 %",
+    "manufacturer": "GRAY",
+    "sell_price": "$21",
+    "buy_price": "$70",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      },
+      "stamina_regen_rate": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Infinity Isotonic Drink",
+    "id": "infinity-isotonic-drink",
+    "type": "Drink",
+    "weight": "0.33kg",
+    "sold_by": "Loot only",
+    "grid_size": "1x1",
+    "charges": "1",
+    "use_time": "5s",
+    "energy_per_charge": "+5",
+    "hydratation_per_charge": "+40",
+    "manufacturer": "Infinity",
+    "sell_price": "$4",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Kaipo Lychee Nectar",
+    "id": "kaipo-lychee-nectar",
+    "type": "Drink",
+    "weight": "0.4kg",
+    "sold_by": "Loot only",
+    "grid_size": "1x1",
+    "charges": "1",
+    "use_time": "5s",
+    "energy_per_charge": "+10",
+    "hydratation_per_charge": "+35",
+    "manufacturer": "Kaipo",
+    "sell_price": "$3",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Maknav Iced Tea",
+    "id": "maknav-iced-tea",
+    "type": "Drink",
+    "weight": "0.95kg",
+    "sold_by": "Loot only",
+    "grid_size": "1x2",
+    "charges": "90",
+    "use_time": "3s",
+    "manufacturer": "Maknav",
+    "sell_price": "$11",
+    "numeric_values": {
+      "weight": {
+        "value": 0.95,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Noakon Water 0.6 l",
+    "id": "noakon-water-0.6-l",
+    "type": "Drink",
+    "weight": "0.6kg",
+    "sold_by": "Lab Rat R.1",
+    "grid_size": "1x1",
+    "charges": "60",
+    "use_time": "3s",
+    "manufacturer": "Noakon",
+    "sell_price": "$6",
+    "buy_price": "$20",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Noakon Water 1.5 l",
+    "id": "noakon-water-1.5-l",
+    "type": "Drink",
+    "weight": "0.55kg",
+    "sold_by": "Lab Rat R.2",
+    "grid_size": "1x1",
+    "charges": "55",
+    "use_time": "3s",
+    "manufacturer": "NuKlear",
+    "sell_price": "$10",
+    "buy_price": "$35",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "NuKlear Energy: Meltdown Mango",
+    "id": "nuklear-energy:-meltdown-mango",
+    "type": "Drink",
+    "weight": "0.55kg",
+    "sold_by": "Lab Rat R.2",
+    "grid_size": "1x1",
+    "charges": "55",
+    "use_time": "3s",
+    "manufacturer": "NuKlear",
+    "sell_price": "$10",
+    "buy_price": "$35",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Power Energy Fuel",
+    "id": "power-energy-fuel",
+    "type": "Drink",
+    "weight": "0.47kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "1x1",
+    "charges": "1",
+    "use_time": "5s",
+    "energy_per_charge": "+20",
+    "hydratation_per_charge": "+40",
+    "stamina_regen_duration": "+20 s",
+    "stamina_regen_rate": "+70 %",
+    "manufacturer": "Power",
+    "sell_price": "$13",
+    "buy_price": "$45",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/Power_Energy_Fuel_inspect.png/revision/latest?cb=20250708220621",
+    "numeric_values": {
+      "weight": {
+        "value": 0.47,
+        "unit": "kg"
+      },
+      "stamina_regen_rate": {
+        "value": 70.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Riminda Green Bubbly Bliss",
+    "id": "riminda-green-bubbly-bliss",
+    "type": "Drink",
+    "weight": "2.08kg",
+    "sold_by": "Loot only",
+    "grid_size": "1x2",
+    "charges": "200",
+    "use_time": "3s",
+    "manufacturer": "Riminda",
+    "sell_price": "$28",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Riminda_Green_Bubbly_Bliss_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603022056",
+    "numeric_values": {
+      "weight": {
+        "value": 2.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sunrise Cola",
+    "id": "sunrise-cola",
+    "type": "Drink",
+    "weight": "0.38kg",
+    "sold_by": "Lab Rat R.1",
+    "grid_size": "1x1",
+    "charges": "1",
+    "use_time": "5s",
+    "energy_per_charge": "+15",
+    "hydratation_per_charge": "+33",
+    "manufacturer": "Sunrise",
+    "sell_price": "$3",
+    "buy_price": "$13",
+    "numeric_values": {
+      "weight": {
+        "value": 0.38,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sunrise Cola (2 L)",
+    "id": "sunrise-cola-2-l",
+    "type": "Drink",
+    "weight": "2.13kg",
+    "sold_by": "Lab Rat R.4",
+    "grid_size": "1x2",
+    "charges": "200",
+    "use_time": "3s",
+    "manufacturer": "Sunrise",
+    "sell_price": "$33",
+    "buy_price": "$110",
+    "numeric_values": {
+      "weight": {
+        "value": 2.13,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Touchdown Lemon Soda",
+    "id": "touchdown-lemon-soda",
+    "type": "Drink",
+    "weight": "0.38kg",
+    "sold_by": "Loot only",
+    "grid_size": "1x1",
+    "charges": "1",
+    "use_time": "5s",
+    "energy_per_charge": "+5",
+    "hydratation_per_charge": "+33",
+    "manufacturer": "Touchdown",
+    "sell_price": "$3",
+    "numeric_values": {
+      "weight": {
+        "value": 0.38,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "White Orchid Crystal Water 2 l",
+    "id": "white-orchid-crystal-water-2-l",
+    "type": "Drink",
+    "weight": "2.04kg",
+    "sold_by": "Lab Rat R.4",
+    "grid_size": "1x2",
+    "charges": "200",
+    "use_time": "3s",
+    "manufacturer": "White Orchid",
+    "sell_price": "$24",
+    "buy_price": "$80",
+    "numeric_values": {
+      "weight": {
+        "value": 2.04,
+        "unit": "kg"
+      }
+    }
+  }
+]

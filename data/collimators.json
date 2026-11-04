@@ -24,11 +24,12 @@
     "id": "510c-reflex-sight",
     "type": "Collimator",
     "weight": "0.140 kg",
-    "sold_by": "Gunny R.4",
+    "sold_by": "Banshee R.4",
     "manufacturer": "Holosun",
     "magnification": "1x",
     "sighting_range": "300m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/510C_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615221345",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.14,
@@ -46,10 +47,11 @@
     "type": "Collimator",
     "weight": "0.060 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$1,015",
+    "buy_price": "$1,360",
     "manufacturer": "Aimpoint",
     "magnification": "1xx",
     "sighting_range": "300m",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -108,10 +110,11 @@
     "type": "Collimator",
     "weight": "0.045 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$989",
+    "buy_price": "$1,224",
     "manufacturer": "Holosun",
     "magnification": "2x",
     "sighting_range": "100m",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.045,
@@ -180,13 +183,15 @@
     "name": "HWS EXPS3 Holographic Sight (Circle 1-Dot)",
     "id": "hws-exps3-holographic-sight-circle-1-dot",
     "type": "Collimator",
-    "weight": ".318 kg",
+    "weight": "0.318 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$1,043",
+    "buy_price": "$1,360",
     "manufacturer": "EOTECH",
     "magnification": "1x",
     "sighting_range": "300m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/EXPS3_inspect.png/revision/latest?cb=20240509143204",
+    "buy_price_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.318,
@@ -266,11 +271,12 @@
     "id": "micro-t-1-red-dot-sight",
     "type": "Collimator",
     "weight": "0.086 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Banshee R.2",
     "manufacturer": "Aimpoint",
     "magnification": "1xx",
     "sighting_range": "300m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/T-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616004427",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.086,
@@ -308,11 +314,12 @@
     "id": "okp7-red-dot-sight",
     "type": "Collimator",
     "weight": "0.340 kg",
-    "sold_by": "Artisan R.2",
+    "sold_by": "Turncoat R.2",
     "manufacturer": "General East",
     "magnification": "1xx",
     "sighting_range": "300m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f2/OKP7_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20251114142042",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.34,
@@ -350,11 +357,13 @@
     "id": "pilad-р2.5х24l-brevis-assault-scope",
     "type": "Collimator",
     "weight": "0.290 kg",
-    "sold_by": "Turncoat R.2",
-    "buy_price": "$468",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$1,530",
     "manufacturer": "VOMZ",
     "magnification": "2.5xx",
     "sighting_range": "600m",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.29,
@@ -371,11 +380,13 @@
     "id": "pk-01-vs-red-dot-sight",
     "type": "Collimator",
     "weight": "0.900 kg",
-    "sold_by": "Artisan R.2",
-    "buy_price": "$386",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$731",
     "manufacturer": "Belomo",
     "magnification": "2x",
     "sighting_range": "300m",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.9,
@@ -393,10 +404,11 @@
     "type": "Collimator",
     "weight": "0.031 kg",
     "sold_by": "Banshee R.2",
-    "buy_price": "$578",
+    "buy_price": "$850",
     "manufacturer": "Vortex optics",
     "magnification": "1xx",
     "sighting_range": "100m",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.031,

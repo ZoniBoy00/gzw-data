@@ -80,13 +80,14 @@
     "name": "Emerald Necklace",
     "id": "emerald-necklace",
     "type": "Jewellery",
-    "weight": "0.010kg",
+    "weight": "0.05 kg",
     "grid_size": "1x1",
     "sell_price": "$5,300",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/ENecklace_inspect.png/revision/latest/scale-to-width-down/268?cb=20250423040427",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.05,
         "unit": "kg"
       }
     }
@@ -110,14 +111,15 @@
     "name": "Gold Necklace",
     "id": "gold-necklace",
     "type": "Jewellery",
-    "weight": "0.020kg",
+    "weight": "0.05 kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
     "sell_price": "$180",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Necklace_inspect.png/revision/latest/scale-to-width-down/268?cb=20250507135727",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.02,
+        "value": 0.05,
         "unit": "kg"
       }
     }
@@ -141,13 +143,14 @@
     "name": "Luxury Smartwatch",
     "id": "luxury-smartwatch",
     "type": "Jewellery",
-    "weight": "0.050kg",
+    "weight": "0.15 kg",
     "grid_size": "1x1",
     "sell_price": "$600",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/LWatch_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422203410",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.05,
+        "value": 0.15,
         "unit": "kg"
       }
     }
@@ -187,13 +190,14 @@
     "name": "Modern Watch",
     "id": "modern-watch",
     "type": "Jewellery",
-    "weight": "0.050kg",
+    "weight": "0.12 kg",
     "grid_size": "1x1",
     "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/MWatch_inspect.png/revision/latest?cb=20250502160135",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.05,
+        "value": 0.12,
         "unit": "kg"
       }
     }
@@ -249,14 +253,15 @@
     "name": "Sleek Luxury Watch",
     "id": "sleek-luxury-watch",
     "type": "Jewellery",
-    "weight": "0.050kg",
+    "weight": "0.13 kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sell_price": "$1,700",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/SWatch_inspect.png/revision/latest?cb=20250507140050",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.05,
+        "value": 0.13,
         "unit": "kg"
       }
     }

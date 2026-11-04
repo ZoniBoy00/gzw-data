@@ -4,11 +4,13 @@
     "id": "ak-rear-iron-sight",
     "type": "Rear Iron Sight",
     "weight": "0.060 kg",
-    "sold_by": "Artisan R.1",
-    "buy_price": "$26",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$85",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1x",
     "sighting_range": "1,000m",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -22,11 +24,12 @@
     "type": "Rear Iron Sight",
     "weight": "0.060 kg",
     "sold_by": "Artisan R.3 Turncoat R.2",
-    "buy_price": "$41",
+    "buy_price": "$110",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1xx",
     "sighting_range": "800m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/AK12_Rear_inspect.png/revision/latest/scale-to-width-down/267?cb=20250615190605",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -44,10 +47,11 @@
     "type": "Rear Iron Sight",
     "weight": "0.040 kg",
     "sold_by": "Turncoat R.1",
-    "buy_price": "$22",
+    "buy_price": "$68",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1xx",
     "sighting_range": "500m",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.04,
@@ -64,11 +68,12 @@
     "id": "ar-15-carrying-handle",
     "type": "Rear Iron Sight",
     "weight": "0.255 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Gunny R.1",
     "manufacturer": "Colt",
     "magnification": "1x",
     "sighting_range": "600m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Carry_inspect.png/revision/latest/scale-to-width-down/267?cb=20240507135421",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.255,
@@ -124,12 +129,19 @@
     "name": "Colt 1911 Rear Sight LPA",
     "id": "colt-1911-rear-sight-lpa",
     "type": "Rear Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.03 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
-    "sighting_range": "???m"
+    "sighting_range": "???m",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Colt 1911 Tritium Rear Sight",
@@ -158,12 +170,13 @@
     "id": "folding-micro-rear-iron-sight",
     "type": "Rear Iron Sight",
     "weight": "0.070 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Gunny R.3",
     "manufacturer": "KAC",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "600m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/Micro_Rear_inspect.png/revision/latest?cb=20240509144616",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.07,
@@ -181,10 +194,11 @@
     "type": "Rear Iron Sight",
     "weight": "0.045 kg",
     "sold_by": "Banshee R.2",
-    "buy_price": "$48",
+    "buy_price": "$110",
     "manufacturer": "GLOCK",
     "magnification": "1xx",
     "sighting_range": "25m",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.045,
@@ -241,13 +255,18 @@
     "name": "M590 Rear Ghost Ring Sight",
     "id": "m590-rear-ghost-ring-sight",
     "type": "Rear Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.06 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"
@@ -259,11 +278,13 @@
     "id": "mosin-nagant-rear-iron-sight",
     "type": "Rear Iron Sight",
     "weight": "0.060 kg",
-    "sold_by": "Artisan R.1",
-    "buy_price": "$26",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$85",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1x",
     "sighting_range": "25m",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -301,11 +322,12 @@
     "type": "Rear Iron Sight",
     "weight": "0.075 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$52",
+    "buy_price": "$119",
     "manufacturer": "KAC",
     "magnification": "SIG Sauerx",
     "sighting_range": "0m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Sig_Fl_Rear_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614024138",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.075,
@@ -323,10 +345,11 @@
     "type": "Rear Iron Sight",
     "weight": "0.090 kg",
     "sold_by": "Artisan R.1",
-    "buy_price": "$23",
+    "buy_price": "$51",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1x",
     "sighting_range": "25m",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.09,
@@ -342,13 +365,18 @@
     "name": "SVD Rear Sight",
     "id": "svd-rear-sight",
     "type": "Rear Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.06 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"
@@ -359,13 +387,18 @@
     "name": "TT-33 Rear Iron Sight",
     "id": "tt-33-rear-iron-sight",
     "type": "Rear Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.025 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.025,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"
@@ -376,13 +409,18 @@
     "name": "Type 51 Rear Iron Sight",
     "id": "type-51-rear-iron-sight",
     "type": "Rear Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.025 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.025,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"

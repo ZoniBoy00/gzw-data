@@ -43,13 +43,18 @@
     "name": "Colt 1911 Front Sight",
     "id": "colt-1911-front-sight",
     "type": "Front Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.015 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"
@@ -60,13 +65,18 @@
     "name": "Colt 1911 Tritium Front Sight",
     "id": "colt-1911-tritium-front-sight",
     "type": "Front Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.045 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"
@@ -121,10 +131,11 @@
     "type": "Front Iron Sight",
     "weight": "0.045 kg",
     "sold_by": "Banshee R.2",
-    "buy_price": "$48",
+    "buy_price": "$110",
     "manufacturer": "GLOCK",
     "magnification": "1xx",
     "sighting_range": "25m",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.045,
@@ -160,13 +171,18 @@
     "name": "M590 Front Ghost Ring Sight",
     "id": "m590-front-ghost-ring-sight",
     "type": "Front Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.06 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"
@@ -198,10 +214,11 @@
     "id": "mosin-nagant-front-iron-sight",
     "type": "Front Iron Sight",
     "weight": "0.060 kg",
-    "sold_by": "Artisan R.1",
+    "sold_by": "Artisan R.2",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1x",
     "sighting_range": "25m",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -239,11 +256,12 @@
     "type": "Front Iron Sight",
     "weight": "0.075 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$52",
+    "buy_price": "$119",
     "manufacturer": "Sig Sauer",
     "magnification": "1xx",
     "sighting_range": "0m",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/91/Sig_Fl_Front_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614023819",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.075,
@@ -260,11 +278,13 @@
     "id": "svd-front-sight",
     "type": "Front Iron Sight",
     "weight": "0.060 kg",
-    "sold_by": "Artisan R.4",
-    "buy_price": "$68",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$153",
     "manufacturer": "Kalashnikov concern",
     "magnification": "1x",
     "sighting_range": "0m",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -280,13 +300,18 @@
     "name": "TT-33 Front Iron Sight",
     "id": "tt-33-front-iron-sight",
     "type": "Front Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.015 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"
@@ -297,13 +322,18 @@
     "name": "Type 51 Front Iron Sight",
     "id": "type-51-front-iron-sight",
     "type": "Front Iron Sight",
-    "weight": "??? kg",
+    "weight": "0.015 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "??? %",
     "magnification": "???x",
     "sighting_range": "25m",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      },
       "sighting_range": {
         "value": 25.0,
         "unit": "m"

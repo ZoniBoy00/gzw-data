@@ -3,7 +3,7 @@
     "name": "Activated Charcoal",
     "id": "activated-charcoal",
     "type": "Pill",
-    "weight": "0.060kg",
+    "weight": "0.15 kg",
     "sold_by": "Lab Rat LL1",
     "grid_size": "1x1",
     "charges": "5",
@@ -12,9 +12,10 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Charcoal_inspect.png/revision/latest?cb=20250502211847",
     "sell_price": "$5",
     "sell_price_source": "gzwitems.com",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.06,
+        "value": 0.15,
         "unit": "kg"
       }
     }
@@ -45,7 +46,7 @@
     "id": "arf-trauma-bandage-4",
     "type": "Bandage",
     "weight": "0.070kg",
-    "sold_by": "Lab Rat R.1",
+    "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
     "charges": "3",
     "effect": "Heals wounds",
@@ -53,6 +54,7 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Bandage_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502181823",
     "sell_price": "$9",
     "sell_price_source": "gzwitems.com",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.07,
@@ -104,7 +106,7 @@
     "name": "Civilian Gauze",
     "id": "civilian-gauze",
     "type": "Bandage",
-    "weight": "0.020kg",
+    "weight": "0.03 kg",
     "grid_size": "1x1",
     "charges": "2",
     "effect": "Heals wounds",
@@ -112,9 +114,10 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Gauze_inspect.png/revision/latest/scale-to-width-down/268?cb=20250504074656",
     "sell_price": "$2",
     "sell_price_source": "gzwitems.com",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.02,
+        "value": 0.03,
         "unit": "kg"
       }
     }
@@ -222,7 +225,7 @@
     "name": "Fenethylline",
     "id": "fenethylline",
     "type": "Stimulator",
-    "weight": "0.050kg",
+    "weight": "0.15 kg",
     "sold_by": "Looting",
     "grid_size": "1x1",
     "charges": "4",
@@ -232,9 +235,10 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Fenethyl_inspect.png/revision/latest?cb=20250621182751",
     "sell_price": "$29",
     "sell_price_source": "gzwitems.com",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.05,
+        "value": 0.15,
         "unit": "kg"
       }
     }
@@ -244,13 +248,14 @@
     "id": "flexible-splint",
     "type": "Splint",
     "weight": "0.130kg",
-    "sold_by": "Lab Rat R.2",
+    "sold_by": "Lab Rat R.3",
     "grid_size": "1x1",
     "charges": "4",
     "effect": "Removes Fracture",
     "manufacturer": "Henderson",
     "sell_price": "$10",
     "sell_price_source": "gzwitems.com",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.13,
@@ -323,7 +328,7 @@
     "name": "Large Blood Bag",
     "id": "large-blood-bag",
     "type": "IV",
-    "weight": "1.000kg",
+    "weight": "2.1 kg",
     "sold_by": "Lab Rat",
     "grid_size": "1x2",
     "charges": "3",
@@ -333,9 +338,10 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/LargeBloodBag.png/revision/latest/scale-to-width-down/268?cb=20250501081851",
     "sell_price": "$294",
     "sell_price_source": "gzwitems.com",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 1.0,
+        "value": 2.1,
         "unit": "kg"
       }
     }
@@ -366,7 +372,7 @@
     "id": "m.f.a.t.-tourniquet",
     "type": "Tourniquet",
     "weight": "0.080kg",
-    "sold_by": "Lab Rat R.1",
+    "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
     "charges": "2",
     "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
@@ -374,6 +380,7 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/MFAT_inspect.png/revision/latest?cb=20250502211227",
     "sell_price": "$19",
     "sell_price_source": "gzwitems.com",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.08,
@@ -529,7 +536,7 @@
     "id": "paracetamol",
     "type": "Pill",
     "weight": "0.050kg",
-    "sold_by": "Lab Rat R.2",
+    "sold_by": "Lab Rat R.1",
     "grid_size": "1x1",
     "charges": "2",
     "effect": "Removes Pain",
@@ -537,6 +544,7 @@
     "manufacturer": "Fernsby's Healthcare",
     "sell_price": "$1",
     "sell_price_source": "gzwitems.com",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -549,7 +557,7 @@
     "id": "potassium-iodide",
     "type": "Pill",
     "weight": "0.050kg",
-    "sold_by": "Lab Rat R.1",
+    "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
     "charges": "2",
     "effect": "Radiation: -4",
@@ -557,6 +565,7 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Ki_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210111",
     "sell_price": "$36",
     "sell_price_source": "gzwitems.com",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -568,13 +577,20 @@
     "name": "Retractable Tourniquet",
     "id": "retractable-tourniquet",
     "type": "Bleeding",
-    "weight": "0.050kgkg",
+    "weight": "0.08 kg",
     "grid_size": "1x1",
     "charges": "1",
     "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
     "manufacturer": "Narithcare",
     "sell_price": "$7",
-    "sell_price_source": "gzwitems.com"
+    "sell_price_source": "gzwitems.com",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Seal modular bandage",
@@ -600,7 +616,7 @@
     "name": "Small Blood Bag",
     "id": "small-blood-bag",
     "type": "IV",
-    "weight": "0.500kg",
+    "weight": "0.6 kg",
     "sold_by": "Lab Rat",
     "grid_size": "1x1",
     "charges": "1",
@@ -610,9 +626,10 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/SBlood_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211339",
     "sell_price": "$84",
     "sell_price_source": "gzwitems.com",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.5,
+        "value": 0.6,
         "unit": "kg"
       }
     }

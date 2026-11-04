@@ -79,7 +79,9 @@
   },
   {
     "name": "Edetate Disodium",
-    "id": "edetate-disodium"
+    "id": "edetate-disodium",
+    "sell_price": "$75",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Ether",
@@ -141,7 +143,9 @@
   },
   {
     "name": "Incriminating Data Drive",
-    "id": "incriminating-data-drive"
+    "id": "incriminating-data-drive",
+    "sell_price": "$9,600",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Incriminating Phone Logs",
@@ -212,7 +216,9 @@
   },
   {
     "name": "Radioisotope Fuel Cell",
-    "id": "radioisotope-fuel-cell"
+    "id": "radioisotope-fuel-cell",
+    "sell_price": "$15,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "RAM",

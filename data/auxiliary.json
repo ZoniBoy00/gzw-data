@@ -18,9 +18,16 @@
     "name": "Colt 1911 Hammer",
     "id": "colt-1911-hammer",
     "type": "Auxiliary",
-    "weight": "??? kg",
+    "weight": "0.05 kg",
     "sold_by": "???",
-    "manufacturer": "???"
+    "manufacturer": "???",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "M9A1 Hammer",
@@ -42,8 +49,9 @@
     "type": "Auxiliary",
     "weight": "0.050 kg",
     "sold_by": "Artisan R.1",
-    "buy_price": "$29",
+    "buy_price": "$39",
     "manufacturer": "Kalashnikov concern",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -56,9 +64,11 @@
     "id": "svd-rear-sight-ring",
     "type": "Auxiliary",
     "weight": "0.150 kg",
-    "sold_by": "Artisan R.4",
-    "buy_price": "$81",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$107",
     "manufacturer": "Kalashnikov concern",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.15,

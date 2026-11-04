@@ -1,9 +1,59 @@
 [
   {
+    "name": "Aques Water 1 l",
+    "id": "aques-water-1-l",
+    "type": "Drink",
+    "weight": "1.000kg",
+    "sold_by": "Lab Rat R.2",
+    "grid_size": "1x2",
+    "charges": "2",
+    "effect": "Hydration: +33",
+    "manufacturer": "Aques",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Water1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530084550",
+    "sell_price": "$16",
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Army Intel",
+    "id": "army-intel",
+    "type": "Evidence",
+    "weight": "0.100kg",
+    "grid_size": "1x2",
+    "sell_price": "$1.280",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Intel%28Army%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509092020",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Call up Papers",
     "id": "call-up-papers",
     "weight": "?kg",
     "grid_size": "1x1"
+  },
+  {
+    "name": "Crime-related Intel",
+    "id": "crime-related-intel",
+    "type": "Evidence",
+    "weight": "0.100kg",
+    "grid_size": "1x2",
+    "sell_price": "$140",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Intel%28Crime%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422203148",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Doctor's Diary",
@@ -109,6 +159,24 @@
     "required_level": "Req. Level",
     "location": "Blue Lagoon",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/Malo_Luangrath.png/revision/latest/scale-to-width-down/200?cb=20240505085631"
+  },
+  {
+    "name": "Noakon Water 1 l",
+    "id": "noakon-water-1-l",
+    "type": "Drink",
+    "weight": "1.000kg",
+    "sold_by": "Loot only",
+    "grid_size": "1x2",
+    "charges": "2",
+    "effect": "Hydration: +33",
+    "manufacturer": "Noakon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Water4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250601095756",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Peacekeeper",

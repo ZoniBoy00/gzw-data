@@ -18,9 +18,10 @@
     "id": "bleach",
     "type": "Household Item",
     "weight": "3.570kg",
-    "grid_size": "1x1",
+    "grid_size": "1x2",
     "sell_price": "$19",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Bleach_inspect.png/revision/latest?cb=20260331074659",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 3.57,

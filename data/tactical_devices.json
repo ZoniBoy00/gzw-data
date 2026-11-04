@@ -4,11 +4,12 @@
     "id": "ade-advanced-red-laser",
     "type": "Tactical Device",
     "weight": "0.032 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Gunny R.1",
     "manufacturer": "ADE Advanced Optics",
     "weapon_handling": "-1 %",
     "modes": "Red laser",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/ADE_Laser_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530015732",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.032,
@@ -97,10 +98,11 @@
     "type": "Tactical Device",
     "weight": "0.159 kg",
     "sold_by": "Gunny R.2 and Banshee R.3",
-    "buy_price": "$964",
+    "buy_price": "$1,400",
     "manufacturer": "Steiner",
     "modes": "Infrared laser Red Laser",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/CQBL-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250528002045",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.159,
@@ -113,11 +115,12 @@
     "id": "surefire-m600-scout-light",
     "type": "Tactical Device",
     "weight": "0.147 kg",
-    "sold_by": "Gunny R.3",
+    "sold_by": "Gunny R.2",
     "manufacturer": "Surefire",
     "weapon_handling": "+??? %",
     "modes": "Flashlight",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/M600IB_inspect.png/revision/latest/scale-to-width-down/268?cb=20250602131118",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.147,
@@ -130,11 +133,12 @@
     "id": "surefire-p1r-peacekeeper",
     "type": "Tactical Device",
     "weight": "0.176 kg",
-    "sold_by": "Banshee R.1",
+    "sold_by": "Banshee R.2",
     "manufacturer": "Surefire",
     "weapon_handling": "-3.0 %",
     "modes": "Flashlight",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/P1R_inspect.png/revision/latest/scale-to-width-down/268?cb=20250529235203",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.176,
@@ -183,10 +187,12 @@
     "id": "zenitco-klesch-2",
     "type": "Tactical Device",
     "weight": "0.300 kg",
-    "sold_by": "Turncoat R.2",
-    "buy_price": "$260",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$350",
     "manufacturer": "Zenitco",
     "modes": "Flashlight",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.3,

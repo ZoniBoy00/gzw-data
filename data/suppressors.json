@@ -5,13 +5,14 @@
     "type": "Suppressor",
     "weight": "0.652 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$1,961",
+    "buy_price": "$1,530",
     "manufacturer": "Advanced Armament Company",
     "weapon_handling": "-6 %",
     "accuracy_modifier": "+5 %",
     "loudness_reduction": "+20 %",
     "muzzle_device_efficiency": "+5 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/762-SD_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727204929",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.652,
@@ -41,13 +42,14 @@
     "type": "Suppressor",
     "weight": "0.620 kg",
     "sold_by": "Turncoat R.3",
-    "buy_price": "$1,160",
+    "buy_price": "$1,190",
     "manufacturer": "Rotor 43",
     "weapon_handling": "-2 %",
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+18 %",
     "muzzle_device_efficiency": "+5 %",
     "size_change_horizontal": "+1",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.62,
@@ -76,13 +78,15 @@
     "id": "ak-15-suppressor",
     "type": "Suppressor",
     "weight": "0.620 kg",
-    "sold_by": "Artisan R.3",
-    "buy_price": "$1,160",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$1,275",
     "manufacturer": "Rotor 43",
     "weapon_handling": "-2 %",
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+17 %",
     "muzzle_device_efficiency": "+5 %",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.62,
@@ -112,13 +116,14 @@
     "type": "Suppressor",
     "weight": "0.272 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$1,544",
+    "buy_price": "$1,700",
     "manufacturer": "Silencer Central",
     "weapon_handling": "-5.0 %",
     "accuracy_modifier": "+2 %",
     "loudness_reduction": "+23 %",
     "muzzle_device_efficiency": "+5.0 %",
     "size_change_horizontal": "+1",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.272,
@@ -176,7 +181,7 @@
     "name": "HK MP5SD 9mm Suppressor",
     "id": "hk-mp5sd-9mm-suppressor",
     "type": "Suppressor",
-    "weight": ".476 kg",
+    "weight": "0.476 kg",
     "sold_by": "Gunny L3",
     "manufacturer": "Heckler & Koch",
     "weapon_handling": "-3.0 %",
@@ -184,6 +189,7 @@
     "loudness_reduction": "+57 %",
     "muzzle_device_efficiency": "+5.0 %",
     "size_change_horizontal": "+1",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.476,
@@ -213,12 +219,13 @@
     "type": "Suppressor",
     "weight": "0.765 kg",
     "sold_by": "Artisan R.3",
-    "buy_price": "$880",
+    "buy_price": "$1,020",
     "manufacturer": "General East",
     "weapon_handling": "-4 %",
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+21 %",
     "muzzle_device_efficiency": "+5 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.765,
@@ -248,11 +255,12 @@
     "type": "Suppressor",
     "weight": "0.607 kg",
     "sold_by": "Banshee R.4",
-    "buy_price": "$2,535",
+    "buy_price": "$2,380",
     "manufacturer": "B&T",
     "loudness_reduction": "+21 %",
     "muzzle_device_efficiency": "+7 %",
     "size_change_horizontal": "+1",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.607,
@@ -344,13 +352,14 @@
     "id": "qdss-nt4-suppressor",
     "type": "Suppressor",
     "weight": "0.620 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Gunny R.3",
     "manufacturer": "KAC",
     "weapon_handling": "-4 %",
     "accuracy_modifier": "+3 %",
     "loudness_reduction": "+17 %",
     "muzzle_device_efficiency": "+5 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/QDSS_NT4_Suppressor.png/revision/latest/scale-to-width-down/268?cb=20251110211546",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.62,
@@ -414,13 +423,14 @@
     "type": "Suppressor",
     "weight": "0.555 kg",
     "sold_by": "Gunny R.4",
-    "buy_price": "$2,390",
+    "buy_price": "$2,040",
     "manufacturer": "SilencerCo",
     "weapon_handling": "-10 %",
     "accuracy_modifier": "+5 %",
     "loudness_reduction": "+15 %",
     "muzzle_device_efficiency": "+7 %",
     "size_change_horizontal": "+2",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.555,
@@ -448,14 +458,19 @@
     "name": "SIG Suppressor SRD556",
     "id": "sig-suppressor-srd556",
     "type": "Suppressor",
-    "weight": "0.411 Kg kg",
+    "weight": "0.411 kg",
     "sold_by": "N/A",
     "manufacturer": "SIG Sauer",
     "weapon_handling": "-4.0 %",
     "accuracy_modifier": "+5.0 %",
     "loudness_reduction": "-18 %",
     "muzzle_device_efficiency": "+7.0 %",
+    "weight_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 0.411,
+        "unit": "kg"
+      },
       "weapon_handling": {
         "value": -4.0,
         "unit": "%"
@@ -480,12 +495,13 @@
     "type": "Suppressor",
     "weight": "0.453 kg",
     "sold_by": "Banshee R.4",
-    "buy_price": "$2,198",
+    "buy_price": "$2,720",
     "manufacturer": "SIG Sauer",
     "loudness_reduction": "+28 %",
     "muzzle_device_efficiency": "+7 %",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/SLH300_QD_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620014405",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.453,
@@ -507,12 +523,13 @@
     "type": "Suppressor",
     "weight": "0.598 kg",
     "sold_by": "Banshee R.4",
-    "buy_price": "$2,314",
+    "buy_price": "$2,380",
     "manufacturer": "SIG Sauer",
     "weapon_handling": "-7 %",
     "accuracy_modifier": "+6 %",
     "loudness_reduction": "+18 %",
     "muzzle_device_efficiency": "+7 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.598,
@@ -541,7 +558,7 @@
     "id": "socom556-rc1-suppressor",
     "type": "Suppressor",
     "weight": "0.453 kg",
-    "sold_by": "Gunny R.3",
+    "sold_by": "Gunny R.4",
     "manufacturer": "Surefire",
     "accuracy": "+4 MOA",
     "weapon_handling": "-4 %",
@@ -549,6 +566,7 @@
     "muzzle_device_efficiency": "+7 %",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/RC1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616235055",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.453,
@@ -636,13 +654,20 @@
     "name": "Type 51 Suppressor",
     "id": "type-51-suppressor",
     "type": "Suppressor",
-    "weight": "??? kg",
+    "weight": "0.332 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "+???? %",
     "loudness_reduction": "+???? %",
     "muzzle_device_efficiency": "+???? %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.332,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Ultima Suppressor",
@@ -672,14 +697,16 @@
     "id": "vlc-556-mark-1-suppressor",
     "type": "Suppressor",
     "weight": "0.680 kg",
-    "sold_by": "Gunny R.4",
-    "buy_price": "$2,004",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$2,210",
     "manufacturer": "Antreg",
     "weapon_handling": "-4.0 %",
     "accuracy_modifier": "+2 %",
     "loudness_reduction": "+15 %",
     "muzzle_device_efficiency": "+4 %",
     "size_change_horizontal": "+1",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.68,
@@ -707,12 +734,19 @@
     "name": "Vz. 61 TOS Suppressor",
     "id": "vz.-61-tos-suppressor",
     "type": "Suppressor",
-    "weight": "??? kg",
+    "weight": "0.36 kg",
     "sold_by": "???",
     "manufacturer": "???",
     "weapon_handling": "+???? %",
     "loudness_reduction": "+???? %",
     "muzzle_device_efficiency": "+???? %",
-    "size_change_horizontal": "+1"
+    "size_change_horizontal": "+1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.36,
+        "unit": "kg"
+      }
+    }
   }
 ]

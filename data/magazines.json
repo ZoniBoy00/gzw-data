@@ -484,9 +484,10 @@
     "id": "m700-7.62x51mm-5-round-magazine",
     "type": "Magazine",
     "weight": "0.170 kg",
-    "sold_by": "Banshee R.1",
+    "sold_by": "Gunny R.2",
     "manufacturer": "Accuracy International",
     "caliber": "7.62x51mm NATO",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.17,
@@ -585,9 +586,10 @@
     "id": "mosin-nagant-7.62x54r-5-round-internal-magazine",
     "type": "Magazine",
     "weight": "0.200 kg",
-    "sold_by": "Artisan R.1",
+    "sold_by": "Artisan R.2",
     "manufacturer": "Kalashnikov concern",
     "caliber": "7.62x54mm R",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.2,

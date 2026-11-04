@@ -90,10 +90,11 @@
     "type": "Belt",
     "weight": "1.310kg",
     "grid_size": "3x2",
-    "sold_by": "Turncoat R.3",
+    "sold_by": "Turncoat R.4",
     "slots": "4",
     "manufacturer": "Raid Gear & MBC",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Type_2_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507165813",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.31,
@@ -107,10 +108,11 @@
     "type": "Belt",
     "weight": "2.531kg",
     "grid_size": "2x2",
-    "sold_by": "Handshake R.1",
+    "sold_by": "Handshake R.3",
     "slots": "3",
     "manufacturer": "Custom Gear",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/MC50_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509132956",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 2.531,

@@ -14,7 +14,8 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ III",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.011,
@@ -41,7 +42,8 @@
     "muzzle_velocity": "966 m/s",
     "accuracy_modifier": "-2 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ IIIA+",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.011,
@@ -71,7 +73,8 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "-5 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ I",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.011,
@@ -95,20 +98,23 @@
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sold_by": "Artisan R.2",
-    "muzzle_velocity": "970 m/s",
-    "accuracy_modifier": "-5 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "muzzle_velocity": "1020 m/s",
+    "accuracy_modifier": "+7 %",
+    "stopped_by_armor_class": "NIJ IIIA",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.011,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 970.0,
+        "value": 1020.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -5.0,
+        "value": 7.0,
         "unit": "%"
       }
     }
@@ -163,8 +169,9 @@
     "muzzle_velocity": "853 m/s",
     "accuracy_modifier": "+1 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ III",
+    "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/CQ_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412075727",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.012,
@@ -194,8 +201,9 @@
     "sold_by": "Banshee R.1",
     "muzzle_velocity": "633 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ IIIA+",
+    "stopped_by_armor_class": "NIJ III",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/FMJ_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074247",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.017,
@@ -249,8 +257,9 @@
     "muzzle_velocity": "724 m/s",
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ IIIA+",
+    "stopped_by_armor_class": "NIJ IIIA",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VMAX_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074414",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.015,
@@ -282,13 +291,15 @@
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sold_by": "Artisan R.3",
-    "muzzle_velocity": "299 m/s",
+    "muzzle_velocity": "450 m/s",
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/AP_.45_inspect.png/revision/latest/scale-to-width-down/268?cb=20250610112129",
-    "stopped_by_armor_class": "NIJ IIIA",
+    "stopped_by_armor_class": "NIJ III+",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "muzzle_velocity": {
-        "value": 299.0,
+        "value": 450.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
@@ -307,8 +318,9 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "260 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ IIA",
+    "stopped_by_armor_class": "NIJ I++",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/FMJ_.45_inspect.png/revision/latest?cb=20260414111029",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.021,
@@ -335,8 +347,9 @@
     "muzzle_velocity": "274 m/s",
     "accuracy_modifier": "+0 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ I+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Hydra-Shok_inspect.png/revision/latest?cb=20260414113205",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.021,
@@ -366,8 +379,9 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "290 m/s",
     "accuracy_modifier": "-2 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ I",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/JHP_%2BP_.45_inspect.png/revision/latest?cb=20260414113246",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.021,
@@ -398,8 +412,9 @@
     "sold_by": "Gunny R.1",
     "muzzle_velocity": "370 m/s",
     "accuracy_modifier": "+38 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ I",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/00_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085636",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -426,8 +441,9 @@
     "muzzle_velocity": "349 m/s",
     "accuracy_modifier": "+27 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ IIIA",
+    "stopped_by_armor_class": "NIJ III",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/12ga_FC_00_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414090208",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -458,8 +474,9 @@
     "muzzle_velocity": "420 m/s",
     "accuracy_modifier": "+42 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ I",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414084822",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -490,8 +507,9 @@
     "muzzle_velocity": "609 m/s",
     "accuracy_modifier": "+50 %",
     "durability_modifier": "-40 %",
-    "stopped_by_armor_class": "NIJ III",
+    "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/SST_Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085502",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -522,14 +540,17 @@
     "type": "Ammunition Round",
     "grid_size": "1x1",
     "manufacturer": "General West",
-    "sold_by": "Banshee R.2",
-    "muzzle_velocity": "680 m/s",
+    "sold_by": "Banshee R.1",
+    "muzzle_velocity": "690 m/s",
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/Action_SX_4.6x30_inspect.png/revision/latest/scale-to-width-down/267?cb=20250611220709",
-    "stopped_by_armor_class": "NIJ IIA+",
+    "stopped_by_armor_class": "NIJ IIIA",
+    "muzzle_velocity_source": "game-files",
+    "sold_by_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "muzzle_velocity": {
-        "value": 680.0,
+        "value": 690.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
@@ -544,13 +565,16 @@
     "type": "Ammunition Round",
     "grid_size": "1x1",
     "manufacturer": "General West",
-    "sold_by": "Banshee R.4",
-    "muzzle_velocity": "690 m/s",
+    "sold_by": "Banshee R.3",
+    "muzzle_velocity": "680 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ IIIA",
+    "stopped_by_armor_class": "NIJ III+",
+    "muzzle_velocity_source": "game-files",
+    "sold_by_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "muzzle_velocity": {
-        "value": 690.0,
+        "value": 680.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
@@ -565,13 +589,16 @@
     "type": "Ammunition Round",
     "grid_size": "1x1",
     "manufacturer": "General West",
-    "sold_by": "Banshee R.2",
-    "muzzle_velocity": "612 m/s",
+    "sold_by": "Banshee R.1",
+    "muzzle_velocity": "620 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ IIIA",
+    "stopped_by_armor_class": "NIJ IIIA+",
+    "muzzle_velocity_source": "game-files",
+    "sold_by_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "muzzle_velocity": {
-        "value": 612.0,
+        "value": 620.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
@@ -589,7 +616,8 @@
     "sold_by": "Banshee R.1",
     "muzzle_velocity": "290 m/s",
     "accuracy_modifier": "+0 %",
-    "stopped_by_armor_class": "NIJ IIIA",
+    "stopped_by_armor_class": "NIJ IIA",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "muzzle_velocity": {
         "value": 290.0,
@@ -610,26 +638,29 @@
     "name": "5.45x39mm BP (7N22)",
     "id": "5.45x39mm-bp-7n22",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0105 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Loot only",
-    "muzzle_velocity": "840 m/s",
-    "accuracy_modifier": "-1 %",
+    "muzzle_velocity": "860 m/s",
+    "accuracy_modifier": "+1 %",
     "stopped_by_armor_class": "NIJ IV",
     "sell_price": "$2",
     "sell_price_source": "gzwitems.com",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0105,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 840.0,
+        "value": 860.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -1.0,
+        "value": 1.0,
         "unit": "%"
       }
     }
@@ -638,16 +669,19 @@
     "name": "5.45x39mm BS (7N24)",
     "id": "5.45x39mm-bs-7n24",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.011 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Loot only",
     "muzzle_velocity": "840 m/s",
-    "accuracy_modifier": "-6 %",
-    "stopped_by_armor_class": "NIJ III++",
+    "accuracy_modifier": "+6 %",
+    "stopped_by_armor_class": "NIJ IV",
+    "accuracy_modifier_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.011,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -655,7 +689,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -6.0,
+        "value": 6.0,
         "unit": "%"
       }
     }
@@ -664,24 +698,28 @@
     "name": "5.45x39mm BT (7BT4)",
     "id": "5.45x39mm-bt-7bt4",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0105 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "muzzle_velocity": "880 m/s",
-    "accuracy_modifier": "-2 %",
+    "muzzle_velocity": "915 m/s",
+    "accuracy_modifier": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/BT_5.45x39_inspect.png/revision/latest?cb=20240507130206",
-    "stopped_by_armor_class": "NIJ III+",
+    "stopped_by_armor_class": "NIJ III++",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0105,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 880.0,
+        "value": 915.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -2.0,
+        "value": 2.0,
         "unit": "%"
       }
     }
@@ -690,21 +728,25 @@
     "name": "5.45x39mm FMJ",
     "id": "5.45x39mm-fmj",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0105 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "sold_by": "Turncoat R.1",
-    "muzzle_velocity": "884 m/s",
+    "sold_by": "Turncoat R.2",
+    "muzzle_velocity": "855 m/s",
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/FMJ_5.45x39_inspect.png/revision/latest?cb=20240503130831",
-    "stopped_by_armor_class": "NIJ IIIA+",
+    "stopped_by_armor_class": "NIJ III",
+    "muzzle_velocity_source": "game-files",
+    "sold_by_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0105,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 884.0,
+        "value": 855.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
@@ -717,24 +759,28 @@
     "name": "5.45x39mm HP",
     "id": "5.45x39mm-hp",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0105 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "sold_by": "Turncoat R.1",
-    "muzzle_velocity": "884 m/s",
-    "accuracy_modifier": "+6 %",
+    "sold_by": "Turncoat R.2",
+    "muzzle_velocity": "880 m/s",
+    "accuracy_modifier": "-6 %",
     "stopped_by_armor_class": "NIJ IIIA+",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "sold_by_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0105,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 884.0,
+        "value": 880.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 6.0,
+        "value": -6.0,
         "unit": "%"
       }
     }
@@ -743,46 +789,24 @@
     "name": "5.45x39mm PP (7N10)",
     "id": "5.45x39mm-pp-7n10",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0105 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Turncoat R.3",
-    "muzzle_velocity": "880 m/s",
-    "accuracy_modifier": "-2 %",
-    "stopped_by_armor_class": "NIJ III+",
-    "numeric_values": {
-      "weight": {
-        "value": 0.01,
-        "unit": "kg"
-      },
-      "muzzle_velocity": {
-        "value": 880.0,
-        "unit": "m/s"
-      },
-      "accuracy_modifier": {
-        "value": -2.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "5.45x39mm PS (7N6)",
-    "id": "5.45x39mm-ps-7n6",
-    "type": "Round",
-    "weight": "0.01kg",
-    "grid_size": "1x1",
-    "manufacturer": "General East",
-    "muzzle_velocity": "880 m/s",
+    "muzzle_velocity": "870 m/s",
     "accuracy_modifier": "+2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/PS_5.45x39_inspect.png/revision/latest?cb=20240507130207",
-    "stopped_by_armor_class": "NIJ III",
+    "stopped_by_armor_class": "NIJ III++",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0105,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 880.0,
+        "value": 870.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
@@ -792,26 +816,59 @@
     }
   },
   {
-    "name": "5.45x39mm US (7U1)",
-    "id": "5.45x39mm-us-7u1",
+    "name": "5.45x39mm PS (7N6)",
+    "id": "5.45x39mm-ps-7n6",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0105 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "muzzle_velocity": "304 m/s",
-    "accuracy_modifier": "+6 %",
-    "stopped_by_armor_class": "NIJ IIIA",
+    "muzzle_velocity": "900 m/s",
+    "accuracy_modifier": "-2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/PS_5.45x39_inspect.png/revision/latest?cb=20240507130207",
+    "stopped_by_armor_class": "NIJ III+",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0105,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 304.0,
+        "value": 900.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 6.0,
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "5.45x39mm US (7U1)",
+    "id": "5.45x39mm-us-7u1",
+    "type": "Round",
+    "weight": "0.0125 kg",
+    "grid_size": "1x1",
+    "manufacturer": "General East",
+    "muzzle_velocity": "303 m/s",
+    "accuracy_modifier": "-6 %",
+    "stopped_by_armor_class": "NIJ IIIA",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.0125,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 303.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": -6.0,
         "unit": "%"
       }
     }
@@ -819,7 +876,8 @@
   {
     "name": "5.45x39mm Wolf",
     "id": "5.45x39mm-wolf",
-    "stopped_by_armor_class": "NIJ 0"
+    "stopped_by_armor_class": "NIJ I",
+    "stopped_by_armor_class_source": "game-files"
   },
   {
     "name": "5.45x39mm WOLF",
@@ -859,8 +917,9 @@
     "muzzle_velocity": "920 m/s",
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ III++",
+    "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/M855_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412073141",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.012,
@@ -884,18 +943,20 @@
     "name": "5.56x45mm AP (M855A1)",
     "id": "5.56x45mm-ap-m855a1",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0116 kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sold_by": "Gunny R.3",
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "+7%",
     "durability_modifier": "-40%",
-    "stopped_by_armor_class": "NIJ IV",
+    "stopped_by_armor_class": "NIJ III++",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/M855A1_5.56x45_inspect.png/revision/latest?cb=20240505231241",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0116,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -920,15 +981,20 @@
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sold_by": "Gunny R.4",
-    "muzzle_velocity": "1,030 m/s",
+    "muzzle_velocity": "1030 m/s",
     "accuracy_modifier": "+5 %",
     "durability_modifier": "-100 %",
     "stopped_by_armor_class": "NIJ IV",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/M995_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404172735",
+    "muzzle_velocity_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.012,
         "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 1030.0,
+        "unit": "m/s"
       },
       "accuracy_modifier": {
         "value": 5.0,
@@ -978,8 +1044,9 @@
     "muzzle_velocity": "861 m/s",
     "accuracy_modifier": "-3 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ III",
+    "stopped_by_armor_class": "NIJ IIIA+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HPBT_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412072555",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.013,
@@ -1042,8 +1109,9 @@
     "sold_by": "Gunny R.1",
     "muzzle_velocity": "930 m/s",
     "accuracy_modifier": "-3 %",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ I",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/SP_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412070039",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1063,18 +1131,20 @@
     "name": "5.56x45mm Tracer (M856)",
     "id": "5.56x45mm-tracer-m856",
     "type": "Round",
-    "weight": "0.014kg",
+    "weight": "0.0135 kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sold_by": "Gunny R.2",
     "muzzle_velocity": "917 m/s",
     "accuracy_modifier": "-3 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ III",
+    "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/M856_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412073343",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.014,
+        "value": 0.0135,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1095,23 +1165,26 @@
     "name": "5.56x45mm Tracer (M856A1)",
     "id": "5.56x45mm-tracer-m856a1",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0125 kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
-    "muzzle_velocity": "970 m/s",
-    "accuracy_modifier": "-7 %",
+    "muzzle_velocity": "945 m/s",
+    "accuracy_modifier": "-4 %",
     "stopped_by_armor_class": "NIJ III++",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0125,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 970.0,
+        "value": 945.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -7.0,
+        "value": -4.0,
         "unit": "%"
       }
     }
@@ -1129,10 +1202,69 @@
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Artisan R.1",
-    "muzzle_velocity": "415 m/s",
-    "accuracy_modifier": "+2 %",
+    "muzzle_velocity": "430 m/s",
+    "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/FMJ_7.62x25mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20250611224547",
-    "stopped_by_armor_class": "NIJ IIA",
+    "stopped_by_armor_class": "NIJ II",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.011,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 430.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 0.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "7.62x25mm PST",
+    "id": "7.62x25mm-pst",
+    "type": "Round",
+    "weight": "0.011 kg",
+    "grid_size": "1x1",
+    "manufacturer": "General East",
+    "sold_by": "Artisan R.2",
+    "muzzle_velocity": "430 m/s",
+    "accuracy_modifier": "+2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/PST_7.62x25mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507130206",
+    "accuracy_modifier_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.011,
+        "unit": "kg"
+      },
+      "muzzle_velocity": {
+        "value": 430.0,
+        "unit": "m/s"
+      },
+      "accuracy_modifier": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "7.62x25mm PT",
+    "id": "7.62x25mm-pt",
+    "type": "Round",
+    "weight": "0.011 kg",
+    "grid_size": "1x1",
+    "manufacturer": "General East",
+    "sold_by": "Artisan R.1",
+    "muzzle_velocity": "415 m/s",
+    "accuracy_modifier": "-2 %",
+    "accuracy_modifier_source": "game-files",
+    "sold_by_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.011,
@@ -1143,58 +1275,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 2.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "7.62x25mm PST",
-    "id": "7.62x25mm-pst",
-    "type": "Round",
-    "weight": "0.01kg",
-    "grid_size": "1x1",
-    "manufacturer": "General East",
-    "sold_by": "Artisan R.2",
-    "muzzle_velocity": "430 m/s",
-    "accuracy_modifier": "-2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/PST_7.62x25mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507130206",
-    "numeric_values": {
-      "weight": {
-        "value": 0.01,
-        "unit": "kg"
-      },
-      "muzzle_velocity": {
-        "value": 430.0,
-        "unit": "m/s"
-      },
-      "accuracy_modifier": {
         "value": -2.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "7.62x25mm PT",
-    "id": "7.62x25mm-pt",
-    "type": "Round",
-    "weight": "0.01kg",
-    "grid_size": "1x1",
-    "manufacturer": "General East",
-    "sold_by": "Artisan R.2",
-    "muzzle_velocity": "415 m/s",
-    "accuracy_modifier": "+2 %",
-    "numeric_values": {
-      "weight": {
-        "value": 0.01,
-        "unit": "kg"
-      },
-      "muzzle_velocity": {
-        "value": 415.0,
-        "unit": "m/s"
-      },
-      "accuracy_modifier": {
-        "value": 2.0,
         "unit": "%"
       }
     }
@@ -1212,17 +1293,19 @@
     "name": "7.62x39mm BP (7N23)",
     "id": "7.62x39mm-bp-7n23",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0163 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Loot only",
     "muzzle_velocity": "740 m/s",
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-100 %",
-    "stopped_by_armor_class": "NIJ III++",
+    "stopped_by_armor_class": "NIJ IV",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0163,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1243,16 +1326,18 @@
     "name": "7.62x39mm PS (57-N-231C)",
     "id": "7.62x39mm-ps-57-n-231c",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0163 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "sold_by": "Artisan R.3",
+    "sold_by": "Turncoat R.2",
     "muzzle_velocity": "725 m/s",
     "dispersion": "-1 %",
     "stopped_by_armor_class": "NIJ III+",
+    "sold_by_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0163,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1269,17 +1354,20 @@
     "name": "7.62x39mm SP",
     "id": "7.62x39mm-sp",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0175 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "743 m/s",
-    "accuracy_modifier": "+2 %",
+    "accuracy_modifier": "-2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/SP_7.62x39_inspect.png/revision/latest?cb=20240507130207",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ I",
+    "accuracy_modifier_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0175,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1287,7 +1375,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 2.0,
+        "value": -2.0,
         "unit": "%"
       }
     }
@@ -1296,16 +1384,19 @@
     "name": "7.62x39mm Tracer (57-N-231P)",
     "id": "7.62x39mm-tracer-57-n-231p",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0163 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Loot only",
     "muzzle_velocity": "725 m/s",
-    "accuracy_modifier": "+3 %",
-    "stopped_by_armor_class": "NIJ III+",
+    "accuracy_modifier": "-3 %",
+    "stopped_by_armor_class": "NIJ III",
+    "accuracy_modifier_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0163,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1313,7 +1404,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 3.0,
+        "value": -3.0,
         "unit": "%"
       }
     }
@@ -1322,17 +1413,19 @@
     "name": "7.62x39mm US",
     "id": "7.62x39mm-us",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0163 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "310 m/s",
-    "accuracy_modifier": "+6 %",
+    "accuracy_modifier": "-6 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/US_7.62x39_inspect.png/revision/latest?cb=20240507130207",
     "stopped_by_armor_class": "NIJ IIIA",
+    "accuracy_modifier_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0163,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1340,7 +1433,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 6.0,
+        "value": -6.0,
         "unit": "%"
       }
     }
@@ -1349,18 +1442,20 @@
     "name": "7.62x51mm AP (M61)",
     "id": "7.62x51mm-ap-m61",
     "type": "Round",
-    "weight": "0.024kg",
+    "weight": "0.0245 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Loot only",
     "muzzle_velocity": "838 m/s",
-    "accuracy_modifier": "-4 %",
+    "accuracy_modifier": "+4 %",
     "stopped_by_armor_class": "NIJ IV",
     "sell_price": "$28",
     "sell_price_source": "gzwitems.com",
+    "accuracy_modifier_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.024,
+        "value": 0.0245,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1368,7 +1463,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -4.0,
+        "value": 4.0,
         "unit": "%"
       }
     }
@@ -1404,16 +1499,19 @@
     "name": "7.62x51mm FMJ (M80A1)",
     "id": "7.62x51mm-fmj-m80a1",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.024 kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
-    "sold_by": "Banshee R.3",
+    "sold_by": "Gunny R.3",
     "muzzle_velocity": "835 m/s",
-    "accuracy_modifier": "-3 %",
+    "accuracy_modifier": "+3 %",
     "stopped_by_armor_class": "NIJ III++",
+    "accuracy_modifier_source": "game-files",
+    "sold_by_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.024,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1421,7 +1519,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -3.0,
+        "value": 3.0,
         "unit": "%"
       }
     }
@@ -1430,16 +1528,19 @@
     "name": "7.62x51mm HPBT",
     "id": "7.62x51mm-hpbt",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.0275 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "sold_by": "Banshee R.2",
+    "sold_by": "Gunny R.3",
     "muzzle_velocity": "800 m/s",
     "dispersion": "-4 %",
-    "stopped_by_armor_class": "NIJ III",
+    "stopped_by_armor_class": "NIJ IIIA+",
+    "sold_by_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.0275,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1466,8 +1567,10 @@
     "manufacturer": "General East",
     "sold_by": "Loot only",
     "muzzle_velocity": "820 m/s",
-    "accuracy_modifier": "+4 %",
-    "stopped_by_armor_class": "NIJ III++",
+    "accuracy_modifier": "-4 %",
+    "stopped_by_armor_class": "NIJ III",
+    "accuracy_modifier_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.024,
@@ -1478,7 +1581,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 4.0,
+        "value": -4.0,
         "unit": "%"
       }
     }
@@ -1497,8 +1600,10 @@
     "manufacturer": "General East",
     "sold_by": "Loot only",
     "muzzle_velocity": "828 m/s",
-    "accuracy_modifier": "-2 %",
-    "stopped_by_armor_class": "NIJ IV",
+    "accuracy_modifier": "+2 %",
+    "stopped_by_armor_class": "NIJ IV++",
+    "accuracy_modifier_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.022,
@@ -1509,7 +1614,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -2.0,
+        "value": 2.0,
         "unit": "%"
       }
     }
@@ -1518,18 +1623,21 @@
     "name": "7.62x54R LPS (57-N-323S)",
     "id": "7.62x54r-lps-57-n-323s",
     "type": "Round",
-    "weight": "0.01 kg",
+    "weight": "0.021 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "sold_by": "Artisan R.1",
+    "sold_by": "Artisan R.2",
     "muzzle_velocity": "828 m/s",
-    "accuracy_modifier": "-1 %",
+    "accuracy_modifier": "+1 %",
     "stopped_by_armor_class": "NIJ III+",
     "sell_price": "$1",
     "sell_price_source": "gzwitems.com",
+    "accuracy_modifier_source": "game-files",
+    "sold_by_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.021,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1537,7 +1645,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -1.0,
+        "value": 1.0,
         "unit": "%"
       }
     }
@@ -1546,24 +1654,28 @@
     "name": "7.62x54R Sniper Round (7N1)",
     "id": "7.62x54r-sniper-round-7n1",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.021 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
     "sold_by": "Loot only",
-    "muzzle_velocity": "835 m/s",
-    "accuracy_modifier": "-5 %",
-    "stopped_by_armor_class": "NIJ III++",
+    "muzzle_velocity": "830 m/s",
+    "accuracy_modifier": "+5 %",
+    "stopped_by_armor_class": "NIJ IVA+",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.021,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 835.0,
+        "value": 830.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": -5.0,
+        "value": 5.0,
         "unit": "%"
       }
     }
@@ -1572,16 +1684,20 @@
     "name": "7.62x54R Tracer (T-46M)",
     "id": "7.62x54r-tracer-t-46m",
     "type": "Round",
-    "weight": "0.01 kg",
+    "weight": "0.022 kg",
     "grid_size": "1x1",
     "manufacturer": "General East",
-    "sold_by": "Artisan R.2",
+    "sold_by": "Artisan R.3",
     "muzzle_velocity": "830 m/s",
-    "accuracy_modifier": "+3%",
-    "stopped_by_armor_class": "NIJ III+",
+    "accuracy_modifier": "-3 %",
+    "stopped_by_armor_class": "NIJ III++",
+    "accuracy_modifier_source": "game-files",
+    "sold_by_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.022,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1589,7 +1705,7 @@
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 3.0,
+        "value": -3.0,
         "unit": "%"
       }
     }
@@ -1598,17 +1714,19 @@
     "name": "7.65 Browning FMJ",
     "id": "7.65-browning-fmj",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.008 kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "318 m/s",
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/FMJ_7.65_B_inspect.png/revision/latest?cb=20240507130207",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ IIA",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.008,
         "unit": "kg"
       },
       "muzzle_velocity": {
@@ -1625,25 +1743,29 @@
     "name": "7.65 Browning JHP",
     "id": "7.65-browning-jhp",
     "type": "Round",
-    "weight": "0.01kg",
+    "weight": "0.008 kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sold_by": "Artisan R.1",
-    "muzzle_velocity": "238 m/s",
-    "accuracy_modifier": "+4 %",
+    "muzzle_velocity": "276 m/s",
+    "accuracy_modifier": "-4 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/JHP_7.65_B_inspect.png/revision/latest?cb=20240507130205",
-    "stopped_by_armor_class": "NIJ 0",
+    "stopped_by_armor_class": "NIJ I",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.008,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 238.0,
+        "value": 276.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 4.0,
+        "value": -4.0,
         "unit": "%"
       }
     }
@@ -1656,21 +1778,24 @@
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sold_by": "Loot only",
-    "muzzle_velocity": "289 m/s",
-    "accuracy_modifier": "+2 %",
+    "muzzle_velocity": "290 m/s",
+    "accuracy_modifier": "-2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/XD_7.65_B_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612223159",
-    "stopped_by_armor_class": "NIJ IIA",
+    "stopped_by_armor_class": "NIJ II+",
+    "accuracy_modifier_source": "game-files",
+    "muzzle_velocity_source": "game-files",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.007,
         "unit": "kg"
       },
       "muzzle_velocity": {
-        "value": 289.0,
+        "value": 290.0,
         "unit": "m/s"
       },
       "accuracy_modifier": {
-        "value": 2.0,
+        "value": -2.0,
         "unit": "%"
       }
     }
@@ -1722,8 +1847,9 @@
     "sold_by": "Gunny R.1",
     "muzzle_velocity": "377 m/s",
     "accuracy_modifier": "-3 %",
-    "stopped_by_armor_class": "NIJ IIA",
+    "stopped_by_armor_class": "NIJ I++",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/HP_9x19_inspect.png/revision/latest?cb=20260414104120",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.012,
@@ -1750,10 +1876,11 @@
     "muzzle_velocity": "700 m/s",
     "accuracy_modifier": "+0 %",
     "durability_modifier": "-40 %",
-    "stopped_by_armor_class": "NIJ III",
+    "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/LS_9x19_inspect.png/revision/latest?cb=20260414105204",
     "sell_price": "$1",
     "sell_price_source": "gzwitems.com",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.007,
@@ -1811,8 +1938,9 @@
     "muzzle_velocity": "381 m/s",
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-15 %",
-    "stopped_by_armor_class": "NIJ IIIA",
+    "stopped_by_armor_class": "NIJ IIIA+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/Xp%2B9x19_inspect.png/revision/latest?cb=20260414104838",
+    "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.012,
