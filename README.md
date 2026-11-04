@@ -235,6 +235,10 @@ The API advertises a **best-effort limit of 100 requests/minute/IP**. The curren
 - Clients should cache responses, respect `Retry-After`, and avoid unnecessary polling
 - A shared datastore such as Upstash Redis or Vercel KV would be required for a strict global quota
 
+### Identifying your app (`X-Client`)
+
+The API keeps anonymous daily request counters per endpoint, status code and client name. No IP addresses, full URLs or query strings are stored, and counts are kept for 90 days. Please send an `X-Client` header with a short name for your app or bot (for example `X-Client: my-gzw-tool`) so your traffic is not lumped in with generic `node` or `curl` requests. It is optional. Without it, the first word of your `User-Agent` is used.
+
 ### Caching
 
 All data endpoints include `Cache-Control: public, max-age=300` headers. CDN and browser caching are encouraged.
