@@ -42,6 +42,8 @@ async function main() {
 
   console.log(`\nTotal requests that reached the function in ${days} days: ${total}`);
   console.log('(CDN-cached responses are not counted, so this is a lower bound.)');
+  const unidentified = (totals.client.unknown || 0) + (totals.client['other-client'] || 0);
+  console.log(`Unidentified clients (unknown + other-client): ${unidentified}${total ? ` (${(100 * unidentified / total).toFixed(1)}%)` : ''}`);
   for (const [title, counts] of Object.entries(totals)) {
     console.log(`\nTop ${title}s`);
     Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 15).forEach(([name, n]) => console.log(`  ${String(n).padStart(8)}  ${name}`));

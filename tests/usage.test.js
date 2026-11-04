@@ -26,8 +26,10 @@ describe('usage counters', () => {
 
   it('builds counters that contain no IP address, URL or query string', () => {
     const commands = buildCommands({ day: '2026-11-03', endpoint: 'weapons', status: 200, client: 'own-site' });
-    assert.deepStrictEqual(commands.map(c => c[2]), ['total', 'ep:weapons', 'st:200', 'cl:own-site']);
-    assert.ok(commands.every(c => c[0] === 'HINCRBY' && c[1] === 'usage:2026-11-03'));
+    const counters = commands.filter(c => c[0] === 'HINCRBY');
+    assert.deepStrictEqual(counters.map(c => c[2]), ['total', 'ep:weapons', 'st:200', 'cl:own-site']);
+    assert.ok(commands.every(c => c[1] === 'usage:2026-11-03'));
+    assert.deepStrictEqual(commands.find(c => c[0] === 'EXPIRE'), ['EXPIRE', 'usage:2026-11-03', 90 * 86400]);
   });
 
   it('does nothing without Redis credentials', () => {
