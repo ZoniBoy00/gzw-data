@@ -45,9 +45,10 @@
     "type": "Charging Handle",
     "weight": "0.030 kg",
     "sold_by": "Gunny R.4",
-    "buy_price": "$166",
+    "buy_price": "$234",
     "manufacturer": "Antreg",
     "reload_speed": "+6.0 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.03,
@@ -153,9 +154,10 @@
     "type": "Charging Handle",
     "weight": "0.031 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$162",
+    "buy_price": "$212",
     "manufacturer": "SIG Sauer",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/MCX_Ch_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614022933",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.031,
@@ -182,9 +184,16 @@
     "name": "Vz. 61 Charging Knobs",
     "id": "vz.-61-charging-knobs",
     "type": "Charging Handle",
-    "weight": "??? kg",
+    "weight": "0.012 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "reload_speed": "+??? %"
+    "reload_speed": "+??? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.012,
+        "unit": "kg"
+      }
+    }
   }
 ]

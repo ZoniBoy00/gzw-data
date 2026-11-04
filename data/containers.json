@@ -208,7 +208,7 @@
     "id": "large-safe",
     "type": "Container",
     "weight": "15.000kg",
-    "sold_by": "Vulture R.4",
+    "sold_by": "Collector R.4",
     "grid_size": "3x4",
     "slots": "108",
     "inventory_layout_(x/y)": "9x12",
@@ -217,6 +217,7 @@
     "buy_price": "$105,560",
     "restrictions": "Vices Jewellery Electronics Funds Evidence Military Equipment",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Large_Safe_inspect.png/revision/latest?cb=20260416205057",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 15.0,
@@ -465,7 +466,7 @@
     "id": "small-safe",
     "type": "Container",
     "weight": "3.000kg",
-    "sold_by": "Vulture R.3",
+    "sold_by": "Collector R.3",
     "grid_size": "3x2",
     "slots": "24",
     "inventory_layout_(x/y)": "6x4",
@@ -473,6 +474,7 @@
     "buy_price": "$75,509",
     "restrictions": "Vices Jewellery Electronics Funds Evidence Military Equipment",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Small_Safe_inspect.png/revision/latest/scale-to-width-down/268?cb=20260416204951",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 3.0,

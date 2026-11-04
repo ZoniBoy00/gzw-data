@@ -3,13 +3,14 @@
     "name": "Black Luxury Phone",
     "id": "black-luxury-phone",
     "type": "Electronics",
-    "weight": "0.100kg",
+    "weight": "0.22 kg",
     "grid_size": "1x1",
     "sell_price": "$1.500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/BLPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232310",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.22,
         "unit": "kg"
       }
     }
@@ -48,14 +49,15 @@
     "name": "Expensive Smartphone",
     "id": "expensive-smartphone",
     "type": "Electronics",
-    "weight": "0.100kg",
+    "weight": "0.25 kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sell_price": "$350",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/EPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505041727",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.25,
         "unit": "kg"
       }
     }
@@ -80,13 +82,14 @@
     "name": "Missile Guidance Circuit",
     "id": "missile-guidance-circuit",
     "type": "Electronics",
-    "weight": "0.010kg",
+    "weight": "2 kg",
     "grid_size": "1x1",
     "sell_price": "$15,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Missile_Guidance_Circuit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183805",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 2.0,
         "unit": "kg"
       }
     }
@@ -111,13 +114,14 @@
     "name": "Smartphone",
     "id": "smartphone",
     "type": "Electronics",
-    "weight": "0.100kg",
+    "weight": "0.22 kg",
     "grid_size": "1x1",
     "sell_price": "$250",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Phone_inspect.png/revision/latest?cb=20250425032205",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.22,
         "unit": "kg"
       }
     }

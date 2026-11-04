@@ -28,11 +28,12 @@
     "name": "AR-15 Barrel - 14.5\"",
     "id": "ar-15-barrel---14.5\"",
     "type": "Barrel",
-    "weight": ".725 kg",
+    "weight": "0.725 kg",
     "sold_by": "Gunny R.??",
     "manufacturer": "Colt",
     "accuracy": "2.15 MOA",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/AR-15_14.5%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135421",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.725,
@@ -70,11 +71,13 @@
     "id": "ar-15-barrel---18\"",
     "type": "Barrel",
     "weight": "1.270 kg",
-    "sold_by": "Gunny R.4",
-    "buy_price": "$598",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$867",
     "manufacturer": "Colt",
     "accuracy": "1.44 MOA",
     "muzzle_velocity": "+12 %",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.27,
@@ -143,9 +146,10 @@
     "type": "Barrel",
     "weight": "0.110 kg",
     "sold_by": "Banshee R.2",
-    "buy_price": "$204",
+    "buy_price": "$425",
     "manufacturer": "Zaffiri Precision",
     "accuracy": "10.82 MOA",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.11,
@@ -161,13 +165,20 @@
     "name": "Glock 17 Match Grade Threaded Barrel (Gold)",
     "id": "glock-17-match-grade-threaded-barrel-gold",
     "type": "Barrel",
-    "weight": "???? kg",
+    "weight": "0.12 kg",
     "sold_by": "????",
     "manufacturer": "???",
     "accuracy": "??? MOA",
     "fire_rate": "+??? RPM",
     "muzzle_device_efficiency": "???? %",
-    "size_change_horizontal": "????"
+    "size_change_horizontal": "????",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock 17 Standard Barrel",
@@ -194,11 +205,12 @@
     "id": "m700-barrel---22\"",
     "type": "Barrel",
     "weight": "1.000 kg",
-    "sold_by": "Banshee R.2",
+    "sold_by": "Gunny R.2",
     "buy_price": "$614",
     "manufacturer": "Remington",
     "accuracy": "0.61 MOA",
     "size_change_horizontal": "+3",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -240,11 +252,13 @@
     "id": "m700-suppressed-barrel---20\"",
     "type": "Barrel",
     "weight": "1.800 kg",
-    "sold_by": "Banshee R.3",
-    "buy_price": "$1,219",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$2,210",
     "manufacturer": "Remington",
     "accuracy": "1.10 MOA",
     "size_change_horizontal": "+3",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.8,
@@ -261,10 +275,11 @@
     "id": "m700-threaded-barrel---18\"",
     "type": "Barrel",
     "weight": "1.120 kg",
-    "sold_by": "Banshee R.1",
+    "sold_by": "Gunny R.2",
     "manufacturer": "Remington",
     "accuracy": "1.02 MOA",
     "size_change_horizontal": "+3",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.12,
@@ -281,11 +296,13 @@
     "id": "m700-vtr-barrel---22\"",
     "type": "Barrel",
     "weight": "1.500 kg",
-    "sold_by": "Banshee R.3",
-    "buy_price": "$1,105",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$1,445",
     "manufacturer": "Remington",
     "accuracy": "0.55 MOA",
     "size_change_horizontal": "+3",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -391,9 +408,10 @@
     "id": "m9a1-threaded-barrel",
     "type": "Barrel",
     "weight": "0.207 kg",
-    "sold_by": "Gunny R.1",
+    "sold_by": "Gunny R.2",
     "manufacturer": "Beretta",
     "accuracy": "11.70 MOA",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.207,
@@ -410,11 +428,13 @@
     "id": "mosin-nagant-barrel---514mm",
     "type": "Barrel",
     "weight": "1.000 kg",
-    "sold_by": "Artisan R.1",
-    "buy_price": "$104",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$272",
     "manufacturer": "Kalashnikov concern",
     "accuracy": "3.00 MOA",
     "size_change_horizontal": "+3",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -430,13 +450,20 @@
     "name": "Mosin-Nagant Barrel - 730mm",
     "id": "mosin-nagant-barrel---730mm",
     "type": "Barrel",
-    "weight": "???? kg",
+    "weight": "1.45 kg",
     "sold_by": "????",
     "manufacturer": "???",
     "accuracy": "??? MOA",
     "fire_rate": "+??? RPM",
     "muzzle_device_efficiency": "???? %",
-    "size_change_horizontal": "????"
+    "size_change_horizontal": "????",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 1.45,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Optimized Glock 17 Match Grade Threaded Barrel",
@@ -444,9 +471,10 @@
     "type": "Barrel",
     "weight": "0.105 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$339",
+    "buy_price": "$544",
     "manufacturer": "ZEV Technologies",
     "accuracy": "11.65 MOA",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.105,
@@ -464,10 +492,11 @@
     "type": "Barrel",
     "weight": "0.700 kg",
     "sold_by": "Banshee R.4",
-    "buy_price": "$1,266",
+    "buy_price": "$1,360",
     "manufacturer": "SIG Sauer",
     "accuracy": "1.95 MOA",
     "size_change_horizontal": "+2",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -505,12 +534,13 @@
     "type": "Barrel",
     "weight": "0.450 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$1,255",
+    "buy_price": "$1,224",
     "manufacturer": "SIG Sauer",
     "accuracy": "2.65 MOA",
     "muzzle_velocity": "-11 %",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/SIG_MCX_9%27_inspect.png/revision/latest?cb=20250614021923",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.45,
@@ -531,10 +561,11 @@
     "id": "svd-barrel---620mm",
     "type": "Barrel",
     "weight": "1.300 kg",
-    "sold_by": "Artisan R.4",
+    "sold_by": "Turncoat R.3",
     "manufacturer": "Kalashnikov concern",
     "accuracy": "0.95 MOA",
     "size_change_horizontal": "+3",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.3,

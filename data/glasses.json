@@ -3,9 +3,10 @@
     "name": "Aviator (Black)",
     "id": "aviator-black",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Loot only",
     "flashbang_resistance": "+0%",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 0.0,
@@ -17,9 +18,10 @@
     "name": "Aviator (Green)",
     "id": "aviator-green",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Loot only",
     "flashbang_resistance": "+15 %",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 15.0,
@@ -31,9 +33,10 @@
     "name": "Ballistic M Frame 3.0 (Clear)",
     "id": "ballistic-m-frame-3.0-clear",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Handshake R.?",
     "flashbang_resistance": "+0 %",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 0.0,
@@ -45,9 +48,10 @@
     "name": "Ballistic M Frame 3.0 (Tinted)",
     "id": "ballistic-m-frame-3.0-tinted",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Handshake R.?",
     "flashbang_resistance": "+15 %",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 15.0,
@@ -59,9 +63,10 @@
     "name": "Desert Locust (Clear)",
     "id": "desert-locust-clear",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Handshake R.?",
     "flashbang_resistance": "+0 %",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 0.0,
@@ -73,9 +78,10 @@
     "name": "Desert Locust (Tinted)",
     "id": "desert-locust-tinted",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Handshake R.?",
     "flashbang_resistance": "+10 %",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 10.0,
@@ -87,9 +93,10 @@
     "name": "Gatorz Delta",
     "id": "gatorz-delta",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Handshake R.?",
     "flashbang_resistance": "+20 %",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 20.0,
@@ -103,9 +110,10 @@
     "type": "Glasses",
     "weight": "0.090kg",
     "grid_size": "2x1",
-    "sold_by": "Banshee R.3",
+    "sold_by": "Handshake R.4",
     "flashbang_resistance": "+30 %",
     "manufacturer": "Qatorz",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.09,
@@ -161,9 +169,10 @@
     "name": "Round Sunglasses",
     "id": "round-sunglasses",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Loot only",
     "flashbang_resistance": "+0 %",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 0.0,
@@ -175,10 +184,11 @@
     "name": "Wayfarer",
     "id": "wayfarer",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Loot only",
     "flashbang_resistance": "+15 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Wayfarer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182704",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 15.0,
@@ -190,9 +200,10 @@
     "name": "WX Valor",
     "id": "wx-valor",
     "type": "Glasses",
-    "grid_size": "1x1",
+    "grid_size": "2x1",
     "sold_by": "Handshake R.?",
     "flashbang_resistance": "+20 %",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "flashbang_resistance": {
         "value": 20.0,

@@ -23,9 +23,10 @@
     "type": "Tactical Rig",
     "weight": "0.500kg",
     "grid_size": "2x4",
-    "sold_by": "Handshake R.1",
+    "sold_by": "Handshake R.2",
     "slots": "8",
     "inventory": "4x2",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.5,

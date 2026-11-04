@@ -80,7 +80,9 @@
     "outcome": [
       "Nerve Gas Canister"
     ],
-    "outcome_text": "Nerve Gas Canister"
+    "outcome_text": "Nerve Gas Canister",
+    "sell_price": "$15,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Manpack Tactical Radio",
@@ -134,7 +136,9 @@
     "outcome": [
       "Plutonium Canister"
     ],
-    "outcome_text": "Plutonium Canister"
+    "outcome_text": "Plutonium Canister",
+    "sell_price": "$15,000",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "ST1122 Storage Computer",

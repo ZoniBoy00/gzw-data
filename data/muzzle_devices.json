@@ -4,11 +4,13 @@
     "id": "3-prong-flash-hider",
     "type": "Muzzle Device",
     "weight": "0.120 kg",
-    "sold_by": "Banshee R.4",
-    "buy_price": "$146",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$255",
     "manufacturer": "Sig Sauer",
     "muzzle_device_efficiency": "+3 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/3_Prong_FH_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614022558",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.12,
@@ -24,12 +26,13 @@
     "name": "3-Lug threaded HK MP5",
     "id": "3-lug-threaded-hk-mp5",
     "type": "Muzzle Device",
-    "weight": "0.080 kg",
+    "weight": "0.1 kg",
     "sold_by": "Gunny R.2",
     "manufacturer": "Heckler & Koch",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.08,
+        "value": 0.1,
         "unit": "kg"
       }
     }
@@ -55,9 +58,11 @@
     "id": "ak-adapter-14-1lh-to-24-1.5",
     "type": "Muzzle Device",
     "weight": "0.044 kg",
-    "sold_by": "Artisan R.4",
-    "buy_price": "$41",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$90",
     "manufacturer": "General East",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.044,
@@ -69,20 +74,29 @@
     "name": "AK Bulgarian Flash Hider",
     "id": "ak-bulgarian-flash-hider",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.157 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.157,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AK-100 Series Muzzle Brake",
     "id": "ak-100-series-muzzle-brake",
     "type": "Muzzle Device",
     "weight": "0.100 kg",
-    "sold_by": "Artisan R.2",
-    "buy_price": "$70",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$170",
     "manufacturer": "Kalashnikov concern",
     "muzzle_device_efficiency": "+25 %",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -98,20 +112,29 @@
     "name": "AKM Muzzle Brake",
     "id": "akm-muzzle-brake",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.1 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "AKM Slant Brake",
     "id": "akm-slant-brake",
     "type": "Muzzle Device",
     "weight": "0.030 kg",
-    "sold_by": "Artisan R.1",
-    "buy_price": "$13",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$102",
     "manufacturer": "Kalashnikov concern",
     "muzzle_device_efficiency": "+20 %",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.03,
@@ -128,10 +151,12 @@
     "id": "aks-74u-muzzle-brake",
     "type": "Muzzle Device",
     "weight": "0.190 kg",
-    "sold_by": "Turncoat R.1",
-    "buy_price": "$13",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$187",
     "manufacturer": "Kalashnikov concern",
     "muzzle_device_efficiency": "+10 %",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.19,
@@ -166,10 +191,17 @@
     "name": "Colt 1911 Muzzle Brake",
     "id": "colt-1911-muzzle-brake",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.066 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.066,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "CQ A2 Flash Hider",
@@ -211,20 +243,29 @@
     "name": "DTK-1 Muzzle Brake",
     "id": "dtk-1-muzzle-brake",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.128 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.128,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "DTK-2 Muzzle Brake",
     "id": "dtk-2-muzzle-brake",
     "type": "Muzzle Device",
     "weight": "0.105 kg",
-    "sold_by": "Artisan R.3",
-    "buy_price": "$117",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$510",
     "manufacturer": "Zenitco",
     "muzzle_device_efficiency": "+40 %",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.105,
@@ -240,19 +281,33 @@
     "name": "Fury Titanium Muzzle Brake",
     "id": "fury-titanium-muzzle-brake",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.062 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.062,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock 17 Comp Weight Compensator",
     "id": "glock-17-comp-weight-compensator",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.141 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.141,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Glock 17 Velocity Muzzle Brake",
@@ -260,9 +315,10 @@
     "type": "Muzzle Device",
     "weight": "0.060 kg",
     "sold_by": "Banshee R.2",
-    "buy_price": "$150",
+    "buy_price": "$510",
     "manufacturer": "General West",
     "muzzle_device_efficiency": "+10 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -278,22 +334,30 @@
     "name": "Hypertap Muzzle Brake 5.56x45",
     "id": "hypertap-muzzle-brake-5.56x45",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.085 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.085,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hypertap Muzzle Brake 7.62x51",
     "id": "hypertap-muzzle-brake-7.62x51",
     "type": "Muzzle Device",
-    "weight": "0.850 kg",
+    "weight": "0.085 kg",
     "sold_by": "Open World Loot only",
     "manufacturer": "Precision Armaments",
     "muzzle_device_efficiency": "+45 %",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.85,
+        "value": 0.085,
         "unit": "kg"
       },
       "muzzle_device_efficiency": {
@@ -307,10 +371,11 @@
     "id": "m4qd-flash-hider",
     "type": "Muzzle Device",
     "weight": "0.068 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Gunny R.3",
     "manufacturer": "KAC",
     "muzzle_device_efficiency": "+7 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/KAC_QD.png/revision/latest/scale-to-width-down/268?cb=20251110211949",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.068,
@@ -326,28 +391,49 @@
     "name": "M700 Thread Cap",
     "id": "m700-thread-cap",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.04 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MCX 3 Prong Flash Hider",
     "id": "mcx-3-prong-flash-hider",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.12 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mosin-Nagant Howling Raven Muzzle Brake",
     "id": "mosin-nagant-howling-raven-muzzle-brake",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.283 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.283,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mosin-Nagant Tanker Muzzle Brake",
@@ -355,9 +441,10 @@
     "type": "Muzzle Device",
     "weight": "0.257 kg",
     "sold_by": "Artisan R.3",
-    "buy_price": "$130",
+    "buy_price": "$374",
     "manufacturer": "General West",
     "muzzle_device_efficiency": "+40 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.257,
@@ -383,8 +470,9 @@
     "id": "mp5-3-lug-adapter",
     "type": "Muzzle Device",
     "weight": "0.080 kg",
-    "sold_by": "Gunny R.1",
+    "sold_by": "Gunny R.2",
     "manufacturer": "Heckler & Koch",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.08,
@@ -396,10 +484,17 @@
     "name": "MP5 Muzzle Cap",
     "id": "mp5-muzzle-cap",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.05 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "MP5 Threaded 3 Lug Adapter",
@@ -491,10 +586,17 @@
     "name": "Slot Muzzle Brake",
     "id": "slot-muzzle-brake",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.072 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.072,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "SOCOM 3 Prong Flash Hider",
@@ -540,10 +642,12 @@
     "id": "srd762-qd-muzzle-brake",
     "type": "Muzzle Device",
     "weight": "0.095 kg",
-    "sold_by": "Banshee R.4",
-    "buy_price": "$150",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$391",
     "manufacturer": "SIG Sauer",
     "muzzle_device_efficiency": "+10 %",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.095,
@@ -559,19 +663,33 @@
     "name": "SRD762-QD Taper-Lok Muzzle Brake",
     "id": "srd762-qd-taper-lok-muzzle-brake",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.065 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.065,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tactical Muzzle Brake",
     "id": "tactical-muzzle-brake",
     "type": "Muzzle Device",
-    "weight": "??? kg",
+    "weight": "0.107 kg",
     "sold_by": "???",
     "manufacturer": "???",
-    "muzzle_device_efficiency": "+???? %"
+    "muzzle_device_efficiency": "+???? %",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.107,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Tactical Muzzle Break",
@@ -626,10 +744,12 @@
     "id": "vulcan-m1",
     "type": "Muzzle Device",
     "weight": "0.105 kg",
-    "sold_by": "Gunny R.4",
-    "buy_price": "$284",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$544",
     "manufacturer": "Antreg",
     "muzzle_device_efficiency": "+20 %",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.105,

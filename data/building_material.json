@@ -3,13 +3,14 @@
     "name": "Analog Indicator",
     "id": "analog-indicator",
     "type": "Building Material",
-    "weight": "0.500kg",
+    "weight": "0.25 kg",
     "grid_size": "1x1",
     "sell_price": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Analog_Indicator_inspect.png/revision/latest?cb=20261024183758",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.5,
+        "value": 0.25,
         "unit": "kg"
       }
     }
@@ -210,8 +211,9 @@
     "id": "glass",
     "type": "Building Material",
     "weight": "4.0kg",
-    "grid_size": "2x2",
+    "grid_size": "3x3",
     "sell_price": "$45",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 4.0,
@@ -310,10 +312,11 @@
     "name": "Motherboard",
     "id": "motherboard",
     "type": "Building Material",
-    "grid_size": "0.800",
+    "grid_size": "2x2",
     "inventory_layout_(x/y)": "2x2",
     "manufacturer": "General Local",
-    "sell_price": "$90"
+    "sell_price": "$90",
+    "grid_size_source": "game-files"
   },
   {
     "name": "Motor Oil",

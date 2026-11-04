@@ -4,7 +4,7 @@
     "id": "ak-12",
     "type": "Assault Rifle",
     "weight": "3.553 kg",
-    "sold_by": "Turncoat R.2",
+    "sold_by": "Turncoat R.3",
     "manufacturer": "Kalashnikov Concern",
     "accuracy": "2.81 MOA",
     "fire_mode": "Single/Full-auto",
@@ -12,6 +12,7 @@
     "caliber": "5.45x39mm",
     "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/AK-12_inspect.png/revision/latest/scale-to-width-down/268?cb=20250602231732",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 3.553,
@@ -32,7 +33,7 @@
     "id": "ak-15",
     "type": "Assault Rifle",
     "weight": "3.810 kg",
-    "sold_by": "Artisan R3",
+    "sold_by": "Turncoat R.4",
     "manufacturer": "Kalashnikov Concern",
     "accuracy": "2.50 MOA",
     "recoil_control": "+16%",
@@ -45,6 +46,7 @@
     "caliber": "7.62x39mm",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/AK-15_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155725",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 3.81,
@@ -113,12 +115,13 @@
     "id": "ak-308",
     "type": "Assault Rifle",
     "weight": "5.712 kg",
-    "sold_by": "Vulture R.4",
+    "sold_by": "Turncoat R.4",
     "manufacturer": "Kalashnikov Concern",
     "accuracy": "1.80 MOA",
     "caliber": "7.62x51mm",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/AK-308_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617154126",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 5.712,
@@ -156,7 +159,7 @@
     "type": "Assault Rifle",
     "slot": "Primary",
     "weight": "3,780 kg",
-    "sold_by": "Artisan R.1",
+    "sold_by": "Turncoat R.2",
     "manufacturer": "Kalashnikov Concern",
     "accuracy": "3.50 MOA",
     "reload_speed": "+2%",
@@ -165,6 +168,7 @@
     "caliber": "7.62x39mm",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/AKM_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617155444",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "accuracy": {
         "value": 3.5,
@@ -769,7 +773,7 @@
     "id": "mosin-nagant",
     "type": "Rifle",
     "weight": "3.525 kg",
-    "sold_by": "Artisan R.1",
+    "sold_by": "Artisan R.2",
     "manufacturer": "Kalashnikov Concern",
     "accuracy": "3 MOA",
     "fire_mode": "Single",
@@ -777,6 +781,7 @@
     "caliber": "7.62x54mm R",
     "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/Mosin_inspect.png/revision/latest/scale-to-width-down/266?cb=20250618000700",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 3.525,
@@ -897,19 +902,21 @@
     "name": "MP7A1",
     "id": "mp7a1",
     "type": "Submachine Gun",
-    "sold_by": "Banshee R.2",
+    "sold_by": "Banshee R.1",
     "fire_mode": "Single/Full-Auto",
     "caliber": "4.6x30mm",
-    "accepted_ammunition": "4.6x30mm AP SX 4.6x30mm Action SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX"
+    "accepted_ammunition": "4.6x30mm AP SX 4.6x30mm Action SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX",
+    "sold_by_source": "game-files"
   },
   {
     "name": "MP7A2",
     "id": "mp7a2",
     "type": "Submachine Gun",
-    "sold_by": "Vulture R.2",
+    "sold_by": "Banshee R.2",
     "fire_mode": "Single/Full-Auto",
     "caliber": "4.6x30mm",
-    "accepted_ammunition": "4.6x30mm AP SX 4.6x30mm Action SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX"
+    "accepted_ammunition": "4.6x30mm AP SX 4.6x30mm Action SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX",
+    "sold_by_source": "game-files"
   },
   {
     "name": "Remington 788",

@@ -3,13 +3,14 @@
     "name": "Digital Synthesis Engine",
     "id": "digital-synthesis-engine",
     "type": "Crafting Material",
-    "weight": "0.010kg",
+    "weight": "0.1 kg",
     "grid_size": "1x1",
     "sell_price": "$1,200",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Digital_Synthesis_Engine_inspect.png/revision/latest?cb=20261026212133",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.01,
+        "value": 0.1,
         "unit": "kg"
       }
     }
@@ -78,13 +79,14 @@
     "name": "Multi-Bus Converter",
     "id": "multi-bus-converter",
     "type": "Crafting Material",
-    "weight": "0.252kg",
+    "weight": "0.25 kg",
     "grid_size": "1x1",
     "sell_price": "$600",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/Multi-Bus_Converter_inspect.png/revision/latest?cb=20261102054420",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.252,
+        "value": 0.25,
         "unit": "kg"
       }
     }

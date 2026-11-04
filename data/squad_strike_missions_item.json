@@ -2,56 +2,127 @@
   {
     "name": "Box of IDs",
     "id": "box-of-ids",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "1.4 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 1.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Compromising Folder",
     "id": "compromising-folder",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.08 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Eugene L. Fleming File",
     "id": "eugene-l.-fleming-file",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.03 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Drug Note",
     "id": "first-drug-note",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.03 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Medical Samples",
     "id": "first-medical-samples",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "22 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 22.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Military Box",
     "id": "first-military-box",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "21.5 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 21.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Prototype Part Crate",
     "id": "first-prototype-part-crate",
-    "weight": "?kg",
-    "grid_size": "3x3"
+    "weight": "20 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 20.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Stolen Box",
     "id": "first-stolen-box",
-    "weight": "???kg",
-    "grid_size": "????"
+    "weight": "19 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 19.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Supply Box",
     "id": "first-supply-box",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "21 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 21.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Supply Box (Victor Charlie Heritage)",
@@ -62,56 +133,127 @@
   {
     "name": "First Suspicious Package",
     "id": "first-suspicious-package",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "10.2 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 10.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "First Weapon Cargo Crate",
     "id": "first-weapon-cargo-crate",
-    "weight": "??kg",
-    "grid_size": "??"
+    "weight": "21.5 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 21.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Floppy Disks",
     "id": "floppy-disks",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.15 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fourth Military Box",
     "id": "fourth-military-box",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "21.5 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 21.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fourth Suspicious Package",
     "id": "fourth-suspicious-package",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "8 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 8.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Gang Folder",
     "id": "gang-folder",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.25 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Gang Note",
     "id": "gang-note",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.03 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hacking Tool",
     "id": "hacking-tool",
-    "weight": "??kg",
-    "grid_size": "1x1"
+    "weight": "0.04 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Intel Folder",
     "id": "intel-folder",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Interrogation Transcript (It's Like Cutting)",
@@ -122,8 +264,16 @@
   {
     "name": "LAF Documents",
     "id": "laf-documents",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.01 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LAF Hardware Key (Technoarcheologist)",
@@ -135,8 +285,16 @@
   {
     "name": "LAF Suitcase",
     "id": "laf-suitcase",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "3 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "List of Names (His Majesty's Secrets)",
@@ -153,8 +311,15 @@
   {
     "name": "Medallion",
     "id": "medallion",
-    "weight": "???kg",
-    "grid_size": "1x1"
+    "weight": "0.2 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Metal Suitcase",
@@ -172,68 +337,156 @@
   {
     "name": "Micro SD Autocracker 003",
     "id": "micro-sd-autocracker-003",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.02 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Military Suitcase",
     "id": "military-suitcase",
-    "weight": "?kg",
-    "grid_size": "?"
+    "weight": "9 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 9.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Mysterious Cargo Crate",
     "id": "mysterious-cargo-crate",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "6 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 6.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Old Diary",
     "id": "old-diary",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.105 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.105,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Old Hard Disk Drive",
     "id": "old-hard-disk-drive",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.5 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Prisoner Info Folder 193",
     "id": "prisoner-info-folder-193",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.01 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Prisoner Info Folder 251",
     "id": "prisoner-info-folder-251",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.01 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Prisoner Info Folder 712",
     "id": "prisoner-info-folder-712",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.01 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Second Drug Note",
     "id": "second-drug-note",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.03 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Second Medical Samples",
     "id": "second-medical-samples",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "18 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 18.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Second Military Box",
     "id": "second-military-box",
-    "weight": "??kg",
-    "grid_size": "??"
+    "weight": "21.5 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 21.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Second Prototype Part Crate",
@@ -244,14 +497,23 @@
   {
     "name": "Second Stolen Box",
     "id": "second-stolen-box",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "20.4 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 20.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Second Supply Box",
     "id": "second-supply-box",
     "weight": "???kg",
-    "grid_size": "???"
+    "grid_size": "3x2",
+    "grid_size_source": "game-files"
   },
   {
     "name": "Second Supply Box (Victor Charlie Heritage)",
@@ -262,32 +524,65 @@
   {
     "name": "Second Suspicious Package",
     "id": "second-suspicious-package",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "9.5 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 9.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Second Weapon Cargo Crate",
     "id": "second-weapon-cargo-crate",
-    "weight": "??kg",
-    "grid_size": "??"
+    "weight": "19 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 19.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Third Military Box",
     "id": "third-military-box",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "21.5 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 21.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Third Stolen Box",
     "id": "third-stolen-box",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "21.5 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 21.5,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Third Supply Box",
     "id": "third-supply-box",
     "weight": "???kg",
-    "grid_size": "???"
+    "grid_size": "3x2",
+    "grid_size_source": "game-files"
   },
   {
     "name": "Third Supply Box (Victor Charlie Heritage)",
@@ -298,37 +593,83 @@
   {
     "name": "Third Suspicious Package",
     "id": "third-suspicious-package",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "9 kg",
+    "grid_size": "2x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 9.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Third Weapon Cargo Crate",
     "id": "third-weapon-cargo-crate",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "22 kg",
+    "grid_size": "3x2",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 22.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Transcript of Conversations",
     "id": "transcript-of-conversations",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.03 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "USB Drive Autocracker",
     "id": "usb-drive-autocracker",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.04 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "USB Drive Autocracker 001",
     "id": "usb-drive-autocracker-001",
-    "weight": "???kg",
-    "grid_size": "???"
+    "weight": "0.04 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "USB Drive Autocracker 002",
     "id": "usb-drive-autocracker-002",
-    "weight": "??kg",
-    "grid_size": "???"
+    "weight": "0.04 kg",
+    "grid_size": "1x1",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   }
 ]

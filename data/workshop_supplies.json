@@ -73,8 +73,9 @@
     "id": "broken-jigsaw",
     "type": "Workshop Supplies",
     "weight": "2.000kg",
-    "grid_size": "2x1",
+    "grid_size": "2x2",
     "sell_price": "$55",
+    "grid_size_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -161,12 +162,14 @@
     "name": "Multitool",
     "id": "multitool",
     "type": "Workshop Supplies",
-    "weight": "0.120kg",
-    "grid_size": "1x1",
+    "weight": "0.27 kg",
+    "grid_size": "1x2",
     "sell_price": "$54",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.12,
+        "value": 0.27,
         "unit": "kg"
       }
     }
@@ -190,13 +193,15 @@
     "name": "White Lithium Grease",
     "id": "white-lithium-grease",
     "type": "Workshop Supplies",
-    "weight": "15.880kg",
-    "grid_size": "2x3",
+    "weight": "5.22 kg",
+    "grid_size": "2x2",
     "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/White_Lithium_Grease_inspect.png/revision/latest?cb=20260403100019",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 15.88,
+        "value": 5.22,
         "unit": "kg"
       }
     }

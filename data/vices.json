@@ -19,14 +19,15 @@
     "name": "Breda Rum - 30y",
     "id": "breda-rum---30y",
     "type": "Funds",
-    "weight": "1.000kg",
+    "weight": "1.7 kg",
     "grid_size": "1x2",
     "manufacturer": "General West",
     "sell_price": "$3,802",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/Breda_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718015056",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 1.0,
+        "value": 1.7,
         "unit": "kg"
       }
     }
@@ -80,9 +81,16 @@
     "name": "Heavenly Perfume Bottle",
     "id": "heavenly-perfume-bottle",
     "type": "Vices",
-    "weight": "???kg",
+    "weight": "0.3 kg",
     "grid_size": "1x1",
-    "sell_price": "$335"
+    "sell_price": "$335",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Hyperborea Cigarettes",
@@ -102,9 +110,17 @@
     "name": "Lambert Cigars",
     "id": "lambert-cigars",
     "type": "Vices",
-    "weight": "???kg",
-    "grid_size": "1x1",
-    "sell_price": "$282"
+    "weight": "0.6 kg",
+    "grid_size": "2x1",
+    "sell_price": "$282",
+    "grid_size_source": "game-files",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Moutai - 50y",
@@ -126,14 +142,15 @@
     "name": "Snake Wine",
     "id": "snake-wine",
     "type": "Vices",
-    "weight": "1.000kg",
+    "weight": "1.4 kg",
     "grid_size": "1x2",
     "manufacturer": "General Local",
     "sell_price": "$399",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/SWine_inspect.png/revision/latest?cb=20250507135254",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 1.0,
+        "value": 1.4,
         "unit": "kg"
       }
     }
@@ -142,13 +159,14 @@
     "name": "Tzintzimitl Tequila - 25y",
     "id": "tzintzimitl-tequila---25y",
     "type": "Vices",
-    "weight": "1.000kg",
+    "weight": "1.8 kg",
     "grid_size": "1x2",
     "sell_price": "$2,020",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/Tzintzimitl_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509090613",
+    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 1.0,
+        "value": 1.8,
         "unit": "kg"
       }
     }

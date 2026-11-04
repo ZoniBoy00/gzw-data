@@ -5,8 +5,9 @@
     "type": "Gas Block",
     "weight": "0.085 kg",
     "sold_by": "Turncoat R.1",
-    "buy_price": "$7",
+    "buy_price": "$13",
     "manufacturer": "Kalashnikov concern",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.085,
@@ -20,9 +21,11 @@
     "type": "Gas Block",
     "slot": "Gas Block",
     "weight": "0.085 kg",
-    "sold_by": "Artisan R.1",
-    "buy_price": "$10",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$22",
     "manufacturer": "Kalashnikov concern",
+    "buy_price_source": "game-files",
+    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.085,
@@ -36,8 +39,9 @@
     "type": "Gas Block",
     "weight": "0.045 kg",
     "sold_by": "Turncoat R.1",
-    "buy_price": "$68",
+    "buy_price": "$127",
     "manufacturer": "Kalashnikov concern",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.045,
@@ -127,10 +131,11 @@
     "type": "Gas Block",
     "weight": "0.080 kg",
     "sold_by": "Artisan R.3 Turncoat R.2",
-    "buy_price": "$244",
+    "buy_price": "$319",
     "manufacturer": "Kalashnikov concern",
     "fire_rate": "+3 %",
     "muzzle_device_efficiency": "+3 %",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.08,
@@ -152,9 +157,10 @@
     "type": "Gas Block",
     "weight": "0.150 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$312",
+    "buy_price": "$408",
     "manufacturer": "SIG Sauer",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/MCX_Gas_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614022229",
+    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.15,

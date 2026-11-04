@@ -3,9 +3,16 @@
     "name": "Box of Supplies",
     "id": "box-of-supplies",
     "type": "Tool",
-    "weight": "?kg",
+    "weight": "2 kg",
     "grid_size": "2x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/Box_of_Supplies_inspect.png/revision/latest/scale-to-width-down/268?cb=20250503151433"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/Box_of_Supplies_inspect.png/revision/latest/scale-to-width-down/268?cb=20250503151433",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Briefcase",
@@ -101,7 +108,14 @@
     "name": "Sample Collection Kit",
     "id": "sample-collection-kit",
     "type": "Tool",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "game-files",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   }
 ]

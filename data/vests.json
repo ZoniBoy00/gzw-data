@@ -66,7 +66,7 @@
     "grid_size": "3x3",
     "sold_by": "???",
     "material": "???",
-    "nij_class": "III+",
+    "nij_class": "NIJ III+",
     "armor_locations": "???",
     "manufacturer": "???"
   },
@@ -292,7 +292,7 @@
     "grid_size": "3x3",
     "sold_by": "???",
     "material": "Steel",
-    "nij_class": "III",
+    "nij_class": "NIJ III",
     "armor_locations": "Front,Back,Side",
     "manufacturer": "Crye-Precision",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/LVS_Tactical_%28Ranger_Green%29_inspect.png/revision/latest?cb=20260331092115",
