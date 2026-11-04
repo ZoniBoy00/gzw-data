@@ -1178,24 +1178,6 @@
     "type": "Night Vision"
   },
   {
-    "name": "Aques Water 1 l (Lab Rat)",
-    "id": "lab-rat-provisions-aques-water-1-l",
-    "item": "Aques Water 1 l",
-    "vendor": "Lab Rat",
-    "rank": 2,
-    "category": "provisions",
-    "type": "Drink"
-  },
-  {
-    "name": "Aques Water 1.5 l (Lab Rat)",
-    "id": "lab-rat-provisions-aques-water-1-5-l",
-    "item": "Aques Water 1.5 l",
-    "vendor": "Lab Rat",
-    "rank": 3,
-    "category": "provisions",
-    "type": "Drink"
-  },
-  {
     "name": "AR-15 Archangel Low-Profile Buttstock (Gunny)",
     "id": "gunny-stocks-ar-15-archangel-low-profile-buttstock",
     "item": "AR-15 Archangel Low-Profile Buttstock",
@@ -1889,14 +1871,6 @@
     "buy_price": "$21"
   },
   {
-    "name": "Energy Bar Nuts and Fruits * (Lab Rat)",
-    "id": "lab-rat-provisions-energy-bar-nuts-and-fruits",
-    "item": "Energy Bar Nuts and Fruits *",
-    "vendor": "Lab Rat",
-    "rank": 1,
-    "category": "provisions"
-  },
-  {
     "name": "EPO (Lab Rat)",
     "id": "lab-rat-medical-epo",
     "item": "EPO",
@@ -2165,14 +2139,6 @@
     "category": "drink",
     "type": "Drink",
     "buy_price": "$70"
-  },
-  {
-    "name": "Gray Focused Energy * (Lab Rat)",
-    "id": "lab-rat-provisions-gray-focused-energy",
-    "item": "Gray Focused Energy *",
-    "vendor": "Lab Rat",
-    "rank": 3,
-    "category": "provisions"
   },
   {
     "name": "Grin's Colt 1911 .45ACP 7-Round Magazine (Vulture)",
@@ -3902,14 +3868,6 @@
     "category": "drink",
     "type": "Drink",
     "buy_price": "$45"
-  },
-  {
-    "name": "Power Energy Fuel * (Lab Rat)",
-    "id": "lab-rat-provisions-power-energy-fuel",
-    "item": "Power Energy Fuel *",
-    "vendor": "Lab Rat",
-    "rank": 2,
-    "category": "provisions"
   },
   {
     "name": "Premium Pork Luncheon Meat (Lab Rat)",

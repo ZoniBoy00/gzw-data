@@ -2,7 +2,7 @@
   "source": "gzw-scraper",
   "scraperVersion": "4.6.1",
   "parserRevision": "universal-parser-v8",
-  "datasetCount": 134,
+  "datasetCount": 142,
   "datasets": [
     {
       "name": "ammo",
@@ -216,7 +216,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": ".222 Remington",
@@ -587,7 +587,7 @@
           "example": "/"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Apparel",
@@ -714,7 +714,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Colt 1911 Commander Hammer",
@@ -839,7 +839,7 @@
           "example": "0.072kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "6Sh118 Ratnik V2",
@@ -1087,7 +1087,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AR-15 Barrel - 10.5\"",
@@ -1313,7 +1313,7 @@
           "example": "0.200kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Belt Bag",
@@ -1454,7 +1454,7 @@
           "example": "0.530kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "M1050 LRF Rangefinder",
@@ -1507,7 +1507,7 @@
           "example": "AKU - Conero GTX"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AKU - Conero GTX",
@@ -1604,7 +1604,7 @@
           "example": "Bloudhound needs to be killed for Final Liberation task."
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Bloodhound",
@@ -1745,7 +1745,7 @@
           "example": "0.108 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "CQ A1 Buffer Tube",
@@ -1880,7 +1880,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Analog Indicator",
@@ -2155,7 +2155,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AK RP-1 Charging Handle",
@@ -2317,7 +2317,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Cache Report IX",
@@ -2487,7 +2487,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "503CU Micro Sight",
@@ -2717,7 +2717,7 @@
           "example": "0.020kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Admin Desk",
@@ -2902,7 +2902,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Bad Idea",
@@ -3081,7 +3081,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Cache Report II",
@@ -3189,7 +3189,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Digital Synthesis Engine",
@@ -3326,7 +3326,7 @@
           "example": "12.200kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Baget-53-31 Onboard Computer",
@@ -3429,7 +3429,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Hideout",
@@ -3605,7 +3605,7 @@
           "example": "0.24kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Aques Water 1.5 l",
@@ -3987,7 +3987,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Black Luxury Phone",
@@ -4128,7 +4128,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Army Intel",
@@ -4235,7 +4235,7 @@
           "example": "LAF Commanders"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Experience",
@@ -4315,7 +4315,7 @@
           "example": 0
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Experience",
@@ -4424,7 +4424,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Half Mask (Skull)",
@@ -4486,7 +4486,7 @@
           "example": "Bandits"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Bandits",
@@ -4700,7 +4700,7 @@
           "example": "0.01kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "1 Shot Energy Chews",
@@ -4938,7 +4938,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AFG-2",
@@ -5168,7 +5168,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Back-Up 3 Front Iron Sight",
@@ -5328,7 +5328,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Black Credit Card",
@@ -5390,7 +5390,7 @@
           "example": "Experience"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Experience",
@@ -5644,7 +5644,7 @@
           "example": "0.0015 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_armor",
@@ -5866,7 +5866,7 @@
           ]
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_backpacks",
@@ -6065,7 +6065,7 @@
           ]
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_barrels",
@@ -6306,7 +6306,7 @@
           "example": "0.06 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_belts",
@@ -6506,7 +6506,7 @@
           ]
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_charging_handles",
@@ -6730,7 +6730,7 @@
           "example": "0.012 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_clothing",
@@ -6880,7 +6880,54 @@
           "example": "0.01 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
+    },
+    {
+      "name": "gamedata_compatibility",
+      "file": "gamedata_compatibility.json",
+      "itemCount": 559,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 559,
+          "optional": false,
+          "nullable": false,
+          "example": "IS_Auxiliary_SvdRearSightRing"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 559,
+          "optional": false,
+          "nullable": false,
+          "example": "1911 Commander Slide"
+        },
+        "slots": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 559,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            {
+              "slot": "Auxiliary_F",
+              "critical": true,
+              "welded": false,
+              "socket_types": [
+                "Socket.Auxilary.BenelliM4"
+              ],
+              "accepts": [
+                "IS_Auxiliary_BenelliMagExt"
+              ]
+            }
+          ]
+        }
+      },
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_consumables",
@@ -7082,7 +7129,7 @@
           "example": "0.01 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_containers_cases",
@@ -7272,7 +7319,7 @@
           ]
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_electronics_optics",
@@ -7480,7 +7527,7 @@
           "example": "0.1 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_firearms",
@@ -7752,7 +7799,7 @@
           ]
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_foregrips",
@@ -7969,7 +8016,7 @@
           "example": "0.017 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_grenades_explosives",
@@ -8173,7 +8220,7 @@
           "example": "0.31 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_handguards",
@@ -8434,7 +8481,7 @@
           "example": "0.057 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_headgear_accessories",
@@ -8630,7 +8677,138 @@
           "example": "0.015 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
+    },
+    {
+      "name": "gamedata_hideout_devices",
+      "file": "gamedata_hideout_devices.json",
+      "itemCount": 36,
+      "fields": {
+        "build_materials": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 36,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            {
+              "id": "IS_Misc_Glass",
+              "name": "Glass",
+              "amount": 1
+            },
+            {
+              "id": "IS_Misc_Plastics",
+              "name": "Plastics",
+              "amount": 1
+            },
+            {
+              "id": "IS_Misc_LaboratoryFlask",
+              "name": "Laboratory Flask",
+              "amount": 1
+            }
+          ]
+        },
+        "capabilities_provided": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 34,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "analysis": 1
+          }
+        },
+        "capabilities_required": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 8,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "analysis": 1
+          }
+        },
+        "description": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 36,
+          "optional": false,
+          "nullable": false,
+          "example": "A basic analytical instrument used to identify substances and detect impurities. Provides greater insight into the composition and quality of samples."
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 36,
+          "optional": false,
+          "nullable": false,
+          "example": "DA_HideoutDevice_ChemLab_Analysis_L1"
+        },
+        "infrastructure_provided": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 2,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "power": 18
+          }
+        },
+        "infrastructure_required": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "power": 1
+          }
+        },
+        "level": {
+          "types": [
+            "number"
+          ],
+          "presentCount": 36,
+          "optional": false,
+          "nullable": false,
+          "example": 1
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 36,
+          "optional": false,
+          "nullable": false,
+          "example": "Advanced Technical Workbench"
+        },
+        "next_upgrade": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 21,
+          "optional": true,
+          "nullable": false,
+          "example": "DA_HideoutDevice_ChemLab_Analysis_L2"
+        },
+        "slot": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 36,
+          "optional": false,
+          "nullable": false,
+          "example": "ChemLab.Analysis"
+        }
+      },
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_hideout_materials",
@@ -8802,7 +8980,429 @@
           "example": "0.01 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
+    },
+    {
+      "name": "gamedata_hideout_quests",
+      "file": "gamedata_hideout_quests.json",
+      "itemCount": 35,
+      "fields": {
+        "accept_message": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": "All right, this one is going to sound a little crazy. Strychnine. Yes, the poison.\n\nIn very small doses, it has a rather interesting effect on the nervous system. It was even used as a stimulant and performance enhancer in the past. With a carefully controlled dose, we might be able to push your physical endurance far beyond its normal limits for a short time. Emphasis on carefully controlled. Get the laboratory ready, and I'll work out a formulation that hopefully won't kill you."
+        },
+        "briefing": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan's contacts are looking for extracted intel. Supply the requested amount while demand is high."
+        },
+        "debriefing": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": "All right, merc, you did what I asked. I've got something new for you to make, and this one's a little more sophisticated than the shit I've shown you before.\n\nYou've come a long way from that empty room we started with. Don't misunderstand me, I'm not suddenly impressed or anything. But at least now I don't have to worry about you trying to fix a circuit board with a fucking hammer."
+        },
+        "display_name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1,
+          "optional": true,
+          "nullable": false,
+          "example": "Drug Run"
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": "DA_Quest_Hideout_Artisan_Quest_01"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": "Applied Engineering"
+        },
+        "objectives": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            {
+              "id": 1,
+              "description": "Provide Turncoat with the funds needed to expand his black-market connections",
+              "kind": "hand_over_money",
+              "item": {
+                "id": "IS_Misc_Dollars",
+                "name": "US Dollars"
+              },
+              "amount": 1000000
+            }
+          ]
+        },
+        "replayable": {
+          "types": [
+            "boolean"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": false
+        },
+        "required_vendor_level": {
+          "types": [
+            "number"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": 2
+        },
+        "requires_quests": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            "DA_Quest_Hideout_Artisan_Quest_01"
+          ]
+        },
+        "reset_policy": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": "Never"
+        },
+        "rewards": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "items": [
+              {
+                "id": "IS_Misc_Dollars",
+                "name": "US Dollars",
+                "count": 30000
+              }
+            ]
+          }
+        },
+        "tags": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            "Quests.For.Player",
+            "Quests.Level.1",
+            "Quests.Type.Hideout.Smuggling",
+            "WorldRegion.Hideout"
+          ]
+        },
+        "vendor": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 35,
+          "optional": false,
+          "nullable": false,
+          "example": "Artisan"
+        }
+      },
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
+    },
+    {
+      "name": "gamedata_hideout_recipes",
+      "file": "gamedata_hideout_recipes.json",
+      "itemCount": 37,
+      "fields": {
+        "craft_time_seconds": {
+          "types": [
+            "number"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": 1
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "DA_Recipe_Craft_HackingDevice_L2"
+        },
+        "inputs": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            {
+              "id": "IS_Misc_ArtilleryBallisticCalculator",
+              "name": "Artillery Ballistic Calculator",
+              "amount": 1
+            }
+          ]
+        },
+        "known_by_default": {
+          "types": [
+            "boolean"
+          ],
+          "presentCount": 15,
+          "optional": true,
+          "nullable": false,
+          "example": true
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "10% Morphine Solution"
+        },
+        "outputs": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            {
+              "id": "IS_HackingTool_AdvancedHackingTool",
+              "name": "Superior Hacking Tool",
+              "amount": 1
+            }
+          ]
+        },
+        "pipeline": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 37,
+          "optional": false,
+          "nullable": false,
+          "example": "ChemLab.Craft"
+        },
+        "required_capabilities": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 11,
+          "optional": true,
+          "nullable": false,
+          "example": {
+            "analysis": 1,
+            "storage": 1
+          }
+        }
+      },
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
+    },
+    {
+      "name": "gamedata_hideout_rooms",
+      "file": "gamedata_hideout_rooms.json",
+      "itemCount": 3,
+      "fields": {
+        "device_slots": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            "ChemLab.Storage",
+            "ChemLab.SolventProcessing",
+            "ChemLab.Safety",
+            "ChemLab.ReactionVessel",
+            "ChemLab.HeatSource",
+            "ChemLab.Glassware",
+            "ChemLab.Filtration",
+            "ChemLab.ExtractionVessel",
+            "ChemLab.Analysis"
+          ]
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "ChemLab"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "ChemLab"
+        },
+        "pipelines": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": []
+        },
+        "room": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": "ChemLab"
+        },
+        "unlock": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 3,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "player_rank": 1,
+            "vendor_ranks": {
+              "artisan": 2,
+              "lab_rat": 2
+            }
+          }
+        }
+      },
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
+    },
+    {
+      "name": "gamedata_hideout_storage",
+      "file": "gamedata_hideout_storage.json",
+      "itemCount": 4,
+      "fields": {
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "ChemLab.Input"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "ChemLab.Input"
+        },
+        "size_by_level": {
+          "types": [
+            "object"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": {
+            "0": {
+              "width": 0,
+              "height": 0
+            },
+            "1": {
+              "width": 2,
+              "height": 2
+            },
+            "2": {
+              "width": 2,
+              "height": 3
+            },
+            "3": {
+              "width": 3,
+              "height": 3
+            },
+            "4": {
+              "width": 3,
+              "height": 4
+            },
+            "5": {
+              "width": 4,
+              "height": 4
+            },
+            "6": {
+              "width": 4,
+              "height": 5
+            },
+            "7": {
+              "width": 5,
+              "height": 5
+            },
+            "8": {
+              "width": 5,
+              "height": 6
+            },
+            "9": {
+              "width": 6,
+              "height": 6
+            },
+            "10": {
+              "width": 6,
+              "height": 7
+            }
+          }
+        },
+        "storage": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 4,
+          "optional": false,
+          "nullable": false,
+          "example": "ChemLab.Input"
+        }
+      },
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_intel",
@@ -8953,7 +9553,7 @@
           "example": "0.1 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_keys",
@@ -9124,7 +9724,181 @@
           "example": "0.01 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
+    },
+    {
+      "name": "gamedata_loot_by_item",
+      "file": "gamedata_loot_by_item.json",
+      "itemCount": 1433,
+      "fields": {
+        "chance_basis": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1433,
+          "optional": false,
+          "nullable": false,
+          "example": "chance = rule weight share divided evenly over the rule items (assumption, not checked against the game generator); nothing_share = weight of rules without items"
+        },
+        "display_name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 300,
+          "optional": true,
+          "nullable": false,
+          "example": "AK 5.45x39mm 30-Round PMAG Magazine"
+        },
+        "found_in": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 1433,
+          "optional": false,
+          "nullable": false,
+          "example": [
+            {
+              "table": "DA_LootTable_LooseLoot_A2_LivingQuarters_Bandits",
+              "source": "LooseLoot",
+              "chance_per_roll": 0.00087
+            },
+            {
+              "table": "DA_LootTable_LooseLoot_A2_Tourist",
+              "source": "LooseLoot",
+              "chance_per_roll": 0.00062
+            },
+            {
+              "table": "DA_LootTable_LooseLoot_A2_LivingQuarters",
+              "source": "LooseLoot",
+              "chance_per_roll": 0.00044
+            }
+          ]
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1433,
+          "optional": false,
+          "nullable": false,
+          "example": "IS_Ammo_00Buckshot_12Gaug"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 1433,
+          "optional": false,
+          "nullable": false,
+          "example": ".222 Remington FMJ"
+        }
+      },
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
+    },
+    {
+      "name": "gamedata_loot_tables",
+      "file": "gamedata_loot_tables.json",
+      "itemCount": 364,
+      "fields": {
+        "area": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "presentCount": 364,
+          "optional": false,
+          "nullable": true,
+          "example": "A0"
+        },
+        "chance_basis": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 364,
+          "optional": false,
+          "nullable": false,
+          "example": "chance = rule weight share divided evenly over the rule items (assumption, not checked against the game generator); nothing_share = weight of rules without items"
+        },
+        "guaranteed": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 33,
+          "optional": true,
+          "nullable": false,
+          "example": [
+            {
+              "id": "IS_Card_FortNarith_InfirmaryOperationRoom",
+              "name": "Fort Narith Infirmary Operating Room Key Card"
+            }
+          ]
+        },
+        "id": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 364,
+          "optional": false,
+          "nullable": false,
+          "example": "DA_LootTable_A1_AI_Medicals"
+        },
+        "location": {
+          "types": [
+            "null",
+            "string"
+          ],
+          "presentCount": 364,
+          "optional": false,
+          "nullable": true,
+          "example": "LootSystem.Armory"
+        },
+        "name": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 364,
+          "optional": false,
+          "nullable": false,
+          "example": "A1_AI_Medicals"
+        },
+        "nothing_share": {
+          "types": [
+            "number"
+          ],
+          "presentCount": 331,
+          "optional": true,
+          "nullable": false,
+          "example": 0.0
+        },
+        "regeneration_seconds": {
+          "types": [
+            "number"
+          ],
+          "presentCount": 114,
+          "optional": true,
+          "nullable": false,
+          "example": 1.0
+        },
+        "rules": {
+          "types": [
+            "array"
+          ],
+          "presentCount": 331,
+          "optional": true,
+          "nullable": false,
+          "example": []
+        },
+        "source": {
+          "types": [
+            "string"
+          ],
+          "presentCount": 364,
+          "optional": false,
+          "nullable": false,
+          "example": "ai_loot"
+        }
+      },
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_magazines",
@@ -9371,7 +10145,7 @@
           ]
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_melee",
@@ -9536,7 +10310,7 @@
           "example": "0.356 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_misc",
@@ -9756,7 +10530,7 @@
           "example": "0.001 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_mounts_adapters",
@@ -9992,7 +10766,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_muzzle_devices",
@@ -10238,7 +11012,7 @@
           "example": "0.03 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_other_weapon_parts",
@@ -10473,7 +11247,7 @@
           "example": "0.016 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_pistol_grips",
@@ -10695,7 +11469,7 @@
           "example": "0.007 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_receivers",
@@ -10932,7 +11706,7 @@
           ]
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_rigs",
@@ -11132,7 +11906,7 @@
           ]
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_sights",
@@ -11369,7 +12143,7 @@
           "example": "0.001 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_stocks",
@@ -11623,7 +12397,7 @@
           "example": "0.087 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_suppressors",
@@ -11852,7 +12626,7 @@
           "example": "0.123 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gamedata_tactical_devices",
@@ -12144,7 +12918,7 @@
           "example": "0.032 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "gas_blocks",
@@ -12291,7 +13065,7 @@
           "example": "0.045 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AK-74 Gas Tube",
@@ -12441,7 +13215,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AMP12",
@@ -12668,7 +13442,7 @@
           "example": "0.090kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Aviator (Black)",
@@ -12757,7 +13531,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "5.11 - Competition Shooting",
@@ -12999,7 +13773,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AK 308 Handguard",
@@ -13332,7 +14106,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "3M Comtac II",
@@ -13447,7 +14221,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "L4 G24 Helmet NVG Mount",
@@ -13622,7 +14396,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "6B47 Ratnik",
@@ -13862,7 +14636,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "At Doom's Gate",
@@ -13936,7 +14710,7 @@
           "example": "Hideout"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Hideout",
@@ -14031,7 +14805,7 @@
           "example": "Electronics Workshop"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Hideout",
@@ -14140,7 +14914,7 @@
           "example": "0.013kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Aramid Cloth",
@@ -14266,7 +15040,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "George's love letter",
@@ -14404,7 +15178,7 @@
           "example": "0,014kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Advanced Tracking Tag",
@@ -14521,7 +15295,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Dark Pearl Necklace",
@@ -14694,7 +15468,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Fort Narith HQ Reception Storage Key Card",
@@ -14867,7 +15641,7 @@
           "example": "0.010 Kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "A102 Key",
@@ -15467,7 +16241,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Acetylene Cylinder",
@@ -15603,7 +16377,7 @@
           "example": "0.800kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "SafeLock Protected Ruck Case",
@@ -15679,7 +16453,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Ammo Box (Container)",
@@ -15890,7 +16664,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Loot Box",
@@ -16029,7 +16803,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Loot",
@@ -16187,7 +16961,7 @@
           "example": "0.048 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "1911 .45ACP 15-Round Extended Magazine",
@@ -16473,7 +17247,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "A Walk in the Park",
@@ -16745,7 +17519,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "ARF Trauma Bandage 4",
@@ -16990,7 +17764,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AN/PYQ-10",
@@ -17153,7 +17927,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Camouflage Fabric",
@@ -17301,7 +18075,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "M933 120mm HE Cartridge (High Range)",
@@ -17436,7 +18210,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "1911 Grip Scope Mount",
@@ -17793,7 +18567,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "3 Prong Flash Hider",
@@ -18037,7 +18811,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Newspaper - 10 Years of Independent Lamang",
@@ -18350,7 +19124,7 @@
           "example": "0.338kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AN/PVS-14 Night Vision Device",
@@ -18407,7 +19181,7 @@
           "example": "Paper"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Shift Roster",
@@ -18591,7 +19365,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "A2 Pistol Grip",
@@ -18845,7 +19619,7 @@
           "example": "12.100kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "CGPC3 TQS",
@@ -18995,7 +19769,7 @@
           "example": "0.500kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Chloroform",
@@ -19030,13 +19804,13 @@
     {
       "name": "provisions",
       "file": "provisions.json",
-      "itemCount": 37,
+      "itemCount": 35,
       "fields": {
         "energy": {
           "types": [
             "string"
           ],
-          "presentCount": 28,
+          "presentCount": 27,
           "optional": true,
           "nullable": false,
           "example": "+10"
@@ -19045,8 +19819,8 @@
           "types": [
             "string"
           ],
-          "presentCount": 37,
-          "optional": false,
+          "presentCount": 26,
+          "optional": true,
           "nullable": false,
           "example": "1x1"
         },
@@ -19054,7 +19828,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 28,
+          "presentCount": 26,
           "optional": true,
           "nullable": false,
           "example": "+10"
@@ -19063,7 +19837,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 37,
+          "presentCount": 35,
           "optional": false,
           "nullable": false,
           "example": "1-shot-energy-chews"
@@ -19072,16 +19846,16 @@
           "types": [
             "string"
           ],
-          "presentCount": 36,
+          "presentCount": 34,
           "optional": true,
           "nullable": false,
-          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Gray_icon.png/revision/latest?cb=20250621182754"
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Windmill_Almond_Chocolate_Bar_icon.png/revision/latest?cb=20250610042744"
         },
         "name": {
           "types": [
             "string"
           ],
-          "presentCount": 37,
+          "presentCount": 35,
           "optional": false,
           "nullable": false,
           "example": "1 Shot Energy Chews"
@@ -19090,8 +19864,8 @@
           "types": [
             "object"
           ],
-          "presentCount": 37,
-          "optional": false,
+          "presentCount": 26,
+          "optional": true,
           "nullable": false,
           "example": {
             "weight": {
@@ -19104,8 +19878,8 @@
           "types": [
             "string"
           ],
-          "presentCount": 36,
-          "optional": true,
+          "presentCount": 35,
+          "optional": false,
           "nullable": false,
           "example": "$10"
         },
@@ -19113,8 +19887,8 @@
           "types": [
             "string"
           ],
-          "presentCount": 36,
-          "optional": true,
+          "presentCount": 35,
+          "optional": false,
           "nullable": false,
           "example": "gzwitems.com"
         },
@@ -19122,8 +19896,8 @@
           "types": [
             "string"
           ],
-          "presentCount": 37,
-          "optional": false,
+          "presentCount": 26,
+          "optional": true,
           "nullable": false,
           "example": "Lab Rat Lv.1"
         },
@@ -19131,44 +19905,26 @@
           "types": [
             "string"
           ],
-          "presentCount": 19,
+          "presentCount": 15,
           "optional": true,
           "nullable": false,
           "example": "+10"
-        },
-        "total_hydration_per_grid": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 18,
-          "optional": true,
-          "nullable": false,
-          "example": "+100"
         },
         "weight": {
           "types": [
             "string"
           ],
-          "presentCount": 37,
-          "optional": false,
-          "nullable": false,
-          "example": "0.010 kg"
-        },
-        "weight_source": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 4,
+          "presentCount": 26,
           "optional": true,
           "nullable": false,
-          "example": "game-files"
+          "example": "0.010 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Provisions",
-          "revisionId": 24338
+          "revisionId": 25767
         }
       ]
     },
@@ -19246,7 +20002,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "NB Research Notes",
@@ -19408,7 +20164,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AK Rear Iron Sight",
@@ -19561,7 +20317,7 @@
           "example": "1"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Ban Pa",
@@ -19777,7 +20533,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Aques Water 1 l",
@@ -20025,7 +20781,7 @@
           "example": "1.500kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Equipment Repair Essentials Kit",
@@ -20172,7 +20928,7 @@
           "example": "0.300kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "6Sh104",
@@ -20392,7 +21148,7 @@
           "example": "0.292 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "ACOG TA01NSN 4x32 Assault Scope",
@@ -20477,7 +21233,7 @@
           "example": "Clawgear - Combat Operator (Black)"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Clawgear - Combat Operator",
@@ -20657,7 +21413,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -21172,7 +21928,7 @@
           "example": "0.280 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "1911 Commander Slide",
@@ -21275,7 +22031,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Binary Choir",
@@ -21490,7 +22246,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Box of IDs",
@@ -21842,7 +22598,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AK Buffer Tube Adapter",
@@ -22058,7 +22814,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AK MOE Stock",
@@ -22510,7 +23266,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "762-SD Suppressor",
@@ -22738,7 +23494,7 @@
           "example": "0.032 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "ADE Advanced Red Laser",
@@ -22832,7 +23588,7 @@
           "example": "Letter From Beyond"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Letter From Beyond",
@@ -22953,7 +23709,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Appeal to the Rebels",
@@ -23470,7 +24226,7 @@
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -24649,7 +25405,7 @@
           "example": "0.310kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "F-1",
@@ -24813,7 +25569,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Box of Supplies",
@@ -24882,7 +25638,7 @@
           "example": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
@@ -25038,7 +25794,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "10% Morphine Solution",
@@ -25501,7 +26257,7 @@
           "example": "0.160kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "B Krogan",
@@ -25672,7 +26428,7 @@
           "example": "0.104 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AK Ratnik Dust Cover",
@@ -25810,7 +26566,7 @@
           "example": "0.0001kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Dollars",
@@ -25821,7 +26577,7 @@
     {
       "name": "vendor_stock",
       "file": "vendor_stock.json",
-      "itemCount": 536,
+      "itemCount": 531,
       "fields": {
         "buy_price": {
           "types": [
@@ -25836,7 +26592,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 536,
+          "presentCount": 531,
           "optional": false,
           "nullable": false,
           "example": "ammo"
@@ -25845,7 +26601,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 536,
+          "presentCount": 531,
           "optional": false,
           "nullable": false,
           "example": "artisan-ammo-222-remington-fmj"
@@ -25854,7 +26610,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 536,
+          "presentCount": 531,
           "optional": false,
           "nullable": false,
           "example": ".222 Remington FMJ"
@@ -25863,7 +26619,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 536,
+          "presentCount": 531,
           "optional": false,
           "nullable": false,
           "example": ".222 Remington FMJ (Artisan)"
@@ -25873,7 +26629,7 @@
             "null",
             "number"
           ],
-          "presentCount": 536,
+          "presentCount": 531,
           "optional": false,
           "nullable": true,
           "example": 1
@@ -25882,7 +26638,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 507,
+          "presentCount": 505,
           "optional": true,
           "nullable": false,
           "example": "Ammunition Round"
@@ -25891,13 +26647,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 536,
+          "presentCount": 531,
           "optional": false,
           "nullable": false,
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z"
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z"
     },
     {
       "name": "vendors",
@@ -25968,7 +26724,7 @@
           "example": "Any"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Artisan",
@@ -26132,7 +26888,7 @@
           "example": "1.760kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "6B23-1(Digital)",
@@ -26322,7 +27078,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Allanach Single Malt Scotch - 40y",
@@ -26462,7 +27218,7 @@
           "example": "0.100 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "SIG MCX Pistol Grip",
@@ -26705,7 +27461,7 @@
           "example": "0.810 kg"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "AK-12",
@@ -26995,7 +27751,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
+      "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
       "sourcePages": [
         {
           "title": "Acumulator Drill",
@@ -27064,6 +27820,6 @@
       ]
     }
   ],
-  "lastScrapedAt": "2026-11-04T15:33:07.630710Z",
-  "lastFullScrapeAt": "2026-11-04T15:33:07.630710Z"
+  "lastScrapedAt": "2026-11-04T16:08:58.864222Z",
+  "lastFullScrapeAt": "2026-11-04T16:08:58.864222Z"
 }
