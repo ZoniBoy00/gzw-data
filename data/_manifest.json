@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-11-04T15:33:07.874490Z",
+  "generatedAt": "2026-11-04T16:08:59.330127Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
@@ -203,6 +203,11 @@
       "records": 220,
       "sha256": "d429a327f480caebe3207dfaec462c8703bc7d78e0504d0d32c1fc3c9679095c"
     },
+    "gamedata_compatibility": {
+      "file": "gamedata_compatibility.json",
+      "records": 559,
+      "sha256": "8f608b157ed8ce348bf3ea7030fd1660b73b86c036cc792dd8dd70d270701fae"
+    },
     "gamedata_consumables": {
       "file": "gamedata_consumables.json",
       "records": 75,
@@ -243,10 +248,35 @@
       "records": 89,
       "sha256": "4a3a8b427670f7f17adbae9c14a9c0c7dc12fe31bdeb02dbd09f2dace8377ce0"
     },
+    "gamedata_hideout_devices": {
+      "file": "gamedata_hideout_devices.json",
+      "records": 36,
+      "sha256": "d28aab02c5fcef4634bea10d23e729ece41c15bc6f5ae2af7216ca284280b29c"
+    },
     "gamedata_hideout_materials": {
       "file": "gamedata_hideout_materials.json",
       "records": 104,
       "sha256": "0f0cbd557f73a6a5ce07792889211bf90f34ce13e5257215c1fe3e9ad76e9928"
+    },
+    "gamedata_hideout_quests": {
+      "file": "gamedata_hideout_quests.json",
+      "records": 35,
+      "sha256": "e5e39ce49d2a403a73a10638a1d50a16248f97179969b9a5d0e85a44c9c6f8f1"
+    },
+    "gamedata_hideout_recipes": {
+      "file": "gamedata_hideout_recipes.json",
+      "records": 37,
+      "sha256": "dcb96cac1420fd8e9f811cf72c92756d63933401e6197eee30fb8b41d1bb1b69"
+    },
+    "gamedata_hideout_rooms": {
+      "file": "gamedata_hideout_rooms.json",
+      "records": 3,
+      "sha256": "a6cd8d76ae70ef77e87750c0b623471a8f62e341cbfbce99e1ec0bad73d4f92f"
+    },
+    "gamedata_hideout_storage": {
+      "file": "gamedata_hideout_storage.json",
+      "records": 4,
+      "sha256": "6cbe8ebd314372f278f89eb83958d59daf2c3b4956b74c797e50dd2c3162186a"
     },
     "gamedata_intel": {
       "file": "gamedata_intel.json",
@@ -257,6 +287,16 @@
       "file": "gamedata_keys.json",
       "records": 76,
       "sha256": "b0f3222c56dbb5b38a5d25d16351d587f5dd881baab966de0a3e5fcb12c1ef3a"
+    },
+    "gamedata_loot_by_item": {
+      "file": "gamedata_loot_by_item.json",
+      "records": 1433,
+      "sha256": "8721a346b86e0e3118bddfa3a4df821a951a531ee182127f71dcbc93881dd0a3"
+    },
+    "gamedata_loot_tables": {
+      "file": "gamedata_loot_tables.json",
+      "records": 364,
+      "sha256": "e4fb7dfaa875133fab8183d18d69a9963086925fa041fccb1108db97ac1946cd"
     },
     "gamedata_magazines": {
       "file": "gamedata_magazines.json",
@@ -505,8 +545,8 @@
     },
     "provisions": {
       "file": "provisions.json",
-      "records": 37,
-      "sha256": "24356e177a30280edab8df36781d5111bf31844676954f6dcb2e1a85bd311b1f"
+      "records": 35,
+      "sha256": "56c52105040a9cddc4ff47bc60426c002a52f82e548fb8642939e57b3098b8a5"
     },
     "reading_intel": {
       "file": "reading_intel.json",
@@ -640,8 +680,8 @@
     },
     "vendor_stock": {
       "file": "vendor_stock.json",
-      "records": 536,
-      "sha256": "8c4d6b3cb8bcda869c6924f8657fecd458045def49f2706256dc1690691a6c29"
+      "records": 531,
+      "sha256": "2d35ddf066a715daa2e3ecba559d984375741e09be49cf9d9b1c3efa04a58185"
     },
     "vendors": {
       "file": "vendors.json",
