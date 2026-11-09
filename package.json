@@ -41,6 +41,6 @@
     "eslint": "^10.13.0"
   },
   "dependencies": {
-    "@vercel/functions": "^3.10.6"
+    "@vercel/functions": "^3.11.0"
   }
 }
