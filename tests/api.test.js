@@ -571,7 +571,7 @@ describe('GZW Data API', () => {
     assert.strictEqual(getStatus(), 200);
     const schema = getBody().data;
     assert.strictEqual(schema.name, 'weapons');
-    assert.strictEqual(schema.itemCount, 44);
+    assert.strictEqual(schema.itemCount, datasets.weapons.length);
     assert.ok(schema.fields.id);
     assert.ok(Array.isArray(schema.fields.id.types));
     assert.ok(typeof schema.lastScrapedAt === 'string');
