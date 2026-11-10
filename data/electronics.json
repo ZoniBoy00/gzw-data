@@ -1,13 +1,45 @@
 [
   {
+    "name": "AI Targeting Module",
+    "id": "ai-targeting-module",
+    "type": "Electronics",
+    "weight": "0.05kg",
+    "grid_size": "1x1",
+    "manufacturer": "Russian Army",
+    "sell_price": "$16,875",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/AI_Targeting_Module_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107015915",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "ATM Hacking Tool",
+    "id": "atm-hacking-tool",
+    "type": "Electronics",
+    "weight": "0.15kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$1,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/ATM_Hacking_Tool_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412113512",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Black Luxury Phone",
     "id": "black-luxury-phone",
     "type": "Electronics",
-    "weight": "0.22 kg",
+    "weight": "0.22kg",
     "grid_size": "1x1",
-    "sell_price": "$1.500",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/BLPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232310",
-    "weight_source": "game-files",
+    "manufacturer": "General West",
+    "sell_price": "$1,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/Black_Luxury_Phone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232310",
     "numeric_values": {
       "weight": {
         "value": 0.22,
@@ -16,12 +48,45 @@
     }
   },
   {
+    "name": "Car Battery",
+    "id": "car-battery",
+    "type": "Tech",
+    "weight": "12.66kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Car_Battery_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075125",
+    "numeric_values": {
+      "weight": {
+        "value": 12.66,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Deep-Space Observation Data Drive",
+    "id": "deep-space-observation-data-drive",
+    "type": "Tech",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Deep-Space_Observation_Data_Drive_inspect.png/revision/latest?cb=20261028195051",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Electronic Warfare Configuration Drive",
     "id": "electronic-warfare-configuration-drive",
     "type": "Tech",
-    "weight": "0.080kg",
+    "weight": "0.08kg",
     "grid_size": "1x1",
-    "sell_price": "$12,800",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Electronic_Warfare_Configuration_Drive_inspect.png/revision/latest?cb=20261026020130",
     "numeric_values": {
       "weight": {
@@ -34,9 +99,10 @@
     "name": "Encryption Key Drive",
     "id": "encryption-key-drive",
     "type": "Tech",
-    "weight": "0.110kg",
+    "weight": "0.11kg",
     "grid_size": "1x1",
-    "sell_price": "$9,600",
+    "manufacturer": "General Local",
+    "sell_price": "$12,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/54/Encryption_Key_Drive_inspect.png/revision/latest/scale-to-width-down/268?cb=20261031070040",
     "numeric_values": {
       "weight": {
@@ -49,12 +115,11 @@
     "name": "Expensive Smartphone",
     "id": "expensive-smartphone",
     "type": "Electronics",
-    "weight": "0.25 kg",
+    "weight": "0.25kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sell_price": "$350",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/EPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505041727",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/Expensive_Smartphone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505041727",
     "numeric_values": {
       "weight": {
         "value": 0.25,
@@ -63,14 +128,78 @@
     }
   },
   {
+    "name": "Flight Data Drive",
+    "id": "flight-data-drive",
+    "type": "Tech",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$12,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/Flight_Data_Drive_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109182705",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Incriminating Data Drive",
+    "id": "incriminating-data-drive",
+    "type": "Tech",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$12,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/Incriminating_Data_Drive_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106143240",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Incriminating Phone Logs",
+    "id": "incriminating-phone-logs",
+    "type": "Tech",
+    "weight": "0.24kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Incriminating_Phone_Logs_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107050847",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LAF Artillery Data Logs",
+    "id": "laf-artillery-data-logs",
+    "type": "Tech",
+    "weight": "0.24kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/LAF_Artillery_Data_Logs_inspect.png/revision/latest/scale-to-width-down/268?cb=20261108050433",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Luxury Smartphone",
     "id": "luxury-smartphone",
     "type": "Electronics",
-    "weight": "0.220kg",
+    "weight": "0.22kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
     "sell_price": "$1,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/LPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232225",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Luxury_Smartphone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232225",
     "numeric_values": {
       "weight": {
         "value": 0.22,
@@ -82,11 +211,11 @@
     "name": "Missile Guidance Circuit",
     "id": "missile-guidance-circuit",
     "type": "Electronics",
-    "weight": "2 kg",
+    "weight": "2kg",
     "grid_size": "1x1",
-    "sell_price": "$15,000",
+    "manufacturer": "Russian Army",
+    "sell_price": "$16,875",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Missile_Guidance_Circuit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183805",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -114,11 +243,11 @@
     "name": "Smartphone",
     "id": "smartphone",
     "type": "Electronics",
-    "weight": "0.22 kg",
+    "weight": "0.22kg",
     "grid_size": "1x1",
+    "manufacturer": "General West",
     "sell_price": "$250",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Phone_inspect.png/revision/latest?cb=20250425032205",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/Smartphone_inspect.png/revision/latest?cb=20250425032205",
     "numeric_values": {
       "weight": {
         "value": 0.22,
@@ -130,13 +259,30 @@
     "name": "UNLRA Relief Manifest",
     "id": "unlra-relief-manifest",
     "type": "Tech",
-    "weight": "0.240kg",
+    "weight": "0.24kg",
     "grid_size": "1x1",
-    "sell_price": "$6,400",
+    "manufacturer": "General Local",
+    "sell_price": "$8,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/UNLRA_Relief_Manifest_inspect.png/revision/latest?cb=20261102054525",
     "numeric_values": {
       "weight": {
         "value": 0.24,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Uplink Credentials Drive",
+    "id": "uplink-credentials-drive",
+    "type": "Tech",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Uplink_Credentials_Drive_inspect.png/revision/latest?cb=20261028195049",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
         "unit": "kg"
       }
     }

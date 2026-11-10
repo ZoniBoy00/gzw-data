@@ -18,8 +18,9 @@
     "name": "Businessman ID Card",
     "id": "businessman-id-card",
     "type": "Evidence",
-    "weight": "0.050kg",
+    "weight": "0.05kg",
     "grid_size": "1x1",
+    "manufacturer": "General Local",
     "sell_price": "$1,250",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/Businessman_ID_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20260403094423",
     "numeric_values": {
@@ -48,12 +49,11 @@
     "name": "Digital Camera",
     "id": "digital-camera",
     "type": "Evidence",
-    "weight": "0.35 kg",
+    "weight": "0.35kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$112",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/DigiCam_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506171437",
-    "weight_source": "game-files",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Digital_Camera_icon.png/revision/latest?cb=20250621182741",
     "numeric_values": {
       "weight": {
         "value": 0.35,
@@ -65,20 +65,27 @@
     "name": "Driver's Licence",
     "id": "drivers-licence",
     "type": "Evidence",
-    "weight": "0,050kg",
+    "weight": "0.05kg",
     "grid_size": "1x1",
+    "manufacturer": "General Local",
     "sell_price": "$350",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Driver%27s_Licence_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331080051"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Driver%27s_Licence_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331080051",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Encrypted Hard Disk Drive",
     "id": "encrypted-hard-disk-drive",
     "type": "Evidence",
-    "weight": "0.180kg",
+    "weight": "0.18kg",
     "grid_size": "1x1",
     "manufacturer": "General West",
-    "sell_price": "$3,450",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/EnHDD_inspect.png/revision/latest?cb=20260410165943",
+    "sell_price": "$4,600",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6b/Encrypted_Hard_Disk_Drive_inspect.png/revision/latest?cb=20260410165943",
     "numeric_values": {
       "weight": {
         "value": 0.18,
@@ -90,10 +97,10 @@
     "name": "Laptop",
     "id": "laptop",
     "type": "Evidence",
-    "weight": "1.500kg",
+    "weight": "1.5kg",
     "grid_size": "2x2",
     "manufacturer": "General West",
-    "sell_price": "$750",
+    "sell_price": "$1,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Laptop_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508230237",
     "numeric_values": {
       "weight": {
@@ -106,10 +113,11 @@
     "name": "Local ID Card",
     "id": "local-id-card",
     "type": "Evidence",
-    "weight": "0.05 kg",
+    "weight": "0.05kg",
     "grid_size": "1x1",
-    "sell_price": "$187",
-    "weight_source": "game-files",
+    "manufacturer": "General Local",
+    "sell_price": "$250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/Local_ID_Card_icon.png/revision/latest?cb=20260402044604",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -121,11 +129,11 @@
     "name": "Reflex Camera",
     "id": "reflex-camera",
     "type": "Evidence",
-    "weight": "0.95 kg",
-    "grid_size": "1x2",
+    "weight": "0.95kg",
+    "grid_size": "2x1",
+    "manufacturer": "General Local",
     "sell_price": "$1,280",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3f/DSLR_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422023835",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Reflex_Camera_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422023835",
     "numeric_values": {
       "weight": {
         "value": 0.95,
@@ -137,10 +145,11 @@
     "name": "Reinforced Military Laptop",
     "id": "reinforced-military-laptop",
     "type": "Evidence",
-    "weight": "2.500kg",
+    "weight": "2.5kg",
     "grid_size": "2x2",
-    "sell_price": "$2,304",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/ReLaptop_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509092729",
+    "manufacturer": "General West",
+    "sell_price": "$3,072",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/Reinforced_Military_Laptop_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509092729",
     "numeric_values": {
       "weight": {
         "value": 2.5,
@@ -152,9 +161,10 @@
     "name": "Tourist ID Card",
     "id": "tourist-id-card",
     "type": "Evidence",
-    "weight": "0.050kg",
+    "weight": "0.05kg",
     "grid_size": "1x1",
-    "sell_price": "$112",
+    "manufacturer": "General Local",
+    "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/Tourist_ID_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20260403094255",
     "numeric_values": {
       "weight": {
@@ -167,9 +177,10 @@
     "name": "Tourist Passport",
     "id": "tourist-passport",
     "type": "Evidence",
-    "weight": "0.050kg",
+    "weight": "0.05kg",
     "grid_size": "1x1",
-    "sell_price": "$2,625",
+    "manufacturer": "General Local",
+    "sell_price": "$3,500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Tourist_Passport_inspect.png/revision/latest/scale-to-width-down/268?cb=20260506023557",
     "numeric_values": {
       "weight": {
@@ -182,9 +193,11 @@
     "name": "VIP Passport",
     "id": "vip-passport",
     "type": "Evidence",
-    "weight": "0.050kg",
+    "weight": "0.05kg",
     "grid_size": "1x1",
+    "manufacturer": "General Local",
     "sell_price": "$9,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VIP_Passport_icon.png/revision/latest?cb=20260402190035",
     "numeric_values": {
       "weight": {
         "value": 0.05,

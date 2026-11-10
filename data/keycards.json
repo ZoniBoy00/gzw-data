@@ -22,8 +22,6 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Operations Room in Fort Narith Headquarters.",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/268?cb=20260502075206",
-    "sell_price": "$90",
-    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -61,6 +59,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Kiu Vongsa Town Hall",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -76,6 +76,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Nam Thaven Town Hall",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -91,6 +93,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door Finance Department in Pha Lang Town Hall",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -106,6 +110,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door office in Tiger Bay UNLRA HQ.",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest?cb=20250531203658",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,

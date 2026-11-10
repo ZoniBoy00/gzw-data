@@ -3,9 +3,10 @@
     "name": "6Sh118 Ratnik V2",
     "id": "6sh118-ratnik-v2",
     "type": "Backpack",
-    "weight": "2.800kg",
+    "weight": "2.8kg",
     "grid_size": "5x6",
-    "sold_by": "Looting",
+    "sold_by": "Loot only",
+    "sell_price": "$435",
     "slots": "30",
     "manufacturer": "TsNIITochMash",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/6Sh118_Ratnik_V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404183325",
@@ -20,15 +21,17 @@
     "name": "AMP12",
     "id": "amp12",
     "type": "Backpack",
-    "weight": "2.630kg",
+    "weight": "1.32kg",
     "grid_size": "4x5",
     "sold_by": "Handshake R.3",
+    "sell_price": "$243",
+    "buy_price": "$810",
     "slots": "20",
     "manufacturer": "5.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/AMP12_inspect.png/revision/latest/scale-to-width-down/268?cb=20240510004947",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/AMP12_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154311",
     "numeric_values": {
       "weight": {
-        "value": 2.63,
+        "value": 1.32,
         "unit": "kg"
       }
     }
@@ -37,10 +40,14 @@
     "name": "Assault Backpack",
     "id": "assault-backpack",
     "type": "Backpack",
-    "weight": "1.250kg",
-    "grid_size": "3x4",
-    "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Assault_inspect.png/revision/latest?cb=20240512024613",
+    "weight": "1.25kg",
+    "grid_size": "3x3",
+    "sold_by": "Turncoat R.1",
+    "sell_price": "$45",
+    "buy_price": "$150",
+    "slots": "6",
+    "manufacturer": "Techincom",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Assault_Backpack_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154319",
     "numeric_values": {
       "weight": {
         "value": 1.25,
@@ -49,15 +56,35 @@
     }
   },
   {
-    "name": "C2 Bag combat compact backpack",
+    "name": "Bloodhound's Sport Backpack",
+    "id": "bloodhounds-sport-backpack",
+    "type": "Backpack",
+    "weight": "0.49kg",
+    "grid_size": "3x3",
+    "sold_by": "Loot only",
+    "sell_price": "$24",
+    "slots": "9",
+    "manufacturer": "Doldie",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Bloodhound%27s_Sport_Backpack_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201607",
+    "numeric_values": {
+      "weight": {
+        "value": 0.49,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "C2 BAG Combat Compact Backpack",
     "id": "c2-bag-combat-compact-backpack",
     "type": "Backpack",
-    "weight": "1.330kg",
+    "weight": "1.33kg",
     "grid_size": "3x4",
-    "sold_by": "Handshake",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$129",
+    "buy_price": "$432",
     "slots": "12",
     "manufacturer": "Elite Bags",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/C2_Bag_Combat_Compact_Backpack.png/revision/latest?cb=20260629194552",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b5/C2_BAG_Combat_Compact_Backpack_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154323",
     "numeric_values": {
       "weight": {
         "value": 1.33,
@@ -66,15 +93,17 @@
     }
   },
   {
-    "name": "Civilian Trekstars 70L Backpack",
+    "name": "Civilian Trekstars 70L",
     "id": "civilian-trekstars-70l-backpack",
     "type": "Backpack",
-    "weight": "2.320kg",
+    "weight": "2.32kg",
     "grid_size": "6x7",
     "sold_by": "Artisan R.4",
+    "sell_price": "$360",
+    "buy_price": "$1,200",
     "slots": "42",
     "manufacturer": "Trekstars",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/Trekstars_inspect.png/revision/latest?cb=20260422184817",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/Civilian_Trekstars_70L_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154306",
     "numeric_values": {
       "weight": {
         "value": 2.32,
@@ -86,11 +115,14 @@
     "name": "Delta Backpack",
     "id": "delta-backpack",
     "type": "Backpack",
-    "weight": "2.630kg",
+    "weight": "2.63kg",
     "grid_size": "6x6",
     "sold_by": "Turncoat R.4",
+    "sell_price": "$495",
+    "buy_price": "$1,650",
     "slots": "36",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Delta_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509053520",
+    "manufacturer": "ANA-Tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Delta_Backpack_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154326",
     "numeric_values": {
       "weight": {
         "value": 2.63,
@@ -102,10 +134,13 @@
     "name": "Drawstring Backpack",
     "id": "drawstring-backpack",
     "type": "Backpack",
-    "weight": "0.100kg",
+    "weight": "0.1kg",
     "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$15",
     "slots": "4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Drawstring_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070327",
+    "manufacturer": "Oizys",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/Drawstring_Backpack_icon.png/revision/latest?cb=20250622131155",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -114,13 +149,47 @@
     }
   },
   {
+    "name": "Drug Shipment Backpack (Drug Run)",
+    "id": "drug-shipment-backpack-drug-run",
+    "type": "Backpack",
+    "weight": "10kg",
+    "grid_size": "5x5",
+    "sell_price": "$21,000",
+    "slots": "0",
+    "manufacturer": "General Local",
+    "numeric_values": {
+      "weight": {
+        "value": 10.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Drug Shipment Backpack (Drug Run: High Risk)",
+    "id": "drug-shipment-backpack-drug-run:-high-risk",
+    "type": "Backpack",
+    "weight": "10kg",
+    "grid_size": "5x5",
+    "sell_price": "$29,250",
+    "manufacturer": "General Local",
+    "numeric_values": {
+      "weight": {
+        "value": 10.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Falang 28",
     "id": "falang-28",
     "type": "Backpack",
-    "weight": "1.300kg",
-    "grid_size": "3x4",
+    "weight": "1.3kg",
+    "grid_size": "4x5",
+    "sold_by": "Loot only",
+    "sell_price": "$87",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/Falang_inspect.png/revision/latest/scale-to-width-down/268?cb=20240511180522",
+    "manufacturer": "Falang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Falang_28_inspect.png/revision/latest/scale-to-width-down/268?cb=20240511180522",
     "numeric_values": {
       "weight": {
         "value": 1.3,
@@ -129,14 +198,35 @@
     }
   },
   {
+    "name": "Golden Boy's Leather Backpack",
+    "id": "golden-boys-leather-backpack",
+    "type": "Backpack",
+    "weight": "1kg",
+    "grid_size": "2x3",
+    "sold_by": "Loot only",
+    "sell_price": "$16",
+    "slots": "6",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/Golden_Boy%27s_Leather_Backpack_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201620",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Gunfighter 14",
     "id": "gunfighter-14",
     "type": "Backpack",
-    "weight": "0.900kg",
+    "weight": "0.9kg",
     "grid_size": "3x3",
     "sold_by": "Handshake R.1",
+    "sell_price": "$75",
+    "buy_price": "$250",
     "slots": "9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526",
+    "manufacturer": "Mystery Ranch",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Gunfighter_14_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154237",
     "numeric_values": {
       "weight": {
         "value": 0.9,
@@ -148,10 +238,14 @@
     "name": "JDEN Jam Ball",
     "id": "jden-jam-ball",
     "type": "Backpack",
-    "weight": "0.900kg",
+    "weight": "0.9kg",
     "grid_size": "3x4",
+    "sold_by": "Artisan R.2",
+    "sell_price": "$45",
+    "buy_price": "$150",
     "slots": "12",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/JDEN_inspect.png/revision/latest/scale-to-width-down/268?cb=20240512024534",
+    "manufacturer": "Snakefish",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/91/JDEN_Jam_Ball_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154240",
     "numeric_values": {
       "weight": {
         "value": 0.9,
@@ -160,29 +254,47 @@
     }
   },
   {
-    "name": "Patrol Backpack",
-    "id": "patrol-backpack",
+    "name": "Military Contraband Backpack (Special Delivery)",
+    "id": "military-contraband-backpack-special-delivery",
     "type": "Backpack",
-    "weight": "1.500kg",
-    "grid_size": "4x5",
-    "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/41/Patrol_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509205614",
+    "weight": "10kg",
+    "grid_size": "5x5",
+    "sell_price": "$20,250",
+    "manufacturer": "General Local",
     "numeric_values": {
       "weight": {
-        "value": 1.5,
+        "value": 10.0,
         "unit": "kg"
       }
     }
   },
   {
-    "name": "Patrol backpack (Coyote)",
-    "id": "patrol-backpack-coyote",
+    "name": "Military Contraband Backpack (Special Delivery: High Risk)",
+    "id": "military-contraband-backpack-special-delivery:-high-risk",
     "type": "Backpack",
-    "weight": "1.500kg",
-    "sold_by": "???",
+    "weight": "10kg",
+    "grid_size": "5x5",
+    "sell_price": "$36,000",
+    "manufacturer": "General Local",
+    "numeric_values": {
+      "weight": {
+        "value": 10.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Patrol Backpack",
+    "id": "patrol-backpack",
+    "type": "Backpack",
+    "weight": "1.5kg",
+    "grid_size": "4x5",
+    "sold_by": "Turncoat R.3",
+    "sell_price": "$225",
+    "buy_price": "$750",
     "slots": "20",
     "manufacturer": "Techincom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/3x3_Backpack.png/revision/latest/scale-to-width-down/200?cb=20240509033526",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Patrol_Backpack_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154246",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -194,10 +306,13 @@
     "name": "Patrol Backpack (Coyote)",
     "id": "patrol-backpack-coyote",
     "type": "Backpack",
-    "weight": "1.500kg",
+    "weight": "1.5kg",
     "grid_size": "4x5",
+    "sold_by": "Loot only",
+    "sell_price": "$225",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Patrol_Backpack_Coyote_inspect.png/revision/latest/scale-to-width-down/268?cb=20260701163737",
+    "manufacturer": "Techincom",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Patrol_Backpack_%28Coyote%29_icon.png/revision/latest/scale-to-width-down/110?cb=20260701163249",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -209,12 +324,14 @@
     "name": "Rush 72 2.0",
     "id": "rush-72-2.0",
     "type": "Backpack",
-    "weight": "2.400kg",
-    "grid_size": "5x5",
-    "sold_by": "Handshake R.4 Looting",
+    "weight": "2.4kg",
+    "grid_size": "5x6",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$375",
+    "buy_price": "$1,250",
     "slots": "25",
     "manufacturer": "5.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Rush_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509054757",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Rush_72_2.0_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154249",
     "numeric_values": {
       "weight": {
         "value": 2.4,
@@ -223,15 +340,17 @@
     }
   },
   {
-    "name": "Scorpion OCP Convoy Pack",
+    "name": "Scorpion OCP Convoy Pack (Coyote)",
     "id": "scorpion-ocp-convoy-pack",
     "type": "Backpack",
-    "weight": "1.360kg",
+    "weight": "1.36kg",
     "grid_size": "4x4",
     "sold_by": "Handshake R.3",
+    "sell_price": "$195",
+    "buy_price": "$650",
     "slots": "16",
     "manufacturer": "Condor Outdoor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Scorpion_icon.png/revision/latest?cb=20250622125342",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/Scorpion_OCP_Convoy_Pack_%28Coyote%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154252",
     "numeric_values": {
       "weight": {
         "value": 1.36,
@@ -243,12 +362,14 @@
     "name": "Scorpion OCP Convoy Pack (Multicam)",
     "id": "scorpion-ocp-convoy-pack-multicam",
     "type": "Backpack",
-    "weight": "1.360kg",
+    "weight": "1.36kg",
     "grid_size": "4x4",
     "sold_by": "Handshake R.3",
+    "sell_price": "$195",
+    "buy_price": "$650",
     "slots": "16",
     "manufacturer": "Condor Outdoor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Scorpion_OCP_Convoy_Pack_Multicam.png/revision/latest/scale-to-width-down/268?cb=20260629201005",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/Scorpion_OCP_Convoy_Pack_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154255",
     "numeric_values": {
       "weight": {
         "value": 1.36,
@@ -262,8 +383,11 @@
     "type": "Backpack",
     "weight": "0.072kg",
     "grid_size": "2x3",
+    "sold_by": "Loot only",
+    "sell_price": "$19",
     "slots": "6",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/STourist_inspect.png/revision/latest?cb=20240509070434",
+    "manufacturer": "Sea To Summit",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/Small_Tourist_Backpack_inspect.png/revision/latest?cb=20240509070434",
     "numeric_values": {
       "weight": {
         "value": 0.072,
@@ -275,10 +399,14 @@
     "name": "Sport Backpack",
     "id": "sport-backpack",
     "type": "Backpack",
-    "weight": "0.490kg",
+    "weight": "0.49kg",
     "grid_size": "3x3",
+    "sold_by": "Artisan R.1",
+    "sell_price": "$24",
+    "buy_price": "$82",
     "slots": "9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/Sport_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070402",
+    "manufacturer": "Doldie",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Sport_Backpack_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109154259",
     "numeric_values": {
       "weight": {
         "value": 0.49,

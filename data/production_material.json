@@ -1,11 +1,45 @@
 [
   {
+    "name": "Acetic Anhydride",
+    "id": "acetic-anhydride",
+    "type": "Production Material",
+    "weight": "1kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Acetic_Anhydride_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201057",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Ammonium Chloride",
+    "id": "ammonium-chloride",
+    "type": "Production Material",
+    "weight": "0.5kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$45",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Ammonium_Chloride_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201115",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Chloroform",
     "id": "chloroform",
     "type": "Production Material",
-    "weight": "1.000kg",
+    "weight": "1kg",
     "grid_size": "1x2",
+    "manufacturer": "General Local",
     "sell_price": "$45",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/Chloroform_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201055",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -17,9 +51,11 @@
     "name": "Citric Acid",
     "id": "citric-acid",
     "type": "Production Material",
-    "weight": "1.000kg",
+    "weight": "1kg",
     "grid_size": "1x2",
+    "manufacturer": "General Local",
     "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/92/Citric_Acid_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201130",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -28,11 +64,59 @@
     }
   },
   {
+    "name": "Edetate Disodium",
+    "id": "edetate-disodium",
+    "type": "Production Material",
+    "weight": "0.05kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Edetate_Disodium_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201059",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Ether",
+    "id": "ether",
+    "type": "Production Material",
+    "weight": "1.2kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$90",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Ether_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201037",
+    "numeric_values": {
+      "weight": {
+        "value": 1.2,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Ethyl Alcohol",
+    "id": "ethyl-alcohol",
+    "type": "Production Material",
+    "weight": "2.8kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$90",
+    "numeric_values": {
+      "weight": {
+        "value": 2.8,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Garden Lime",
     "id": "garden-lime",
     "type": "Production Material",
-    "weight": "3.000kg",
+    "weight": "3kg",
     "grid_size": "2x2",
+    "manufacturer": "General Local",
     "sell_price": "$15",
     "numeric_values": {
       "weight": {
@@ -42,12 +126,60 @@
     }
   },
   {
+    "name": "High-Quality Morphine Base",
+    "id": "high-quality-morphine-base",
+    "type": "Production Material",
+    "weight": "1kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$4,500",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Hydrochloric Acid",
+    "id": "hydrochloric-acid",
+    "type": "Production Material",
+    "weight": "2.7kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Hydrochloric_Acid_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201118",
+    "numeric_values": {
+      "weight": {
+        "value": 2.7,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Low-Quality Morphine Base",
+    "id": "low-quality-morphine-base",
+    "type": "Production Material",
+    "weight": "1kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$2,000",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Medium-Quality Morphine Base",
     "id": "medium-quality-morphine-base",
     "type": "Production Material",
-    "weight": "1.000kg",
+    "weight": "1kg",
     "grid_size": "2x2",
-    "sell_price": "$2,500",
+    "manufacturer": "General Local",
+    "sell_price": "$3,200",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/Medium-Quality_Morphine_Base_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201125",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -58,10 +190,12 @@
   {
     "name": "Methanol",
     "id": "methanol",
-    "type": "Production Material",
-    "weight": "0.500kg",
+    "type": "Crafting Material",
+    "weight": "0.5kg",
     "grid_size": "1x2",
-    "sell_price": "$30",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/Methanol_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201040",
     "numeric_values": {
       "weight": {
         "value": 0.5,
@@ -70,12 +204,30 @@
     }
   },
   {
+    "name": "Methylparaben",
+    "id": "methylparaben",
+    "type": "Production Material",
+    "weight": "0.15kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$90",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/Methylparaben_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201128",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Opium Gum",
     "id": "opium-gum",
     "type": "Production Material",
-    "weight": "2.000kg",
+    "weight": "2kg",
     "grid_size": "2x2",
+    "manufacturer": "General Local",
     "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Opium_Gum_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201120",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -87,12 +239,77 @@
     "name": "Purified Water",
     "id": "purified-water",
     "type": "Production Material",
-    "weight": "5.000kg",
+    "weight": "5kg",
     "grid_size": "2x2",
+    "manufacturer": "General Local",
     "sell_price": "$30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/Purified_Water_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201123",
     "numeric_values": {
       "weight": {
         "value": 5.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Saline",
+    "id": "saline",
+    "type": "Production Material",
+    "weight": "1kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$15",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sodium Carbonate",
+    "id": "sodium-carbonate",
+    "type": "Production Material",
+    "weight": "0.55kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$36",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/Sodium_Carbonate_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201310",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sodium Citrate",
+    "id": "sodium-citrate",
+    "type": "Production Material",
+    "weight": "0.55kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$45",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Sodium_Citrate_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201035",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sulfuric Acid",
+    "id": "sulfuric-acid",
+    "type": "Production Material",
+    "weight": "5.03kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$39",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Sulfuric_Acid_inspect.png/revision/latest?cb=20260403095547",
+    "numeric_values": {
+      "weight": {
+        "value": 5.03,
         "unit": "kg"
       }
     }

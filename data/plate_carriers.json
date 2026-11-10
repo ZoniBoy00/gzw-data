@@ -9,7 +9,7 @@
     "grid_size": "3x3",
     "weight": "9.600kg",
     "sold_by": "Looting",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Buran%27s_Pantsir_2.0_icon.png/revision/latest/scale-to-width-down/180?cb=20260520233024",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Buran%27s_Pantsir_2.0_icon.png/revision/latest?cb=20261109143939",
     "numeric_values": {
       "weight": {
         "value": 9.6,
@@ -194,17 +194,59 @@
   {
     "name": "M2 Plate Carrier",
     "id": "m2-plate-carrier",
-    "weight": "7.640 kg",
-    "sold_by": "Loot only",
-    "material": "Ceramic",
-    "nij_class": "III++",
-    "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/13/M2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421122928",
     "protection_rating": "R3",
+    "nij_class": "III++",
+    "material": "Ceramic",
+    "armor_locations": "Front, Back",
     "grid_size": "3x4",
+    "weight": "8.900 kg",
+    "sold_by": "Looting Tasks reward",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/4x3_Inventory.png/revision/latest?cb=20250608162448",
     "numeric_values": {
       "weight": {
-        "value": 7.64,
+        "value": 8.9,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "M2 Plate Carrier (EMR)",
+    "id": "m2-plate-carrier-emr",
+    "type": "Plate Carrier",
+    "weight": "7.7kg",
+    "grid_size": "3x4",
+    "sold_by": "Loot only",
+    "sell_price": "$975",
+    "slots": "12",
+    "material": "Ceramic",
+    "nij_class": "NIJ III+",
+    "armor_locations": "Front, Back",
+    "manufacturer": "ANA-Tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/M2_Plate_Carrier_%28EMR%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201624",
+    "numeric_values": {
+      "weight": {
+        "value": 7.7,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "M2 Plate Carrier (Olive Green)",
+    "id": "m2-plate-carrier-olive-green",
+    "type": "Plate Carrier",
+    "weight": "8.9kg",
+    "grid_size": "3x4",
+    "sold_by": "Loot only",
+    "sell_price": "$1,500",
+    "slots": "12",
+    "material": "Ceramic",
+    "nij_class": "NIJ III++",
+    "armor_locations": "Front, Back",
+    "manufacturer": "ANA-Tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/M2_Plate_Carrier_%28Olive_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201627",
+    "numeric_values": {
+      "weight": {
+        "value": 8.9,
         "unit": "kg"
       }
     }
@@ -363,7 +405,7 @@
     "nij_class": "III++",
     "armor_locations": "Front, Back, Sides",
     "manufacturer": "SSO",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Yen%27s_Pantsir_2.0_inspect.png/revision/latest?cb=20260501153731",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Yen%27s_Pantsir_2.0_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143947",
     "protection_rating": "R3",
     "numeric_values": {
       "weight": {

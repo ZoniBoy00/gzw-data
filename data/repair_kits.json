@@ -34,6 +34,8 @@
     "buy_price": "$450",
     "repair_efficiency": "+85 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/BFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151445",
+    "sell_price": "$135",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -56,6 +58,8 @@
     "buy_price": "$950",
     "repair_efficiency": "+85 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/AFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151947",
+    "sell_price": "$285",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 3.0,
@@ -78,6 +82,8 @@
     "buy_price": "$600",
     "repair_efficiency": "90 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/PFRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617151721",
+    "sell_price": "$1,110",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 6.5,

@@ -467,7 +467,7 @@
     "level": 1,
     "requirements": [
       {
-        "name": "Woods",
+        "name": "Wood",
         "quantity": 1
       },
       {
@@ -479,7 +479,7 @@
         "quantity": 1
       }
     ],
-    "requirements_text": "1 Woods, 1 Steel, 1 Toolset",
+    "requirements_text": "1 Wood, 1 Steel, 1 Toolset",
     "function": "+ 1 Mechanical Engineering"
   },
   {
@@ -695,7 +695,7 @@
     "level": 1,
     "requirements": [
       {
-        "name": "Woods",
+        "name": "Wood",
         "quantity": 1
       },
       {
@@ -715,7 +715,7 @@
         "quantity": 1
       }
     ],
-    "requirements_text": "1 Woods, 1 Steel, 1 Electrical Parts, 1 Signal Generator, 1 Soldering Iron",
+    "requirements_text": "1 Wood, 1 Steel, 1 Electrical Parts, 1 Signal Generator, 1 Soldering Iron",
     "function": "+ 1 Sensor and RF Processing"
   },
   {
@@ -865,7 +865,7 @@
     "level": 1,
     "requirements": [
       {
-        "name": "Woods",
+        "name": "Wood",
         "quantity": 1
       },
       {
@@ -873,7 +873,7 @@
         "quantity": 1
       }
     ],
-    "requirements_text": "1 Woods, 1 Mechanical Parts",
+    "requirements_text": "1 Wood, 1 Mechanical Parts",
     "function": "+ 2 Storage Capacity"
   },
   {

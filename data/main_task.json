@@ -142,7 +142,7 @@
     "location": "YBL-1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
     "briefing": "A hut containing mysterious research notes has been discovered. Search the area thoroughly for valuable intel that may clarify the purpose of the project. Focus on secured or locked sections and report your findings to Lab Rat.",
-    "objectives": "Locate the research papers Disconnect the air filtration system in YBL-1 Retrieve the air filter from YBL-1 and report back to Lab Rat Locate the air filter Locate the air filter Gather intel from the computers at YBL-1 Retrieve the data and report back to Lab Rat Acquire the data from the computer"
+    "objectives": "Locate the research papers Disconnect the air filtration system in YBL-1 Retrieve the air filter from YBL-1 and report back to Lab Rat Locate the air filter Locate the air filter Gather intel from the computers at YBL-1 Retrieve the data and report back to Lab Rat Acquire the data from the computer Acquire the data from the computer"
   },
   {
     "name": "Radio Silence",
@@ -179,6 +179,16 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
     "briefing": "Investigate the disappearance of a local man named Atsawin Xiong, last known to be living near Savanpha village east of Fort Narith. Track his movements, determine what happened to him, and report your findings to Lab Rat.",
     "objectives": "Search Savanpha village and uncover what happened to Atsawin Xiong Head to Fort Narith barracks and locate Atsawin Xiong's quarters Investigate the infirmary at Fort Narith and locate Atsawin Xiong Locate the medical records from Fort Narith infirmary and report to Lab Rat Retrieve the samples from Fort Narith infirmary and report back to Lab Rat Collect the samples from the soldiers affected by Ground Zero Collect the samples from the soldiers affected by Ground Zero"
+  },
+  {
+    "name": "Silent Night",
+    "id": "silent-night",
+    "vendor": "Gunny",
+    "task_type": "Main Task",
+    "location": "RLSL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "RLSL-1 has seen a significant increase in LAF personnel and supplies despite operating with only a skeleton crew for years. Head to the radio telescope facility, assess the garrison's capabilities, and find out why the LAF is so determined to protect it. Report your findings to Gunny.",
+    "objectives": "Investigate the supply situation at RLSL-1 Locate intel in the adjacent offices Investigate the garages Locate intel in the adjacent offices Investigate the garages Find out more about the RLSL-1 Garrison Investigate the makeshift infirmary and learn more about the attack Search the administrative parts of the barracks and learn more about the garrison's orders Investigate the makeshift infirmary and learn more about the attack Search the administrative parts of the barracks and learn more about the garrison's orders Search the commander's office in the HQ for intel Retrieve the commander's laptop and report back to Gunny Locate the commander's laptop Locate the commander's laptop"
   },
   {
     "name": "Skycrawlers",

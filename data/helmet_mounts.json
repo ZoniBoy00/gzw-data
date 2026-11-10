@@ -2,11 +2,14 @@
   {
     "name": "L4 G24 Helmet NVG Mount",
     "id": "l4-g24-helmet-nvg-mount",
-    "type": "Mount",
-    "weight": "0.160kg",
-    "sold_by": "Banshee R2",
+    "type": "Headwear",
+    "weight": "0.16kg",
+    "grid_size": "1x1",
+    "sold_by": "Banshee R.2",
+    "sell_price": "$198",
+    "buy_price": "$661",
     "manufacturer": "Wilcox Industries",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/G24_inspect.png/revision/latest/scale-to-width-down/268?cb=20250206022335",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5b/L4_G24_Helmet_NVG_Mount_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190607",
     "numeric_values": {
       "weight": {
         "value": 0.16,
@@ -32,11 +35,14 @@
   {
     "name": "Rhino Helmet NVG Mount",
     "id": "rhino-helmet-nvg-mount",
-    "type": "Mount",
+    "type": "Headwear",
     "weight": "0.159kg",
-    "sold_by": "Handshake Rank 1",
+    "grid_size": "1x1",
+    "sold_by": "Banshee R.2",
+    "sell_price": "$114",
+    "buy_price": "$382",
     "manufacturer": "Norotos",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/RhinoMount.png/revision/latest/scale-to-width-down/268?cb=20250207122803",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/Rhino_Helmet_NVG_Mount_inspect.png/revision/latest/scale-to-width-down/268?cb=20250207122803",
     "numeric_values": {
       "weight": {
         "value": 0.159,

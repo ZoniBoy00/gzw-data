@@ -1,0 +1,195 @@
+[
+  {
+    "name": "Balaclava (Black)",
+    "id": "balaclava-black",
+    "type": "Face Mask",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$2",
+    "buy_price": "$8",
+    "manufacturer": "Happyclothes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Balaclava_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203647",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Balaclava (Green)",
+    "id": "balaclava-green",
+    "type": "Face Mask",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$2",
+    "manufacturer": "Happyclothes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Balaclava_%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143927",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Breathable Balaclava (Camo)",
+    "id": "breathable-balaclava-camo",
+    "type": "Face Mask",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$3",
+    "manufacturer": "Vulkit",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/91/Breathable_Balaclava_%28Camo%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143925",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Face Mask (Hacker)",
+    "id": "face-mask-hacker",
+    "type": "Face Mask",
+    "weight": "0.015kg",
+    "grid_size": "1x1",
+    "sold_by": "Twitch drop",
+    "sell_price": "$2",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/Face_Mask_%28Hacker%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203601",
+    "numeric_values": {
+      "weight": {
+        "value": 0.015,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Half mask (Black)",
+    "id": "half-mask-black",
+    "type": "Face Mask",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$4",
+    "buy_price": "$16",
+    "manufacturer": "5ive Star Gear",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Half_mask_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203620",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Half mask (Green)",
+    "id": "half-mask-green",
+    "type": "Face Mask",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$1",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/Half_mask_%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143929",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Half mask (Multicam)",
+    "id": "half-mask-multicam",
+    "type": "Face Mask",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$4",
+    "buy_price": "$16",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Half_mask_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203622",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Half mask (Olive)",
+    "id": "half-mask-olive",
+    "type": "Face Mask",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$1",
+    "buy_price": "$5",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c8/Half_mask_%28Olive%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203626",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Half Mask (Skull)",
+    "id": "half-mask-skull",
+    "type": "Face Mask",
+    "weight": "0.03kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$4",
+    "manufacturer": "General East",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/Half_Mask_%28Skull%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203631",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Half Mask (Woodland)",
+    "id": "half-mask-woodland",
+    "type": "Face Mask",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$3",
+    "buy_price": "$12",
+    "manufacturer": "General East",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Half_Mask_%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203636",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Pandatac Sun Mask",
+    "id": "pandatac-sun-mask",
+    "type": "Face Mask",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$1",
+    "buy_price": "$5",
+    "manufacturer": "Pandatac",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/Pandatac_Sun_Mask_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203643",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  }
+]

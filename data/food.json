@@ -39,6 +39,7 @@
     "hydratation_per_charge": "+5",
     "manufacturer": "Lucky Panda",
     "sell_price": "$3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e7/Bamboo_Shoots_inspect.png/revision/latest?cb=20261104164139",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -63,6 +64,7 @@
     "manufacturer": "Berg",
     "sell_price": "$22",
     "buy_price": "$75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Berg_Bar_Cookie_Chocolate_inspect.png/revision/latest/scale-to-width-down/268?cb=20261104160346",
     "numeric_values": {
       "weight": {
         "value": 0.07,
@@ -89,6 +91,7 @@
     "hydratation_per_charge": "-10",
     "manufacturer": "Kraken",
     "sell_price": "$7",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Canned_Tuna_Chunks_icon.png/revision/latest?cb=20250610053427",
     "numeric_values": {
       "weight": {
         "value": 0.17,
@@ -111,6 +114,7 @@
     "manufacturer": "Combat Meal Star",
     "sell_price": "$21",
     "buy_price": "$70",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/16/Combat_Ration_Pack_inspect.png/revision/latest?cb=20261104160641",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -133,6 +137,7 @@
     "hydratation_per_charge": "+5",
     "manufacturer": "Cowboy",
     "sell_price": "$11",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/Cowboy_Baked_Beans_inspect.png/revision/latest?cb=20261104162845",
     "numeric_values": {
       "weight": {
         "value": 0.425,
@@ -157,6 +162,7 @@
     "manufacturer": "Power",
     "sell_price": "$6",
     "buy_price": "$21",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/Energy_Bar_Nuts_and_Fruits_inspect.png/revision/latest?cb=20261104164737",
     "numeric_values": {
       "weight": {
         "value": 0.04,
@@ -182,6 +188,7 @@
     "energy_per_charge": "+80",
     "manufacturer": "Combat Meal Star",
     "sell_price": "$22",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/HDR_Meal_icon.png/revision/latest?cb=20250610053132",
     "numeric_values": {
       "weight": {
         "value": 0.85,
@@ -203,6 +210,7 @@
     "energy_per_charge": "+13",
     "manufacturer": "Kasem",
     "sell_price": "$2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Kasem_Chocolate_Wafers_icon.png/revision/latest?cb=20250610042619",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -225,7 +233,7 @@
     "manufacturer": "Lucky",
     "sell_price": "$8",
     "buy_price": "$29",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Lucky_Pork_Liver_P%C3%A2t%C3%A9_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502143331",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Lucky_Pork_Liver_P%C3%A2t%C3%A9_inspect.png/revision/latest?cb=20261104160307",
     "numeric_values": {
       "weight": {
         "value": 0.13,
@@ -248,6 +256,7 @@
     "hydratation_per_charge": "+10",
     "manufacturer": "Topo",
     "sell_price": "$9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Lychee_in_Syrup_icon.png/revision/latest?cb=20250610053931",
     "numeric_values": {
       "weight": {
         "value": 0.565,
@@ -270,6 +279,7 @@
     "hydratation_per_charge": "-10",
     "manufacturer": "ThaLao",
     "sell_price": "$14",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Mackerel_in_Teriyaki_Sauce_inspect.png/revision/latest/scale-to-width-down/268?cb=20261104163958",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -292,6 +302,7 @@
     "manufacturer": "Clearspring",
     "sell_price": "$5",
     "buy_price": "$17",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Organic_Tofu_inspect.png/revision/latest?cb=20261104163642",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -314,6 +325,7 @@
     "manufacturer": "ThaLao",
     "sell_price": "$19",
     "buy_price": "$64",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/Premium_Pork_Luncheon_Meat_inspect.png/revision/latest?cb=20261104163842",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -336,6 +348,7 @@
     "manufacturer": "Sinngua",
     "sell_price": "$15",
     "buy_price": "$52",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Sinngua_Lunch_Meat_inspect.png/revision/latest?cb=20261104162126",
     "numeric_values": {
       "weight": {
         "value": 0.34,
@@ -358,6 +371,7 @@
     "manufacturer": "Snip Snap",
     "sell_price": "$2",
     "buy_price": "$7",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b2/SnipSnap_Crunchy_inspect.png/revision/latest/scale-to-width-down/268?cb=20261104164409",
     "numeric_values": {
       "weight": {
         "value": 0.038,
@@ -405,6 +419,7 @@
     "manufacturer": "TamTam",
     "sell_price": "$10",
     "buy_price": "$35",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/TamTam_DoubleChoc_inspect.png/revision/latest?cb=20261104165108",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -433,6 +448,7 @@
     "manufacturer": "Windmill",
     "sell_price": "$11",
     "buy_price": "$38",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Windmill_Almond_Chocolate_Bar_inspect.png/revision/latest/scale-to-width-down/268?cb=20261104165438",
     "numeric_values": {
       "weight": {
         "value": 0.04,

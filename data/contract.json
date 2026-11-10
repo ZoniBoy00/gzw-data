@@ -110,7 +110,7 @@
     "name": "Controlled Delivery",
     "id": "controlled-delivery",
     "vendor": "Banshee",
-    "location": "Blue Lagoon Region",
+    "location": "Blue Lagoon",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
     "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
     "objectives": "Plant a GPS Tracker on a drug shipment"
@@ -123,6 +123,25 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
     "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
     "objectives": "Plant a GPS Tracker on a drug shipment"
+  },
+  {
+    "name": "Controlled Delivery V",
+    "id": "controlled-delivery-v",
+    "vendor": "Banshee",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
+    "objectives": "Plant a GPS Tracker on a drug shipment"
+  },
+  {
+    "name": "Controlled Delivery VIII",
+    "id": "controlled-delivery-viii",
+    "vendor": "Banshee",
+    "task_type": "Contract",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
+    "objectives": "Plant a GPS Tracker on a drug shipment on the ground floor"
   },
   {
     "name": "Deep Waters",

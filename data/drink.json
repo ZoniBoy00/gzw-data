@@ -10,6 +10,7 @@
     "use_time": "3s",
     "manufacturer": "Aques",
     "sell_price": "$16",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Aques_Water_1.5_l_inspect.png/revision/latest?cb=20261104171327",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -30,6 +31,7 @@
     "manufacturer": "Coco Jumbo",
     "sell_price": "$2",
     "buy_price": "$7",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/Coco_Jumbo_Coconut_Juice_Drink_inspect.png/revision/latest?cb=20261104163419",
     "numeric_values": {
       "weight": {
         "value": 0.24,
@@ -53,6 +55,7 @@
     "manufacturer": "Dark Star",
     "sell_price": "$6",
     "buy_price": "$22",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Dark_Star_Iced_Coffee_inspect.png/revision/latest?cb=20261104161902",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -80,6 +83,7 @@
     "manufacturer": "GRAY",
     "sell_price": "$21",
     "buy_price": "$70",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Gray_Focused_Energy_inspect.png/revision/latest?cb=20261104162416",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -104,6 +108,7 @@
     "hydratation_per_charge": "+40",
     "manufacturer": "Infinity",
     "sell_price": "$4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/Infinity_Isotonic_Drink_inspect.png/revision/latest?cb=20261104161613",
     "numeric_values": {
       "weight": {
         "value": 0.33,
@@ -124,6 +129,7 @@
     "hydratation_per_charge": "+35",
     "manufacturer": "Kaipo",
     "sell_price": "$3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/Kaipo_Lychee_Nectar_inspect.png/revision/latest?cb=20261105224709",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -142,6 +148,7 @@
     "use_time": "3s",
     "manufacturer": "Maknav",
     "sell_price": "$11",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/Maknav_Iced_Tea_inspect.png/revision/latest?cb=20261104171247",
     "numeric_values": {
       "weight": {
         "value": 0.95,
@@ -161,6 +168,7 @@
     "manufacturer": "Noakon",
     "sell_price": "$6",
     "buy_price": "$20",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Noakon_Water_0.6_l_inspect.png/revision/latest?cb=20261104161445",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -180,6 +188,7 @@
     "manufacturer": "NuKlear",
     "sell_price": "$10",
     "buy_price": "$35",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/Noakon_Water_1.5_l_inspect.png/revision/latest?cb=20261104161252",
     "numeric_values": {
       "weight": {
         "value": 0.55,
@@ -199,6 +208,7 @@
     "manufacturer": "NuKlear",
     "sell_price": "$10",
     "buy_price": "$35",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/NuKlear_Energy_Meltdown_Mango_inspect.png/revision/latest?cb=20261104162541",
     "numeric_values": {
       "weight": {
         "value": 0.55,
@@ -222,7 +232,7 @@
     "manufacturer": "Power",
     "sell_price": "$13",
     "buy_price": "$45",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/Power_Energy_Fuel_inspect.png/revision/latest?cb=20250708220621",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/Power_Energy_Fuel_inspect.png/revision/latest?cb=20261104162959",
     "numeric_values": {
       "weight": {
         "value": 0.47,
@@ -245,7 +255,7 @@
     "use_time": "3s",
     "manufacturer": "Riminda",
     "sell_price": "$28",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Riminda_Green_Bubbly_Bliss_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603022056",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Riminda_Green_Bubbly_Bliss_inspect.png/revision/latest?cb=20261104160800",
     "numeric_values": {
       "weight": {
         "value": 2.08,
@@ -267,6 +277,7 @@
     "manufacturer": "Sunrise",
     "sell_price": "$3",
     "buy_price": "$13",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Sunrise_Cola_inspect.png/revision/latest?cb=20261104160950",
     "numeric_values": {
       "weight": {
         "value": 0.38,
@@ -306,6 +317,7 @@
     "hydratation_per_charge": "+33",
     "manufacturer": "Touchdown",
     "sell_price": "$3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/75/Touchdown_Lemon_Soda_icon.png/revision/latest?cb=20250502155224",
     "numeric_values": {
       "weight": {
         "value": 0.38,
@@ -325,6 +337,7 @@
     "manufacturer": "White Orchid",
     "sell_price": "$24",
     "buy_price": "$80",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/White_Orchid_Crystal_Water_2_l_inspect.png/revision/latest?cb=20261104161114",
     "numeric_values": {
       "weight": {
         "value": 2.04,

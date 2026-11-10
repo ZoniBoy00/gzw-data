@@ -259,7 +259,8 @@
     "name": "Interrogation Transcript (It's Like Cutting)",
     "id": "interrogation-transcript-its-like-cutting",
     "weight": "???kg",
-    "grid_size": "???"
+    "grid_size": "???",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Interrogation_Transcript_icon.png/revision/latest/scale-to-width-down/48?cb=20251009002430"
   },
   {
     "name": "LAF Documents",

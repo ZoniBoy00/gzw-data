@@ -3,696 +3,850 @@
     "name": "Activated Charcoal",
     "id": "activated-charcoal",
     "type": "Pill",
-    "weight": "0.15 kg",
-    "sold_by": "Lab Rat LL1",
+    "weight": "0.15kg",
+    "sold_by": "Lab Rat R.1",
     "grid_size": "1x1",
     "charges": "5",
-    "effect": "Intoxication: -10",
-    "manufacturer": "S.R. Hawkin",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Charcoal_inspect.png/revision/latest?cb=20250502211847",
+    "use_time": "5s",
+    "duration": "10s",
+    "intoxication": "-10",
+    "manufacturer": "S.R. Hawkins",
     "sell_price": "$5",
-    "sell_price_source": "gzwitems.com",
-    "weight_source": "game-files",
+    "buy_price": "$18",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/Activated_Charcoal_inspect.png/revision/latest?cb=20250502211847",
     "numeric_values": {
       "weight": {
         "value": 0.15,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "intoxication: -10; duration: 10s",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Advanced Flexible Splint",
     "id": "advanced-flexible-splint",
     "type": "Splint",
-    "weight": "0.130kg",
+    "weight": "0.13kg",
     "sold_by": "Lab Rat R.4",
     "grid_size": "1x1",
     "charges": "6",
-    "effect": "Removes Fracture",
-    "use_time": "8 s",
+    "use_time": "10s",
+    "compatibles_body_parts": "Arms Legs",
+    "effects": "Treats All Bones in One Body Part",
     "manufacturer": "Henderson",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/AdvFlexSplint.png/revision/latest?cb=20260408101540",
     "sell_price": "$17",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$58",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/Advanced_Flexible_Splint_inspect.png/revision/latest?cb=20261105151301",
     "numeric_values": {
       "weight": {
         "value": 0.13,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Treats All Bones in One Body Part",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "ARF Trauma Bandage 4",
     "id": "arf-trauma-bandage-4",
     "type": "Bandage",
-    "weight": "0.070kg",
+    "weight": "0.07kg",
     "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
     "charges": "3",
-    "effect": "Heals wounds",
+    "use_time": "8s",
+    "body_parts_healed_per_use": "2",
+    "compatibles_body_parts": "All",
+    "effects": "Treats Light Injury in Multiple Body Parts",
     "manufacturer": "Henderson",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Bandage_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502181823",
     "sell_price": "$9",
-    "sell_price_source": "gzwitems.com",
-    "sold_by_source": "game-files",
+    "buy_price": "$31",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/ARF_Trauma_Bandage_4_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105152549",
     "numeric_values": {
       "weight": {
         "value": 0.07,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Treats Light Injury in Multiple Body Parts",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Basic Surgical & Suture Kit",
     "id": "basic-surgical-&-suture-kit",
     "type": "Surgery Kit",
-    "weight": "0.600kg",
-    "sold_by": "Lab Rat",
-    "grid_size": "1x2",
+    "weight": "0.6kg",
+    "sold_by": "Lab Rat R.4",
+    "grid_size": "2x1",
     "charges": "5",
-    "use_time": "20s",
+    "use_time": "16s",
+    "compatibles_body_parts": "All",
+    "effects": "Treats All Injuries in One Body Part",
     "manufacturer": "US Army",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/SurKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501082435",
     "sell_price": "$195",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$650",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/Basic_Surgical_%26_Suture_Kit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151304",
     "numeric_values": {
       "weight": {
         "value": 0.6,
         "unit": "kg"
       }
-    }
+    },
+    "sell_price_source": "gzwitems.com",
+    "effect": "effects: Treats All Injuries in One Body Part"
   },
   {
     "name": "Civilian Flexible Splint",
     "id": "civilian-flexible-splint",
     "type": "Splint",
-    "weight": "0.150kg",
+    "weight": "0.15kg",
     "sold_by": "Lab Rat R.1",
     "grid_size": "1x1",
     "charges": "2",
-    "effect": "Removes Limping effect",
+    "use_time": "13s",
+    "compatibles_body_parts": "Arms Legs",
+    "effects": "Treats All Bones in One Body Part",
     "manufacturer": "Narithcare",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/CivilianSplint_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211703",
     "sell_price": "$4",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$16",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Civilian_Flexible_Splint_inspect.png/revision/latest?cb=20261105151311",
     "numeric_values": {
       "weight": {
         "value": 0.15,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Treats All Bones in One Body Part",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Civilian Gauze",
     "id": "civilian-gauze",
     "type": "Bandage",
-    "weight": "0.03 kg",
+    "weight": "0.03kg",
+    "sold_by": "Lab Rat R.1",
     "grid_size": "1x1",
     "charges": "2",
-    "effect": "Heals wounds",
+    "use_time": "10s",
+    "body_parts_healed_per_use": "2",
+    "compatibles_body_parts": "All",
+    "effects": "Treats Light Injury in Multiple Body Parts",
     "manufacturer": "Narithcare",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Gauze_inspect.png/revision/latest/scale-to-width-down/268?cb=20250504074656",
     "sell_price": "$2",
-    "sell_price_source": "gzwitems.com",
-    "weight_source": "game-files",
+    "buy_price": "$9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Civilian_Gauze_inspect.png/revision/latest/scale-to-width-down/268?cb=20250504074656",
     "numeric_values": {
       "weight": {
         "value": 0.03,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Treats Light Injury in Multiple Body Parts",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Combat Tourniquet",
     "id": "combat-tourniquet",
     "type": "Tourniquet",
-    "weight": "0.090kg",
-    "sold_by": "Lab Rat",
+    "weight": "0.09kg",
+    "sold_by": "Lab Rat R.3",
     "grid_size": "1x1",
-    "charges": "4",
-    "effect": "Stops heavy bleeding.",
+    "charges": "3",
+    "use_time": "4s",
+    "compatibles_body_parts": "All",
+    "effects": "Stops All Bleeding",
     "manufacturer": "Henderson",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/CT_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501090154",
     "sell_price": "$24",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$82",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Combat_Tourniquet_inspect.png/revision/latest?cb=20261104183453",
     "numeric_values": {
       "weight": {
         "value": 0.09,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Stops All Bleeding",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "DT-0X",
     "id": "dt-0x",
     "type": "Stimulator",
-    "weight": "0.100kg",
-    "sold_by": "Lab Rat R.4",
+    "weight": "0.1kg",
+    "sold_by": "Loot only Crafting",
     "grid_size": "1x1",
-    "charges": "1",
-    "effect": "Removes up to 100% of intoxication Increase Hydration Drain Increase Liver Damange",
-    "use_time": "3 seconds",
-    "duration": "90 seconds",
+    "use_time": "3s",
+    "duration": "90s",
+    "effects": "Increased Hydration Drain",
+    "intoxication": "-100",
+    "livers": "-15 %",
+    "hydratation_per_charge": "-25",
     "manufacturer": "General Local",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/DT-0X_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428085209",
+    "sell_price": "$180",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/DT-0X_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105152506",
     "numeric_values": {
       "weight": {
         "value": 0.1,
         "unit": "kg"
+      },
+      "livers": {
+        "value": -15.0,
+        "unit": "%"
       }
-    }
+    },
+    "charges": "1",
+    "effect": "effects: Increased Hydration Drain; intoxication: -100; livers: -15 %; hydratation_per_charge: -25; duration: 90s"
   },
   {
     "name": "Emergency Suture Kit",
     "id": "emergency-suture-kit",
     "type": "Surgery Kit",
-    "weight": "0.200kg",
-    "sold_by": "Lab Rat",
-    "grid_size": "1x2",
+    "weight": "0.2kg",
+    "sold_by": "Lab Rat R.2",
+    "grid_size": "2x1",
     "charges": "2",
-    "use_time": "20s",
+    "use_time": "18s",
+    "compatibles_body_parts": "All",
+    "effects": "Treats All Injuries in One Body Part",
     "manufacturer": "Henderson",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/EKit_inspect.png/revision/latest?cb=20260404064048",
     "sell_price": "$54",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$180",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Emergency_Suture_Kit_inspect.png/revision/latest?cb=20261105151214",
     "numeric_values": {
       "weight": {
         "value": 0.2,
         "unit": "kg"
       }
-    }
+    },
+    "sell_price_source": "gzwitems.com",
+    "effect": "effects: Treats All Injuries in One Body Part"
   },
   {
     "name": "EPO",
     "id": "epo",
     "type": "Stimulator",
-    "weight": "0.100kg",
-    "sold_by": "Lab Rat R.3",
+    "weight": "0.1kg",
+    "sold_by": "Loot only Crafting",
     "grid_size": "1x1",
-    "charges": "1",
-    "effect": "Increase Blood Regeneration Increase intoxication Increase hydration drain Increase energy drain",
-    "use_time": "3 seconds",
-    "duration": "3 minutes",
+    "use_time": "3s",
+    "duration": "180s",
+    "effects": "Blood Regeneration Increased Hydration Drain",
+    "intoxication": "+15",
+    "livers": "-4 %",
+    "hydratation_per_charge": "-50",
     "manufacturer": "Parasol Corp",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428091737",
+    "sell_price": "$219",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105152516",
     "numeric_values": {
       "weight": {
         "value": 0.1,
         "unit": "kg"
+      },
+      "livers": {
+        "value": -4.0,
+        "unit": "%"
       }
-    }
-  },
-  {
-    "name": "EPO V2",
-    "id": "epo-v2",
-    "type": "Stimulator",
-    "weight": "0.100kg",
-    "sold_by": "Lab Rat R.??",
-    "grid_size": "1x1",
+    },
     "charges": "1",
-    "effect": "Increases Blood Regeneration Increase intoxication Increase hydration drain Increase energy drain",
-    "duration": "3 min",
-    "manufacturer": "Parasol Corp",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428091737",
-    "numeric_values": {
-      "weight": {
-        "value": 0.1,
-        "unit": "kg"
-      }
-    }
+    "effect": "effects: Blood Regeneration Increased Hydration Drain; intoxication: +15; livers: -4 %; hydratation_per_charge: -50; duration: 180s"
   },
   {
     "name": "Fenethylline",
     "id": "fenethylline",
     "type": "Stimulator",
-    "weight": "0.15 kg",
-    "sold_by": "Looting",
+    "weight": "0.15kg",
+    "sold_by": "Loot only Crafting",
     "grid_size": "1x1",
     "charges": "4",
-    "effect": "Increases Stamina Regeneration",
-    "duration": "3 min",
+    "use_time": "5s",
+    "duration": "180s",
+    "effects": "Stamina Regeneration Increased Hydration Drain",
+    "intoxication": "+3",
+    "hydratation_per_charge": "-10",
     "manufacturer": "General Local",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Fenethyl_inspect.png/revision/latest?cb=20250621182751",
     "sell_price": "$29",
-    "sell_price_source": "gzwitems.com",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Fenethylline_icon.png/revision/latest?cb=20250621155323",
     "numeric_values": {
       "weight": {
         "value": 0.15,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Stamina Regeneration Increased Hydration Drain; intoxication: +3; hydratation_per_charge: -10; duration: 180s",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Flexible Splint",
     "id": "flexible-splint",
     "type": "Splint",
-    "weight": "0.130kg",
+    "weight": "0.13kg",
     "sold_by": "Lab Rat R.3",
     "grid_size": "1x1",
     "charges": "4",
-    "effect": "Removes Fracture",
+    "use_time": "10s",
+    "compatibles_body_parts": "Arms Legs",
+    "effects": "Treats All Bones in One Body Part",
     "manufacturer": "Henderson",
     "sell_price": "$10",
-    "sell_price_source": "gzwitems.com",
-    "sold_by_source": "game-files",
+    "buy_price": "$36",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Flexible_Splint_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151217",
     "numeric_values": {
       "weight": {
         "value": 0.13,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Treats All Bones in One Body Part",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "HpR 3-S",
     "id": "hpr-3-s",
     "type": "Stimulator",
-    "weight": "0.100kg",
-    "sold_by": "Lab Rat R.3",
+    "weight": "0.1kg",
+    "sold_by": "Loot only",
     "grid_size": "1x1",
-    "charges": "1",
-    "effect": "Regenerates up to 50% of organs Increase intoxication Gives pain",
-    "use_time": "3 seconds",
-    "duration": "4 minutes",
+    "use_time": "3s",
+    "duration": "240s",
+    "effects": "Organ Regeneration",
+    "intoxication": "+20",
+    "pain": "+20",
+    "organs": "+50 %",
     "manufacturer": "Parasol Corp",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/HpR_3-S_inspect.png/revision/latest/scale-to-width-down/267?cb=20260428090404",
     "sell_price": "$285",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/HpR_3-S_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105152529",
     "numeric_values": {
       "weight": {
         "value": 0.1,
         "unit": "kg"
+      },
+      "organs": {
+        "value": 50.0,
+        "unit": "%"
       }
-    }
-  },
-  {
-    "name": "HpR 3-S V2",
-    "id": "hpr-3-s-v2",
-    "type": "Stimulator",
-    "weight": "0.100kg",
-    "sold_by": "Lab Rat R.??",
-    "grid_size": "1x1",
+    },
     "charges": "1",
-    "effect": "Regenerates up to 50% of organs Increase intoxication Gives pain",
-    "duration": "5 min",
-    "manufacturer": "Parasol Corp",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/HpR_3-S_V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260427014740",
-    "numeric_values": {
-      "weight": {
-        "value": 0.1,
-        "unit": "kg"
-      }
-    }
+    "effect": "effects: Organ Regeneration; intoxication: +20; pain: +20; organs: +50 %; duration: 240s",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Ibalin",
     "id": "ibalin",
     "type": "Pill",
-    "weight": "0.050kg",
-    "sold_by": "Lab Rat",
+    "weight": "0.05kg",
+    "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
     "charges": "2",
-    "effect": "150s Duration: Efficiency: +33%",
+    "use_time": "6s",
+    "duration": "300s",
+    "pain": "-50",
     "manufacturer": "Narithcare",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Ibalin_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210313",
     "sell_price": "$2",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$8",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Ibalin_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210313",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "pain: -50; duration: 300s",
+    "sell_price_source": "gzwitems.com"
   },
   {
-    "name": "Large Blood Bag",
-    "id": "large-blood-bag",
-    "type": "IV",
-    "weight": "2.1 kg",
-    "sold_by": "Lab Rat",
-    "grid_size": "1x2",
-    "charges": "3",
-    "effect": "+500 ml of blood per charge",
-    "use_time": "12",
-    "manufacturer": "MedCare",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/LargeBloodBag.png/revision/latest/scale-to-width-down/268?cb=20250501081851",
-    "sell_price": "$294",
-    "sell_price_source": "gzwitems.com",
-    "weight_source": "game-files",
-    "numeric_values": {
-      "weight": {
-        "value": 2.1,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Large Hemostatic Syringe",
-    "id": "large-hemostatic-syringe",
-    "type": "Syringe",
-    "weight": "0.150kg",
-    "sold_by": "Lab Rat",
+    "name": "Ibalin Bottle",
+    "id": "ibalin-bottle",
+    "type": "Pill",
+    "weight": "0.15kg",
+    "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
-    "charges": "6",
-    "effect": "Stops heavy bleeding.",
-    "use_time": "2",
-    "manufacturer": "Rev Med X",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/LHem_inspect.png/revision/latest?cb=20260421080856",
-    "sell_price": "$63",
-    "sell_price_source": "gzwitems.com",
+    "charges": "5",
+    "use_time": "5s",
+    "duration": "300s",
+    "pain": "-50",
+    "manufacturer": "Narithcare",
+    "sell_price": "$7",
+    "buy_price": "$24",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/Ibalin_Bottle_inspect.png/revision/latest?cb=20261105151246",
     "numeric_values": {
       "weight": {
         "value": 0.15,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "pain: -50; duration: 300s"
+  },
+  {
+    "name": "Large Blood Bag",
+    "id": "large-blood-bag",
+    "type": "IV",
+    "weight": "2.1kg",
+    "sold_by": "Lab Rat R.4",
+    "grid_size": "2x1",
+    "use_time": "5s",
+    "blood": "2,500",
+    "manufacturer": "MedCare",
+    "sell_price": "$294",
+    "buy_price": "$980",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Large_Blood_Bag_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151333",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      }
+    },
+    "charges": "3",
+    "effect": "blood: 2,500",
+    "sell_price_source": "gzwitems.com"
+  },
+  {
+    "name": "Large Hemostatic Syringe",
+    "id": "large-hemostatic-syringe",
+    "type": "Syringe",
+    "weight": "0.15kg",
+    "sold_by": "Lab Rat R.4",
+    "grid_size": "1x1",
+    "charges": "4",
+    "use_time": "2s",
+    "compatibles_body_parts": "All",
+    "effects": "Stops All Bleeding",
+    "manufacturer": "Rev Med X",
+    "sell_price": "$63",
+    "buy_price": "$210",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c0/Large_Hemostatic_Syringe_inspect.png/revision/latest?cb=20261105151220",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    },
+    "effect": "effects: Stops All Bleeding",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "M.F.A.T. Tourniquet",
     "id": "m.f.a.t.-tourniquet",
     "type": "Tourniquet",
-    "weight": "0.080kg",
+    "weight": "0.08kg",
     "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
-    "charges": "2",
-    "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
+    "charges": "3",
+    "use_time": "4s",
+    "compatibles_body_parts": "All",
+    "effects": "Stops All Bleeding",
     "manufacturer": "Pressing Medical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/MFAT_inspect.png/revision/latest?cb=20250502211227",
     "sell_price": "$19",
-    "sell_price_source": "gzwitems.com",
-    "sold_by_source": "game-files",
+    "buy_price": "$65",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/M.F.A.T._Tourniquet_inspect.png/revision/latest?cb=20261105151225",
     "numeric_values": {
       "weight": {
         "value": 0.08,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Stops All Bleeding",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Medical",
     "id": "medical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/RT_icon.png/revision/latest?cb=20250621192635"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/ARF_Trauma_Bandage_4_icon.png/revision/latest?cb=20261105152546"
   },
   {
     "name": "Medium Blood Bag",
     "id": "medium-blood-bag",
     "type": "IV",
-    "weight": "1.600kg",
-    "sold_by": "Lab Rat",
-    "grid_size": "1x2",
-    "charges": "2",
-    "effect": "+750ml of blood per charge",
-    "use_time": "12s",
+    "weight": "1.6kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "2x1",
+    "use_time": "5s",
+    "blood": "1,500",
     "manufacturer": "MedCare",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Screenshot_2026-04-03_235410.png/revision/latest/scale-to-width-down/268?cb=20260404065601",
     "sell_price": "$225",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$750",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Medium_Blood_Bag_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151256",
     "numeric_values": {
       "weight": {
         "value": 1.6,
         "unit": "kg"
       }
-    }
+    },
+    "charges": "2",
+    "effect": "blood: 1,500",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Meloxicam",
     "id": "meloxicam",
     "type": "Pill",
-    "weight": "0.050kg",
-    "sold_by": "Lab Rat LL1",
+    "weight": "0.05kg",
+    "sold_by": "Lab Rat R.3",
     "grid_size": "1x1",
     "charges": "2",
-    "effect": "300s Duration: Remove pain effects",
+    "use_time": "6s",
+    "duration": "300s",
+    "pain": "-66",
     "manufacturer": "Jeremiah Pharmaceutical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Melox_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211523",
     "sell_price": "$4",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$16",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Meloxicam_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151244",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "pain: -66; duration: 300s",
+    "sell_price_source": "gzwitems.com"
+  },
+  {
+    "name": "Meloxicam Bottle",
+    "id": "meloxicam-bottle",
+    "type": "Pill",
+    "weight": "0.15kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "1x1",
+    "charges": "5",
+    "use_time": "5s",
+    "duration": "300s",
+    "pain": "-66",
+    "manufacturer": "Jeremiah Pharmaceutical",
+    "sell_price": "$14",
+    "buy_price": "$48",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Meloxicam_Bottle_inspect.png/revision/latest?cb=20261105151249",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    },
+    "effect": "pain: -66; duration: 300s"
   },
   {
     "name": "Methylphenidate",
     "id": "methylphenidate",
     "type": "Stimulator",
-    "weight": "0.050kg",
-    "sold_by": "Lab Rat R.3",
+    "weight": "0.05kg",
+    "sold_by": "Loot only Crafting",
     "grid_size": "1x1",
     "charges": "2",
-    "effect": "Increases Stamina Regeneration Increase hydration drain",
-    "duration": "5 min",
+    "use_time": "6s",
+    "duration": "300s",
+    "effects": "Suppression Resistance Depleted Body Stamina",
+    "intoxication": "+15",
+    "livers": "-5 %",
     "manufacturer": "Narithcare",
+    "sell_price": "$63",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6e/Methylphenidate_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105153841",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
+      },
+      "livers": {
+        "value": -5.0,
+        "unit": "%"
       }
-    }
+    },
+    "effect": "effects: Suppression Resistance Depleted Body Stamina; intoxication: +15; livers: -5 %; duration: 300s"
   },
   {
     "name": "Morphine",
     "id": "morphine",
-    "type": "Painkiller (Autoinjector)",
-    "weight": "0.100kg",
-    "sold_by": "Lab Rat R.4",
+    "type": "Stimulator",
+    "weight": "0.1kg",
+    "sold_by": "Loot only",
     "grid_size": "1x1",
-    "charges": "1",
-    "effect": "Completely suppresses pain Completely suppresses tremors and limping Increase intoxication Increase Liver Damage",
-    "use_time": "3 seconds",
-    "duration": "4 minutes",
-    "manufacturer": "Parasol Corp",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Morphine_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428092328",
+    "use_time": "3s",
+    "duration": "240s",
+    "effects": "Limping Tremors",
+    "intoxication": "+15",
+    "pain": "-100",
+    "livers": "-5 %",
+    "manufacturer": "General Local",
     "sell_price": "$135",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Morphine_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105152540",
     "numeric_values": {
       "weight": {
         "value": 0.1,
         "unit": "kg"
+      },
+      "livers": {
+        "value": -5.0,
+        "unit": "%"
       }
-    }
+    },
+    "charges": "1",
+    "effect": "effects: Limping Tremors; intoxication: +15; pain: -100; livers: -5 %; duration: 240s",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Moxifloxacin",
     "id": "moxifloxacin",
     "type": "Pill",
-    "weight": "0.050kg",
-    "sold_by": "Lab Rat LL2",
+    "weight": "0.05kg",
+    "sold_by": "Lab Rat R.3",
     "grid_size": "1x1",
     "charges": "4",
-    "effect": "Intoxication: -25",
-    "manufacturer": "MWunder Pharmaceutical",
+    "use_time": "6s",
+    "duration": "25s",
+    "intoxication": "-25",
+    "manufacturer": "Wunder Pharmaceutical",
     "sell_price": "$37",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$125",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Moxifloxacin_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151241",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "intoxication: -25; duration: 25s",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "ORI-12",
     "id": "ori-12",
     "type": "Stimulator",
-    "weight": "0.100kg",
-    "sold_by": "Lab Rat R.3",
+    "weight": "0.1kg",
+    "sold_by": "Loot only",
     "grid_size": "1x1",
-    "charges": "1",
-    "effect": "Regenerate up to 50% of all bones Increase intoxication Gives pain",
-    "use_time": "3 seconds",
-    "duration": "4 minutes",
+    "use_time": "3s",
+    "duration": "240s",
+    "effects": "Bone Regeneration",
+    "intoxication": "+12",
+    "pain": "+20",
     "manufacturer": "Parasol Corp",
+    "sell_price": "$255",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/ORI-12_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428091006",
     "numeric_values": {
       "weight": {
         "value": 0.1,
         "unit": "kg"
       }
-    }
-  },
-  {
-    "name": "ORI-12 V2",
-    "id": "ori-12-v2",
-    "type": "Stimulator",
-    "weight": "0.080kg",
-    "sold_by": "Lab Rat R.??",
-    "grid_size": "1x1",
+    },
     "charges": "1",
-    "effect": "Regenerate up to 65% of all bones Increase intoxication Gives pain",
-    "duration": "5 Minute",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/ORI-12V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260427014950",
-    "numeric_values": {
-      "weight": {
-        "value": 0.08,
-        "unit": "kg"
-      }
-    }
+    "effect": "effects: Bone Regeneration; intoxication: +12; pain: +20; duration: 240s"
   },
   {
     "name": "Paracetamol",
     "id": "paracetamol",
     "type": "Pill",
-    "weight": "0.050kg",
+    "weight": "0.05kg",
     "sold_by": "Lab Rat R.1",
     "grid_size": "1x1",
     "charges": "2",
-    "effect": "Removes Pain",
-    "duration": "300s",
+    "use_time": "6s",
+    "duration": "150s",
+    "pain": "-33",
     "manufacturer": "Fernsby's Healthcare",
     "sell_price": "$1",
-    "sell_price_source": "gzwitems.com",
-    "sold_by_source": "game-files",
+    "buy_price": "$5",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ab/Paracetamol_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151228",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "pain: -33; duration: 150s",
+    "sell_price_source": "gzwitems.com"
+  },
+  {
+    "name": "Paracetamol Bottle",
+    "id": "paracetamol-bottle",
+    "type": "Pill",
+    "weight": "0.15kg",
+    "sold_by": "Lab Rat R.1",
+    "grid_size": "1x1",
+    "charges": "5",
+    "use_time": "5s",
+    "duration": "150s",
+    "pain": "-33",
+    "manufacturer": "Fernsby's Healthcare",
+    "sell_price": "$4",
+    "buy_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/Paracetamol_Bottle_inspect.png/revision/latest?cb=20261105151512",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      }
+    },
+    "effect": "pain: -33; duration: 150s"
   },
   {
     "name": "Potassium Iodide",
     "id": "potassium-iodide",
     "type": "Pill",
-    "weight": "0.050kg",
+    "weight": "0.05kg",
     "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
     "charges": "2",
-    "effect": "Radiation: -4",
+    "use_time": "6s",
+    "duration": "60s",
+    "radiations": "-4",
     "manufacturer": "S.R. Hawkins",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Ki_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210111",
     "sell_price": "$36",
-    "sell_price_source": "gzwitems.com",
-    "sold_by_source": "game-files",
+    "buy_price": "$120",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/Potassium_Iodide_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151251",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "radiations: -4; duration: 60s",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Retractable Tourniquet",
     "id": "retractable-tourniquet",
-    "type": "Bleeding",
-    "weight": "0.08 kg",
+    "type": "Tourniquet",
+    "weight": "0.08kg",
+    "sold_by": "Lab Rat R.1",
     "grid_size": "1x1",
     "charges": "1",
-    "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
+    "use_time": "5s",
+    "compatibles_body_parts": "All",
+    "effects": "Stops All Bleeding",
     "manufacturer": "Narithcare",
     "sell_price": "$7",
-    "sell_price_source": "gzwitems.com",
-    "weight_source": "game-files",
+    "buy_price": "$25",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/Retractable_Tourniquet_inspect.png/revision/latest?cb=20261105151231",
     "numeric_values": {
       "weight": {
         "value": 0.08,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Stops All Bleeding",
+    "sell_price_source": "gzwitems.com"
   },
   {
-    "name": "Seal modular bandage",
+    "name": "SEAL Modular Bandage",
     "id": "seal-modular-bandage",
-    "type": "Wound Care",
-    "weight": "0.090kg",
-    "sold_by": "Lab Rat LL4",
+    "type": "Bandage",
+    "weight": "0.09kg",
+    "sold_by": "Lab Rat R.4",
     "grid_size": "1x1",
-    "charges": "6",
-    "effect": "Heals 4 Wounds per Charge",
-    "use_time": "3 seconds",
+    "charges": "4",
+    "use_time": "6s",
+    "body_parts_healed_per_use": "3",
+    "compatibles_body_parts": "All",
+    "effects": "Treats Light Injury in Multiple Body Parts",
     "manufacturer": "SEAL Medical",
     "sell_price": "$16",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$55",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/af/SEAL_Modular_Bandage_inspect.png/revision/latest?cb=20261105152555",
     "numeric_values": {
       "weight": {
         "value": 0.09,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Treats Light Injury in Multiple Body Parts"
   },
   {
     "name": "Small Blood Bag",
     "id": "small-blood-bag",
     "type": "IV",
-    "weight": "0.6 kg",
-    "sold_by": "Lab Rat",
+    "weight": "0.6kg",
+    "sold_by": "Lab Rat R.2",
     "grid_size": "1x1",
-    "charges": "1",
-    "effect": "+500ml of blood",
-    "use_time": "12s",
+    "use_time": "5s",
+    "blood": "500",
     "manufacturer": "MedCare",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/SBlood_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211339",
     "sell_price": "$84",
-    "sell_price_source": "gzwitems.com",
-    "weight_source": "game-files",
+    "buy_price": "$280",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/Small_Blood_Bag_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105152600",
     "numeric_values": {
       "weight": {
         "value": 0.6,
         "unit": "kg"
       }
-    }
+    },
+    "charges": "1",
+    "effect": "blood: 500",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Small Hemostatic Syringe",
     "id": "small-hemostatic-syringe",
     "type": "Syringe",
-    "weight": "0.060kg",
-    "sold_by": "Lab Rat",
+    "weight": "0.06kg",
+    "sold_by": "Lab Rat R.3",
     "grid_size": "1x1",
-    "charges": "3",
-    "effect": "Stops heavy bleeding.",
-    "use_time": "2",
+    "charges": "2",
+    "use_time": "3s",
+    "compatibles_body_parts": "All",
+    "effects": "Stops All Bleeding",
     "manufacturer": "Rev Med X",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/SHem_inspect.png/revision/latest?cb=20260404062657",
     "sell_price": "$39",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$130",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Small_Hemostatic_Syringe_inspect.png/revision/latest?cb=20261105151234",
     "numeric_values": {
       "weight": {
         "value": 0.06,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Stops All Bleeding",
+    "sell_price_source": "gzwitems.com"
   },
   {
     "name": "Small Suture Kit",
     "id": "small-suture-kit",
     "type": "Surgery Kit",
-    "weight": "0.350kg",
-    "sold_by": "Lab Rat",
-    "grid_size": "1x2",
+    "weight": "0.35kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "2x1",
     "charges": "3",
-    "use_time": "20s",
+    "use_time": "18s",
+    "compatibles_body_parts": "All",
+    "effects": "Treats All Injuries in One Body Part",
     "manufacturer": "Henderson",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/SutKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501090058",
     "sell_price": "$81",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$270",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Small_Suture_Kit_inspect.png/revision/latest?cb=20261105151237",
     "numeric_values": {
       "weight": {
         "value": 0.35,
         "unit": "kg"
       }
-    }
+    },
+    "sell_price_source": "gzwitems.com",
+    "effect": "effects: Treats All Injuries in One Body Part"
   },
   {
     "name": "Strychnine",
     "id": "strychnine",
-    "type": "Strimulator",
-    "weight": "0.10kg",
-    "sold_by": "Looting",
+    "type": "Stimulator",
+    "weight": "0.1kg",
+    "sold_by": "Loot only",
     "grid_size": "1x1",
-    "charges": "1",
-    "effect": "Blocks Stamina Drain Drain arm stamina Increase intoxication Increase energy drain Gives pain",
-    "duration": "1 min",
+    "use_time": "3s",
+    "duration": "60s",
+    "effects": "Stamina Drain Prevention",
+    "intoxication": "+20",
+    "pain": "+20",
+    "heart": "-5 %",
     "manufacturer": "Parasol Corp",
     "sell_price": "$180",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/Strychnine_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105153632",
     "numeric_values": {
       "weight": {
         "value": 0.1,
         "unit": "kg"
+      },
+      "heart": {
+        "value": -5.0,
+        "unit": "%"
       }
-    }
+    },
+    "charges": "1",
+    "effect": "effects: Stamina Drain Prevention; intoxication: +20; pain: +20; heart: -5 %; duration: 60s",
+    "sell_price_source": "gzwitems.com"
   }
 ]

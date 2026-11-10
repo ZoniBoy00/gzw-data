@@ -6,6 +6,7 @@
     "weight": "0.061kg",
     "grid_size": "1x2",
     "sell_price": "$42",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Aramid_Cloth_icon.png/revision/latest/scale-to-width-down/48?cb=20260402235156",
     "numeric_values": {
       "weight": {
         "value": 0.061,
@@ -25,22 +26,6 @@
     "numeric_values": {
       "weight": {
         "value": 3.57,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Car Battery",
-    "id": "car-battery",
-    "type": "Household Item",
-    "weight": "12.660kg",
-    "grid_size": "2x2",
-    "manufacturer": "General Local",
-    "sell_price": "$56",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Car_Battery_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075125",
-    "numeric_values": {
-      "weight": {
-        "value": 12.66,
         "unit": "kg"
       }
     }
@@ -249,6 +234,7 @@
     "weight": "0.453kg",
     "grid_size": "1x2",
     "sell_price": "$31",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Propane_Bottle_icon.png/revision/latest/scale-to-width-down/23?cb=20260403075825",
     "numeric_values": {
       "weight": {
         "value": 0.453,
@@ -294,6 +280,7 @@
     "weight": "0.013kg",
     "grid_size": "1x1",
     "sell_price": "$5",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/Tahirs_Cigarettes_icon.png/revision/latest/scale-to-width-down/48?cb=20260402214909",
     "numeric_values": {
       "weight": {
         "value": 0.013,

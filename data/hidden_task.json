@@ -1,13 +1,5 @@
 [
   {
-    "name": "At Doom's Gate",
-    "id": "at-dooms-gate",
-    "vendor": "Handshake",
-    "location": "Lamang Island",
-    "hidden_task": "True",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
-  },
-  {
     "name": "Goods Hunting",
     "id": "goods-hunting",
     "vendor": "Gunny",

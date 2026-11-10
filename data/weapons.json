@@ -1008,6 +1008,61 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/SKS_inspect.png/revision/latest/scale-to-width-down/266?cb=20250618000429"
   },
   {
+    "name": "Steyr AUG",
+    "id": "steyr-aug",
+    "type": "Assault Rifle",
+    "weight": "4.257 kg",
+    "sold_by": "Vulture R.1 Upon completion of task Skycrawlers",
+    "manufacturer": "Steyr Arms",
+    "accuracy": "2.00 MOA",
+    "fire_mode": "Single/Auto",
+    "fire_rate": "720 RPM",
+    "caliber": "5.56x45mm NATO",
+    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/AUG_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261105132551",
+    "numeric_values": {
+      "weight": {
+        "value": 4.257,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.0,
+        "unit": "moa"
+      },
+      "fire_rate": {
+        "value": 720.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Steyr AUG A3",
+    "id": "steyr-aug-a3",
+    "type": "Assault Rifle",
+    "weight": "4.070 kg",
+    "manufacturer": "Steyr Arms",
+    "accuracy": "2.00 MOA",
+    "fire_mode": "Single/Auto",
+    "fire_rate": "720 RPM",
+    "caliber": "5.56x45mm NATO",
+    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/AUG_A3_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261105141007",
+    "numeric_values": {
+      "weight": {
+        "value": 4.07,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.0,
+        "unit": "moa"
+      },
+      "fire_rate": {
+        "value": 720.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
     "name": "SVD",
     "id": "svd",
     "type": "Rifle",
@@ -1050,6 +1105,39 @@
       "accuracy": {
         "value": 16.11,
         "unit": "moa"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "UMP45",
+    "id": "ump45",
+    "type": "Submachine Gun",
+    "weight": "3.904 kg",
+    "sold_by": "Artisan R.1 after completing Lab Rat 's task The Most Dangerous Game",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "5.00 MOA",
+    "reload_speed": "+5.0%",
+    "fire_mode": "Single/Full-Auto",
+    "fire_rate": "600 RPM",
+    "caliber": ".45 ACP",
+    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/UMP45_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261106171335",
+    "numeric_values": {
+      "weight": {
+        "value": 3.904,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 5.0,
+        "unit": "moa"
+      },
+      "reload_speed": {
+        "value": 5.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 600.0,

@@ -3,11 +3,11 @@
     "name": "Allanach Single Malt Scotch - 40y",
     "id": "allanach-single-malt-scotch---40y",
     "type": "Vices",
-    "weight": "2.100kg",
+    "weight": "2.1kg",
     "grid_size": "1x2",
     "manufacturer": "General West",
     "sell_price": "$5,451",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/Allanch_inspect.png/revision/latest?cb=20250506173126",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Allanach_Single_Malt_Scotch_-_40y_inspect.png/revision/latest?cb=20250506173126",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -18,13 +18,12 @@
   {
     "name": "Breda Rum - 30y",
     "id": "breda-rum---30y",
-    "type": "Funds",
-    "weight": "1.7 kg",
+    "type": "Vices",
+    "weight": "1.7kg",
     "grid_size": "1x2",
     "manufacturer": "General West",
     "sell_price": "$3,802",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/Breda_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718015056",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/Breda_Rum_-_30y_icon.png/revision/latest?cb=20250729190947",
     "numeric_values": {
       "weight": {
         "value": 1.7,
@@ -36,8 +35,9 @@
     "name": "Delicate Perfume Bottle",
     "id": "delicate-perfume-bottle",
     "type": "Vices",
-    "weight": "0.300kg",
+    "weight": "0.3kg",
     "grid_size": "1x1",
+    "manufacturer": "General Local",
     "sell_price": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Delicate_Perfume_Bottle_inspect.png/revision/latest?cb=20260331075651",
     "numeric_values": {
@@ -51,8 +51,9 @@
     "name": "Fragrant Perfume Bottle",
     "id": "fragrant-perfume-bottle",
     "type": "Vices",
-    "weight": "0.250kg",
+    "weight": "0.25kg",
     "grid_size": "1x2",
+    "manufacturer": "General Local",
     "sell_price": "$75",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Fragrant_Perfume_Bottle_inspect.png/revision/latest?cb=20260331080331",
     "numeric_values": {
@@ -66,10 +67,11 @@
     "name": "Goodlad Whiskey - 20y",
     "id": "goodlad-whiskey---20y",
     "type": "Vices",
-    "weight": "1.600kg",
+    "weight": "1.6kg",
     "grid_size": "1x2",
+    "manufacturer": "General West",
     "sell_price": "$450",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Goodlad_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509091054",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/Goodlad_Whiskey_-_20y_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509091054",
     "numeric_values": {
       "weight": {
         "value": 1.6,
@@ -81,10 +83,11 @@
     "name": "Heavenly Perfume Bottle",
     "id": "heavenly-perfume-bottle",
     "type": "Vices",
-    "weight": "0.3 kg",
+    "weight": "0.3kg",
     "grid_size": "1x1",
+    "manufacturer": "General Local",
     "sell_price": "$335",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Heavenly_Perfume_Bottle_icon.png/revision/latest?cb=20260402235001",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -93,28 +96,14 @@
     }
   },
   {
-    "name": "Hyperborea Cigarettes",
-    "id": "hyperborea-cigarettes",
-    "type": "Vices",
-    "weight": "0.020kg",
-    "grid_size": "1x1",
-    "sell_price": "$139",
-    "numeric_values": {
-      "weight": {
-        "value": 0.02,
-        "unit": "kg"
-      }
-    }
-  },
-  {
     "name": "Lambert Cigars",
     "id": "lambert-cigars",
     "type": "Vices",
-    "weight": "0.6 kg",
+    "weight": "0.6kg",
     "grid_size": "2x1",
+    "manufacturer": "General Local",
     "sell_price": "$282",
-    "grid_size_source": "game-files",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Lambert_Cigars_icon.png/revision/latest?cb=20260402071045",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -126,11 +115,11 @@
     "name": "Moutai - 50y",
     "id": "moutai---50y",
     "type": "Vices",
-    "weight": "1.500kg",
+    "weight": "1.5kg",
     "grid_size": "1x2",
     "manufacturer": "General East",
     "sell_price": "$15,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/Moutai_inspect.png/revision/latest?cb=20250603170201",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Moutai_-_50y_icon.png/revision/latest?cb=20250531204306",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -139,15 +128,30 @@
     }
   },
   {
+    "name": "Noir Mist Cigarettes",
+    "id": "hyperborea-cigarettes",
+    "type": "Vices",
+    "weight": "0.02kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$139",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Noir_Mist_Cigarettes_icon.png/revision/latest?cb=20260402042858",
+    "numeric_values": {
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Snake Wine",
     "id": "snake-wine",
     "type": "Vices",
-    "weight": "1.4 kg",
+    "weight": "1.4kg",
     "grid_size": "1x2",
     "manufacturer": "General Local",
     "sell_price": "$399",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/SWine_inspect.png/revision/latest?cb=20250507135254",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3f/Snake_Wine_inspect.png/revision/latest?cb=20250507135254",
     "numeric_values": {
       "weight": {
         "value": 1.4,
@@ -159,11 +163,11 @@
     "name": "Tzintzimitl Tequila - 25y",
     "id": "tzintzimitl-tequila---25y",
     "type": "Vices",
-    "weight": "1.8 kg",
+    "weight": "1.8kg",
     "grid_size": "1x2",
+    "manufacturer": "General East",
     "sell_price": "$2,020",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/Tzintzimitl_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509090613",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Tzintzimitl_Tequila_-_25y_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509090613",
     "numeric_values": {
       "weight": {
         "value": 1.8,
