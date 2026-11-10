@@ -7,15 +7,17 @@
     "name": "Military Firearms Crate",
     "id": "military-firearms-crate",
     "type": "Loot container",
-    "inventory_layout_(x/y)": "8x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/7x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250813163531"
+    "grid_size": "8x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Military_Firearms_Crate.png/revision/latest/scale-to-width-down/268?cb=20261105211826",
+    "inventory_layout_(x/y)": "8x3"
   },
   {
     "name": "Military Gear Crate",
     "id": "military-gear-crate",
     "type": "Loot container",
-    "inventory_layout_(x/y)": "8x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/8x3_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250825203036"
+    "grid_size": "8x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/8x3_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250825203036",
+    "inventory_layout_(x/y)": "8x3"
   },
   {
     "name": "Stash",

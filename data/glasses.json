@@ -3,58 +3,171 @@
     "name": "Aviator (Black)",
     "id": "aviator-black",
     "type": "Glasses",
+    "weight": "0.036kg",
     "grid_size": "2x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+0%",
-    "grid_size_source": "game-files",
+    "sell_price": "$18",
+    "rain_protection": "20%",
+    "manufacturer": "Randolph",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fb/Aviator_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224746",
     "numeric_values": {
-      "flashbang_resistance": {
-        "value": 0.0,
+      "weight": {
+        "value": 0.036,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
         "unit": "%"
       }
-    }
+    },
+    "flashbang_resistance": "+0%",
+    "grid_size_source": "game-files"
   },
   {
     "name": "Aviator (Green)",
     "id": "aviator-green",
     "type": "Glasses",
+    "weight": "0.036kg",
     "grid_size": "2x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+15 %",
-    "grid_size_source": "game-files",
+    "sell_price": "$18",
+    "rain_protection": "20%",
+    "manufacturer": "Randolph",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/Aviator_%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106195721",
     "numeric_values": {
-      "flashbang_resistance": {
-        "value": 15.0,
+      "weight": {
+        "value": 0.036,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
         "unit": "%"
       }
-    }
+    },
+    "flashbang_resistance": "+15 %",
+    "grid_size_source": "game-files"
   },
   {
     "name": "Ballistic M Frame 3.0 (Clear)",
     "id": "ballistic-m-frame-3.0-clear",
     "type": "Glasses",
+    "weight": "0.03kg",
     "grid_size": "2x1",
-    "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+0 %",
-    "grid_size_source": "game-files",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$26",
+    "buy_price": "$88",
+    "rain_protection": "30%",
+    "manufacturer": "Oakley",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/Ballistic_M_Frame_3.0_%28Clear%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224752",
     "numeric_values": {
-      "flashbang_resistance": {
-        "value": 0.0,
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
         "unit": "%"
       }
-    }
+    },
+    "flashbang_resistance": "+0 %",
+    "grid_size_source": "game-files"
   },
   {
     "name": "Ballistic M Frame 3.0 (Tinted)",
     "id": "ballistic-m-frame-3.0-tinted",
     "type": "Glasses",
+    "weight": "0.03kg",
     "grid_size": "2x1",
-    "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+15 %",
-    "grid_size_source": "game-files",
+    "sold_by": "Loot only",
+    "sell_price": "$26",
+    "flashbang_resistance": "15%",
+    "rain_protection": "30%",
+    "manufacturer": "Oakley",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Ballistic_M_Frame_3.0_%28Tinted%29_icon.png/revision/latest?cb=20250519051025",
     "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      },
       "flashbang_resistance": {
         "value": 15.0,
+        "unit": "%"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    },
+    "grid_size_source": "game-files"
+  },
+  {
+    "name": "Chaonai's Round Sunglasses",
+    "id": "chaonais-round-sunglasses",
+    "type": "Glasses",
+    "weight": "0.02kg",
+    "grid_size": "2x1",
+    "sold_by": "Loot only",
+    "sell_price": "$9",
+    "rain_protection": "10%",
+    "manufacturer": "Genlemen's Delight",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3f/Chaonai%27s_Round_Sunglasses_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106195709",
+    "numeric_values": {
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Condor (Clear)",
+    "id": "condor-clear",
+    "type": "Glasses",
+    "weight": "0.045kg",
+    "grid_size": "2x1",
+    "sold_by": "Handshake R.1",
+    "sell_price": "$14",
+    "buy_price": "$48",
+    "rain_protection": "10%",
+    "manufacturer": "NPP Klass",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/Condor_%28Clear%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107015555",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Condor (Tinted)",
+    "id": "condor-tinted",
+    "type": "Glasses",
+    "weight": "0.045kg",
+    "grid_size": "2x1",
+    "sold_by": "Loot only",
+    "sell_price": "$14",
+    "flashbang_resistance": "10%",
+    "rain_protection": "10%",
+    "manufacturer": "NPP Klass",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/af/Condor_%28Tinted%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107015600",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      },
+      "flashbang_resistance": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "rain_protection": {
+        "value": 10.0,
         "unit": "%"
       }
     }
@@ -63,57 +176,97 @@
     "name": "Desert Locust (Clear)",
     "id": "desert-locust-clear",
     "type": "Glasses",
+    "weight": "0.13kg",
     "grid_size": "2x1",
-    "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+0 %",
-    "grid_size_source": "game-files",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$37",
+    "buy_price": "$125",
+    "rain_protection": "50%",
+    "manufacturer": "Revision",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Desert_Locust_%28Clear%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224820",
     "numeric_values": {
-      "flashbang_resistance": {
-        "value": 0.0,
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
         "unit": "%"
       }
-    }
+    },
+    "flashbang_resistance": "+0 %",
+    "grid_size_source": "game-files"
   },
   {
     "name": "Desert Locust (Tinted)",
     "id": "desert-locust-tinted",
     "type": "Glasses",
+    "weight": "0.13kg",
     "grid_size": "2x1",
-    "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+10 %",
-    "grid_size_source": "game-files",
+    "sold_by": "Loot only",
+    "sell_price": "$37",
+    "flashbang_resistance": "10%",
+    "rain_protection": "50%",
+    "manufacturer": "Revision",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/Desert_Locust_%28Tinted%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106200003",
     "numeric_values": {
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      },
       "flashbang_resistance": {
         "value": 10.0,
         "unit": "%"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
       }
-    }
+    },
+    "grid_size_source": "game-files"
   },
   {
     "name": "Gatorz Delta",
     "id": "gatorz-delta",
     "type": "Glasses",
+    "weight": "0.09kg",
     "grid_size": "2x1",
-    "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+20 %",
-    "grid_size_source": "game-files",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$42",
+    "buy_price": "$143",
+    "flashbang_resistance": "20%",
+    "rain_protection": "40%",
+    "manufacturer": "Gatorz",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5a/Gatorz_Delta_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224704",
     "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      },
       "flashbang_resistance": {
         "value": 20.0,
         "unit": "%"
+      },
+      "rain_protection": {
+        "value": 40.0,
+        "unit": "%"
       }
-    }
+    },
+    "grid_size_source": "game-files"
   },
   {
     "name": "Gatorz Magnum (Black)",
     "id": "gatorz-magnum-black",
     "type": "Glasses",
-    "weight": "0.090kg",
+    "weight": "0.09kg",
     "grid_size": "2x1",
     "sold_by": "Handshake R.4",
-    "flashbang_resistance": "+30 %",
-    "manufacturer": "Qatorz",
-    "sold_by_source": "game-files",
+    "sell_price": "$47",
+    "buy_price": "$157",
+    "flashbang_resistance": "30%",
+    "rain_protection": "50%",
+    "manufacturer": "Gatorz",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Gatorz_Magnum_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224707",
     "numeric_values": {
       "weight": {
         "value": 0.09,
@@ -121,6 +274,10 @@
       },
       "flashbang_resistance": {
         "value": 30.0,
+        "unit": "%"
+      },
+      "rain_protection": {
+        "value": 50.0,
         "unit": "%"
       }
     }
@@ -129,11 +286,14 @@
     "name": "Gatorz Magnum (Green)",
     "id": "gatorz-magnum-green",
     "type": "Glasses",
-    "weight": "0.090kg",
+    "weight": "0.09kg",
     "grid_size": "2x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+30 %",
-    "manufacturer": "Qatorz",
+    "sell_price": "$47",
+    "flashbang_resistance": "30%",
+    "rain_protection": "50%",
+    "manufacturer": "Gatorz",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Gatorz_Magnum_%28Green%29_icon.png/revision/latest?cb=20250621192608",
     "numeric_values": {
       "weight": {
         "value": 0.09,
@@ -141,6 +301,10 @@
       },
       "flashbang_resistance": {
         "value": 30.0,
+        "unit": "%"
+      },
+      "rain_protection": {
+        "value": 50.0,
         "unit": "%"
       }
     }
@@ -149,11 +313,14 @@
     "name": "Gatorz Magnum (Tan)",
     "id": "gatorz-magnum-tan",
     "type": "Glasses",
-    "weight": "0.090kg",
+    "weight": "0.09kg",
     "grid_size": "2x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+30 %",
-    "manufacturer": "Qatorz",
+    "sell_price": "$47",
+    "flashbang_resistance": "30%",
+    "rain_protection": "50%",
+    "manufacturer": "Gatorz",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Gatorz_Magnum_%28Tan%29_icon.png/revision/latest?cb=20250621192608",
     "numeric_values": {
       "weight": {
         "value": 0.09,
@@ -162,6 +329,54 @@
       "flashbang_resistance": {
         "value": 30.0,
         "unit": "%"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Retro Eyeglasses (Gold)",
+    "id": "retro-eyeglasses-gold",
+    "type": "Glasses",
+    "weight": "0.07kg",
+    "grid_size": "2x1",
+    "sold_by": "Loot only",
+    "sell_price": "$18",
+    "rain_protection": "10%",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Missing_image.png/revision/latest?cb=20240506005822",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Retro Eyeglasses (Silver)",
+    "id": "retro-eyeglasses-silver",
+    "type": "Glasses",
+    "weight": "0.07kg",
+    "grid_size": "2x1",
+    "sold_by": "Loot only",
+    "sell_price": "$18",
+    "rain_protection": "10%",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Missing_image.png/revision/latest?cb=20240506005822",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
       }
     }
   },
@@ -169,13 +384,44 @@
     "name": "Round Sunglasses",
     "id": "round-sunglasses",
     "type": "Glasses",
+    "weight": "0.02kg",
     "grid_size": "2x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+0 %",
-    "grid_size_source": "game-files",
+    "sell_price": "$9",
+    "rain_protection": "20%",
+    "manufacturer": "Genlemen's Delight",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Round_Sunglasses_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106195712",
     "numeric_values": {
-      "flashbang_resistance": {
-        "value": 0.0,
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    },
+    "flashbang_resistance": "+0 %",
+    "grid_size_source": "game-files"
+  },
+  {
+    "name": "Viper's Aviator",
+    "id": "vipers-aviator",
+    "type": "Glasses",
+    "weight": "0.036kg",
+    "grid_size": "2x1",
+    "sold_by": "Loot only",
+    "sell_price": "$18",
+    "rain_protection": "10%",
+    "manufacturer": "Randolph",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e0/Viper%27s_Aviator_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106195715",
+    "numeric_values": {
+      "weight": {
+        "value": 0.036,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
         "unit": "%"
       }
     }
@@ -184,14 +430,44 @@
     "name": "Wayfarer",
     "id": "wayfarer",
     "type": "Glasses",
+    "weight": "0.03kg",
     "grid_size": "2x1",
     "sold_by": "Loot only",
-    "flashbang_resistance": "+15 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Wayfarer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182704",
-    "grid_size_source": "game-files",
+    "sell_price": "$13",
+    "rain_protection": "10%",
+    "manufacturer": "Ray Ban",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Wayfarer_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224725",
     "numeric_values": {
-      "flashbang_resistance": {
-        "value": 15.0,
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    },
+    "flashbang_resistance": "+15 %",
+    "grid_size_source": "game-files"
+  },
+  {
+    "name": "Wayfarer (Agent)",
+    "id": "wayfarer-agent",
+    "type": "Glasses",
+    "weight": "0.03kg",
+    "grid_size": "2x1",
+    "sold_by": "Twitch drop",
+    "sell_price": "$0",
+    "rain_protection": "10%",
+    "manufacturer": "Ray Ban",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Missing_image.png/revision/latest?cb=20240506005822",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
         "unit": "%"
       }
     }
@@ -200,12 +476,75 @@
     "name": "WX Valor",
     "id": "wx-valor",
     "type": "Glasses",
+    "weight": "0.1kg",
     "grid_size": "2x1",
-    "sold_by": "Handshake R.?",
-    "flashbang_resistance": "+20 %",
-    "grid_size_source": "game-files",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$37",
+    "buy_price": "$126",
+    "flashbang_resistance": "30%",
+    "rain_protection": "50%",
+    "manufacturer": "Wiley X",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/WX_Valor_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224732",
     "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
       "flashbang_resistance": {
+        "value": 30.0,
+        "unit": "%"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    },
+    "grid_size_source": "game-files"
+  },
+  {
+    "name": "WX Valor (Worn)",
+    "id": "wx-valor-worn",
+    "type": "Glasses",
+    "weight": "0.1kg",
+    "grid_size": "2x1",
+    "sold_by": "Loot only",
+    "sell_price": "$18",
+    "flashbang_resistance": "20%",
+    "rain_protection": "30%",
+    "manufacturer": "Wiley X",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/WX_Valor_%28Worn%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106195717",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "flashbang_resistance": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Yen's Crossfire",
+    "id": "yens-crossfire",
+    "type": "Glasses",
+    "weight": "0.024kg",
+    "grid_size": "2x1",
+    "sold_by": "Loot only",
+    "sell_price": "$18",
+    "rain_protection": "20%",
+    "manufacturer": "Radians",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Missing_image.png/revision/latest?cb=20240506005822",
+    "numeric_values": {
+      "weight": {
+        "value": 0.024,
+        "unit": "kg"
+      },
+      "rain_protection": {
         "value": 20.0,
         "unit": "%"
       }

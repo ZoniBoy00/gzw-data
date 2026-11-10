@@ -10,8 +10,6 @@
     "effect": "Hydration: +33",
     "manufacturer": "Aques",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Water1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530084550",
-    "sell_price": "$16",
-    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -69,6 +67,25 @@
     }
   },
   {
+    "name": "EPO V2",
+    "id": "epo-v2",
+    "type": "Stimulator",
+    "weight": "0.100kg",
+    "sold_by": "Lab Rat R.??",
+    "grid_size": "1x1",
+    "charges": "1",
+    "effect": "Increases Blood Regeneration Increase intoxication Increase hydration drain Increase energy drain",
+    "duration": "3 min",
+    "manufacturer": "Parasol Corp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105152516",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Hacker II",
     "id": "hacker-ii",
     "vendor": "Handshake",
@@ -86,6 +103,25 @@
     "numeric_values": {
       "weight": {
         "value": 0.01,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "HpR 3-S V2",
+    "id": "hpr-3-s-v2",
+    "type": "Stimulator",
+    "weight": "0.100kg",
+    "sold_by": "Lab Rat R.??",
+    "grid_size": "1x1",
+    "charges": "1",
+    "effect": "Regenerates up to 50% of organs Increase intoxication Gives pain",
+    "duration": "5 min",
+    "manufacturer": "Parasol Corp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/HpR_3-S_V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260427014740",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
         "unit": "kg"
       }
     }
@@ -179,6 +215,24 @@
     }
   },
   {
+    "name": "ORI-12 V2",
+    "id": "ori-12-v2",
+    "type": "Stimulator",
+    "weight": "0.080kg",
+    "sold_by": "Lab Rat R.??",
+    "grid_size": "1x1",
+    "charges": "1",
+    "effect": "Regenerate up to 65% of all bones Increase intoxication Gives pain",
+    "duration": "5 Minute",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/ORI-12V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260427014950",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Peacekeeper",
     "id": "peacekeeper",
     "vendor": "Lab Rat",
@@ -221,6 +275,8 @@
     "grid_size": "1x1",
     "usage": "Unlocks door UNLRA HQ Laboratory in Tiger Bay",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest?cb=20250528145207",
+    "sell_price": "$90",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,

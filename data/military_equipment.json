@@ -3,22 +3,14 @@
     "name": "AN/PYQ-10",
     "id": "an/pyq-10",
     "type": "Military Equipment",
-    "weight": "0,970kg",
+    "weight": "0.97kg",
     "grid_size": "1x2",
-    "sell_price": "$3,150",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/ANPYQ-10_inspect.png/revision/latest?cb=20260421131513"
-  },
-  {
-    "name": "ATM Hacking Tool",
-    "id": "atm-hacking-tool",
-    "type": "Military Equipment",
-    "weight": "0.150kg",
-    "grid_size": "1x1",
-    "sell_price": "$750",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/ATM_Hacking_Tool_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412113512",
+    "manufacturer": "SNC",
+    "sell_price": "$3,360",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/ANPYQ-10_inspect.png/revision/latest?cb=20260421131513",
     "numeric_values": {
       "weight": {
-        "value": 0.15,
+        "value": 0.97,
         "unit": "kg"
       }
     }
@@ -27,9 +19,11 @@
     "name": "AZART P1 Radio",
     "id": "azart-p1-radio",
     "type": "Military Equipment",
-    "weight": "0.720kg",
+    "weight": "0.72kg",
     "grid_size": "1x2",
-    "sell_price": "$825",
+    "manufacturer": "Angstrem",
+    "sell_price": "$880",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/AZART_P1_Radio_icon.png/revision/latest/scale-to-width-down/51?cb=20260404223341",
     "numeric_values": {
       "weight": {
         "value": 0.72,
@@ -43,7 +37,9 @@
     "type": "Military Equipment",
     "weight": "0.008kg",
     "grid_size": "1x1",
-    "sell_price": "$1,950",
+    "manufacturer": "Freevolt",
+    "sell_price": "$2,080",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/Biometric_Access_Card_icon.png/revision/latest?cb=20260402043728",
     "numeric_values": {
       "weight": {
         "value": 0.008,
@@ -57,7 +53,9 @@
     "type": "Military Equipment",
     "weight": "0.004kg",
     "grid_size": "1x1",
-    "sell_price": "$1,875",
+    "manufacturer": "Thales",
+    "sell_price": "$2,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Biometric_Thumb_Drive_icon.png/revision/latest?cb=20260403092909",
     "numeric_values": {
       "weight": {
         "value": 0.004,
@@ -69,11 +67,11 @@
     "name": "C2 Military Laptop",
     "id": "c2-military-laptop",
     "type": "Military Equipment",
-    "weight": "5.5 kg",
+    "weight": "5.5kg",
     "grid_size": "2x2",
-    "sell_price": "$4,900",
+    "manufacturer": "Roda",
+    "sell_price": "$5,200",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/C2_Military_Laptop_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603042356",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 5.5,
@@ -85,19 +83,27 @@
     "name": "GLONASS Grot-M Navigation Receiver",
     "id": "glonass-grot-m-navigation-receiver",
     "type": "Military Equipment",
-    "weight": "0,800kg",
+    "weight": "0.8kg",
     "grid_size": "1x2",
-    "sell_price": "$937",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/GLONASS_Grot-M_Navigation_Receiver_inspect.png/revision/latest/scale-to-width-down/268?cb=20260506023431"
+    "manufacturer": "RNII KP",
+    "sell_price": "$1,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/GLONASS_Grot-M_Navigation_Receiver_inspect.png/revision/latest/scale-to-width-down/268?cb=20260506023431",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Handheld ECM Jammer",
     "id": "handheld-ecm-jammer",
     "type": "Military Equipment",
-    "weight": "2.0kg",
+    "weight": "2kg",
     "grid_size": "1x2",
-    "sell_price": "$712",
-    "grid_size_source": "game-files",
+    "manufacturer": "Jammer Master",
+    "sell_price": "$760",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/eb/Handheld_ECM_Jammer_icon.png/revision/latest?cb=20260402044213",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -109,9 +115,10 @@
     "name": "HGCS-30 UAV Control Station",
     "id": "hgcs-30-uav-control-station",
     "type": "Military Equipment",
-    "weight": "3.000kg",
+    "weight": "3kg",
     "grid_size": "2x2",
-    "sell_price": "$2,000",
+    "manufacturer": "Harwar",
+    "sell_price": "$2,080",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/82/HGCS-30_UAV_Control_Station_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331081050",
     "numeric_values": {
       "weight": {
@@ -124,18 +131,25 @@
     "name": "KIK-11 Tactical Key Loader",
     "id": "kik-11-tactical-key-loader",
     "type": "Military Equipment",
-    "weight": "0,450kg",
+    "weight": "0.45kg",
     "grid_size": "1x1",
-    "sell_price": "$2,900",
+    "manufacturer": "L3Harris",
+    "sell_price": "$3,120",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/KIK-11_Tactical_Key_Loader_inspect.png/revision/latest/scale-to-width-down/268?cb=20260603042447",
-    "grid_size_source": "game-files"
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "LTSD-4-3 Laser Designator",
     "id": "ltsd-4-3-laser-designator",
     "type": "Military Equipment",
-    "weight": "14.000kg",
+    "weight": "14kg",
     "grid_size": "3x3",
+    "manufacturer": "Russian Army",
     "sell_price": "$64,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/LTSD-4-3_Laser_Designator_inspect.png/revision/latest/scale-to-width-down/268?cb=20260410150502",
     "numeric_values": {
@@ -149,17 +163,26 @@
     "name": "NPI-2 Navigation Receiver",
     "id": "npi-2-navigation-receiver",
     "type": "Military Equipment",
-    "weight": "0,300kg",
+    "weight": "0.3kg",
     "grid_size": "1x1",
-    "sell_price": "$1,100"
+    "manufacturer": "Kompas",
+    "sell_price": "$1,136",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/NPI-2_Navigation_Receiver_icon.png/revision/latest?cb=20260402045946",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "One-Time Pad Key Sheets",
     "id": "one-time-pad-key-sheets",
     "type": "Military Equipment",
-    "weight": "0.100kg",
+    "weight": "0.1kg",
     "grid_size": "1x1",
-    "sell_price": "$2,400",
+    "manufacturer": "General Local",
+    "sell_price": "$2,560",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ce/One-Time_Pad_Key_Sheets_inspect.png/revision/latest/scale-to-width-down/268?cb=20260418103204",
     "numeric_values": {
       "weight": {
@@ -172,9 +195,11 @@
     "name": "Operation Data Encrypted Hard Disk",
     "id": "operation-data-encrypted-hard-disk",
     "type": "Military Equipment",
-    "weight": "0.180kg",
+    "weight": "0.18kg",
     "grid_size": "1x1",
-    "sell_price": "$4,875",
+    "manufacturer": "General West",
+    "sell_price": "$5,200",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Operation_Data_Encrypted_Hard_Disk_icon.png/revision/latest/scale-to-width-down/54?cb=20260411164244",
     "numeric_values": {
       "weight": {
         "value": 0.18,
@@ -186,9 +211,10 @@
     "name": "PBG-01+ UAV Control Station",
     "id": "pbg-01+-uav-control-station",
     "type": "Military Equipment",
-    "weight": "14.200kg",
+    "weight": "14.2kg",
     "grid_size": "2x2",
-    "sell_price": "$6,400",
+    "manufacturer": "Huaxin",
+    "sell_price": "$6,800",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/PBG-01%2B_UAV_Control_Station_inspect.png/revision/latest?cb=20260331084341",
     "numeric_values": {
       "weight": {
@@ -201,10 +227,11 @@
     "name": "R-438 Barrier-T",
     "id": "r-438-barrier-t",
     "type": "Military Equipment",
-    "weight": "16.000kg",
+    "weight": "16kg",
     "grid_size": "3x3",
-    "sell_price": "$45,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/R-438_Barrier-T_inspect.png/revision/latest/scale-to-width-down/268?cb=20260420114625",
+    "manufacturer": "YARZ",
+    "sell_price": "$48,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/R-438_Barrier-T_inspect.png/revision/latest/scale-to-width-down/268?cb=20261108044744",
     "numeric_values": {
       "weight": {
         "value": 16.0,
@@ -216,9 +243,10 @@
     "name": "Rugged Military Tablet",
     "id": "rugged-military-tablet",
     "type": "Military Equipment",
-    "weight": "2.0kg",
+    "weight": "2kg",
     "grid_size": "2x2",
-    "sell_price": "$1,200",
+    "manufacturer": "7Starlake",
+    "sell_price": "$1,240",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/Rugged_Military_Tablet_inspect.png/revision/latest/scale-to-width-down/268?cb=20260408223651",
     "numeric_values": {
       "weight": {
@@ -231,9 +259,10 @@
     "name": "Signal Repeater RT97S",
     "id": "signal-repeater-rt97s",
     "type": "Military Equipment",
-    "weight": "1.660kg",
+    "weight": "1.66kg",
     "grid_size": "3x2",
-    "sell_price": "$675",
+    "manufacturer": "Retevis",
+    "sell_price": "$720",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Signal_Repeater_RT97S_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331085918",
     "numeric_values": {
       "weight": {
@@ -246,8 +275,16 @@
     "name": "STRELETS-M Tablet",
     "id": "strelets-m-tablet",
     "type": "Military Equipment",
-    "weight": "1,400kg",
-    "grid_size": "1x2",
-    "sell_price": "$4650"
+    "weight": "1.4kg",
+    "grid_size": "2x1",
+    "manufacturer": "Radioavionika",
+    "sell_price": "$4,960",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/STRELETS-M_Tablet_icon.png/revision/latest?cb=20260404034623",
+    "numeric_values": {
+      "weight": {
+        "value": 1.4,
+        "unit": "kg"
+      }
+    }
   }
 ]

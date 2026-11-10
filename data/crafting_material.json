@@ -1,13 +1,91 @@
 [
   {
+    "name": "Aniline",
+    "id": "aniline",
+    "type": "Crafting Material",
+    "weight": "0.05kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Aniline_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201050",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Avionics Processor Board",
+    "id": "avionics-processor-board",
+    "type": "Crafting Material",
+    "weight": "0.5kg",
+    "grid_size": "1x1",
+    "manufacturer": "General East",
+    "sell_price": "$6,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Avionics_Processor_Board_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109182711",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bone Density Stimulant",
+    "id": "bone-density-stimulant",
+    "type": "Crafting Material",
+    "weight": "0.05kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bromopyridine",
+    "id": "bromopyridine",
+    "type": "Crafting Material",
+    "weight": "0.5kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "CPU Card",
+    "id": "cpu-card",
+    "type": "Crafting Material",
+    "weight": "0.3kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$4,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/CPU_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20261108044752",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Digital Synthesis Engine",
     "id": "digital-synthesis-engine",
     "type": "Crafting Material",
-    "weight": "0.1 kg",
+    "weight": "0.1kg",
     "grid_size": "1x1",
-    "sell_price": "$1,200",
+    "manufacturer": "General Local",
+    "sell_price": "$9,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Digital_Synthesis_Engine_inspect.png/revision/latest?cb=20261026212133",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -19,9 +97,10 @@
     "name": "Empty Autoinjector",
     "id": "empty-autoinjector",
     "type": "Crafting Material",
-    "weight": "0.090kg",
+    "weight": "0.09kg",
     "grid_size": "1x1",
-    "sell_price": "$15",
+    "manufacturer": "General Local",
+    "sell_price": "$50",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/Empty_Autoinjector_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183752",
     "numeric_values": {
       "weight": {
@@ -34,9 +113,10 @@
     "name": "FPGA Module",
     "id": "fpga-module",
     "type": "Crafting Material",
-    "weight": "0.200kg",
+    "weight": "0.2kg",
     "grid_size": "2x1",
-    "sell_price": "$900",
+    "manufacturer": "General Local",
+    "sell_price": "$6,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/FPGA_Module_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024200429",
     "numeric_values": {
       "weight": {
@@ -46,12 +126,28 @@
     }
   },
   {
+    "name": "Glucose",
+    "id": "glucose",
+    "type": "Crafting Material",
+    "weight": "1kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$50",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "High-Speed Digital Processor Board",
     "id": "high-speed-digital-processor-board",
     "type": "Crafting Material",
-    "weight": "0.100kg",
+    "weight": "0.1kg",
     "grid_size": "2x1",
-    "sell_price": "$1,200",
+    "manufacturer": "General Local",
+    "sell_price": "$9,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/High-Speed_Digital_Processor_Board_inspect.png/revision/latest/scale-to-width-down/268?cb=20261026212129",
     "numeric_values": {
       "weight": {
@@ -64,10 +160,43 @@
     "name": "Human Growth Hormone",
     "id": "human-growth-hormone",
     "type": "Crafting Material",
-    "weight": "0.050kg",
+    "weight": "0.05kg",
     "grid_size": "1x1",
-    "sell_price": "$30",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c8/Human_Growth_Hormone_inspect.png/revision/latest?cb=20261024185208",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Iron Sucrose",
+    "id": "iron-sucrose",
+    "type": "Crafting Material",
+    "weight": "0.05kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Iron_Sucrose_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106141449",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Methylene Blue",
+    "id": "methylene-blue",
+    "type": "Crafting Material",
+    "weight": "0.05kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Methylene_Blue_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106141444",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -79,11 +208,11 @@
     "name": "Multi-Bus Converter",
     "id": "multi-bus-converter",
     "type": "Crafting Material",
-    "weight": "0.25 kg",
+    "weight": "0.25kg",
     "grid_size": "1x1",
-    "sell_price": "$600",
+    "manufacturer": "General Local",
+    "sell_price": "$4,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/Multi-Bus_Converter_inspect.png/revision/latest?cb=20261102054420",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.25,
@@ -95,9 +224,10 @@
     "name": "Oven-Controlled Crystal Oscillator",
     "id": "oven-controlled-crystal-oscillator",
     "type": "Crafting Material",
-    "weight": "0.010kg",
+    "weight": "0.01kg",
     "grid_size": "1x1",
-    "sell_price": "$1,200",
+    "manufacturer": "General Local",
+    "sell_price": "$9,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Oven-Controlled_Crystal_Oscillator_inspect.png/revision/latest?cb=20261026212131",
     "numeric_values": {
       "weight": {
@@ -110,13 +240,62 @@
     "name": "Server RAM Module",
     "id": "server-ram-module",
     "type": "Crafting Material",
-    "weight": "0.050kg",
+    "weight": "0.05kg",
     "grid_size": "2x1",
-    "sell_price": "$900",
+    "manufacturer": "General Local",
+    "sell_price": "$6,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Server_RAM_Module_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024200428",
     "numeric_values": {
       "weight": {
         "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Spoofing ASIC Module",
+    "id": "spoofing-asic-module",
+    "type": "Crafting Material",
+    "weight": "0.32kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$4,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Spoofing_ASIC_Module_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107050846",
+    "numeric_values": {
+      "weight": {
+        "value": 0.32,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Theophylline",
+    "id": "theophylline",
+    "type": "Crafting Material",
+    "weight": "0.1kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/Theophylline_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201043",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Vitamin B12",
+    "id": "vitamin-b12",
+    "type": "Crafting Material",
+    "weight": "0.25kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$100",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Vitamin_B12_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201046",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
         "unit": "kg"
       }
     }

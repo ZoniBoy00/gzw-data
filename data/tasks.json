@@ -66,6 +66,15 @@
     "objectives": "Place the merchandise in a blue barrel behind a shelter in a field southwest of Midnight Sapphire"
   },
   {
+    "name": "Applied Engineering",
+    "id": "applied-engineering",
+    "vendor": "Artisan",
+    "vendor_rank_required": "Rank 2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "TBD",
+    "objectives": "Upgrade the workshop capabilities to the required levels Sensor and RF Processing +3 Electronics Capability +3 Sensor and RF Processing +3 Electronics Capability +3"
+  },
+  {
     "name": "Artisan's List",
     "id": "artisans-list",
     "vendor": "Artisan",
@@ -86,12 +95,12 @@
   {
     "name": "At Doom's Gate",
     "id": "at-dooms-gate",
-    "vendor": "Handshake",
-    "location": "Lamang Island",
-    "hidden_task": "True",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
-    "briefing": "The LAF’s activities inside Ground Zero are critical to our mission. We need to learn everything there is to learn, and if some local yokels did the bulk of the work for us, all the better! Search the checkpoint thoroughly and find anything with logs of what they encountered - ideally a laptop or a nice fat stack of documents. Once you’ve got it, return to base camp immediately and hand it over to me. Don’t worry, I know Lab Rat would kill for such a treasure trove of intel, and I do intend to share it with her... in due time, after the boss and his team have had a look first.",
-    "objectives": "Retrieve the intel from the LAF Ground Zero checkpoint and report back to Handshake. Locate the intel Locate the intel"
+    "vendor": "Gunny",
+    "task_type": "Main Task",
+    "location": "Northern Reach",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "Gunny is interested in an LAF military installation that did not exist before the Event. Recon the area, secure any pertinent intel, and await further orders.",
+    "objectives": "Investigate the military installation Investigate the supply yard Locate the intel in the accommodations Locate intel in the offices Investigate the supply yard Locate the intel in the accommodations Locate intel in the offices Hack the radio tower Gain access to the server Retrieve the file and bring it to Gunny Locate a file in the Commander's office Locate a file in the Commander's office"
   },
   {
     "name": "At the Mounds of Madness",
@@ -802,6 +811,15 @@
     "objectives": "Locate the supplies at the prepper's house Search for the supplies elsewhere"
   },
   {
+    "name": "Hustling the Hustler",
+    "id": "hustling-the-hustler",
+    "vendor": "Handshake",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "An LAF informant attempted to double-cross Handshake. Eliminate LAF soldiers as retribution, retrieve the flash drive from the building next to the air control tower at Fort Narith, and stash it at the designated drop-off point.",
+    "objectives": "Eliminate the LAF hostiles at Fort Narith (0/5) Secure the flash drive and store it at the designated drop-off point Locate the flash drive stored at the Airfield Back Entrance Locate the flash drive stored at the Airfield Back Entrance"
+  },
+  {
     "name": "I went, I saw, I conquered",
     "id": "i-went,-i-saw,-i-conquered",
     "vendor": "Handshake",
@@ -1290,7 +1308,7 @@
     "location": "YBL-1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
     "briefing": "A hut containing mysterious research notes has been discovered. Search the area thoroughly for valuable intel that may clarify the purpose of the project. Focus on secured or locked sections and report your findings to Lab Rat.",
-    "objectives": "Locate the research papers Disconnect the air filtration system in YBL-1 Retrieve the air filter from YBL-1 and report back to Lab Rat Locate the air filter Locate the air filter Gather intel from the computers at YBL-1 Retrieve the data and report back to Lab Rat Acquire the data from the computer"
+    "objectives": "Locate the research papers Disconnect the air filtration system in YBL-1 Retrieve the air filter from YBL-1 and report back to Lab Rat Locate the air filter Locate the air filter Gather intel from the computers at YBL-1 Retrieve the data and report back to Lab Rat Acquire the data from the computer Acquire the data from the computer"
   },
   {
     "name": "Name Your Poison",
@@ -1428,6 +1446,15 @@
     "objectives": "Eliminate the hostile commander in Hunter's Paradise"
   },
   {
+    "name": "Open Channels",
+    "id": "open-channels",
+    "vendor": "Artisan",
+    "vendor_rank_required": "Rank 2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "TBD",
+    "objectives": "Upgrade the workshop capabilities to the required levels Sensor and RF Processing +1 Electronics Capability +1 Storage Capacity +1 Sensor and RF Processing +1 Electronics Capability +1 Storage Capacity +1"
+  },
+  {
     "name": "Ordnance Delivery",
     "id": "ordnance-delivery",
     "vendor": "Gunny",
@@ -1490,6 +1517,15 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
     "briefing": "Hey, listen. We have more civilians who need our help. The Chichor family was left behind during the UNLRA evacuation, and we need to make sure they make it through this. They live west of Pha Lang, next to the main road, just north of the Pha Lang Airfield. Their home is a semi-decayed building. I have no idea how they even get inside since the doors are barred shut. Maybe that's why they were overlooked; the peacekeepers probably didn’t realize anyone was living there. Please, be kind when you bring them the much-needed aid. They've endured so much, and even before the Event, they were mistreated because of their ethnicity. Oh, and say hi to Makmangkon – she's a lovely doggo.",
     "objectives": "Find the Chichir family and bring them the supplies Bring the supplies to the house in Namhou Village"
+  },
+  {
+    "name": "Precision Work",
+    "id": "precision-work",
+    "vendor": "Artisan",
+    "vendor_rank_required": "Rank 3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Upgrade the electronics workshop to support the crafting of more advanced gadgets.",
+    "objectives": "Upgrade the workshop capabilities to the required levels Mechanical Engineering +3 Electronics Capability +6 Mechanical Engineering +3 Electronics Capability +6"
   },
   {
     "name": "Priceless Possessions",
@@ -1664,8 +1700,11 @@
     "name": "Silent Night",
     "id": "silent-night",
     "vendor": "Gunny",
+    "task_type": "Main Task",
     "location": "RLSL-1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
+    "briefing": "RLSL-1 has seen a significant increase in LAF personnel and supplies despite operating with only a skeleton crew for years. Head to the radio telescope facility, assess the garrison's capabilities, and find out why the LAF is so determined to protect it. Report your findings to Gunny.",
+    "objectives": "Investigate the supply situation at RLSL-1 Locate intel in the adjacent offices Investigate the garages Locate intel in the adjacent offices Investigate the garages Find out more about the RLSL-1 Garrison Investigate the makeshift infirmary and learn more about the attack Search the administrative parts of the barracks and learn more about the garrison's orders Investigate the makeshift infirmary and learn more about the attack Search the administrative parts of the barracks and learn more about the garrison's orders Search the commander's office in the HQ for intel Retrieve the commander's laptop and report back to Gunny Locate the commander's laptop Locate the commander's laptop"
   },
   {
     "name": "Silent Village",
@@ -1791,6 +1830,15 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
     "briefing": "Hey pal, do you know the game Where's Waldo? We're playing something similar on this shitty island; only the game is: Where's that mother fucker Narith? It's frustrating that the piece of shit successfully avoids being found. And we really tried, buddy. No lies. But fortune has smiled upon us. We got a lead - the numero duo of this country Sayavong's right hand Jan Park. This asshole practically lived in the resort and enjoyed the luxuries of this place on a daily basis. What a conceited prick! Go to the resort, find that bastard's big-ass villa, and bring me any information that might lead us to head honcho of this shithole. Hey pal, do you know the game Where's Waldo? We're playing something similar on this shitty island; only the game is: Where's that mother fucker Narith? It's frustrating that the piece of shit successfully avoids being found. And we really tried, buddy. No lies. But fortune has smiled upon us. We got a lead - the numero duo of this country Sayavong's right hand Jan Park. This asshole practically lived in the resort and enjoyed the luxuries of this place on a daily basis. What a conceited prick! Go to the resort, find that bastard's big-ass villa, and bring me any information that might lead us to head honcho of this shithole.",
     "objectives": "Retrieve intel from the villa of the dictator's right-hand man in Midnight Sapphire and report back to Handshake Locate the intel Locate the intel Retrieve the hardware key from Either Midnight Sapphire, Tiger Bay, or Fort Narith"
+  },
+  {
+    "name": "Technical Foundation",
+    "id": "technical-foundation",
+    "vendor": "Artisan",
+    "vendor_rank_required": "Rank 2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "TBD",
+    "objectives": "Upgrade the workshop capabilities to the required levels Sensor and RF Processing +1 Electronics Capability +1 Storage Capacity +1 Sensor and RF Processing +1 Electronics Capability +1 Storage Capacity +1"
   },
   {
     "name": "Terminal Initiative",
@@ -2157,6 +2205,15 @@
     "objectives": "Investigate why the squad guarding the road to the city isn't responding= Inspect the checkpoint on the road to the town Locate the two missing contractors Determine the status of the nearby COP"
   },
   {
+    "name": "Unrestricted Access",
+    "id": "unrestricted-access",
+    "vendor": "Artisan",
+    "vendor_rank_required": "Rank 4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Upgrade the electronics workshop and help Artisan expand her network outside Lamang.",
+    "objectives": "Upgrade the workshop capabilities to the required levels Compute Capacity +9 Compute Capacity +9 Provide Artisan with 500,000$ needed to expand her network outside Lamang"
+  },
+  {
     "name": "Up the Stream",
     "id": "up-the-stream",
     "vendor": "Lab Rat",
@@ -2270,6 +2327,15 @@
     "location": "Fort Narith",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
     "briefing": "Friend, your work ethic is admirable, which is why I'd like to ask you a favor. As you already know, Fort Narith has a new commander, and I have no idea who the man is. That is absolutely unacceptable! As an information broker, I have a reputation to uphold, and being in the dark about something this important makes me look foolish like a baboon, friend. Like a baboon. Head to Forth Narith HQ, and find out who this new commander is. Rest assured, you'll be handsomely rewarded."
+  },
+  {
+    "name": "Wider Reach",
+    "id": "wider-reach",
+    "vendor": "Artisan",
+    "vendor_rank_required": "Rank 3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "TBD",
+    "objectives": "Upgrade the workshop capabilities to the required levels Compute Capacity +3 Compute Capacity +3 Provide Artisan with 150,000$ needed to expand her network outside Lamang"
   },
   {
     "name": "Wing Clipping",

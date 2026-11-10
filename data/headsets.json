@@ -40,6 +40,7 @@
     "sold_by": "Turncoat R.1",
     "buy_price": "$278",
     "manufacturer": "Zavod Luc",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/GSSh-01_icon.png/revision/latest/scale-to-width-down/48?cb=20250620170237",
     "numeric_values": {
       "weight": {
         "value": 0.33,
@@ -87,6 +88,7 @@
     "grid_size": "2x2",
     "sold_by": "???",
     "manufacturer": "Z-Tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/TASC_1_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201631",
     "numeric_values": {
       "weight": {
         "value": 0.16,

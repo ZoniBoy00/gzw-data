@@ -15,6 +15,9 @@
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ III",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/.222_Remington_FMJ_icon.png/revision/latest?cb=20260515221903",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -43,6 +46,9 @@
     "accuracy_modifier": "-2 %",
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ IIIA+",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/.222_Remington_HP_icon.png/revision/latest?cb=20260525140233",
+    "sell_price": "$0.4",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -74,6 +80,9 @@
     "muzzle_velocity": "970 m/s",
     "accuracy_modifier": "-5 %",
     "stopped_by_armor_class": "NIJ I",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/.222_Remington_SP_icon.png/revision/latest?cb=20260525140404",
+    "sell_price": "$0.1",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -101,6 +110,9 @@
     "muzzle_velocity": "1020 m/s",
     "accuracy_modifier": "+7 %",
     "stopped_by_armor_class": "NIJ IIIA",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/.222_Remington_VMax_icon.png/revision/latest?cb=20260525141939",
+    "sell_price": "$0.5",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -137,7 +149,7 @@
     "durability_modifier": "-100 %",
     "stopped_by_armor_class": "NIJ IV",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/AP_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412080042",
-    "sell_price": "$2",
+    "sell_price": "$2.4",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -171,6 +183,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/CQ_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412075727",
+    "sell_price": "$1.1",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -203,6 +217,8 @@
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ III",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/FMJ_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074247",
+    "sell_price": "$0.4",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -231,6 +247,8 @@
     "accuracy_modifier": "-6 %",
     "stopped_by_armor_class": "NIJ IIIA",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Sub_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412075405",
+    "sell_price": "$0.3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.02,
@@ -259,6 +277,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ IIIA",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VMAX_.300_BLK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412074414",
+    "sell_price": "$0.8",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -295,6 +315,8 @@
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/AP_.45_inspect.png/revision/latest/scale-to-width-down/268?cb=20250610112129",
     "stopped_by_armor_class": "NIJ III+",
+    "sell_price": "$1",
+    "sell_price_source": "gzwitems.com",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
@@ -320,6 +342,8 @@
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ I++",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/FMJ_.45_inspect.png/revision/latest?cb=20260414111029",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -349,6 +373,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ I+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Hydra-Shok_inspect.png/revision/latest?cb=20260414113205",
+    "sell_price": "$0.5",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -381,6 +407,8 @@
     "accuracy_modifier": "-2 %",
     "stopped_by_armor_class": "NIJ I",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/JHP_%2BP_.45_inspect.png/revision/latest?cb=20260414113246",
+    "sell_price": "$0.3",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -414,6 +442,8 @@
     "accuracy_modifier": "+38 %",
     "stopped_by_armor_class": "NIJ I",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/00_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085636",
+    "sell_price": "$0.3",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -443,6 +473,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/12ga_FC_00_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414090208",
+    "sell_price": "$0.6",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -476,6 +508,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ I",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414084822",
+    "sell_price": "$0.5",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -509,6 +543,8 @@
     "durability_modifier": "-40 %",
     "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/SST_Slug_12ga_inspect.png/revision/latest/scale-to-width-down/267?cb=20260414085502",
+    "sell_price": "$1.2",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -545,6 +581,8 @@
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/Action_SX_4.6x30_inspect.png/revision/latest/scale-to-width-down/267?cb=20250611220709",
     "stopped_by_armor_class": "NIJ IIIA",
+    "sell_price": "$0.3",
+    "sell_price_source": "gzwitems.com",
     "muzzle_velocity_source": "game-files",
     "sold_by_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -568,7 +606,10 @@
     "sold_by": "Banshee R.3",
     "muzzle_velocity": "680 m/s",
     "accuracy_modifier": "+0 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/AP_SX_4.6x30_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165213",
     "stopped_by_armor_class": "NIJ III+",
+    "sell_price": "$1",
+    "sell_price_source": "gzwitems.com",
     "muzzle_velocity_source": "game-files",
     "sold_by_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -592,7 +633,10 @@
     "sold_by": "Banshee R.1",
     "muzzle_velocity": "620 m/s",
     "accuracy_modifier": "+0 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9f/FMJ_SX_4.6x30_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165216",
     "stopped_by_armor_class": "NIJ IIIA+",
+    "sell_price": "$0.3",
+    "sell_price_source": "gzwitems.com",
     "muzzle_velocity_source": "game-files",
     "sold_by_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -616,7 +660,10 @@
     "sold_by": "Banshee R.1",
     "muzzle_velocity": "290 m/s",
     "accuracy_modifier": "+0 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/Sub_SX_4.6x30_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165212",
     "stopped_by_armor_class": "NIJ IIA",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "muzzle_velocity": {
@@ -644,8 +691,9 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "860 m/s",
     "accuracy_modifier": "+1 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/91/BP_5.45x39_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165952",
     "stopped_by_armor_class": "NIJ IV",
-    "sell_price": "$2",
+    "sell_price": "$2.1",
     "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
@@ -675,7 +723,10 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "840 m/s",
     "accuracy_modifier": "+6 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/BS_5.45x39_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165124",
     "stopped_by_armor_class": "NIJ IV",
+    "sell_price": "$2.1",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
     "weight_source": "game-files",
@@ -705,6 +756,8 @@
     "accuracy_modifier": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/BT_5.45x39_inspect.png/revision/latest?cb=20240507130206",
     "stopped_by_armor_class": "NIJ III++",
+    "sell_price": "$1.1",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -736,6 +789,8 @@
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/FMJ_5.45x39_inspect.png/revision/latest?cb=20240503130831",
     "stopped_by_armor_class": "NIJ III",
+    "sell_price": "$0.3",
+    "sell_price_source": "gzwitems.com",
     "muzzle_velocity_source": "game-files",
     "sold_by_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -765,7 +820,10 @@
     "sold_by": "Turncoat R.2",
     "muzzle_velocity": "880 m/s",
     "accuracy_modifier": "-6 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e0/HP_5.45x39_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165844",
     "stopped_by_armor_class": "NIJ IIIA+",
+    "sell_price": "$0.4",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "sold_by_source": "game-files",
@@ -795,7 +853,10 @@
     "sold_by": "Turncoat R.3",
     "muzzle_velocity": "870 m/s",
     "accuracy_modifier": "+2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/PP_5.45x39_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165149",
     "stopped_by_armor_class": "NIJ III++",
+    "sell_price": "$1.1",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -826,6 +887,8 @@
     "accuracy_modifier": "-2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/PS_5.45x39_inspect.png/revision/latest?cb=20240507130207",
     "stopped_by_armor_class": "NIJ III+",
+    "sell_price": "$0.7",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -854,7 +917,10 @@
     "manufacturer": "General East",
     "muzzle_velocity": "303 m/s",
     "accuracy_modifier": "-6 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b5/US_5.45x39_icon.png/revision/latest/scale-to-width-down/48?cb=20250610232930",
     "stopped_by_armor_class": "NIJ IIIA",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "weight_source": "game-files",
@@ -877,6 +943,8 @@
     "name": "5.45x39mm Wolf",
     "id": "5.45x39mm-wolf",
     "stopped_by_armor_class": "NIJ I",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files"
   },
   {
@@ -891,6 +959,8 @@
     "accuracy_modifier": "-2%",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/WOLF_5.45x39_inspect.png/revision/latest/scale-to-width-down/268?cb=20260508200024",
     "stopped_by_armor_class": "NIJ 0",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -919,6 +989,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/M855_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412073141",
+    "sell_price": "$0.8",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -952,6 +1024,8 @@
     "durability_modifier": "-40%",
     "stopped_by_armor_class": "NIJ III++",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/M855A1_5.56x45_inspect.png/revision/latest?cb=20240505231241",
+    "sell_price": "$1.2",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "weight_source": "game-files",
     "numeric_values": {
@@ -986,6 +1060,8 @@
     "durability_modifier": "-100 %",
     "stopped_by_armor_class": "NIJ IV",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/M995_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404172735",
+    "sell_price": "$2.2",
+    "sell_price_source": "gzwitems.com",
     "muzzle_velocity_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -1018,6 +1094,8 @@
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ III",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/FMJ_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412071354",
+    "sell_price": "$0.3",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.013,
@@ -1046,6 +1124,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ IIIA+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/HPBT_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412072555",
+    "sell_price": "$0.4",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -1111,6 +1191,8 @@
     "accuracy_modifier": "-3 %",
     "stopped_by_armor_class": "NIJ I",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/SP_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412070039",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -1140,6 +1222,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ III+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/M856_5.56x45_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412073343",
+    "sell_price": "$0.8",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "weight_source": "game-files",
     "numeric_values": {
@@ -1170,7 +1254,10 @@
     "manufacturer": "General West",
     "muzzle_velocity": "945 m/s",
     "accuracy_modifier": "-4 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d2/M856A1_5.56x45_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165147",
     "stopped_by_armor_class": "NIJ III++",
+    "sell_price": "$1.2",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "weight_source": "game-files",
@@ -1206,6 +1293,8 @@
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/FMJ_7.62x25mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20250611224547",
     "stopped_by_armor_class": "NIJ II",
+    "sell_price": "$0.1",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -1235,6 +1324,8 @@
     "muzzle_velocity": "430 m/s",
     "accuracy_modifier": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/PST_7.62x25mm_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507130206",
+    "sell_price": "$0.3",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "weight_source": "game-files",
     "numeric_values": {
@@ -1262,6 +1353,8 @@
     "sold_by": "Artisan R.1",
     "muzzle_velocity": "415 m/s",
     "accuracy_modifier": "-2 %",
+    "sell_price": "$0.1",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "sold_by_source": "game-files",
     "weight_source": "game-files",
@@ -1301,6 +1394,9 @@
     "accuracy_modifier": "+2 %",
     "durability_modifier": "-100 %",
     "stopped_by_armor_class": "NIJ IV",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/55/BP_7.62x39_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165434",
+    "sell_price": "$2.3",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "weight_source": "game-files",
     "numeric_values": {
@@ -1332,7 +1428,10 @@
     "sold_by": "Turncoat R.2",
     "muzzle_velocity": "725 m/s",
     "dispersion": "-1 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/PS_7.62x39_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165150",
     "stopped_by_armor_class": "NIJ III+",
+    "sell_price": "$0.9",
+    "sell_price_source": "gzwitems.com",
     "sold_by_source": "game-files",
     "weight_source": "game-files",
     "numeric_values": {
@@ -1362,6 +1461,8 @@
     "accuracy_modifier": "-2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/SP_7.62x39_inspect.png/revision/latest?cb=20240507130207",
     "stopped_by_armor_class": "NIJ I",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
     "weight_source": "game-files",
@@ -1390,7 +1491,10 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "725 m/s",
     "accuracy_modifier": "-3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Tracer_7.62x39_icon.png/revision/latest/scale-to-width-down/48?cb=20250703132733",
     "stopped_by_armor_class": "NIJ III",
+    "sell_price": "$0.4",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
     "weight_source": "game-files",
@@ -1421,6 +1525,8 @@
     "accuracy_modifier": "-6 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/US_7.62x39_inspect.png/revision/latest?cb=20240507130207",
     "stopped_by_armor_class": "NIJ IIIA",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "weight_source": "game-files",
     "numeric_values": {
@@ -1449,7 +1555,7 @@
     "muzzle_velocity": "838 m/s",
     "accuracy_modifier": "+4 %",
     "stopped_by_armor_class": "NIJ IV",
-    "sell_price": "$28",
+    "sell_price": "$2.8",
     "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "weight_source": "game-files",
@@ -1480,6 +1586,8 @@
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ III",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/M80_7.62x51_inspect.png/revision/latest?cb=20240513215111",
+    "sell_price": "$0.5",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.024,
@@ -1505,7 +1613,10 @@
     "sold_by": "Gunny R.3",
     "muzzle_velocity": "835 m/s",
     "accuracy_modifier": "+3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/M80A1_7.62x51_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165141",
     "stopped_by_armor_class": "NIJ III++",
+    "sell_price": "$1.5",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "sold_by_source": "game-files",
     "weight_source": "game-files",
@@ -1534,7 +1645,10 @@
     "sold_by": "Gunny R.3",
     "muzzle_velocity": "800 m/s",
     "dispersion": "-4 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/HPBT_7.62x51_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165557",
     "stopped_by_armor_class": "NIJ IIIA+",
+    "sell_price": "$1.2",
+    "sell_price_source": "gzwitems.com",
     "sold_by_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
     "weight_source": "game-files",
@@ -1569,6 +1683,8 @@
     "muzzle_velocity": "820 m/s",
     "accuracy_modifier": "-4 %",
     "stopped_by_armor_class": "NIJ III",
+    "sell_price": "$0.5",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
@@ -1601,7 +1717,10 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "828 m/s",
     "accuracy_modifier": "+2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/AP_7.62x54R_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165609",
     "stopped_by_armor_class": "NIJ IV++",
+    "sell_price": "$2.7",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
@@ -1629,8 +1748,9 @@
     "sold_by": "Artisan R.2",
     "muzzle_velocity": "828 m/s",
     "accuracy_modifier": "+1 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e0/LPS_7.62x54R_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165136",
     "stopped_by_armor_class": "NIJ III+",
-    "sell_price": "$1",
+    "sell_price": "$1.1",
     "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "sold_by_source": "game-files",
@@ -1660,7 +1780,10 @@
     "sold_by": "Loot only",
     "muzzle_velocity": "830 m/s",
     "accuracy_modifier": "+5 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/SR_7.62x54R_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165154",
     "stopped_by_armor_class": "NIJ IVA+",
+    "sell_price": "$2.5",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -1690,7 +1813,10 @@
     "sold_by": "Artisan R.3",
     "muzzle_velocity": "830 m/s",
     "accuracy_modifier": "-3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Tracer_7.62x54R_icon.png/revision/latest/scale-to-width-down/48?cb=20250620165159",
     "stopped_by_armor_class": "NIJ III++",
+    "sell_price": "$1.4",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "sold_by_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -1722,6 +1848,8 @@
     "accuracy_modifier": "+0 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/FMJ_7.65_B_inspect.png/revision/latest?cb=20240507130207",
     "stopped_by_armor_class": "NIJ IIA",
+    "sell_price": "$0.1",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "weight_source": "game-files",
     "numeric_values": {
@@ -1751,6 +1879,8 @@
     "accuracy_modifier": "-4 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/JHP_7.65_B_inspect.png/revision/latest?cb=20240507130205",
     "stopped_by_armor_class": "NIJ I",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -1782,6 +1912,8 @@
     "accuracy_modifier": "-2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/XD_7.65_B_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612223159",
     "stopped_by_armor_class": "NIJ II+",
+    "sell_price": "$0.4",
+    "sell_price_source": "gzwitems.com",
     "accuracy_modifier_source": "game-files",
     "muzzle_velocity_source": "game-files",
     "stopped_by_armor_class_source": "game-files",
@@ -1822,6 +1954,8 @@
     "accuracy_modifier": "+0 %",
     "stopped_by_armor_class": "NIJ IIA",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b0/FMJ_9x19_inspect.png/revision/latest?cb=20260414103621",
+    "sell_price": "$0.1",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.012,
@@ -1849,6 +1983,8 @@
     "accuracy_modifier": "-3 %",
     "stopped_by_armor_class": "NIJ I++",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/HP_9x19_inspect.png/revision/latest?cb=20260414104120",
+    "sell_price": "$0.2",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -1912,6 +2048,8 @@
     "accuracy_modifier": "-4 %",
     "stopped_by_armor_class": "NIJ IIA",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/Tracer_9x19_inspect.png/revision/latest?cb=20260414104417",
+    "sell_price": "$0.1",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.013,
@@ -1940,6 +2078,8 @@
     "durability_modifier": "-15 %",
     "stopped_by_armor_class": "NIJ IIIA+",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/Xp%2B9x19_inspect.png/revision/latest?cb=20260414104838",
+    "sell_price": "$0.4",
+    "sell_price_source": "gzwitems.com",
     "stopped_by_armor_class_source": "game-files",
     "numeric_values": {
       "weight": {

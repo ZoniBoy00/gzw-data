@@ -2,112 +2,93 @@
   {
     "name": "6B47 Ratnik",
     "id": "6b47-ratnik",
-    "weight": "1;200kg",
+    "type": "Helmet",
+    "weight": "1.1kg",
     "grid_size": "2x2",
+    "sold_by": "Turncoat R.1",
+    "sell_price": "$120",
+    "buy_price": "$400",
     "material": "Aramid",
-    "nij_class": "NIJ IIA",
+    "nij_class": "NIJ II",
+    "rain_protection": "10%",
     "manufacturer": "Armokom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/6B47_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509011544"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/41/6B47_Ratnik_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190508",
+    "numeric_values": {
+      "weight": {
+        "value": 1.1,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "AMP-1 TP LC (Ranger Green)",
     "id": "amp-1-tp-lc-ranger-green",
-    "weight": "1.400kg",
+    "type": "Helmet",
+    "weight": "1.4kg",
     "grid_size": "2x2",
-    "sold_by": "Loot only",
-    "material": "Aramid",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$975",
+    "buy_price": "$3,250",
+    "material": "UHMWPE",
     "nij_class": "NIJ IIIA+",
+    "rain_protection": "30%",
     "manufacturer": "Busch Protective",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/AMP-1_TP_LC%28Ranger_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505152450",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/AMP-1_TP_LC_%28Ranger_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190512",
     "numeric_values": {
       "weight": {
         "value": 1.4,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
       }
     }
   },
   {
     "name": "AMP-1 TP LC (UNLRA)",
     "id": "amp-1-tp-lc-unlra",
-    "weight": "1.690kg",
+    "type": "Helmet",
+    "weight": "1.4kg",
     "grid_size": "2x2",
     "sold_by": "Loot only",
-    "material": "Aramid",
+    "sell_price": "$975",
+    "material": "UHMWPE",
     "nij_class": "NIJ IIIA+",
+    "rain_protection": "30%",
     "manufacturer": "Busch Protective",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/AMP-1_TP_LC_%28UNLRA%29_icon.png/revision/latest?cb=20250703121031",
     "numeric_values": {
       "weight": {
-        "value": 1.69,
+        "value": 1.4,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
       }
     }
   },
   {
     "name": "AMP-1 TP MC (Ranger Green)",
     "id": "amp-1-tp-mc-ranger-green",
-    "weight": "1.630kg",
+    "type": "Helmet",
+    "weight": "1.25kg",
     "grid_size": "2x2",
-    "sold_by": "Looting",
-    "material": "Aramid",
+    "sold_by": "Loot only",
+    "sell_price": "$975",
+    "material": "UHMWPE",
     "nij_class": "NIJ IIIA+",
+    "rain_protection": "30%",
     "manufacturer": "Busch Protective",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/AMP-1_TP_MC_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509004445",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/AMP-1_TP_MC_%28Ranger_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509004445",
     "numeric_values": {
       "weight": {
-        "value": 1.63,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Bandana (Blue)",
-    "id": "bandana-blue",
-    "weight": "0.060kg",
-    "grid_size": "1x1",
-    "rain_protection": "+0 %",
-    "manufacturer": "FKH int. comp.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/Bandana%28Blue%29_inspect.png/revision/latest?cb=20250621182710",
-    "numeric_values": {
-      "weight": {
-        "value": 0.06,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 0.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Bandana (Red)",
-    "id": "bandana-red",
-    "weight": "0.060kg",
-    "grid_size": "1x1",
-    "rain_protection": "+0 %",
-    "manufacturer": "FKH int. comp.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Bandana%28Red%29_inspect.png/revision/latest?cb=20250621182715",
-    "numeric_values": {
-      "weight": {
-        "value": 0.06,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 0.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Baseball Cap (Black)",
-    "id": "baseball-cap-black",
-    "weight": "0.080kg",
-    "grid_size": "1x1",
-    "sold_by": "Handshake R.1",
-    "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/BCap%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509012445",
-    "numeric_values": {
-      "weight": {
-        "value": 0.08,
+        "value": 1.25,
         "unit": "kg"
       },
       "rain_protection": {
@@ -117,161 +98,51 @@
     }
   },
   {
-    "name": "Baseball Cap (Blue)",
-    "id": "baseball-cap-blue",
-    "weight": "0.080kg",
-    "grid_size": "1x1",
-    "sold_by": "Handshake R.1",
-    "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/BCap%28Blue%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182718",
-    "numeric_values": {
-      "weight": {
-        "value": 0.08,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 30.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Baseball Cap (Green)",
-    "id": "baseball-cap-green",
-    "weight": "0.080kg",
-    "grid_size": "1x1",
-    "sold_by": "Handshake R.1",
-    "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/BCap%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182722",
-    "numeric_values": {
-      "weight": {
-        "value": 0.08,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 30.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Baseball Cap (Khaki)",
-    "id": "baseball-cap-khaki",
-    "weight": "0.11 kg",
-    "grid_size": "1x1",
-    "sold_by": "Handshake R.1",
-    "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/BCap%28Khaki%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182727",
-    "weight_source": "game-files",
-    "numeric_values": {
-      "weight": {
-        "value": 0.11,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 30.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Baseball Cap (Red)",
-    "id": "baseball-cap-red",
-    "weight": "0.080kg",
-    "grid_size": "1x1",
-    "sold_by": "Handshake R.1",
-    "rain_protection": "+30 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/BCap%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182731",
-    "numeric_values": {
-      "weight": {
-        "value": 0.08,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 30.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Beret (Black)",
-    "id": "beret-black",
-    "weight": "0.060kg",
-    "grid_size": "1x1",
-    "sold_by": "Loot only",
-    "slots": "1",
-    "rain_protection": "+20 %",
-    "manufacturer": "Force Paw",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/Beret%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515141651",
-    "numeric_values": {
-      "weight": {
-        "value": 0.06,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 20.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Beret (Green)",
-    "id": "beret-green",
-    "weight": "0.060kg",
-    "grid_size": "1x1",
-    "sold_by": "Loot only",
-    "slots": "1",
-    "rain_protection": "+20 %",
-    "manufacturer": "General East",
-    "numeric_values": {
-      "weight": {
-        "value": 0.06,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 20.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Beret (Red)",
-    "id": "beret-red",
-    "weight": "0.060kg",
-    "grid_size": "1x1",
-    "sold_by": "Loot only",
-    "slots": "1",
-    "rain_protection": "+20 %",
-    "manufacturer": "FKH Int. Comp.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Beret%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182735",
-    "numeric_values": {
-      "weight": {
-        "value": 0.06,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 20.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "CPU Hat Nyco Ripstop",
-    "id": "cpu-hat-nyco-ripstop",
-    "weight": "0.113kg",
+    "name": "BK-ACH",
+    "id": "bk-ach",
+    "type": "Helmet",
+    "weight": "1.4kg",
     "grid_size": "2x2",
     "sold_by": "Handshake R.3",
-    "rain_protection": "+50 %",
-    "manufacturer": "Helikon-Tex",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/CPUHat_inspect.png/revision/latest?cb=20240509015202",
-    "grid_size_source": "game-files",
+    "sell_price": "$345",
+    "buy_price": "$1,150",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "10%",
+    "manufacturer": "Gared",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/BK-ACH_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190517",
     "numeric_values": {
       "weight": {
-        "value": 0.113,
+        "value": 1.4,
         "unit": "kg"
       },
       "rain_protection": {
-        "value": 50.0,
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "BK-ACH-HC",
+    "id": "bk-ach-hc",
+    "type": "Helmet",
+    "weight": "1.3kg",
+    "grid_size": "2x2",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$315",
+    "buy_price": "$1,050",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "10%",
+    "manufacturer": "Gared",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/BK-ACH-HC_inspect.png/revision/latest?cb=20261105190524",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
         "unit": "%"
       }
     }
@@ -279,56 +150,49 @@
   {
     "name": "EXFIL (Coyote Brown)",
     "id": "exfil-coyote-brown",
-    "weight": "1.180kg",
+    "type": "Helmet",
+    "weight": "1.18kg",
     "grid_size": "2x2",
     "sold_by": "Handshake R.4",
+    "sell_price": "$630",
+    "buy_price": "$2,100",
     "material": "UHMWPE",
     "nij_class": "NIJ IIIA",
+    "rain_protection": "30%",
     "manufacturer": "Team Wendy",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/EXFIL%28Coyote_Brown%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150547",
-    "sold_by_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/EXFIL_%28Coyote_Brown%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190529",
     "numeric_values": {
       "weight": {
         "value": 1.18,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
       }
     }
   },
   {
     "name": "EXFIL (Multicam)",
     "id": "exfil-multicam",
-    "weight": "1.180kg",
+    "type": "Helmet",
+    "weight": "1.18kg",
     "grid_size": "2x2",
     "sold_by": "Handshake R.4",
+    "sell_price": "$681",
+    "buy_price": "$2,270",
     "material": "UHMWPE",
     "nij_class": "NIJ IIIA",
+    "rain_protection": "30%",
     "manufacturer": "Team Wendy",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/EXFIL%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150631",
-    "sold_by_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6e/EXFIL_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190534",
     "numeric_values": {
       "weight": {
         "value": 1.18,
         "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "ExSOF Cap",
-    "id": "exsof-cap",
-    "weight": "0.080kg",
-    "grid_size": "1x1",
-    "sold_by": "Banshee R.2",
-    "rain_protection": "+50 %",
-    "manufacturer": "ExSOF Sec",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/ExCap_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509014220",
-    "sold_by_source": "game-files",
-    "numeric_values": {
-      "weight": {
-        "value": 0.08,
-        "unit": "kg"
       },
       "rain_protection": {
-        "value": 50.0,
+        "value": 30.0,
         "unit": "%"
       }
     }
@@ -336,49 +200,67 @@
   {
     "name": "FAST MT (Multicam)",
     "id": "fast-mt-multicam",
-    "weight": "0.693kg",
+    "type": "Helmet",
+    "weight": "1.1kg",
     "grid_size": "2x2",
     "sold_by": "Handshake R.4",
-    "material": "Aramid",
-    "nij_class": "NIJ IIIA+",
+    "sell_price": "$705",
+    "buy_price": "$2,350",
+    "material": "UHMWPE",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "30%",
     "manufacturer": "Ops-Core",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/FAST_MT%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505152008",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/FAST_MT_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190538",
     "numeric_values": {
       "weight": {
-        "value": 0.693,
+        "value": 1.1,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
       }
     }
   },
   {
     "name": "FAST MT (Tan)",
     "id": "fast-mt-tan",
-    "weight": "0.693kg",
+    "type": "Helmet",
+    "weight": "1.05kg",
     "grid_size": "2x2",
     "sold_by": "Handshake R.4",
-    "material": "Aramid",
-    "nij_class": "NIJ IIIA+",
+    "sell_price": "$690",
+    "buy_price": "$2,300",
+    "material": "UHMWPE",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "30%",
     "manufacturer": "Ops-Core",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/FAST_MT%28Tan%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250609082442",
-    "sold_by_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6b/FAST_MT_%28Tan%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190544",
     "numeric_values": {
       "weight": {
-        "value": 0.693,
+        "value": 1.05,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
       }
     }
   },
   {
     "name": "FAST XP HC (Multicam)",
     "id": "fast-xp-hc-multicam",
-    "weight": "1.250kg",
+    "type": "Helmet",
+    "weight": "1.25kg",
     "grid_size": "2x2",
-    "sold_by": "Looting",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$624",
+    "buy_price": "$2,080",
     "material": "UHMWPE",
     "nij_class": "NIJ IIIA",
-    "rain_protection": "+30%",
+    "rain_protection": "30%",
     "manufacturer": "Ops-Core",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/FAST_XP_HC_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260523040642",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/FAST_XP_HC_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190549",
     "numeric_values": {
       "weight": {
         "value": 1.25,
@@ -393,14 +275,17 @@
   {
     "name": "FAST XP HC (Olive)",
     "id": "fast-xp-hc-olive",
-    "weight": "1.250kg",
+    "type": "Helmet",
+    "weight": "1.25kg",
     "grid_size": "2x2",
-    "sold_by": "Looting",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$615",
+    "buy_price": "$2,050",
     "material": "UHMWPE",
     "nij_class": "NIJ IIIA",
-    "rain_protection": "+30%",
+    "rain_protection": "30%",
     "manufacturer": "Ops-Core",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/FAST_XP_HC_%28Olive%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260523041219",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/FAST_XP_HC_%28Olive%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190600",
     "numeric_values": {
       "weight": {
         "value": 1.25,
@@ -413,54 +298,19 @@
     }
   },
   {
-    "name": "Headscarf (Black)",
-    "id": "headscarf-black",
-    "weight": "0.060kg",
-    "grid_size": "1x1",
-    "rain_protection": "+0 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/HScarf%28Black%29_inspect.png/revision/latest?cb=20250621182801",
-    "numeric_values": {
-      "weight": {
-        "value": 0.06,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 0.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Leafy Boonie (Camo)",
-    "id": "leafy-boonie-camo",
-    "weight": "0.140kg",
+    "name": "LShZ 1+",
+    "id": "lshz-1+",
+    "type": "Helmet",
+    "weight": "1.3kg",
     "grid_size": "2x2",
-    "sold_by": "Handshake R.4",
-    "rain_protection": "+60 %",
-    "manufacturer": "General East",
-    "grid_size_source": "game-files",
-    "numeric_values": {
-      "weight": {
-        "value": 0.14,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 60.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "LSHZ 1+ (Black)",
-    "id": "lshz-1+-black",
-    "weight": "1.300kg",
-    "grid_size": "2x2",
-    "sold_by": "Loot only",
+    "sold_by": "Turncoat R.3",
+    "sell_price": "$495",
+    "buy_price": "$1,650",
     "material": "Aramid",
     "nij_class": "NIJ IIIA",
-    "rain_protection": "+10%",
+    "rain_protection": "10%",
     "manufacturer": "Armokom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/LShZ%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509005651",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/LShZ_1%2B_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190410",
     "numeric_values": {
       "weight": {
         "value": 1.3,
@@ -473,74 +323,117 @@
     }
   },
   {
-    "name": "LSHZ 1+ (Multicam)",
+    "name": "LShZ 1+ (Multicam)",
     "id": "lshz-1+-multicam",
-    "weight": "1.100kg",
+    "type": "Helmet",
+    "weight": "1.3kg",
     "grid_size": "2x2",
+    "sold_by": "Turncoat R.3",
+    "sell_price": "$510",
+    "buy_price": "$1,700",
     "material": "Aramid",
-    "nij_class": "NIJ IIA+",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "10%",
     "manufacturer": "Armokom",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/LShZ%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509005713",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/LShZ_1%2B_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190405",
     "numeric_values": {
       "weight": {
-        "value": 1.1,
+        "value": 1.3,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
       }
     }
   },
   {
-    "name": "M1 (Ace of Hearts)",
+    "name": "M1 (Ace Of Hearts)",
     "id": "m1-ace-of-hearts",
-    "weight": "1.430kg",
+    "type": "Helmet",
+    "weight": "1.43kg",
     "grid_size": "2x2",
-    "sold_by": "Twitch Drop",
+    "sold_by": "Twitch drop",
+    "sell_price": "$75",
     "material": "Steel",
     "nij_class": "NIJ I",
+    "rain_protection": "10%",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/M1_%28Ace_of_Hearts%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260704033323",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/M1_%28Ace_Of_Hearts%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201333",
     "numeric_values": {
       "weight": {
         "value": 1.43,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
       }
     }
   },
   {
-    "name": "M1 (Ace of Spades)",
+    "name": "M1 (Ace Of Spades)",
     "id": "m1-ace-of-spades",
-    "weight": "1.430kg",
+    "type": "Helmet",
+    "weight": "1.43kg",
     "grid_size": "2x2",
-    "sold_by": "Twitch Drop",
+    "sold_by": "Twitch drop",
+    "sell_price": "$75",
     "material": "Steel",
     "nij_class": "NIJ I",
+    "rain_protection": "10%",
     "manufacturer": "General West",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d5/M1_%28Ace_of_Spades%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260705045633",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/M1_%28Ace_Of_Spades%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260705045633",
     "numeric_values": {
       "weight": {
         "value": 1.43,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
       }
     }
   },
   {
     "name": "MICH LC",
     "id": "mich-lc",
-    "grid_size": "2x2",
-    "sold_by": "Looting",
-    "nij_class": "NIJ IIIA"
-  },
-  {
-    "name": "Mich TC-2000 (Black)",
-    "id": "mich-tc-2000-black",
     "type": "Helmet",
-    "weight": "1.500kg",
+    "weight": "1.6kg",
     "grid_size": "2x2",
-    "sold_by": "Loot only",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$186",
+    "buy_price": "$620",
     "material": "Aramid",
     "nij_class": "NIJ IIIA",
-    "rain_protection": "+20%",
+    "rain_protection": "20%",
+    "manufacturer": "Aholdtech",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/44/MICH_LC_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190416",
+    "numeric_values": {
+      "weight": {
+        "value": 1.6,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "MICH TC-2000 (Black)",
+    "id": "mich-tc-2000-black",
+    "type": "Helmet",
+    "weight": "1.5kg",
+    "grid_size": "2x2",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$246",
+    "buy_price": "$820",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "20%",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/TC-2000%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260606121103",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f4/MICH_TC-2000_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190419",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -553,36 +446,51 @@
     }
   },
   {
-    "name": "Mich TC-2000 (Ranger Green)",
+    "name": "MICH TC-2000 (Green)",
     "id": "mich-tc-2000-ranger-green",
-    "weight": "1.250kg",
+    "type": "Helmet",
+    "weight": "1.5kg",
     "grid_size": "2x2",
-    "sold_by": "Handshake R.1",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$195",
+    "buy_price": "$650",
     "material": "Aramid",
     "nij_class": "NIJ IIIA",
+    "rain_protection": "20%",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/TC-2000%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505150959",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/MICH_TC-2000_%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190425",
     "numeric_values": {
       "weight": {
-        "value": 1.25,
+        "value": 1.5,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
       }
     }
   },
   {
-    "name": "Mich TC-2000 (UNLRA)",
+    "name": "MICH TC-2000 (UNLRA)",
     "id": "mich-tc-2000-unlra",
-    "weight": "1.250kg",
+    "type": "Helmet",
+    "weight": "1.5kg",
     "grid_size": "2x2",
     "sold_by": "Loot only",
+    "sell_price": "$240",
     "material": "Aramid",
     "nij_class": "NIJ IIIA",
-    "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/TC-2000%28UNLRA%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505173435",
+    "rain_protection": "20%",
+    "manufacturer": "UNOPS",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/MICH_TC-2000_%28UNLRA%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505173435",
     "numeric_values": {
       "weight": {
-        "value": 1.25,
+        "value": 1.5,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
       }
     }
   },
@@ -606,72 +514,49 @@
   {
     "name": "MICH TC-2002 (Green)",
     "id": "mich-tc-2002-green",
-    "weight": "1.230kg",
+    "type": "Helmet",
+    "weight": "1.5kg",
     "grid_size": "2x2",
-    "sold_by": "Loot only",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$465",
+    "buy_price": "$1,550",
     "material": "Aramid",
     "nij_class": "NIJ IIIA",
+    "rain_protection": "30%",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/TC-2002%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505151503",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/MICH_TC-2002_%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190428",
     "numeric_values": {
       "weight": {
-        "value": 1.23,
+        "value": 1.5,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
       }
     }
   },
   {
     "name": "MICH TC-2002 (Tan)",
     "id": "mich-tc-2002-tan",
-    "weight": "1.230kg",
+    "type": "Helmet",
+    "weight": "1.5kg",
     "grid_size": "2x2",
     "sold_by": "Handshake R.3",
+    "sell_price": "$435",
+    "buy_price": "$1,450",
     "material": "Aramid",
     "nij_class": "NIJ IIIA",
+    "rain_protection": "30%",
     "manufacturer": "MSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/TC-2002%28Tan%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505151522",
-    "sold_by_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/MICH_TC-2002_%28Tan%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190435",
     "numeric_values": {
       "weight": {
-        "value": 1.23,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Military Cap",
-    "id": "military-cap",
-    "weight": "0.070kg",
-    "grid_size": "1x1",
-    "sold_by": "Loot only",
-    "rain_protection": "+40 %",
-    "manufacturer": "General East",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/MilCap_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509014635",
-    "numeric_values": {
-      "weight": {
-        "value": 0.07,
+        "value": 1.5,
         "unit": "kg"
       },
       "rain_protection": {
-        "value": 40.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "Pandatac Trucker Cap",
-    "id": "pandatac-trucker-cap",
-    "weight": "0.110kg",
-    "grid_size": "1x1",
-    "sold_by": "Handshake R.2",
-    "rain_protection": "+50 %",
-    "numeric_values": {
-      "weight": {
-        "value": 0.11,
-        "unit": "kg"
-      },
-      "rain_protection": {
-        "value": 50.0,
+        "value": 30.0,
         "unit": "%"
       }
     }
@@ -679,30 +564,41 @@
   {
     "name": "PASGT",
     "id": "pasgt",
-    "weight": "1.430kg",
+    "type": "Helmet",
+    "weight": "1.6kg",
     "grid_size": "2x2",
     "sold_by": "Handshake R.2",
-    "material": "UHMWPE",
-    "nij_class": "NIJ IIIA",
-    "sold_by_source": "game-files",
+    "sell_price": "$150",
+    "buy_price": "$500",
+    "material": "Aramid",
+    "nij_class": "NIJ II+",
+    "rain_protection": "25%",
+    "manufacturer": "Aholdtech",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/PASGT_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190440",
     "numeric_values": {
       "weight": {
-        "value": 1.43,
+        "value": 1.6,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 25.0,
+        "unit": "%"
       }
     }
   },
   {
     "name": "QGF-03 (Ghillie)",
     "id": "qgf-03-ghillie",
-    "weight": "1.250kg",
+    "type": "Helmet",
+    "weight": "1.25kg",
     "grid_size": "2x2",
-    "sold_by": "??",
+    "sold_by": "Loot only",
+    "sell_price": "$228",
     "material": "Aramid",
     "nij_class": "NIJ IIIA",
-    "rain_protection": "+20 %",
+    "rain_protection": "20%",
     "manufacturer": "Chinese Military",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/QGF-03_%28Ghillie%29_inspect.png/revision/latest?cb=20260331092053",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/QGF-03_%28Ghillie%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105193953",
     "numeric_values": {
       "weight": {
         "value": 1.25,
@@ -715,21 +611,49 @@
     }
   },
   {
-    "name": "Regiment Cap",
-    "id": "regiment-cap",
-    "weight": "0.110kg",
-    "grid_size": "1x1",
-    "sold_by": "Handshake R.1",
-    "rain_protection": "+50 %",
-    "manufacturer": "General West",
-    "sold_by_source": "game-files",
+    "name": "QGF-03 (LAF Cover)",
+    "id": "qgf-03-laf-cover",
+    "type": "Helmet",
+    "weight": "1.25kg",
+    "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$216",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "20%",
+    "manufacturer": "Chinese Military",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ec/QGF-03_%28LAF_Cover%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105193948",
     "numeric_values": {
       "weight": {
-        "value": 0.11,
+        "value": 1.25,
         "unit": "kg"
       },
       "rain_protection": {
-        "value": 50.0,
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "QGF-03 (Woodland)",
+    "id": "qgf-03-woodland",
+    "type": "Helmet",
+    "weight": "1.25kg",
+    "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$216",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "20%",
+    "manufacturer": "Chinese Military",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/QGF-03_%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105210122",
+    "numeric_values": {
+      "weight": {
+        "value": 1.25,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
         "unit": "%"
       }
     }
@@ -737,9 +661,14 @@
   {
     "name": "Skull Crusher",
     "id": "skull-crusher",
-    "weight": "0.280kg",
+    "type": "Helmet",
+    "weight": "0.28kg",
     "grid_size": "2x2",
-    "sold_by": "Handshake R.1 Banshee R.1",
+    "sold_by": "Banshee R.1 Handshake R.1",
+    "sell_price": "$31",
+    "buy_price": "$105",
+    "manufacturer": "Raptor Tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Skull_Crusher_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190445",
     "numeric_values": {
       "weight": {
         "value": 0.28,
@@ -750,25 +679,50 @@
   {
     "name": "SSh-60",
     "id": "ssh-60",
+    "type": "Helmet",
+    "weight": "1.3kg",
     "grid_size": "2x2",
     "sold_by": "Artisan R.1",
+    "sell_price": "$45",
+    "buy_price": "$150",
     "material": "Steel",
-    "nij_class": "NIJ I"
+    "nij_class": "NIJ I",
+    "rain_protection": "10%",
+    "manufacturer": "NII Stali",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/SSh-60_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190450",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
   },
   {
     "name": "SSh-68N",
     "id": "ssh-68n",
-    "weight": "2.000kg",
+    "type": "Helmet",
+    "weight": "2kg",
     "grid_size": "2x2",
-    "sold_by": "Loot only",
+    "sold_by": "Artisan R.1",
+    "sell_price": "$60",
+    "buy_price": "$200",
     "material": "Steel",
     "nij_class": "NIJ I",
+    "rain_protection": "10%",
     "manufacturer": "NII Stali",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/SSh-68N_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509010916",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/SSh-68N_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190456",
     "numeric_values": {
       "weight": {
         "value": 2.0,
         "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
       }
     }
   },
@@ -787,6 +741,102 @@
       },
       "rain_protection": {
         "value": 50.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Tor-L",
+    "id": "tor-l",
+    "type": "Helmet",
+    "weight": "1.2kg",
+    "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$525",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "30%",
+    "manufacturer": "Classcom",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/Tor-L_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190501",
+    "numeric_values": {
+      "weight": {
+        "value": 1.2,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Type 66",
+    "id": "type-66",
+    "type": "Helmet",
+    "weight": "1.4kg",
+    "grid_size": "2x2",
+    "sold_by": "Artisan R.1",
+    "sell_price": "$75",
+    "buy_price": "$250",
+    "material": "Steel",
+    "nij_class": "NIJ I",
+    "rain_protection": "10%",
+    "manufacturer": "Kawasaki Steel Corporation",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Type_66_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105190504",
+    "numeric_values": {
+      "weight": {
+        "value": 1.4,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Type 88",
+    "id": "type-88",
+    "type": "Helmet",
+    "weight": "1.3kg",
+    "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$180",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "20%",
+    "manufacturer": "Kawasaki Steel Corporation",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Type 88 (Type 2)",
+    "id": "type-88-type-2",
+    "type": "Helmet",
+    "weight": "1.3kg",
+    "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$210",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "rain_protection": "20%",
+    "manufacturer": "Kawasaki Steel Corporation",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/Type_88_%28Type_2%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201336",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
         "unit": "%"
       }
     }

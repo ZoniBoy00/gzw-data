@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Advanced Hacking Tool",
+    "id": "advanced-hacking-tool",
+    "type": "Hacking Tool",
+    "weight": "1kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Advanced_Hacking_Tool_inspect.png/revision/latest?cb=20261026020132",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Basic Hacking Tool",
+    "id": "basic-hacking-tool",
+    "type": "Hacking Tool",
+    "weight": "1kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Basic_Hacking_Tool_inspect.png/revision/latest?cb=20261109202100",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Superior Hacking Tool",
+    "id": "superior-hacking-tool",
+    "type": "Hacking Tool",
+    "weight": "1kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5b/Superior_Hacking_Tool_inspect.png/revision/latest?cb=20261028195047",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  }
+]

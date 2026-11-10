@@ -6,7 +6,7 @@
     "weight": "1,180kg",
     "grid_size": "2x2",
     "sell_price": "$249",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Acumulator_Drill.png/revision/latest/scale-to-width-down/200?cb=20260419122005"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Acumulator_Drill_icon.png/revision/latest/scale-to-width-down/48?cb=20260420114742"
   },
   {
     "name": "Brake Fluid",
@@ -75,6 +75,7 @@
     "weight": "2.000kg",
     "grid_size": "2x2",
     "sell_price": "$55",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Broken_Jigsaw_icon.png/revision/latest/scale-to-width-down/48?cb=20260403234749",
     "grid_size_source": "game-files",
     "numeric_values": {
       "weight": {
@@ -90,6 +91,7 @@
     "weight": "2.500kg",
     "grid_size": "2x2",
     "sell_price": "$75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Broken_Nailgun_icon.png/revision/latest/scale-to-width-down/48?cb=20260404004748",
     "numeric_values": {
       "weight": {
         "value": 2.5,
@@ -118,8 +120,9 @@
     "type": "Workshop SUpplies",
     "weight": "0.122kg",
     "grid_size": "1x2",
-    "sell_price": "$???",
+    "sell_price": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/Broken_Wrench_inspect.png/revision/latest?cb=20260331090737",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.122,
@@ -165,6 +168,7 @@
     "weight": "0.27 kg",
     "grid_size": "1x2",
     "sell_price": "$54",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Multitool_icon.png/revision/latest/scale-to-width-down/48?cb=20260403230748",
     "grid_size_source": "game-files",
     "weight_source": "game-files",
     "numeric_values": {

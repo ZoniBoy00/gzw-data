@@ -1,0 +1,686 @@
+[
+  {
+    "name": "Backwards Baseball Cap (Blue)",
+    "id": "backwards-baseball-cap-blue",
+    "type": "Hat",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$1",
+    "manufacturer": "Sunset Cap Company",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/Backwards_Baseball_Cap_%28Blue%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143914",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Backwards Baseball Cap (Green)",
+    "id": "backwards-baseball-cap-green",
+    "type": "Hat",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$1",
+    "manufacturer": "Sunset Cap Company",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/Backwards_Baseball_Cap_%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203528",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bandana (Blue)",
+    "id": "bandana-blue",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "manufacturer": "FKH int. comp.",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Bandana_%28Blue%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203500",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bandana (Red)",
+    "id": "bandana-red",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "manufacturer": "FKH int. comp.",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Bandana_%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203456",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bandana (Woodland)",
+    "id": "bandana-woodland",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$1",
+    "manufacturer": "FKH int. comp.",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/Bandana_%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203524",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Baseball Cap (Black)",
+    "id": "baseball-cap-black",
+    "type": "Hat",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.1",
+    "sell_price": "$1",
+    "buy_price": "$5",
+    "rain_protection": "30%",
+    "manufacturer": "Sunset Cap Company",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Baseball_Cap_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509012445",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Baseball Cap (Blue)",
+    "id": "baseball-cap-blue",
+    "type": "Hat",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "rain_protection": "30%",
+    "manufacturer": "Naksu Dress",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/18/Baseball_Cap_%28Blue%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182718",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Baseball Cap (Green)",
+    "id": "baseball-cap-green",
+    "type": "Hat",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "rain_protection": "30%",
+    "manufacturer": "Naksu Dress",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Baseball_Cap_%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224758",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Baseball Cap (Hacker)",
+    "id": "baseball-cap-hacker",
+    "type": "Hat",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "sold_by": "Twitch drop",
+    "sell_price": "$1",
+    "rain_protection": "20%",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Baseball_Cap_%28Hacker%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203652",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Baseball Cap (Khaki)",
+    "id": "baseball-cap-khaki",
+    "type": "Hat",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$2",
+    "rain_protection": "30%",
+    "manufacturer": "Mil-Tec",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/Baseball_Cap_%28Khaki%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182727",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Baseball Cap (Red)",
+    "id": "baseball-cap-red",
+    "type": "Hat",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "rain_protection": "30%",
+    "manufacturer": "Naksu Dress",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Baseball_Cap_%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224806",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Beret (Black)",
+    "id": "beret-black",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$3",
+    "rain_protection": "20%",
+    "manufacturer": "Force Paw",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Beret_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203511",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Beret (Green)",
+    "id": "beret-green",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$4",
+    "rain_protection": "20%",
+    "manufacturer": "General East",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/Beret_%28Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203519",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Beret (Lamang Armed Forces)",
+    "id": "beret-lamang-armed-forces",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$4",
+    "manufacturer": "General East",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/Beret_%28Lamang_Armed_Forces%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143912",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Beret (Red)",
+    "id": "beret-red",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$4",
+    "rain_protection": "20%",
+    "manufacturer": "FKH int. comp.",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6e/Beret_%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203515",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Boonie Hat (Olive)",
+    "id": "boonie-hat-olive",
+    "type": "Hat",
+    "weight": "0.1kg",
+    "grid_size": "2x2",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$1",
+    "buy_price": "$6",
+    "rain_protection": "40%",
+    "manufacturer": "Mil-Tec",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Boonie_Hat_%28Olive%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203659",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Boonie Hat (Sand)",
+    "id": "boonie-hat-sand",
+    "type": "Hat",
+    "weight": "0.1kg",
+    "grid_size": "2x2",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$1",
+    "buy_price": "$6",
+    "rain_protection": "40%",
+    "manufacturer": "Westrooper",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/Boonie_Hat_%28Sand%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203702",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Boonie Hat (Woodland)",
+    "id": "boonie-hat-woodland",
+    "type": "Hat",
+    "weight": "0.1kg",
+    "grid_size": "2x2",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$2",
+    "buy_price": "$9",
+    "rain_protection": "40%",
+    "manufacturer": "Tru-Spec",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/Boonie_Hat_%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203552",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Buran's Beret",
+    "id": "burans-beret",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$3",
+    "manufacturer": "Force Paw",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Buran%27s_Beret_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143909",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Colonel's Beret",
+    "id": "colonels-beret",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$4",
+    "manufacturer": "Force Paw",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "CPU Hat Nyco Ripstop",
+    "id": "cpu-hat-nyco-ripstop",
+    "type": "Hat",
+    "weight": "0.113kg",
+    "grid_size": "2x2",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$4",
+    "buy_price": "$14",
+    "rain_protection": "50%",
+    "manufacturer": "Helikon-Tex",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/CPU_Hat_Nyco_Ripstop_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203556",
+    "numeric_values": {
+      "weight": {
+        "value": 0.113,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "ExSOF Cap",
+    "id": "exsof-cap",
+    "type": "Hat",
+    "weight": "0.08kg",
+    "grid_size": "1x1",
+    "sold_by": "Banshee R.2",
+    "sell_price": "$4",
+    "buy_price": "$15",
+    "rain_protection": "50%",
+    "manufacturer": "ExSOF Sec",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/ExSOF_Cap_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105224824",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Headscarf (Black Pattern)",
+    "id": "headscarf-black-pattern",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "manufacturer": "Mil-Tec",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Headscarf_%28Black_Pattern%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203507",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Headscarf (Black)",
+    "id": "headscarf-black",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "manufacturer": "Mil-Tec",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Headscarf_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203504",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Headscarf (Green Pattern)",
+    "id": "headscarf-green-pattern",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "manufacturer": "Mil-Tec",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Headscarf (Red)",
+    "id": "headscarf-red",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "manufacturer": "Mil-Tec",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Lamang Armed Forces Cap",
+    "id": "lamang-armed-forces-cap",
+    "type": "Hat",
+    "weight": "0.07kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$3",
+    "rain_protection": "40%",
+    "manufacturer": "General East",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Lamang_Armed_Forces_Cap_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143916",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Leafy Boonie (Camo)",
+    "id": "leafy-boonie-camo",
+    "type": "Hat",
+    "weight": "0.14kg",
+    "grid_size": "2x2",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$4",
+    "buy_price": "$16",
+    "rain_protection": "60%",
+    "manufacturer": "General East",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/Leafy_Boonie_%28Camo%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203606",
+    "numeric_values": {
+      "weight": {
+        "value": 0.14,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 60.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "LLA Vintage Cap",
+    "id": "lla-vintage-cap",
+    "type": "Hat",
+    "weight": "0.09kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$1",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/LLA_Vintage_Cap_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203522",
+    "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Military Cap",
+    "id": "military-cap",
+    "type": "Hat",
+    "weight": "0.07kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$3",
+    "rain_protection": "40%",
+    "manufacturer": "General East",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Military_Cap_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143919",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Pandatac Trucker Cap",
+    "id": "pandatac-trucker-cap",
+    "type": "Hat",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$1",
+    "buy_price": "$6",
+    "rain_protection": "50%",
+    "manufacturer": "Pandatac",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Pandatac_Trucker_Cap_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203611",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "REGIMENT Cap",
+    "id": "regiment-cap",
+    "type": "Hat",
+    "weight": "0.11kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.1",
+    "sell_price": "$3",
+    "buy_price": "$12",
+    "rain_protection": "50%",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/REGIMENT_Cap_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105203616",
+    "numeric_values": {
+      "weight": {
+        "value": 0.11,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Shemagh (Red)",
+    "id": "shemagh-red",
+    "type": "Hat",
+    "weight": "0.125kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$0",
+    "rain_protection": "10%",
+    "manufacturer": "FKH int. comp.",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Shemagh_%28Red%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106203526",
+    "numeric_values": {
+      "weight": {
+        "value": 0.125,
+        "unit": "kg"
+      },
+      "rain_protection": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Yen's Beret",
+    "id": "yens-beret",
+    "type": "Hat",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only",
+    "sell_price": "$4",
+    "manufacturer": "Force Paw",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Yen%27s_Beret_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143910",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
+  }
+]

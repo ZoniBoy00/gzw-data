@@ -382,6 +382,15 @@
     "objectives": "Locate the supplies at the prepper's house Search for the supplies elsewhere"
   },
   {
+    "name": "Hustling the Hustler",
+    "id": "hustling-the-hustler",
+    "vendor": "Handshake",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
+    "briefing": "An LAF informant attempted to double-cross Handshake. Eliminate LAF soldiers as retribution, retrieve the flash drive from the building next to the air control tower at Fort Narith, and stash it at the designated drop-off point.",
+    "objectives": "Eliminate the LAF hostiles at Fort Narith (0/5) Secure the flash drive and store it at the designated drop-off point Locate the flash drive stored at the Airfield Back Entrance Locate the flash drive stored at the Airfield Back Entrance"
+  },
+  {
     "name": "In the Trenches",
     "id": "in-the-trenches",
     "vendor": "Turncoat",

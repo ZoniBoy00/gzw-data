@@ -3,11 +3,11 @@
     "name": "Black Credit Card",
     "id": "black-credit-card",
     "type": "Funds",
-    "weight": "0.005 kg",
+    "weight": "0.005kg",
     "grid_size": "1x1",
+    "manufacturer": "General West",
     "sell_price": "$15,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/BCCArd_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182734",
-    "weight_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Black_Credit_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182734",
     "numeric_values": {
       "weight": {
         "value": 0.005,
@@ -21,8 +21,9 @@
     "type": "Funds",
     "weight": "0.005kg",
     "grid_size": "1x1",
+    "manufacturer": "General West",
     "sell_price": "$600",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/CCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422042432",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Common_Credit_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422042432",
     "numeric_values": {
       "weight": {
         "value": 0.005,
@@ -36,8 +37,9 @@
     "type": "Funds",
     "weight": "0.005kg",
     "grid_size": "1x1",
+    "manufacturer": "General West",
     "sell_price": "$2,200",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/GCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506122148",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8d/Gold_Credit_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506122148",
     "numeric_values": {
       "weight": {
         "value": 0.005,
@@ -51,8 +53,9 @@
     "type": "Funds",
     "weight": "0.005kg",
     "grid_size": "1x1",
+    "manufacturer": "General West",
     "sell_price": "$6,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/PCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250424014800",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e7/Platinum_Credit_Card_inspect.png/revision/latest/scale-to-width-down/268?cb=20250424014800",
     "numeric_values": {
       "weight": {
         "value": 0.005,

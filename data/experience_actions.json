@@ -14,6 +14,13 @@
     "experience": 15
   },
   {
+    "name": "Lamang Liberation Army / Bandits (Tier 1 areas)",
+    "id": "rebels-bandits-tier-1-areas",
+    "category": "Lamang enemies kill EXP",
+    "action": "Lamang Liberation Army / Bandits (Tier 1 areas)",
+    "experience": 5
+  },
+  {
     "name": "Landing Zones",
     "id": "landing-zones",
     "category": "Discovering POIs",
@@ -47,13 +54,6 @@
     "category": "Discovering POIs",
     "action": "Points of Interest",
     "experience": 30
-  },
-  {
-    "name": "Rebels / Bandits (Tier 1 areas)",
-    "id": "rebels-bandits-tier-1-areas",
-    "category": "Lamang enemies kill EXP",
-    "action": "Rebels / Bandits (Tier 1 areas)",
-    "experience": 5
   },
   {
     "name": "Rebels/Bandits (Tier 2 and 3 areas)",

@@ -344,13 +344,24 @@
     "type": "Collimator"
   },
   {
-    "name": "6B23-1(Flora) (Turncoat)",
+    "name": "6B23-1 (Flora) (Turncoat)",
     "id": "turncoat-vests-6b23-1-flora",
-    "item": "6B23-1(Flora)",
+    "item": "6B23-1 (Flora)",
     "vendor": "Turncoat",
     "rank": 3,
     "category": "vests",
-    "type": "Ballistic Vest"
+    "type": "Armor Vest",
+    "buy_price": "$2,300"
+  },
+  {
+    "name": "6B47 Ratnik (Turncoat)",
+    "id": "turncoat-helmets-6b47-ratnik",
+    "item": "6B47 Ratnik",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$400"
   },
   {
     "name": "6Sh104 (Turncoat)",
@@ -558,7 +569,8 @@
     "vendor": "Lab Rat",
     "rank": 1,
     "category": "medical",
-    "type": "Pill"
+    "type": "Pill",
+    "buy_price": "$18"
   },
   {
     "name": "ADE Advanced Red Laser (Gunny)",
@@ -596,16 +608,8 @@
     "vendor": "Lab Rat",
     "rank": 4,
     "category": "medical",
-    "type": "Splint"
-  },
-  {
-    "name": "Advanced Tracking Tag (Banshee)",
-    "id": "banshee-items-advanced-tracking-tag",
-    "item": "Advanced Tracking Tag",
-    "vendor": "Banshee",
-    "rank": 3,
-    "category": "items",
-    "buy_price": "$899"
+    "type": "Splint",
+    "buy_price": "$58"
   },
   {
     "name": "AFG-2 (Gunny)",
@@ -1142,13 +1146,24 @@
     "type": "Tactical Rig"
   },
   {
+    "name": "AMP-1 TP LC (Ranger Green) (Handshake)",
+    "id": "handshake-helmets-amp-1-tp-lc-ranger-green",
+    "item": "AMP-1 TP LC (Ranger Green)",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$3,250"
+  },
+  {
     "name": "AMP12 (Handshake)",
     "id": "handshake-backpacks-amp12",
     "item": "AMP12",
     "vendor": "Handshake",
     "rank": 3,
     "category": "backpacks",
-    "type": "Backpack"
+    "type": "Backpack",
+    "buy_price": "$810"
   },
   {
     "name": "AN/PVS-14 Night Vision Device (Banshee)",
@@ -1176,6 +1191,15 @@
     "rank": 2,
     "category": "night_vision",
     "type": "Night Vision"
+  },
+  {
+    "name": "Aques Water 1 l (Lab Rat)",
+    "id": "lab-rat-drinks-aques-water-1-l",
+    "item": "Aques Water 1 l",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "drinks",
+    "type": "Drink"
   },
   {
     "name": "AR-15 Archangel Low-Profile Buttstock (Gunny)",
@@ -1306,7 +1330,18 @@
     "vendor": "Lab Rat",
     "rank": 2,
     "category": "medical",
-    "type": "Bandage"
+    "type": "Bandage",
+    "buy_price": "$31"
+  },
+  {
+    "name": "Assault Backpack (Turncoat)",
+    "id": "turncoat-backpacks-assault-backpack",
+    "item": "Assault Backpack",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "backpacks",
+    "type": "Backpack",
+    "buy_price": "$150"
   },
   {
     "name": "ATBV Vest (Turncoat)",
@@ -1315,7 +1350,8 @@
     "vendor": "Turncoat",
     "rank": 2,
     "category": "vests",
-    "type": "Ballistic Vest"
+    "type": "Armor Vest",
+    "buy_price": "$1,700"
   },
   {
     "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine (Gunny)",
@@ -1365,6 +1401,26 @@
     "type": "Rear Iron Sight"
   },
   {
+    "name": "Balaclava (Black) (Handshake)",
+    "id": "handshake-face-mask-balaclava-black",
+    "item": "Balaclava (Black)",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "face_mask",
+    "type": "Face Mask",
+    "buy_price": "$8"
+  },
+  {
+    "name": "Ballistic M Frame 3.0 (Clear) (Handshake)",
+    "id": "handshake-glasses-ballistic-m-frame-3-0-clear",
+    "item": "Ballistic M Frame 3.0 (Clear)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "glasses",
+    "type": "Glasses",
+    "buy_price": "$88"
+  },
+  {
     "name": "BANISH 45 Suppressor (Banshee)",
     "id": "banshee-suppressors-banish-45-suppressor",
     "item": "BANISH 45 Suppressor",
@@ -1380,48 +1436,19 @@
     "item": "Baseball Cap (Black)",
     "vendor": "Handshake",
     "rank": 1,
-    "category": "helmets"
-  },
-  {
-    "name": "Baseball Cap (Blue) (Handshake)",
-    "id": "handshake-helmets-baseball-cap-blue",
-    "item": "Baseball Cap (Blue)",
-    "vendor": "Handshake",
-    "rank": 1,
-    "category": "helmets"
-  },
-  {
-    "name": "Baseball Cap (Green) (Handshake)",
-    "id": "handshake-helmets-baseball-cap-green",
-    "item": "Baseball Cap (Green)",
-    "vendor": "Handshake",
-    "rank": 1,
-    "category": "helmets"
-  },
-  {
-    "name": "Baseball Cap (Khaki) (Handshake)",
-    "id": "handshake-helmets-baseball-cap-khaki",
-    "item": "Baseball Cap (Khaki)",
-    "vendor": "Handshake",
-    "rank": 1,
-    "category": "helmets"
-  },
-  {
-    "name": "Baseball Cap (Red) (Handshake)",
-    "id": "handshake-helmets-baseball-cap-red",
-    "item": "Baseball Cap (Red)",
-    "vendor": "Handshake",
-    "rank": 1,
-    "category": "helmets"
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$5"
   },
   {
     "name": "Basic Surgical & Suture Kit (Lab Rat)",
     "id": "lab-rat-medical-basic-surgical-suture-kit",
     "item": "Basic Surgical & Suture Kit",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 4,
     "category": "medical",
-    "type": "Surgery Kit"
+    "type": "Surgery Kit",
+    "buy_price": "$650"
   },
   {
     "name": "Basic Tracking Tag (Banshee)",
@@ -1461,6 +1488,26 @@
     "type": "Tactical Rig"
   },
   {
+    "name": "BK-ACH (Handshake)",
+    "id": "handshake-helmets-bk-ach",
+    "item": "BK-ACH",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$1,150"
+  },
+  {
+    "name": "BK-ACH-HC (Handshake)",
+    "id": "handshake-helmets-bk-ach-hc",
+    "item": "BK-ACH-HC",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$1,050"
+  },
+  {
     "name": "BM-1 AKM Accessory Mount (Artisan)",
     "id": "artisan-mounts-bm-1-akm-accessory-mount",
     "item": "BM-1 AKM Accessory Mount",
@@ -1469,6 +1516,36 @@
     "category": "mounts",
     "type": "Mount",
     "buy_price": "$124"
+  },
+  {
+    "name": "Boonie Hat (Olive) (Handshake)",
+    "id": "handshake-hat-boonie-hat-olive",
+    "item": "Boonie Hat (Olive)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$6"
+  },
+  {
+    "name": "Boonie Hat (Sand) (Handshake)",
+    "id": "handshake-hat-boonie-hat-sand",
+    "item": "Boonie Hat (Sand)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$6"
+  },
+  {
+    "name": "Boonie Hat (Woodland) (Handshake)",
+    "id": "handshake-hat-boonie-hat-woodland",
+    "item": "Boonie Hat (Woodland)",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$9"
   },
   {
     "name": "Buran's AK 5.45×39mm 30-Round Magazine (Turncoat)",
@@ -1490,13 +1567,14 @@
     "type": "Assault Rifle"
   },
   {
-    "name": "C2 Bag combat compact backpack (Handshake)",
+    "name": "C2 BAG Combat Compact Backpack (Handshake)",
     "id": "handshake-backpacks-c2-bag-combat-compact-backpack",
-    "item": "C2 Bag combat compact backpack",
+    "item": "C2 BAG Combat Compact Backpack",
     "vendor": "Handshake",
-    "rank": null,
+    "rank": 2,
     "category": "backpacks",
-    "type": "Backpack"
+    "type": "Backpack",
+    "buy_price": "$432"
   },
   {
     "name": "Camera Wiretap (Handshake)",
@@ -1533,16 +1611,18 @@
     "vendor": "Lab Rat",
     "rank": 1,
     "category": "medical",
-    "type": "Splint"
+    "type": "Splint",
+    "buy_price": "$16"
   },
   {
-    "name": "Civilian Leather Fanny Pack (Artisan)",
-    "id": "artisan-belts-civilian-leather-fanny-pack",
-    "item": "Civilian Leather Fanny Pack",
-    "vendor": "Artisan",
+    "name": "Civilian Gauze (Lab Rat)",
+    "id": "lab-rat-medical-civilian-gauze",
+    "item": "Civilian Gauze",
+    "vendor": "Lab Rat",
     "rank": 1,
-    "category": "belts",
-    "type": "Belt"
+    "category": "medical",
+    "type": "Bandage",
+    "buy_price": "$9"
   },
   {
     "name": "Civilian Sport Fanny Pack (Artisan)",
@@ -1551,16 +1631,18 @@
     "vendor": "Artisan",
     "rank": 1,
     "category": "belts",
-    "type": "Belt"
+    "type": "Belt",
+    "buy_price": "$49"
   },
   {
-    "name": "Civilian Trekstars 70L Backpack (Artisan)",
+    "name": "Civilian Trekstars 70L (Artisan)",
     "id": "artisan-backpacks-civilian-trekstars-70l-backpack",
-    "item": "Civilian Trekstars 70L Backpack",
+    "item": "Civilian Trekstars 70L",
     "vendor": "Artisan",
     "rank": 4,
     "category": "backpacks",
-    "type": "Backpack"
+    "type": "Backpack",
+    "buy_price": "$1,200"
   },
   {
     "name": "Coco Jumbo Coconut Juice Drink (Lab Rat)",
@@ -1587,9 +1669,10 @@
     "id": "lab-rat-medical-combat-tourniquet",
     "item": "Combat Tourniquet",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 3,
     "category": "medical",
-    "type": "Tourniquet"
+    "type": "Tourniquet",
+    "buy_price": "$82"
   },
   {
     "name": "Commander (Black) (Handshake)",
@@ -1598,7 +1681,8 @@
     "vendor": "Handshake",
     "rank": 1,
     "category": "vests",
-    "type": "Armor vest"
+    "type": "Armor Vest",
+    "buy_price": "$400"
   },
   {
     "name": "Commander (Navy) (Handshake)",
@@ -1607,7 +1691,8 @@
     "vendor": "Handshake",
     "rank": 1,
     "category": "vests",
-    "type": "Armor vest"
+    "type": "Armor Vest",
+    "buy_price": "$400"
   },
   {
     "name": "Commander (Olive) (Handshake)",
@@ -1616,7 +1701,18 @@
     "vendor": "Handshake",
     "rank": 1,
     "category": "vests",
-    "type": "Armor vest"
+    "type": "Armor Vest",
+    "buy_price": "$400"
+  },
+  {
+    "name": "Condor (Clear) (Handshake)",
+    "id": "handshake-glasses-condor-clear",
+    "item": "Condor (Clear)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "glasses",
+    "type": "Glasses",
+    "buy_price": "$48"
   },
   {
     "name": "Construction Earmuffs (Artisan)",
@@ -1628,12 +1724,24 @@
     "type": "Headset"
   },
   {
+    "name": "Covert Tactical Body Armour (Woodland) (Handshake)",
+    "id": "handshake-vests-covert-tactical-body-armour-woodland",
+    "item": "Covert Tactical Body Armour (Woodland)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "vests",
+    "type": "Armor Vest",
+    "buy_price": "$1,500"
+  },
+  {
     "name": "CPU Hat Nyco Ripstop (Handshake)",
     "id": "handshake-helmets-cpu-hat-nyco-ripstop",
     "item": "CPU Hat Nyco Ripstop",
     "vendor": "Handshake",
     "rank": 3,
-    "category": "helmets"
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$14"
   },
   {
     "name": "CQ A1 (Gunny)",
@@ -1715,7 +1823,18 @@
     "vendor": "Turncoat",
     "rank": 2,
     "category": "belts",
-    "type": "Belt"
+    "type": "Belt",
+    "buy_price": "$110"
+  },
+  {
+    "name": "CZ 4M HORNET Green (Handshake)",
+    "id": "handshake-vests-cz-4m-hornet-green",
+    "item": "CZ 4M HORNET Green",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "vests",
+    "type": "Armor Vest",
+    "buy_price": "$2,400"
   },
   {
     "name": "CZ VIP (Black) (Handshake)",
@@ -1724,7 +1843,8 @@
     "vendor": "Handshake",
     "rank": 2,
     "category": "vests",
-    "type": "Ballistic Vest"
+    "type": "Armor Vest",
+    "buy_price": "$1,100"
   },
   {
     "name": "Dark Star Iced Coffee (Lab Rat)",
@@ -1811,7 +1931,18 @@
     "vendor": "Turncoat",
     "rank": 4,
     "category": "backpacks",
-    "type": "Backpack"
+    "type": "Backpack",
+    "buy_price": "$1,650"
+  },
+  {
+    "name": "Desert Locust (Clear) (Handshake)",
+    "id": "handshake-glasses-desert-locust-clear",
+    "item": "Desert Locust (Clear)",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "glasses",
+    "type": "Glasses",
+    "buy_price": "$125"
   },
   {
     "name": "Dog Leg Rail (Turncoat)",
@@ -1821,15 +1952,6 @@
     "rank": 3,
     "category": "upper_receivers",
     "type": "Upper Receiver"
-  },
-  {
-    "name": "DT-0X (Lab Rat)",
-    "id": "lab-rat-medical-dt-0x",
-    "item": "DT-0X",
-    "vendor": "Lab Rat",
-    "rank": 4,
-    "category": "medical",
-    "type": "Stimulator"
   },
   {
     "name": "DT-2 NGS Edition night vision device (Multicam) (Banshee)",
@@ -1856,9 +1978,10 @@
     "id": "lab-rat-medical-emergency-suture-kit",
     "item": "Emergency Suture Kit",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 2,
     "category": "medical",
-    "type": "Surgery Kit"
+    "type": "Surgery Kit",
+    "buy_price": "$180"
   },
   {
     "name": "Energy Bar Nuts and Fruits (Lab Rat)",
@@ -1869,15 +1992,6 @@
     "category": "food",
     "type": "Food",
     "buy_price": "$21"
-  },
-  {
-    "name": "EPO (Lab Rat)",
-    "id": "lab-rat-medical-epo",
-    "item": "EPO",
-    "vendor": "Lab Rat",
-    "rank": 3,
-    "category": "medical",
-    "type": "Stimulator"
   },
   {
     "name": "Equipment Repair Essentials Kit (Handshake)",
@@ -1895,7 +2009,9 @@
     "item": "EXFIL (Coyote Brown)",
     "vendor": "Handshake",
     "rank": 4,
-    "category": "helmets"
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$2,100"
   },
   {
     "name": "EXFIL (Multicam) (Handshake)",
@@ -1903,7 +2019,9 @@
     "item": "EXFIL (Multicam)",
     "vendor": "Handshake",
     "rank": 4,
-    "category": "helmets"
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$2,270"
   },
   {
     "name": "ExSOF Cap (Banshee)",
@@ -1911,7 +2029,9 @@
     "item": "ExSOF Cap",
     "vendor": "Banshee",
     "rank": 2,
-    "category": "helmets"
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$15"
   },
   {
     "name": "F-1 (Turncoat)",
@@ -1938,7 +2058,9 @@
     "item": "FAST MT (Multicam)",
     "vendor": "Handshake",
     "rank": 4,
-    "category": "helmets"
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$2,350"
   },
   {
     "name": "FAST MT (Tan) (Handshake)",
@@ -1946,7 +2068,29 @@
     "item": "FAST MT (Tan)",
     "vendor": "Handshake",
     "rank": 4,
-    "category": "helmets"
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$2,300"
+  },
+  {
+    "name": "FAST XP HC (Multicam) (Handshake)",
+    "id": "handshake-helmets-fast-xp-hc-multicam",
+    "item": "FAST XP HC (Multicam)",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$2,080"
+  },
+  {
+    "name": "FAST XP HC (Olive) (Handshake)",
+    "id": "handshake-helmets-fast-xp-hc-olive",
+    "item": "FAST XP HC (Olive)",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$2,050"
   },
   {
     "name": "Firearm Cleaning Set (Gunny)",
@@ -1984,7 +2128,8 @@
     "vendor": "Lab Rat",
     "rank": 3,
     "category": "medical",
-    "type": "Splint"
+    "type": "Splint",
+    "buy_price": "$36"
   },
   {
     "name": "Folding Micro Front Iron Sight (Gunny)",
@@ -2005,13 +2150,24 @@
     "type": "Rear Iron Sight"
   },
   {
+    "name": "Gatorz Delta (Handshake)",
+    "id": "handshake-glasses-gatorz-delta",
+    "item": "Gatorz Delta",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "glasses",
+    "type": "Glasses",
+    "buy_price": "$143"
+  },
+  {
     "name": "Gatorz Magnum (Black) (Handshake)",
     "id": "handshake-glasses-gatorz-magnum-black",
     "item": "Gatorz Magnum (Black)",
     "vendor": "Handshake",
     "rank": 4,
     "category": "glasses",
-    "type": "Glasses"
+    "type": "Glasses",
+    "buy_price": "$157"
   },
   {
     "name": "Glock 17 9x19mm 17-Round Magazine (Gunny)",
@@ -2166,7 +2322,8 @@
     "vendor": "Handshake",
     "rank": 1,
     "category": "backpacks",
-    "type": "Backpack"
+    "type": "Backpack",
+    "buy_price": "$250"
   },
   {
     "name": "Gunsmith Tool Set (Gunny)",
@@ -2184,8 +2341,29 @@
     "item": "Half mask (Black)",
     "vendor": "Handshake",
     "rank": 4,
-    "category": "face_cover",
-    "type": "Face Mask"
+    "category": "face_mask",
+    "type": "Face Mask",
+    "buy_price": "$16"
+  },
+  {
+    "name": "Half mask (Multicam) (Handshake)",
+    "id": "handshake-face-mask-half-mask-multicam",
+    "item": "Half mask (Multicam)",
+    "vendor": "Handshake",
+    "rank": 4,
+    "category": "face_mask",
+    "type": "Face Mask",
+    "buy_price": "$16"
+  },
+  {
+    "name": "Half mask (Olive) (Handshake)",
+    "id": "handshake-face-mask-half-mask-olive",
+    "item": "Half mask (Olive)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "face_mask",
+    "type": "Face Mask",
+    "buy_price": "$5"
   },
   {
     "name": "Half Mask (Woodland) (Handshake)",
@@ -2193,8 +2371,9 @@
     "item": "Half Mask (Woodland)",
     "vendor": "Handshake",
     "rank": 3,
-    "category": "face_cover",
-    "type": "Face Mask"
+    "category": "face_mask",
+    "type": "Face Mask",
+    "buy_price": "$12"
   },
   {
     "name": "Hand Grenade Storage Box (Turncoat)",
@@ -2253,15 +2432,6 @@
     "type": "Rear Iron Sight"
   },
   {
-    "name": "HpR 3-S (Lab Rat)",
-    "id": "lab-rat-medical-hpr-3-s",
-    "item": "HpR 3-S",
-    "vendor": "Lab Rat",
-    "rank": 3,
-    "category": "medical",
-    "type": "Stimulator"
-  },
-  {
     "name": "HS507C X2 Reflex Sight (Banshee)",
     "id": "banshee-collimators-hs507c-x2-reflex-sight",
     "item": "HS507C X2 Reflex Sight",
@@ -2295,9 +2465,20 @@
     "id": "lab-rat-medical-ibalin",
     "item": "Ibalin",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 2,
     "category": "medical",
-    "type": "Pill"
+    "type": "Pill",
+    "buy_price": "$8"
+  },
+  {
+    "name": "Ibalin Bottle (Lab Rat)",
+    "id": "lab-rat-medical-ibalin-bottle",
+    "item": "Ibalin Bottle",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "medical",
+    "type": "Pill",
+    "buy_price": "$24"
   },
   {
     "name": "Impact Sport (Banshee)",
@@ -2327,6 +2508,16 @@
     "category": "containers",
     "type": "Container",
     "buy_price": "$61,665"
+  },
+  {
+    "name": "JDEN Jam Ball (Artisan)",
+    "id": "artisan-backpacks-jden-jam-ball",
+    "item": "JDEN Jam Ball",
+    "vendor": "Artisan",
+    "rank": 2,
+    "category": "backpacks",
+    "type": "Backpack",
+    "buy_price": "$150"
   },
   {
     "name": "Kaps Classic 4x36 OC (Gunny)",
@@ -2403,7 +2594,8 @@
     "vendor": "Banshee",
     "rank": 2,
     "category": "helmet_mounts",
-    "type": "Mount"
+    "type": "Headwear",
+    "buy_price": "$661"
   },
   {
     "name": "L403A1 (Gunny)",
@@ -2419,18 +2611,20 @@
     "id": "lab-rat-medical-large-blood-bag",
     "item": "Large Blood Bag",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 4,
     "category": "medical",
-    "type": "IV"
+    "type": "IV",
+    "buy_price": "$980"
   },
   {
     "name": "Large Hemostatic Syringe (Lab Rat)",
     "id": "lab-rat-medical-large-hemostatic-syringe",
     "item": "Large Hemostatic Syringe",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 4,
     "category": "medical",
-    "type": "Syringe"
+    "type": "Syringe",
+    "buy_price": "$210"
   },
   {
     "name": "Large Key Case (Artisan)",
@@ -2457,7 +2651,9 @@
     "item": "Leafy Boonie (Camo)",
     "vendor": "Handshake",
     "rank": 4,
-    "category": "helmets"
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$16"
   },
   {
     "name": "LEAP/01 Mount (Gunny)",
@@ -2495,7 +2691,8 @@
     "vendor": "Turncoat",
     "rank": 4,
     "category": "belts",
-    "type": "Belt"
+    "type": "Belt",
+    "buy_price": "$245"
   },
   {
     "name": "Light Mount V-Block and Rings (Banshee)",
@@ -2505,6 +2702,16 @@
     "rank": 2,
     "category": "mounts",
     "type": "Mount"
+  },
+  {
+    "name": "Lightweight Combat Belt (Turncoat)",
+    "id": "turncoat-belts-lightweight-combat-belt",
+    "item": "Lightweight Combat Belt",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "belts",
+    "type": "Belt",
+    "buy_price": "$150"
   },
   {
     "name": "Low Profile O-ring - 30mm (Gunny)",
@@ -2536,6 +2743,26 @@
     "type": "Mount"
   },
   {
+    "name": "LShZ 1+ (Multicam) (Turncoat)",
+    "id": "turncoat-helmets-lshz-1-multicam",
+    "item": "LShZ 1+ (Multicam)",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$1,700"
+  },
+  {
+    "name": "LShZ 1+ (Turncoat)",
+    "id": "turncoat-helmets-lshz-1",
+    "item": "LShZ 1+",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$1,650"
+  },
+  {
     "name": "Lucky Pork Liver Pâté (Lab Rat)",
     "id": "lab-rat-food-lucky-pork-liver-p-t",
     "item": "Lucky Pork Liver Pâté",
@@ -2546,13 +2773,34 @@
     "buy_price": "$29"
   },
   {
+    "name": "LVS Overt (Ranger Green) (Handshake)",
+    "id": "handshake-vests-lvs-overt-ranger-green",
+    "item": "LVS Overt (Ranger Green)",
+    "vendor": "Handshake",
+    "rank": 1,
+    "category": "vests",
+    "type": "Armor Vest",
+    "buy_price": "$700"
+  },
+  {
     "name": "LVS Tactical (Multicam) (Handshake)",
     "id": "handshake-vests-lvs-tactical-multicam",
     "item": "LVS Tactical (Multicam)",
     "vendor": "Handshake",
     "rank": 4,
     "category": "vests",
-    "type": "Ballistic Vest"
+    "type": "Armor Vest",
+    "buy_price": "$4,000"
+  },
+  {
+    "name": "LVS Tactical (Ranger Green) (Handshake)",
+    "id": "handshake-vests-lvs-tactical-ranger-green",
+    "item": "LVS Tactical (Ranger Green)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "vests",
+    "type": "Armor Vest",
+    "buy_price": "$1,900"
   },
   {
     "name": "M-LOK Rail - 3 slot (Gunny)",
@@ -2601,7 +2849,8 @@
     "vendor": "Lab Rat",
     "rank": 2,
     "category": "medical",
-    "type": "Tourniquet"
+    "type": "Tourniquet",
+    "buy_price": "$65"
   },
   {
     "name": "M1050R Binocular (Banshee)",
@@ -3099,7 +3348,8 @@
     "vendor": "Handshake",
     "rank": 3,
     "category": "belts",
-    "type": "Belt"
+    "type": "Belt",
+    "buy_price": "$180"
   },
   {
     "name": "MCX/MPX Minimalist Folding Stock (Banshee)",
@@ -3136,18 +3386,30 @@
     "id": "lab-rat-medical-medium-blood-bag",
     "item": "Medium Blood Bag",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 3,
     "category": "medical",
-    "type": "IV"
+    "type": "IV",
+    "buy_price": "$750"
   },
   {
     "name": "Meloxicam (Lab Rat)",
     "id": "lab-rat-medical-meloxicam",
     "item": "Meloxicam",
     "vendor": "Lab Rat",
-    "rank": 1,
+    "rank": 3,
     "category": "medical",
-    "type": "Pill"
+    "type": "Pill",
+    "buy_price": "$16"
+  },
+  {
+    "name": "Meloxicam Bottle (Lab Rat)",
+    "id": "lab-rat-medical-meloxicam-bottle",
+    "item": "Meloxicam Bottle",
+    "vendor": "Lab Rat",
+    "rank": 3,
+    "category": "medical",
+    "type": "Pill",
+    "buy_price": "$48"
   },
   {
     "name": "Metal Ammo Box (Turncoat)",
@@ -3160,15 +3422,6 @@
     "buy_price": "$60,278"
   },
   {
-    "name": "Methylphenidate (Lab Rat)",
-    "id": "lab-rat-medical-methylphenidate",
-    "item": "Methylphenidate",
-    "vendor": "Lab Rat",
-    "rank": 3,
-    "category": "medical",
-    "type": "Stimulator"
-  },
-  {
     "name": "MIAD Pistol Grip (Gunny)",
     "id": "gunny-pistol-grips-miad-pistol-grip",
     "item": "MIAD Pistol Grip",
@@ -3179,12 +3432,44 @@
     "buy_price": "$204"
   },
   {
-    "name": "Mich TC-2000 (Ranger Green) (Handshake)",
-    "id": "handshake-helmets-mich-tc-2000-ranger-green",
-    "item": "Mich TC-2000 (Ranger Green)",
+    "name": "MICH LC (Handshake)",
+    "id": "handshake-helmets-mich-lc",
+    "item": "MICH LC",
     "vendor": "Handshake",
-    "rank": 1,
-    "category": "helmets"
+    "rank": 2,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$620"
+  },
+  {
+    "name": "MICH TC-2000 (Black) (Handshake)",
+    "id": "handshake-helmets-mich-tc-2000-black",
+    "item": "MICH TC-2000 (Black)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$820"
+  },
+  {
+    "name": "MICH TC-2000 (Green) (Handshake)",
+    "id": "handshake-helmets-mich-tc-2000-ranger-green",
+    "item": "MICH TC-2000 (Green)",
+    "vendor": "Handshake",
+    "rank": 2,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$650"
+  },
+  {
+    "name": "MICH TC-2002 (Green) (Handshake)",
+    "id": "handshake-helmets-mich-tc-2002-green",
+    "item": "MICH TC-2002 (Green)",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$1,550"
   },
   {
     "name": "MICH TC-2002 (Tan) (Handshake)",
@@ -3192,7 +3477,9 @@
     "item": "MICH TC-2002 (Tan)",
     "vendor": "Handshake",
     "rank": 3,
-    "category": "helmets"
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$1,450"
   },
   {
     "name": "Micro T-1 Red Dot Sight (Banshee)",
@@ -3268,16 +3555,8 @@
     "vendor": "Artisan",
     "rank": 1,
     "category": "vests",
-    "type": "Ballistic Vest"
-  },
-  {
-    "name": "Morphine (Lab Rat)",
-    "id": "lab-rat-medical-morphine",
-    "item": "Morphine",
-    "vendor": "Lab Rat",
-    "rank": 4,
-    "category": "medical",
-    "type": "Painkiller (Autoinjector)"
+    "type": "Armor Vest",
+    "buy_price": "$300"
   },
   {
     "name": "Mortar Round Crate (Gunny)",
@@ -3419,9 +3698,10 @@
     "id": "lab-rat-medical-moxifloxacin",
     "item": "Moxifloxacin",
     "vendor": "Lab Rat",
-    "rank": 2,
+    "rank": 3,
     "category": "medical",
-    "type": "Pill"
+    "type": "Pill",
+    "buy_price": "$125"
   },
   {
     "name": "MP5 (Gunny)",
@@ -3721,15 +4001,6 @@
     "buy_price": "$17"
   },
   {
-    "name": "ORI-12 (Lab Rat)",
-    "id": "lab-rat-medical-ori-12",
-    "item": "ORI-12",
-    "vendor": "Lab Rat",
-    "rank": 3,
-    "category": "medical",
-    "type": "Stimulator"
-  },
-  {
     "name": "P40 Warhawk Slide (Banshee)",
     "id": "banshee-slides-p40-warhawk-slide",
     "item": "P40 Warhawk Slide",
@@ -3745,8 +4016,9 @@
     "item": "Pandatac Sun Mask",
     "vendor": "Handshake",
     "rank": 2,
-    "category": "face_cover",
-    "type": "Face Mask"
+    "category": "face_mask",
+    "type": "Face Mask",
+    "buy_price": "$5"
   },
   {
     "name": "Pandatac Trucker Cap (Handshake)",
@@ -3754,7 +4026,9 @@
     "item": "Pandatac Trucker Cap",
     "vendor": "Handshake",
     "rank": 2,
-    "category": "helmets"
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$6"
   },
   {
     "name": "Pantsir 2.0 (Turncoat)",
@@ -3772,7 +4046,18 @@
     "vendor": "Lab Rat",
     "rank": 1,
     "category": "medical",
-    "type": "Pill"
+    "type": "Pill",
+    "buy_price": "$5"
+  },
+  {
+    "name": "Paracetamol Bottle (Lab Rat)",
+    "id": "lab-rat-medical-paracetamol-bottle",
+    "item": "Paracetamol Bottle",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "medical",
+    "type": "Pill",
+    "buy_price": "$15"
   },
   {
     "name": "PASGT (Handshake)",
@@ -3780,7 +4065,19 @@
     "item": "PASGT",
     "vendor": "Handshake",
     "rank": 2,
-    "category": "helmets"
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$500"
+  },
+  {
+    "name": "Patrol Backpack (Turncoat)",
+    "id": "turncoat-backpacks-patrol-backpack",
+    "item": "Patrol Backpack",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "backpacks",
+    "type": "Backpack",
+    "buy_price": "$750"
   },
   {
     "name": "PCAM4-72 (Banshee)",
@@ -3857,7 +4154,17 @@
     "vendor": "Lab Rat",
     "rank": 2,
     "category": "medical",
-    "type": "Pill"
+    "type": "Pill",
+    "buy_price": "$120"
+  },
+  {
+    "name": "Power Energy Drink (Lab Rat)",
+    "id": "lab-rat-drinks-power-energy-drink",
+    "item": "Power Energy Drink",
+    "vendor": "Lab Rat",
+    "rank": 2,
+    "category": "drinks",
+    "type": "Drink"
   },
   {
     "name": "Power Energy Fuel (Lab Rat)",
@@ -4001,12 +4308,14 @@
     "type": "Plate Carrier"
   },
   {
-    "name": "Regiment Cap (Handshake)",
+    "name": "REGIMENT Cap (Handshake)",
     "id": "handshake-helmets-regiment-cap",
-    "item": "Regiment Cap",
+    "item": "REGIMENT Cap",
     "vendor": "Handshake",
     "rank": 1,
-    "category": "helmets"
+    "category": "hat",
+    "type": "Hat",
+    "buy_price": "$12"
   },
   {
     "name": "Remington 788 (Artisan)",
@@ -4025,6 +4334,26 @@
     "rank": 4,
     "category": "muzzle_devices",
     "type": "Muzzle Device"
+  },
+  {
+    "name": "Retractable Tourniquet (Lab Rat)",
+    "id": "lab-rat-medical-retractable-tourniquet",
+    "item": "Retractable Tourniquet",
+    "vendor": "Lab Rat",
+    "rank": 1,
+    "category": "medical",
+    "type": "Tourniquet",
+    "buy_price": "$25"
+  },
+  {
+    "name": "Rhino Helmet NVG Mount (Banshee)",
+    "id": "banshee-helmet-mounts-rhino-helmet-nvg-mount",
+    "item": "Rhino Helmet NVG Mount",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "helmet_mounts",
+    "type": "Headwear",
+    "buy_price": "$382"
   },
   {
     "name": "RIP-AWAY EMT POUCH (Lab Rat)",
@@ -4082,7 +4411,8 @@
     "vendor": "Handshake",
     "rank": 4,
     "category": "backpacks",
-    "type": "Backpack"
+    "type": "Backpack",
+    "buy_price": "$1,250"
   },
   {
     "name": "RVG (FDE) (Gunny)",
@@ -4151,13 +4481,14 @@
     "buy_price": "$156"
   },
   {
-    "name": "Scorpion OCP Convoy Pack (Handshake)",
+    "name": "Scorpion OCP Convoy Pack (Coyote) (Handshake)",
     "id": "handshake-backpacks-scorpion-ocp-convoy-pack",
-    "item": "Scorpion OCP Convoy Pack",
+    "item": "Scorpion OCP Convoy Pack (Coyote)",
     "vendor": "Handshake",
     "rank": 3,
     "category": "backpacks",
-    "type": "Backpack"
+    "type": "Backpack",
+    "buy_price": "$650"
   },
   {
     "name": "Scorpion OCP Convoy Pack (Multicam) (Handshake)",
@@ -4166,16 +4497,18 @@
     "vendor": "Handshake",
     "rank": 3,
     "category": "backpacks",
-    "type": "Backpack"
+    "type": "Backpack",
+    "buy_price": "$650"
   },
   {
-    "name": "Seal modular bandage (Lab Rat)",
+    "name": "SEAL Modular Bandage (Lab Rat)",
     "id": "lab-rat-medical-seal-modular-bandage",
-    "item": "Seal modular bandage",
+    "item": "SEAL Modular Bandage",
     "vendor": "Lab Rat",
     "rank": 4,
     "category": "medical",
-    "type": "Wound Care"
+    "type": "Bandage",
+    "buy_price": "$55"
   },
   {
     "name": "SHIFT Vertical Foregrip (Gunny)",
@@ -4307,13 +4640,14 @@
     "buy_price": "$52"
   },
   {
-    "name": "SK-S Ballistic Vest (Turncoat)",
+    "name": "SK-S Vest (Turncoat)",
     "id": "turncoat-vests-sk-s-ballistic-vest",
-    "item": "SK-S Ballistic Vest",
+    "item": "SK-S Vest",
     "vendor": "Turncoat",
-    "rank": 2,
+    "rank": 1,
     "category": "vests",
-    "type": "Ballistic Vest"
+    "type": "Armor Vest",
+    "buy_price": "$200"
   },
   {
     "name": "SKS 7.62x39mm 10-Round Internal Magazine (Artisan)",
@@ -4426,27 +4760,30 @@
     "id": "lab-rat-medical-small-blood-bag",
     "item": "Small Blood Bag",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 2,
     "category": "medical",
-    "type": "IV"
+    "type": "IV",
+    "buy_price": "$280"
   },
   {
     "name": "Small Hemostatic Syringe (Lab Rat)",
     "id": "lab-rat-medical-small-hemostatic-syringe",
     "item": "Small Hemostatic Syringe",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 3,
     "category": "medical",
-    "type": "Syringe"
+    "type": "Syringe",
+    "buy_price": "$130"
   },
   {
     "name": "Small Suture Kit (Lab Rat)",
     "id": "lab-rat-medical-small-suture-kit",
     "item": "Small Suture Kit",
     "vendor": "Lab Rat",
-    "rank": null,
+    "rank": 3,
     "category": "medical",
-    "type": "Surgery Kit"
+    "type": "Surgery Kit",
+    "buy_price": "$270"
   },
   {
     "name": "SnipSnap Crunchy (Lab Rat)",
@@ -4504,6 +4841,16 @@
     "type": "Scope"
   },
   {
+    "name": "Sport Backpack (Artisan)",
+    "id": "artisan-backpacks-sport-backpack",
+    "item": "Sport Backpack",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "backpacks",
+    "type": "Backpack",
+    "buy_price": "$82"
+  },
+  {
     "name": "SRD762-QD Flash Hider (Banshee)",
     "id": "banshee-muzzle-devices-srd762-qd-flash-hider",
     "item": "SRD762-QD Flash Hider",
@@ -4528,7 +4875,19 @@
     "item": "SSh-60",
     "vendor": "Artisan",
     "rank": 1,
-    "category": "helmets"
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$150"
+  },
+  {
+    "name": "SSh-68N (Artisan)",
+    "id": "artisan-helmets-ssh-68n",
+    "item": "SSh-68N",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$200"
   },
   {
     "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine (Gunny)",
@@ -4669,9 +5028,10 @@
     "id": "handshake-belts-tactical-belt",
     "item": "Tactical Belt",
     "vendor": "Handshake",
-    "rank": 1,
+    "rank": 2,
     "category": "belts",
-    "type": "Belt"
+    "type": "Belt",
+    "buy_price": "$84"
   },
   {
     "name": "Tactical Equipment Repair Kit (Handshake)",
@@ -4748,6 +5108,16 @@
     "rank": 1,
     "category": "rigs",
     "type": "Tactical Rig"
+  },
+  {
+    "name": "Type 66 (Artisan)",
+    "id": "artisan-helmets-type-66",
+    "item": "Type 66",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "helmets",
+    "type": "Helmet",
+    "buy_price": "$250"
   },
   {
     "name": "Tyton Glock 17 Slide (Banshee)",
@@ -4924,6 +5294,16 @@
     "category": "food",
     "type": "Food",
     "buy_price": "$38"
+  },
+  {
+    "name": "WX Valor (Handshake)",
+    "id": "handshake-glasses-wx-valor",
+    "item": "WX Valor",
+    "vendor": "Handshake",
+    "rank": 3,
+    "category": "glasses",
+    "type": "Glasses",
+    "buy_price": "$126"
   },
   {
     "name": "X-Factor Choke (Gunny)",

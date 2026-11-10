@@ -1,15 +1,64 @@
 [
   {
+    "name": "Artillery Ballistic Calculator",
+    "id": "artillery-ballistic-calculator",
+    "type": "Disassembly Material",
+    "weight": "1.7kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/Artillery_Ballistic_Calculator_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107024456",
+    "numeric_values": {
+      "weight": {
+        "value": 1.7,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Baget-53-31 Onboard Computer",
     "id": "baget-53-31-onboard-computer",
     "type": "Disassembly Material",
-    "weight": "5.500kg",
-    "grid_size": "3x2",
-    "sell_price": "$3,000",
+    "weight": "2.25kg",
+    "grid_size": "2x1",
+    "manufacturer": "General East",
+    "sell_price": "$12,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bc/Baget-53-31_Onboard_Computer_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024200431",
     "numeric_values": {
       "weight": {
-        "value": 5.5,
+        "value": 2.25,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Chemical Containment Container",
+    "id": "chemical-containment-container",
+    "type": "Disassembly Material",
+    "weight": "5kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Chemical Munitions Container",
+    "id": "chemical-munitions-container",
+    "type": "Disassembly Material",
+    "weight": "5kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$12,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Chemical_Munitions_Container_icon.png/revision/latest/scale-to-width-down/110?cb=20261104174035",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
         "unit": "kg"
       }
     }
@@ -18,9 +67,10 @@
     "name": "Counter IED/Jammer Unit",
     "id": "counter-ied/jammer-unit",
     "type": "Disassembly Material",
-    "weight": "9.000kg",
+    "weight": "9kg",
     "grid_size": "2x2",
-    "sell_price": "$4,500",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9f/Counter_IED-Jammer_Unit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024231625",
     "numeric_values": {
       "weight": {
@@ -30,13 +80,30 @@
     }
   },
   {
-    "name": "Last Line Defense Container",
-    "id": "last-line-defense-container",
+    "name": "Drone Interceptor",
+    "id": "drone-interceptor",
     "type": "Disassembly Material",
-    "weight": "8.000kg",
-    "grid_size": "3x2",
-    "sell_price": "$15,000",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Last_Line_Defense_Container_inspect.png/revision/latest/scale-to-width-down/268?cb=20261028195624",
+    "weight": "1.3kg",
+    "grid_size": "2x2",
+    "manufacturer": "Russian Army",
+    "sell_price": "$12,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ec/Drone_Interceptor_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107045535",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "IMSI Catcher",
+    "id": "imsi-catcher",
+    "type": "Disassembly Material",
+    "weight": "8kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/IMSI_Catcher_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106162532",
     "numeric_values": {
       "weight": {
         "value": 8.0,
@@ -45,17 +112,33 @@
     }
   },
   {
+    "name": "Last Line Defense Container",
+    "id": "last-line-defense-container",
+    "type": "Disassembly Material",
+    "weight": "4kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Last_Line_Defense_Container_inspect.png/revision/latest/scale-to-width-down/268?cb=20261028195624",
+    "numeric_values": {
+      "weight": {
+        "value": 4.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Manpack Tactical Radio",
     "id": "manpack-tactical-radio",
     "type": "Disassembly Material",
-    "weight": "4.980kg",
-    "grid_size": "2x3",
+    "weight": "2.5kg",
+    "grid_size": "2x1",
     "manufacturer": "General Local",
-    "sell_price": "$3,000",
+    "sell_price": "$12,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/Manpack_Tactical_Radio_inspect.png/revision/latest/scale-to-width-down/268?cb=20261028195627",
     "numeric_values": {
       "weight": {
-        "value": 4.98,
+        "value": 2.5,
         "unit": "kg"
       }
     }
@@ -64,13 +147,14 @@
     "name": "Missile Seeker Head",
     "id": "missile-seeker-head",
     "type": "Disassembly Material",
-    "weight": "6.000kg",
-    "sold_by": "3x3",
-    "sell_price": "$10,000",
+    "weight": "3kg",
+    "grid_size": "2x2",
+    "manufacturer": "Russian Army",
+    "sell_price": "$12,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/Missile_Seeker_Head_inspect.png/revision/latest?cb=20261024200424",
     "numeric_values": {
       "weight": {
-        "value": 6.0,
+        "value": 3.0,
         "unit": "kg"
       }
     }
@@ -79,13 +163,14 @@
     "name": "Portable SATCOM Terminal",
     "id": "portable-satcom-terminal",
     "type": "Disassembly Material",
-    "weight": "12.200kg",
-    "grid_size": "3x3",
-    "sell_price": "$4,500",
+    "weight": "6.1kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/Portable_SATCOM_Terminal_inspect.png/revision/latest?cb=20261026020134",
     "numeric_values": {
       "weight": {
-        "value": 12.2,
+        "value": 6.1,
         "unit": "kg"
       }
     }
@@ -94,13 +179,62 @@
     "name": "Radar Signal Processor",
     "id": "radar-signal-processor",
     "type": "Disassembly Material",
-    "weight": "15.000kg",
-    "grid_size": "3x3",
-    "sell_price": "$4,500",
+    "weight": "5kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Radar_Signal_Processor_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024231628",
     "numeric_values": {
       "weight": {
-        "value": 15.0,
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Radioisotope Fuel Cell",
+    "id": "radioisotope-fuel-cell",
+    "type": "Disassembly Material",
+    "weight": "4kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$18,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 4.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "ST1122 Storage Computer",
+    "id": "st1122-storage-computer",
+    "type": "Disassembly Material",
+    "weight": "4kg",
+    "grid_size": "2x1",
+    "manufacturer": "General Local",
+    "sell_price": "$12,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/ST1122_Storage_Computer_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107045525",
+    "numeric_values": {
+      "weight": {
+        "value": 4.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "UNLRA Field Terminal",
+    "id": "unlra-field-terminal",
+    "type": "Disassembly Material",
+    "weight": "0.72kg",
+    "grid_size": "2x1",
+    "manufacturer": "General Local",
+    "sell_price": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/UNLRA_Field_Terminal_inspect.png/revision/latest?cb=20261028195902",
+    "numeric_values": {
+      "weight": {
+        "value": 0.72,
         "unit": "kg"
       }
     }
