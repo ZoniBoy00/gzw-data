@@ -421,7 +421,7 @@
     "helmets": {
       "file": "helmets.json",
       "records": 35,
-      "sha256": "24185e36c5981751c533847894d6560c002b9c47be2d8007e4c4e631b52e346a"
+      "sha256": "fd637e8a2261bed930f73446742f7793c69ae3828be6f7a8798ad70aa9ebb2e4"
     },
     "hidden_task": {
       "file": "hidden_task.json",
@@ -491,7 +491,7 @@
     "loot_items": {
       "file": "loot_items.json",
       "records": 129,
-      "sha256": "42342c871b80eb878c2d4f8fb06d5c198280573f467502a41c53f4f8f48e1e44"
+      "sha256": "b85576f773538b04534699dccfe3283d140a3382223d2cd655effbed593e160a"
     },
     "magazines": {
       "file": "magazines.json",
@@ -506,7 +506,7 @@
     "medical": {
       "file": "medical.json",
       "records": 35,
-      "sha256": "bedba4c4c3db88dd7ace557bf1ecace437ce01f3f0c74eab49d2f74db01238af"
+      "sha256": "1094f6e7aad6f5e15c027c5b121c5dad6bb620530a5ec9bb5d8f5425cc709876"
     },
     "military_equipment": {
       "file": "military_equipment.json",
@@ -566,7 +566,7 @@
     "provisions": {
       "file": "provisions.json",
       "records": 35,
-      "sha256": "197905c92a67503981f10ffb31c30f6dad0a3018d9363db261897b09a0b9261b"
+      "sha256": "e515d7eb2402a7fd92f7b764aa4bbe3b8880a441e914c5c879c48337a215b070"
     },
     "reading_intel": {
       "file": "reading_intel.json",
@@ -716,7 +716,7 @@
     "vices": {
       "file": "vices.json",
       "records": 11,
-      "sha256": "05ae8fd3504ce2b640ec792c9165bfa72f922bf22d863778aea89638072bb9a8"
+      "sha256": "17c2c5908784e2668a1858c06460e79f4528dd46fc286e0c082c5b269ed95588"
     },
     "weapon_parts": {
       "file": "weapon_parts.json",

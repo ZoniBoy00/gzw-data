@@ -20,7 +20,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Intoxication: -10",
+    "effect": "intoxication: -10; duration: 10s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -44,7 +44,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Removes Fracture",
+    "effect": "effects: Treats All Bones in One Body Part",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -69,7 +69,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Heals wounds",
+    "effect": "effects: Treats Light Injury in Multiple Body Parts",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -93,7 +93,8 @@
         "unit": "kg"
       }
     },
-    "sell_price_source": "gzwitems.com"
+    "sell_price_source": "gzwitems.com",
+    "effect": "effects: Treats All Injuries in One Body Part"
   },
   {
     "name": "Civilian Flexible Splint",
@@ -116,7 +117,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Removes Limping effect",
+    "effect": "effects: Treats All Bones in One Body Part",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -141,7 +142,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Heals wounds",
+    "effect": "effects: Treats Light Injury in Multiple Body Parts",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -165,7 +166,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Stops heavy bleeding.",
+    "effect": "effects: Stops All Bleeding",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -195,7 +196,7 @@
       }
     },
     "charges": "1",
-    "effect": "Removes up to 100% of intoxication Increase Hydration Drain Increase Liver Damange"
+    "effect": "effects: Increased Hydration Drain; intoxication: -100; livers: -15 %; hydratation_per_charge: -25; duration: 90s"
   },
   {
     "name": "Emergency Suture Kit",
@@ -218,7 +219,8 @@
         "unit": "kg"
       }
     },
-    "sell_price_source": "gzwitems.com"
+    "sell_price_source": "gzwitems.com",
+    "effect": "effects: Treats All Injuries in One Body Part"
   },
   {
     "name": "EPO",
@@ -247,7 +249,7 @@
       }
     },
     "charges": "1",
-    "effect": "Increase Blood Regeneration Increase intoxication Increase hydration drain Increase energy drain"
+    "effect": "effects: Blood Regeneration Increased Hydration Drain; intoxication: +15; livers: -4 %; hydratation_per_charge: -50; duration: 180s"
   },
   {
     "name": "Fenethylline",
@@ -271,7 +273,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Increases Stamina Regeneration",
+    "effect": "effects: Stamina Regeneration Increased Hydration Drain; intoxication: +3; hydratation_per_charge: -10; duration: 180s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -295,7 +297,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Removes Fracture",
+    "effect": "effects: Treats All Bones in One Body Part",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -325,7 +327,7 @@
       }
     },
     "charges": "1",
-    "effect": "Regenerates up to 50% of organs Increase intoxication Gives pain",
+    "effect": "effects: Organ Regeneration; intoxication: +20; pain: +20; organs: +50 %; duration: 240s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -349,7 +351,7 @@
         "unit": "kg"
       }
     },
-    "effect": "150s Duration: Efficiency: +33%",
+    "effect": "pain: -50; duration: 300s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -372,7 +374,8 @@
         "value": 0.15,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "pain: -50; duration: 300s"
   },
   {
     "name": "Large Blood Bag",
@@ -394,7 +397,7 @@
       }
     },
     "charges": "3",
-    "effect": "+500 ml of blood per charge",
+    "effect": "blood: 2,500",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -418,7 +421,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Stops heavy bleeding.",
+    "effect": "effects: Stops All Bleeding",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -442,7 +445,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
+    "effect": "effects: Stops All Bleeding",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -470,7 +473,7 @@
       }
     },
     "charges": "2",
-    "effect": "+750ml of blood per charge",
+    "effect": "blood: 1,500",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -494,7 +497,7 @@
         "unit": "kg"
       }
     },
-    "effect": "300s Duration: Remove pain effects",
+    "effect": "pain: -66; duration: 300s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -517,7 +520,8 @@
         "value": 0.15,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "pain: -66; duration: 300s"
   },
   {
     "name": "Methylphenidate",
@@ -545,7 +549,7 @@
         "unit": "%"
       }
     },
-    "effect": "Increases Stamina Regeneration Increase hydration drain"
+    "effect": "effects: Suppression Resistance Depleted Body Stamina; intoxication: +15; livers: -5 %; duration: 300s"
   },
   {
     "name": "Morphine",
@@ -574,7 +578,7 @@
       }
     },
     "charges": "1",
-    "effect": "Completely suppresses pain Completely suppresses tremors and limping Increase intoxication Increase Liver Damage",
+    "effect": "effects: Limping Tremors; intoxication: +15; pain: -100; livers: -5 %; duration: 240s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -598,7 +602,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Intoxication: -25",
+    "effect": "intoxication: -25; duration: 25s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -623,7 +627,7 @@
       }
     },
     "charges": "1",
-    "effect": "Regenerate up to 50% of all bones Increase intoxication Gives pain"
+    "effect": "effects: Bone Regeneration; intoxication: +12; pain: +20; duration: 240s"
   },
   {
     "name": "Paracetamol",
@@ -646,7 +650,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Removes Pain",
+    "effect": "pain: -33; duration: 150s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -669,7 +673,8 @@
         "value": 0.15,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "pain: -33; duration: 150s"
   },
   {
     "name": "Potassium Iodide",
@@ -692,7 +697,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Radiation: -4",
+    "effect": "radiations: -4; duration: 60s",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -716,7 +721,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
+    "effect": "effects: Stops All Bleeding",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -740,7 +745,8 @@
         "value": 0.09,
         "unit": "kg"
       }
-    }
+    },
+    "effect": "effects: Treats Light Injury in Multiple Body Parts"
   },
   {
     "name": "Small Blood Bag",
@@ -762,7 +768,7 @@
       }
     },
     "charges": "1",
-    "effect": "+500ml of blood",
+    "effect": "blood: 500",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -786,7 +792,7 @@
         "unit": "kg"
       }
     },
-    "effect": "Stops heavy bleeding.",
+    "effect": "effects: Stops All Bleeding",
     "sell_price_source": "gzwitems.com"
   },
   {
@@ -810,7 +816,8 @@
         "unit": "kg"
       }
     },
-    "sell_price_source": "gzwitems.com"
+    "sell_price_source": "gzwitems.com",
+    "effect": "effects: Treats All Injuries in One Body Part"
   },
   {
     "name": "Strychnine",
@@ -839,7 +846,7 @@
       }
     },
     "charges": "1",
-    "effect": "Blocks Stamina Drain Drain arm stamina Increase intoxication Increase energy drain Gives pain",
+    "effect": "effects: Stamina Drain Prevention; intoxication: +20; pain: +20; heart: -5 %; duration: 60s",
     "sell_price_source": "gzwitems.com"
   }
 ]

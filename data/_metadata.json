@@ -18355,10 +18355,10 @@
           "types": [
             "string"
           ],
-          "presentCount": 27,
+          "presentCount": 34,
           "optional": true,
           "nullable": false,
-          "example": "+500 ml of blood per charge"
+          "example": "blood: 1,500"
         },
         "effects": {
           "types": [
@@ -21048,16 +21048,16 @@
           "types": [
             "string"
           ],
-          "presentCount": 22,
+          "presentCount": 14,
           "optional": true,
           "nullable": false,
-          "example": "+11250"
+          "example": "+2.5"
         },
         "total_hydration_per_grid_source": {
           "types": [
             "string"
           ],
-          "presentCount": 22,
+          "presentCount": 14,
           "optional": true,
           "nullable": false,
           "example": "computed-from-current-nutrition"
