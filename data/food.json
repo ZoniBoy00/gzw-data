@@ -38,16 +38,16 @@
     "energy_per_charge": "+15",
     "hydratation_per_charge": "+5",
     "manufacturer": "Lucky Panda",
-    "sell_price": "$3",
+    "sell_price": "$3.9",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e7/Bamboo_Shoots_inspect.png/revision/latest?cb=20261104164139",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.6,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +15 Hydration: +5",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +15 Hydration: +5"
   },
   {
     "name": "Berg Bar Cookie Chocolate",
@@ -62,9 +62,10 @@
     "stamina_regen_duration": "+90 s",
     "stamina_regen_rate": "+25 %",
     "manufacturer": "Berg",
-    "sell_price": "$22",
+    "sell_price": "$22.5",
     "buy_price": "$75",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Berg_Bar_Cookie_Chocolate_inspect.png/revision/latest/scale-to-width-down/268?cb=20261104160346",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.07,
@@ -75,8 +76,7 @@
         "unit": "%"
       }
     },
-    "effect": "Energy: +25 Arm Stamina Boost: +25% Arm Stamina Boost Cap: +25% Arm Stamina Boost Duration: 90s Body Stamina Boost: +25% Body Stamina Boost Cap: +25% Body Stamina Boost Duration: 90s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +25 Arm Stamina Boost: +25% Arm Stamina Boost Cap: +25% Arm Stamina Boost Duration: 90s Body Stamina Boost: +25% Body Stamina Boost Cap: +25% Body Stamina Boost Duration: 90s"
   },
   {
     "name": "Canned Tuna Chunks",
@@ -90,16 +90,16 @@
     "energy_per_charge": "+40",
     "hydratation_per_charge": "-10",
     "manufacturer": "Kraken",
-    "sell_price": "$7",
+    "sell_price": "$7.5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Canned_Tuna_Chunks_icon.png/revision/latest?cb=20250610053427",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.17,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +40 Hydration: -10",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +40 Hydration: -10"
   },
   {
     "name": "Combat Ration Pack",
@@ -136,16 +136,16 @@
     "energy_per_charge": "+35",
     "hydratation_per_charge": "+5",
     "manufacturer": "Cowboy",
-    "sell_price": "$11",
+    "sell_price": "$11.1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/Cowboy_Baked_Beans_inspect.png/revision/latest?cb=20261104162845",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.425,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +35 Hydration: +5",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +35 Hydration: +5"
   },
   {
     "name": "Energy Bar Nuts and Fruits",
@@ -160,9 +160,10 @@
     "stamina_regen_duration": "+20 s",
     "stamina_regen_rate": "+30 %",
     "manufacturer": "Power",
-    "sell_price": "$6",
+    "sell_price": "$6.3",
     "buy_price": "$21",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/Energy_Bar_Nuts_and_Fruits_inspect.png/revision/latest?cb=20261104164737",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.04,
@@ -173,8 +174,7 @@
         "unit": "%"
       }
     },
-    "effect": "Energy: +14 Arm Stamina Boost: +30% Arm Stamina Boost Cap: +30% Arm Stamina Boost Duration: 20s Body Stamina Boost: +30% Body Stamina Boost Cap: +30% Body Stamina Boost Duration: +20s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +14 Arm Stamina Boost: +30% Arm Stamina Boost Cap: +30% Arm Stamina Boost Duration: 20s Body Stamina Boost: +30% Body Stamina Boost Cap: +30% Body Stamina Boost Duration: +20s"
   },
   {
     "name": "HDR Meal",
@@ -187,16 +187,16 @@
     "use_time": "15s",
     "energy_per_charge": "+80",
     "manufacturer": "Combat Meal Star",
-    "sell_price": "$22",
+    "sell_price": "$22.5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/HDR_Meal_icon.png/revision/latest?cb=20250610053132",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.85,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +75",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +75"
   },
   {
     "name": "Kasem Chocolate Wafers",
@@ -209,16 +209,16 @@
     "use_time": "5s",
     "energy_per_charge": "+13",
     "manufacturer": "Kasem",
-    "sell_price": "$2",
+    "sell_price": "$2.7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Kasem_Chocolate_Wafers_icon.png/revision/latest?cb=20250610042619",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.01,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +13",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +13"
   },
   {
     "name": "Lucky Pork Liver Pâté",
@@ -231,17 +231,17 @@
     "use_time": "11s",
     "energy_per_charge": "+35",
     "manufacturer": "Lucky",
-    "sell_price": "$8",
+    "sell_price": "$8.7",
     "buy_price": "$29",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Lucky_Pork_Liver_P%C3%A2t%C3%A9_inspect.png/revision/latest?cb=20261104160307",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.13,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +35 Hydration: -5",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +35 Hydration: -5"
   },
   {
     "name": "Lychee in Syrup",
@@ -278,16 +278,16 @@
     "energy_per_charge": "+60",
     "hydratation_per_charge": "-10",
     "manufacturer": "ThaLao",
-    "sell_price": "$14",
+    "sell_price": "$14.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Mackerel_in_Teriyaki_Sauce_inspect.png/revision/latest/scale-to-width-down/268?cb=20261104163958",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +60 Hydration: -10",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +60 Hydration: -10"
   },
   {
     "name": "Organic Tofu",
@@ -300,17 +300,17 @@
     "use_time": "11s",
     "energy_per_charge": "+25",
     "manufacturer": "Clearspring",
-    "sell_price": "$5",
+    "sell_price": "$5.1",
     "buy_price": "$17",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Organic_Tofu_inspect.png/revision/latest?cb=20261104163642",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +25",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +25"
   },
   {
     "name": "Premium Pork Luncheon Meat",
@@ -323,17 +323,17 @@
     "use_time": "11s",
     "energy_per_charge": "+70",
     "manufacturer": "ThaLao",
-    "sell_price": "$19",
+    "sell_price": "$19.2",
     "buy_price": "$64",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/Premium_Pork_Luncheon_Meat_inspect.png/revision/latest?cb=20261104163842",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +70 Hydration: -10",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +70 Hydration: -10"
   },
   {
     "name": "Sinngua Lunch Meat",
@@ -346,17 +346,17 @@
     "use_time": "11s",
     "energy_per_charge": "+55",
     "manufacturer": "Sinngua",
-    "sell_price": "$15",
+    "sell_price": "$15.6",
     "buy_price": "$52",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Sinngua_Lunch_Meat_inspect.png/revision/latest?cb=20261104162126",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.34,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +60 Hydration: -10",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +60 Hydration: -10"
   },
   {
     "name": "SnipSnap Crunchy",
@@ -369,17 +369,17 @@
     "use_time": "5s",
     "energy_per_charge": "+10",
     "manufacturer": "Snip Snap",
-    "sell_price": "$2",
+    "sell_price": "$2.1",
     "buy_price": "$7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b2/SnipSnap_Crunchy_inspect.png/revision/latest/scale-to-width-down/268?cb=20261104164409",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.038,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +10 /charge",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +10 /charge"
   },
   {
     "name": "Spicy Thai Combat Meal",
@@ -393,16 +393,16 @@
     "energy_per_charge": "+80",
     "hydratation_per_charge": "-15",
     "manufacturer": "Thai Army",
-    "sell_price": "$17",
+    "sell_price": "$17.7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/Spicy_Thai_Combat_Meal_inspect.png/revision/latest?cb=20250502143236",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.8,
         "unit": "kg"
       }
     },
-    "effect": "Energy: +80 Hydration: -15",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +80 Hydration: -15"
   },
   {
     "name": "TamTam DoubleChoc",
@@ -417,9 +417,10 @@
     "stamina_regen_duration": "+90 s",
     "stamina_regen_rate": "+10 %",
     "manufacturer": "TamTam",
-    "sell_price": "$10",
+    "sell_price": "$10.5",
     "buy_price": "$35",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/TamTam_DoubleChoc_inspect.png/revision/latest?cb=20261104165108",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -430,8 +431,7 @@
         "unit": "%"
       }
     },
-    "effect": "Energy: +20 Arm Stamina Boost: +10% Arm Stamina Boost Cap: +10% Arm Stamina Boost Duration: 90s Body Stamina Boost: +10% Body Stamina Boost Cap: +10% Body Stamina Boost Duration: 90s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +20 Arm Stamina Boost: +10% Arm Stamina Boost Cap: +10% Arm Stamina Boost Duration: 90s Body Stamina Boost: +10% Body Stamina Boost Cap: +10% Body Stamina Boost Duration: 90s"
   },
   {
     "name": "Windmill Almond Chocolate Bar",
@@ -446,9 +446,10 @@
     "stamina_regen_duration": "+20 s",
     "stamina_regen_rate": "+60 %",
     "manufacturer": "Windmill",
-    "sell_price": "$11",
+    "sell_price": "$11.4",
     "buy_price": "$38",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Windmill_Almond_Chocolate_Bar_inspect.png/revision/latest/scale-to-width-down/268?cb=20261104165438",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.04,
@@ -459,7 +460,6 @@
         "unit": "%"
       }
     },
-    "effect": "Energy: +16 Arm Stamina Boost: +60% Arm Stamina Boost Cap: +60% Arm Stamina Boost Duration: 20s Body Stamina Boost: +60% Body Stamina Boost Cap: +60% Body Stamina Boost Duration: 20s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "Energy: +16 Arm Stamina Boost: +60% Arm Stamina Boost Cap: +60% Arm Stamina Boost Duration: 20s Body Stamina Boost: +60% Body Stamina Boost Cap: +60% Body Stamina Boost Duration: 20s"
   }
 ]

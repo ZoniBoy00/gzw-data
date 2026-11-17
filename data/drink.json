@@ -9,8 +9,9 @@
     "charges": "150",
     "use_time": "3s",
     "manufacturer": "Aques",
-    "sell_price": "$16",
+    "sell_price": "$16.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Aques_Water_1.5_l_inspect.png/revision/latest?cb=20261104171327",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -29,9 +30,10 @@
     "use_time": "5s",
     "hydratation_per_charge": "+24",
     "manufacturer": "Coco Jumbo",
-    "sell_price": "$2",
+    "sell_price": "$2.1",
     "buy_price": "$7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/Coco_Jumbo_Coconut_Juice_Drink_inspect.png/revision/latest?cb=20261104163419",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.24,
@@ -53,9 +55,10 @@
     "stamina_regen_duration": "+90 s",
     "stamina_regen_rate": "+15 %",
     "manufacturer": "Dark Star",
-    "sell_price": "$6",
+    "sell_price": "$6.6",
     "buy_price": "$22",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Dark_Star_Iced_Coffee_inspect.png/revision/latest?cb=20261104161902",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -107,8 +110,9 @@
     "energy_per_charge": "+5",
     "hydratation_per_charge": "+40",
     "manufacturer": "Infinity",
-    "sell_price": "$4",
+    "sell_price": "$4.5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/Infinity_Isotonic_Drink_inspect.png/revision/latest?cb=20261104161613",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.33,
@@ -128,8 +132,9 @@
     "energy_per_charge": "+10",
     "hydratation_per_charge": "+35",
     "manufacturer": "Kaipo",
-    "sell_price": "$3",
+    "sell_price": "$3.6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/Kaipo_Lychee_Nectar_inspect.png/revision/latest?cb=20261105224709",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -147,8 +152,9 @@
     "charges": "90",
     "use_time": "3s",
     "manufacturer": "Maknav",
-    "sell_price": "$11",
+    "sell_price": "$11.7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/Maknav_Iced_Tea_inspect.png/revision/latest?cb=20261104171247",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.95,
@@ -180,18 +186,21 @@
     "name": "Noakon Water 1.5 l",
     "id": "noakon-water-1.5-l",
     "type": "Drink",
-    "weight": "0.55kg",
+    "weight": "1.5 kg",
     "sold_by": "Lab Rat R.2",
-    "grid_size": "1x1",
+    "grid_size": "1x2",
     "charges": "55",
     "use_time": "3s",
     "manufacturer": "NuKlear",
-    "sell_price": "$10",
+    "sell_price": "$16.2",
     "buy_price": "$35",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/Noakon_Water_1.5_l_inspect.png/revision/latest?cb=20261104161252",
+    "sell_price_source": "gzwitems.com",
+    "weight_source": "gzwitems.com",
+    "grid_size_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
-        "value": 0.55,
+        "value": 1.5,
         "unit": "kg"
       }
     }
@@ -206,9 +215,10 @@
     "charges": "55",
     "use_time": "3s",
     "manufacturer": "NuKlear",
-    "sell_price": "$10",
+    "sell_price": "$10.5",
     "buy_price": "$35",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/NuKlear_Energy_Meltdown_Mango_inspect.png/revision/latest?cb=20261104162541",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.55,
@@ -230,9 +240,10 @@
     "stamina_regen_duration": "+20 s",
     "stamina_regen_rate": "+70 %",
     "manufacturer": "Power",
-    "sell_price": "$13",
+    "sell_price": "$13.5",
     "buy_price": "$45",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/Power_Energy_Fuel_inspect.png/revision/latest?cb=20261104162959",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.47,
@@ -254,8 +265,9 @@
     "charges": "200",
     "use_time": "3s",
     "manufacturer": "Riminda",
-    "sell_price": "$28",
+    "sell_price": "$28.5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/Riminda_Green_Bubbly_Bliss_inspect.png/revision/latest?cb=20261104160800",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.08,
@@ -267,20 +279,23 @@
     "name": "Sunrise Cola",
     "id": "sunrise-cola",
     "type": "Drink",
-    "weight": "0.38kg",
+    "weight": "2.13 kg",
     "sold_by": "Lab Rat R.1",
-    "grid_size": "1x1",
+    "grid_size": "1x2",
     "charges": "1",
     "use_time": "5s",
     "energy_per_charge": "+15",
     "hydratation_per_charge": "+33",
     "manufacturer": "Sunrise",
-    "sell_price": "$3",
+    "sell_price": "$33",
     "buy_price": "$13",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Sunrise_Cola_inspect.png/revision/latest?cb=20261104160950",
+    "sell_price_source": "gzwitems.com",
+    "weight_source": "gzwitems.com",
+    "grid_size_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
-        "value": 0.38,
+        "value": 2.13,
         "unit": "kg"
       }
     }

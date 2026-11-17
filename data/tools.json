@@ -6,7 +6,7 @@
     "weight": "2 kg",
     "grid_size": "2x2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/Box_of_Supplies_inspect.png/revision/latest/scale-to-width-down/268?cb=20250503151433",
-    "weight_source": "game-files",
+    "weight_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -109,7 +109,7 @@
     "weight": "0.1 kg",
     "grid_size": "1x1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/Sample_Collection_Kit_icon.png/revision/latest/scale-to-width-down/48?cb=20240508091140",
-    "weight_source": "game-files",
+    "weight_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.1,

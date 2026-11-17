@@ -6,7 +6,9 @@
     "weight": "5kg",
     "grid_size": "2x2",
     "manufacturer": "General Local",
-    "sell_price": "$4,000",
+    "sell_price": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/10%25_Morphine_Solution_inspect.png/revision/latest/scale-to-width-down/268?cb=20261112225340",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 5.0,
@@ -17,12 +19,12 @@
   {
     "name": "Acetylene Cylinder",
     "id": "acetylene-cylinder",
-    "type": "Laboratory Supplies",
-    "weight": "11.50kg",
+    "type": "Workshop Supplies",
+    "weight": "11.5kg",
     "grid_size": "2x4",
     "manufacturer": "General Local",
-    "sell_price": "$56$",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Acetylene_Cylinder_Inspect.png/revision/latest?cb=20260523030118",
+    "sell_price": "$60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Acetylene_Cylinder_icon.png/revision/latest/scale-to-width-down/82?cb=20260404013900",
     "numeric_values": {
       "weight": {
         "value": 11.5,
@@ -37,7 +39,8 @@
     "weight": "2kg",
     "grid_size": "1x2",
     "manufacturer": "General Local",
-    "sell_price": "$20,000",
+    "sell_price": "$40,000",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -51,8 +54,9 @@
     "type": "Laboratory Supplies",
     "weight": "1.000kg",
     "grid_size": "1x1",
-    "sell_price": "$199",
+    "sell_price": "$212.8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/Disinfectant_inspect.png/revision/latest?cb=20260403101852",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -66,8 +70,9 @@
     "type": "Laboratory Supplies",
     "weight": "5.000kg",
     "grid_size": "2x2",
-    "sell_price": "$15",
+    "sell_price": "$16",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/Drain_Cleaner_inspect.png/revision/latest?cb=20260403095335",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 5.0,
@@ -83,6 +88,7 @@
     "grid_size": "2x2",
     "manufacturer": "General Local",
     "sell_price": "$14,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b2/Gray_Heroin_icon.png/revision/latest/scale-to-width-down/48?cb=20261110145239",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -97,27 +103,12 @@
     "weight": "3.800kg",
     "grid_size": "2x2",
     "manufacturer": "General Local",
-    "sell_price": "$29",
+    "sell_price": "$31.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/Industrial_Solvent_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331081657",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 3.8,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Mercenary Delivery Service III",
-    "id": "mercenary-delivery-service-iii",
-    "type": "Laboratory Supplies",
-    "weight": "11.50kg",
-    "grid_size": "2x4",
-    "manufacturer": "General Local",
-    "sell_price": "$56$",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Acetylene_Cylinder_Inspect.png/revision/latest?cb=20260523030118",
-    "numeric_values": {
-      "weight": {
-        "value": 11.5,
         "unit": "kg"
       }
     }
@@ -145,8 +136,9 @@
     "weight": "1kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$20,000",
+    "sell_price": "$40,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -161,7 +153,7 @@
     "weight": "1kg",
     "grid_size": "2x2",
     "manufacturer": "General Local",
-    "sell_price": "$12,000",
+    "sell_price": "$19500",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -176,8 +168,9 @@
     "weight": "2kg",
     "grid_size": "1x2",
     "manufacturer": "General Local",
-    "sell_price": "$15,000",
+    "sell_price": "$22,500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Sarin_Canister_icon.png/revision/latest/scale-to-width-down/24?cb=20261104175604",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -207,8 +200,9 @@
     "type": "Laboratory Supplies",
     "weight": "0.057kg",
     "grid_size": "1x1",
-    "sell_price": "$1",
+    "sell_price": "$1.6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/18/Thermal_Blanket_icon.png/revision/latest/scale-to-width-down/47?cb=20260403200545",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.057,
@@ -222,8 +216,9 @@
     "type": "Laboratory Supplies",
     "weight": "0.500kg",
     "grid_size": "2x1",
-    "sell_price": "$15",
+    "sell_price": "$16",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/UN_Medical_Tools_inspect.png/revision/latest/scale-to-width-down/268?cb=20260403094658",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.5,
@@ -238,7 +233,7 @@
     "weight": "5kg",
     "grid_size": "2x2",
     "manufacturer": "General Local",
-    "sell_price": "$8,000",
+    "sell_price": "$17,000",
     "numeric_values": {
       "weight": {
         "value": 5.0,
@@ -253,8 +248,9 @@
     "weight": "0.030kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$1,000",
+    "sell_price": "$1,010.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/Vial_of_Antigens_inspect.png/revision/latest/scale-to-width-down/268?cb=20261108091945",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.03,
@@ -268,8 +264,9 @@
     "type": "Laboratory Supplies",
     "weight": "0.125kg",
     "grid_size": "1x1",
-    "sell_price": "$27",
+    "sell_price": "$29.6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ab/Water_Purification_Tablets_inspect.png/revision/latest?cb=20260403100306",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.125,

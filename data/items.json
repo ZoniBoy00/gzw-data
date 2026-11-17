@@ -2,14 +2,22 @@
   {
     "name": "Advanced Tracking Tag",
     "id": "advanced-tracking-tag",
-    "weight": "0,014kg",
+    "weight": "0.014 kg",
     "sold_by": "Productions only",
     "grid_size": "1x1",
     "duration": "12h",
     "manufacturer": "General West",
-    "sell_price": "$269",
+    "sell_price": "$269.7",
     "buy_price": "$899",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/Advanced_Tracking_Tag.png/revision/latest?cb=20250523224603"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/Advanced_Tracking_Tag.png/revision/latest?cb=20250523224603",
+    "sell_price_source": "gzwitems.com",
+    "weight_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.014,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Basic Tracking Tag",
@@ -19,9 +27,10 @@
     "grid_size": "1x1",
     "duration": "3h",
     "manufacturer": "General Local",
-    "sell_price": "$104",
+    "sell_price": "$104.7",
     "buy_price": "$349",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Basic_Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224626",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.007,
@@ -37,9 +46,10 @@
     "grid_size": "1x1",
     "duration": "6h",
     "manufacturer": "General Local",
-    "sell_price": "$194",
+    "sell_price": "$194.7",
     "buy_price": "$649",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224614",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.015,

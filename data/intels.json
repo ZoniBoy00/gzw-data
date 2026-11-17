@@ -1,14 +1,1918 @@
 [
   {
+    "name": "A Symbol of Courage",
+    "id": "a-symbol-of-courage",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "AMMO-STATREP-04C",
+    "id": "ammo-statrep-04c",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Angered PMC’s Diary",
+    "id": "angered-pmc-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Angry Message",
+    "id": "angry-message",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Application Result",
+    "id": "application-result",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Appointment Notice",
+    "id": "appointment-notice",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Arrest Warrant SH",
+    "id": "arrest-warrant-sh",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "ATC-SEC-7B/2026",
+    "id": "atc-sec-7b-2026",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Aulii's Letter",
+    "id": "aulii-s-letter",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Ban Pa Note",
+    "id": "ban-pa-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Ban Suk Code Book",
+    "id": "ban-suk-code-book",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Baron's Order",
+    "id": "baron-s-order",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Believers List",
+    "id": "believers-list",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Black Box Note",
+    "id": "black-box-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bloody List of People",
+    "id": "bloody-list-of-people",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Blue Lagoon Note",
+    "id": "blue-lagoon-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "BR-417 Start-up Procedure",
+    "id": "br-417-start-up-procedure",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bragging Thug’s Diary",
+    "id": "bragging-thug-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "British List of People",
+    "id": "british-list-of-people",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bunker Code",
+    "id": "bunker-code",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Butcher's Job Note",
+    "id": "butcher-s-job-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Call-Up Order",
+    "id": "call-up-order",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Car Repair Office Code",
+    "id": "car-repair-office-code",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Civilian Exposure Analysis",
+    "id": "civilian-exposure-analysis",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Classified Pharmaceutical Contract",
+    "id": "classified-pharmaceutical-contract",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Classified Pharmaceutical Contract Counterpart",
+    "id": "classified-pharmaceutical-contract-counterpart",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Code Instructions",
+    "id": "code-instructions",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Commander's Journal",
+    "id": "commander-s-journal",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Crook's Diary",
+    "id": "crook-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Current Orders",
+    "id": "current-orders",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Death Sentence",
+    "id": "death-sentence",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Developer's Folder",
+    "id": "developer-s-folder",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Diary of Habits",
+    "id": "diary-of-habits",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Disillusioned Peacekeeper's Diary",
+    "id": "disillusioned-peacekeeper-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Dissident’s Treasure Note",
+    "id": "dissident-s-treasure-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Doctor's Notes",
+    "id": "doctor-s-notes",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Door Console Repair Report",
+    "id": "door-console-repair-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Dortmunder's Debt",
+    "id": "dortmunder-s-debt",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Dr. Khae's Notes",
+    "id": "dr-khae-s-notes",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Dr. Khae’s Journal",
+    "id": "dr-khae-s-journal",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Drug Op Message",
+    "id": "drug-op-message",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Duration Bet",
+    "id": "duration-bet",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Embassy Message",
+    "id": "embassy-message",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Encrypted Logbook",
+    "id": "encrypted-logbook",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Encrypted Notebook",
+    "id": "encrypted-notebook",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Enlightened Writer's Journal",
+    "id": "enlightened-writer-s-journal",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Event - Affected Population",
+    "id": "event-affected-population",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Experiment 17-B",
+    "id": "experiment-17-b",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Fah's Diary",
+    "id": "fah-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Farmer's Diary",
+    "id": "farmer-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Fleming's File",
+    "id": "fleming-s-file",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "FN Commander Investigation",
+    "id": "fn-commander-investigation",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Folder 00616",
+    "id": "folder-00616",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Folder 193",
+    "id": "folder-193",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Folder 251",
+    "id": "folder-251",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Folder 712",
+    "id": "folder-712",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Forgetful Soldier's Diary",
+    "id": "forgetful-soldier-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Fort Narith Note",
+    "id": "fort-narith-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Fresh Meat Delivery",
+    "id": "fresh-meat-delivery",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Friend's Letter",
+    "id": "friend-s-letter",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Fundee's Diary",
+    "id": "fundee-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Gangmembers's Notes",
+    "id": "gangmembers-s-notes",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Garage Evac List",
+    "id": "garage-evac-list",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Generator Startup Instructions",
+    "id": "generator-startup-instructions",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Gentleman's Wager",
+    "id": "gentleman-s-wager",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "George's love letter",
     "id": "georges-love-letter",
     "type": "Intel",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/George%27s_love_letter_inspect.png/revision/latest/scale-to-width-down/267?cb=20260311175535"
   },
   {
+    "name": "Golf Club - Office Safe Procedures",
+    "id": "golf-club-office-safe-procedures",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Good Decision",
+    "id": "good-decision",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Ground Zero Note",
+    "id": "ground-zero-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Grumbling Note",
+    "id": "grumbling-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Harvest Discipline Notice",
+    "id": "harvest-discipline-notice",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Holding Cells Security Protocols",
+    "id": "holding-cells-security-protocols",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Hunter's Paradise Note",
+    "id": "hunter-s-paradise-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Important Notice!",
+    "id": "important-notice",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Incident and Evacuation Report",
+    "id": "incident-and-evacuation-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Incident Report 11475",
+    "id": "incident-report-11475",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Interrogation Notes",
+    "id": "interrogation-notes",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Interrogation Pr 23",
+    "id": "interrogation-pr-23",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Interrogation Report",
+    "id": "interrogation-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Interrogation SH",
+    "id": "interrogation-sh",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Interrogation transcript",
+    "id": "interrogation-transcript-3",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Interrogation UC",
+    "id": "interrogation-uc",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Jai Tan's Sentence",
+    "id": "jai-tan-s-sentence",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Jungle Bases Note",
+    "id": "jungle-bases-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Kill List",
+    "id": "kill-list",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "King's Diary",
+    "id": "king-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "King's Henchman Note",
+    "id": "king-s-henchman-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Kob's File",
+    "id": "kob-s-file",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Labor Allocation Request",
+    "id": "labor-allocation-request",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Lae's Love Letter",
+    "id": "lae-s-love-letter",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LAF CBRN Report",
+    "id": "laf-cbrn-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LAF Codebook",
+    "id": "laf-codebook",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LAF Document",
+    "id": "laf-document",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LAF OP Docs",
+    "id": "laf-op-docs",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LAF Supply Status",
+    "id": "laf-supply-status",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LAF UNLRA Deal",
+    "id": "laf-unlra-deal",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Letter of Regret",
+    "id": "letter-of-regret",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Liebert's Diary",
+    "id": "liebert-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "List of Child Evacuees 1",
+    "id": "list-of-child-evacuees-1",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "List of Child Evacuees 2",
+    "id": "list-of-child-evacuees-2",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Chosen Propaganda",
+    "id": "lla-chosen-propaganda",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Hostage Note",
+    "id": "lla-hostage-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Internal Comms",
+    "id": "lla-internal-comms",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA IT Report",
+    "id": "lla-it-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Operational Note",
+    "id": "lla-operational-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Propaganda - Foreign Invasion",
+    "id": "lla-propaganda-foreign-invasion",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Propaganda - New Era",
+    "id": "lla-propaganda-new-era",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Propaganda - Recruitment of Criminals",
+    "id": "lla-propaganda-recruitment-of-criminals",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Radio Takeover",
+    "id": "lla-radio-takeover",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Recruitment Directive",
+    "id": "lla-recruitment-directive",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Situation Update",
+    "id": "lla-situation-update",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "LLA Strategic Directive",
+    "id": "lla-strategic-directive",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Local's Diary - Frogs",
+    "id": "local-s-diary-frogs",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Lockdown Release Procedure",
+    "id": "lockdown-release-procedure",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Locked Tools Code",
+    "id": "locked-tools-code",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Logbook",
+    "id": "logbook",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Lost Tourist's Diary",
+    "id": "lost-tourist-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Lumberyard Office Code",
+    "id": "lumberyard-office-code",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Lunatic's Diary",
+    "id": "lunatic-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Madman's Note",
+    "id": "madman-s-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Malevolent Message",
+    "id": "malevolent-message",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Mandatory Infirmary",
+    "id": "mandatory-infirmary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Medic's Diary",
+    "id": "medic-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Medical Analysis",
+    "id": "medical-analysis",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Medical Records",
+    "id": "medical-records",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Medical Waste Disposal Protocol",
+    "id": "medical-waste-disposal-protocol",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Message for Nithan",
+    "id": "message-for-nithan",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Message for Repairers",
+    "id": "message-for-repairers",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Message of Despair",
+    "id": "message-of-despair",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Midnight Sapphire Note",
+    "id": "midnight-sapphire-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Mob List of People",
+    "id": "mob-list-of-people",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Motel Owner’s Diary",
+    "id": "motel-owner-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "MS VIP Wellness Program Form",
+    "id": "ms-vip-wellness-program-form",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "MS VIP Wellness Program Menu",
+    "id": "ms-vip-wellness-program-menu",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "MS Worker's Diary",
+    "id": "ms-worker-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Mysterious codebook",
     "id": "mysterious-codebook",
     "type": "Intel"
+  },
+  {
+    "name": "Nam's Folder",
+    "id": "nam-s-folder",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "New FN Commander's Report",
+    "id": "new-fn-commander-s-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Newspaper - 50 Years since liberation from Japan",
@@ -27,8 +1931,1408 @@
     "type": "Intel"
   },
   {
+    "name": "Non-Evacuable Households Summary",
+    "id": "non-evacuable-households-summary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "NR ADMIN 214-4/2026",
+    "id": "nr-admin-214-4-2026",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "NR EX-487/78B",
+    "id": "nr-ex-487-78b",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "NR SITREP 623-5/2026",
+    "id": "nr-sitrep-623-5-2026",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Nurse’s Journal",
+    "id": "nurse-s-journal",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Official Complaint",
+    "id": "official-complaint",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Official LAF Document",
+    "id": "official-laf-document",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Parker File",
+    "id": "parker-file",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Parting Note",
+    "id": "parting-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Patient Details",
+    "id": "patient-details",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Patient Interview",
+    "id": "patient-interview",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Patrol Schedule",
+    "id": "patrol-schedule",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Penthouse Access Authorization",
+    "id": "penthouse-access-authorization",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Pha Lang Airfield Note",
+    "id": "pha-lang-airfield-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Photo",
+    "id": "photo",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Photography - Career Change",
+    "id": "photography-career-change",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Photography - Ghost Lady",
+    "id": "photography-ghost-lady",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Photography - Juliette Marchand",
+    "id": "photography-juliette-marchand",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Photography - Me and My Friend",
+    "id": "photography-me-and-my-friend",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Pirate Boss's Diary",
+    "id": "pirate-boss-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Planner",
+    "id": "planner",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Postcard - Shithole",
+    "id": "postcard-shithole",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Poster",
     "id": "poster",
     "type": "Intel"
+  },
+  {
+    "name": "Prayer Notebook",
+    "id": "prayer-notebook",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Prayer Schedule",
+    "id": "prayer-schedule",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Procurement Memo",
+    "id": "procurement-memo",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Production Status Report",
+    "id": "production-status-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Prohibited Evacuation",
+    "id": "prohibited-evacuation",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Project Distant Voice Report",
+    "id": "project-distant-voice-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Protective Oversight Agreement",
+    "id": "protective-oversight-agreement",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Psychotic Note",
+    "id": "psychotic-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Puzzled Girl's Diary",
+    "id": "puzzled-girl-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Rebel Chat",
+    "id": "rebel-chat",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Rebel Notebook",
+    "id": "rebel-notebook",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Regretful Peacekeeper's Diary",
+    "id": "regretful-peacekeeper-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Reorganization of Lakevale Sanctuary",
+    "id": "reorganization-of-lakevale-sanctuary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Report Suspicious Behavior",
+    "id": "report-suspicious-behavior",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Research Notes",
+    "id": "research-notes",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Resident's Diary - Alien",
+    "id": "resident-s-diary-alien",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "RLSL-1 Garrison Order",
+    "id": "rlsl-1-garrison-order",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "RLSL-1 Medical Report",
+    "id": "rlsl-1-medical-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "RLSL-1 Operational Directive",
+    "id": "rlsl-1-operational-directive",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "RLSL-1 Supply Request",
+    "id": "rlsl-1-supply-request",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Roof Hatch Notice",
+    "id": "roof-hatch-notice",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Safeguarding Storehouse Order",
+    "id": "safeguarding-storehouse-order",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sawmill Note",
+    "id": "sawmill-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sawmill Supply Folder",
+    "id": "sawmill-supply-folder",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sawmill Worker's Diary",
+    "id": "sawmill-worker-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sayavong's Escape Plan",
+    "id": "sayavong-s-escape-plan",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Scandalous Transcript",
+    "id": "scandalous-transcript",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Scared Pirate's Diary",
+    "id": "scared-pirate-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Scavenger's Notes",
+    "id": "scavenger-s-notes",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Security Notice",
+    "id": "security-notice",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Security Orders",
+    "id": "security-orders",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Shaman's Diary",
+    "id": "shaman-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Slaver's Diary",
+    "id": "slaver-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Stash Code",
+    "id": "stash-code",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sticky Note",
+    "id": "sticky-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Suicide Note",
+    "id": "suicide-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Supply Relocation",
+    "id": "supply-relocation",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "SWF-SEC8-MUN-ACCESS-01",
+    "id": "swf-sec8-mun-access-01",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Takeshi's Letter",
+    "id": "takeshi-s-letter",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Thug Orders",
+    "id": "thug-orders",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Thug's Diary",
+    "id": "thug-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Thug's Diary - Vietnamese Goons",
+    "id": "thug-s-diary-vietnamese-goons",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tiger Bay Note",
+    "id": "tiger-bay-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Torturer's Notebook",
+    "id": "torturer-s-notebook",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tourist Photography - Big Haul",
+    "id": "tourist-photography-big-haul",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tourist Photography - Endangered Trophy",
+    "id": "tourist-photography-endangered-trophy",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tourist Photography - Family Arrive",
+    "id": "tourist-photography-family-arrive",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tourist Photography - Fond Memories",
+    "id": "tourist-photography-fond-memories",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tourist Photography - Never Leave",
+    "id": "tourist-photography-never-leave",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tourist's Diary - Bad Experience",
+    "id": "tourist-s-diary-bad-experience",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Transaction Memo",
+    "id": "transaction-memo",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Transformer Worker’s Diary",
+    "id": "transformer-worker-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Turncoat Order",
+    "id": "turncoat-order",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "UN Pre-Crisis Analysis",
+    "id": "un-pre-crisis-analysis",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Unknown Combatant",
+    "id": "unknown-combatant",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Unknown Combatant's Diary",
+    "id": "unknown-combatant-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Unknown Soldier's Notes",
+    "id": "unknown-soldier-s-notes",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "UNLRA - MCLU-7",
+    "id": "unlra-mclu-7",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "UNLRA LAF Deal",
+    "id": "unlra-laf-deal",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "UNLRA Selective Evac",
+    "id": "unlra-selective-evac",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Unnerving Note",
+    "id": "unnerving-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Unsent Letter",
+    "id": "unsent-letter",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Urgent Letter",
+    "id": "urgent-letter",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Vagrants Message",
+    "id": "vagrants-message",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Vietnamese Report",
+    "id": "vietnamese-report",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Villa Civilian’s Diary",
+    "id": "villa-civilian-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Villa PMC’s Diary",
+    "id": "villa-pmc-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Villa Suzan Eve Cleaning",
+    "id": "villa-suzan-eve-cleaning",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Villager's Diary",
+    "id": "villager-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "VIP Guest's Notebook",
+    "id": "vip-guest-s-notebook",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "VIP Program",
+    "id": "vip-program",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Wary Note",
+    "id": "wary-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Wealthy Man’s Diary",
+    "id": "wealthy-man-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Wealthy Woman’s Diary",
+    "id": "wealthy-woman-s-diary",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Weapons Stockpile Code",
+    "id": "weapons-stockpile-code",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Weekend Safe Procedures",
+    "id": "weekend-safe-procedures",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Weekly Shipment Notes",
+    "id": "weekly-shipment-notes",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "YBL-1 Note",
+    "id": "ybl-1-note",
+    "type": "Intel",
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   }
 ]

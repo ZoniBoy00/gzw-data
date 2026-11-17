@@ -1,5 +1,30 @@
 [
   {
+    "name": "A3 M-LOK Tactical Foregrip",
+    "id": "a3-m-lok-tactical-foregrip",
+    "type": "Foregrip",
+    "weight": "0.039 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$289",
+    "manufacturer": "A3 Tactical",
+    "recoil_control": "+4 %",
+    "ergonomics": "+16 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.039,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 16.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
     "name": "AFG-2",
     "id": "afg-2",
     "type": "Foregrip",
@@ -7,23 +32,23 @@
     "sold_by": "Gunny R.4",
     "buy_price": "$476",
     "manufacturer": "Magpul",
-    "recoil_control": "+18 %",
-    "weapon_handling": "+4 %",
-    "buy_price_source": "game-files",
+    "recoil_control": "+5 %",
+    "ergonomics": "+20 %",
     "numeric_values": {
       "weight": {
         "value": 0.072,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 18.0,
+        "value": 5.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": 4.0,
+      "ergonomics": {
+        "value": 20.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "+4 %"
   },
   {
     "name": "AFG-2 (FDE)",
@@ -50,113 +75,458 @@
     }
   },
   {
-    "name": "DD Vertical Foregrip",
-    "id": "dd-vertical-foregrip",
+    "name": "AFG-2 (Hunter Team)",
+    "id": "afg-2-hunter-team",
     "type": "Foregrip",
-    "weight": "0.068 kg",
-    "sold_by": "???",
-    "manufacturer": "Daniel Defense",
-    "recoil_control": "+10 %",
-    "weapon_handling": "+12 %",
-    "ergonomics": "+10 %",
-    "weight_source": "game-files",
-    "numeric_values": {
-      "weight": {
-        "value": 0.068,
-        "unit": "kg"
-      },
-      "recoil_control": {
-        "value": 10.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": 12.0,
-        "unit": "%"
-      },
-      "ergonomics": {
-        "value": 10.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "DD Vertical Foregrip (Black)",
-    "id": "dd-vertical-foregrip-black",
-    "type": "Foregrip",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "Daniel Defense",
-    "recoil_control": "+10 %",
-    "weapon_handling": "+12 %",
-    "ergonomics": "+10 %",
-    "numeric_values": {
-      "recoil_control": {
-        "value": 10.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": 12.0,
-        "unit": "%"
-      },
-      "ergonomics": {
-        "value": 10.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "DD Vertical Foregrip (MILSPEC)",
-    "id": "dd-vertical-foregrip-milspec",
-    "type": "Foregrip",
-    "weight": "0.068 kg",
-    "sold_by": "???",
-    "manufacturer": "Daniel Defense",
-    "recoil_control": "+10 %",
-    "weapon_handling": "+12 %",
-    "ergonomics": "+10 %",
-    "weight_source": "game-files",
-    "numeric_values": {
-      "weight": {
-        "value": 0.068,
-        "unit": "kg"
-      },
-      "recoil_control": {
-        "value": 10.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": 12.0,
-        "unit": "%"
-      },
-      "ergonomics": {
-        "value": 10.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "M-LOK AFG",
-    "id": "m-lok-afg",
-    "type": "Foregrip",
-    "weight": "0.034 kg",
-    "sold_by": "Loot Only",
+    "weight": "0.072 kg",
+    "sold_by": "Loot only",
     "manufacturer": "Magpul",
-    "recoil_control": "+18.0 %",
-    "weapon_handling": "+4.0 %",
+    "recoil_control": "+5 %",
+    "ergonomics": "+20 %",
     "numeric_values": {
       "weight": {
-        "value": 0.034,
+        "value": 0.072,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AFG-2 (Phantom Lance)",
+    "id": "afg-2-phantom-lance",
+    "type": "Foregrip",
+    "weight": "0.072 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Magpul",
+    "recoil_control": "+5 %",
+    "ergonomics": "+20 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.072,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 20.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AT3 M-LOK Angled Foregrip",
+    "id": "at3-m-lok-angled-foregrip",
+    "type": "Foregrip",
+    "weight": "0.045 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "AT3 Tactical",
+    "recoil_control": "+2 %",
+    "ergonomics": "+18 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 18.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AUG Vertical Foregrip",
+    "id": "aug-vertical-foregrip",
+    "type": "Foregrip",
+    "weight": "0.075 kg",
+    "sold_by": "Vulture R.2",
+    "buy_price": "$140",
+    "manufacturer": "Steyr Arms",
+    "recoil_control": "+7 %",
+    "ergonomics": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.075,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 7.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AUG Vertical Foregrip (Black)",
+    "id": "aug-vertical-foregrip-black"
+  },
+  {
+    "name": "AUG Vertical Foregrip (Desert Storm)",
+    "id": "aug-vertical-foregrip-desert-storm",
+    "type": "Foregrip",
+    "weight": "0.075 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Steyr Arms",
+    "recoil_control": "+8 %",
+    "ergonomics": "+8 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.075,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AUG Vertical Foregrip (Tan)",
+    "id": "aug-vertical-foregrip-tan"
+  },
+  {
+    "name": "AUG Vertical Foregrip (White)",
+    "id": "aug-vertical-foregrip-white"
+  },
+  {
+    "name": "BCM M-LOK Vertical Grip",
+    "id": "bcm-m-lok-vertical-grip",
+    "type": "Foregrip",
+    "weight": "0.04 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$580",
+    "manufacturer": "Bravo Company USA",
+    "recoil_control": "+18 %",
+    "ergonomics": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
         "unit": "kg"
       },
       "recoil_control": {
         "value": 18.0,
         "unit": "%"
       },
-      "weapon_handling": {
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "BCM M-LOK Vertical Grip (FDE)",
+    "id": "bcm-m-lok-vertical-grip-fde"
+  },
+  {
+    "name": "BCM M-LOK Vertical Grip (Green)",
+    "id": "bcm-m-lok-vertical-grip-green"
+  },
+  {
+    "name": "BCM M-LOK Vertical Grip (Riot Echo)",
+    "id": "bcm-m-lok-vertical-grip-riot-echo",
+    "type": "Foregrip",
+    "weight": "0.04 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Bravo Company USA",
+    "recoil_control": "+20 %",
+    "ergonomics": "+8 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "BCM M-LOK Vertical Grip (Serpent Guard)",
+    "id": "bcm-m-lok-vertical-grip-serpent-guard",
+    "type": "Foregrip",
+    "weight": "0.04 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Bravo Company USA",
+    "recoil_control": "+20 %",
+    "ergonomics": "+8 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "BCM Picatinny Vertical Grip",
+    "id": "bcm-picatinny-vertical-grip",
+    "type": "Foregrip",
+    "weight": "0.04 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Bravo Company USA",
+    "recoil_control": "+18 %",
+    "ergonomics": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 18.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "BCM Picatinny Vertical Grip (FDE)",
+    "id": "bcm-picatinny-vertical-grip-fde"
+  },
+  {
+    "name": "BCM Picatinny Vertical Grip (Green)",
+    "id": "bcm-picatinny-vertical-grip-green"
+  },
+  {
+    "name": "CRC M-LOK Foregrip",
+    "id": "crc-m-lok-foregrip",
+    "type": "Foregrip",
+    "weight": "0.056 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$500",
+    "manufacturer": "КРУК \"Crook\"",
+    "recoil_control": "+9 %",
+    "ergonomics": "+9 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.056,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 9.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 9.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "CRC M-LOK Foregrip (FDE)",
+    "id": "crc-m-lok-foregrip-fde"
+  },
+  {
+    "name": "CRC M-LOK Foregrip (Green)",
+    "id": "crc-m-lok-foregrip-green"
+  },
+  {
+    "name": "CRC Picatinny Foregrip",
+    "id": "crc-picatinny-foregrip",
+    "type": "Foregrip",
+    "weight": "0.07 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$500",
+    "manufacturer": "КРУК \"Crook\"",
+    "recoil_control": "+9 %",
+    "ergonomics": "+9 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 9.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 9.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "CRC Picatinny Foregrip (FDE)",
+    "id": "crc-picatinny-foregrip-fde"
+  },
+  {
+    "name": "CRC Picatinny Foregrip (Green)",
+    "id": "crc-picatinny-foregrip-green"
+  },
+  {
+    "name": "DD Vertical Foregrip",
+    "id": "dd-vertical-foregrip",
+    "type": "Foregrip",
+    "weight": "0.068 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Daniel Defense",
+    "recoil_control": "+5 %",
+    "ergonomics": "+13 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.068,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 13.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "+12 %"
+  },
+  {
+    "name": "DD Vertical Foregrip (MILSPEC)",
+    "id": "dd-vertical-foregrip-milspec",
+    "type": "Foregrip",
+    "weight": "0.068 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$280.5",
+    "manufacturer": "Daniel Defense",
+    "recoil_control": "+5 %",
+    "ergonomics": "+13 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.068,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 13.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "+12 %"
+  },
+  {
+    "name": "GPN Long Foregrip",
+    "id": "gpn-long-foregrip",
+    "type": "Foregrip",
+    "weight": "0.123 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "GPN",
+    "recoil_control": "+6 %",
+    "ergonomics": "+12 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.123,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "GPN Long Foregrip (FDE)",
+    "id": "gpn-long-foregrip-fde"
+  },
+  {
+    "name": "GPN Long Foregrip (Green)",
+    "id": "gpn-long-foregrip-green"
+  },
+  {
+    "name": "GPN Short Foregrip",
+    "id": "gpn-short-foregrip",
+    "type": "Foregrip",
+    "weight": "0.09 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$440",
+    "manufacturer": "GPN",
+    "recoil_control": "+14 %",
+    "ergonomics": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 14.0,
+        "unit": "%"
+      },
+      "ergonomics": {
         "value": 4.0,
         "unit": "%"
       }
     }
+  },
+  {
+    "name": "GPN Short Foregrip (FDE)",
+    "id": "gpn-short-foregrip-fde"
+  },
+  {
+    "name": "GPN Short Foregrip (Green)",
+    "id": "gpn-short-foregrip-green"
+  },
+  {
+    "name": "M-LOK AFG",
+    "id": "m-lok-afg",
+    "type": "Foregrip",
+    "weight": "0.034 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$527",
+    "manufacturer": "Magpul",
+    "recoil_control": "+20 %",
+    "ergonomics": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.034,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "+4.0 %"
   },
   {
     "name": "M-LOK AFG (FDE)",
@@ -168,11 +538,34 @@
     "recoil_control": "+???? %",
     "weapon_handling": "+???? %",
     "ergonomics": "+???? %",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.034,
         "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "M-LOK AFG (Jackal Company)",
+    "id": "m-lok-afg-jackal-company",
+    "type": "Foregrip",
+    "weight": "0.034 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Magpul",
+    "recoil_control": "+20 %",
+    "ergonomics": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.034,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
       }
     }
   },
@@ -182,25 +575,66 @@
     "type": "Foregrip",
     "weight": "0.017 kg",
     "sold_by": "Gunny R.2",
+    "buy_price": "$170",
     "manufacturer": "Leapers, Inc.",
-    "recoil_control": "+4 %",
-    "weapon_handling": "+5 %",
-    "ergonomics": "+5 %",
+    "recoil_control": "+15 %",
     "numeric_values": {
       "weight": {
         "value": 0.017,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 4.0,
+        "value": 15.0,
         "unit": "%"
+      }
+    },
+    "weapon_handling": "+5 %",
+    "ergonomics": "+5 %"
+  },
+  {
+    "name": "PTK Foregrip",
+    "id": "ptk-foregrip",
+    "type": "Foregrip",
+    "weight": "0.06 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "F.A.B.",
+    "recoil_control": "+12 %",
+    "ergonomics": "+13 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
       },
-      "weapon_handling": {
-        "value": 5.0,
+      "recoil_control": {
+        "value": 12.0,
         "unit": "%"
       },
       "ergonomics": {
-        "value": 5.0,
+        "value": 13.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "PTK Foregrip (Blackwood Division)",
+    "id": "ptk-foregrip-blackwood-division",
+    "type": "Foregrip",
+    "weight": "0.06 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "F.A.B.",
+    "recoil_control": "+13 %",
+    "ergonomics": "+14 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 13.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 14.0,
         "unit": "%"
       }
     }
@@ -210,94 +644,120 @@
     "id": "rk-0",
     "type": "Foregrip",
     "weight": "0.138 kg",
-    "sold_by": "???",
+    "sold_by": "Loot only",
     "manufacturer": "Zenitco",
-    "recoil_control": "+9 %",
-    "weapon_handling": "-5 %",
-    "ergonomics": "-7 %",
+    "recoil_control": "+10 %",
+    "ergonomics": "+5 %",
     "numeric_values": {
       "weight": {
         "value": 0.138,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 9.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": -5.0,
+        "value": 10.0,
         "unit": "%"
       },
       "ergonomics": {
-        "value": -7.0,
+        "value": 5.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-5 %"
   },
   {
     "name": "RK-1",
     "id": "rk-1",
     "type": "Foregrip",
-    "weight": "0.160 kg",
+    "weight": "0.16 kg",
     "sold_by": "Turncoat R.3",
     "buy_price": "$289",
     "manufacturer": "Zenitco",
-    "recoil_control": "+15 %",
-    "weapon_handling": "-6 %",
-    "ergonomics": "-6 %",
-    "buy_price_source": "game-files",
+    "recoil_control": "+2 %",
+    "ergonomics": "+16 %",
     "numeric_values": {
       "weight": {
         "value": 0.16,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 15.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": -6.0,
+        "value": 2.0,
         "unit": "%"
       },
       "ergonomics": {
-        "value": -6.0,
+        "value": 16.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-6 %"
   },
   {
     "name": "RK-2",
     "id": "rk-2",
     "type": "Foregrip",
     "weight": "0.18 kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "+???? %",
-    "weapon_handling": "+???? %",
-    "ergonomics": "+???? %",
-    "weight_source": "game-files",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$297.5",
+    "manufacturer": "Zenitco",
+    "ergonomics": "+18 %",
     "numeric_values": {
       "weight": {
         "value": 0.18,
         "unit": "kg"
+      },
+      "ergonomics": {
+        "value": 18.0,
+        "unit": "%"
       }
-    }
+    },
+    "recoil_control": "+???? %",
+    "weapon_handling": "+???? %"
   },
   {
     "name": "RK-4",
     "id": "rk-4",
     "type": "Foregrip",
     "weight": "0.127 kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "+???? %",
-    "weapon_handling": "+???? %",
-    "ergonomics": "+???? %",
-    "weight_source": "game-files",
+    "sold_by": "Loot only",
+    "manufacturer": "Zenitco",
+    "recoil_control": "+16 %",
+    "ergonomics": "+2 %",
     "numeric_values": {
       "weight": {
         "value": 0.127,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 16.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "+???? %"
+  },
+  {
+    "name": "RK-4 (Silent Watch)",
+    "id": "rk-4-silent-watch",
+    "type": "Foregrip",
+    "weight": "0.127 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Zenitco",
+    "recoil_control": "+17 %",
+    "ergonomics": "+3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.127,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 17.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 3.0,
+        "unit": "%"
       }
     }
   },
@@ -305,14 +765,12 @@
     "name": "RK-5",
     "id": "rk-5",
     "type": "Foregrip",
-    "weight": "0.110 kg",
+    "weight": "0.11 kg",
     "sold_by": "Turncoat R.2",
-    "buy_price": "$195",
+    "buy_price": "$195.5",
     "manufacturer": "Zenitco",
     "recoil_control": "+12 %",
-    "weapon_handling": "-5 %",
-    "ergonomics": "-7 %",
-    "buy_price_source": "game-files",
+    "ergonomics": "+3 %",
     "numeric_values": {
       "weight": {
         "value": 0.11,
@@ -322,47 +780,34 @@
         "value": 12.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -5.0,
-        "unit": "%"
-      },
       "ergonomics": {
-        "value": -7.0,
+        "value": 3.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-5 %"
   },
   {
     "name": "RK-6",
     "id": "rk-6",
     "type": "Foregrip",
-    "weight": "0.110 kg",
+    "weight": "0.11 kg",
     "sold_by": "Turncoat R.2",
-    "buy_price": "$178",
+    "buy_price": "$178.5",
     "manufacturer": "Zenitco",
-    "recoil_control": "+13 %",
-    "weapon_handling": "+2 %",
-    "ergonomics": "+5 %",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
+    "ergonomics": "+15 %",
     "numeric_values": {
       "weight": {
         "value": 0.11,
         "unit": "kg"
       },
-      "recoil_control": {
-        "value": 13.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": 2.0,
-        "unit": "%"
-      },
       "ergonomics": {
-        "value": 5.0,
+        "value": 15.0,
         "unit": "%"
       }
-    }
+    },
+    "recoil_control": "+13 %",
+    "weapon_handling": "+2 %"
   },
   {
     "name": "RVG",
@@ -370,10 +815,10 @@
     "type": "Foregrip",
     "weight": "0.073 kg",
     "sold_by": "Gunny R.3",
-    "manufacturer": "???",
-    "recoil_control": "+12 %",
-    "weapon_handling": "-6 %",
-    "ergonomics": "-6 %",
+    "buy_price": "$306",
+    "manufacturer": "Magpul",
+    "recoil_control": "+16 %",
+    "ergonomics": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/RVG_inspect.png/revision/latest?cb=20250613224315",
     "numeric_values": {
       "weight": {
@@ -381,18 +826,15 @@
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 12.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": -6.0,
+        "value": 16.0,
         "unit": "%"
       },
       "ergonomics": {
-        "value": -6.0,
+        "value": 2.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-6 %"
   },
   {
     "name": "RVG (FDE)",
@@ -404,7 +846,6 @@
     "recoil_control": "+12 %",
     "weapon_handling": "-6 %",
     "ergonomics": "-6 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/RVG%28FDE%29_inspect.png/revision/latest?cb=20250617103102",
     "numeric_values": {
       "weight": {
         "value": 0.073,
@@ -420,6 +861,30 @@
       },
       "ergonomics": {
         "value": -6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "RVG (Sentinel Company)",
+    "id": "rvg-sentinel-company",
+    "type": "Foregrip",
+    "weight": "0.073 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Magpul",
+    "recoil_control": "+18 %",
+    "ergonomics": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.073,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 18.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 4.0,
         "unit": "%"
       }
     }
@@ -432,47 +897,49 @@
     "sold_by": "Gunny R.3",
     "buy_price": "$340",
     "manufacturer": "Fortis",
-    "recoil_control": "+12 %",
-    "weapon_handling": "+2 %",
-    "ergonomics": "+7 %",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
+    "recoil_control": "+16 %",
+    "ergonomics": "+4 %",
     "numeric_values": {
       "weight": {
         "value": 0.096,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 12.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": 2.0,
+        "value": 16.0,
         "unit": "%"
       },
       "ergonomics": {
-        "value": 7.0,
+        "value": 4.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "+2 %"
   },
   {
     "name": "Ultra Slim M-LOK MT-FGM01X Foregrip",
     "id": "ultra-slim-m-lok-mt-fgm01x-foregrip",
     "type": "Foregrip",
     "weight": "0.04 kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "+???? %",
-    "weapon_handling": "+???? %",
-    "ergonomics": "+???? %",
-    "weight_source": "game-files",
+    "sold_by": "Gunny R.2",
+    "buy_price": "$195.5",
+    "manufacturer": "Leapers, Inc.",
+    "recoil_control": "+2 %",
+    "ergonomics": "+13 %",
     "numeric_values": {
       "weight": {
         "value": 0.04,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 13.0,
+        "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "+???? %"
   },
   {
     "name": "UltraSlim Angled Foregrip",
@@ -480,26 +947,71 @@
     "type": "Foregrip",
     "weight": "0.039 kg",
     "sold_by": "Gunny R.3",
+    "buy_price": "$408",
     "manufacturer": "Leapers, Inc.",
-    "recoil_control": "+11 %",
-    "weapon_handling": "+3 %",
-    "ergonomics": "+1 %",
-    "sold_by_source": "game-files",
+    "recoil_control": "+18 %",
+    "ergonomics": "+2 %",
     "numeric_values": {
       "weight": {
         "value": 0.039,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 11.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": 3.0,
+        "value": 18.0,
         "unit": "%"
       },
       "ergonomics": {
-        "value": 1.0,
+        "value": 2.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "+3 %"
+  },
+  {
+    "name": "UltraSlim Angled Foregrip (Zero Hour)",
+    "id": "ultraslim-angled-foregrip-zero-hour",
+    "type": "Foregrip",
+    "weight": "0.039 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Leapers, Inc.",
+    "recoil_control": "+19 %",
+    "ergonomics": "+3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.039,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 19.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "VTS Tactical Support",
+    "id": "vts-tactical-support",
+    "type": "Foregrip",
+    "weight": "0.021 kg",
+    "sold_by": "Gunny R.2",
+    "buy_price": "$180",
+    "manufacturer": "F.A.B.",
+    "recoil_control": "+5 %",
+    "ergonomics": "+10 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.021,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 10.0,
         "unit": "%"
       }
     }

@@ -134,6 +134,15 @@
     "objectives": "Plant a GPS Tracker on a drug shipment"
   },
   {
+    "name": "Controlled Delivery VII",
+    "id": "controlled-delivery-vii",
+    "vendor": "Banshee",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
+    "objectives": "Plant a GPS Tracker on a drug shipment"
+  },
+  {
     "name": "Controlled Delivery VIII",
     "id": "controlled-delivery-viii",
     "vendor": "Banshee",
@@ -201,7 +210,8 @@
     "name": "Repossession III",
     "id": "repossession-iii",
     "vendor": "Turncoat",
-    "location": "Blue Lagoon",
+    "task_type": "Contract",
+    "location": "Hunter's Paradise",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305",
     "briefing": "Turncoat needs a favor, as there's something he desperately wants to possess. Locate the item he seeks and store it at the designated location.",
     "objectives": "Store the item inside an empty jug at Inthavong Farm. Search the mansion north of Kiu Vongsa and retrieve the valuable item Search the mansion north of Kiu Vongsa and retrieve the valuable item"
@@ -274,6 +284,7 @@
     "id": "the-ban-pa-horror",
     "vendor": "Handshake",
     "location": "Ban Pa",
+    "alternate": "The Call of Phi Pa Mum",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
     "briefing": "Investigate the area around Ban PA for any signs of past cult activity and locate a possible house of prayer or sacred site. Recover any relevant intel and deliver it to Handshake.",
     "objectives": "Bring the intel from the Ban Pa House of Prayer to Handshake/Artisan. Find intel regarding the Ban Pa cult. Locate the Bizarre Statue."

@@ -35,8 +35,15 @@
   {
     "name": "Call up Papers",
     "id": "call-up-papers",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.05 kg",
+    "grid_size": "1x1",
+    "weight_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Crime-related Intel",
@@ -164,8 +171,15 @@
   {
     "name": "Kanoa Sinarath's Medallion",
     "id": "kanoa-sinaraths-medallion",
-    "weight": "?kg",
-    "grid_size": "1x1"
+    "weight": "0.1 kg",
+    "grid_size": "1x1",
+    "weight_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Last Resort",

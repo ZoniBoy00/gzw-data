@@ -3,133 +3,165 @@
     "name": "AK-12",
     "id": "ak-12",
     "type": "Assault Rifle",
-    "weight": "3.553 kg",
+    "weight": "2 kg",
     "sold_by": "Turncoat R.3",
-    "manufacturer": "Kalashnikov Concern",
-    "accuracy": "2.81 MOA",
-    "fire_mode": "Single/Full-auto",
+    "buy_price": "$850",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "2.8 MOA",
+    "ergonomics": "+9 %",
     "fire_rate": "700 RPM",
-    "caliber": "5.45x39mm",
-    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1)",
+    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/AK-12_inspect.png/revision/latest/scale-to-width-down/268?cb=20250602231732",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 3.553,
+        "value": 2.0,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 2.81,
+        "value": 2.8,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 9.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 700.0,
         "unit": "rpm"
       }
-    }
+    },
+    "fire_mode": "Single/Full-auto",
+    "caliber": "5.45x39mm"
   },
   {
     "name": "AK-15",
     "id": "ak-15",
     "type": "Assault Rifle",
-    "weight": "3.810 kg",
+    "weight": "2.1 kg",
     "sold_by": "Turncoat R.4",
-    "manufacturer": "Kalashnikov Concern",
-    "accuracy": "2.50 MOA",
-    "recoil_control": "+16%",
-    "weapon_handling": "+10%",
-    "ergonomics": "+4%",
-    "reload_speed": "+6%",
-    "fire_mode": "Single / Full Auto",
+    "buy_price": "$850",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "2.5 MOA",
+    "ergonomics": "+9 %",
     "fire_rate": "700 RPM",
-    "muzzle_device_efficiency": "+3.0 %",
-    "caliber": "7.62x39mm",
-    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/AK-15_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155725",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 3.81,
+        "value": 2.1,
         "unit": "kg"
       },
       "accuracy": {
         "value": 2.5,
         "unit": "moa"
       },
-      "recoil_control": {
-        "value": 16.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": 10.0,
-        "unit": "%"
-      },
       "ergonomics": {
-        "value": 4.0,
-        "unit": "%"
-      },
-      "reload_speed": {
-        "value": 6.0,
+        "value": 9.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 700.0,
         "unit": "rpm"
-      },
-      "muzzle_device_efficiency": {
-        "value": 3.0,
-        "unit": "%"
       }
-    }
+    },
+    "fire_mode": "Single / Full Auto",
+    "caliber": "7.62x39mm"
   },
   {
     "name": "AK-19",
     "id": "ak-19",
     "type": "Assault Rifle",
-    "weight": "3.690 kg",
-    "sold_by": "Loot only",
-    "manufacturer": "Kalashnikov Concern",
-    "accuracy": "2.10 MOA",
-    "fire_mode": "Single/Auto",
+    "weight": "2.1 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$1,105",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "2.1 MOA",
+    "ergonomics": "+9 %",
     "fire_rate": "700 RPM",
-    "caliber": "5.56x45mm",
-    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/AK-19_inspect.png/revision/latest/scale-to-width-down/268?cb=20250605225258",
     "numeric_values": {
       "weight": {
-        "value": 3.69,
+        "value": 2.1,
         "unit": "kg"
       },
       "accuracy": {
         "value": 2.1,
         "unit": "moa"
       },
+      "ergonomics": {
+        "value": 9.0,
+        "unit": "%"
+      },
       "fire_rate": {
         "value": 700.0,
         "unit": "rpm"
       }
-    }
+    },
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm"
   },
   {
     "name": "AK-308",
     "id": "ak-308",
     "type": "Assault Rifle",
-    "weight": "5.712 kg",
+    "weight": "2.7 kg",
     "sold_by": "Turncoat R.4",
-    "manufacturer": "Kalashnikov Concern",
-    "accuracy": "1.80 MOA",
-    "caliber": "7.62x51mm",
+    "buy_price": "$1,360",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "1.8 MOA",
+    "ergonomics": "+4 %",
+    "fire_rate": "700 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/AK-308_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617154126",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 5.712,
+        "value": 2.7,
         "unit": "kg"
       },
       "accuracy": {
         "value": 1.8,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 700.0,
+        "unit": "rpm"
+      }
+    },
+    "caliber": "7.62x51mm"
+  },
+  {
+    "name": "AK-308 (Hunter Team)",
+    "id": "ak-308-hunter-team",
+    "type": "Assault Rifle",
+    "weight": "2.7 kg",
+    "sold_by": "Vulture R.1 after completing Vulture 's task Chameleon - AK-308 (HT)",
+    "buy_price": "$2,043",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "1.8 MOA",
+    "ergonomics": "+5 %",
+    "fire_rate": "700 RPM",
+    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "numeric_values": {
+      "weight": {
+        "value": 2.7,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.8,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 700.0,
+        "unit": "rpm"
       }
     }
   },
@@ -137,45 +169,161 @@
     "name": "AK-74M",
     "id": "ak-74m",
     "type": "Assault Rifle",
+    "weight": "2.1 kg",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$425",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "3.2 MOA",
+    "ergonomics": "+8 %",
+    "fire_rate": "650 RPM",
+    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/AK-74M_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617235259",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.2,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 650.0,
+        "unit": "rpm"
+      }
+    },
     "fire_mode": "Single / Full Auto",
-    "caliber": "5.45x39mm",
-    "default_ammo": "5.45x39mm FMJ",
-    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/AK-74M_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617235259"
+    "caliber": "5.45x39mm"
   },
   {
     "name": "AK-74N",
     "id": "ak-74n",
     "type": "Assault Rifle",
+    "weight": "2.1 kg",
+    "sold_by": "Turncoat R.1 FDE:Loot only",
+    "buy_price": "$323",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "3.2 MOA",
+    "ergonomics": "+4 %",
+    "fire_rate": "650 RPM",
+    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/AK-74N_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155544",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.2,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 650.0,
+        "unit": "rpm"
+      }
+    },
     "fire_mode": "Single / Full Auto",
-    "caliber": "5.45x39mm",
-    "default_ammo": "5.45x39mm FMJ",
-    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/AK-74N_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155544"
+    "caliber": "5.45x39mm"
   },
   {
     "name": "AKM",
     "id": "akm",
     "type": "Assault Rifle",
-    "slot": "Primary",
-    "weight": "3,780 kg",
+    "weight": "2 kg",
     "sold_by": "Turncoat R.2",
-    "manufacturer": "Kalashnikov Concern",
-    "accuracy": "3.50 MOA",
-    "reload_speed": "+2%",
-    "fire_mode": "Single / Full Auto",
+    "buy_price": "$272",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "3.5 MOA",
+    "ergonomics": "+4 %",
     "fire_rate": "600 RPM",
-    "caliber": "7.62x39mm",
-    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/AKM_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617155444",
-    "sold_by_source": "game-files",
     "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      },
       "accuracy": {
         "value": 3.5,
         "unit": "moa"
       },
-      "reload_speed": {
-        "value": 2.0,
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single / Full Auto",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "AKMN",
+    "id": "akmn",
+    "type": "Assault Rifle",
+    "weight": "2.1 kg",
+    "sold_by": "Turncoat R.2 FDE :Loot only",
+    "buy_price": "$272",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "3.5 MOA",
+    "ergonomics": "+4 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.5,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single / Full Auto",
+    "caliber": "7.62x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/AKM_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617155444"
+  },
+  {
+    "name": "AKMN (Jackal Company)",
+    "id": "akmn-jackal-company",
+    "type": "Assault Rifle",
+    "weight": "2.1 kg",
+    "sold_by": "Artisan R.1 after completing Artisan 's task Chameleon - AKMN (JC)",
+    "buy_price": "$408",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "3.5 MOA",
+    "ergonomics": "+5 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.5,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 5.0,
         "unit": "%"
       },
       "fire_rate": {
@@ -185,79 +333,271 @@
     }
   },
   {
-    "name": "AKMN",
-    "id": "akmn",
-    "type": "Assault Rifle",
-    "slot": "Primary",
-    "manufacturer": "Kalashnikov Concern",
-    "fire_mode": "Single / Full Auto",
-    "caliber": "7.62x39mm",
-    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/AKM_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617155444"
-  },
-  {
     "name": "AKMSN",
     "id": "akmsn",
     "type": "Assault Rifle",
-    "slot": "Primary",
-    "manufacturer": "Kalashnikov Concern",
-    "fire_mode": "Single / Full Auto",
-    "caliber": "7.62x39mm",
-    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/AKMSN_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155359"
-  },
-  {
-    "name": "AKS-74U",
-    "id": "aks-74u",
-    "type": "Assault Rifle",
-    "weight": "2.757 kg",
+    "weight": "2.2 kg",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$289",
+    "manufacturer": "Kalashnikov concern",
     "accuracy": "3.5 MOA",
-    "reload_speed": "3.1%",
-    "fire_mode": "Single / Full Auto",
-    "fire_rate": "650 RPM",
-    "caliber": "5.45x39mm",
-    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/AKS-74U_inspect.png/revision/latest/scale-to-width-down/267?cb=20250324154314",
+    "ergonomics": "+4 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/AKMSN_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155359",
     "numeric_values": {
       "weight": {
-        "value": 2.757,
+        "value": 2.2,
         "unit": "kg"
       },
       "accuracy": {
         "value": 3.5,
         "unit": "moa"
       },
-      "reload_speed": {
-        "value": 3.1,
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single / Full Auto",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "AKS-74U",
+    "id": "aks-74u",
+    "type": "Assault Rifle",
+    "weight": "1.7 kg",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$255",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "3.5 MOA",
+    "ergonomics": "-4 %",
+    "fire_rate": "650 RPM",
+    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/AKS-74U_inspect.png/revision/latest/scale-to-width-down/267?cb=20250324154314",
+    "numeric_values": {
+      "weight": {
+        "value": 1.7,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.5,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -4.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 650.0,
         "unit": "rpm"
       }
-    }
+    },
+    "fire_mode": "Single / Full Auto",
+    "caliber": "5.45x39mm"
   },
   {
-    "name": "Beretta M9A1",
-    "id": "beretta-m9a1",
+    "name": "Alien",
+    "id": "laugo-alien",
     "type": "Pistol",
-    "weight": "1.045 kg",
-    "sold_by": "Gunny R.1",
-    "manufacturer": "Beretta",
-    "accuracy": "11.70 MOA",
-    "fire_mode": "Single",
-    "fire_rate": "600 RPM",
-    "caliber": "9x19mm",
-    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator P+",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bc/M9A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250527013326",
+    "weight": "0.57 kg",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$6,120",
+    "manufacturer": "Laugo Arms",
+    "accuracy": "0 MOA",
+    "ergonomics": "+20 %",
+    "fire_rate": "700 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Alien_inspect.png/revision/latest/scale-to-width-down/268?cb=20260406035818",
     "numeric_values": {
       "weight": {
-        "value": 1.045,
+        "value": 0.57,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 11.7,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 700.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Alien (Black)",
+    "id": "alien-black",
+    "type": "Pistol",
+    "weight": "0.57 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Laugo Arms",
+    "accuracy": "0 MOA",
+    "ergonomics": "+20 %",
+    "fire_rate": "700 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.57,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 20.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 700.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4",
+    "id": "benelli-m4",
+    "type": "Shotgun",
+    "weight": "0.767 kg",
+    "sold_by": "Gunny R.3 FDE :Loot only",
+    "buy_price": "$1,000",
+    "manufacturer": "Benelli",
+    "accuracy": "0 MOA",
+    "fire_rate": "300 RPM",
+    "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "numeric_values": {
+      "weight": {
+        "value": 0.767,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "fire_rate": {
+        "value": 300.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 (Riot Echo)",
+    "id": "benelli-m4-riot-echo",
+    "type": "Shotgun",
+    "weight": "0.767 kg",
+    "sold_by": "Gunny R.1 after completing Gunny 's task Chameleon - Benelli M4 (RE)",
+    "buy_price": "$1,000",
+    "manufacturer": "Benelli",
+    "accuracy": "0 MOA",
+    "ergonomics": "+2 %",
+    "fire_rate": "300 RPM",
+    "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "numeric_values": {
+      "weight": {
+        "value": 0.767,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 300.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 (Silver)",
+    "id": "benelli-m4-silver",
+    "type": "Shotgun",
+    "weight": "0.767 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Benelli",
+    "accuracy": "0 MOA",
+    "fire_rate": "300 RPM",
+    "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "numeric_values": {
+      "weight": {
+        "value": 0.767,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "fire_rate": {
+        "value": 300.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Bloodhound's M-201C",
+    "id": "bloodhounds-m-201c",
+    "type": "Pistol",
+    "weight": "0.3 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Broker's M9A1",
+    "id": "brokers-m9a1",
+    "type": "Pistol",
+    "weight": "0.231 kg",
+    "sold_by": "Gunny R.1 after completing Gunny 's task Like a Boss - Broker's M9A1",
+    "buy_price": "$408",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.231,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 600.0,
@@ -269,67 +609,59 @@
     "name": "Buran's AK-74N",
     "id": "burans-ak-74n",
     "type": "Assault Rifle",
-    "weight": "3.405 kg",
-    "sold_by": "Turncoat",
+    "weight": "2.1 kg",
+    "sold_by": "Turncoat R.1 after completing Turncoat 's task Like a Boss - Buran's AK-74N",
+    "buy_price": "$643",
     "manufacturer": "EGMT",
-    "accuracy": "3.04 MOA",
-    "recoil_control": "+19 %",
-    "ergonomics": "+30 %",
-    "fire_mode": "Single / Full Auto",
+    "accuracy": "3.2 MOA",
+    "ergonomics": "+10 %",
     "fire_rate": "650 RPM",
-    "muzzle_device_efficiency": "+30 %",
-    "caliber": "5.45x39mm",
-    "default_ammo": "5.45x39mm FMJ",
-    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1)",
+    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Buran%27s_AK-74N_inspect.png/revision/latest/scale-to-width-down/267?cb=20260606044029",
     "numeric_values": {
       "weight": {
-        "value": 3.405,
+        "value": 2.1,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 3.04,
+        "value": 3.2,
         "unit": "moa"
       },
-      "recoil_control": {
-        "value": 19.0,
-        "unit": "%"
-      },
       "ergonomics": {
-        "value": 30.0,
+        "value": 10.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 650.0,
         "unit": "rpm"
-      },
-      "muzzle_device_efficiency": {
-        "value": 30.0,
-        "unit": "%"
       }
-    }
+    },
+    "fire_mode": "Single / Full Auto",
+    "caliber": "5.45x39mm"
   },
   {
-    "name": "Colt 1911",
-    "id": "colt-1911",
+    "name": "Chaonai's Type 51",
+    "id": "chaonais-type-51",
     "type": "Pistol",
-    "slot": "Secondary",
-    "weight": "1.052 kg",
-    "manufacturer": "Colt",
-    "accuracy": "12.13 MOA",
-    "fire_mode": "Single",
+    "weight": "0.3 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
-    "caliber": ".45 ACP",
-    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/1911_inspect.png/revision/latest/scale-to-width-down/267?cb=20250603001636",
+    "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm Pst 7.62x25mm PT",
     "numeric_values": {
       "weight": {
-        "value": 1.052,
+        "value": 0.3,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 12.13,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 600.0,
@@ -338,26 +670,95 @@
     }
   },
   {
-    "name": "Colt Combat Commander",
-    "id": "colt-combat-commander",
+    "name": "Colonel's Type 51",
+    "id": "colonels-type-51",
     "type": "Pistol",
-    "slot": "Secondary",
-    "weight": "1.203 kg",
-    "manufacturer": "Colt",
-    "accuracy": "11.00 MOA",
-    "fire_mode": "Single",
+    "weight": "0.3 kg",
+    "sold_by": "Artisan R.1 after completing Artisan 's task Like a Boss - Colonel's Type 51",
+    "buy_price": "$300",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
-    "caliber": ".45 ACP",
-    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dc/1911_Com_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618010637",
+    "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm Pst 7.62x25mm PT",
     "numeric_values": {
       "weight": {
-        "value": 1.203,
+        "value": 0.3,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 11.0,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Colt 1911",
+    "id": "colt-1911",
+    "type": "Pistol",
+    "weight": "0.231 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$187",
+    "manufacturer": "COLT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Colt_1911_inspect.png/revision/latest/scale-to-width-down/267?cb=20250603001636",
+    "numeric_values": {
+      "weight": {
+        "value": 0.231,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single",
+    "caliber": ".45 ACP"
+  },
+  {
+    "name": "Colt 1911 Commander",
+    "id": "colt-combat-commander",
+    "type": "Pistol",
+    "weight": "0.17 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$340",
+    "manufacturer": "COLT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+12 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Colt_1911_Commander_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618010637",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 600.0,
@@ -369,23 +770,92 @@
     "name": "CQ A1",
     "id": "cq-a1",
     "type": "Assault Rifle",
-    "weight": "2.674 kg",
+    "weight": "0.6 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$340",
     "manufacturer": "Norinco",
-    "accuracy": "4.18 MOA",
-    "fire_mode": "Single",
+    "accuracy": "0 MOA",
+    "ergonomics": "-4 %",
     "fire_rate": "800 RPM",
-    "caliber": "5.56x45mm",
-    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/CQ_A1_inspect.PNG/revision/latest/scale-to-width-down/268?cb=20251105171848",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/CQ_A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20251105171848",
     "numeric_values": {
       "weight": {
-        "value": 2.674,
+        "value": 0.6,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 4.18,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 800.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single",
+    "caliber": "5.56x45mm"
+  },
+  {
+    "name": "DDM4",
+    "id": "ddm4",
+    "type": "Assault Rifle",
+    "weight": "0.7 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$1,360",
+    "manufacturer": "Daniel Defense",
+    "accuracy": "0 MOA",
+    "ergonomics": "+8 %",
+    "fire_rate": "800 RPM",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/DDM4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250613225202",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 800.0,
+        "unit": "rpm"
+      }
+    },
+    "caliber": "5.56x45mm NATO"
+  },
+  {
+    "name": "DDM4 (Black)",
+    "id": "ddm4-black",
+    "type": "Assault Rifle",
+    "weight": "0.7 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Daniel Defense",
+    "accuracy": "0 MOA",
+    "ergonomics": "+8 %",
+    "fire_rate": "800 RPM",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 800.0,
@@ -394,33 +864,63 @@
     }
   },
   {
-    "name": "DDM4",
-    "id": "ddm4",
+    "name": "DDM4 (Phantom Lance)",
+    "id": "ddm4-phantom-lance",
     "type": "Assault Rifle",
-    "weight": "3.451 kg",
-    "sold_by": "Gunny R.3",
+    "weight": "0.7 kg",
+    "sold_by": "Gunny R.1 after completing Gunny 's task Chameleon - DDM4 (PL)",
+    "buy_price": "$2,043",
     "manufacturer": "Daniel Defense",
-    "accuracy": "1.83 MOA",
-    "reload_speed": "3.4%",
+    "accuracy": "0 MOA",
+    "ergonomics": "+9 %",
     "fire_rate": "800 RPM",
-    "caliber": "5.56x45mm NATO",
-    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/DDM4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250613225202",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "numeric_values": {
       "weight": {
-        "value": 3.451,
+        "value": 0.7,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 1.83,
+        "value": 0.0,
         "unit": "moa"
       },
-      "reload_speed": {
-        "value": 3.4,
+      "ergonomics": {
+        "value": 9.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 800.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "FAMAS",
+    "id": "famas",
+    "type": "Assault Rifle",
+    "weight": "1.5 kg",
+    "sold_by": "Artisan R.1 after completing Artisan 's task Mystery Machines",
+    "buy_price": "$680",
+    "manufacturer": "MAS",
+    "accuracy": "0 MOA",
+    "ergonomics": "+8 %",
+    "fire_rate": "1000 RPM",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 1000.0,
         "unit": "rpm"
       }
     }
@@ -429,73 +929,243 @@
     "name": "Firebrand's AKS-74U",
     "id": "firebrands-aks-74u",
     "type": "Assault Rifle",
-    "weight": "2.740 kg",
-    "sold_by": "Turncoat after Like a Boss - Firebrand's AKS-74u",
+    "weight": "1.7 kg",
+    "sold_by": "Turncoat R.1 after completing Turncoat 's task Like a Boss - Firebrand's AKS-74U",
+    "buy_price": "$510",
     "manufacturer": "EGMT",
-    "accuracy": "3.68 MOA",
-    "recoil_control": "+4.0%",
-    "ergonomics": "+26.0%",
-    "reload_speed": "-2.0%",
-    "fire_mode": "Single / Full Auto",
+    "accuracy": "3.5 MOA",
+    "ergonomics": "+10 %",
     "fire_rate": "650 RPM",
-    "muzzle_device_efficiency": "+19.0 %",
-    "caliber": "5.45x39mm",
-    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Firebrands_AKS-74U_inspect.png/revision/latest/scale-to-width-down/268?cb=20260512115450",
+    "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Firebrand%27s_AKS-74U_inspect.png/revision/latest/scale-to-width-down/268?cb=20260512115450",
     "numeric_values": {
       "weight": {
-        "value": 2.74,
+        "value": 1.7,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 3.68,
+        "value": 3.5,
         "unit": "moa"
       },
-      "recoil_control": {
-        "value": 4.0,
-        "unit": "%"
-      },
       "ergonomics": {
-        "value": 26.0,
-        "unit": "%"
-      },
-      "reload_speed": {
-        "value": -2.0,
+        "value": 10.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 650.0,
         "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single / Full Auto",
+    "caliber": "5.45x39mm"
+  },
+  {
+    "name": "G3",
+    "id": "g3",
+    "type": "Rifle",
+    "weight": "0.8 kg",
+    "sold_by": "Artisan R.1 after completing Artisan 's task Unlisted Flight",
+    "buy_price": "$1,100",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "0 MOA",
+    "fire_rate": "500 RPM",
+    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
       },
-      "muzzle_device_efficiency": {
-        "value": 19.0,
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "fire_rate": {
+        "value": 500.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "G3 (Zero Hour)",
+    "id": "g3-zero-hour",
+    "type": "Rifle",
+    "weight": "0.8 kg",
+    "sold_by": "Artisan R.1 after completing Artisan 's task Chameleon - G3 (ZH)",
+    "buy_price": "$1,100",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "0 MOA",
+    "ergonomics": "+2 %",
+    "fire_rate": "500 RPM",
+    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
+      },
+      "fire_rate": {
+        "value": 500.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "G36",
+    "id": "g36",
+    "type": "Assault Rifle",
+    "weight": "0.8 kg",
+    "sold_by": "Vulture R.1 after completing Vulture 's task Distant Voice FDE :Loot only",
+    "buy_price": "$680",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "0 MOA",
+    "ergonomics": "+5 %",
+    "fire_rate": "750 RPM",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/G36_inspect.png/revision/latest/scale-to-width-down/268?cb=20261110204919",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 750.0,
+        "unit": "rpm"
       }
     }
   },
   {
     "name": "Glock 17",
     "id": "glock-17",
-    "type": "Handgun",
-    "weight": "0.810 kg",
-    "accuracy": "11.7 MOA",
-    "reload_speed": "3.4%",
-    "fire_mode": "Single",
+    "type": "Pistol",
+    "weight": "0.231 kg",
+    "sold_by": "Banshee R.1",
+    "buy_price": "$255",
+    "manufacturer": "GLOCK",
+    "accuracy": "0 MOA",
+    "ergonomics": "+8 %",
     "fire_rate": "600 RPM",
-    "caliber": "9x19mm",
-    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator P+",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/G17_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115145",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/Glock_17_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115145",
     "numeric_values": {
       "weight": {
-        "value": 0.81,
+        "value": 0.231,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 11.7,
+        "value": 0.0,
         "unit": "moa"
       },
-      "reload_speed": {
-        "value": 3.4,
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single",
+    "caliber": "9x19mm"
+  },
+  {
+    "name": "Glock 18C",
+    "id": "glock-18c",
+    "type": "Pistol",
+    "weight": "0.24 kg",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$1,200",
+    "manufacturer": "GLOCK",
+    "accuracy": "0 MOA",
+    "ergonomics": "+14 %",
+    "fire_rate": "1200 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 14.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 1200.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Glock 18C (Wolf Brigade)",
+    "id": "glock-18c-wolf-brigade",
+    "type": "Pistol",
+    "weight": "0.24 kg",
+    "sold_by": "Banshee R.1 after completing Banshee 's task Chameleon - Glock 18C (WB)",
+    "buy_price": "$1,200",
+    "manufacturer": "GLOCK",
+    "accuracy": "0 MOA",
+    "ergonomics": "+14 %",
+    "fire_rate": "1200 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 14.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 1200.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Golden Boy's Colt 1911",
+    "id": "golden-boys-colt-1911",
+    "type": "Pistol",
+    "weight": "0.4 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
         "unit": "%"
       },
       "fire_rate": {
@@ -508,47 +1178,64 @@
     "name": "Grin's Colt 1911 Commander",
     "id": "grins-colt-1911-commander",
     "type": "Pistol",
-    "slot": "Secondary",
-    "weight": "1.116 kg",
-    "manufacturer": "Colt",
-    "accuracy": "13.15 MOA",
-    "recoil_control": "+6.5%",
-    "ergonomics": "+15.1%",
-    "reload_speed": "-2.2%",
-    "fire_mode": "Single",
+    "weight": "0.454 kg",
+    "sold_by": "Vulture R.1 after completing Vulture 's task Like a Boss - Grin's 1911 C",
+    "buy_price": "$680",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
-    "muzzle_velocity": "+0.8%",
-    "caliber": ".45 ACP",
     "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/Grins_1911_inspect.png/revision/latest/scale-to-width-down/268?cb=20260512044104",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/Grin%27s_Colt_1911_Commander_inspect.png/revision/latest/scale-to-width-down/268?cb=20260512044104",
     "numeric_values": {
       "weight": {
-        "value": 1.116,
+        "value": 0.454,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 13.15,
+        "value": 0.0,
         "unit": "moa"
       },
-      "recoil_control": {
-        "value": 6.5,
-        "unit": "%"
-      },
       "ergonomics": {
-        "value": 15.1,
-        "unit": "%"
-      },
-      "reload_speed": {
-        "value": -2.2,
+        "value": 10.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 600.0,
         "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single",
+    "caliber": ".45 ACP"
+  },
+  {
+    "name": "Kaptei's Glock 17",
+    "id": "kapteis-glock-17",
+    "type": "Pistol",
+    "weight": "0.231 kg",
+    "sold_by": "Gunny R.1 after completing Gunny 's task Like a Boss - Kaptei's Glock 17",
+    "buy_price": "$510",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.231,
+        "unit": "kg"
       },
-      "muzzle_velocity": {
-        "value": 0.8,
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
         "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
       }
     }
   },
@@ -556,23 +1243,60 @@
     "name": "L403A1",
     "id": "l403a1",
     "type": "Assault Rifle",
-    "weight": "4.438 kg",
+    "weight": "0.7 kg",
     "sold_by": "Gunny R.4",
+    "buy_price": "$1,700",
     "manufacturer": "KAC",
-    "accuracy": "0.8 MOA",
-    "fire_mode": "Single/Auto",
+    "accuracy": "0 MOA",
+    "ergonomics": "+12 %",
     "fire_rate": "800 RPM",
-    "caliber": "5.56x45mm",
-    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1) 5.56x45mm AP (M995)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/L403A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260406225421",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/L403A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260525043357",
     "numeric_values": {
       "weight": {
-        "value": 4.438,
+        "value": 0.7,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 0.8,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 800.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm"
+  },
+  {
+    "name": "L403A1 (Serpent Guard)",
+    "id": "l403a1-serpent-guard",
+    "type": "Assault Rifle",
+    "weight": "0.7 kg",
+    "sold_by": "Gunny R.1 after completing Gunny 's task Chameleon - L403A1 (SG)",
+    "buy_price": "$2,400",
+    "manufacturer": "KAC",
+    "accuracy": "0 MOA",
+    "ergonomics": "+15 %",
+    "fire_rate": "800 RPM",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 15.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 800.0,
@@ -581,25 +1305,54 @@
     }
   },
   {
-    "name": "Laugo alien",
-    "id": "laugo-alien",
+    "name": "M-201C",
+    "id": "m201c",
     "type": "Pistol",
-    "weight": "1.404 kg",
-    "sold_by": "???",
-    "manufacturer": "Laugo Arms",
-    "accuracy": "8.15 MOA",
-    "fire_mode": "Single",
-    "fire_rate": "700 RPM",
-    "caliber": "9x19mm",
-    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator P+",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/Alien_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260406043129",
+    "weight": "0.3 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$153",
+    "manufacturer": "Norinco",
+    "accuracy": "0 MOA",
+    "ergonomics": "+6 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
     "numeric_values": {
       "weight": {
-        "value": 1.404,
+        "value": 0.3,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 8.15,
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "M14",
+    "id": "m14-rifle",
+    "type": "Rifle",
+    "weight": "0.91 kg",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$1,190",
+    "manufacturer": "Springfield",
+    "accuracy": "0 MOA",
+    "fire_rate": "700 RPM",
+    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "numeric_values": {
+      "weight": {
+        "value": 0.91,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
         "unit": "moa"
       },
       "fire_rate": {
@@ -609,161 +1362,254 @@
     }
   },
   {
-    "name": "M14 Rifle",
-    "id": "m14-rifle",
+    "name": "M14 (Black Hawk)",
+    "id": "m14-black-hawk",
     "type": "Rifle",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "????",
-    "accuracy": "??? MOA",
-    "fire_mode": "Single",
-    "fire_rate": "???? RPM",
-    "caliber": "7.62x51mm",
-    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)"
-  },
-  {
-    "name": "M16 A1",
-    "id": "m16-a1",
-    "type": "Assault Rifle",
-    "weight": "3.595 kg",
-    "sold_by": "Gunny R.1",
-    "manufacturer": "General West",
-    "accuracy": "1.22 MOA",
-    "recoil_control": "9.0 %",
-    "ergonomics": "-7.0 %",
-    "reload_speed": "4.0 %",
-    "fire_mode": "Single/Auto",
-    "fire_rate": "800 rpm RPM",
-    "caliber": "5.56x45mm",
-    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1) 5.56x45mm AP (M995)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/M16A1-Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525042725",
+    "weight": "0.91 kg",
+    "sold_by": "Banshee R.1 after completing Banshee 's task Chameleon - M14 (BH)",
+    "buy_price": "$1,785",
+    "manufacturer": "Springfield",
+    "accuracy": "0 MOA",
+    "ergonomics": "+2 %",
+    "fire_rate": "700 RPM",
+    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
     "numeric_values": {
       "weight": {
-        "value": 3.595,
+        "value": 0.91,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 1.22,
+        "value": 0.0,
         "unit": "moa"
       },
-      "recoil_control": {
-        "value": 9.0,
-        "unit": "%"
-      },
       "ergonomics": {
-        "value": -7.0,
+        "value": 2.0,
         "unit": "%"
       },
-      "reload_speed": {
-        "value": 4.0,
-        "unit": "%"
+      "fire_rate": {
+        "value": 700.0,
+        "unit": "rpm"
       }
     }
   },
   {
-    "name": "M1A Rifle",
+    "name": "M16A1",
+    "id": "m16-a1",
+    "type": "Assault Rifle",
+    "weight": "0.65 kg",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$510",
+    "manufacturer": "General West",
+    "accuracy": "0 MOA",
+    "ergonomics": "+4 %",
+    "fire_rate": "800 RPM",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/M16A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260525042725",
+    "numeric_values": {
+      "weight": {
+        "value": 0.65,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 800.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "M1A",
     "id": "m1a-rifle",
     "type": "Rifle",
-    "weight": "4.137 kg",
-    "sold_by": "Banshee",
+    "weight": "0.9 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$731",
     "manufacturer": "Springfield",
-    "accuracy": "1.01 MOA",
-    "fire_mode": "Single",
+    "accuracy": "0 MOA",
+    "ergonomics": "-4 %",
     "fire_rate": "700 RPM",
-    "caliber": "7.62x51mm",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/M1A_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412223432",
     "numeric_values": {
       "weight": {
-        "value": 4.137,
+        "value": 0.9,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 1.01,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -4.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 700.0,
         "unit": "rpm"
       }
     }
-  },
-  {
-    "name": "M201C",
-    "id": "m201c",
-    "type": "Pistol",
-    "weight": "??? kg",
-    "manufacturer": "Norinco",
-    "accuracy": "??? MOA",
-    "fire_mode": "Single",
-    "fire_rate": "??? RPM",
-    "caliber": "7.62x25mm",
-    "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm PT 7.62x25mm PST"
   },
   {
     "name": "M4A1",
     "id": "m4a1",
     "type": "Assault Rifle",
-    "weight": "3.299 kg",
-    "sold_by": "Gunny R.2",
-    "accuracy": "2.15 MOA",
-    "reload_speed": "3.2%",
+    "weight": "0.65 kg",
+    "sold_by": "Gunny R.2 FDE :Loot only",
+    "buy_price": "$510",
+    "manufacturer": "COLT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+5 %",
     "fire_rate": "800 RPM",
-    "caliber": "5.56x45mm NATO",
-    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/M4A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155019",
     "numeric_values": {
       "weight": {
-        "value": 3.299,
+        "value": 0.65,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 2.15,
+        "value": 0.0,
         "unit": "moa"
       },
-      "reload_speed": {
-        "value": 3.2,
+      "ergonomics": {
+        "value": 5.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 800.0,
         "unit": "rpm"
       }
-    }
+    },
+    "caliber": "5.56x45mm NATO"
   },
   {
     "name": "M700",
     "id": "m700",
     "type": "Rifle",
+    "weight": "0.8 kg",
     "sold_by": "Gunny R.2",
-    "caliber": "7.62x51mm",
+    "buy_price": "$765",
+    "manufacturer": "Remington",
+    "accuracy": "0 MOA",
+    "fire_rate": "30 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/M700_inspect.png/revision/latest/scale-to-width-down/268?cb=20240513214530"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/M700_inspect.png/revision/latest/scale-to-width-down/268?cb=20240513214530",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "fire_rate": {
+        "value": 30.0,
+        "unit": "rpm"
+      }
+    },
+    "caliber": "7.62x51mm"
+  },
+  {
+    "name": "M700 (Gray Company)",
+    "id": "m700-gray-company",
+    "type": "Rifle",
+    "weight": "0.8 kg",
+    "sold_by": "Banshee R.1 after completing Banshee 's task Chameleon - M700 (GC)",
+    "buy_price": "$1,530",
+    "manufacturer": "Remington",
+    "accuracy": "0 MOA",
+    "ergonomics": "+2 %",
+    "fire_rate": "30 RPM",
+    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 30.0,
+        "unit": "rpm"
+      }
+    }
   },
   {
     "name": "M870",
     "id": "m870",
     "type": "Shotgun",
-    "weight": "4.502 kg",
-    "sold_by": "Gunny R.1",
+    "weight": "1.1 kg",
+    "sold_by": "Gunny R.1 FDE :Loot only",
+    "buy_price": "$170",
     "manufacturer": "Remington",
-    "accuracy": "24.5 MOA",
-    "fire_mode": "Single",
+    "accuracy": "0 MOA",
+    "ergonomics": "-4 %",
     "fire_rate": "300 RPM",
-    "caliber": "12 Gauge",
-    "accepted_ammunition": "12GA 00 Buckshot 12GA FC 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
+    "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/M870_inspect.png/revision/latest/scale-to-width-down/267?cb=20250329022139",
     "numeric_values": {
       "weight": {
-        "value": 4.502,
+        "value": 1.1,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 24.5,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -4.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 300.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single",
+    "caliber": "12 Gauge"
+  },
+  {
+    "name": "M9A1",
+    "id": "beretta-m9a1",
+    "type": "Pistol",
+    "weight": "0.231 kg",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$204",
+    "manufacturer": "Beretta",
+    "accuracy": "0 MOA",
+    "ergonomics": "+8 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bc/M9A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250527013326",
+    "numeric_values": {
+      "weight": {
+        "value": 0.231,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
         "unit": "rpm"
       }
     }
@@ -772,65 +1618,120 @@
     "name": "Mosin-Nagant",
     "id": "mosin-nagant",
     "type": "Rifle",
-    "weight": "3.525 kg",
+    "weight": "0.9 kg",
     "sold_by": "Artisan R.2",
-    "manufacturer": "Kalashnikov Concern",
-    "accuracy": "3 MOA",
-    "fire_mode": "Single",
+    "buy_price": "$340",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "0 MOA",
+    "ergonomics": "-12 %",
     "fire_rate": "20 RPM",
-    "caliber": "7.62x54mm R",
     "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/Mosin_inspect.png/revision/latest/scale-to-width-down/266?cb=20250618000700",
-    "sold_by_source": "game-files",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Mosin-Nagant_inspect.png/revision/latest/scale-to-width-down/266?cb=20250618000700",
     "numeric_values": {
       "weight": {
-        "value": 3.525,
+        "value": 0.9,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 3.0,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -12.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 20.0,
         "unit": "rpm"
       }
-    }
+    },
+    "fire_mode": "Single",
+    "caliber": "7.62x54mm R"
   },
   {
     "name": "Mosin-Nagant (Sniper)",
     "id": "mosin-nagant-sniper",
     "type": "Rifle",
-    "sold_by": "Artisan",
-    "fire_mode": "Single",
+    "weight": "0.9 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$340",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "0 MOA",
+    "ergonomics": "-8 %",
     "fire_rate": "20 RPM",
     "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Mosin_%28S%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620012557",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Mosin-Nagant_%28Sniper%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620012557",
     "numeric_values": {
+      "weight": {
+        "value": 0.9,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -8.0,
+        "unit": "%"
+      },
       "fire_rate": {
         "value": 20.0,
         "unit": "rpm"
       }
-    }
+    },
+    "fire_mode": "Single"
   },
   {
     "name": "Mossberg 590",
     "id": "mossberg-590",
     "type": "Shotgun",
-    "weight": "3.412 kg",
-    "accuracy": "42.1 MOA",
-    "fire_mode": "Single",
+    "weight": "1.1 kg",
+    "sold_by": "Regular :Loot only FDE :Loot only",
+    "manufacturer": "Mossberg",
+    "accuracy": "0 MOA",
+    "ergonomics": "-4 %",
     "fire_rate": "300 RPM",
-    "caliber": "12 Gauge",
-    "accepted_ammunition": "12GA 00 Buckshot 12GA FC 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/M590_inspect.png/revision/latest/scale-to-width-down/268?cb=20250329030452",
+    "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Mossberg_590_inspect.png/revision/latest/scale-to-width-down/268?cb=20250329030452",
     "numeric_values": {
       "weight": {
-        "value": 3.412,
+        "value": 1.1,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 42.1,
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -4.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 300.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single",
+    "caliber": "12 Gauge"
+  },
+  {
+    "name": "Mossberg 590 (Raven Team)",
+    "id": "mossberg-590-raven-team",
+    "type": "Shotgun",
+    "weight": "1.1 kg",
+    "sold_by": "Gunny R.1 after completing Gunny 's task Chameleon - Mossberg 590 (RT)",
+    "buy_price": "$170",
+    "manufacturer": "Mossberg",
+    "accuracy": "0 MOA",
+    "fire_rate": "300 RPM",
+    "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "numeric_values": {
+      "weight": {
+        "value": 1.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
         "unit": "moa"
       },
       "fire_rate": {
@@ -842,34 +1743,36 @@
   {
     "name": "MP5",
     "id": "mp5",
-    "type": "Submachine Gun",
-    "weight": "2.507 kg",
+    "type": "SMG",
+    "weight": "0.74 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$510",
+    "manufacturer": "Heckler & Koch",
     "accuracy": "6.88 MOA",
-    "reload_speed": "4.2%",
-    "fire_mode": "Single/Full-Auto",
+    "ergonomics": "-2 %",
     "fire_rate": "800 RPM",
-    "caliber": "9x19mm",
-    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator P+",
+    "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/MP5_inspect.png/revision/latest/scale-to-width-down/267?cb=20250620012946",
     "numeric_values": {
       "weight": {
-        "value": 2.507,
+        "value": 0.74,
         "unit": "kg"
       },
       "accuracy": {
         "value": 6.88,
         "unit": "moa"
       },
-      "reload_speed": {
-        "value": 4.2,
+      "ergonomics": {
+        "value": -2.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 800.0,
         "unit": "rpm"
       }
-    }
+    },
+    "fire_mode": "Single/Full-Auto",
+    "caliber": "9x19mm"
   },
   {
     "name": "MP7",
@@ -901,22 +1804,130 @@
   {
     "name": "MP7A1",
     "id": "mp7a1",
-    "type": "Submachine Gun",
+    "type": "SMG",
+    "weight": "1.6 kg",
     "sold_by": "Banshee R.1",
+    "buy_price": "$644",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "5.24 MOA",
+    "ergonomics": "+16 %",
+    "fire_rate": "950 RPM",
+    "accepted_ammunition": "4.6x30mm Action SX 4.6x30mm AP SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX 4.6x30mm V-max",
+    "numeric_values": {
+      "weight": {
+        "value": 1.6,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 5.24,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 16.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 950.0,
+        "unit": "rpm"
+      }
+    },
     "fire_mode": "Single/Full-Auto",
-    "caliber": "4.6x30mm",
-    "accepted_ammunition": "4.6x30mm AP SX 4.6x30mm Action SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX",
-    "sold_by_source": "game-files"
+    "caliber": "4.6x30mm"
   },
   {
     "name": "MP7A2",
     "id": "mp7a2",
-    "type": "Submachine Gun",
+    "type": "SMG",
+    "weight": "1.55 kg",
     "sold_by": "Banshee R.2",
+    "buy_price": "$695",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "5.24 MOA",
+    "ergonomics": "+16 %",
+    "fire_rate": "950 RPM",
+    "accepted_ammunition": "4.6x30mm Action SX 4.6x30mm AP SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX 4.6x30mm V-max",
+    "numeric_values": {
+      "weight": {
+        "value": 1.55,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 5.24,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 16.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 950.0,
+        "unit": "rpm"
+      }
+    },
     "fire_mode": "Single/Full-Auto",
-    "caliber": "4.6x30mm",
-    "accepted_ammunition": "4.6x30mm AP SX 4.6x30mm Action SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX",
-    "sold_by_source": "game-files"
+    "caliber": "4.6x30mm"
+  },
+  {
+    "name": "MP7A2 (Sentinel Company)",
+    "id": "mp7a2-sentinel-company",
+    "type": "SMG",
+    "weight": "1.55 kg",
+    "sold_by": "Banshee R.1 after completing Banshee 's task Chameleon - MP7A2 (SC)",
+    "buy_price": "$892",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "5.24 MOA",
+    "ergonomics": "+18 %",
+    "fire_rate": "950 RPM",
+    "accepted_ammunition": "4.6x30mm Action SX 4.6x30mm AP SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX 4.6x30mm V-max",
+    "numeric_values": {
+      "weight": {
+        "value": 1.55,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 5.24,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 18.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 950.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "Naga's Type 51",
+    "id": "nagas-type-51",
+    "type": "Pistol",
+    "weight": "0.3 kg",
+    "sold_by": "Artisan R.1 after completing Artisan 's task Like a Boss - Naga's Type 51",
+    "buy_price": "$300",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm Pst 7.62x25mm PT",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    }
   },
   {
     "name": "Remington 788",
@@ -930,42 +1941,64 @@
     "name": "Sa vz. 58",
     "id": "sa-vz.-58",
     "type": "Assault Rifle",
-    "weight": "3.287 kg",
-    "sold_by": "Banshee R.2",
+    "weight": "0.75 kg",
+    "sold_by": "Banshee R.2 FDE :Loot only",
+    "buy_price": "$300",
     "manufacturer": "CZ",
-    "accuracy": "1.90 MOA",
-    "recoil_control": "+9.0%",
-    "ergonomics": "+15.0%",
-    "fire_mode": "Single/Full-auto",
+    "accuracy": "0 MOA",
+    "ergonomics": "+5 %",
     "fire_rate": "800 RPM",
-    "muzzle_device_efficiency": "+10.0 %",
-    "caliber": "7.62x39mm",
-    "accepted_ammunition": "7.62x39mm SP 7.62x39mm US 7.62x39mm Tracer (57-N-231P) 7.62x39mm FMJ 7.62x39mm PS (57-N-231C) 7.62x39mm BP (7N23) 7.62x39mm PP (7N27)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/SA_vz._58_inspect.png/revision/latest/scale-to-width-down/267?cb=20260602022249",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Sa_vz._58_inspect.png/revision/latest/scale-to-width-down/267?cb=20260602022249",
     "numeric_values": {
       "weight": {
-        "value": 3.287,
+        "value": 0.75,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 1.9,
+        "value": 0.0,
         "unit": "moa"
       },
-      "recoil_control": {
-        "value": 9.0,
-        "unit": "%"
-      },
       "ergonomics": {
-        "value": 15.0,
+        "value": 5.0,
         "unit": "%"
       },
       "fire_rate": {
         "value": 800.0,
         "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single/Full-auto",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "Sa vz. 58 (Blackwood Division)",
+    "id": "sa-vz.-58-blackwood-division",
+    "type": "Assault Rifle",
+    "weight": "0.75 kg",
+    "sold_by": "Banshee R.1 after completing Banshee 's task Chameleon - Sa vz. 58 (BD)",
+    "buy_price": "$300",
+    "manufacturer": "CZ",
+    "accuracy": "0 MOA",
+    "ergonomics": "+6 %",
+    "fire_rate": "800 RPM",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "numeric_values": {
+      "weight": {
+        "value": 0.75,
+        "unit": "kg"
       },
-      "muzzle_device_efficiency": {
-        "value": 10.0,
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
         "unit": "%"
+      },
+      "fire_rate": {
+        "value": 800.0,
+        "unit": "rpm"
       }
     }
   },
@@ -973,24 +2006,90 @@
     "name": "SIG MCX",
     "id": "sig-mcx",
     "type": "Assault Rifle",
-    "weight": "4.310 kg",
+    "weight": "0.8 kg",
     "sold_by": "Banshee R.3",
-    "manufacturer": "Sig Sauer",
-    "accuracy": "3.28 MOA",
-    "fire_mode": "Single / Full-Auto",
+    "buy_price": "$1,190",
+    "manufacturer": "SIG Sauer",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
     "fire_rate": "800 RPM",
-    "caliber": ".300 AAC Blackout",
-    "default_mag": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
     "accepted_ammunition": ".300 AAC Blackout AP .300 AAC Blackout CQ .300 AAC Blackout FMJ .300 AAC Blackout Subsonic .300 AAC Blackout V-MAX",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/SIG_MCX_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617154913",
     "numeric_values": {
       "weight": {
-        "value": 4.31,
+        "value": 0.8,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 3.28,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 800.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single / Full-Auto",
+    "caliber": ".300 AAC Blackout"
+  },
+  {
+    "name": "SIG MCX (FDE)",
+    "id": "sig-mcx-fde",
+    "type": "Assault Rifle",
+    "weight": "0.8 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "SIG Sauer",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "800 RPM",
+    "accepted_ammunition": ".300 AAC Blackout AP .300 AAC Blackout CQ .300 AAC Blackout FMJ .300 AAC Blackout Subsonic .300 AAC Blackout V-MAX",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 800.0,
+        "unit": "rpm"
+      }
+    }
+  },
+  {
+    "name": "SIG MCX (Ghost Nomad)",
+    "id": "sig-mcx-ghost-nomad",
+    "type": "Assault Rifle",
+    "weight": "0.8 kg",
+    "sold_by": "Banshee R.1 after completing Banshee 's task Chameleon - SIG MCX (GN)",
+    "buy_price": "$1,190",
+    "manufacturer": "SIG Sauer",
+    "accuracy": "0 MOA",
+    "ergonomics": "+12 %",
+    "fire_rate": "800 RPM",
+    "accepted_ammunition": ".300 AAC Blackout AP .300 AAC Blackout CQ .300 AAC Blackout FMJ .300 AAC Blackout Subsonic .300 AAC Blackout V-MAX",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 800.0,
@@ -1001,60 +2100,129 @@
   {
     "name": "SKS",
     "id": "sks",
-    "slot": "Primary",
+    "type": "Rifle",
+    "weight": "2.63 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$425",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "3.2 MOA",
+    "ergonomics": "-8 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/SKS_inspect.png/revision/latest/scale-to-width-down/266?cb=20250618000429",
+    "numeric_values": {
+      "weight": {
+        "value": 2.63,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.2,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -8.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    },
     "fire_mode": "Single",
-    "caliber": "7.62x39mm",
-    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/SKS_inspect.png/revision/latest/scale-to-width-down/266?cb=20250618000429"
+    "caliber": "7.62x39mm"
   },
   {
     "name": "Steyr AUG",
     "id": "steyr-aug",
     "type": "Assault Rifle",
-    "weight": "4.257 kg",
-    "sold_by": "Vulture R.1 Upon completion of task Skycrawlers",
+    "weight": "1.76 kg",
+    "sold_by": "Vulture R.1 after completing Vulture 's task Skycrawlers",
+    "buy_price": "$765",
     "manufacturer": "Steyr Arms",
-    "accuracy": "2.00 MOA",
-    "fire_mode": "Single/Auto",
+    "accuracy": "0 MOA",
+    "ergonomics": "+8 %",
     "fire_rate": "720 RPM",
-    "caliber": "5.56x45mm NATO",
-    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/AUG_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261105132551",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "numeric_values": {
       "weight": {
-        "value": 4.257,
+        "value": 1.76,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 2.0,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 720.0,
         "unit": "rpm"
       }
-    }
+    },
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm NATO",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/AUG_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261105132551"
   },
   {
     "name": "Steyr AUG A3",
     "id": "steyr-aug-a3",
     "type": "Assault Rifle",
-    "weight": "4.070 kg",
+    "weight": "1.46 kg",
+    "sold_by": "Vulture R.1 after completing Vulture 's task Fragile Equilibrium",
+    "buy_price": "$1,156",
     "manufacturer": "Steyr Arms",
-    "accuracy": "2.00 MOA",
-    "fire_mode": "Single/Auto",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
     "fire_rate": "720 RPM",
-    "caliber": "5.56x45mm NATO",
-    "accepted_ammunition": "5.56x45mm SP 5.56x45mm FMJ 5.56x45mm HPBT 5.56x45mm M193 5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/AUG_A3_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261105141007",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "numeric_values": {
       "weight": {
-        "value": 4.07,
+        "value": 1.46,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 2.0,
+        "value": 0.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 720.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm NATO",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/AUG_A3_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261105141007"
+  },
+  {
+    "name": "Steyr AUG A3 (Desert Storm)",
+    "id": "steyr-aug-a3-desert-storm",
+    "type": "Assault Rifle",
+    "weight": "1.46 kg",
+    "sold_by": "Vulture R.1 after completing Vulture 's task Chameleon - AUG A3 (DS)",
+    "buy_price": "$1,156",
+    "manufacturer": "Steyr Arms",
+    "accuracy": "0 MOA",
+    "ergonomics": "+12 %",
+    "fire_rate": "720 RPM",
+    "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "numeric_values": {
+      "weight": {
+        "value": 1.46,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 720.0,
@@ -1063,47 +2231,24 @@
     }
   },
   {
-    "name": "SVD",
+    "name": "SVD Dragunov",
     "id": "svd",
     "type": "Rifle",
-    "weight": "4.542 kg",
-    "manufacturer": "Kalashnikov Concern",
-    "accuracy": "0.95 MOA",
-    "fire_mode": "Single",
-    "fire_rate": "600 rpm RPM",
-    "caliber": "7.62x54mm R",
-    "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/SVD_inspect.png/revision/latest/scale-to-width-down/268?cb=20250527011855",
-    "numeric_values": {
-      "weight": {
-        "value": 4.542,
-        "unit": "kg"
-      },
-      "accuracy": {
-        "value": 0.95,
-        "unit": "moa"
-      }
-    }
-  },
-  {
-    "name": "Type 51",
-    "id": "type-51",
-    "type": "Pistol",
-    "weight": "0.828 kg",
-    "manufacturer": "Norinco",
-    "accuracy": "16.11 MOA",
-    "fire_mode": "Single",
+    "weight": "0.7 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$1,105",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "0 MOA",
     "fire_rate": "600 RPM",
-    "caliber": "7.62x25mm",
-    "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm PT 7.62x25mm PST",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Type51_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617154811",
+    "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/SVD_Dragunov_inspect.png/revision/latest/scale-to-width-down/268?cb=20250527011855",
     "numeric_values": {
       "weight": {
-        "value": 0.828,
+        "value": 0.7,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 16.11,
+        "value": 0.0,
         "unit": "moa"
       },
       "fire_rate": {
@@ -1113,30 +2258,28 @@
     }
   },
   {
-    "name": "UMP45",
-    "id": "ump45",
-    "type": "Submachine Gun",
-    "weight": "3.904 kg",
-    "sold_by": "Artisan R.1 after completing Lab Rat 's task The Most Dangerous Game",
-    "manufacturer": "Heckler & Koch",
-    "accuracy": "5.00 MOA",
-    "reload_speed": "+5.0%",
-    "fire_mode": "Single/Full-Auto",
+    "name": "SVD Dragunov (Silent Watch)",
+    "id": "svd-dragunov-silent-watch",
+    "type": "Rifle",
+    "weight": "0.7 kg",
+    "sold_by": "Artisan R.1 after completing Artisan 's task Chameleon - SVD Dragunov (SW)",
+    "buy_price": "$1,105",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "0 MOA",
+    "ergonomics": "+2 %",
     "fire_rate": "600 RPM",
-    "caliber": ".45 ACP",
-    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/UMP45_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261106171335",
+    "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
     "numeric_values": {
       "weight": {
-        "value": 3.904,
+        "value": 0.7,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 5.0,
+        "value": 0.0,
         "unit": "moa"
       },
-      "reload_speed": {
-        "value": 5.0,
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       },
       "fire_rate": {
@@ -1144,6 +2287,74 @@
         "unit": "rpm"
       }
     }
+  },
+  {
+    "name": "Type 51",
+    "id": "type-51",
+    "type": "Pistol",
+    "weight": "0.3 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$153",
+    "manufacturer": "Norinco",
+    "accuracy": "0 MOA",
+    "ergonomics": "+6 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm Pst 7.62x25mm PT",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Type_51_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617154811",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single",
+    "caliber": "7.62x25mm"
+  },
+  {
+    "name": "UMP45",
+    "id": "ump45",
+    "type": "SMG",
+    "weight": "0.45 kg",
+    "sold_by": "Artisan R.1 after completing Artisan 's task The Most Dangerous Game FDE :Loot only",
+    "buy_price": "$680",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.45,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single/Full-Auto",
+    "caliber": ".45 ACP",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/UMP45_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261106171335"
   },
   {
     "name": "USMC Fighting Knife",
@@ -1154,43 +2365,95 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6b/Ka-Bar_inspect.png/revision/latest/scale-to-width-down/268?cb=20240504042130"
   },
   {
-    "name": "VZ. 58",
-    "id": "vz.-58",
-    "type": "Assault Rifle",
-    "slot": "Primary",
-    "weight": "???? kg",
-    "sold_by": "????",
-    "manufacturer": "????",
-    "accuracy": "??? MOA",
-    "reload_speed": "???%",
-    "fire_mode": "????",
-    "fire_rate": "???? RPM",
-    "caliber": "7.62x39mm",
-    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US"
+    "name": "Viper's Colt 1911 Commander",
+    "id": "vipers-colt-1911-commander",
+    "type": "Pistol",
+    "weight": "0.454 kg",
+    "sold_by": "Vulture R.1 after completing Vulture 's task Like a Boss - Viper's 1911 C",
+    "buy_price": "$680",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "600 RPM",
+    "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "numeric_values": {
+      "weight": {
+        "value": 0.454,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 600.0,
+        "unit": "rpm"
+      }
+    }
   },
   {
     "name": "Vz. 61 Skorpion",
     "id": "vz.-61-skorpion",
     "type": "SMG",
-    "weight": "1.375 kg",
+    "weight": "0.9 kg",
     "sold_by": "Loot only",
     "manufacturer": "CZ",
-    "accuracy": "7.52 MOA",
-    "fire_mode": "Single/Auto",
+    "accuracy": "7 MOA",
+    "ergonomics": "+6 %",
     "fire_rate": "800 RPM",
-    "caliber": "7.65mm Browning",
     "accepted_ammunition": "7.65 Browning FMJ 7.65 Browning JHP 7.65 Browning Xtreme Defender",
     "numeric_values": {
       "weight": {
-        "value": 1.375,
+        "value": 0.9,
         "unit": "kg"
       },
       "accuracy": {
-        "value": 7.52,
+        "value": 7.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
       },
       "fire_rate": {
         "value": 800.0,
+        "unit": "rpm"
+      }
+    },
+    "fire_mode": "Single/Auto",
+    "caliber": "7.65mm Browning"
+  },
+  {
+    "name": "Yen's M700",
+    "id": "yens-m700",
+    "type": "Rifle",
+    "weight": "0.8 kg",
+    "sold_by": "Banshee R.1 after completing Banshee 's task Like a Boss - Yen's M700",
+    "buy_price": "$1,530",
+    "manufacturer": "EGMT",
+    "accuracy": "0 MOA",
+    "ergonomics": "+10 %",
+    "fire_rate": "30 RPM",
+    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "fire_rate": {
+        "value": 30.0,
         "unit": "rpm"
       }
     }

@@ -35,31 +35,6 @@
     }
   },
   {
-    "name": "M14 Rifle",
-    "id": "m14-rifle",
-    "type": "Rifle",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "????",
-    "accuracy": "??? MOA",
-    "fire_mode": "Single",
-    "fire_rate": "???? RPM",
-    "caliber": "7.62x51mm",
-    "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)"
-  },
-  {
-    "name": "M201C",
-    "id": "m201c",
-    "type": "Pistol",
-    "weight": "??? kg",
-    "manufacturer": "Norinco",
-    "accuracy": "??? MOA",
-    "fire_mode": "Single",
-    "fire_rate": "??? RPM",
-    "caliber": "7.62x25mm",
-    "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm PT 7.62x25mm PST"
-  },
-  {
     "name": "Mysterious codebook",
     "id": "mysterious-codebook",
     "type": "Intel"
@@ -73,36 +48,5 @@
     "name": "Poster",
     "id": "poster",
     "type": "Intel"
-  },
-  {
-    "name": "TASC 1",
-    "id": "tasc-1",
-    "type": "Headset",
-    "weight": "0.160kg",
-    "grid_size": "2x2",
-    "sold_by": "???",
-    "manufacturer": "Z-Tactical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/TASC_1_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201631",
-    "numeric_values": {
-      "weight": {
-        "value": 0.16,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "VZ. 58",
-    "id": "vz.-58",
-    "type": "Assault Rifle",
-    "slot": "Primary",
-    "weight": "???? kg",
-    "sold_by": "????",
-    "manufacturer": "????",
-    "accuracy": "??? MOA",
-    "reload_speed": "???%",
-    "fire_mode": "????",
-    "fire_rate": "???? RPM",
-    "caliber": "7.62x39mm",
-    "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US"
   }
 ]
