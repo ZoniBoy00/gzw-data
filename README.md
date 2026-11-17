@@ -68,6 +68,12 @@ Unknown routes use a matching custom 404 page with direct links back to the cons
 
 ## Changelog
 
+### v4.7.0 — current item values from GZW Items
+
+- Retires the 39 `gamedata_*` datasets read from the game files; they were out of date. Loot tables, attachment compatibility and hideout recipes, devices and quests leave the API with them.
+- Sell price, weight, grid size and price per grid cell now come from the community-maintained [GZW Items](https://gzwitems.com) data when it covers an item; changed values carry `<field>_source: gzwitems.com`.
+- Adds 236 Intel documents from GZW Items to `intels`, and merges the wiki's new singular categories (Barrel, Firearm, Headset, ...) into the existing datasets.
+
 ### v4.6.0 — numeric projections, ID aliases, and data monitoring
 
 - Adds optional `numeric_values` projections without changing scraped source fields.
@@ -160,7 +166,7 @@ print(payload['data'])
 GZW Data exposes three separate version concepts:
 
 - `apiVersion`: public route contract, currently `v1`; only changes for breaking API changes.
-- `implementationVersion`: deployed API implementation release, currently `4.6.0`; follows semantic versioning for compatible features and fixes.
+- `implementationVersion`: deployed API implementation release, currently `4.7.0`; follows semantic versioning for compatible features and fixes.
 - `dataVersion`: timestamp of the published scraper dataset; changes when data is refreshed.
 - `lastFullScrapeAt`: most recent completed full scrape; individual dataset freshness and MediaWiki revisions are available from `/api/v1/metadata`.
 

@@ -5,7 +5,7 @@ This roadmap covers the `gzw-data` repository: the public Gray Zone Warfare API,
 ## Current status
 
 - **API version:** `v1`
-- **Implementation version:** `4.6.0` (deployed and production-verified)
+- **Implementation version:** `4.7.0` (deployed and production-verified)
 - **Production API:** https://gzw-data.dev/api/v1
 - **Datasets:** use the live `/api/v1/stats` response; static dataset totals are intentionally not maintained
 - **Verification:** use the current GitHub Actions run; static test counts are intentionally not maintained
@@ -22,7 +22,7 @@ These are planning milestones, not promises to release without verified scope an
 - [x] Stable response envelopes, errors, metadata, schema, health, readiness, search, snapshots, and changes.
 - [x] Read-only public API with generated dataset discovery.
 
-Current implementation: `4.6.0` (verified through the production `/api/v1/version` endpoint).
+Current implementation: `4.7.0` (verified through the production `/api/v1/version` endpoint).
 
 ### `4.1.0` — contract and CI hardening
 
@@ -66,6 +66,12 @@ Current implementation: `4.6.0` (verified through the production `/api/v1/versio
 - [x] Monitor full-scrape freshness and recover stale-data alerts.
 - [x] Align CI and the runtime floor with Node.js 22+; verify Node 22 and 24.
 - [x] Document code/data license scope and source attribution.
+
+### `4.7.0` — GZW Items as the item source
+
+- [x] Retire the out-of-date `gamedata_*` datasets taken from the game files.
+- [x] Publish current sell price, weight, grid size and price per grid cell from GZW Items, with `<field>_source` provenance.
+- [x] Keep public record IDs for wiki items renamed by the new Firearm and other singular categories.
 
 ### `5.0.0` — breaking API line, only if required
 
