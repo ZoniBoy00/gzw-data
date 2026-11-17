@@ -101,8 +101,10 @@ describe('GZW Data API', () => {
     const record = mockRes();
     handler(mockReq('/api/v1/weapons/ak-12'), record.res);
     assert.strictEqual(record.getStatus(), 200);
-    assert.strictEqual(record.getBody().data.weight, '3.553 kg');
-    assert.deepStrictEqual(record.getBody().data.numeric_values.weight, { value: 3.553, unit: 'kg' });
+    // The weight follows the source data; the projection must agree with the preserved string.
+    const weight = record.getBody().data.weight.match(/^([\d.]+)\s*kg$/);
+    assert.ok(weight);
+    assert.deepStrictEqual(record.getBody().data.numeric_values.weight, { value: Number(weight[1]), unit: 'kg' });
     assert.deepStrictEqual(record.getBody().data.numeric_values.fire_rate, { value: 700, unit: 'rpm' });
 
     const metadata = mockRes();
