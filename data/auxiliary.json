@@ -1,12 +1,56 @@
 [
   {
+    "name": "Alien Magwell Standard",
+    "id": "alien-magwell-standard",
+    "type": "Auxiliary",
+    "weight": "0.02 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Laugo Arms",
+    "numeric_values": {
+      "weight": {
+        "value": 0.02,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 Dummy Magazine Extension",
+    "id": "benelli-m4-dummy-magazine-extension",
+    "type": "Auxiliary",
+    "weight": "0.08 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$120",
+    "manufacturer": "Benelli",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Broker's M9A1 Hammer",
+    "id": "brokers-m9a1-hammer",
+    "type": "Auxiliary",
+    "weight": "0.05 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Colt 1911 Commander Hammer",
     "id": "colt-1911-commander-hammer",
     "type": "Auxiliary",
     "weight": "0.016 kg",
-    "sold_by": "Loot only",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$90",
     "manufacturer": "MidwayUSA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/1911_Com_Ham_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727223559",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/16/Colt_1911_Commander_Hammer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727223559",
     "numeric_values": {
       "weight": {
         "value": 0.016,
@@ -19,9 +63,37 @@
     "id": "colt-1911-hammer",
     "type": "Auxiliary",
     "weight": "0.05 kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "weight_source": "game-files",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$68",
+    "manufacturer": "COLT",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Golden Boy's Colt 1911 Hammer",
+    "id": "golden-boys-colt-1911-hammer",
+    "type": "Auxiliary",
+    "weight": "0.05 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Grin's Colt 1911 Hammer",
+    "id": "grins-colt-1911-hammer",
+    "type": "Auxiliary",
+    "weight": "0.05 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -33,8 +105,9 @@
     "name": "M9A1 Hammer",
     "id": "m9a1-hammer",
     "type": "Auxiliary",
-    "weight": "0.050 kg",
+    "weight": "0.05 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$39",
     "manufacturer": "Beretta",
     "numeric_values": {
       "weight": {
@@ -47,11 +120,10 @@
     "name": "SKS Receiver Cover Retaining Pin",
     "id": "sks-receiver-cover-retaining-pin",
     "type": "Auxiliary",
-    "weight": "0.050 kg",
+    "weight": "0.05 kg",
     "sold_by": "Artisan R.1",
     "buy_price": "$39",
     "manufacturer": "Kalashnikov concern",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -63,15 +135,27 @@
     "name": "SVD Rear Sight Ring",
     "id": "svd-rear-sight-ring",
     "type": "Auxiliary",
-    "weight": "0.150 kg",
+    "weight": "0.15 kg",
     "sold_by": "Turncoat R.3",
     "buy_price": "$107",
     "manufacturer": "Kalashnikov concern",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.15,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Viper's Colt 1911 Hammer",
+    "id": "vipers-colt-1911-hammer",
+    "type": "Auxiliary",
+    "weight": "0.05 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
         "unit": "kg"
       }
     }

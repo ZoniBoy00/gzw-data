@@ -4,40 +4,8 @@
     "id": "ak-moe-stock",
     "type": "Stock",
     "weight": "0.354 kg",
-    "sold_by": "Turncoat R.2",
-    "buy_price": "$272",
-    "manufacturer": "Magpul",
-    "recoil_control": "+6 %",
-    "weapon_handling": "+6 %",
-    "ergonomics": "+2 %",
-    "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
-    "numeric_values": {
-      "weight": {
-        "value": 0.354,
-        "unit": "kg"
-      },
-      "recoil_control": {
-        "value": 6.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": 6.0,
-        "unit": "%"
-      },
-      "ergonomics": {
-        "value": 2.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "AK MOE Stock (FDE)",
-    "id": "ak-moe-stock-fde",
-    "type": "Stock",
-    "weight": "0.354 kg",
-    "sold_by": "Loot only",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$211",
     "manufacturer": "Magpul",
     "recoil_control": "+6 %",
     "weapon_handling": "+6 %",
@@ -68,13 +36,12 @@
     "type": "Stock",
     "weight": "0.480 kg",
     "sold_by": "Turncoat R.4",
-    "buy_price": "$765",
+    "buy_price": "$423",
     "manufacturer": "Zenitco",
     "recoil_control": "+15 %",
     "weapon_handling": "+6 %",
     "ergonomics": "+4 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.48,
@@ -129,15 +96,13 @@
     "id": "ak-zhukov-stock",
     "type": "Stock",
     "weight": "0.425 kg",
-    "sold_by": "Turncoat R.3",
-    "buy_price": "$391",
+    "sold_by": "Artisan R.3",
+    "buy_price": "$226",
     "manufacturer": "Magpul",
     "recoil_control": "+8 %",
     "weapon_handling": "+8 %",
     "ergonomics": "+3 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.425,
@@ -193,11 +158,10 @@
     "id": "ak-47/akm-wooden-stock",
     "type": "Stock",
     "weight": "0.450 kg",
-    "sold_by": "Turncoat R.1",
+    "sold_by": "Artisan R.1",
     "manufacturer": "Kalashnikov concern",
     "ergonomics": "+1 %",
     "size_change_horizontal": "+1",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.45,
@@ -213,19 +177,14 @@
     "name": "AK-74M Polymer Stock",
     "id": "ak-74m-polymer-stock",
     "type": "Stock",
-    "weight": "0.35 kg",
+    "weight": "0.350 kg kg",
     "sold_by": "???",
     "manufacturer": "Kalashnikov Concern",
     "recoil_control": "+4.0%",
     "weapon_handling": "+2.0%",
     "ergonomics": "+3.0%",
     "size_change_horizontal": "+1",
-    "weight_source": "game-files",
     "numeric_values": {
-      "weight": {
-        "value": 0.35,
-        "unit": "kg"
-      },
       "recoil_control": {
         "value": 4.0,
         "unit": "%"
@@ -246,11 +205,10 @@
     "type": "Stock",
     "weight": "0.450 kg",
     "sold_by": "Turncoat R.1",
-    "buy_price": "$170",
+    "buy_price": "$52",
     "manufacturer": "Kalashnikov concern",
     "ergonomics": "+1 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.45,
@@ -267,16 +225,14 @@
     "id": "akmsn-foldable-stock",
     "type": "Stock",
     "weight": "0.372 kg",
-    "sold_by": "Turncoat R.2",
-    "buy_price": "$221",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$91",
     "manufacturer": "Kalashnikov Concern",
     "recoil_control": "-6 %",
     "weapon_handling": "+4 %",
     "ergonomics": "+1 %",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ab/AKMSN_Folding_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014345",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.372,
@@ -302,13 +258,12 @@
     "type": "Stock",
     "weight": "0.226 kg",
     "sold_by": "Turncoat R.1",
-    "buy_price": "$187",
+    "buy_price": "$163",
     "manufacturer": "Kalashnikov concern",
     "recoil_control": "+4 %",
     "weapon_handling": "+2 %",
     "ergonomics": "+2 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.226,
@@ -364,12 +319,11 @@
     "id": "ar-15-archangel-low-profile-buttstock",
     "type": "Stock",
     "weight": "0.270 kg",
-    "sold_by": "Gunny R.4",
+    "sold_by": "Gunny R.3",
     "manufacturer": "Promag Industries",
     "recoil_control": "+4 %",
     "weapon_handling": "+6 %",
     "ergonomics": "+3 %",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.27,
@@ -443,12 +397,11 @@
     "type": "Stock",
     "weight": "0.600 kg",
     "sold_by": "Gunny R.2",
-    "buy_price": "$255",
+    "buy_price": "$89",
     "manufacturer": "General West",
     "recoil_control": "+6 %",
     "weapon_handling": "+2 %",
     "ergonomics": "+2 %",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -472,13 +425,12 @@
     "name": "AR-15 SOPMOD Stock",
     "id": "ar-15-sopmod-stock",
     "type": "Stock",
-    "weight": "0.352 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.352,
@@ -516,14 +468,12 @@
     "id": "ar15-moe-stock",
     "type": "Stock",
     "weight": "0.226 kg",
-    "sold_by": "Gunny R.2",
-    "buy_price": "$289",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$167",
     "manufacturer": "Magpul",
     "recoil_control": "+15 %",
     "weapon_handling": "+6 %",
     "ergonomics": "+4 %",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.226,
@@ -572,13 +522,12 @@
     "name": "CTR Cheek Riser",
     "id": "ctr-cheek-riser",
     "type": "Stock",
-    "weight": "0.12 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.12,
@@ -620,13 +569,12 @@
     "name": "DD Adjustable Buttstock (Black)",
     "id": "dd-adjustable-buttstock-black",
     "type": "Stock",
-    "weight": "0.227 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "Daniel Defense",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.227,
@@ -682,13 +630,12 @@
     "name": "M590 SGA Stock",
     "id": "m590-sga-stock",
     "type": "Stock",
-    "weight": "0.68 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.68,
@@ -700,13 +647,12 @@
     "name": "M590 Stock",
     "id": "m590-stock",
     "type": "Stock",
-    "weight": "0.64 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.64,
@@ -719,13 +665,12 @@
     "id": "m700-hunter-stock",
     "type": "Stock",
     "weight": "1.450 kg",
-    "sold_by": "Gunny R.3",
+    "sold_by": "Banshee R.3",
     "manufacturer": "Magpul",
     "recoil_control": "+12 %",
     "weapon_handling": "+6 %",
     "ergonomics": "+9 %",
     "size_change_horizontal": "+2",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.45,
@@ -749,13 +694,12 @@
     "name": "M700 Hunter Stock (FDE)",
     "id": "m700-hunter-stock-fde",
     "type": "Stock",
-    "weight": "1.45 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.45,
@@ -768,14 +712,12 @@
     "id": "m700-mod*x-stock",
     "type": "Stock",
     "weight": "1.450 kg",
-    "sold_by": "Gunny R.4",
-    "buy_price": "$1,105",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$852",
     "manufacturer": "General West",
     "recoil_control": "+9 %",
     "ergonomics": "+10 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.45,
@@ -796,12 +738,11 @@
     "id": "m700-stock",
     "type": "Stock",
     "weight": "1.171 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Banshee R.1",
     "manufacturer": "Remington",
     "recoil_control": "+4 %",
     "ergonomics": "+2 %",
     "size_change_horizontal": "+2",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.171,
@@ -861,13 +802,12 @@
     "name": "M870 SGA Stock (FDE)",
     "id": "m870-sga-stock-fde",
     "type": "Stock",
-    "weight": "0.68 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.68,
@@ -937,13 +877,12 @@
     "type": "Stock",
     "weight": "0.311 kg",
     "sold_by": "Banshee R.4",
-    "buy_price": "$884",
+    "buy_price": "$405",
     "manufacturer": "SIG Sauer",
     "recoil_control": "+4 %",
     "weapon_handling": "+2 %",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/MCX_Min_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620104210",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.311,
@@ -963,13 +902,12 @@
     "name": "MCX/MPX Skel Folding Stock",
     "id": "mcx/mpx-skel-folding-stock",
     "type": "Stock",
-    "weight": "0.3 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "SIG Sauer",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -1005,12 +943,11 @@
     "type": "Stock",
     "weight": "0.385 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$425",
+    "buy_price": "$455",
     "manufacturer": "SIG Sauer",
     "recoil_control": "+8 %",
     "ergonomics": "+3 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.385,
@@ -1032,13 +969,12 @@
     "type": "Stock",
     "weight": "1.620 kg",
     "sold_by": "Artisan R.3",
-    "buy_price": "$935",
+    "buy_price": "$284",
     "manufacturer": "Promag Industries",
     "recoil_control": "+12 %",
     "weapon_handling": "+4 %",
     "ergonomics": "+9 %",
     "size_change_horizontal": "+2",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.62,
@@ -1094,13 +1030,11 @@
     "id": "mosin-nagant-wooden-stock-carbine",
     "type": "Stock",
     "weight": "1.200 kg",
-    "sold_by": "Artisan R.2",
-    "buy_price": "$340",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$114",
     "manufacturer": "Kalashnikov concern",
     "ergonomics": "+1 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.2,
@@ -1116,13 +1050,12 @@
     "name": "Mosin-Nagant Wooden Stock (Rifle)",
     "id": "mosin-nagant-wooden-stock-rifle",
     "type": "Stock",
-    "weight": "1.13 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.13,
@@ -1134,13 +1067,12 @@
     "name": "Mosin-Nagant Wooden Stock (Sniper)",
     "id": "mosin-nagant-wooden-stock-sniper",
     "type": "Stock",
-    "weight": "1.13 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.13,
@@ -1168,12 +1100,11 @@
     "id": "mp5-a3-stock",
     "type": "Stock",
     "weight": "0.307 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Gunny R.1",
     "manufacturer": "Heckler & Koch",
     "recoil_control": "-2 %",
     "weapon_handling": "+2 %",
     "size_change_horizontal": "+1",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.307,
@@ -1195,13 +1126,12 @@
     "type": "Stock",
     "weight": "0.455 kg",
     "sold_by": "Gunny R.4",
-    "buy_price": "$935",
+    "buy_price": "$448",
     "manufacturer": "Spuhr",
     "recoil_control": "+14 %",
     "weapon_handling": "+1 %",
     "ergonomics": "+4 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.455,
@@ -1226,14 +1156,12 @@
     "id": "mp7a1-retractable-stock",
     "type": "Stock",
     "weight": "0.200 kg",
-    "sold_by": "Banshee R.1",
-    "buy_price": "$595",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$432",
     "manufacturer": "Heckler & Koch",
     "recoil_control": "+4 %",
     "ergonomics": "+3 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -1279,14 +1207,13 @@
     "id": "ratnik-foldable-stock",
     "type": "Stock",
     "weight": "0.400 kg",
-    "sold_by": "Turncoat R.3",
+    "sold_by": "Artisan R.3",
     "manufacturer": "Kalashnikov Concern",
     "recoil_control": "+10 %",
     "weapon_handling": "+2 %",
     "ergonomics": "+5 %",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Ratnik_Folding_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615191820",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -1311,13 +1238,11 @@
     "id": "recoil-reducing-pad",
     "type": "Stock",
     "weight": "0.164 kg",
-    "sold_by": "Turncoat R.1",
-    "buy_price": "$102",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$141",
     "manufacturer": "Kalashnikov concern",
     "recoil_control": "+2 %",
     "ergonomics": "+2 %",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.164,
@@ -1383,13 +1308,12 @@
     "type": "Stock",
     "weight": "1.260 kg",
     "sold_by": "Artisan R.2",
-    "buy_price": "$442",
+    "buy_price": "$206",
     "manufacturer": "ATI outdoors",
     "recoil_control": "+4 %",
     "weapon_handling": "+2 %",
     "ergonomics": "+6 %",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.26,
@@ -1414,16 +1338,14 @@
     "id": "svd-polymer-stock-with-grip",
     "type": "Stock",
     "weight": "0.560 kg",
-    "sold_by": "Turncoat R.4",
-    "buy_price": "$1,190",
+    "sold_by": "Artisan R.4",
+    "buy_price": "$591",
     "manufacturer": "Kalashnikov concern",
     "recoil_control": "+17 %",
     "weapon_handling": "+2 %",
     "ergonomics": "+4 %",
     "size_change_vertical": "+1",
     "size_change_horizontal": "+1",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.56,
@@ -1447,13 +1369,12 @@
     "name": "SVD Wooden Stock with Grip",
     "id": "svd-wooden-stock-with-grip",
     "type": "Stock",
-    "weight": "0.46 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.46,
@@ -1465,13 +1386,12 @@
     "name": "Vz. 61 Wire Stock",
     "id": "vz.-61-wire-stock",
     "type": "Stock",
-    "weight": "0.25 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.25,

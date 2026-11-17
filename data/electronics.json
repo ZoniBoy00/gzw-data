@@ -6,8 +6,9 @@
     "weight": "0.05kg",
     "grid_size": "1x1",
     "manufacturer": "Russian Army",
-    "sell_price": "$16,875",
+    "sell_price": "$22,500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/AI_Targeting_Module_inspect.png/revision/latest/scale-to-width-down/268?cb=20261107015915",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -216,22 +217,6 @@
     "manufacturer": "Russian Army",
     "sell_price": "$16,875",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Missile_Guidance_Circuit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183805",
-    "numeric_values": {
-      "weight": {
-        "value": 2.0,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Motorbike Battery",
-    "id": "motorbike-battery",
-    "type": "Household Item",
-    "weight": "2.000kg",
-    "grid_size": "2x1",
-    "manufacturer": "General Local",
-    "sell_price": "$36",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Motorbike_Battery_inspect.png/revision/latest?cb=20260331083650",
     "numeric_values": {
       "weight": {
         "value": 2.0,

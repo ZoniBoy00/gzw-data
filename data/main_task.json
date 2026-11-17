@@ -55,6 +55,16 @@
     "objectives": "Investigate the observation post, recover any intel , and report your findings to Handshake Check the shack on the outskirts Check the roadblock on the bridge Check the area around the gas station"
   },
   {
+    "name": "Fragile Equilibrium",
+    "id": "fragile-equilibrium",
+    "vendor": "Lab Rat",
+    "task_type": "Main Task",
+    "location": "Northern Reach",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
+    "briefing": "Lab Rat needs more information about the previously recovered exotic material. Retrieve the container hidden near Northern Reach and use the research site's experimental equipment to analyze its contents",
+    "objectives": "Place the container inside the experimental machine at Northern Reach Retrieve the container hidden at a shelter northeast of Northern Reach Retrieve the container hidden at a shelter northeast of Northern Reach Locate the control terminal Find out the whereabouts of the lead scientist Search the hospital for the lead scientist Use the hardware key to access the control terminal Retrieve the hardware key Retrieve the hardware key Boot up the experimental machine Initiate the boot-up sequence from Terminal 1 Initiate the boot-up sequence from Terminal 2 Initiate the boot-up sequence from Terminal 3 Initiate the boot-up sequence from Terminal 4 Initiate the boot-up sequence from Terminal 1 Initiate the boot-up sequence from Terminal 2 Initiate the boot-up sequence from Terminal 3 Initiate the boot-up sequence from Terminal 4 Activate the machine Retrieve the data drive and report back to Lab Rat Extract the data drive from the computer Extract the data drive from the computer"
+  },
+  {
     "name": "Fresh Meat",
     "id": "fresh-meat",
     "vendor": "Handshake",

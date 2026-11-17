@@ -3,20 +3,29 @@
     "name": "Acumulator Drill",
     "id": "acumulator-drill",
     "type": "Workshop Supplies",
-    "weight": "1,180kg",
+    "weight": "1.18kg",
     "grid_size": "2x2",
-    "sell_price": "$249",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Acumulator_Drill_icon.png/revision/latest/scale-to-width-down/48?cb=20260420114742"
+    "manufacturer": "General Local",
+    "sell_price": "$266.4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/Acumulator_Drill_inspect.png/revision/latest/scale-to-width-down/268?cb=20260419122005",
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.18,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Brake Fluid",
     "id": "brake-fluid",
     "type": "Workshop Supplies",
-    "weight": "3.800kg",
+    "weight": "3.8kg",
     "grid_size": "2x2",
     "manufacturer": "General Local",
-    "sell_price": "$21",
+    "sell_price": "$22.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/Brake_Fluid_inspect.png/revision/latest?cb=20260331074804",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 3.8,
@@ -30,7 +39,8 @@
     "type": "Workshop Supplies",
     "weight": "2.499kg",
     "grid_size": "2x2",
-    "sell_price": "$56",
+    "manufacturer": "General Local",
+    "sell_price": "$60",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/Broken_Angle_Grinder_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404032801",
     "numeric_values": {
       "weight": {
@@ -45,7 +55,10 @@
     "type": "Workshop Supplies",
     "weight": "0.312kg",
     "grid_size": "1x2",
-    "sell_price": "$6",
+    "manufacturer": "General Local",
+    "sell_price": "$7.2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Broken_Carpentry_Hammer_inspect.png/revision/latest?cb=20260331075235",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.312,
@@ -57,10 +70,12 @@
     "name": "Broken Handsaw",
     "id": "broken-handsaw",
     "type": "Workshop Supplies",
-    "weight": "0.680kg",
+    "weight": "0.68kg",
     "grid_size": "2x2",
-    "sell_price": "$24",
+    "manufacturer": "General Local",
+    "sell_price": "$26.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/Broken_Handsaw_inspect.png/revision/latest/scale-to-width-down/268?cb=20260403095739",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.68,
@@ -72,11 +87,12 @@
     "name": "Broken Jigsaw",
     "id": "broken-jigsaw",
     "type": "Workshop Supplies",
-    "weight": "2.000kg",
+    "weight": "2kg",
     "grid_size": "2x2",
-    "sell_price": "$55",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Broken_Jigsaw_icon.png/revision/latest/scale-to-width-down/48?cb=20260403234749",
-    "grid_size_source": "game-files",
+    "manufacturer": "General Local",
+    "sell_price": "$59.2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Broken_Jigsaw_icon.png/revision/latest?cb=20260403234749",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -88,10 +104,11 @@
     "name": "Broken Nailgun",
     "id": "broken-nailgun",
     "type": "Workshop Supplies",
-    "weight": "2.500kg",
+    "weight": "2.5kg",
     "grid_size": "2x2",
-    "sell_price": "$75",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Broken_Nailgun_icon.png/revision/latest/scale-to-width-down/48?cb=20260404004748",
+    "manufacturer": "General Local",
+    "sell_price": "$80",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Broken_Nailgun_icon.png/revision/latest?cb=20260404004748",
     "numeric_values": {
       "weight": {
         "value": 2.5,
@@ -103,10 +120,12 @@
     "name": "Broken Screwdriver",
     "id": "broken-screwdriver",
     "type": "Workshop Supplies",
-    "weight": "0.120kg",
+    "weight": "0.12kg",
     "grid_size": "1x1",
-    "sell_price": "$6",
+    "manufacturer": "General Local",
+    "sell_price": "$7.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/Broken_Screwdriver_inspect.png/revision/latest?cb=20260331085810",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.12,
@@ -117,12 +136,12 @@
   {
     "name": "Broken Wrench",
     "id": "broken-wrench",
-    "type": "Workshop SUpplies",
+    "type": "Workshop Supplies",
     "weight": "0.122kg",
     "grid_size": "1x2",
+    "manufacturer": "General Local",
     "sell_price": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/Broken_Wrench_inspect.png/revision/latest?cb=20260331090737",
-    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.122,
@@ -134,10 +153,12 @@
     "name": "Fuel Canister",
     "id": "fuel-canister",
     "type": "Workshop Supplies",
-    "weight": "5.000kg",
+    "weight": "5kg",
     "grid_size": "2x2",
-    "sell_price": "$21",
+    "manufacturer": "General Local",
+    "sell_price": "$23.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/Fuel_Canister_inspect.png/revision/latest?cb=20260331080434",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 5.0,
@@ -149,11 +170,12 @@
     "name": "Jumper Cables",
     "id": "jumper-cables",
     "type": "Workshop Supplies",
-    "weight": "2.340kg",
+    "weight": "2.34kg",
     "grid_size": "2x2",
     "manufacturer": "General Local",
-    "sell_price": "$30",
+    "sell_price": "$32.8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Jumper_Cables_inspect.png/revision/latest/scale-to-width-down/268?cb=20260403095117",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.34,
@@ -165,27 +187,29 @@
     "name": "Multitool",
     "id": "multitool",
     "type": "Workshop Supplies",
-    "weight": "0.27 kg",
+    "weight": "0.27kg",
     "grid_size": "1x2",
-    "sell_price": "$54",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Multitool_icon.png/revision/latest/scale-to-width-down/48?cb=20260403230748",
-    "grid_size_source": "game-files",
-    "weight_source": "game-files",
+    "manufacturer": "General Local",
+    "sell_price": "$57.6",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.27,
         "unit": "kg"
       }
-    }
+    },
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Multitool_icon.png/revision/latest/scale-to-width-down/48?cb=20260403230748"
   },
   {
     "name": "Rubber Renue",
     "id": "rubber-renue",
     "type": "Workshop Supplies",
-    "weight": "1.000kg",
+    "weight": "1kg",
     "grid_size": "1x2",
-    "sell_price": "$51",
+    "manufacturer": "General Local",
+    "sell_price": "$54.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Rubber_Renue_inspect.png/revision/latest?cb=20260331085609",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -197,12 +221,11 @@
     "name": "White Lithium Grease",
     "id": "white-lithium-grease",
     "type": "Workshop Supplies",
-    "weight": "5.22 kg",
+    "weight": "5.22kg",
     "grid_size": "2x2",
-    "sell_price": "$150",
+    "manufacturer": "General Local",
+    "sell_price": "$160",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/White_Lithium_Grease_inspect.png/revision/latest?cb=20260403100019",
-    "grid_size_source": "game-files",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 5.22,

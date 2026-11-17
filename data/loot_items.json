@@ -1,11 +1,38 @@
 [
   {
+    "name": "10% Morphine Solution",
+    "id": "10%-morphine-solution",
+    "grid_size": "2x2",
+    "weight": "5 kg",
+    "sell_price": "$8,000",
+    "price_per_grid_cell": "$2,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/10%25_Morphine_Solution_icon.png/revision/latest?cb=20261112224921",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Acetic Anhydride",
+    "id": "acetic-anhydride",
+    "grid_size": "1x2",
+    "weight": "1",
+    "sell_price": "75",
+    "price_per_grid_cell": "$38",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/Acetic_Anhydride_icon.png/revision/latest?cb=20261109201056",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
     "name": "Acetylene Cylinder",
     "id": "acetylene-cylinder",
     "grid_size": "2x4",
-    "weight": "11.500kg",
-    "sell_price": "$56",
+    "weight": "11.5 kg",
+    "sell_price": "$60",
+    "price_per_grid_cell": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Acetylene_Cylinder_icon.png/revision/latest?cb=20260404013900",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 11.5,
@@ -19,9 +46,10 @@
     "grid_size": "2x2",
     "weight": "1.18 kg",
     "sell_price": "$266.4",
+    "price_per_grid_cell": "$67",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Acumulator_Drill_icon.png/revision/latest?cb=20260420114742",
     "sell_price_source": "gzwitems.com",
-    "weight_source": "game-files",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.18,
@@ -34,18 +62,21 @@
     "id": "ai-targeting-module",
     "grid_size": "1x1",
     "weight": "0.05",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ec/AI_Targeting_Module_icon.png/revision/latest?cb=20261024145258",
     "sell_price": "$22,500",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$22,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ec/AI_Targeting_Module_icon.png/revision/latest?cb=20261024145258",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com"
   },
   {
     "name": "Allanach Single Malt Scotch - 40y",
     "id": "allanach-single-malt-scotch---40y",
     "grid_size": "1x2",
     "weight": "2.1 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Allanach_Single_Malt_Scotch_-_40y_icon.png/revision/latest?cb=20260410145813",
     "sell_price": "$5,451",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$2,726",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Allanach_Single_Malt_Scotch_-_40y_icon.png/revision/latest?cb=20260410145813",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -54,13 +85,23 @@
     }
   },
   {
+    "name": "Ammonium Chloride",
+    "id": "ammonium-chloride",
+    "grid_size": "1x2",
+    "weight": "0.5",
+    "sell_price": "45",
+    "price_per_grid_cell": "$23",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Ammonium_Chloride_icon.png/revision/latest?cb=20261109201114",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
     "name": "AN/PYQ-10",
     "id": "an/pyq-10",
     "grid_size": "1x2",
     "weight": "0.97",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/ANPYQ-10_icon.png/revision/latest?cb=20260402070649",
     "sell_price": "$3,360",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,680",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/ANPYQ-10_icon.png/revision/latest?cb=20260402070649",
     "numeric_values": {
       "weight": {
         "value": 0.97,
@@ -69,12 +110,45 @@
     }
   },
   {
+    "name": "Analog Indicator",
+    "id": "analog-indicator",
+    "grid_size": "1x1",
+    "weight": "0.25 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e7/Analog_Indicator_icon.png/revision/latest?cb=20261024183817",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Aniline",
+    "id": "aniline",
+    "grid_size": "1x1",
+    "weight": "0.05 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Aniline_icon.png/revision/latest?cb=20261109201048",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Aramid Cloth",
     "id": "aramid-cloth",
     "grid_size": "2x1",
-    "weight": "0.061kg",
-    "sell_price": "$42",
+    "weight": "0.061 kg",
+    "sell_price": "$45.6",
+    "price_per_grid_cell": "$23",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Aramid_Cloth_icon.png/revision/latest?cb=20260402235156",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.061,
@@ -87,12 +161,27 @@
     "id": "atm-hacking-tool",
     "grid_size": "1x1",
     "weight": "0.15",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/ATM_Hacking_Tool_icon.png/revision/latest?cb=20260412113618",
     "sell_price": "$1,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/ATM_Hacking_Tool_icon.png/revision/latest?cb=20260412113618",
     "numeric_values": {
       "weight": {
         "value": 0.15,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Avionics Processor Board",
+    "id": "avionics-processor-board",
+    "grid_size": "1x1",
+    "weight": "0.5 kg",
+    "sell_price": "6,000",
+    "price_per_grid_cell": "6,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a3/Avionics_Processor_Board_icon.png/revision/latest?cb=20261109182707",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
         "unit": "kg"
       }
     }
@@ -102,12 +191,27 @@
     "id": "azart-p1-radio",
     "grid_size": "1x2",
     "weight": "0.72",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/AZART_P1_Radio_icon.png/revision/latest?cb=20260404223341",
     "sell_price": "$880",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$440",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/AZART_P1_Radio_icon.png/revision/latest?cb=20260404223341",
     "numeric_values": {
       "weight": {
         "value": 0.72,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Biohazard Canister",
+    "id": "biohazard-canister",
+    "grid_size": "1x2",
+    "weight": "2 kg",
+    "sell_price": "$40,000",
+    "price_per_grid_cell": "$20,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
         "unit": "kg"
       }
     }
@@ -117,9 +221,9 @@
     "id": "biometric-access-card",
     "grid_size": "1x1",
     "weight": "0.008",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/Biometric_Access_Card_icon.png/revision/latest?cb=20260402043728",
     "sell_price": "$2,080",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$2,080",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/Biometric_Access_Card_icon.png/revision/latest?cb=20260402043728",
     "numeric_values": {
       "weight": {
         "value": 0.008,
@@ -132,9 +236,9 @@
     "id": "biometric-thumb-drive",
     "grid_size": "1x1",
     "weight": "0.004",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Biometric_Thumb_Drive_icon.png/revision/latest?cb=20260403092909",
     "sell_price": "$2,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$2,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Biometric_Thumb_Drive_icon.png/revision/latest?cb=20260403092909",
     "numeric_values": {
       "weight": {
         "value": 0.004,
@@ -148,8 +252,8 @@
     "grid_size": "1x1",
     "weight": "0.005 kg",
     "sell_price": "$15,000",
+    "price_per_grid_cell": "$15,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/Black_Credit_Card_icon.png/revision/latest?cb=20250612210156",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.005,
@@ -162,9 +266,9 @@
     "id": "black-luxury-phone",
     "grid_size": "1x1",
     "weight": "0.22",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Black_Luxury_Phone_icon.png/revision/latest?cb=20250508230836",
     "sell_price": "$1,500",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Black_Luxury_Phone_icon.png/revision/latest?cb=20250508230836",
     "numeric_values": {
       "weight": {
         "value": 0.22,
@@ -176,10 +280,11 @@
     "name": "Bleach",
     "id": "bleach",
     "grid_size": "1x2",
-    "weight": "3.570kg",
-    "sell_price": "$19",
+    "weight": "3.57 kg",
+    "sell_price": "$20.8",
+    "price_per_grid_cell": "$10",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Bleach_icon.png/revision/latest?cb=20260331074658",
-    "grid_size_source": "game-files",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 3.57,
@@ -188,14 +293,15 @@
     }
   },
   {
-    "name": "Box of Supplies",
-    "id": "box-of-supplies",
-    "grid_size": "2x2",
-    "weight": "2.000 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/Box_of_Supplies_icon.png/revision/latest?cb=20250603180346",
+    "name": "Bone Density Stimulant",
+    "id": "bone-density-stimulant",
+    "grid_size": "1x1",
+    "weight": "0.05 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
     "numeric_values": {
       "weight": {
-        "value": 2.0,
+        "value": 0.05,
         "unit": "kg"
       }
     }
@@ -204,9 +310,12 @@
     "name": "Brake Fluid",
     "id": "brake-fluid",
     "grid_size": "2x2",
-    "weight": "3.800kg",
-    "sell_price": "$21",
+    "weight": "3.8 kg",
+    "sell_price": "$22.4",
+    "price_per_grid_cell": "$6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Brake_Fluid_icon.png/revision/latest?cb=20260331074803",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 3.8,
@@ -219,9 +328,9 @@
     "id": "breda-rum---30y",
     "grid_size": "1x2",
     "weight": "1.7 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/Breda_Rum_-_30y_icon.png/revision/latest?cb=20250729190947",
     "sell_price": "$3,802",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,901",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/Breda_Rum_-_30y_icon.png/revision/latest?cb=20250729190947",
     "numeric_values": {
       "weight": {
         "value": 1.7,
@@ -233,8 +342,9 @@
     "name": "Broken Angle Grinder",
     "id": "broken-angle-grinder",
     "grid_size": "2x2",
-    "weight": "2.499kg",
-    "sell_price": "$56",
+    "weight": "2.499 kg",
+    "sell_price": "$60",
+    "price_per_grid_cell": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Broken_Angle_Grinder_icon.png/revision/latest?cb=20260404004925",
     "numeric_values": {
       "weight": {
@@ -247,9 +357,12 @@
     "name": "Broken Carpentry Hammer",
     "id": "broken-carpentry-hammer",
     "grid_size": "1x2",
-    "weight": "0.312kg",
-    "sell_price": "$6",
+    "weight": "0.312 kg",
+    "sell_price": "$7.2",
+    "price_per_grid_cell": "$4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/Broken_Carpentry_Hammer_icon.png/revision/latest?cb=20260331075234",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.312,
@@ -261,9 +374,12 @@
     "name": "Broken Handsaw",
     "id": "broken-handsaw",
     "grid_size": "2x2",
-    "weight": "0.680kg",
-    "sell_price": "$24",
+    "weight": "0.68 kg",
+    "sell_price": "$26.4",
+    "price_per_grid_cell": "$7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/44/Broken_Handsaw_icon.png/revision/latest?cb=20260403095209",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.68,
@@ -275,9 +391,12 @@
     "name": "Broken Jigsaw",
     "id": "broken-jigsaw",
     "grid_size": "2x2",
-    "weight": "2.000kg",
-    "sell_price": "$55",
+    "weight": "2 kg",
+    "sell_price": "$59.2",
+    "price_per_grid_cell": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Broken_Jigsaw_icon.png/revision/latest?cb=20260403234749",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -289,8 +408,9 @@
     "name": "Broken Nailgun",
     "id": "broken-nailgun",
     "grid_size": "2x2",
-    "weight": "2.500kg",
-    "sell_price": "$75",
+    "weight": "2.5 kg",
+    "sell_price": "$80",
+    "price_per_grid_cell": "$20",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Broken_Nailgun_icon.png/revision/latest?cb=20260404004748",
     "numeric_values": {
       "weight": {
@@ -303,9 +423,11 @@
     "name": "Broken Screwdriver",
     "id": "broken-screwdriver",
     "grid_size": "1x1",
-    "weight": "0.120kg",
-    "sell_price": "$6",
+    "weight": "0.12 kg",
+    "sell_price": "$7.2",
+    "price_per_grid_cell": "$7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/Broken_Screwdriver_icon.png/revision/latest?cb=20260331085809",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.12,
@@ -314,12 +436,56 @@
     }
   },
   {
+    "name": "Broken Wrench",
+    "id": "broken-wrench",
+    "grid_size": "1x2",
+    "weight": "0.122 kg",
+    "sell_price": "$8",
+    "price_per_grid_cell": "$4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Broken_Wrench_icon.png/revision/latest?cb=20260331090738",
+    "numeric_values": {
+      "weight": {
+        "value": 0.122,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Bromopyridine",
+    "id": "bromopyridine",
+    "grid_size": "1x1",
+    "weight": "0.5 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Burner Head",
+    "id": "burner-head",
+    "grid_size": "1x1",
+    "weight": "0.25 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/42/Burner_Head_icon.png/revision/latest?cb=20261024183818",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Businessman ID Card",
     "id": "businessman-id-card",
     "grid_size": "1x1",
-    "weight": "0.050kg",
-    "sell_price": "$937",
-    "price_per_grid_cell": "$937",
+    "weight": "0.05 kg",
+    "sell_price": "$1,250",
+    "price_per_grid_cell": "$1,250",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/Businessman_ID_Card_icon.png/revision/latest?cb=20260402072144",
     "numeric_values": {
       "weight": {
@@ -333,9 +499,9 @@
     "id": "c2-military-laptop",
     "grid_size": "2x2",
     "weight": "5.5",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/C2_Military_Laptop_icon.png/revision/latest?cb=20260406080037",
     "sell_price": "$5,200",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,300",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/C2_Military_Laptop_icon.png/revision/latest?cb=20260406080037",
     "numeric_values": {
       "weight": {
         "value": 5.5,
@@ -344,26 +510,15 @@
     }
   },
   {
-    "name": "Camera Wiretap",
-    "id": "camera-wiretap",
-    "grid_size": "1x1",
-    "weight": "0.010 kg",
-    "trader": "Handshake LL1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Camera_Wiretap_icon.png/revision/latest?cb=20250621155427",
-    "numeric_values": {
-      "weight": {
-        "value": 0.01,
-        "unit": "kg"
-      }
-    }
-  },
-  {
     "name": "Camouflage Fabric",
     "id": "camouflage-fabric",
     "grid_size": "2x1",
-    "weight": "0.480kg",
-    "sell_price": "$10",
+    "weight": "0.48 kg",
+    "sell_price": "$11.2",
+    "price_per_grid_cell": "$6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Camouflage_Fabric_icon.png/revision/latest?cb=20260331075043",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.48,
@@ -376,9 +531,11 @@
     "id": "car-battery",
     "grid_size": "2x2",
     "weight": "12.66",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Car_Battery_icon.png/revision/latest?cb=20260331075125",
     "sell_price": "$60",
+    "price_per_grid_cell": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Car_Battery_icon.png/revision/latest?cb=20260331075125",
     "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 12.66,
@@ -390,9 +547,12 @@
     "name": "Carton of Tahirs Cigarettes",
     "id": "carton-of-tahirs-cigarettes",
     "grid_size": "3x1",
-    "weight": "0.250kg",
-    "sell_price": "$27",
+    "weight": "0.25 kg",
+    "sell_price": "$29.6",
+    "price_per_grid_cell": "$10",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Carton_of_Tahirs_Cigarettes_icon.png/revision/latest?cb=20260331075356",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.25,
@@ -401,11 +561,63 @@
     }
   },
   {
+    "name": "Chemicals",
+    "id": "chemicals",
+    "grid_size": "2x2",
+    "weight": "1 kg",
+    "sell_price": "90",
+    "price_per_grid_cell": "$23",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Chemicals_icon.png/revision/latest?cb=20261106134221",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Chloroform",
+    "id": "chloroform",
+    "grid_size": "1x2",
+    "weight": "1",
+    "sell_price": "45",
+    "price_per_grid_cell": "$23",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/Chloroform_icon.png/revision/latest?cb=20261109201054",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
+    "name": "Circuit Board",
+    "id": "circuit-board",
+    "grid_size": "1x1",
+    "weight": "0.3 kg",
+    "sell_price": "45",
+    "price_per_grid_cell": "45",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/Circuit_Board_icon.png/revision/latest?cb=20261024183820",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Citric Acid",
+    "id": "citric-acid",
+    "grid_size": "1x2",
+    "weight": "1",
+    "sell_price": "15",
+    "price_per_grid_cell": "$8",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/Citric_Acid_icon.png/revision/latest?cb=20261109201308",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
     "name": "Common Credit Card",
     "id": "common-credit-card",
     "grid_size": "1x1",
-    "weight": "0.005kg",
+    "weight": "0.005 kg",
     "sell_price": "$600",
+    "price_per_grid_cell": "$600",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Common_Credit_Card_icon.png/revision/latest?cb=20250508162633",
     "numeric_values": {
       "weight": {
@@ -415,13 +627,58 @@
     }
   },
   {
+    "name": "CPU",
+    "id": "cpu",
+    "grid_size": "1x1",
+    "weight": "0.07 kg",
+    "sell_price": "90",
+    "price_per_grid_cell": "90",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/CPU_icon.png/revision/latest?cb=20261024185215",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "CPU Card",
+    "id": "cpu-card",
+    "grid_size": "1x1",
+    "weight": "0.3 kg",
+    "sell_price": "4,000",
+    "price_per_grid_cell": "4,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/13/CPU_Card_icon.png/revision/latest?cb=20261108044751",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Crystal Prism",
+    "id": "crystal-prism",
+    "grid_size": "1x1",
+    "weight": "0.035 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/Crystal_Prism_icon.png/revision/latest?cb=20261024185217",
+    "numeric_values": {
+      "weight": {
+        "value": 0.035,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Dark Pearl Necklace",
     "id": "dark-pearl-necklace",
     "grid_size": "1x1",
     "weight": "0.05 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/Dark_Pearl_Necklace_icon.png/revision/latest?cb=20260404014101",
     "sell_price": "$1,350",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,350",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/Dark_Pearl_Necklace_icon.png/revision/latest?cb=20260404014101",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -433,9 +690,11 @@
     "name": "Deck of Cards",
     "id": "deck-of-cards",
     "grid_size": "1x1",
-    "weight": "0.088kg",
-    "sell_price": "$3",
+    "weight": "0.088 kg",
+    "sell_price": "$3.2",
+    "price_per_grid_cell": "$3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Deck_of_Cards_icon.png/revision/latest?cb=20260331075443",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.088,
@@ -448,18 +707,18 @@
     "id": "deep-space-observation-data-drive",
     "grid_size": "1x1",
     "weight": "0.08",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Deep-Space_Observation_Data_Drive_icon.png/revision/latest?cb=20261028195056",
     "sell_price": "$18,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$18,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Deep-Space_Observation_Data_Drive_icon.png/revision/latest?cb=20261028195056"
   },
   {
     "name": "Delicate Perfume Bottle",
     "id": "delicate-perfume-bottle",
     "grid_size": "1x1",
     "weight": "0.3 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Delicate_Perfume_Bottle_icon.png/revision/latest?cb=20260331075650",
     "sell_price": "$150",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Delicate_Perfume_Bottle_icon.png/revision/latest?cb=20260331075650",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -472,9 +731,9 @@
     "id": "diamond-earrings",
     "grid_size": "1x1",
     "weight": "0.02 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/Diamond_Earrings_icon.png/revision/latest?cb=20260404014256",
     "sell_price": "$5,700",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$5,700",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/Diamond_Earrings_icon.png/revision/latest?cb=20260404014256",
     "numeric_values": {
       "weight": {
         "value": 0.02,
@@ -487,9 +746,9 @@
     "id": "diamond-ring",
     "grid_size": "1x1",
     "weight": "0.01 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/Diamond_Ring_icon.png/revision/latest?cb=20250514034532",
     "sell_price": "$7,700",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$7,700",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/Diamond_Ring_icon.png/revision/latest?cb=20250514034532",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -502,9 +761,9 @@
     "id": "diamond-coral-ring",
     "grid_size": "1x1",
     "weight": "0.02 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Diamond-Coral_Ring_icon.png/revision/latest?cb=20260404014720",
     "sell_price": "$5,250",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$5,250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Diamond-Coral_Ring_icon.png/revision/latest?cb=20260404014720",
     "numeric_values": {
       "weight": {
         "value": 0.02,
@@ -517,10 +776,9 @@
     "id": "digital-camera",
     "grid_size": "1x1",
     "weight": "0.35 kg",
-    "sell_price": "$112",
-    "price_per_grid_cell": "$112",
+    "sell_price": "$150",
+    "price_per_grid_cell": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Digital_Camera_icon.png/revision/latest?cb=20250621182741",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.35,
@@ -529,12 +787,30 @@
     }
   },
   {
+    "name": "Digital Synthesis Engine",
+    "id": "digital-synthesis-engine",
+    "grid_size": "1x1",
+    "weight": "0.1 kg",
+    "sell_price": "9,000",
+    "price_per_grid_cell": "9,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Digital_Synthesis_Engine_icon.png/revision/latest?cb=20261026212132",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Disinfectant",
     "id": "disinfectant",
     "grid_size": "1x1",
-    "weight": "1.000kg",
-    "sell_price": "$199",
+    "weight": "1 kg",
+    "sell_price": "$212.8",
+    "price_per_grid_cell": "$213",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Disinfectant_icon.png/revision/latest?cb=20260402215318",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -546,8 +822,9 @@
     "name": "Drain Cleaner",
     "id": "drain-cleaner",
     "grid_size": "2x2",
-    "weight": "5.000kg",
-    "sell_price": "$15",
+    "weight": "5 kg",
+    "sell_price": "$16",
+    "price_per_grid_cell": "$4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Drain_Cleaner_icon.png/revision/latest?cb=20260402235121",
     "numeric_values": {
       "weight": {
@@ -560,9 +837,9 @@
     "name": "Driver's Licence",
     "id": "drivers-licence",
     "grid_size": "1x1",
-    "weight": "0.050kg",
-    "sell_price": "$262",
-    "price_per_grid_cell": "$262",
+    "weight": "0.05 kg",
+    "sell_price": "$350",
+    "price_per_grid_cell": "$350",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/Driver%27s_Licence_icon.png/revision/latest?cb=20260331080050",
     "numeric_values": {
       "weight": {
@@ -572,16 +849,56 @@
     }
   },
   {
+    "name": "Dynamo",
+    "id": "dynamo",
+    "grid_size": "2x2",
+    "weight": "3 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "$38",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b0/Dynamo_icon.png/revision/latest?cb=20261109201103",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Edetate Disodium",
+    "id": "edetate-disodium",
+    "grid_size": "1x1",
+    "weight": "0.05",
+    "sell_price": "75",
+    "price_per_grid_cell": "75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/Edetate_Disodium_icon.png/revision/latest?cb=20261109201058"
+  },
+  {
     "name": "Elaborate Ring",
     "id": "elaborate-ring",
     "grid_size": "1x1",
     "weight": "0.02 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Elaborate_Ring_icon.png/revision/latest?cb=20260404014804",
     "sell_price": "$4,400",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$4,400",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Elaborate_Ring_icon.png/revision/latest?cb=20260404014804",
     "numeric_values": {
       "weight": {
         "value": 0.02,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Electrical Parts",
+    "id": "electrical-parts",
+    "grid_size": "1x1",
+    "weight": "0.5 kg",
+    "sell_price": "60",
+    "price_per_grid_cell": "60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Electrical_Parts_icon.png/revision/latest?cb=20261106134225",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
         "unit": "kg"
       }
     }
@@ -591,18 +908,18 @@
     "id": "electronic-warfare-configuration-drive",
     "grid_size": "1x1",
     "weight": "0.08",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Electronic_Warfare_Configuration_Drive_icon.png/revision/latest?cb=20261026020130",
     "sell_price": "$18,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$18,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Electronic_Warfare_Configuration_Drive_icon.png/revision/latest?cb=20261026020130"
   },
   {
     "name": "Emerald Necklace",
     "id": "emerald-necklace",
     "grid_size": "1x1",
     "weight": "0.05 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Emerald_Necklace_icon.png/revision/latest?cb=20250508233719",
     "sell_price": "$5,300",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$5,300",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Emerald_Necklace_icon.png/revision/latest?cb=20250508233719",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -611,12 +928,27 @@
     }
   },
   {
+    "name": "Empty Autoinjector",
+    "id": "empty-autoinjector",
+    "grid_size": "1x1",
+    "weight": "0.09 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/Empty_Autoinjector_icon.png/revision/latest?cb=20261024183813",
+    "numeric_values": {
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Encrypted Hard Disk Drive",
     "id": "encrypted-hard-disk-drive",
     "grid_size": "1x1",
-    "weight": "0.180kg",
-    "sell_price": "$3,450",
-    "price_per_grid_cell": "$3,450",
+    "weight": "0.18 kg",
+    "sell_price": "$4,600",
+    "price_per_grid_cell": "$4,600",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/Encrypted_Hard_Disk_Drive_icon.png/revision/latest?cb=20260410165933",
     "numeric_values": {
       "weight": {
@@ -630,18 +962,37 @@
     "id": "encryption-key-drive",
     "grid_size": "1x1",
     "weight": "0.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/Encryption_Key_Drive_icon.png/revision/latest?cb=20261024145222",
     "sell_price": "$12,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$12,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/Encryption_Key_Drive_icon.png/revision/latest?cb=20261024145222"
+  },
+  {
+    "name": "Ether",
+    "id": "ether",
+    "grid_size": "1x2",
+    "weight": "1.2",
+    "sell_price": "90",
+    "price_per_grid_cell": "45",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Ether_icon.png/revision/latest?cb=20261109201036"
+  },
+  {
+    "name": "Ethyl Alcohol",
+    "id": "ethyl-alcohol",
+    "grid_size": "2x2",
+    "weight": "2.8",
+    "sell_price": "90",
+    "price_per_grid_cell": "$23",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Ethyl_Alcohol_icon.png/revision/latest?cb=20261111144116",
+    "price_per_grid_cell_source": "gzwitems.com"
   },
   {
     "name": "Expensive Smartphone",
     "id": "expensive-smartphone",
     "grid_size": "1x1",
     "weight": "0.25",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Expensive_Smartphone_icon.png/revision/latest?cb=20250506122257",
     "sell_price": "$350",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$350",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Expensive_Smartphone_icon.png/revision/latest?cb=20250506122257",
     "numeric_values": {
       "weight": {
         "value": 0.25,
@@ -650,12 +1001,44 @@
     }
   },
   {
+    "name": "Fabrics",
+    "id": "fabrics",
+    "grid_size": "3x1",
+    "weight": "1 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "5",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Fine Metal Mesh",
+    "id": "fine-metal-mesh",
+    "grid_size": "2x1",
+    "weight": "0.5 kg",
+    "sell_price": "75",
+    "price_per_grid_cell": "$38",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Fine_Metal_Mesh_icon.png/revision/latest?cb=20261106134228",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Fishing Line",
     "id": "fishing-line",
     "grid_size": "1x1",
-    "weight": "0.130kg",
-    "sell_price": "$3",
+    "weight": "0.13 kg",
+    "sell_price": "$3.2",
+    "price_per_grid_cell": "$3",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/Fishing_Line_icon.png/revision/latest?cb=20260331080254",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.13,
@@ -668,18 +1051,34 @@
     "id": "flight-data-drive",
     "grid_size": "1x1",
     "weight": "0.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/42/Flight_Data_Drive_icon.png/revision/latest?cb=20261109182702",
     "sell_price": "$12,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$12,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/42/Flight_Data_Drive_icon.png/revision/latest?cb=20261109182702"
+  },
+  {
+    "name": "FPGA Module",
+    "id": "fpga-module",
+    "grid_size": "2x1",
+    "weight": "0.2 kg",
+    "sell_price": "6,000",
+    "price_per_grid_cell": "3,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/FPGA_Module_icon.png/revision/latest?cb=20261024200426",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Fragrant Perfume Bottle",
     "id": "fragrant-perfume-bottle",
     "grid_size": "1x2",
     "weight": "0.25 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Fragrant_Perfume_Bottle_icon.png/revision/latest?cb=20260331080330",
     "sell_price": "$75",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$38",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Fragrant_Perfume_Bottle_icon.png/revision/latest?cb=20260331080330",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.25,
@@ -691,9 +1090,12 @@
     "name": "Fuel Canister",
     "id": "fuel-canister",
     "grid_size": "2x2",
-    "weight": "5.000kg",
-    "sell_price": "$21",
+    "weight": "5 kg",
+    "sell_price": "$23.2",
+    "price_per_grid_cell": "$6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Fuel_Canister_icon.png/revision/latest?cb=20260404004846",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 5.0,
@@ -702,16 +1104,41 @@
     }
   },
   {
+    "name": "Garden Lime",
+    "id": "garden-lime",
+    "grid_size": "2x2",
+    "weight": "3",
+    "sell_price": "15",
+    "price_per_grid_cell": "$4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/Garden_Lime_icon.png/revision/latest?cb=20261110204203",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
     "name": "Gemstone Ring",
     "id": "gemstone-ring",
     "grid_size": "1x1",
     "weight": "0.01 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/Gemstone_Ring_icon.png/revision/latest?cb=20250506122237",
     "sell_price": "$820",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$820",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/Gemstone_Ring_icon.png/revision/latest?cb=20250506122237",
     "numeric_values": {
       "weight": {
         "value": 0.01,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Glass",
+    "id": "glass",
+    "grid_size": "2x2",
+    "weight": "1 kg",
+    "sell_price": "45",
+    "price_per_grid_cell": "11",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/Glass_icon.png/revision/latest?cb=20261106134230",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
         "unit": "kg"
       }
     }
@@ -721,9 +1148,9 @@
     "id": "glonass-grot-m-navigation-receiver",
     "grid_size": "1x2",
     "weight": "0.8",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/GLONASS_Grot-M_Navigation_Receiver_icon.png/revision/latest?cb=20260402045518",
     "sell_price": "$1,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/GLONASS_Grot-M_Navigation_Receiver_icon.png/revision/latest?cb=20260402045518",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -732,11 +1159,27 @@
     }
   },
   {
+    "name": "Glucose",
+    "id": "glucose",
+    "grid_size": "1x2",
+    "weight": "1 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "$8",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Gold Credit Card",
     "id": "gold-credit-card",
     "grid_size": "1x1",
-    "weight": "0.005kg",
+    "weight": "0.005 kg",
     "sell_price": "$2,200",
+    "price_per_grid_cell": "$2,200",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Gold_Credit_Card_icon.png/revision/latest?cb=20250506122203",
     "numeric_values": {
       "weight": {
@@ -750,9 +1193,9 @@
     "id": "gold-necklace",
     "grid_size": "1x1",
     "weight": "0.05 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Gold_Necklace_icon.png/revision/latest?cb=20250507135627",
     "sell_price": "$180",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$180",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Gold_Necklace_icon.png/revision/latest?cb=20250507135627",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -765,9 +1208,9 @@
     "id": "gold-ring",
     "grid_size": "1x1",
     "weight": "0.01 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Gold_Ring_icon.png/revision/latest?cb=20250506174317",
     "sell_price": "$150",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Gold_Ring_icon.png/revision/latest?cb=20250506174317",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -780,9 +1223,9 @@
     "id": "goodlad-whiskey---20y",
     "grid_size": "1x2",
     "weight": "1.6 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/Goodlad_Whiskey_-_20y_icon.png/revision/latest?cb=20250621182752",
     "sell_price": "$450",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$225",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/Goodlad_Whiskey_-_20y_icon.png/revision/latest?cb=20250621182752",
     "numeric_values": {
       "weight": {
         "value": 1.6,
@@ -791,15 +1234,31 @@
     }
   },
   {
-    "name": "GPS Tracker",
-    "id": "gps-tracker",
-    "grid_size": "1x1",
-    "weight": "0.050 kg",
-    "trader": "Gunny LL1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/Tracker_Icon.png/revision/latest?cb=20250621155139",
+    "name": "Graphics Card",
+    "id": "graphics-card",
+    "grid_size": "2x1",
+    "weight": "0.5 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Graphics_Card_icon.png/revision/latest?cb=20261024185205",
     "numeric_values": {
       "weight": {
-        "value": 0.05,
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Gray Heroin",
+    "id": "gray-heroin",
+    "grid_size": "2x2",
+    "weight": "1 kg",
+    "sell_price": "$14,000",
+    "price_per_grid_cell": "$3,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
         "unit": "kg"
       }
     }
@@ -808,9 +1267,11 @@
     "name": "Hand Mirror",
     "id": "hand-mirror",
     "grid_size": "1x2",
-    "weight": "0.400kg",
-    "sell_price": "$9",
+    "weight": "0.4 kg",
+    "sell_price": "$10.4",
+    "price_per_grid_cell": "$5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Hand_Mirror_icon.png/revision/latest?cb=20260331080642",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -823,9 +1284,9 @@
     "id": "handheld-ecm-jammer",
     "grid_size": "1x2",
     "weight": "2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/eb/Handheld_ECM_Jammer_icon.png/revision/latest?cb=20260402044213",
     "sell_price": "$760",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$380",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/eb/Handheld_ECM_Jammer_icon.png/revision/latest?cb=20260402044213",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -838,12 +1299,28 @@
     "id": "heavenly-perfume-bottle",
     "grid_size": "1x1",
     "weight": "0.3 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Heavenly_Perfume_Bottle_icon.png/revision/latest?cb=20260402235001",
     "sell_price": "$335",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$335",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Heavenly_Perfume_Bottle_icon.png/revision/latest?cb=20260402235001",
     "numeric_values": {
       "weight": {
         "value": 0.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "HEPA Filter",
+    "id": "hepa-filter",
+    "grid_size": "3x3",
+    "weight": "2 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "$17",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/HEPA_Filter_icon.png/revision/latest?cb=20261109201101",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
         "unit": "kg"
       }
     }
@@ -853,9 +1330,9 @@
     "id": "hgcs-30-uav-control-station",
     "grid_size": "2x2",
     "weight": "3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/HGCS-30_UAV_Control_Station_icon.png/revision/latest?cb=20260331081049",
     "sell_price": "$2,080",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$520",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/HGCS-30_UAV_Control_Station_icon.png/revision/latest?cb=20260331081049",
     "numeric_values": {
       "weight": {
         "value": 3.0,
@@ -864,30 +1341,82 @@
     }
   },
   {
+    "name": "High-Quality Morphine Base",
+    "id": "high-quality-morphine-base",
+    "grid_size": "2x2",
+    "weight": "1",
+    "sell_price": "4,500",
+    "price_per_grid_cell": "1,125",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/High-Quality_Morphine_Base_icon.png/revision/latest?cb=20261112224903"
+  },
+  {
+    "name": "High-Speed Digital Processor Board",
+    "id": "high-speed-digital-processor-board",
+    "grid_size": "2x1",
+    "weight": "0.1 kg",
+    "sell_price": "9,000",
+    "price_per_grid_cell": "4,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/High-Speed_Digital_Processor_Board_icon.png/revision/latest?cb=20261026212134",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Human Growth Hormone",
+    "id": "human-growth-hormone",
+    "grid_size": "1x1",
+    "weight": "0.05 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Human_Growth_Hormone_icon.png/revision/latest?cb=20261024185214",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Hydrochloric Acid",
+    "id": "hydrochloric-acid",
+    "grid_size": "2x2",
+    "weight": "2.7",
+    "sell_price": "150",
+    "price_per_grid_cell": "$38",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Hydrochloric_Acid_icon.png/revision/latest?cb=20261109201117",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
     "name": "Incriminating Data Drive",
     "id": "incriminating-data-drive",
     "grid_size": "1x1",
     "weight": "0.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Incriminating_Data_Drive_icon.png/revision/latest?cb=20261024145145",
     "sell_price": "$12,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$12,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Incriminating_Data_Drive_icon.png/revision/latest?cb=20261024145145"
   },
   {
     "name": "Incriminating Phone Logs",
     "id": "incriminating-phone-logs",
     "grid_size": "1x1",
     "weight": "0.24",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Incriminating_Phone_Logs_icon.png/revision/latest?cb=20261107050844",
     "sell_price": "$8,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Incriminating_Phone_Logs_icon.png/revision/latest?cb=20261107050844"
   },
   {
     "name": "Industrial Solvent",
     "id": "industrial-solvent",
     "grid_size": "2x2",
-    "weight": "3.800kg",
-    "sell_price": "$29",
+    "weight": "3.8 kg",
+    "sell_price": "$31.2",
+    "price_per_grid_cell": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Industrial_Solvent_icon.png/revision/latest?cb=20260525092626",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 3.8,
@@ -899,9 +1428,11 @@
     "name": "Insect Repellant Spray",
     "id": "insect-repellant-spray",
     "grid_size": "1x1",
-    "weight": "0.258kg",
-    "sell_price": "$6",
+    "weight": "0.258 kg",
+    "sell_price": "$7.2",
+    "price_per_grid_cell": "$7",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e0/Insect_Repellant_Spray_icon.png/revision/latest?cb=20260331081403",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.258,
@@ -910,12 +1441,29 @@
     }
   },
   {
+    "name": "Iron Sucrose",
+    "id": "iron-sucrose",
+    "grid_size": "1x1",
+    "weight": "0.05 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/Iron_Sucrose_icon.png/revision/latest?cb=20261106141448",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Jumper Cables",
     "id": "jumper-cables",
     "grid_size": "2x2",
-    "weight": "2.340kg",
-    "sell_price": "$30",
+    "weight": "2.34 kg",
+    "sell_price": "$32.8",
+    "price_per_grid_cell": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/Jumper_Cables_icon.png/revision/latest?cb=20260403094142",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.34,
@@ -928,12 +1476,27 @@
     "id": "kik-11-tactical-key-loader",
     "grid_size": "1x1",
     "weight": "0.45",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/KIK-11_Tactical_Key_Loader_icon.png/revision/latest?cb=20260404034236",
     "sell_price": "$3,120",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$3,120",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/KIK-11_Tactical_Key_Loader_icon.png/revision/latest?cb=20260404034236",
     "numeric_values": {
       "weight": {
         "value": 0.45,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Laboratory Flask",
+    "id": "laboratory-flask",
+    "grid_size": "1x2",
+    "weight": "0.1 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Laboratory_Flask_icon.png/revision/latest?cb=20261106134232",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
         "unit": "kg"
       }
     }
@@ -943,18 +1506,18 @@
     "id": "laf-artillery-data-logs",
     "grid_size": "1x1",
     "weight": "0.24",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/LAF_Artillery_Data_Logs_icon.png/revision/latest?cb=20261108050430",
     "sell_price": "$8,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/LAF_Artillery_Data_Logs_icon.png/revision/latest?cb=20261108050430"
   },
   {
     "name": "Lambert Cigars",
     "id": "lambert-cigars",
     "grid_size": "2x1",
     "weight": "0.6 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Lambert_Cigars_icon.png/revision/latest?cb=20260402071045",
     "sell_price": "$282",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$141",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Lambert_Cigars_icon.png/revision/latest?cb=20260402071045",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -966,9 +1529,12 @@
     "name": "Lamp Oil",
     "id": "lamp-oil",
     "grid_size": "1x2",
-    "weight": "1.000kg",
-    "sell_price": "$3",
+    "weight": "1 kg",
+    "sell_price": "$3.2",
+    "price_per_grid_cell": "$2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Lamp_Oil_icon.png/revision/latest?cb=20260331082337",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -980,9 +1546,9 @@
     "name": "Laptop",
     "id": "laptop",
     "grid_size": "2x2",
-    "weight": "1.500kg",
-    "sell_price": "$750",
-    "price_per_grid_cell": "$188",
+    "weight": "1.5 kg",
+    "sell_price": "$1,000",
+    "price_per_grid_cell": "$250",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Laptop_icon.png/revision/latest?cb=20260402225000",
     "numeric_values": {
       "weight": {
@@ -992,12 +1558,30 @@
     }
   },
   {
+    "name": "Laser Tube",
+    "id": "laser-tube",
+    "grid_size": "3x1",
+    "weight": "0.21 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "50",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Laser_Tube_icon.png/revision/latest?cb=20261106134234",
+    "numeric_values": {
+      "weight": {
+        "value": 0.21,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Lighter",
     "id": "lighter",
     "grid_size": "1x1",
-    "weight": "0.040kg",
-    "sell_price": "$1",
+    "weight": "0.04 kg",
+    "sell_price": "$1.6",
+    "price_per_grid_cell": "$2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Lighter_icon.png/revision/latest?cb=20260402235406",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.04,
@@ -1009,9 +1593,9 @@
     "name": "Local ID Card",
     "id": "local-id-card",
     "grid_size": "1x1",
-    "weight": "0.050kg",
-    "sell_price": "$187",
-    "price_per_grid_cell": "$187",
+    "weight": "0.05 kg",
+    "sell_price": "$250",
+    "price_per_grid_cell": "$250",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/Local_ID_Card_icon.png/revision/latest?cb=20260402044604",
     "numeric_values": {
       "weight": {
@@ -1024,9 +1608,11 @@
     "name": "Low-Grade Gunpowder",
     "id": "low-grade-gunpowder",
     "grid_size": "1x2",
-    "weight": "0.450kg",
-    "sell_price": "$23",
+    "weight": "0.45 kg",
+    "sell_price": "$24.8",
+    "price_per_grid_cell": "$12",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8d/Low-Grade_Gunpowder_icon.png/revision/latest?cb=20260331082736",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.45,
@@ -1035,13 +1621,22 @@
     }
   },
   {
+    "name": "Low-Quality Morphine Base",
+    "id": "low-quality-morphine-base",
+    "grid_size": "2x2",
+    "weight": "1",
+    "sell_price": "2,000",
+    "price_per_grid_cell": "500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Low-Quality_Morphine_Base_icon.png/revision/latest?cb=20261112225021"
+  },
+  {
     "name": "LTSD-4-3 Laser Designator",
     "id": "ltsd-4-3-laser-designator",
     "grid_size": "3x3",
     "weight": "14",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/LTSD-4-3_Laser_Designator_icon.png/revision/latest?cb=20260404034007",
     "sell_price": "$64,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$7,111",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/LTSD-4-3_Laser_Designator_icon.png/revision/latest?cb=20260404034007",
     "numeric_values": {
       "weight": {
         "value": 14.0,
@@ -1054,9 +1649,9 @@
     "id": "luxury-smartphone",
     "grid_size": "1x1",
     "weight": "0.22",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Luxury_Smartphone_icon.png/revision/latest?cb=20250508181126",
     "sell_price": "$1,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Luxury_Smartphone_icon.png/revision/latest?cb=20250508181126",
     "numeric_values": {
       "weight": {
         "value": 0.22,
@@ -1069,9 +1664,9 @@
     "id": "luxury-smartwatch",
     "grid_size": "1x1",
     "weight": "0.15 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Luxury_Smartwatch_icon.png/revision/latest?cb=20250507035901",
     "sell_price": "$600",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$600",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Luxury_Smartwatch_icon.png/revision/latest?cb=20250507035901",
     "numeric_values": {
       "weight": {
         "value": 0.15,
@@ -1084,9 +1679,9 @@
     "id": "majestic-titanium-watch",
     "grid_size": "1x1",
     "weight": "0.1 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Majestic_Titanium_Watch_icon.png/revision/latest?cb=20250702190239",
     "sell_price": "$8,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Majestic_Titanium_Watch_icon.png/revision/latest?cb=20250702190239",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -1099,12 +1694,119 @@
     "id": "master-carbon-seal-automatic-watch",
     "grid_size": "1x1",
     "weight": "0.17 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Master_Carbon_SEAL_Automatic_Watch_icon.png/revision/latest?cb=20260402051640",
     "sell_price": "$1,450",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,450",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Master_Carbon_SEAL_Automatic_Watch_icon.png/revision/latest?cb=20260402051640",
     "numeric_values": {
       "weight": {
         "value": 0.17,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Mechanical Parts",
+    "id": "mechanical-parts",
+    "grid_size": "1x1",
+    "weight": "0.5 kg",
+    "sell_price": "60",
+    "price_per_grid_cell": "60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Mechanical_Parts_icon.png/revision/latest?cb=20261106134236",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Mechanical Pipette",
+    "id": "mechanical-pipette",
+    "grid_size": "1x2",
+    "weight": "0.13 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/Mechanical_Pipette_icon.png/revision/latest?cb=20261024183811",
+    "numeric_values": {
+      "weight": {
+        "value": 0.13,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Medium-Quality Morphine Base",
+    "id": "medium-quality-morphine-base",
+    "grid_size": "2x2",
+    "weight": "1",
+    "sell_price": "3,200",
+    "price_per_grid_cell": "800",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/Medium-Quality_Morphine_Base_icon.png/revision/latest?cb=20261109201124"
+  },
+  {
+    "name": "Methanol",
+    "id": "methanol",
+    "grid_size": "1x2",
+    "weight": "0.5 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Methanol_icon.png/revision/latest?cb=20261109201038",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Methylene Blue",
+    "id": "methylene-blue",
+    "grid_size": "1x1",
+    "weight": "0.05 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/Methylene_Blue_icon.png/revision/latest?cb=20261104195602",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Methylparaben",
+    "id": "methylparaben",
+    "grid_size": "1x1",
+    "weight": "0.15",
+    "sell_price": "90",
+    "price_per_grid_cell": "90",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/Methylparaben_icon.png/revision/latest?cb=20261109201127"
+  },
+  {
+    "name": "Microscope",
+    "id": "microscope",
+    "grid_size": "2x3",
+    "weight": "1.6 kg",
+    "sell_price": "300",
+    "price_per_grid_cell": "50",
+    "numeric_values": {
+      "weight": {
+        "value": 1.6,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Military Software",
+    "id": "military-software",
+    "grid_size": "1x1",
+    "weight": "0.03 kg",
+    "sell_price": "75",
+    "price_per_grid_cell": "75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Military_Software_icon.png/revision/latest?cb=20261024185213",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
         "unit": "kg"
       }
     }
@@ -1114,18 +1816,18 @@
     "id": "missile-guidance-circuit",
     "grid_size": "1x1",
     "weight": "2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Missile_Guidance_Circuit_icon.png/revision/latest?cb=20261024145310",
     "sell_price": "$16,875",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$16,875",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Missile_Guidance_Circuit_icon.png/revision/latest?cb=20261024145310"
   },
   {
     "name": "Modern Watch",
     "id": "modern-watch",
     "grid_size": "1x1",
     "weight": "0.12 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/Modern_Watch_icon.png/revision/latest?cb=20250502160158",
     "sell_price": "$150",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/Modern_Watch_icon.png/revision/latest?cb=20250502160158",
     "numeric_values": {
       "weight": {
         "value": 0.12,
@@ -1134,12 +1836,30 @@
     }
   },
   {
+    "name": "Motherboard",
+    "id": "motherboard",
+    "grid_size": "2x2",
+    "weight": "0.8 kg",
+    "sell_price": "90",
+    "price_per_grid_cell": "$23",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/Motherboard_icon.png/revision/latest?cb=20261024142248",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Motor Oil",
     "id": "motor-oil",
     "grid_size": "2x2",
-    "weight": "4.300kg",
-    "sell_price": "$15",
+    "weight": "4.3 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "$4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Motor_Oil_icon.png/revision/latest?cb=20260331083528",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 4.3,
@@ -1151,9 +1871,12 @@
     "name": "Motorbike Battery",
     "id": "motorbike-battery",
     "grid_size": "2x1",
-    "weight": "2.000kg",
-    "sell_price": "$36",
+    "weight": "2 kg",
+    "sell_price": "$39.2",
+    "price_per_grid_cell": "$20",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/Motorbike_Battery_icon.png/revision/latest?cb=20260331083649",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -1166,9 +1889,9 @@
     "id": "moutai---50y",
     "grid_size": "1x2",
     "weight": "1.5 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Moutai_-_50y_icon.png/revision/latest?cb=20250531204306",
     "sell_price": "$15,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$7,500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Moutai_-_50y_icon.png/revision/latest?cb=20250531204306",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -1177,15 +1900,79 @@
     }
   },
   {
-    "name": "Naosaoad 100% Clean",
-    "id": "naosaoad-100%-clean",
+    "name": "Multi-Bus Converter",
+    "id": "multi-bus-converter",
+    "grid_size": "1x1",
+    "weight": "0.25 kg",
+    "sell_price": "4,000",
+    "price_per_grid_cell": "4,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Multi-Bus_Converter_icon.png/revision/latest?cb=20261102054421",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Multimeter",
+    "id": "multimeter",
     "grid_size": "1x2",
-    "weight": "0.500kg",
-    "sell_price": "$18",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Naosaoad_100%25_Clean_icon.png/revision/latest?cb=20260331083855",
+    "weight": "0.5 kg",
+    "sell_price": "60",
+    "price_per_grid_cell": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/Multimeter_icon.png/revision/latest?cb=20261106134239",
     "numeric_values": {
       "weight": {
         "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Multitool",
+    "id": "multitool",
+    "grid_size": "1x2",
+    "weight": "0.27 kg",
+    "sell_price": "$57.6",
+    "price_per_grid_cell": "$29",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.27,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Naosaoad 100% Clean",
+    "id": "naosaoad-100%-clean",
+    "grid_size": "1x2",
+    "weight": "0.5 kg",
+    "sell_price": "$19.2",
+    "price_per_grid_cell": "$10",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Naosaoad_100%25_Clean_icon.png/revision/latest?cb=20260331083855",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Nerve Gas Canister",
+    "id": "nerve-gas-canister",
+    "grid_size": "1x2",
+    "weight": "2 kg",
+    "sell_price": "$40,000",
+    "price_per_grid_cell": "$20,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
         "unit": "kg"
       }
     }
@@ -1195,9 +1982,9 @@
     "id": "hyperborea-cigarettes",
     "grid_size": "1x1",
     "weight": "0.02 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Noir_Mist_Cigarettes_icon.png/revision/latest?cb=20260402042858",
     "sell_price": "$139",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$139",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Noir_Mist_Cigarettes_icon.png/revision/latest?cb=20260402042858",
     "numeric_values": {
       "weight": {
         "value": 0.02,
@@ -1210,9 +1997,9 @@
     "id": "npi-2-navigation-receiver",
     "grid_size": "1x1",
     "weight": "0.3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/NPI-2_Navigation_Receiver_icon.png/revision/latest?cb=20260402045946",
     "sell_price": "$1,136",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,136",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/NPI-2_Navigation_Receiver_icon.png/revision/latest?cb=20260402045946",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -1225,9 +2012,9 @@
     "id": "one-time-pad-key-sheets",
     "grid_size": "1x1",
     "weight": "0.1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/One-Time_Pad_Key_Sheets_icon.png/revision/latest?cb=20260402050119",
     "sell_price": "$2,560",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$2,560",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/One-Time_Pad_Key_Sheets_icon.png/revision/latest?cb=20260402050119",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -1240,9 +2027,9 @@
     "id": "operation-data-encrypted-hard-disk",
     "grid_size": "1x1",
     "weight": "0.18",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Operation_Data_Encrypted_Hard_Disk_icon.png/revision/latest?cb=20260411164244",
     "sell_price": "$5,200",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$5,200",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Operation_Data_Encrypted_Hard_Disk_icon.png/revision/latest?cb=20260411164244",
     "numeric_values": {
       "weight": {
         "value": 0.18,
@@ -1251,11 +2038,52 @@
     }
   },
   {
+    "name": "Opium Gum",
+    "id": "opium-gum",
+    "grid_size": "2x2",
+    "weight": "2",
+    "sell_price": "150",
+    "price_per_grid_cell": "$38",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/Opium_Gum_icon.png/revision/latest?cb=20261109201119",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
+    "name": "Oscilloscope",
+    "id": "oscilloscope",
+    "grid_size": "3x2",
+    "weight": "3 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "25",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Oscilloscope_icon.png/revision/latest?cb=20261028195629",
+    "numeric_values": {
+      "weight": {
+        "value": 3.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Oven-Controlled Crystal Oscillator",
+    "id": "oven-controlled-crystal-oscillator",
+    "grid_size": "1x1",
+    "weight": "0.01 kg",
+    "sell_price": "9,000",
+    "price_per_grid_cell": "9,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/Oven-Controlled_Crystal_Oscillator_icon.png/revision/latest?cb=20261026212130",
+    "numeric_values": {
+      "weight": {
+        "value": 0.01,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Pack of AA Batteries",
     "id": "pack-of-aa-batteries",
     "grid_size": "1x1",
-    "weight": "0.024kg",
-    "sell_price": "$7",
+    "weight": "0.024 kg",
+    "sell_price": "$8",
+    "price_per_grid_cell": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Pack_of_AA_Batteries_icon.png/revision/latest?cb=20260331084203",
     "numeric_values": {
       "weight": {
@@ -1268,9 +2096,12 @@
     "name": "Pack of Premium Coffee",
     "id": "pack-of-premium-coffee",
     "grid_size": "1x2",
-    "weight": "0.600kg",
-    "sell_price": "$27",
+    "weight": "0.6 kg",
+    "sell_price": "$29.6",
+    "price_per_grid_cell": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/Pack_of_Premium_Coffee_icon.png/revision/latest?cb=20260331084220",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -1282,9 +2113,12 @@
     "name": "Paracord",
     "id": "paracord",
     "grid_size": "2x1",
-    "weight": "0.100kg",
-    "sell_price": "$9",
+    "weight": "0.1 kg",
+    "sell_price": "$9.6",
+    "price_per_grid_cell": "$5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Paracord_icon.png/revision/latest?cb=20260331084246",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -1297,12 +2131,27 @@
     "id": "pbg-01+-uav-control-station",
     "grid_size": "2x2",
     "weight": "14.2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/PBG-01%2B_UAV_Control_Station_icon.png/revision/latest?cb=20260331084340",
     "sell_price": "$6,800",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,700",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/PBG-01%2B_UAV_Control_Station_icon.png/revision/latest?cb=20260331084340",
     "numeric_values": {
       "weight": {
         "value": 14.2,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "PC Fan",
+    "id": "pc-fan",
+    "grid_size": "1x1",
+    "weight": "0.12 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/PC_Fan_icon.png/revision/latest?cb=20261024183821",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
         "unit": "kg"
       }
     }
@@ -1312,9 +2161,9 @@
     "id": "perfect-pearl-earrings",
     "grid_size": "1x1",
     "weight": "0.01 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/Perfect_Pearl_Earrings_icon.png/revision/latest?cb=20250513043843",
     "sell_price": "$5,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$5,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/Perfect_Pearl_Earrings_icon.png/revision/latest?cb=20250513043843",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1323,26 +2172,14 @@
     }
   },
   {
-    "name": "Petrolatum",
-    "id": "petrolatum",
-    "grid_size": "1x1",
-    "weight": "0.370kg",
-    "sell_price": "$9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Petrolatum_icon.png/revision/latest?cb=20260331084512",
-    "numeric_values": {
-      "weight": {
-        "value": 0.37,
-        "unit": "kg"
-      }
-    }
-  },
-  {
     "name": "Phone Charger",
     "id": "phone-charger",
     "grid_size": "1x1",
-    "weight": "0.075kg",
-    "sell_price": "$9",
+    "weight": "0.075 kg",
+    "sell_price": "$10.4",
+    "price_per_grid_cell": "$10",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Phone_Charger_icon.png/revision/latest?cb=20260331084625",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.075,
@@ -1351,11 +2188,28 @@
     }
   },
   {
+    "name": "Plastics",
+    "id": "plastics",
+    "grid_size": "1x2",
+    "weight": "1 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "$8",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/Plastics_icon.png/revision/latest?cb=20261024183814",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Platinum Credit Card",
     "id": "platinum-credit-card",
     "grid_size": "1x1",
-    "weight": "0.005kg",
+    "weight": "0.005 kg",
     "sell_price": "$6,000",
+    "price_per_grid_cell": "$6,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/Platinum_Credit_Card_icon.png/revision/latest?cb=20260402234915",
     "numeric_values": {
       "weight": {
@@ -1369,9 +2223,9 @@
     "id": "platinum-ring",
     "grid_size": "1x1",
     "weight": "0.01 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/42/Platinum_ring_icon.png/revision/latest?cb=20250702190225",
     "sell_price": "$10,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$10,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/42/Platinum_ring_icon.png/revision/latest?cb=20250702190225",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1380,27 +2234,61 @@
     }
   },
   {
-    "name": "Pro Multitool",
-    "id": "pro-multitool",
+    "name": "Plumbing Parts",
+    "id": "plumbing-parts",
     "grid_size": "1x1",
-    "weight": "0.120 kg",
-    "trader": "Handshake LL1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Pro_Multitool_icon.png/revision/latest?cb=20250128181319",
+    "weight": "0.5 kg",
+    "sell_price": "60",
+    "price_per_grid_cell": "60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Plumbing_Parts_icon.png/revision/latest?cb=20261106134244",
     "numeric_values": {
       "weight": {
-        "value": 0.12,
+        "value": 0.5,
         "unit": "kg"
       }
-    },
-    "sell_price": "$50"
+    }
+  },
+  {
+    "name": "Plutonium Canister",
+    "id": "plutonium-canister",
+    "grid_size": "1x1",
+    "weight": "1 kg",
+    "sell_price": "$40,000",
+    "price_per_grid_cell": "$40,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Power Supply",
+    "id": "power-supply",
+    "grid_size": "2x2",
+    "weight": "1 kg",
+    "sell_price": "75",
+    "price_per_grid_cell": "$19",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Power_Supply_icon.png/revision/latest?cb=20261106134247",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Propane Bottle",
     "id": "propane-bottle",
     "grid_size": "1x2",
-    "weight": "0.453kg",
-    "sell_price": "$31",
+    "weight": "0.453 kg",
+    "sell_price": "$33.6",
+    "price_per_grid_cell": "$17",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Propane_Bottle_icon.png/revision/latest?cb=20260403075825",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.453,
@@ -1409,13 +2297,38 @@
     }
   },
   {
+    "name": "Pure White Heroin",
+    "id": "pure-white-heroin",
+    "grid_size": "2x2",
+    "weight": "1 kg",
+    "sell_price": "$19,500",
+    "price_per_grid_cell": "$4,875",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Purified Water",
+    "id": "purified-water",
+    "grid_size": "2x2",
+    "weight": "5",
+    "sell_price": "30",
+    "price_per_grid_cell": "$8",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Purified_Water_icon.png/revision/latest?cb=20261109201122",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
     "name": "R-438 Barrier-T",
     "id": "r-438-barrier-t",
     "grid_size": "3x3",
     "weight": "16",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/R-438_Barrier-T_icon.png/revision/latest?cb=20261108044738",
     "sell_price": "$48,000",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$5,333",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/R-438_Barrier-T_icon.png/revision/latest?cb=20261108044738",
     "numeric_values": {
       "weight": {
         "value": 16.0,
@@ -1424,12 +2337,30 @@
     }
   },
   {
+    "name": "RAM",
+    "id": "ram",
+    "grid_size": "1x1",
+    "weight": "0.3 kg",
+    "sell_price": "90",
+    "price_per_grid_cell": "90",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/RAM_icon.png/revision/latest?cb=20261106134249",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Refillable Lighter",
     "id": "refillable-lighter",
     "grid_size": "1x1",
-    "weight": "0.080kg",
-    "sell_price": "$37",
+    "weight": "0.08 kg",
+    "sell_price": "$28.8",
+    "price_per_grid_cell": "$29",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Refillable_Lighter_icon.png/revision/latest?cb=20260331085446",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.08,
@@ -1442,10 +2373,9 @@
     "id": "reflex-camera",
     "grid_size": "2x1",
     "weight": "0.95 kg",
-    "sell_price": "$960",
-    "price_per_grid_cell": "$480",
+    "sell_price": "$1,280",
+    "price_per_grid_cell": "$640",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/Reflex_Camera_icon.png/revision/latest?cb=20250508181135",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.95,
@@ -1454,12 +2384,27 @@
     }
   },
   {
+    "name": "Refrigerant",
+    "id": "refrigerant",
+    "grid_size": "1x2",
+    "weight": "1.5 kg",
+    "sell_price": "45",
+    "price_per_grid_cell": "$23",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Reinforced Military Laptop",
     "id": "reinforced-military-laptop",
     "grid_size": "2x2",
-    "weight": "2.500kg",
-    "sell_price": "$2,304",
-    "price_per_grid_cell": "$576",
+    "weight": "2.5 kg",
+    "sell_price": "$3,072",
+    "price_per_grid_cell": "$768",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Reinforced_Military_Laptop_icon.png/revision/latest?cb=20250516193035",
     "numeric_values": {
       "weight": {
@@ -1472,9 +2417,11 @@
     "name": "Rubber Renue",
     "id": "rubber-renue",
     "grid_size": "1x2",
-    "weight": "1.000kg",
-    "sell_price": "$51",
+    "weight": "1 kg",
+    "sell_price": "$54.4",
+    "price_per_grid_cell": "$27",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Rubber_Renue_icon.png/revision/latest?cb=20260331085608",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -1487,9 +2434,9 @@
     "id": "rugged-military-tablet",
     "grid_size": "2x2",
     "weight": "2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Rugged_Military_Tablet_icon.png/revision/latest?cb=20260404034408",
     "sell_price": "$1,240",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$310",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Rugged_Military_Tablet_icon.png/revision/latest?cb=20260404034408",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -1498,26 +2445,23 @@
     }
   },
   {
-    "name": "Sample Collection Kit",
-    "id": "sample-collection-kit",
-    "grid_size": "1x1",
-    "weight": "0.100 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/Sample_Collection_Kit_icon.png/revision/latest?cb=20240508091140",
-    "numeric_values": {
-      "weight": {
-        "value": 0.1,
-        "unit": "kg"
-      }
-    }
+    "name": "Saline",
+    "id": "saline",
+    "grid_size": "1x2",
+    "weight": "1",
+    "sell_price": "15",
+    "price_per_grid_cell": "$8",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/74/Saline_icon.png/revision/latest?cb=20261110204209",
+    "price_per_grid_cell_source": "gzwitems.com"
   },
   {
     "name": "Sapphire Pendant",
     "id": "sapphire-pendant",
     "grid_size": "1x1",
     "weight": "0.01 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Sapphire_Pendant_icon.png/revision/latest?cb=20250513042856",
     "sell_price": "$3,600",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$3,600",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Sapphire_Pendant_icon.png/revision/latest?cb=20250513042856",
     "numeric_values": {
       "weight": {
         "value": 0.01,
@@ -1526,15 +2470,79 @@
     }
   },
   {
-    "name": "Sewing Set",
+    "name": "Sarin Canister",
+    "id": "sarin-canister",
+    "grid_size": "1x2",
+    "weight": "2 kg",
+    "sell_price": "$22,500",
+    "price_per_grid_cell": "$11,250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Server CPU",
+    "id": "server-cpu",
+    "grid_size": "1x1",
+    "weight": "0.08 kg",
+    "sell_price": "180",
+    "price_per_grid_cell": "180",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f2/Server_CPU_icon.png/revision/latest?cb=20261106134251",
+    "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Server RAM Module",
+    "id": "server-ram-module",
+    "grid_size": "2x1",
+    "weight": "0.05 kg",
+    "sell_price": "6,000",
+    "price_per_grid_cell": "3,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/Server_RAM_Module_icon.png/revision/latest?cb=20261024200427",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sewing Kit",
     "id": "sewing-set",
     "grid_size": "1x1",
-    "weight": "0.146kg",
-    "sell_price": "$1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Sewing_Set_icon.png/revision/latest?cb=20260331085847",
+    "weight": "0.146 kg",
+    "sell_price": "$1.6",
+    "price_per_grid_cell": "$2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/29/Sewing_Kit_icon.png/revision/latest?cb=20260331085847",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.146,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Signal Generator",
+    "id": "signal-generator",
+    "grid_size": "2x2",
+    "weight": "1.2 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "$38",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Signal_Generator_icon.png/revision/latest?cb=20261024185215",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.2,
         "unit": "kg"
       }
     }
@@ -1544,12 +2552,28 @@
     "id": "signal-repeater-rt97s",
     "grid_size": "3x2",
     "weight": "1.66",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Signal_Repeater_RT97S_icon.png/revision/latest?cb=20260402044834",
     "sell_price": "$720",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$120",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Signal_Repeater_RT97S_icon.png/revision/latest?cb=20260402044834",
     "numeric_values": {
       "weight": {
         "value": 1.66,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Silicone Sealant",
+    "id": "silicone-sealant",
+    "grid_size": "1x2",
+    "weight": "0.75 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "$8",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Silicone_Sealant_icon.png/revision/latest?cb=20261024183809",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.75,
         "unit": "kg"
       }
     }
@@ -1559,9 +2583,9 @@
     "id": "sleek-luxury-watch",
     "grid_size": "1x1",
     "weight": "0.13 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Sleek_Luxury_Watch_icon.png/revision/latest?cb=20250507135948",
     "sell_price": "$1,700",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,700",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Sleek_Luxury_Watch_icon.png/revision/latest?cb=20250507135948",
     "numeric_values": {
       "weight": {
         "value": 0.13,
@@ -1574,9 +2598,9 @@
     "id": "smartphone",
     "grid_size": "1x1",
     "weight": "0.22",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/Smartphone_icon.png/revision/latest?cb=20250508230706",
     "sell_price": "$250",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/Smartphone_icon.png/revision/latest?cb=20250508230706",
     "numeric_values": {
       "weight": {
         "value": 0.22,
@@ -1589,12 +2613,107 @@
     "id": "snake-wine",
     "grid_size": "1x2",
     "weight": "1.4 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/Snake_Wine_icon.png/revision/latest?cb=20260402071910",
     "sell_price": "$399",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$200",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/Snake_Wine_icon.png/revision/latest?cb=20260402071910",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.4,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Sodium Carbonate",
+    "id": "sodium-carbonate",
+    "grid_size": "1x2",
+    "weight": "0.55",
+    "sell_price": "36",
+    "price_per_grid_cell": "18",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Sodium_Carbonate_icon.png/revision/latest?cb=20261109201309"
+  },
+  {
+    "name": "Sodium Citrate",
+    "id": "sodium-citrate",
+    "grid_size": "1x2",
+    "weight": "0.55",
+    "sell_price": "45",
+    "price_per_grid_cell": "$23",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Sodium_Citrate_icon.png/revision/latest?cb=20261109201307",
+    "price_per_grid_cell_source": "gzwitems.com"
+  },
+  {
+    "name": "Soldering Iron",
+    "id": "soldering-iron",
+    "grid_size": "1x1",
+    "weight": "0.3 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/13/Soldering_Iron_icon.png/revision/latest?cb=20261024183816",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Spoofing ASIC Module",
+    "id": "spoofing-asic-module",
+    "grid_size": "1x1",
+    "weight": "0.32 kg",
+    "sell_price": "4,000",
+    "price_per_grid_cell": "4,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Spoofing_ASIC_Module_icon.png/revision/latest?cb=20261107050845",
+    "numeric_values": {
+      "weight": {
+        "value": 0.32,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Stabilized Morphine Sulfate Liquid",
+    "id": "stabilized-morphine-sulfate-liquid",
+    "grid_size": "2x2",
+    "weight": "5 kg",
+    "sell_price": "$12,000",
+    "price_per_grid_cell": "$3,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Stabilized_Morphine_Sulfate_Liquid_icon.png/revision/latest?cb=20261109183144",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Stainless Steel Sheet",
+    "id": "stainless-steel-sheet",
+    "grid_size": "2x1",
+    "weight": "1 kg",
+    "sell_price": "45",
+    "price_per_grid_cell": "$23",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Steel",
+    "id": "steel",
+    "grid_size": "2x1",
+    "weight": "1 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Steel_icon.png/revision/latest?cb=20261106150203",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
         "unit": "kg"
       }
     }
@@ -1604,9 +2723,9 @@
     "id": "strelets-m-tablet",
     "grid_size": "2x1",
     "weight": "1.4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/STRELETS-M_Tablet_icon.png/revision/latest?cb=20260404034623",
     "sell_price": "$4,960",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$2,480",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/STRELETS-M_Tablet_icon.png/revision/latest?cb=20260404034623",
     "numeric_values": {
       "weight": {
         "value": 1.4,
@@ -1618,9 +2737,12 @@
     "name": "Sulfuric Acid",
     "id": "sulfuric-acid",
     "grid_size": "2x2",
-    "weight": "5.030kg",
-    "sell_price": "$99",
+    "weight": "5.03",
+    "sell_price": "$39.6",
+    "price_per_grid_cell": "$10",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/Sulfuric_Acid_icon.png/revision/latest?cb=20260402235100",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 5.03,
@@ -1632,9 +2754,12 @@
     "name": "Tahirs Cigarettes",
     "id": "tahirs-cigarettes",
     "grid_size": "1x1",
-    "weight": "0.013kg",
-    "sell_price": "$5",
+    "weight": "0.013 kg",
+    "sell_price": "$5.6",
+    "price_per_grid_cell": "$6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/Tahirs_Cigarettes_icon.png/revision/latest?cb=20260402214909",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.013,
@@ -1643,15 +2768,48 @@
     }
   },
   {
+    "name": "Theophylline",
+    "id": "theophylline",
+    "grid_size": "1x1",
+    "weight": "0.1 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Theophylline_icon.png/revision/latest?cb=20261109201041",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Thermal Blanket",
     "id": "thermal-blanket",
     "grid_size": "1x1",
-    "weight": "0.057kg",
-    "sell_price": "$1",
+    "weight": "0.057 kg",
+    "sell_price": "$1.6",
+    "price_per_grid_cell": "$2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/18/Thermal_Blanket_icon.png/revision/latest?cb=20260403200545",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.057,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Tooling Coolant",
+    "id": "tooling-coolant",
+    "grid_size": "2x2",
+    "weight": "5 kg",
+    "sell_price": "75",
+    "price_per_grid_cell": "$19",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
         "unit": "kg"
       }
     }
@@ -1661,9 +2819,9 @@
     "id": "toolset",
     "grid_size": "2x2",
     "weight": "1.6 kg",
-    "sell_price": "$142",
+    "sell_price": "60",
+    "price_per_grid_cell": "15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Toolset_icon.png/revision/latest?cb=20260331090253",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.6,
@@ -1675,9 +2833,9 @@
     "name": "Tourist ID Card",
     "id": "tourist-id-card",
     "grid_size": "1x1",
-    "weight": "0.050kg",
-    "sell_price": "$112",
-    "price_per_grid_cell": "$112",
+    "weight": "0.05 kg",
+    "sell_price": "$150",
+    "price_per_grid_cell": "$150",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/Tourist_ID_Card_icon.png/revision/latest?cb=20260402185951",
     "numeric_values": {
       "weight": {
@@ -1690,9 +2848,9 @@
     "name": "Tourist Passport",
     "id": "tourist-passport",
     "grid_size": "1x1",
-    "weight": "0.050kg",
-    "sell_price": "$2,625",
-    "price_per_grid_cell": "$2,625",
+    "weight": "0.05 kg",
+    "sell_price": "$3,500",
+    "price_per_grid_cell": "$3,500",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/Tourist_Passport_icon.png/revision/latest?cb=20260402190015",
     "numeric_values": {
       "weight": {
@@ -1706,9 +2864,9 @@
     "id": "tzintzimitl-tequila---25y",
     "grid_size": "1x2",
     "weight": "1.8 kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Tzintzimitl_Tequila_-_25y_icon.png/revision/latest?cb=20250629141827",
     "sell_price": "$2,020",
-    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell": "$1,010",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Tzintzimitl_Tequila_-_25y_icon.png/revision/latest?cb=20250629141827",
     "numeric_values": {
       "weight": {
         "value": 1.8,
@@ -1719,9 +2877,10 @@
   {
     "name": "UN Medical Tools",
     "id": "un-medical-tools",
-    "grid_size": "1x2",
-    "weight": "0.500kg",
-    "sell_price": "$15",
+    "grid_size": "2x1",
+    "weight": "0.5 kg",
+    "sell_price": "$16",
+    "price_per_grid_cell": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fb/UN_Medical_Tools_icon.png/revision/latest?cb=20260402235041",
     "numeric_values": {
       "weight": {
@@ -1735,26 +2894,58 @@
     "id": "unlra-relief-manifest",
     "grid_size": "1x1",
     "weight": "0.24",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/UNLRA_Relief_Manifest_icon.png/revision/latest?cb=20261102054526",
     "sell_price": "$8,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/UNLRA_Relief_Manifest_icon.png/revision/latest?cb=20261102054526"
   },
   {
     "name": "Uplink Credentials Drive",
     "id": "uplink-credentials-drive",
     "grid_size": "1x1",
     "weight": "0.08",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Uplink_Credentials_Drive_icon.png/revision/latest?cb=20261028195057",
     "sell_price": "$18,000",
-    "sell_price_source": "gzwitems.com"
+    "price_per_grid_cell": "$18,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Uplink_Credentials_Drive_icon.png/revision/latest?cb=20261028195057"
+  },
+  {
+    "name": "USP Morphine Sulfate",
+    "id": "usp-morphine-sulfate",
+    "grid_size": "2x2",
+    "weight": "5 kg",
+    "sell_price": "$17,000",
+    "price_per_grid_cell": "$4,250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/be/Missing_icon.png/revision/latest?cb=20240506010232",
+    "numeric_values": {
+      "weight": {
+        "value": 5.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Vapor Lamp",
+    "id": "vapor-lamp",
+    "grid_size": "1x1",
+    "weight": "0.05 kg",
+    "sell_price": "150",
+    "price_per_grid_cell": "150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Vapor_Lamp_icon.png/revision/latest?cb=20261108091352",
+    "numeric_values": {
+      "weight": {
+        "value": 0.05,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Vial of Antigens",
     "id": "vial-of-antigens",
     "grid_size": "1x1",
-    "weight": "0.030kg",
-    "sell_price": "$947",
+    "weight": "0.03 kg",
+    "sell_price": "$1,010.4",
+    "price_per_grid_cell": "$1,010",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Vial_of_Antigens_icon.png/revision/latest?cb=20261108091940",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.03,
@@ -1766,9 +2957,9 @@
     "name": "VIP Passport",
     "id": "vip-passport",
     "grid_size": "1x1",
-    "weight": "0.050kg",
-    "sell_price": "$6,800",
-    "price_per_grid_cell": "$6,800",
+    "weight": "0.05 kg",
+    "sell_price": "$9,000",
+    "price_per_grid_cell": "$9,000",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VIP_Passport_icon.png/revision/latest?cb=20260402190035",
     "numeric_values": {
       "weight": {
@@ -1778,12 +2969,44 @@
     }
   },
   {
+    "name": "Vitamin B12",
+    "id": "vitamin-b12",
+    "grid_size": "1x1",
+    "weight": "0.25 kg",
+    "sell_price": "30",
+    "price_per_grid_cell": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Vitamin_B12_icon.png/revision/latest?cb=20261109201045",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Water Pump",
+    "id": "water-pump",
+    "grid_size": "3x2",
+    "weight": "10 kg",
+    "sell_price": "450",
+    "price_per_grid_cell": "75",
+    "numeric_values": {
+      "weight": {
+        "value": 10.0,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Water Purification Tablets",
     "id": "water-purification-tablets",
     "grid_size": "1x1",
-    "weight": "0.125kg",
-    "sell_price": "$27",
+    "weight": "0.125 kg",
+    "sell_price": "$29.6",
+    "price_per_grid_cell": "$30",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/Water_Purification_Tablets_icon.png/revision/latest?cb=20260402235230",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.125,
@@ -1795,9 +3018,12 @@
     "name": "Weapon Oil",
     "id": "weapon-oil",
     "grid_size": "1x2",
-    "weight": "0.272kg",
-    "sell_price": "$9",
+    "weight": "0.272 kg",
+    "sell_price": "$9.6",
+    "price_per_grid_cell": "$5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Weapon_Oil_icon.png/revision/latest?cb=20260331090617",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.272,
@@ -1810,13 +3036,59 @@
     "id": "white-lithium-grease",
     "grid_size": "2x2",
     "weight": "5.22 kg",
-    "sell_price": "$150",
+    "sell_price": "$160",
+    "price_per_grid_cell": "$40",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/White_Lithium_Grease_icon.png/revision/latest?cb=20260403095948",
-    "grid_size_source": "game-files",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 5.22,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "White Petrolatum",
+    "id": "petrolatum",
+    "grid_size": "1x1",
+    "weight": "0.37 kg",
+    "sell_price": "$9.6",
+    "price_per_grid_cell": "$10",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/White_Petrolatum_icon.png/revision/latest?cb=20260331084512",
+    "sell_price_source": "gzwitems.com",
+    "price_per_grid_cell_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.37,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Wood",
+    "id": "wood",
+    "grid_size": "3x1",
+    "weight": "0.5 kg",
+    "sell_price": "15",
+    "price_per_grid_cell": "5",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f2/Wood_icon.png/revision/latest?cb=20261106134259",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Zinc Electrode",
+    "id": "zinc-electrode",
+    "grid_size": "1x2",
+    "weight": "0.5 kg",
+    "sell_price": "120",
+    "price_per_grid_cell": "60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/Zinc_Electrode_icon.png/revision/latest?cb=20261024183812",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
         "unit": "kg"
       }
     }

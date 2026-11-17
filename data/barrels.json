@@ -1,13 +1,64 @@
 [
   {
+    "name": "Alien Barrel",
+    "id": "alien-barrel",
+    "type": "Barrel",
+    "weight": "0.17 kg",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$1,190",
+    "manufacturer": "Laugo Arms",
+    "accuracy": "7 MOA",
+    "ergonomics": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 7.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Alien Threaded Barrel",
+    "id": "alien-threaded-barrel",
+    "type": "Barrel",
+    "weight": "0.17 kg",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$1,275",
+    "manufacturer": "Laugo Arms",
+    "accuracy": "7 MOA",
+    "ergonomics": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 7.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
     "name": "AR-15 Barrel - 10.5\"",
     "id": "ar-15-barrel---10.5\"",
     "type": "Barrel",
     "weight": "0.538 kg",
     "sold_by": "Gunny R.2",
+    "buy_price": "$714",
     "manufacturer": "COLT",
     "accuracy": "3.89 MOA",
-    "muzzle_device_efficiency": "-10 %",
+    "ergonomics": "+11 %",
     "size_change_horizontal": "+1",
     "numeric_values": {
       "weight": {
@@ -18,8 +69,8 @@
         "value": 3.89,
         "unit": "moa"
       },
-      "muzzle_device_efficiency": {
-        "value": -10.0,
+      "ergonomics": {
+        "value": 11.0,
         "unit": "%"
       }
     }
@@ -29,11 +80,13 @@
     "id": "ar-15-barrel---14.5\"",
     "type": "Barrel",
     "weight": "0.725 kg",
-    "sold_by": "Gunny R.??",
-    "manufacturer": "Colt",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$782",
+    "manufacturer": "COLT",
     "accuracy": "2.15 MOA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/AR-15_14.5%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135421",
-    "weight_source": "game-files",
+    "ergonomics": "+2 %",
+    "size_change_horizontal": "+2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/AR-15_Barrel_-_14.5%22_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135421",
     "numeric_values": {
       "weight": {
         "value": 0.725,
@@ -42,6 +95,10 @@
       "accuracy": {
         "value": 2.15,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
       }
     }
   },
@@ -51,10 +108,12 @@
     "type": "Barrel",
     "weight": "0.793 kg",
     "sold_by": "Gunny R.3",
-    "manufacturer": "Colt",
+    "buy_price": "$748",
+    "manufacturer": "COLT",
     "accuracy": "1.83 MOA",
-    "muzzle_device_efficiency": "???? %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/AR-15_16%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014723",
+    "ergonomics": "-2 %",
+    "size_change_horizontal": "+2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/AR-15_Barrel_-_16%22_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014723",
     "numeric_values": {
       "weight": {
         "value": 0.793,
@@ -63,6 +122,10 @@
       "accuracy": {
         "value": 1.83,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -2.0,
+        "unit": "%"
       }
     }
   },
@@ -70,14 +133,13 @@
     "name": "AR-15 Barrel - 18\"",
     "id": "ar-15-barrel---18\"",
     "type": "Barrel",
-    "weight": "1.270 kg",
+    "weight": "1.27 kg",
     "sold_by": "Gunny R.3",
     "buy_price": "$867",
-    "manufacturer": "Colt",
+    "manufacturer": "COLT",
     "accuracy": "1.44 MOA",
-    "muzzle_velocity": "+12 %",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
+    "ergonomics": "-8 %",
+    "size_change_horizontal": "+3",
     "numeric_values": {
       "weight": {
         "value": 1.27,
@@ -87,8 +149,8 @@
         "value": 1.44,
         "unit": "moa"
       },
-      "muzzle_velocity": {
-        "value": 12.0,
+      "ergonomics": {
+        "value": -8.0,
         "unit": "%"
       }
     }
@@ -97,12 +159,13 @@
     "name": "AR-15 Barrel - 20\"",
     "id": "ar-15-barrel---20\"",
     "type": "Barrel",
-    "weight": "0.970 kg",
+    "weight": "0.97 kg",
     "sold_by": "Loot only",
-    "manufacturer": "Colt",
+    "manufacturer": "COLT",
     "accuracy": "1.11 MOA",
+    "ergonomics": "-18 %",
     "size_change_horizontal": "+4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/AR-15_20%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014754",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/AR-15_Barrel_-_20%22_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014754",
     "numeric_values": {
       "weight": {
         "value": 0.97,
@@ -111,6 +174,35 @@
       "accuracy": {
         "value": 1.11,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -18.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AR-15 Barrel - 20\" (Phantom Lance)",
+    "id": "ar-15-barrel---20\"-phantom-lance",
+    "type": "Barrel",
+    "weight": "0.97 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "COLT",
+    "accuracy": "1.11 MOA",
+    "ergonomics": "-18 %",
+    "size_change_horizontal": "+4",
+    "numeric_values": {
+      "weight": {
+        "value": 0.97,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.11,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -18.0,
+        "unit": "%"
       }
     }
   },
@@ -120,11 +212,12 @@
     "type": "Barrel",
     "weight": "0.725 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$544",
     "manufacturer": "Norinco",
     "accuracy": "4.18 MOA",
-    "muzzle_velocity": "-4 %",
+    "ergonomics": "+2 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/CQA1_14.5%27_inspect.png/revision/latest/scale-to-width-down/268?cb=20251105195340",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/AR-15_CQA1_Barrel_-_14.5%22_inspect.png/revision/latest/scale-to-width-down/268?cb=20251105195340",
     "numeric_values": {
       "weight": {
         "value": 0.725,
@@ -134,8 +227,385 @@
         "value": 4.18,
         "unit": "moa"
       },
-      "muzzle_velocity": {
-        "value": -4.0,
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 Barrel - 14\"",
+    "id": "benelli-m4-barrel---14\"",
+    "type": "Barrel",
+    "weight": "0.63 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Benelli",
+    "accuracy": "22 MOA",
+    "ergonomics": "-6 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.63,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 22.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 Barrel - 14\" (FDE)",
+    "id": "benelli-m4-barrel---14\"-fde"
+  },
+  {
+    "name": "Benelli M4 Barrel - 14\" (Riot Echo)",
+    "id": "benelli-m4-barrel---14\"-riot-echo",
+    "type": "Barrel",
+    "weight": "0.63 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Benelli",
+    "accuracy": "20 MOA",
+    "ergonomics": "-6 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.63,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 20.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 Barrel - 14\" (Silver)",
+    "id": "benelli-m4-barrel---14\"-silver"
+  },
+  {
+    "name": "Benelli M4 Barrel - 18.5\"",
+    "id": "benelli-m4-barrel---18.5\"",
+    "type": "Barrel",
+    "weight": "0.8 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$650",
+    "manufacturer": "Benelli",
+    "accuracy": "18 MOA",
+    "ergonomics": "-6 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 18.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 Barrel - 18.5\" (FDE)",
+    "id": "benelli-m4-barrel---18.5\"-fde"
+  },
+  {
+    "name": "Benelli M4 Barrel - 18.5\" (Silver)",
+    "id": "benelli-m4-barrel---18.5\"-silver"
+  },
+  {
+    "name": "Broker's M9A1 Threaded Barrel",
+    "id": "brokers-m9a1-threaded-barrel",
+    "type": "Barrel",
+    "weight": "0.149 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "accuracy": "11.7 MOA",
+    "ergonomics": "+1 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.149,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 11.7,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Colt 1911 Barrel - 5\"",
+    "id": "colt-1911-barrel---5\"",
+    "type": "Barrel",
+    "weight": "0.1 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$255",
+    "manufacturer": "COLT",
+    "accuracy": "12.13 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 12.13,
+        "unit": "moa"
+      }
+    }
+  },
+  {
+    "name": "Colt 1911 Barrel - 6\"",
+    "id": "colt-1911-barrel---6\"",
+    "type": "Barrel",
+    "weight": "0.163 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$340",
+    "manufacturer": "COLT",
+    "accuracy": "10.63 MOA",
+    "ergonomics": "-10 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.163,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 10.63,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Colt 1911 Commander Stainless Barrel 4.25\"",
+    "id": "colt-1911-commander-stainless-barrel-4.25\"",
+    "type": "Barrel",
+    "weight": "0.12 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$306",
+    "manufacturer": "COLT",
+    "accuracy": "11 MOA",
+    "ergonomics": "+10 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 11.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Colt 1911 Commander Threaded Barrel 5\"",
+    "id": "colt-1911-commander-threaded-barrel-5\"",
+    "type": "Barrel",
+    "weight": "0.12 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$408",
+    "manufacturer": "Nighthawk Custom",
+    "accuracy": "11 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 11.0,
+        "unit": "moa"
+      }
+    }
+  },
+  {
+    "name": "Colt 1911 Threaded Barrel",
+    "id": "colt-1911-threaded-barrel",
+    "type": "Barrel",
+    "weight": "0.115 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$391",
+    "manufacturer": "General West",
+    "accuracy": "12.03 MOA",
+    "numeric_values": {
+      "weight": {
+        "value": 0.115,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 12.03,
+        "unit": "moa"
+      }
+    }
+  },
+  {
+    "name": "FAMAS Barrel - 19.2\"",
+    "id": "famas-barrel---19.2\"",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "MAS",
+    "accuracy": "2.5 MOA",
+    "ergonomics": "-6 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.5,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Barrel - 17.7\"",
+    "id": "g3-barrel---17.7\"",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "1.6 MOA",
+    "ergonomics": "-6 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.6,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Barrel - 17.7\" (Zero Hour)",
+    "id": "g3-barrel---17.7\"-zero-hour",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "1.5 MOA",
+    "ergonomics": "-6 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.5,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G36 Barrel - 12.5\"",
+    "id": "g36-barrel---12.5\"",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "1.9 MOA",
+    "ergonomics": "-14 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.9,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -14.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G36 Barrel - 18.9\"",
+    "id": "g36-barrel---18.9\"",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Vulture R.2",
+    "buy_price": "$440",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "1.7 MOA",
+    "ergonomics": "-14 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.7,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -14.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G36 Barrel - 8.98\"",
+    "id": "g36-barrel---8.98\"",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "2.1 MOA",
+    "ergonomics": "-14 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.1,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -14.0,
         "unit": "%"
       }
     }
@@ -144,12 +614,12 @@
     "name": "Glock 17 Match Grade Barrel",
     "id": "glock-17-match-grade-barrel",
     "type": "Barrel",
-    "weight": "0.110 kg",
+    "weight": "0.11 kg",
     "sold_by": "Banshee R.2",
     "buy_price": "$425",
     "manufacturer": "Zaffiri Precision",
     "accuracy": "10.82 MOA",
-    "buy_price_source": "game-files",
+    "ergonomics": "+6 %",
     "numeric_values": {
       "weight": {
         "value": 0.11,
@@ -158,6 +628,10 @@
       "accuracy": {
         "value": 10.82,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
       }
     }
   },
@@ -166,29 +640,37 @@
     "id": "glock-17-match-grade-threaded-barrel-gold",
     "type": "Barrel",
     "weight": "0.12 kg",
-    "sold_by": "????",
-    "manufacturer": "???",
-    "accuracy": "??? MOA",
-    "fire_rate": "+??? RPM",
-    "muzzle_device_efficiency": "???? %",
-    "size_change_horizontal": "????",
-    "weight_source": "game-files",
+    "sold_by": "Loot only",
+    "manufacturer": "Zaffiri Precision",
+    "accuracy": "10.94 MOA",
+    "ergonomics": "+7 %",
     "numeric_values": {
       "weight": {
         "value": 0.12,
         "unit": "kg"
+      },
+      "accuracy": {
+        "value": 10.94,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
       }
-    }
+    },
+    "size_change_horizontal": "????"
   },
   {
     "name": "Glock 17 Standard Barrel",
     "id": "glock-17-standard-barrel",
     "type": "Barrel",
     "weight": "0.113 kg",
-    "sold_by": "Gunny R.1 Banshee R.1",
-    "manufacturer": "Glock",
-    "accuracy": "11.70 MOA",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/G17_B_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115143",
+    "sold_by": "Banshee R.1",
+    "buy_price": "$323",
+    "manufacturer": "GLOCK",
+    "accuracy": "11.7 MOA",
+    "ergonomics": "+6 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/Glock_17_Standard_Barrel_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115143",
     "numeric_values": {
       "weight": {
         "value": 0.113,
@@ -197,6 +679,411 @@
       "accuracy": {
         "value": 11.7,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Glock 18C Barrel",
+    "id": "glock-18c-barrel",
+    "type": "Barrel",
+    "weight": "0.113 kg",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$820",
+    "manufacturer": "GLOCK",
+    "accuracy": "8.1 MOA",
+    "ergonomics": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.113,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 8.1,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Glock 18C Barrel (Wolf Brigade)",
+    "id": "glock-18c-barrel-wolf-brigade",
+    "type": "Barrel",
+    "weight": "0.113 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "GLOCK",
+    "accuracy": "7.6 MOA",
+    "ergonomics": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.113,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 7.6,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Golden Boy's Colt 1911 Barrel",
+    "id": "golden-boys-colt-1911-barrel",
+    "type": "Barrel",
+    "weight": "0.12 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "accuracy": "10 MOA",
+    "ergonomics": "+1 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 10.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Grin's Colt 1911 Barrel",
+    "id": "grins-colt-1911-barrel",
+    "type": "Barrel",
+    "weight": "0.1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "accuracy": "12.13 MOA",
+    "ergonomics": "+10 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 12.13,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "L403A1 Barrel - 13.7\"",
+    "id": "l403a1-barrel---13.7\"",
+    "type": "Barrel",
+    "weight": "1.125 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$1,530",
+    "manufacturer": "KAC",
+    "accuracy": "0.8 MOA",
+    "ergonomics": "+4 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 1.125,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.8,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "L403A1 Barrel - 13.7\" (Serpent Guard)",
+    "id": "l403a1-barrel---13.7\"-serpent-guard",
+    "type": "Barrel",
+    "weight": "1.125 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "KAC",
+    "accuracy": "0.8 MOA",
+    "ergonomics": "+4 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 1.125,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.8,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M-201c Barrel - 4.6\"",
+    "id": "m-201c-barrel---4.6\"",
+    "type": "Barrel",
+    "weight": "0.06 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$204",
+    "manufacturer": "Norinco",
+    "accuracy": "12.23 MOA",
+    "ergonomics": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 12.23,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M16A1 Barrel - 20\"",
+    "id": "m16a1-barrel---20\"",
+    "type": "Barrel",
+    "weight": "0.97 kg",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$680",
+    "manufacturer": "COLT",
+    "accuracy": "1.22 MOA",
+    "ergonomics": "-18 %",
+    "size_change_horizontal": "+4",
+    "numeric_values": {
+      "weight": {
+        "value": 0.97,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.22,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -18.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M1A Barrel - 16\"",
+    "id": "m1a-barrel---16\"",
+    "type": "Barrel",
+    "weight": "0.765 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$765",
+    "manufacturer": "Springfield",
+    "accuracy": "1.4 MOA",
+    "ergonomics": "+15 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 0.765,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.4,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 15.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M1A Barrel - 16\" (Black Hawk)",
+    "id": "m1a-barrel---16\"-black-hawk",
+    "type": "Barrel",
+    "weight": "0.765 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Springfield",
+    "accuracy": "1.4 MOA",
+    "ergonomics": "+15 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 0.765,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.4,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 15.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M1A Barrel - 18.5\"",
+    "id": "m1a-barrel---18.5\"",
+    "type": "Barrel",
+    "weight": "1.13 kg",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$1,360",
+    "manufacturer": "Springfield",
+    "accuracy": "1.1 MOA",
+    "ergonomics": "+10 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.13,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.1,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M1A Barrel - 22\"",
+    "id": "m1a-barrel---22\"",
+    "type": "Barrel",
+    "weight": "1.247 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Springfield",
+    "accuracy": "0.8 MOA",
+    "ergonomics": "+1 %",
+    "size_change_horizontal": "+4",
+    "numeric_values": {
+      "weight": {
+        "value": 1.247,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.8,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M590 Barrel - 18.5\"",
+    "id": "m590-barrel---18.5\"",
+    "type": "Barrel",
+    "weight": "0.74 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Mossberg",
+    "accuracy": "42.1 MOA",
+    "ergonomics": "+15 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.74,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 42.1,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 15.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M590 Barrel - 20\"",
+    "id": "m590-barrel---20\"",
+    "type": "Barrel",
+    "weight": "0.8 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Mossberg",
+    "accuracy": "33.7 MOA",
+    "ergonomics": "+10 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 33.7,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M590 Barrel - 20\" (1 Ring)",
+    "id": "m590-barrel---20\"-1-ring",
+    "type": "Barrel",
+    "weight": "0.8 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Mossberg",
+    "accuracy": "32.4 MOA",
+    "ergonomics": "+10 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 32.4,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M590 Barrel - 20\" (Raven Team)",
+    "id": "m590-barrel---20\"-raven-team",
+    "type": "Barrel",
+    "weight": "0.8 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Mossberg",
+    "accuracy": "33.7 MOA",
+    "ergonomics": "+10 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 33.7,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
       }
     }
   },
@@ -204,13 +1091,13 @@
     "name": "M700 Barrel - 22\"",
     "id": "m700-barrel---22\"",
     "type": "Barrel",
-    "weight": "1.000 kg",
+    "weight": "1 kg",
     "sold_by": "Gunny R.2",
-    "buy_price": "$614",
+    "buy_price": "$612",
     "manufacturer": "Remington",
     "accuracy": "0.61 MOA",
+    "ergonomics": "+1 %",
     "size_change_horizontal": "+3",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -219,6 +1106,10 @@
       "accuracy": {
         "value": 0.61,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
       }
     }
   },
@@ -226,12 +1117,13 @@
     "name": "M700 Heavy Barrel - 26\"",
     "id": "m700-heavy-barrel---26\"",
     "type": "Barrel",
-    "weight": "2.050 kg",
+    "weight": "2.05 kg",
     "sold_by": "Gunny R.4",
+    "buy_price": "$1,530",
     "manufacturer": "Remington",
     "accuracy": "0.48 MOA",
-    "muzzle_velocity": "+6.0 %",
-    "size_change_horizontal": "0/+4",
+    "ergonomics": "-11 %",
+    "size_change_horizontal": "+4",
     "numeric_values": {
       "weight": {
         "value": 2.05,
@@ -241,8 +1133,33 @@
         "value": 0.48,
         "unit": "moa"
       },
-      "muzzle_velocity": {
-        "value": 6.0,
+      "ergonomics": {
+        "value": -11.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M700 Heavy Barrel - 26\" (Gray Company)",
+    "id": "m700-heavy-barrel---26\"-gray-company",
+    "type": "Barrel",
+    "weight": "2.05 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Remington",
+    "accuracy": "0.48 MOA",
+    "ergonomics": "-11 %",
+    "size_change_horizontal": "+4",
+    "numeric_values": {
+      "weight": {
+        "value": 2.05,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.48,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -11.0,
         "unit": "%"
       }
     }
@@ -251,14 +1168,13 @@
     "name": "M700 Suppressed Barrel - 20\"",
     "id": "m700-suppressed-barrel---20\"",
     "type": "Barrel",
-    "weight": "1.800 kg",
+    "weight": "1.8 kg",
     "sold_by": "Gunny R.4",
     "buy_price": "$2,210",
     "manufacturer": "Remington",
-    "accuracy": "1.10 MOA",
+    "accuracy": "1.1 MOA",
+    "ergonomics": "+6 %",
     "size_change_horizontal": "+3",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.8,
@@ -267,6 +1183,10 @@
       "accuracy": {
         "value": 1.1,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
       }
     }
   },
@@ -274,12 +1194,13 @@
     "name": "M700 Threaded Barrel - 18\"",
     "id": "m700-threaded-barrel---18\"",
     "type": "Barrel",
-    "weight": "1.120 kg",
+    "weight": "1.12 kg",
     "sold_by": "Gunny R.2",
+    "buy_price": "$714",
     "manufacturer": "Remington",
     "accuracy": "1.02 MOA",
+    "ergonomics": "+11 %",
     "size_change_horizontal": "+3",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.12,
@@ -288,6 +1209,10 @@
       "accuracy": {
         "value": 1.02,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 11.0,
+        "unit": "%"
       }
     }
   },
@@ -295,14 +1220,13 @@
     "name": "M700 VTR Barrel - 22\"",
     "id": "m700-vtr-barrel---22\"",
     "type": "Barrel",
-    "weight": "1.500 kg",
+    "weight": "1.5 kg",
     "sold_by": "Gunny R.3",
     "buy_price": "$1,445",
     "manufacturer": "Remington",
     "accuracy": "0.55 MOA",
+    "ergonomics": "+1 %",
     "size_change_horizontal": "+3",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -311,6 +1235,10 @@
       "accuracy": {
         "value": 0.55,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
       }
     }
   },
@@ -318,10 +1246,12 @@
     "name": "M870 Barrel - 18.5\"",
     "id": "m870-barrel---18.5\"",
     "type": "Barrel",
-    "weight": "0.750 kg",
+    "weight": "0.75 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$306",
     "manufacturer": "Remington",
-    "accuracy": "41.60 MOA",
+    "accuracy": "41.6 MOA",
+    "ergonomics": "+15 %",
     "size_change_horizontal": "+2",
     "numeric_values": {
       "weight": {
@@ -331,6 +1261,10 @@
       "accuracy": {
         "value": 41.6,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 15.0,
+        "unit": "%"
       }
     }
   },
@@ -338,11 +1272,11 @@
     "name": "M870 Barrel - 23\"",
     "id": "m870-barrel---23\"",
     "type": "Barrel",
-    "weight": "0.930 kg",
+    "weight": "0.93 kg",
     "sold_by": "Gunny R.2",
+    "buy_price": "$493",
     "manufacturer": "Remington",
-    "accuracy": "29.60 MOA",
-    "muzzle_velocity": "+8 %",
+    "accuracy": "29.6 MOA",
     "size_change_horizontal": "+2",
     "numeric_values": {
       "weight": {
@@ -352,10 +1286,6 @@
       "accuracy": {
         "value": 29.6,
         "unit": "moa"
-      },
-      "muzzle_velocity": {
-        "value": 8.0,
-        "unit": "%"
       }
     }
   },
@@ -363,11 +1293,12 @@
     "name": "M870 Barrel - 26\"",
     "id": "m870-barrel---26\"",
     "type": "Barrel",
-    "weight": "1.100 kg",
-    "sold_by": "Gunny R.??",
+    "weight": "1.1 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$765",
     "manufacturer": "Remington",
-    "accuracy": "24.50 MOA",
-    "muzzle_velocity": "+12 %",
+    "accuracy": "24.5 MOA",
+    "ergonomics": "-9 %",
     "size_change_horizontal": "+3",
     "numeric_values": {
       "weight": {
@@ -378,8 +1309,8 @@
         "value": 24.5,
         "unit": "moa"
       },
-      "muzzle_velocity": {
-        "value": 12.0,
+      "ergonomics": {
+        "value": -9.0,
         "unit": "%"
       }
     }
@@ -390,8 +1321,10 @@
     "type": "Barrel",
     "weight": "0.149 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$255",
     "manufacturer": "Beretta",
-    "accuracy": "11.70 MOA",
+    "accuracy": "11.7 MOA",
+    "ergonomics": "+1 %",
     "numeric_values": {
       "weight": {
         "value": 0.149,
@@ -400,6 +1333,10 @@
       "accuracy": {
         "value": 11.7,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
       }
     }
   },
@@ -409,9 +1346,10 @@
     "type": "Barrel",
     "weight": "0.207 kg",
     "sold_by": "Gunny R.2",
+    "buy_price": "$306",
     "manufacturer": "Beretta",
-    "accuracy": "11.70 MOA",
-    "sold_by_source": "game-files",
+    "accuracy": "11.7 MOA",
+    "ergonomics": "+1 %",
     "numeric_values": {
       "weight": {
         "value": 0.207,
@@ -420,6 +1358,10 @@
       "accuracy": {
         "value": 11.7,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
       }
     }
   },
@@ -427,14 +1369,13 @@
     "name": "Mosin-Nagant Barrel - 514mm",
     "id": "mosin-nagant-barrel---514mm",
     "type": "Barrel",
-    "weight": "1.000 kg",
+    "weight": "1 kg",
     "sold_by": "Artisan R.2",
     "buy_price": "$272",
     "manufacturer": "Kalashnikov concern",
-    "accuracy": "3.00 MOA",
+    "accuracy": "3 MOA",
+    "ergonomics": "+6 %",
     "size_change_horizontal": "+3",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -443,6 +1384,10 @@
       "accuracy": {
         "value": 3.0,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
       }
     }
   },
@@ -451,17 +1396,24 @@
     "id": "mosin-nagant-barrel---730mm",
     "type": "Barrel",
     "weight": "1.45 kg",
-    "sold_by": "????",
-    "manufacturer": "???",
-    "accuracy": "??? MOA",
-    "fire_rate": "+??? RPM",
-    "muzzle_device_efficiency": "???? %",
-    "size_change_horizontal": "????",
-    "weight_source": "game-files",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$374",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "1.5 MOA",
+    "ergonomics": "-15 %",
+    "size_change_horizontal": "+4",
     "numeric_values": {
       "weight": {
         "value": 1.45,
         "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.5,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -15.0,
+        "unit": "%"
       }
     }
   },
@@ -474,7 +1426,7 @@
     "buy_price": "$544",
     "manufacturer": "ZEV Technologies",
     "accuracy": "11.65 MOA",
-    "buy_price_source": "game-files",
+    "ergonomics": "+7 %",
     "numeric_values": {
       "weight": {
         "value": 0.105,
@@ -483,6 +1435,113 @@
       "accuracy": {
         "value": 11.65,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Remington 788 Barrel - 22\"",
+    "id": "remington-788-barrel---22\"",
+    "type": "Barrel",
+    "weight": "1.19 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$323",
+    "manufacturer": "Remington",
+    "accuracy": "1 MOA",
+    "ergonomics": "+1 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.19,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Sa vz. 58 Barrel 300mm",
+    "id": "sa-vz.-58-barrel-300mm",
+    "type": "Barrel",
+    "weight": "0.82 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$663",
+    "manufacturer": "Czech Small Arms, s.r.o.",
+    "accuracy": "2.3 MOA",
+    "ergonomics": "+8 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.82,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.3,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Sa vz. 58 Barrel 390mm",
+    "id": "sa-vz.-58-barrel-390mm",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$493",
+    "manufacturer": "CZ",
+    "accuracy": "1.9 MOA",
+    "ergonomics": "+1 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.9,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Sa vz. 58 Barrel 390mm (Blackwood Division)",
+    "id": "sa-vz.-58-barrel-390mm-blackwood-division",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "CZ",
+    "accuracy": "1.8 MOA",
+    "ergonomics": "+1 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.8,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
       }
     }
   },
@@ -490,13 +1549,13 @@
     "name": "SIG MCX Barrel - 16\"",
     "id": "sig-mcx-barrel---16\"",
     "type": "Barrel",
-    "weight": "0.700 kg",
+    "weight": "0.7 kg",
     "sold_by": "Banshee R.4",
     "buy_price": "$1,360",
     "manufacturer": "SIG Sauer",
     "accuracy": "1.95 MOA",
+    "ergonomics": "-4 %",
     "size_change_horizontal": "+2",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -505,6 +1564,10 @@
       "accuracy": {
         "value": 1.95,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -4.0,
+        "unit": "%"
       }
     }
   },
@@ -512,10 +1575,12 @@
     "name": "SIG MCX Barrel - 6.75\"",
     "id": "sig-mcx-barrel---6.75\"",
     "type": "Barrel",
-    "weight": "0.350 kg",
-    "sold_by": "Loot only",
+    "weight": "0.35 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$1,020",
     "manufacturer": "SIG Sauer",
     "accuracy": "3.27 MOA",
+    "ergonomics": "+18 %",
     "size_change_horizontal": "+1",
     "numeric_values": {
       "weight": {
@@ -525,6 +1590,35 @@
       "accuracy": {
         "value": 3.27,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 18.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "SIG MCX Barrel - 6.75\" (Ghost Nomad)",
+    "id": "sig-mcx-barrel---6.75\"-ghost-nomad",
+    "type": "Barrel",
+    "weight": "0.35 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "SIG Sauer",
+    "accuracy": "3.27 MOA",
+    "ergonomics": "+18 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.35,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 3.27,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 18.0,
+        "unit": "%"
       }
     }
   },
@@ -532,15 +1626,13 @@
     "name": "SIG MCX Barrel - 9\"",
     "id": "sig-mcx-barrel---9\"",
     "type": "Barrel",
-    "weight": "0.450 kg",
+    "weight": "0.45 kg",
     "sold_by": "Banshee R.3",
     "buy_price": "$1,224",
     "manufacturer": "SIG Sauer",
     "accuracy": "2.65 MOA",
-    "muzzle_velocity": "-11 %",
+    "ergonomics": "+12 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/SIG_MCX_9%27_inspect.png/revision/latest?cb=20250614021923",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.45,
@@ -550,9 +1642,106 @@
         "value": 2.65,
         "unit": "moa"
       },
-      "muzzle_velocity": {
-        "value": -11.0,
+      "ergonomics": {
+        "value": 12.0,
         "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Steyr AUG Barrel - 14.5\"",
+    "id": "steyr-aug-barrel---14.5\"",
+    "type": "Barrel",
+    "weight": "0.38 kg",
+    "sold_by": "Vulture R.3",
+    "buy_price": "$790",
+    "manufacturer": "Steyr Arms",
+    "accuracy": "2.2 MOA",
+    "ergonomics": "+12 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.38,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.2,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Steyr AUG Barrel - 14.5\" (Desert Storm)",
+    "id": "steyr-aug-barrel---14.5\"-desert-storm",
+    "type": "Barrel",
+    "weight": "0.38 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Steyr Arms",
+    "accuracy": "1.9 MOA",
+    "ergonomics": "+14 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.38,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.9,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 14.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Steyr AUG Barrel - 16\"",
+    "id": "steyr-aug-barrel---16\"",
+    "type": "Barrel",
+    "weight": "0.43 kg",
+    "sold_by": "Vulture R.3",
+    "buy_price": "$820",
+    "manufacturer": "Steyr Arms",
+    "accuracy": "2 MOA",
+    "ergonomics": "+8 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.43,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 2.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Steyr AUG Barrel - 20\"",
+    "id": "steyr-aug-barrel---20\"",
+    "type": "Barrel",
+    "weight": "0.6 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Steyr Arms",
+    "accuracy": "1.5 MOA",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 1.5,
+        "unit": "moa"
       }
     }
   },
@@ -560,12 +1749,13 @@
     "name": "SVD Barrel - 620mm",
     "id": "svd-barrel---620mm",
     "type": "Barrel",
-    "weight": "1.300 kg",
+    "weight": "1.3 kg",
     "sold_by": "Turncoat R.3",
+    "buy_price": "$1,360",
     "manufacturer": "Kalashnikov concern",
     "accuracy": "0.95 MOA",
-    "size_change_horizontal": "+3",
-    "sold_by_source": "game-files",
+    "ergonomics": "-5 %",
+    "size_change_horizontal": "+4",
     "numeric_values": {
       "weight": {
         "value": 1.3,
@@ -574,6 +1764,35 @@
       "accuracy": {
         "value": 0.95,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "SVD Barrel - 620mm (Silent Watch)",
+    "id": "svd-barrel---620mm-silent-watch",
+    "type": "Barrel",
+    "weight": "1.3 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Kalashnikov concern",
+    "accuracy": "0.95 MOA",
+    "ergonomics": "-5 %",
+    "size_change_horizontal": "+4",
+    "numeric_values": {
+      "weight": {
+        "value": 1.3,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.95,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -5.0,
+        "unit": "%"
       }
     }
   },
@@ -581,10 +1800,12 @@
     "name": "Type 51 Barrel",
     "id": "type-51-barrel",
     "type": "Barrel",
-    "weight": "0.060 kg",
-    "sold_by": "Loot only",
+    "weight": "0.06 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$221",
     "manufacturer": "Norinco",
     "accuracy": "12.23 MOA",
+    "ergonomics": "+10 %",
     "numeric_values": {
       "weight": {
         "value": 0.06,
@@ -593,6 +1814,10 @@
       "accuracy": {
         "value": 12.23,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
       }
     }
   },
@@ -601,9 +1826,11 @@
     "id": "type-51-threaded-barrel",
     "type": "Barrel",
     "weight": "0.062 kg",
-    "sold_by": "Loot only",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$306",
     "manufacturer": "Norinco",
     "accuracy": "12.23 MOA",
+    "ergonomics": "+9 %",
     "numeric_values": {
       "weight": {
         "value": 0.062,
@@ -612,6 +1839,133 @@
       "accuracy": {
         "value": 12.23,
         "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 9.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "UMP45 Barrel",
+    "id": "ump45-barrel",
+    "type": "Barrel",
+    "weight": "0.4 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "5 MOA",
+    "ergonomics": "+18 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 5.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 18.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "UMP45 Threaded Barrel - 16.5\"",
+    "id": "ump45-threaded-barrel---16.5\"",
+    "type": "Barrel",
+    "weight": "0.75 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "4 MOA",
+    "ergonomics": "-5 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.75,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 4.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "UMP45 Threaded Barrel\"",
+    "id": "ump45-threaded-barrel\"",
+    "type": "Barrel",
+    "weight": "0.42 kg",
+    "sold_by": "Artisan R.3",
+    "buy_price": "$580",
+    "manufacturer": "Heckler & Koch",
+    "accuracy": "4 MOA",
+    "ergonomics": "-5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.42,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 4.0,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Viper's Colt 1911 Barrel",
+    "id": "vipers-colt-1911-barrel",
+    "type": "Barrel",
+    "weight": "0.1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "accuracy": "12.13 MOA",
+    "ergonomics": "+1 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 12.13,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Yen's M700 Barrel - 22\"",
+    "id": "yens-m700-barrel---22\"",
+    "type": "Barrel",
+    "weight": "1 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Remington",
+    "accuracy": "0.61 MOA",
+    "ergonomics": "+1 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 1.0,
+        "unit": "kg"
+      },
+      "accuracy": {
+        "value": 0.61,
+        "unit": "moa"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
       }
     }
   }

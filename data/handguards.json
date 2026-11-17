@@ -29,14 +29,12 @@
     "id": "ak-b10m-+-b19-handguard",
     "type": "Handguard",
     "weight": "0.270 kg",
-    "sold_by": "Turncoat R.3",
-    "buy_price": "$850",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$167",
     "manufacturer": "Zenitco",
     "recoil_control": "+6 %",
     "weapon_handling": "-4 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/B10M_B19_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213439",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.27,
@@ -211,12 +209,11 @@
     "type": "Handguard",
     "weight": "0.120 kg",
     "sold_by": "Artisan R.3 Turncoat R.2",
-    "buy_price": "$1,020",
+    "buy_price": "$406",
     "manufacturer": "Kalashnikov Concern",
     "recoil_control": "+4 %",
     "weapon_handling": "+2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Ratnik_Short_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615190853",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.12,
@@ -266,7 +263,6 @@
     "recoil_control": "+4.0%",
     "weapon_handling": "+6.0%",
     "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/AK_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305205517",
     "numeric_values": {
       "weight": {
         "value": 0.25,
@@ -280,19 +276,19 @@
         "value": 6.0,
         "unit": "%"
       }
-    }
+    },
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/AK_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305205517"
   },
   {
     "name": "AK-74 Wooden Handguard",
     "id": "ak-74-wooden-handguard",
     "type": "Handguard",
-    "weight": "0.221 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.221,
@@ -305,12 +301,10 @@
     "id": "akm-wooden-handguard",
     "type": "Handguard",
     "weight": "0.221 kg",
-    "sold_by": "Turncoat R.2",
-    "buy_price": "$136",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$59",
     "manufacturer": "Kalashnikov concern",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/AKM_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305210348",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.221,
@@ -323,13 +317,11 @@
     "id": "aks-74u-mlok-handguard",
     "type": "Handguard",
     "weight": "0.110 kg",
-    "sold_by": "Turncoat R.3",
-    "buy_price": "$391",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$84",
     "manufacturer": "DLG Tactical",
     "recoil_control": "+4 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/AKS-74U_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212105",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.11,
@@ -346,14 +338,12 @@
     "id": "aks-74u-quad-rail-handguard",
     "type": "Handguard",
     "weight": "0.200 kg",
-    "sold_by": "Turncoat R.3",
-    "buy_price": "$476",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$50",
     "manufacturer": "F.A.B",
     "recoil_control": "+2 %",
     "weapon_handling": "-2 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/AKS-74U_Quad_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212951",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.2,
@@ -375,10 +365,9 @@
     "type": "Handguard",
     "weight": "0.150 kg",
     "sold_by": "Turncoat R.1",
-    "buy_price": "$136",
+    "buy_price": "$33",
     "manufacturer": "Kalashnikov concern",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/AKS-74U_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213106",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.15,
@@ -391,11 +380,10 @@
     "id": "ar-15-moe-m-lok-carbine-handguard",
     "type": "Handguard",
     "weight": "0.184 kg",
-    "sold_by": "Gunny R.2",
+    "sold_by": "Gunny R.1",
     "manufacturer": "Magpul",
     "size_change_horizontal": "+2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Moe_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015937",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.184,
@@ -406,21 +394,6 @@
   {
     "name": "AR-15 MOE M-LOK Carbine Handguard (FDE)",
     "id": "ar-15-moe-m-lok-carbine-handguard-fde",
-    "type": "Handguard",
-    "weight": "0.184 kg",
-    "sold_by": "Loot only",
-    "manufacturer": "Magpul",
-    "size_change_horizontal": "+2",
-    "numeric_values": {
-      "weight": {
-        "value": 0.184,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "AR-15 MOE M-LOK Carbine Handguard (Olive)",
-    "id": "ar-15-moe-m-lok-carbine-handguard-olive",
     "type": "Handguard",
     "weight": "0.184 kg",
     "sold_by": "Loot only",
@@ -465,13 +438,12 @@
     "type": "Handguard",
     "weight": "0.253 kg",
     "sold_by": "Gunny R.3",
-    "buy_price": "$646",
+    "buy_price": "$345",
     "manufacturer": "B&T",
     "recoil_control": "+1.0%",
     "weapon_handling": "-1.0%",
     "size_change_horizontal": "???",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/TL-99A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306020419",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.253,
@@ -491,14 +463,13 @@
     "name": "Benelli M4 Handguard",
     "id": "benelli-m4-handguard",
     "type": "Handguard",
-    "weight": "0.1 kg",
+    "weight": "0.022 kg",
     "manufacturer": "Benelli",
     "reload_speed": "+3 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/M1014_HG_Inspect.png/revision/latest?cb=20261031205028",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
-        "value": 0.1,
+        "value": 0.022,
         "unit": "kg"
       },
       "reload_speed": {
@@ -715,13 +686,12 @@
     "name": "M590 Forend",
     "id": "m590-forend",
     "type": "Handguard",
-    "weight": "0.212 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.212,
@@ -757,13 +727,12 @@
     "name": "M590 Tri-Rail Forend",
     "id": "m590-tri-rail-forend",
     "type": "Handguard",
-    "weight": "0.223 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.223,
@@ -776,15 +745,13 @@
     "id": "m700-mod*x-handguard",
     "type": "Handguard",
     "weight": "0.369 kg",
-    "sold_by": "Gunny R.4",
-    "buy_price": "$850",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$271",
     "manufacturer": "General West",
     "recoil_control": "+12 %",
     "weapon_handling": "+8 %",
     "size_change_horizontal": "+2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/MODX_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015318",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.369,
@@ -831,13 +798,12 @@
     "type": "Handguard",
     "weight": "0.179 kg",
     "sold_by": "Gunny R.3",
-    "buy_price": "$340",
+    "buy_price": "$83",
     "manufacturer": "Magpul",
     "recoil_control": "+4.0%",
     "weapon_handling": "+6.0%",
     "size_change_horizontal": "???",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/M870_MOE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022121",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.179,
@@ -882,14 +848,12 @@
     "id": "m870-voa-handguard",
     "type": "Handguard",
     "weight": "0.289 kg",
-    "sold_by": "Gunny R.3",
-    "buy_price": "$544",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$100",
     "manufacturer": "General West",
     "recoil_control": "+6 %",
     "weapon_handling": "+6 %",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/M870_VOA_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022602",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.289,
@@ -911,10 +875,9 @@
     "type": "Handguard",
     "weight": "0.310 kg",
     "sold_by": "Gunny R.1",
-    "buy_price": "$153",
+    "buy_price": "$33",
     "manufacturer": "Remington",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/M870_Walnut_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022713",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.31,
@@ -1022,12 +985,11 @@
     "type": "Handguard",
     "weight": "0.204 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$850",
+    "buy_price": "$434",
     "manufacturer": "SIG Sauer",
     "recoil_control": "+1 %",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/MCX_10_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023302",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.204,
@@ -1066,12 +1028,11 @@
     "type": "Handguard",
     "weight": "0.312 kg",
     "sold_by": "Banshee R.4",
-    "buy_price": "$1,224",
+    "buy_price": "$438",
     "manufacturer": "SIG Sauer",
     "recoil_control": "+2 %",
     "size_change_horizontal": "+2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/MCX_16_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023608",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.312,
@@ -1089,11 +1050,10 @@
     "type": "Handguard",
     "weight": "0.180 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$935",
+    "buy_price": "$365",
     "manufacturer": "SIG Sauer",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/MCX_8_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614024546",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.18,
@@ -1121,12 +1081,10 @@
     "id": "svd-polymer-handguard",
     "type": "Handguard",
     "weight": "0.300 kg",
-    "sold_by": "Turncoat R.3",
-    "buy_price": "$595",
+    "sold_by": "Artisan R.4",
+    "buy_price": "$555",
     "manufacturer": "Kalashnikov concern",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/SVD_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023939",
-    "buy_price_source": "game-files",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -1176,13 +1134,12 @@
     "type": "Handguard",
     "weight": "0.379 kg",
     "sold_by": "Gunny R.4",
-    "buy_price": "$1,275",
+    "buy_price": "$508",
     "manufacturer": "F1-Firearms",
     "recoil_control": "+8 %",
     "weapon_handling": "-4 %",
     "size_change_horizontal": "+2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/X7M-13_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306010628",
-    "buy_price_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.379,
@@ -1202,13 +1159,12 @@
     "name": "X7M-13 Handguard (Gray)",
     "id": "x7m-13-handguard-gray",
     "type": "Handguard",
-    "weight": "0.379 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.379,
@@ -1247,13 +1203,12 @@
     "name": "X7M-15 Handguard (Gray)",
     "id": "x7m-15-handguard-gray",
     "type": "Handguard",
-    "weight": "0.413 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.413,
@@ -1291,13 +1246,12 @@
     "name": "X7M-7 Handguard (Gray)",
     "id": "x7m-7-handguard-gray",
     "type": "Handguard",
-    "weight": "0.295 kg",
+    "weight": "??? kg",
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "???%",
     "weapon_handling": "???%",
     "size_change_horizontal": "???",
-    "weight_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 0.295,

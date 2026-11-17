@@ -27,7 +27,7 @@
     "id": "cash-register",
     "type": "Loot container",
     "grid_size": "2x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/2x2_Inventory.png/revision/latest?cb=20240509033218",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/2x2_Inventory.png/revision/latest?cb=20261114183737",
     "inventory_layout_(x/y)": "2x2"
   },
   {
@@ -35,7 +35,7 @@
     "id": "civilian-chest",
     "type": "Loot container",
     "grid_size": "3x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20261114183751",
     "inventory_layout_(x/y)": "3x3"
   },
   {
@@ -147,16 +147,6 @@
     "inventory_layout_(x/y)": "4x4"
   },
   {
-    "name": "Medical box",
-    "id": "medical-box",
-    "type": "Loot container",
-    "grid_size": "4x4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911",
-    "sell_price": "$27,882",
-    "sell_price_source": "gzwitems.com",
-    "inventory_layout_(x/y)": "4x4"
-  },
-  {
     "name": "Metal Box",
     "id": "metal-box",
     "type": "Loot container",
@@ -169,7 +159,7 @@
     "id": "military-food-transport-crate",
     "type": "Loot container",
     "grid_size": "3x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20261114183751",
     "inventory_layout_(x/y)": "3x3"
   },
   {
@@ -177,7 +167,7 @@
     "id": "military-medical-crate",
     "type": "Loot container",
     "grid_size": "3x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20261114183751",
     "inventory_layout_(x/y)": "3x3"
   },
   {
@@ -200,7 +190,7 @@
     "id": "plastic-container",
     "type": "Loot container",
     "grid_size": "3x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20261114183751",
     "inventory_layout_(x/y)": "3x3"
   },
   {
@@ -223,7 +213,7 @@
     "id": "purse",
     "type": "Loot container",
     "grid_size": "3x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20240509033815",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20261114183751",
     "inventory_layout_(x/y)": "3x3"
   },
   {
@@ -247,7 +237,7 @@
     "id": "un-cooler",
     "type": "Loot container",
     "grid_size": "4x4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest?cb=20261114183759",
     "inventory_layout_(x/y)": "4x4"
   },
   {
@@ -255,7 +245,7 @@
     "id": "un-equipment-box",
     "type": "Loot container",
     "grid_size": "4x4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest?cb=20261114183759",
     "inventory_layout_(x/y)": "4x4"
   },
   {
@@ -279,7 +269,7 @@
     "id": "un-food-transport-crate",
     "type": "Loot container",
     "grid_size": "4x4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest?cb=20261114183759",
     "inventory_layout_(x/y)": "4x4"
   },
   {

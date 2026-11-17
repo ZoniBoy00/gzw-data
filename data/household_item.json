@@ -1,28 +1,14 @@
 [
   {
-    "name": "Aramid Cloth",
-    "id": "aramid-cloth",
-    "type": "Military Material",
-    "weight": "0.061kg",
-    "grid_size": "1x2",
-    "sell_price": "$42",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Aramid_Cloth_icon.png/revision/latest/scale-to-width-down/48?cb=20260402235156",
-    "numeric_values": {
-      "weight": {
-        "value": 0.061,
-        "unit": "kg"
-      }
-    }
-  },
-  {
     "name": "Bleach",
     "id": "bleach",
     "type": "Household Item",
-    "weight": "3.570kg",
+    "weight": "3.57kg",
     "grid_size": "1x2",
-    "sell_price": "$19",
+    "manufacturer": "General Local",
+    "sell_price": "$20.8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Bleach_inspect.png/revision/latest?cb=20260331074659",
-    "grid_size_source": "game-files",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 3.57,
@@ -34,10 +20,12 @@
     "name": "Carton of Tahirs Cigarettes",
     "id": "carton-of-tahirs-cigarettes",
     "type": "Household Item",
-    "weight": "0.250kg",
+    "weight": "0.25kg",
     "grid_size": "3x1",
-    "sell_price": "$27",
+    "manufacturer": "General Local",
+    "sell_price": "$29.6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Carton_of_Tahirs_Cigarettes_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075357",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.25,
@@ -51,8 +39,10 @@
     "type": "Household Item",
     "weight": "0.088kg",
     "grid_size": "1x1",
-    "sell_price": "$3",
+    "manufacturer": "General Local",
+    "sell_price": "$3.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/Deck_of_Cards_inspect.png/revision/latest?cb=20260331075444",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.088,
@@ -64,10 +54,12 @@
     "name": "Fishing Line",
     "id": "fishing-line",
     "type": "Household Item",
-    "weight": "0.130kg",
+    "weight": "0.13kg",
     "grid_size": "1x1",
-    "sell_price": "$3",
+    "manufacturer": "General Local",
+    "sell_price": "$3.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/Fishing_Line_inspect.png/revision/latest?cb=20260331080253",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.13,
@@ -79,10 +71,12 @@
     "name": "Hand Mirror",
     "id": "hand-mirror",
     "type": "Household Item",
-    "weight": "0.400kg",
+    "weight": "0.4kg",
     "grid_size": "1x2",
-    "sell_price": "$9",
+    "manufacturer": "General Local",
+    "sell_price": "$10.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/Hand_Mirror_inspect.png/revision/latest?cb=20260331080643",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -97,8 +91,9 @@
     "weight": "0.258kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$6",
+    "sell_price": "$7.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Insect_Repellant_Spray_inspect.png/revision/latest?cb=20260331081404",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.258,
@@ -110,10 +105,12 @@
     "name": "Lamp Oil",
     "id": "lamp-oil",
     "type": "Household Item",
-    "weight": "1.000kg",
+    "weight": "1kg",
     "grid_size": "1x2",
-    "sell_price": "$3",
+    "manufacturer": "General Local",
+    "sell_price": "$3.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/Lamp_Oil_inspect.png/revision/latest?cb=20260331082338",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -125,13 +122,32 @@
     "name": "Lighter",
     "id": "lighter",
     "type": "Household Item",
-    "weight": "0.040kg",
+    "weight": "0.04kg",
     "grid_size": "1x1",
-    "sell_price": "$1",
+    "manufacturer": "General Local",
+    "sell_price": "$1.6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Lighter_inspect.png/revision/latest?cb=20260331082552",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.04,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Motorbike Battery",
+    "id": "motorbike-battery",
+    "type": "Household Item",
+    "weight": "2kg",
+    "grid_size": "2x1",
+    "manufacturer": "General Local",
+    "sell_price": "$39.2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Motorbike_Battery_inspect.png/revision/latest?cb=20260331083650",
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 2.0,
         "unit": "kg"
       }
     }
@@ -156,10 +172,12 @@
     "name": "Naosaoad 100% Clean",
     "id": "naosaoad-100%-clean",
     "type": "Household Item",
-    "weight": "0.500kg",
+    "weight": "0.5kg",
     "grid_size": "1x2",
-    "sell_price": "$18",
+    "manufacturer": "General Local",
+    "sell_price": "$19.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Naosaoad_100%25_Clean_inspect.png/revision/latest?cb=20260331083856",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.5,
@@ -173,7 +191,8 @@
     "type": "Household Item",
     "weight": "0.024kg",
     "grid_size": "1x1",
-    "sell_price": "$7",
+    "manufacturer": "General Local",
+    "sell_price": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/Pack_of_AA_Batteries_inspect.png/revision/latest?cb=20260331084204",
     "numeric_values": {
       "weight": {
@@ -186,28 +205,15 @@
     "name": "Pack of Premium Coffee",
     "id": "pack-of-premium-coffee",
     "type": "Household Item",
-    "weight": "0.600kg",
+    "weight": "0.6kg",
     "grid_size": "1x2",
-    "sell_price": "$27",
+    "manufacturer": "General Local",
+    "sell_price": "$29.6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f6/Pack_of_Premium_Coffee_inspect.png/revision/latest?cb=20260331084221",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.6,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Petrolatum",
-    "id": "petrolatum",
-    "type": "Household Item",
-    "weight": "0.370kg",
-    "grid_size": "1x1",
-    "sell_price": "$9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/Petrolatum_inspect.png/revision/latest?cb=20260331084513",
-    "numeric_values": {
-      "weight": {
-        "value": 0.37,
         "unit": "kg"
       }
     }
@@ -218,8 +224,10 @@
     "type": "Household Item",
     "weight": "0.075kg",
     "grid_size": "1x1",
-    "sell_price": "$9",
+    "manufacturer": "General Local",
+    "sell_price": "$10.4",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/Phone_Charger_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331084626",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.075,
@@ -233,8 +241,10 @@
     "type": "Household Item",
     "weight": "0.453kg",
     "grid_size": "1x2",
-    "sell_price": "$31",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Propane_Bottle_icon.png/revision/latest/scale-to-width-down/23?cb=20260403075825",
+    "manufacturer": "General Local",
+    "sell_price": "$33.6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Propane_Bottle_icon.png/revision/latest/scale-to-width-down/54?cb=20260403075825",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.453,
@@ -246,11 +256,12 @@
     "name": "Refillable Lighter",
     "id": "refillable-lighter",
     "type": "Household Item",
-    "weight": "0.080kg",
+    "weight": "0.08kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$27",
+    "sell_price": "$28.8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/Refillable_Lighter_inspect.png/revision/latest?cb=20260331085447",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.08,
@@ -259,13 +270,15 @@
     }
   },
   {
-    "name": "Sewing Set",
+    "name": "Sewing Kit",
     "id": "sewing-set",
     "type": "Household Item",
     "weight": "0.146kg",
     "grid_size": "1x1",
-    "sell_price": "$1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Sewing_Set_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331085846",
+    "manufacturer": "General Local",
+    "sell_price": "$1.6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/Sewing_Kit_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331085846",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.146,
@@ -279,11 +292,30 @@
     "type": "Household Item",
     "weight": "0.013kg",
     "grid_size": "1x1",
-    "sell_price": "$5",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/Tahirs_Cigarettes_icon.png/revision/latest/scale-to-width-down/48?cb=20260402214909",
+    "manufacturer": "General Local",
+    "sell_price": "$5.6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b7/Tahirs_Cigarettes_inspect.png/revision/latest?cb=20260331090157",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.013,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "White Petrolatum",
+    "id": "petrolatum",
+    "type": "Household Item",
+    "weight": "0.37kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$9.6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/White_Petrolatum_inspect.png/revision/latest?cb=20260331084513",
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.37,
         "unit": "kg"
       }
     }

@@ -3,14 +3,189 @@
     "name": "1 Shot Energy Chews",
     "id": "1-shot-energy-chews",
     "energy": "+5",
+    "weight": "0.04 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/1_Shot_Energy_Chews_icon.png/revision/latest?cb=20260411210258",
     "sell_price": "$24",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+15",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    },
     "grid_size": "1x1",
-    "weight": "0.040 kg",
-    "sold_by": "Lab Rat R.4",
+    "sold_by": "Lab Rat R.4"
+  },
+  {
+    "name": "Aques Water 1.5 l",
+    "id": "aques-water-1.5-l",
+    "hydration": "+150",
+    "weight": "1.5 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Aques_Water_1.5_l_icon.png/revision/latest?cb=20261104171254",
+    "sell_price": "$16.2",
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 1.5,
+        "unit": "kg"
+      }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Lab Rat Lv.3"
+  },
+  {
+    "name": "Bamboo Shoots",
+    "id": "bamboo-shoots",
+    "hydration": "+5",
+    "energy": "+15",
+    "weight": "0.6 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/Bamboo_Shoots_icon.png/revision/latest?cb=20261104164132",
+    "sell_price": "$3.9",
+    "sell_price_source": "gzwitems.com",
+    "total_energy_per_grid": "+7.5",
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "total_hydration_per_grid": "+2.5",
+    "total_hydration_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Looting"
+  },
+  {
+    "name": "Berg Bar Cookie Chocolate",
+    "id": "berg-bar-cookie-chocolate",
+    "energy": "+25",
+    "weight": "0.07 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Berg_Bar_Cookie_Chocolate_icon.png/revision/latest?cb=20261104160112",
+    "sell_price": "$22.5",
+    "sell_price_source": "gzwitems.com",
+    "total_energy_per_grid": "+25",
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.07,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Canned Tuna Chunks",
+    "id": "canned-tuna-chunks",
+    "hydration": "-10",
+    "energy": "+40",
+    "weight": "0.17 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Canned_Tuna_Chunks_icon.png/revision/latest?cb=20250610053427",
+    "sell_price": "$7.5",
+    "sell_price_source": "gzwitems.com",
+    "total_energy_per_grid": "+40",
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "total_hydration_per_grid": "-10",
+    "total_hydration_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Looting"
+  },
+  {
+    "name": "Coco Jumbo Coconut Juice Drink",
+    "id": "coco-jumbo-coconut-juice-drink",
+    "hydration": "+24",
+    "weight": "0.24 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Coco_Jumbo_Coconut_Juice_Drink_icon.png/revision/latest?cb=20261104163423",
+    "sell_price": "$2.1",
+    "sell_price_source": "gzwitems.com",
+    "total_hydration_per_grid": "+24",
+    "total_hydration_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.24,
+        "unit": "kg"
+      }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Looting"
+  },
+  {
+    "name": "Combat Ration Pack",
+    "id": "combat-ration-pack",
+    "energy": "+75",
+    "weight": "0.6 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Combat_Ration_Pack_icon.png/revision/latest?cb=20261104160030",
+    "sell_price": "$21",
+    "sell_price_source": "gzwitems.com",
+    "total_energy_per_grid": "+37.5",
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Lab Rat Lv.3"
+  },
+  {
+    "name": "Cowboy Baked Beans",
+    "id": "cowboy-baked-beans",
+    "hydration": "+5",
+    "energy": "+35",
+    "weight": "0.425 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/Cowboy_Baked_Beans_icon.png/revision/latest?cb=20261104162839",
+    "sell_price": "$11.1",
+    "sell_price_source": "gzwitems.com",
+    "total_energy_per_grid": "+17.5",
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "total_hydration_per_grid": "+2.5",
+    "total_hydration_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.425,
+        "unit": "kg"
+      }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Looting"
+  },
+  {
+    "name": "Dark Star Iced Coffee",
+    "id": "dark-star-iced-coffee",
+    "hydration": "+20",
+    "energy": "+5",
+    "weight": "0.2 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Dark_Star_Iced_Coffee_icon.png/revision/latest?cb=20261104161813",
+    "sell_price": "$6.6",
+    "sell_price_source": "gzwitems.com",
+    "total_energy_per_grid": "+5",
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "total_hydration_per_grid": "+20",
+    "total_hydration_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Energy Bar Nuts and Fruits",
+    "id": "energy-bar-nuts-and-fruits",
+    "energy": "+14",
+    "weight": "0.04 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Energy_Bar_Nuts_and_Fruits_icon.png/revision/latest?cb=20261104164711",
+    "sell_price": "$6.3",
+    "sell_price_source": "gzwitems.com",
+    "total_energy_per_grid": "+14",
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
     "numeric_values": {
       "weight": {
         "value": 0.04,
@@ -19,196 +194,50 @@
     }
   },
   {
-    "name": "Aques Water 1.5 l",
-    "id": "aques-water-1.5-l",
-    "hydration": "+150",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Aques_Water_1.5_l_icon.png/revision/latest?cb=20261104171254",
-    "sell_price": "$16.2",
-    "sell_price_source": "gzwitems.com",
-    "grid_size": "1x2",
-    "weight": "1.500 kg",
-    "sold_by": "Lab Rat Lv.3",
-    "numeric_values": {
-      "weight": {
-        "value": 1.5,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Bamboo Shoots",
-    "id": "bamboo-shoots",
-    "hydration": "+5",
-    "energy": "+15",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/Bamboo_Shoots_icon.png/revision/latest?cb=20261104164132",
-    "sell_price": "$3.9",
-    "sell_price_source": "gzwitems.com",
-    "total_energy_per_grid": "+7.5",
-    "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "total_hydration_per_grid": "+2.5",
-    "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x2",
-    "weight": "0.600 kg",
-    "sold_by": "Looting",
-    "numeric_values": {
-      "weight": {
-        "value": 0.6,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Berg Bar Cookie Chocolate",
-    "id": "berg-bar-cookie-chocolate",
-    "energy": "+25",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Berg_Bar_Cookie_Chocolate_icon.png/revision/latest?cb=20261104160112",
-    "sell_price": "$22.5",
-    "sell_price_source": "gzwitems.com",
-    "total_energy_per_grid": "+25",
-    "total_energy_per_grid_source": "computed-from-current-nutrition"
-  },
-  {
-    "name": "Canned Tuna Chunks",
-    "id": "canned-tuna-chunks",
-    "hydration": "-10",
-    "energy": "+40",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Canned_Tuna_Chunks_icon.png/revision/latest?cb=20250610053427",
-    "sell_price": "$7.5",
-    "sell_price_source": "gzwitems.com",
-    "total_energy_per_grid": "+40",
-    "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "total_hydration_per_grid": "-10",
-    "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x1",
-    "weight": "0.170 kg",
-    "sold_by": "Looting",
-    "numeric_values": {
-      "weight": {
-        "value": 0.17,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Coco Jumbo Coconut Juice Drink",
-    "id": "coco-jumbo-coconut-juice-drink",
-    "hydration": "+24",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Coco_Jumbo_Coconut_Juice_Drink_icon.png/revision/latest?cb=20261104163423",
-    "sell_price": "$2.1",
-    "sell_price_source": "gzwitems.com",
-    "total_hydration_per_grid": "+24",
-    "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x1",
-    "weight": "0.240 kg",
-    "sold_by": "Looting",
-    "numeric_values": {
-      "weight": {
-        "value": 0.24,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Combat Ration Pack",
-    "id": "combat-ration-pack",
-    "energy": "+75",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Combat_Ration_Pack_icon.png/revision/latest?cb=20261104160030",
-    "sell_price": "$21",
-    "sell_price_source": "gzwitems.com",
-    "total_energy_per_grid": "+37.5",
-    "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x2",
-    "weight": "0.600 kg",
-    "sold_by": "Lab Rat Lv.3",
-    "numeric_values": {
-      "weight": {
-        "value": 0.6,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Cowboy Baked Beans",
-    "id": "cowboy-baked-beans",
-    "hydration": "+5",
-    "energy": "+35",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/Cowboy_Baked_Beans_icon.png/revision/latest?cb=20261104162839",
-    "sell_price": "$11.1",
-    "sell_price_source": "gzwitems.com",
-    "total_energy_per_grid": "+17.5",
-    "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "total_hydration_per_grid": "+2.5",
-    "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x2",
-    "weight": "0.425 kg",
-    "sold_by": "Looting",
-    "numeric_values": {
-      "weight": {
-        "value": 0.425,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "Dark Star Iced Coffee",
-    "id": "dark-star-iced-coffee",
-    "hydration": "+20",
-    "energy": "+5",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Dark_Star_Iced_Coffee_icon.png/revision/latest?cb=20261104161813",
-    "sell_price": "$6.6",
-    "sell_price_source": "gzwitems.com",
-    "total_energy_per_grid": "+5",
-    "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "total_hydration_per_grid": "+20",
-    "total_hydration_per_grid_source": "computed-from-current-nutrition"
-  },
-  {
-    "name": "Energy Bar Nuts and Fruits",
-    "id": "energy-bar-nuts-and-fruits",
-    "energy": "+14",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Energy_Bar_Nuts_and_Fruits_icon.png/revision/latest?cb=20261104164711",
-    "sell_price": "$6.3",
-    "sell_price_source": "gzwitems.com",
-    "total_energy_per_grid": "+14",
-    "total_energy_per_grid_source": "computed-from-current-nutrition"
-  },
-  {
     "name": "Gray Focused Energy",
     "id": "gray-focused-energy",
     "hydration": "+35",
     "energy": "+5",
+    "weight": "0.4 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/Gray_Focused_Energy_icon.png/revision/latest?cb=20261104162351",
     "sell_price": "$21",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+5",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
     "total_hydration_per_grid": "+35",
-    "total_hydration_per_grid_source": "computed-from-current-nutrition"
+    "total_hydration_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "HDR Meal",
     "id": "hdr-meal",
     "energy": "+80",
+    "weight": "0.85 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/HDR_Meal_icon.png/revision/latest?cb=20250610053132",
     "sell_price": "$22.5",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+40",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x2",
-    "weight": "0.850 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.85,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Looting"
   },
   {
     "name": "Infinity Isotonic Drink",
     "id": "infinity-isotonic-drink",
     "hydration": "+40",
     "energy": "+5",
+    "weight": "0.33 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c0/Infinity_Isotonic_Drink_icon.png/revision/latest?cb=20261104161620",
     "sell_price": "$4.5",
     "sell_price_source": "gzwitems.com",
@@ -216,21 +245,21 @@
     "total_energy_per_grid_source": "computed-from-current-nutrition",
     "total_hydration_per_grid": "+40",
     "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x1",
-    "weight": "0.330 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.33,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Looting"
   },
   {
     "name": "Kaipo Lychee Nectar",
     "id": "kaipo-lychee-nectar",
     "hydration": "+35",
     "energy": "+10",
+    "weight": "0.4 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/Kaipo_Lychee_Nectar_icon.png/revision/latest?cb=20250621182658",
     "sell_price": "$3.6",
     "sell_price_source": "gzwitems.com",
@@ -238,61 +267,61 @@
     "total_energy_per_grid_source": "computed-from-current-nutrition",
     "total_hydration_per_grid": "+35",
     "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x1",
-    "weight": "0.400 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.4,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Looting"
   },
   {
     "name": "Kasem Chocolate Wafers",
     "id": "kasem-chocolate-wafers",
     "energy": "+13",
+    "weight": "0.01 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Kasem_Chocolate_Wafers_icon.png/revision/latest?cb=20250610042619",
     "sell_price": "$2.7",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+13",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "hydration": "-5",
-    "grid_size": "1x1",
-    "weight": "0.010 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.01,
         "unit": "kg"
       }
-    }
+    },
+    "hydration": "-5",
+    "grid_size": "1x1",
+    "sold_by": "Looting"
   },
   {
     "name": "Lucky Pork Liver Pâté",
     "id": "lucky-pork-liver-pâté",
     "energy": "+35",
+    "weight": "0.13 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Lucky_Pork_Liver_P%C3%A2t%C3%A9_icon.png/revision/latest?cb=20261104160256",
     "sell_price": "$8.7",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+35",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "hydration": "-5",
-    "grid_size": "1x1",
-    "weight": "0.130 kg",
-    "sold_by": "Lab Rat Lv.2",
     "numeric_values": {
       "weight": {
         "value": 0.13,
         "unit": "kg"
       }
-    }
+    },
+    "hydration": "-5",
+    "grid_size": "1x1",
+    "sold_by": "Lab Rat Lv.2"
   },
   {
     "name": "Lychee in Syrup",
     "id": "lychee-in-syrup",
     "hydration": "+10",
     "energy": "+26",
+    "weight": "0.565 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Lychee_in_Syrup_icon.png/revision/latest?cb=20250610053931",
     "sell_price": "$9",
     "sell_price_source": "gzwitems.com",
@@ -300,21 +329,21 @@
     "total_energy_per_grid_source": "computed-from-current-nutrition",
     "total_hydration_per_grid": "+5",
     "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x2",
-    "weight": "0.565 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.565,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Looting"
   },
   {
     "name": "Mackerel in Teriyaki Sauce",
     "id": "mackerel-in-teriyaki-sauce",
     "hydration": "-10",
     "energy": "+60",
+    "weight": "0.2 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/31/Mackerel_in_Teriyaki_Sauce_icon.png/revision/latest?cb=20261104163939",
     "sell_price": "$14.4",
     "sell_price_source": "gzwitems.com",
@@ -322,180 +351,202 @@
     "total_energy_per_grid_source": "computed-from-current-nutrition",
     "total_hydration_per_grid": "-10",
     "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x1",
-    "weight": "0.200 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.2,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Looting"
   },
   {
     "name": "Maknav Iced Tea",
     "id": "maknav-iced-tea",
     "hydration": "+90",
+    "weight": "0.95 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/55/Maknav_Iced_Tea_icon.png/revision/latest?cb=20261104171030",
     "sell_price": "$11.7",
     "sell_price_source": "gzwitems.com",
-    "energy": "+10",
-    "grid_size": "1x2",
-    "weight": "0.950 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.95,
         "unit": "kg"
       }
-    }
+    },
+    "energy": "+10",
+    "grid_size": "1x2",
+    "sold_by": "Looting"
   },
   {
     "name": "Noakon Water 0.6 l",
     "id": "noakon-water-0.6-l",
     "hydration": "+60",
+    "weight": "0.6 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/Noakon_Water_0.6_l_icon.png/revision/latest?cb=20261104161342",
     "sell_price": "$6",
     "sell_price_source": "gzwitems.com",
-    "grid_size": "1x1",
-    "weight": "0.600 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.6,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Looting"
   },
   {
     "name": "Noakon Water 1.5 l",
     "id": "noakon-water-1.5-l",
     "hydration": "+55",
+    "weight": "1.5 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/Noakon_Water_1.5_l_icon.png/revision/latest?cb=20261104161215",
     "sell_price": "$16.2",
     "sell_price_source": "gzwitems.com",
-    "grid_size": "1x2",
-    "weight": "1.500 kg",
-    "sold_by": "Looting",
+    "weight_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.5,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Looting"
   },
   {
     "name": "NuKlear Energy: Meltdown Mango",
     "id": "nuklear-energy:-meltdown-mango",
     "hydration": "+55",
+    "weight": "0.55 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/NuKlear_Energy_Meltdown_Mango_icon.png/revision/latest?cb=20261104162548",
     "sell_price": "$10.5",
-    "sell_price_source": "gzwitems.com"
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Organic Tofu",
     "id": "organic-tofu",
     "energy": "+25",
+    "weight": "0.2 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/Organic_Tofu_icon.png/revision/latest?cb=20261104163612",
     "sell_price": "$5.1",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+25",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "hydration": "-10",
-    "grid_size": "1x1",
-    "weight": "0.200 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.2,
         "unit": "kg"
       }
-    }
+    },
+    "hydration": "-10",
+    "grid_size": "1x1",
+    "sold_by": "Looting"
   },
   {
     "name": "Power Energy Fuel",
     "id": "power-energy-fuel",
     "hydration": "+40",
     "energy": "+20",
+    "weight": "0.47 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Power_Energy_Fuel_icon.png/revision/latest?cb=20261104163055",
     "sell_price": "$13.5",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+20",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
     "total_hydration_per_grid": "+40",
-    "total_hydration_per_grid_source": "computed-from-current-nutrition"
+    "total_hydration_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.47,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Premium Pork Luncheon Meat",
     "id": "premium-pork-luncheon-meat",
     "energy": "+70",
+    "weight": "0.4 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/Premium_Pork_Luncheon_Meat_icon.png/revision/latest?cb=20261104163814",
     "sell_price": "$19.2",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+35",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x2",
-    "weight": "0.400 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.4,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Looting"
   },
   {
     "name": "Riminda Green Bubbly Bliss",
     "id": "riminda-green-bubbly-bliss",
     "hydration": "+200",
+    "weight": "2.08 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Riminda_Green_Bubbly_Bliss_icon.png/revision/latest?cb=20261104160806",
     "sell_price": "$28.5",
-    "sell_price_source": "gzwitems.com"
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 2.08,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Sinngua Lunch Meat",
     "id": "sinngua-lunch-meat",
     "energy": "+55",
+    "weight": "0.34 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/Sinngua_Lunch_Meat_icon.png/revision/latest?cb=20261104162037",
     "sell_price": "$15.6",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+27.5",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "hydration": "-10",
-    "grid_size": "1x2",
-    "weight": "0.340 kg",
-    "sold_by": "Lab Rat Lv.3",
     "numeric_values": {
       "weight": {
         "value": 0.34,
         "unit": "kg"
       }
-    }
+    },
+    "hydration": "-10",
+    "grid_size": "1x2",
+    "sold_by": "Lab Rat Lv.3"
   },
   {
     "name": "SnipSnap Crunchy",
     "id": "snipsnap-crunchy",
     "energy": "+10",
+    "weight": "0.038 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/SnipSnap_Crunchy_icon.png/revision/latest?cb=20261104164346",
     "sell_price": "$2.1",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+10",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x1",
-    "weight": "0.038 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.038,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Looting"
   },
   {
     "name": "Spicy Thai Combat Meal",
     "id": "spicy-thai-combat-meal",
     "hydration": "-15",
     "energy": "+80",
+    "weight": "0.8 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Spicy_Thai_Combat_Meal_icon.png/revision/latest?cb=20250502142635",
     "sell_price": "$17.7",
     "sell_price_source": "gzwitems.com",
@@ -503,70 +554,78 @@
     "total_energy_per_grid_source": "computed-from-current-nutrition",
     "total_hydration_per_grid": "-7.5",
     "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x2",
-    "weight": "0.800 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.8,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Looting"
   },
   {
     "name": "Sunrise Cola",
     "id": "sunrise-cola",
     "hydration": "+33",
     "energy": "+15",
+    "weight": "2.13 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Sunrise_Cola_icon.png/revision/latest?cb=20261104160924",
     "sell_price": "$33",
     "sell_price_source": "gzwitems.com",
-    "total_energy_per_grid": "+15",
+    "weight_source": "gzwitems.com",
+    "total_energy_per_grid": "+7.5",
     "total_energy_per_grid_source": "computed-from-current-nutrition",
-    "total_hydration_per_grid": "+33",
+    "total_hydration_per_grid": "+16.5",
     "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x1",
-    "weight": "0.300 kg",
-    "sold_by": "Lab Rat Lv.1",
     "numeric_values": {
       "weight": {
-        "value": 0.3,
+        "value": 2.13,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Lab Rat Lv.1"
   },
   {
     "name": "Sunrise Cola (2 L)",
     "id": "sunrise-cola-(2-l)",
     "hydration": "+200",
+    "weight": "2.13 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5b/Sunrise_Cola_%282_L%29_icon.png/revision/latest?cb=20261104154822",
     "sell_price": "$33",
-    "sell_price_source": "gzwitems.com",
-    "grid_size": "1x2",
-    "weight": "2.000 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
-        "value": 2.0,
+        "value": 2.13,
         "unit": "kg"
       }
-    }
+    },
+    "sell_price_source": "gzwitems.com",
+    "grid_size": "1x2",
+    "sold_by": "Looting"
   },
   {
     "name": "TamTam DoubleChoc",
     "id": "tamtam-doublechoc",
     "energy": "+20",
+    "weight": "0.2 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/TamTam_DoubleChoc_icon.png/revision/latest?cb=20261104165043",
     "sell_price": "$10.5",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+20",
-    "total_energy_per_grid_source": "computed-from-current-nutrition"
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.2,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Touchdown Lemon Soda",
     "id": "touchdown-lemon-soda",
     "hydration": "+33",
     "energy": "+5",
+    "weight": "0.38 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/75/Touchdown_Lemon_Soda_icon.png/revision/latest?cb=20250502155224",
     "sell_price": "$3",
     "sell_price_source": "gzwitems.com",
@@ -574,41 +633,47 @@
     "total_energy_per_grid_source": "computed-from-current-nutrition",
     "total_hydration_per_grid": "+33",
     "total_hydration_per_grid_source": "computed-from-current-nutrition",
-    "grid_size": "1x1",
-    "weight": "0.38 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 0.38,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x1",
+    "sold_by": "Looting"
   },
   {
     "name": "White Orchid Crystal Water 2 l",
     "id": "white-orchid-crystal-water-2-l",
     "hydration": "+200",
+    "weight": "2.04 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/White_Orchid_Crystal_Water_2_l_icon.png/revision/latest?cb=20261104161052",
     "sell_price": "$24",
     "sell_price_source": "gzwitems.com",
-    "grid_size": "1x2",
-    "weight": "2.04 kg",
-    "sold_by": "Looting",
     "numeric_values": {
       "weight": {
         "value": 2.04,
         "unit": "kg"
       }
-    }
+    },
+    "grid_size": "1x2",
+    "sold_by": "Looting"
   },
   {
     "name": "Windmill Almond Chocolate Bar",
     "id": "windmill-almond-chocolate-bar",
     "energy": "+16",
+    "weight": "0.04 kg",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Windmill_Almond_Chocolate_Bar_icon.png/revision/latest?cb=20261104165414",
     "sell_price": "$11.4",
     "sell_price_source": "gzwitems.com",
     "total_energy_per_grid": "+16",
-    "total_energy_per_grid_source": "computed-from-current-nutrition"
+    "total_energy_per_grid_source": "computed-from-current-nutrition",
+    "numeric_values": {
+      "weight": {
+        "value": 0.04,
+        "unit": "kg"
+      }
+    }
   }
 ]

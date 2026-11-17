@@ -242,14 +242,14 @@
     "name": "Glass",
     "id": "glass",
     "type": "Building Material",
-    "weight": "4.0kg",
-    "grid_size": "3x3",
+    "weight": "1 kg",
+    "grid_size": "2x2",
     "sell_price": "$45",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Glass_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106134231",
-    "grid_size_source": "game-files",
+    "weight_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
-        "value": 4.0,
+        "value": 1.0,
         "unit": "kg"
       }
     }

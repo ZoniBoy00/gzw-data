@@ -20,8 +20,7 @@
         "unit": "%"
       }
     },
-    "flashbang_resistance": "+0%",
-    "grid_size_source": "game-files"
+    "flashbang_resistance": "+0%"
   },
   {
     "name": "Aviator (Green)",
@@ -44,8 +43,7 @@
         "unit": "%"
       }
     },
-    "flashbang_resistance": "+15 %",
-    "grid_size_source": "game-files"
+    "flashbang_resistance": "+15 %"
   },
   {
     "name": "Ballistic M Frame 3.0 (Clear)",
@@ -69,8 +67,7 @@
         "unit": "%"
       }
     },
-    "flashbang_resistance": "+0 %",
-    "grid_size_source": "game-files"
+    "flashbang_resistance": "+0 %"
   },
   {
     "name": "Ballistic M Frame 3.0 (Tinted)",
@@ -97,8 +94,7 @@
         "value": 30.0,
         "unit": "%"
       }
-    },
-    "grid_size_source": "game-files"
+    }
   },
   {
     "name": "Chaonai's Round Sunglasses",
@@ -194,8 +190,7 @@
         "unit": "%"
       }
     },
-    "flashbang_resistance": "+0 %",
-    "grid_size_source": "game-files"
+    "flashbang_resistance": "+0 %"
   },
   {
     "name": "Desert Locust (Tinted)",
@@ -222,8 +217,7 @@
         "value": 50.0,
         "unit": "%"
       }
-    },
-    "grid_size_source": "game-files"
+    }
   },
   {
     "name": "Gatorz Delta",
@@ -251,8 +245,7 @@
         "value": 40.0,
         "unit": "%"
       }
-    },
-    "grid_size_source": "game-files"
+    }
   },
   {
     "name": "Gatorz Magnum (Black)",
@@ -401,8 +394,7 @@
         "unit": "%"
       }
     },
-    "flashbang_resistance": "+0 %",
-    "grid_size_source": "game-files"
+    "flashbang_resistance": "+0 %"
   },
   {
     "name": "Viper's Aviator",
@@ -447,8 +439,7 @@
         "unit": "%"
       }
     },
-    "flashbang_resistance": "+15 %",
-    "grid_size_source": "game-files"
+    "flashbang_resistance": "+15 %"
   },
   {
     "name": "Wayfarer (Agent)",
@@ -498,8 +489,7 @@
         "value": 50.0,
         "unit": "%"
       }
-    },
-    "grid_size_source": "game-files"
+    }
   },
   {
     "name": "WX Valor (Worn)",
@@ -538,7 +528,7 @@
     "sell_price": "$18",
     "rain_protection": "20%",
     "manufacturer": "Radians",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Missing_image.png/revision/latest?cb=20240506005822",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Yen%27s_Crossfire_inspect.png/revision/latest/scale-to-width-down/267?cb=20261109143923",
     "numeric_values": {
       "weight": {
         "value": 0.024,

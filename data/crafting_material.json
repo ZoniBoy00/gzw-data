@@ -6,8 +6,9 @@
     "weight": "0.05kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$100",
+    "sell_price": "$30",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Aniline_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201050",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -38,7 +39,8 @@
     "weight": "0.05kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$100",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -53,7 +55,8 @@
     "weight": "0.5kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$100",
+    "sell_price": "$30",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.5,
@@ -100,8 +103,9 @@
     "weight": "0.09kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$50",
+    "sell_price": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/Empty_Autoinjector_inspect.png/revision/latest/scale-to-width-down/268?cb=20261024183752",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.09,
@@ -132,7 +136,8 @@
     "weight": "1kg",
     "grid_size": "1x2",
     "manufacturer": "General Local",
-    "sell_price": "$50",
+    "sell_price": "$15",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 1.0,
@@ -163,8 +168,9 @@
     "weight": "0.05kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$100",
+    "sell_price": "$30",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c8/Human_Growth_Hormone_inspect.png/revision/latest?cb=20261024185208",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -179,8 +185,9 @@
     "weight": "0.05kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$100",
+    "sell_price": "$30",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Iron_Sucrose_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106141449",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -195,8 +202,9 @@
     "weight": "0.05kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$100",
+    "sell_price": "$30",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Methylene_Blue_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106141444",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
@@ -275,8 +283,9 @@
     "weight": "0.1kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$100",
+    "sell_price": "$30",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/Theophylline_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201043",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -291,8 +300,9 @@
     "weight": "0.25kg",
     "grid_size": "1x1",
     "manufacturer": "General Local",
-    "sell_price": "$100",
+    "sell_price": "$30",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Vitamin_B12_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109201046",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.25,

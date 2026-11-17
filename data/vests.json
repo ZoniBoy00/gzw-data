@@ -59,8 +59,7 @@
         "value": 3.8,
         "unit": "kg"
       }
-    },
-    "protection_rating": "R1"
+    }
   },
   {
     "name": "ATBV Vest (Olive)",
@@ -154,8 +153,7 @@
         "value": 2.45,
         "unit": "kg"
       }
-    },
-    "protection_rating": "P3"
+    }
   },
   {
     "name": "Commander (Navy)",
@@ -176,8 +174,7 @@
         "value": 2.45,
         "unit": "kg"
       }
-    },
-    "protection_rating": "P3"
+    }
   },
   {
     "name": "Commander (Olive)",
@@ -198,8 +195,7 @@
         "value": 2.45,
         "unit": "kg"
       }
-    },
-    "protection_rating": "P3"
+    }
   },
   {
     "name": "Coolmax Covert Vest",
@@ -219,8 +215,7 @@
         "value": 3.1,
         "unit": "kg"
       }
-    },
-    "protection_rating": "P3"
+    }
   },
   {
     "name": "Covert Tactical Body Armour (Black)",
@@ -259,8 +254,7 @@
         "value": 4.25,
         "unit": "kg"
       }
-    },
-    "protection_rating": "R1"
+    }
   },
   {
     "name": "Covert Tactical Body Armour (Press)",
@@ -280,8 +274,7 @@
         "value": 8.8,
         "unit": "kg"
       }
-    },
-    "protection_rating": "R1"
+    }
   },
   {
     "name": "Covert Tactical Body Armour (UNLRA)",
@@ -301,8 +294,7 @@
         "value": 2.1,
         "unit": "kg"
       }
-    },
-    "protection_rating": "P3"
+    }
   },
   {
     "name": "Covert Tactical Body Armour (Woodland)",
@@ -420,8 +412,7 @@
         "value": 4.0,
         "unit": "m"
       }
-    },
-    "protection_rating": "R1"
+    }
   },
   {
     "name": "Firebrand's 6B23-1",
@@ -500,8 +491,7 @@
         "value": 7.5,
         "unit": "kg"
       }
-    },
-    "protection_rating": "P4"
+    }
   },
   {
     "name": "LVS Tactical (Multicam)",
@@ -522,8 +512,7 @@
         "value": 8.2,
         "unit": "kg"
       }
-    },
-    "protection_rating": "R3"
+    }
   },
   {
     "name": "LVS Tactical (Ranger Green)",
@@ -565,8 +554,7 @@
         "value": 2.6,
         "unit": "kg"
       }
-    },
-    "protection_rating": "P3"
+    }
   },
   {
     "name": "Naga's Covert Tactical Body Armour",

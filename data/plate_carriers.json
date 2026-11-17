@@ -1,38 +1,111 @@
 [
   {
-    "name": "Buran's Pantsir 2.0",
-    "id": "burans-pantsir-2.0",
-    "protection_rating": "R3",
-    "nij_class": "III++",
-    "material": "Ceramic",
-    "armor_locations": "Front, Back, Sides",
-    "grid_size": "3x3",
-    "weight": "9.600kg",
-    "sold_by": "Looting",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Buran%27s_Pantsir_2.0_icon.png/revision/latest?cb=20261109143939",
+    "name": "6B45 Ratnik",
+    "id": "6b45-ratnik",
+    "type": "Plate Carrier",
+    "weight": "13.2kg",
+    "grid_size": "3x4",
+    "sold_by": "Turncoat R.3",
+    "sell_price": "$870",
+    "buy_price": "$2,900",
+    "slots": "12",
+    "material": "Steel",
+    "nij_class": "NIJ III+",
+    "armor_locations": "Front, Back, Side",
+    "manufacturer": "Techincom",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/6B45_Ratnik_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170633",
     "numeric_values": {
       "weight": {
-        "value": 9.6,
+        "value": 13.2,
         "unit": "kg"
       }
     }
   },
   {
+    "name": "6B45 Ratnik (Black)",
+    "id": "6b45-ratnik-black",
+    "type": "Plate Carrier",
+    "weight": "12.1kg",
+    "grid_size": "3x4",
+    "sold_by": "Loot only",
+    "sell_price": "$1,305",
+    "slots": "12",
+    "material": "Ceramic",
+    "nij_class": "NIJ III++",
+    "armor_locations": "Front, Back",
+    "manufacturer": "Techincom",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/6B45_Ratnik_%28Black%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201602",
+    "numeric_values": {
+      "weight": {
+        "value": 12.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Buran's Pantsir 2.0",
+    "id": "burans-pantsir-2.0",
+    "type": "Plate Carrier",
+    "weight": "9.6kg",
+    "grid_size": "3x4",
+    "sold_by": "Loot only",
+    "sell_price": "$1,395",
+    "slots": "9",
+    "material": "Ceramic",
+    "nij_class": "NIJ III++",
+    "armor_locations": "Front, Back, Side",
+    "manufacturer": "SSO",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/29/Buran%27s_Pantsir_2.0_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143943",
+    "numeric_values": {
+      "weight": {
+        "value": 9.6,
+        "unit": "kg"
+      }
+    },
+    "protection_rating": "R3"
+  },
+  {
     "name": "CGPC3 TQS",
     "id": "cgpc3-tqs",
     "type": "Plate Carrier",
-    "weight": "3.700kg",
+    "weight": "3.7kg",
     "grid_size": "3x3",
-    "sold_by": "Handshake R.1 Looting",
-    "inventory": "3x3",
+    "sold_by": "Handshake R.1",
+    "sell_price": "$264",
+    "buy_price": "$880",
+    "slots": "9",
     "material": "UHMWPE",
-    "nij_class": "IIIA",
-    "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/CGPC3_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505170103",
-    "protection_rating": "P3",
+    "nij_class": "NIJ IIIA",
+    "armor_locations": "Front, Back",
+    "manufacturer": "Custom Gear",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/CGPC3_TQS_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170532",
     "numeric_values": {
       "weight": {
         "value": 3.7,
+        "unit": "kg"
+      }
+    },
+    "inventory": "3x3",
+    "protection_rating": "P3"
+  },
+  {
+    "name": "CGPC3 TQS (VTS)",
+    "id": "cgpc3-tqs-vts",
+    "type": "Plate Carrier",
+    "weight": "6.2kg",
+    "grid_size": "3x3",
+    "sold_by": "Loot only",
+    "sell_price": "$930",
+    "buy_price": "$3,100",
+    "slots": "9",
+    "material": "Ceramic",
+    "nij_class": "NIJ III+",
+    "armor_locations": "Front, Back",
+    "manufacturer": "Custom Gear",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/CGPC3_TQS_%28VTS%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201609",
+    "numeric_values": {
+      "weight": {
+        "value": 6.2,
         "unit": "kg"
       }
     }
@@ -41,38 +114,50 @@
     "name": "Chest Rig 901 Elite 4",
     "id": "chest-rig-901-elite-4",
     "type": "Plate Carrier",
-    "weight": "5.700kg",
+    "weight": "5.7kg",
     "grid_size": "4x3",
     "sold_by": "Handshake R.2",
-    "inventory": "5x2",
+    "sell_price": "$450",
+    "buy_price": "$1,500",
+    "slots": "10",
     "material": "Steel",
-    "nij_class": "III",
+    "nij_class": "NIJ III",
     "armor_locations": "Front",
     "manufacturer": "Warrior Assault Systems",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Elite_4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421123815",
-    "protection_rating": "R1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Chest_Rig_901_Elite_4_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170536",
     "numeric_values": {
       "weight": {
         "value": 5.7,
         "unit": "kg"
       }
-    }
+    },
+    "inventory": "5x2",
+    "protection_rating": "R1"
+  },
+  {
+    "name": "Chest Rig 901 Elite 4 (VTS)",
+    "id": "chest-rig-901-elite-4-(vts)",
+    "nij_class": "III+",
+    "material": "Steel",
+    "armor_locations": "Front",
+    "grid_size": "4x3",
+    "weight": "4.8",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/5x2_Inventory.png/revision/latest?cb=20240510002919"
   },
   {
     "name": "CZ 4M Lancer",
     "id": "cz-4m-lancer",
     "type": "Plate Carrier",
-    "weight": "5.000kg",
-    "slots": "3x3",
-    "inventory": "3x3",
-    "material": "UHMWPE",
-    "nij_class": "III",
-    "armor_locations": "Front,Back",
-    "manufacturer": "4M",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Lancer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421123616",
-    "protection_rating": "R1",
+    "weight": "5kg",
     "grid_size": "3x3",
-    "sold_by": "Looting Tasks rewards",
+    "sold_by": "Loot only",
+    "sell_price": "$525",
+    "slots": "9",
+    "material": "UHMWPE",
+    "nij_class": "NIJ III",
+    "armor_locations": "Front, Back",
+    "manufacturer": "4M",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/CZ_4M_Lancer_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421123616",
     "numeric_values": {
       "weight": {
         "value": 5.0,
@@ -82,21 +167,24 @@
         "value": 4.0,
         "unit": "m"
       }
-    }
+    },
+    "inventory": "3x3",
+    "protection_rating": "R1"
   },
   {
     "name": "CZ 4M Lancer (Black)",
     "id": "cz-4m-lancer-black",
     "type": "Plate Carrier",
     "weight": "5.6kg",
+    "grid_size": "3x3",
     "sold_by": "Loot only",
-    "slots": "3x3",
-    "inventory": "3x3",
+    "sell_price": "$855",
+    "slots": "9",
     "material": "Ceramic",
     "nij_class": "NIJ III+",
-    "armor_locations": "Front,Back",
+    "armor_locations": "Front, Back",
     "manufacturer": "4M",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Lancer_Black.png/revision/latest?cb=20260519175904",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/CZ_4M_Lancer_%28Black%29_inspect.png/revision/latest?cb=20260519175904",
     "numeric_values": {
       "weight": {
         "value": 5.6,
@@ -106,108 +194,104 @@
         "value": 4.0,
         "unit": "m"
       }
-    }
+    },
+    "inventory": "3x3"
   },
   {
     "name": "CZ 4M Lancer (UNLRA)",
     "id": "cz-4m-lancer-unlra",
     "type": "Plate Carrier",
-    "weight": "5.750kg",
-    "sold_by": "Loot only",
-    "slots": "3x3",
-    "inventory": "3x3",
-    "material": "IHMWPE",
-    "nij_class": "III",
-    "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/Lancer_UNLRA.png/revision/latest?cb=20250526034756",
-    "protection_rating": "R1",
+    "weight": "5.8kg",
     "grid_size": "3x3",
+    "sold_by": "Loot only",
+    "sell_price": "$570",
+    "slots": "9",
+    "material": "UHMWPE",
+    "nij_class": "NIJ III",
+    "armor_locations": "Front, Back",
+    "manufacturer": "4M",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/CZ_4M_Lancer_%28UNLRA%29_inspect.png/revision/latest?cb=20250526034756",
     "numeric_values": {
       "weight": {
-        "value": 5.75,
+        "value": 5.8,
         "unit": "kg"
+      },
+      "manufacturer": {
+        "value": 4.0,
+        "unit": "m"
       }
-    }
+    },
+    "inventory": "3x3",
+    "protection_rating": "R1"
   },
   {
     "name": "LBT-6094 G3v2",
     "id": "lbt-6094-g3v2",
     "type": "Plate Carrier",
-    "weight": "7.100kg",
-    "sold_by": "Handshake Rank 4",
+    "weight": "7.1kg",
+    "grid_size": "3x3",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$1,569",
+    "buy_price": "$5,230",
+    "slots": "9",
     "material": "Ceramic",
-    "nij_class": "III++",
-    "armor_locations": "Front,Back",
+    "nij_class": "NIJ III++",
+    "armor_locations": "Front, Back",
     "manufacturer": "LBT",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/LBT-6094_G3v2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091951",
-    "protection_rating": "R3",
-    "grid_size": "3x3",
     "numeric_values": {
       "weight": {
         "value": 7.1,
         "unit": "kg"
       }
-    }
+    },
+    "protection_rating": "R3"
   },
   {
     "name": "LCS Sentry",
     "id": "lcs-sentry",
     "type": "Plate Carrier",
-    "weight": "3.900kg",
-    "sold_by": "Handshake R.2 Looting",
-    "inventory": "4x2",
-    "material": "UHMWPE",
-    "nij_class": "III",
-    "manufacturer": "Condor Outdoor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/LCS_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618162902",
-    "protection_rating": "R1",
-    "armor_locations": "Front, back",
+    "weight": "3.9kg",
     "grid_size": "3x3",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$495",
+    "buy_price": "$1,650",
+    "slots": "8",
+    "material": "UHMWPE",
+    "nij_class": "NIJ III",
+    "armor_locations": "Front, Back",
+    "manufacturer": "Condor Outdoor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b2/LCS_Sentry_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170540",
     "numeric_values": {
       "weight": {
         "value": 3.9,
         "unit": "kg"
       }
-    }
+    },
+    "inventory": "4x2",
+    "protection_rating": "R1"
   },
   {
     "name": "LCS Sentry (UNLRA)",
     "id": "lcs-sentry-unlra",
     "type": "Plate Carrier",
-    "weight": "4.700kg",
+    "weight": "4.7kg",
     "grid_size": "3x3",
-    "sold_by": "Looting",
+    "sold_by": "Loot only",
+    "sell_price": "$510",
     "slots": "8",
-    "inventory": "4x2",
     "material": "UHMWPE",
     "nij_class": "NIJ III",
     "armor_locations": "Front, Back",
     "manufacturer": "Condor Outdoor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/LCS_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618162902",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/LCS_Sentry_%28UNLRA%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618162902",
     "numeric_values": {
       "weight": {
         "value": 4.7,
         "unit": "kg"
       }
-    }
-  },
-  {
-    "name": "M2 Plate Carrier",
-    "id": "m2-plate-carrier",
-    "protection_rating": "R3",
-    "nij_class": "III++",
-    "material": "Ceramic",
-    "armor_locations": "Front, Back",
-    "grid_size": "3x4",
-    "weight": "8.900 kg",
-    "sold_by": "Looting Tasks reward",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/4x3_Inventory.png/revision/latest?cb=20250608162448",
-    "numeric_values": {
-      "weight": {
-        "value": 8.9,
-        "unit": "kg"
-      }
-    }
+    },
+    "inventory": "4x2"
   },
   {
     "name": "M2 Plate Carrier (EMR)",
@@ -255,39 +339,88 @@
     "name": "Modular Operator Carrier Gen II",
     "id": "modular-operator-carrier-gen-ii",
     "type": "Plate Carrier",
-    "weight": "4.200kg",
+    "weight": "4.2kg",
     "grid_size": "3x3",
     "sold_by": "Handshake R.1",
-    "inventory": "4x2",
+    "sell_price": "$195",
+    "buy_price": "$650",
+    "slots": "8",
     "material": "UHMWPE",
-    "nij_class": "IIIA",
-    "armor_locations": "Front,Back,Sides",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/MOC_II_inspect.png/revision/latest?cb=20250621182812",
-    "protection_rating": "P3",
+    "nij_class": "NIJ IIIA",
+    "armor_locations": "Front, Back, Side",
+    "manufacturer": "Condor Outdoor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Modular_Operator_Carrier_Gen_II_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170543",
     "numeric_values": {
       "weight": {
         "value": 4.2,
         "unit": "kg"
       }
-    }
+    },
+    "inventory": "4x2",
+    "protection_rating": "P3"
   },
   {
     "name": "Pantsir 2.0",
     "id": "pantsir-2.0",
     "type": "Plate Carrier",
-    "weight": "12.100kg",
+    "weight": "12.1kg",
     "grid_size": "3x4",
     "sold_by": "Turncoat R.2",
+    "sell_price": "$555",
+    "buy_price": "$1,850",
     "slots": "12",
     "material": "Steel",
-    "nij_class": "III",
-    "armor_locations": "Front,Back,Sides",
+    "nij_class": "NIJ III",
+    "armor_locations": "Front, Back, Side",
     "manufacturer": "SSO",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/75/Pantsir_2.0_inspect.png/revision/latest?cb=20260501125358",
-    "protection_rating": "R1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/75/Pantsir_2.0_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170622",
     "numeric_values": {
       "weight": {
         "value": 12.1,
+        "unit": "kg"
+      }
+    },
+    "protection_rating": "R1"
+  },
+  {
+    "name": "Pantsir 2.0 (LAF)",
+    "id": "pantsir-2.0-laf",
+    "type": "Plate Carrier",
+    "weight": "8.9kg",
+    "grid_size": "3x4",
+    "sell_price": "$900",
+    "buy_price": "$3,000",
+    "slots": "12",
+    "material": "Ceramic",
+    "nij_class": "NIJ III+",
+    "armor_locations": "Front, Back, Side",
+    "manufacturer": "SSO",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/3x4_Inventory.png/revision/latest/scale-to-width-down/150?cb=20261106201638",
+    "numeric_values": {
+      "weight": {
+        "value": 8.9,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Pantsir 2.0 (RSB)",
+    "id": "pantsir-2.0-rsb",
+    "type": "Plate Carrier",
+    "weight": "10.5kg",
+    "grid_size": "3x4",
+    "sold_by": "Loot only",
+    "sell_price": "$510",
+    "buy_price": "$1,700",
+    "slots": "9",
+    "material": "Steel",
+    "nij_class": "NIJ III",
+    "armor_locations": "Front, Back, Side",
+    "manufacturer": "SSO",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/3x3_Inventory.png/revision/latest?cb=20261114183751",
+    "numeric_values": {
+      "weight": {
+        "value": 10.5,
         "unit": "kg"
       }
     }
@@ -296,59 +429,87 @@
     "name": "Phantom Type 2",
     "id": "phantom-type-2",
     "type": "Plate Carrier",
-    "weight": "8.704kg",
-    "grid_size": "4x3",
-    "sold_by": "Turncoat R.4 Looting",
+    "weight": "13.2kg",
+    "grid_size": "3x4",
+    "sold_by": "Turncoat R.4",
+    "sell_price": "$1,380",
+    "buy_price": "$4,600",
     "slots": "12",
-    "inventory": "3x4",
     "material": "Ceramic",
-    "nij_class": "III++",
-    "armor_locations": "Front,Back,Sides",
+    "nij_class": "NIJ III++",
+    "armor_locations": "Front, Back, Side",
     "manufacturer": "Raid Gear & MBC",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c8/Phantom_inspect.png/revision/latest?cb=20250531043617",
-    "protection_rating": "R3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Phantom_Type_2_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170630",
     "numeric_values": {
       "weight": {
-        "value": 8.704,
+        "value": 13.2,
         "unit": "kg"
       }
-    }
+    },
+    "inventory": "3x4",
+    "protection_rating": "R3"
   },
   {
     "name": "Plate6 Plate Carrier",
     "id": "plate6-plate-carrier",
     "type": "Plate Carrier",
-    "weight": "9.600kg",
+    "weight": "9.6kg",
     "grid_size": "3x4",
-    "sold_by": "Handshake R.4 Looting",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$1,335",
+    "buy_price": "$4,450",
     "slots": "16",
-    "inventory": "4x4",
     "material": "Ceramic",
-    "nij_class": "III++",
+    "nij_class": "NIJ III++",
     "armor_locations": "Front, Back",
     "manufacturer": "Blue Force Gear",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Plate6_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404185433",
-    "protection_rating": "R3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/42/Plate6_Plate_Carrier_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170547",
     "numeric_values": {
       "weight": {
         "value": 9.6,
         "unit": "kg"
       }
-    }
+    },
+    "inventory": "4x4",
+    "protection_rating": "R3"
   },
   {
     "name": "Recon Plate Carrier",
     "id": "recon-plate-carrier",
     "type": "Plate Carrier",
-    "weight": "4.300kg",
-    "sold_by": "Handshake R.3",
-    "material": "UHMWPE",
-    "nij_class": "III+",
-    "armor_locations": "Front,Back",
-    "manufacturer": "Warrior Assault Systems",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b7/RPC_inspect.png/revision/latest/scale-to-width-down/268?cb=20250421122631",
-    "protection_rating": "R2",
+    "weight": "4.3kg",
     "grid_size": "3x3",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$945",
+    "buy_price": "$3,150",
+    "slots": "9",
+    "material": "Ceramic",
+    "nij_class": "NIJ III+",
+    "armor_locations": "Front, Back",
+    "manufacturer": "Warrior Assault Systems",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/Recon_Plate_Carrier_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170551",
+    "numeric_values": {
+      "weight": {
+        "value": 4.3,
+        "unit": "kg"
+      }
+    },
+    "protection_rating": "R2"
+  },
+  {
+    "name": "Recon Plate Carrier (Agent)",
+    "id": "recon-plate-carrier-agent",
+    "type": "Plate Carrier",
+    "weight": "4.3kg",
+    "grid_size": "3x3",
+    "sold_by": "Twitch drops",
+    "sell_price": "$945",
+    "slots": "9",
+    "material": "Ceramic",
+    "nij_class": "NIJ III+",
+    "armor_locations": "Front, Back",
+    "manufacturer": "Warrior Assault Systems",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f2/Recon_Plate_Carrier_%28Agent%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201629",
     "numeric_values": {
       "weight": {
         "value": 4.3,
@@ -359,32 +520,41 @@
   {
     "name": "Specter",
     "id": "specter",
-    "weight": "2.800kg",
-    "sold_by": "Handshake R.1 Looting",
-    "material": "Aramid",
-    "nij_class": "IIIA",
-    "armor_locations": "Front,Back",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Specter_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515140641",
-    "protection_rating": "P3",
+    "type": "Plate Carrier",
+    "weight": "2.8kg",
     "grid_size": "2x3",
+    "sold_by": "Handshake R.1",
+    "sell_price": "$90",
+    "buy_price": "$300",
+    "slots": "6",
+    "material": "Aramid",
+    "nij_class": "NIJ IIIA",
+    "armor_locations": "Front, Back",
+    "manufacturer": "Condor Outdoor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Specter_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170600",
     "numeric_values": {
       "weight": {
         "value": 2.8,
         "unit": "kg"
       }
-    }
+    },
+    "protection_rating": "P3"
   },
   {
     "name": "Spitfire Plate Carrier",
     "id": "spitfire-plate-carrier",
     "type": "Plate Carrier",
-    "weight": "6.500kg",
-    "sold_by": "???",
+    "weight": "6.5kg",
+    "grid_size": "3x4",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$1,035",
+    "buy_price": "$3,450",
+    "slots": "12",
     "material": "Steel",
     "nij_class": "NIJ III+",
-    "armor_locations": "Front,Back,Side",
+    "armor_locations": "Front, Back, Side",
     "manufacturer": "Direct Action",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/Spitfire_Plate_Carrier_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331092028",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/Spitfire_Plate_Carrier_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114170611",
     "numeric_values": {
       "weight": {
         "value": 6.5,
@@ -393,25 +563,47 @@
     }
   },
   {
+    "name": "Viper's Modular Operator Carrier Gen II",
+    "id": "vipers-modular-operator-carrier-gen-ii",
+    "type": "Plate Carrier",
+    "weight": "6.6kg",
+    "grid_size": "3x3",
+    "sold_by": "Loot only",
+    "sell_price": "$810",
+    "slots": "8",
+    "material": "Ceramic",
+    "nij_class": "NIJ III+",
+    "armor_locations": "Front, Back, Side",
+    "manufacturer": "Condor Outdoor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/Viper%27s_Modular_Operator_Carrier_Gen_II_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201635",
+    "numeric_values": {
+      "weight": {
+        "value": 6.6,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Yen's Pantsir 2.0",
     "id": "yens-pantsir-2.0",
     "type": "Plate Carrier",
-    "weight": "9.600kg",
+    "weight": "9.6kg",
     "grid_size": "3x4",
     "sold_by": "Loot only",
+    "sell_price": "$1,410",
     "slots": "9",
-    "inventory": "3x3",
     "material": "Ceramic",
-    "nij_class": "III++",
-    "armor_locations": "Front, Back, Sides",
+    "nij_class": "NIJ III++",
+    "armor_locations": "Front, Back, Side",
     "manufacturer": "SSO",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Yen%27s_Pantsir_2.0_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143947",
-    "protection_rating": "R3",
     "numeric_values": {
       "weight": {
         "value": 9.6,
         "unit": "kg"
       }
-    }
+    },
+    "inventory": "3x3",
+    "protection_rating": "R3"
   }
 ]

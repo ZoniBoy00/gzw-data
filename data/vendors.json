@@ -51,7 +51,6 @@
     "name": "Vulture",
     "id": "vulture",
     "full_name": "Unknown",
-    "wares": "Any",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/Vendor-Vulture.png/revision/latest/scale-to-width-down/268?cb=20260328020207",
     "sells": "Any.",
     "buys": "Valuables"

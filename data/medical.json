@@ -11,17 +11,17 @@
     "duration": "10s",
     "intoxication": "-10",
     "manufacturer": "S.R. Hawkins",
-    "sell_price": "$5",
+    "sell_price": "$5.4",
     "buy_price": "$18",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/Activated_Charcoal_inspect.png/revision/latest?cb=20250502211847",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.15,
         "unit": "kg"
       }
     },
-    "effect": "intoxication: -10; duration: 10s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "intoxication: -10; duration: 10s"
   },
   {
     "name": "Advanced Flexible Splint",
@@ -35,17 +35,17 @@
     "compatibles_body_parts": "Arms Legs",
     "effects": "Treats All Bones in One Body Part",
     "manufacturer": "Henderson",
-    "sell_price": "$17",
+    "sell_price": "$17.4",
     "buy_price": "$58",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/Advanced_Flexible_Splint_inspect.png/revision/latest?cb=20261105151301",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.13,
         "unit": "kg"
       }
     },
-    "effect": "effects: Treats All Bones in One Body Part",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Treats All Bones in One Body Part"
   },
   {
     "name": "ARF Trauma Bandage 4",
@@ -60,17 +60,17 @@
     "compatibles_body_parts": "All",
     "effects": "Treats Light Injury in Multiple Body Parts",
     "manufacturer": "Henderson",
-    "sell_price": "$9",
+    "sell_price": "$9.3",
     "buy_price": "$31",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/ARF_Trauma_Bandage_4_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105152549",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.07,
         "unit": "kg"
       }
     },
-    "effect": "effects: Treats Light Injury in Multiple Body Parts",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Treats Light Injury in Multiple Body Parts"
   },
   {
     "name": "Basic Surgical & Suture Kit",
@@ -108,17 +108,17 @@
     "compatibles_body_parts": "Arms Legs",
     "effects": "Treats All Bones in One Body Part",
     "manufacturer": "Narithcare",
-    "sell_price": "$4",
+    "sell_price": "$4.8",
     "buy_price": "$16",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Civilian_Flexible_Splint_inspect.png/revision/latest?cb=20261105151311",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.15,
         "unit": "kg"
       }
     },
-    "effect": "effects: Treats All Bones in One Body Part",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Treats All Bones in One Body Part"
   },
   {
     "name": "Civilian Gauze",
@@ -133,17 +133,17 @@
     "compatibles_body_parts": "All",
     "effects": "Treats Light Injury in Multiple Body Parts",
     "manufacturer": "Narithcare",
-    "sell_price": "$2",
+    "sell_price": "$2.7",
     "buy_price": "$9",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/Civilian_Gauze_inspect.png/revision/latest/scale-to-width-down/268?cb=20250504074656",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.03,
         "unit": "kg"
       }
     },
-    "effect": "effects: Treats Light Injury in Multiple Body Parts",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Treats Light Injury in Multiple Body Parts"
   },
   {
     "name": "Combat Tourniquet",
@@ -157,17 +157,17 @@
     "compatibles_body_parts": "All",
     "effects": "Stops All Bleeding",
     "manufacturer": "Henderson",
-    "sell_price": "$24",
+    "sell_price": "$24.6",
     "buy_price": "$82",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Combat_Tourniquet_inspect.png/revision/latest?cb=20261104183453",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.09,
         "unit": "kg"
       }
     },
-    "effect": "effects: Stops All Bleeding",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Stops All Bleeding"
   },
   {
     "name": "DT-0X",
@@ -265,16 +265,16 @@
     "intoxication": "+3",
     "hydratation_per_charge": "-10",
     "manufacturer": "General Local",
-    "sell_price": "$29",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Fenethylline_icon.png/revision/latest?cb=20250621155323",
+    "sell_price": "$29.1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/Fenethylline_inspect.png/revision/latest?cb=20250621182751",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.15,
         "unit": "kg"
       }
     },
-    "effect": "effects: Stamina Regeneration Increased Hydration Drain; intoxication: +3; hydratation_per_charge: -10; duration: 180s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Stamina Regeneration Increased Hydration Drain; intoxication: +3; hydratation_per_charge: -10; duration: 180s"
   },
   {
     "name": "Flexible Splint",
@@ -288,17 +288,17 @@
     "compatibles_body_parts": "Arms Legs",
     "effects": "Treats All Bones in One Body Part",
     "manufacturer": "Henderson",
-    "sell_price": "$10",
+    "sell_price": "$10.8",
     "buy_price": "$36",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Flexible_Splint_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151217",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.13,
         "unit": "kg"
       }
     },
-    "effect": "effects: Treats All Bones in One Body Part",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Treats All Bones in One Body Part"
   },
   {
     "name": "HpR 3-S",
@@ -342,17 +342,17 @@
     "duration": "300s",
     "pain": "-50",
     "manufacturer": "Narithcare",
-    "sell_price": "$2",
+    "sell_price": "$2.4",
     "buy_price": "$8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Ibalin_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210313",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
     },
-    "effect": "pain: -50; duration: 300s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "pain: -50; duration: 300s"
   },
   {
     "name": "Ibalin Bottle",
@@ -366,9 +366,10 @@
     "duration": "300s",
     "pain": "-50",
     "manufacturer": "Narithcare",
-    "sell_price": "$7",
+    "sell_price": "$7.2",
     "buy_price": "$24",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/Ibalin_Bottle_inspect.png/revision/latest?cb=20261105151246",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.15,
@@ -436,17 +437,17 @@
     "compatibles_body_parts": "All",
     "effects": "Stops All Bleeding",
     "manufacturer": "Pressing Medical",
-    "sell_price": "$19",
+    "sell_price": "$19.5",
     "buy_price": "$65",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/M.F.A.T._Tourniquet_inspect.png/revision/latest?cb=20261105151225",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.08,
         "unit": "kg"
       }
     },
-    "effect": "effects: Stops All Bleeding",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Stops All Bleeding"
   },
   {
     "name": "Medical",
@@ -488,17 +489,17 @@
     "duration": "300s",
     "pain": "-66",
     "manufacturer": "Jeremiah Pharmaceutical",
-    "sell_price": "$4",
+    "sell_price": "$4.8",
     "buy_price": "$16",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Meloxicam_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151244",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
     },
-    "effect": "pain: -66; duration: 300s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "pain: -66; duration: 300s"
   },
   {
     "name": "Meloxicam Bottle",
@@ -512,9 +513,10 @@
     "duration": "300s",
     "pain": "-66",
     "manufacturer": "Jeremiah Pharmaceutical",
-    "sell_price": "$14",
+    "sell_price": "$14.4",
     "buy_price": "$48",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Meloxicam_Bottle_inspect.png/revision/latest?cb=20261105151249",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.15,
@@ -593,17 +595,17 @@
     "duration": "25s",
     "intoxication": "-25",
     "manufacturer": "Wunder Pharmaceutical",
-    "sell_price": "$37",
+    "sell_price": "$37.5",
     "buy_price": "$125",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Moxifloxacin_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151241",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
     },
-    "effect": "intoxication: -25; duration: 25s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "intoxication: -25; duration: 25s"
   },
   {
     "name": "ORI-12",
@@ -641,17 +643,17 @@
     "duration": "150s",
     "pain": "-33",
     "manufacturer": "Fernsby's Healthcare",
-    "sell_price": "$1",
+    "sell_price": "$1.5",
     "buy_price": "$5",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ab/Paracetamol_inspect.png/revision/latest/scale-to-width-down/268?cb=20261105151228",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.05,
         "unit": "kg"
       }
     },
-    "effect": "pain: -33; duration: 150s",
-    "sell_price_source": "gzwitems.com"
+    "effect": "pain: -33; duration: 150s"
   },
   {
     "name": "Paracetamol Bottle",
@@ -665,9 +667,10 @@
     "duration": "150s",
     "pain": "-33",
     "manufacturer": "Fernsby's Healthcare",
-    "sell_price": "$4",
+    "sell_price": "$4.5",
     "buy_price": "$15",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/Paracetamol_Bottle_inspect.png/revision/latest?cb=20261105151512",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.15,
@@ -712,17 +715,17 @@
     "compatibles_body_parts": "All",
     "effects": "Stops All Bleeding",
     "manufacturer": "Narithcare",
-    "sell_price": "$7",
+    "sell_price": "$7.5",
     "buy_price": "$25",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/Retractable_Tourniquet_inspect.png/revision/latest?cb=20261105151231",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.08,
         "unit": "kg"
       }
     },
-    "effect": "effects: Stops All Bleeding",
-    "sell_price_source": "gzwitems.com"
+    "effect": "effects: Stops All Bleeding"
   },
   {
     "name": "SEAL Modular Bandage",
@@ -737,9 +740,10 @@
     "compatibles_body_parts": "All",
     "effects": "Treats Light Injury in Multiple Body Parts",
     "manufacturer": "SEAL Medical",
-    "sell_price": "$16",
+    "sell_price": "$16.5",
     "buy_price": "$55",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/af/SEAL_Modular_Bandage_inspect.png/revision/latest?cb=20261105152555",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.09,

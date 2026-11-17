@@ -484,7 +484,7 @@
     "objectives": "Investigate the Tiger Bay Municipal Office Building and find the list of locations Scout all the locations on the list Ascertain the situation in Ban Khamphet Ascertain the situation at Na Thong Farms Ascertain the situation at Bosanleng Farm Ascertain the situation in Ban Khamphet Ascertain the situation at Na Thong Farms Ascertain the situation at Bosanleng Farm Retrieve the briefcase and report back to Artisan Locate the briefcase in the Municipal Office Building Locate the briefcase in the Municipal Office Building Retrieve the briefcase and report back to Artisan Locate the briefcase in Tiger Bay Central Locate the briefcase in Tiger Bay Central"
   },
   {
-    "name": "Like a Boss - Firebrand's AKS-74u",
+    "name": "Like a Boss - Firebrand's AKS-74U",
     "id": "like-a-boss---firebrands-aks-74u",
     "vendor": "Turncoat",
     "location": "YBL-1",
@@ -564,6 +564,51 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
     "briefing": "Locate missing construction shop clerk Kanoa Sinarath, last seen during the evacuation. Search his workplace, follow any potential leads, and report your findings.",
     "objectives": "Find Kanoa Sinarath"
+  },
+  {
+    "name": "Market Research",
+    "id": "market-research",
+    "vendor": "Vulture",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
+    "name": "Market Research VI",
+    "id": "market-research-vi",
+    "vendor": "Vulture",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
+    "name": "Market Research VII",
+    "id": "market-research-vii",
+    "vendor": "Vulture",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
+    "name": "Market Research XIV",
+    "id": "market-research-xiv",
+    "vendor": "Vulture",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
+    "name": "Market Research XV",
+    "id": "market-research-xv",
+    "vendor": "Vulture",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
   },
   {
     "name": "Medical Detective",

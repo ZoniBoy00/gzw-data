@@ -3,15 +3,74 @@
     "name": "3M Comtac II",
     "id": "3m-comtac-ii",
     "type": "Headset",
-    "weight": "0.680kg",
+    "weight": "0.68kg",
     "grid_size": "2x2",
     "sold_by": "Banshee R.4",
+    "sell_price": "$247",
+    "buy_price": "$825",
+    "active_headset": "Yes",
+    "sound_amplification": "6.1",
+    "sound_detection": "50%",
     "manufacturer": "Peltor",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/64/3M_Comtac_II_inspect.png/revision/latest/scale-to-width-down/268?cb=20260506023810",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/64/3M_Comtac_II_inspect.png/revision/latest/scale-to-width-down/268?cb=20261113133819",
     "numeric_values": {
       "weight": {
         "value": 0.68,
         "unit": "kg"
+      },
+      "sound_detection": {
+        "value": 50.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Active headset GSSh-01",
+    "id": "gssh-01",
+    "type": "Headset",
+    "weight": "0.33kg",
+    "grid_size": "2x2",
+    "sold_by": "Turncoat R.1",
+    "sell_price": "$51",
+    "buy_price": "$170",
+    "active_headset": "Yes",
+    "sound_amplification": "4.9",
+    "sound_detection": "40%",
+    "sound_clarity": "-0.14",
+    "manufacturer": "Zavod Luc",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5b/Active_headset_GSSh-01_inspect.png/revision/latest/scale-to-width-down/268?cb=20261113133826",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      },
+      "sound_detection": {
+        "value": 40.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Colonel's Active headset GSSh-01",
+    "id": "colonels-active-headset-gssh-01",
+    "type": "Headset",
+    "weight": "0.33kg",
+    "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$51",
+    "active_headset": "Yes",
+    "sound_amplification": "4.9",
+    "sound_detection": "40%",
+    "sound_clarity": "-0.14",
+    "manufacturer": "Zavod Luc",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      },
+      "sound_detection": {
+        "value": 40.0,
+        "unit": "%"
       }
     }
   },
@@ -19,31 +78,18 @@
     "name": "Construction Earmuffs",
     "id": "construction-earmuffs",
     "type": "Headset",
-    "weight": "0.440kg",
+    "weight": "0.44kg",
     "grid_size": "2x2",
     "sold_by": "Artisan R.1",
-    "manufacturer": "Taubchutz",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Earmuffs_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182743",
+    "sell_price": "$12",
+    "buy_price": "$40",
+    "active_headset": "No",
+    "sound_amplification": "0",
+    "manufacturer": "Taubschutz",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/Construction_Earmuffs_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182743",
     "numeric_values": {
       "weight": {
         "value": 0.44,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "GSSH-01",
-    "id": "gssh-01",
-    "type": "Headset",
-    "weight": "0.330kg",
-    "grid_size": "2x2",
-    "sold_by": "Turncoat R.1",
-    "buy_price": "$278",
-    "manufacturer": "Zavod Luc",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/GSSh-01_icon.png/revision/latest/scale-to-width-down/48?cb=20250620170237",
-    "numeric_values": {
-      "weight": {
-        "value": 0.33,
         "unit": "kg"
       }
     }
@@ -55,28 +101,48 @@
     "weight": "0.279kg",
     "grid_size": "2x2",
     "sold_by": "Banshee R.2",
+    "sell_price": "$102",
+    "buy_price": "$340",
+    "active_headset": "Yes",
+    "sound_amplification": "5.4",
+    "sound_detection": "25%",
+    "sound_clarity": "-0.07",
     "manufacturer": "Honeywell",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Impact_Sport_inspect.png/revision/latest?cb=20260404191301",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Impact_Sport_inspect.png/revision/latest/scale-to-width-down/268?cb=20261113133803",
     "numeric_values": {
       "weight": {
         "value": 0.279,
         "unit": "kg"
+      },
+      "sound_detection": {
+        "value": 25.0,
+        "unit": "%"
       }
     }
   },
   {
-    "name": "Razor Pro Digital",
-    "id": "razor-pro-digital",
+    "name": "Razor Slim Electronic Muff",
+    "id": "razor-slim-electronic-muff",
     "type": "Headset",
-    "weight": "0.400kg",
+    "weight": "0.4kg",
     "grid_size": "2x2",
     "sold_by": "Banshee R.1",
+    "sell_price": "$70",
+    "buy_price": "$235",
+    "active_headset": "Yes",
+    "sound_amplification": "1.4",
+    "sound_detection": "30%",
+    "sound_clarity": "-0.05",
     "manufacturer": "Walkers",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Razor_inspect.png/revision/latest?cb=20250621182815",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Razor_Slim_Electronic_Muff_inspect.png/revision/latest/scale-to-width-down/268?cb=20261113133829",
     "numeric_values": {
       "weight": {
         "value": 0.4,
         "unit": "kg"
+      },
+      "sound_detection": {
+        "value": 30.0,
+        "unit": "%"
       }
     }
   },
@@ -84,11 +150,14 @@
     "name": "TASC 1",
     "id": "tasc-1",
     "type": "Headset",
-    "weight": "0.160kg",
+    "weight": "0.16kg",
     "grid_size": "2x2",
-    "sold_by": "???",
+    "sold_by": "Loot only",
+    "sell_price": "$22",
+    "active_headset": "No",
+    "sound_amplification": "0",
     "manufacturer": "Z-Tactical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/TASC_1_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201631",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/TASC_1_inspect.png/revision/latest/scale-to-width-down/268?cb=20261113133811",
     "numeric_values": {
       "weight": {
         "value": 0.16,
@@ -100,15 +169,75 @@
     "name": "Ultimate Power Muff Quads",
     "id": "ultimate-power-muff-quads",
     "type": "Headset",
-    "weight": "0.340kg",
+    "weight": "0.34kg",
     "grid_size": "2x2",
     "sold_by": "Banshee R.3",
+    "sell_price": "$147",
+    "buy_price": "$490",
+    "active_headset": "Yes",
+    "sound_amplification": "3.9",
+    "sound_detection": "35%",
+    "sound_clarity": "-0.02",
     "manufacturer": "Walkers",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Quads_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621183504",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Ultimate_Power_Muff_Quads_inspect.png/revision/latest/scale-to-width-down/268?cb=20261113133759",
     "numeric_values": {
       "weight": {
         "value": 0.34,
         "unit": "kg"
+      },
+      "sound_detection": {
+        "value": 35.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Viper's Razor Slim Electronic Muff",
+    "id": "vipers-razor-slim-electronic-muff",
+    "type": "Headset",
+    "weight": "0.4kg",
+    "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$70",
+    "active_headset": "Yes",
+    "sound_amplification": "1.4",
+    "sound_detection": "30%",
+    "sound_clarity": "-0.05",
+    "manufacturer": "Walkers",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6e/Viper%27s_Razor_Slim_Electronic_Muff_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201637",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      },
+      "sound_detection": {
+        "value": 30.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Yen's Active headset GSSh-01",
+    "id": "yens-active-headset-gssh-01",
+    "type": "Headset",
+    "weight": "0.33kg",
+    "grid_size": "2x2",
+    "sold_by": "Loot only",
+    "sell_price": "$51",
+    "active_headset": "Yes",
+    "sound_amplification": "4.9",
+    "sound_detection": "40%",
+    "sound_clarity": "-0.14",
+    "manufacturer": "Zavod Luc",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d5/Yen%27s_Active_headset_GSSh-01_inspect.png/revision/latest/scale-to-width-down/268?cb=20261109143932",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      },
+      "sound_detection": {
+        "value": 40.0,
+        "unit": "%"
       }
     }
   }

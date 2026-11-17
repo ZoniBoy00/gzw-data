@@ -1,12 +1,31 @@
 [
   {
+    "name": "Aramid Cloth",
+    "id": "aramid-cloth",
+    "type": "Military Material",
+    "weight": "0.061kg",
+    "grid_size": "2x1",
+    "manufacturer": "General Local",
+    "sell_price": "$45.6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Aramid_Cloth_icon.png/revision/latest?cb=20260402235156",
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.061,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Camouflage Fabric",
     "id": "camouflage-fabric",
     "type": "Military Material",
-    "weight": "0.480kg",
+    "weight": "0.48kg",
     "grid_size": "2x1",
-    "sell_price": "$10",
+    "manufacturer": "General Local",
+    "sell_price": "$11.2",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Camouflage_Fabric_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075042",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.48,
@@ -18,10 +37,12 @@
     "name": "Low-Grade Gunpowder",
     "id": "low-grade-gunpowder",
     "type": "Military Material",
-    "weight": "0.450kg",
+    "weight": "0.45kg",
     "grid_size": "1x2",
-    "sell_price": "$23",
+    "manufacturer": "General Local",
+    "sell_price": "$24.8",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Low-Grade_Gunpowder_inspect.png/revision/latest?cb=20260331082737",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.45,
@@ -33,10 +54,12 @@
     "name": "Paracord",
     "id": "paracord",
     "type": "Military Material",
-    "weight": "0.100kg",
+    "weight": "0.1kg",
     "grid_size": "2x1",
-    "sell_price": "$9",
+    "manufacturer": "General Local",
+    "sell_price": "$9.6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Paracord_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331084247",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -50,8 +73,10 @@
     "type": "Military Material",
     "weight": "0.272kg",
     "grid_size": "1x2",
-    "sell_price": "$9",
+    "manufacturer": "General Local",
+    "sell_price": "$9.6",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/Weapon_Oil_inspect.png/revision/latest?cb=20260331090618",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 0.272,

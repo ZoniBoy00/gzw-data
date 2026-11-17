@@ -3,13 +3,51 @@
     "name": "6Sh104",
     "id": "6sh104",
     "type": "Tactical Rig",
-    "weight": "2.100kg",
+    "weight": "2.1kg",
     "grid_size": "4x4",
-    "sold_by": "Turncoat R.4 Looting",
+    "sold_by": "Turncoat R.4",
+    "sell_price": "$210",
+    "buy_price": "$700",
     "slots": "16",
-    "inventory": "4x4",
-    "manufacturer": "FORT technology",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911",
+    "manufacturer": "FORT technologies",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ed/6Sh104_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152912",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      }
+    },
+    "inventory": "4x4"
+  },
+  {
+    "name": "6Sh104 (Coyote)",
+    "id": "6sh104-coyote",
+    "type": "Tactical Rig",
+    "weight": "2.1kg",
+    "grid_size": "4x4",
+    "sold_by": "Turncoat R.4",
+    "sell_price": "$204",
+    "buy_price": "$680",
+    "slots": "16",
+    "manufacturer": "FORT technologies",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/6Sh104_%28Coyote%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152914",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "6Sh104 (Olive)",
+    "id": "6sh104-olive",
+    "type": "Tactical Rig",
+    "weight": "2.1kg",
+    "grid_size": "4x4",
+    "sold_by": "Loot only",
+    "sell_price": "$204",
+    "slots": "16",
+    "manufacturer": "FORT technologies",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -21,30 +59,72 @@
     "name": "ALICE",
     "id": "alice",
     "type": "Tactical Rig",
-    "weight": "0.500kg",
+    "weight": "0.95kg",
     "grid_size": "2x4",
     "sold_by": "Handshake R.2",
+    "sell_price": "$39",
+    "buy_price": "$130",
     "slots": "8",
-    "inventory": "4x2",
-    "sold_by_source": "game-files",
+    "manufacturer": "US Army",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/ALICE_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152931",
     "numeric_values": {
       "weight": {
-        "value": 0.5,
+        "value": 0.95,
         "unit": "kg"
       }
-    }
+    },
+    "inventory": "4x2"
   },
   {
     "name": "Biker Chest Rig",
     "id": "biker-chest-rig",
     "type": "Tactical Rig",
-    "weight": "0.350kg",
+    "weight": "0.35kg",
     "grid_size": "2x3",
-    "sold_by": "Artisan R.1 Looting",
+    "sold_by": "Artisan R.1",
+    "sell_price": "$18",
+    "buy_price": "$60",
     "slots": "4",
-    "inventory": "2x3",
-    "manufacturer": "Sepeda",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Biker_inspect.png/revision/latest?cb=20240509070242",
+    "manufacturer": "Sepeda Moto",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/Biker_Chest_Rig_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152946",
+    "numeric_values": {
+      "weight": {
+        "value": 0.35,
+        "unit": "kg"
+      }
+    },
+    "inventory": "2x3"
+  },
+  {
+    "name": "Broker's Training Mini Rig",
+    "id": "brokers-training-mini-rig",
+    "type": "Tactical Rig",
+    "weight": "0.7kg",
+    "grid_size": "3x3",
+    "sold_by": "Loot only",
+    "sell_price": "$63",
+    "slots": "9",
+    "manufacturer": "Helikon-Tex",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/Broker%27s_Training_Mini_Rig_inspect.png/revision/latest?cb=20260527042204",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      }
+    },
+    "inventory": "3x3"
+  },
+  {
+    "name": "Chaonai's Biker Chest Rig",
+    "id": "chaonais-biker-chest-rig",
+    "type": "Tactical Rig",
+    "weight": "0.35kg",
+    "grid_size": "2x3",
+    "sold_by": "Loot only",
+    "sell_price": "$18",
+    "slots": "4",
+    "manufacturer": "Sepeda Moto",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/Chaonai%27s_Biker_Chest_Rig_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201611",
     "numeric_values": {
       "weight": {
         "value": 0.35,
@@ -53,16 +133,50 @@
     }
   },
   {
-    "name": "Broker's Training Mini Rig",
-    "id": "brokers-training-mini-rig",
+    "name": "Colonel's 6Sh104",
+    "id": "colonels-6sh104",
     "type": "Tactical Rig",
-    "weight": "0.700kg",
+    "weight": "2.1kg",
+    "grid_size": "4x4",
+    "sold_by": "Loot only",
+    "sell_price": "$210",
+    "slots": "16",
+    "manufacturer": "FORT technologies",
+    "numeric_values": {
+      "weight": {
+        "value": 2.1,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Firebrand's ALICE",
+    "id": "firebrands-alice",
+    "type": "Tactical Rig",
+    "weight": "0.95kg",
+    "grid_size": "2x4",
+    "sold_by": "Loot only",
+    "sell_price": "$39",
+    "slots": "8",
+    "manufacturer": "US Army",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/Firebrand%27s_ALICE_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201618",
+    "numeric_values": {
+      "weight": {
+        "value": 0.95,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Grin's Training Mini Rig",
+    "id": "grins-training-mini-rig",
+    "type": "Tactical Rig",
+    "weight": "0.7kg",
     "grid_size": "3x3",
-    "sold_by": "Looting - Broker",
+    "sold_by": "Loot only",
+    "sell_price": "$63",
     "slots": "9",
-    "inventory": "3x3",
     "manufacturer": "Helikon-Tex",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/eb/Broker_TMR_inspect.png/revision/latest?cb=20260527042204",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -74,63 +188,69 @@
     "name": "Improvized Rig",
     "id": "improvized-rig",
     "type": "Tactical Rig",
-    "weight": "0.300kg",
-    "grid_size": "2x3",
+    "weight": "0.2kg",
+    "grid_size": "2x2",
     "sold_by": "Loot only",
+    "sell_price": "$9",
     "slots": "2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/IRig_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182804",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Improvized_Rig_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182804",
     "numeric_values": {
       "weight": {
-        "value": 0.3,
+        "value": 0.2,
         "unit": "kg"
       }
     }
   },
   {
-    "name": "Recon Chest Rig",
-    "id": "recon-chest-rig",
+    "name": "Kangaroo Tactical Rig (Big)",
+    "id": "kangaroo-tactical-rig-big",
     "type": "Tactical Rig",
-    "weight": "0.820kg",
-    "grid_size": "4x3",
-    "sold_by": "Handshake R.3",
+    "weight": "0.68kg",
+    "grid_size": "3x4",
+    "sold_by": "Turncoat R.3",
+    "sell_price": "$114",
+    "buy_price": "$380",
     "slots": "12",
-    "inventory": "4x3",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/4x3_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250608162448",
+    "manufacturer": "ANA-Tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Kangaroo_Tactical_Rig_%28Big%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152925",
     "numeric_values": {
       "weight": {
-        "value": 0.82,
+        "value": 0.68,
         "unit": "kg"
       }
     }
   },
   {
-    "name": "Small Rig",
-    "id": "small-rig",
+    "name": "Kangaroo Tactical Rig (Small)",
+    "id": "kangaroo-tactical-rig-small",
     "type": "Tactical Rig",
-    "weight": "0.300kg",
-    "grid_size": "2x3",
+    "weight": "0.5kg",
+    "grid_size": "3x3",
+    "sold_by": "Turncoat R.2",
+    "sell_price": "$78",
+    "buy_price": "$260",
+    "slots": "9",
+    "manufacturer": "ANA-Tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/Kangaroo_Tactical_Rig_%28Small%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152928",
+    "numeric_values": {
+      "weight": {
+        "value": 0.5,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Kaptei's TacTec Chest Rig",
+    "id": "kapteis-tactec-chest-rig",
+    "type": "Tactical Rig",
+    "weight": "0.55kg",
+    "grid_size": "3x4",
     "sold_by": "Loot only",
-    "slots": "4",
-    "inventory": "2x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/SRig_inspect.png/revision/latest?cb=20240509070417",
-    "numeric_values": {
-      "weight": {
-        "value": 0.3,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "TacTec Chest Rig",
-    "id": "tactec-chest-rig",
-    "type": "Tactical Rig",
-    "weight": "0.550kg",
-    "grid_size": "2x5",
-    "sold_by": "Handshake R.2 Looting",
+    "sell_price": "$96",
     "slots": "10",
-    "inventory": "5x2",
     "manufacturer": "5.11",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/TacTec_inspect.png/revision/latest/scale-to-width-down/268?cb=20240505172154",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/5x2_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240510002919",
     "numeric_values": {
       "weight": {
         "value": 0.55,
@@ -139,33 +259,34 @@
     }
   },
   {
-    "name": "Training Mini Rig",
-    "id": "training-mini-rig",
+    "name": "Mayflower UW Chest Rig Gen IV",
+    "id": "mayflower-uw-chest-rig-gen-iv",
     "type": "Tactical Rig",
-    "weight": "0.622kg",
-    "grid_size": "3x3",
-    "sold_by": "Handshake R.1",
-    "slots": "8",
-    "inventory": "3x3",
-    "manufacturer": "Helikon-Tex",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/TMR_inspect.png/revision/latest/scale-to-width-down/267?cb=20240505172547",
+    "weight": "0.57kg",
+    "grid_size": "3x5",
+    "sold_by": "Handshake R.4",
+    "sell_price": "$192",
+    "buy_price": "$640",
+    "slots": "15",
+    "manufacturer": "Velocity Systems",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/Mayflower_UW_Chest_Rig_Gen_IV_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152933",
     "numeric_values": {
       "weight": {
-        "value": 0.622,
+        "value": 0.57,
         "unit": "kg"
       }
     }
   },
   {
-    "name": "Type 56 AK",
-    "id": "type-56-ak",
+    "name": "Naga's Type 56 AK",
+    "id": "nagas-type-56-ak",
     "type": "Tactical Rig",
-    "weight": "0.400kg",
-    "grid_size": "3x2",
-    "sold_by": "Turncoat R.1",
+    "weight": "0.4kg",
+    "grid_size": "3x3",
+    "sold_by": "Loot only",
+    "sell_price": "$27",
     "slots": "6",
-    "inventory": "3x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/3x2_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240510000746",
+    "manufacturer": "Chinese Military",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -174,19 +295,159 @@
     }
   },
   {
+    "name": "Recon Chest Rig",
+    "id": "recon-chest-rig",
+    "type": "Tactical Rig",
+    "weight": "0.78kg",
+    "grid_size": "4x3",
+    "sold_by": "Handshake R.3",
+    "sell_price": "$132",
+    "buy_price": "$440",
+    "slots": "12",
+    "manufacturer": "Condor Outdoor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ee/Recon_Chest_Rig_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152935",
+    "numeric_values": {
+      "weight": {
+        "value": 0.78,
+        "unit": "kg"
+      }
+    },
+    "inventory": "4x3"
+  },
+  {
+    "name": "Small Rig",
+    "id": "small-rig",
+    "type": "Tactical Rig",
+    "weight": "0.4kg",
+    "grid_size": "2x3",
+    "sold_by": "Loot only",
+    "sell_price": "$16",
+    "slots": "4",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/Small_Rig_inspect.png/revision/latest?cb=20240509070417",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    },
+    "inventory": "2x2"
+  },
+  {
+    "name": "TacTec Chest Rig",
+    "id": "tactec-chest-rig",
+    "type": "Tactical Rig",
+    "weight": "0.55kg",
+    "grid_size": "3x4",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$96",
+    "buy_price": "$320",
+    "slots": "10",
+    "manufacturer": "5.11",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/TacTec_Chest_Rig_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152938",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      }
+    },
+    "inventory": "5x2"
+  },
+  {
+    "name": "Training Mini Rig (Big)",
+    "id": "training-mini-rig-big",
+    "type": "Tactical Rig",
+    "weight": "0.7kg",
+    "grid_size": "3x3",
+    "sold_by": "Handshake R.2",
+    "sell_price": "$63",
+    "buy_price": "$210",
+    "slots": "9",
+    "manufacturer": "Helikon-Tex",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dc/Training_Mini_Rig_%28Big%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152940",
+    "numeric_values": {
+      "weight": {
+        "value": 0.7,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Training Mini Rig (Small)",
+    "id": "training-mini-rig-small",
+    "type": "Tactical Rig",
+    "weight": "0.6kg",
+    "grid_size": "2x3",
+    "sold_by": "Handshake R.1",
+    "sell_price": "$30",
+    "buy_price": "$100",
+    "slots": "6",
+    "manufacturer": "Helikon-Tex",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d2/Training_Mini_Rig_%28Small%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152943",
+    "numeric_values": {
+      "weight": {
+        "value": 0.6,
+        "unit": "kg"
+      }
+    }
+  },
+  {
+    "name": "Type 56 AK",
+    "id": "type-56-ak",
+    "type": "Tactical Rig",
+    "weight": "0.4kg",
+    "grid_size": "3x3",
+    "sold_by": "Turncoat R.1",
+    "sell_price": "$27",
+    "buy_price": "$90",
+    "slots": "6",
+    "manufacturer": "Chinese Military",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dc/Type_56_AK_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152917",
+    "numeric_values": {
+      "weight": {
+        "value": 0.4,
+        "unit": "kg"
+      }
+    },
+    "inventory": "3x2"
+  },
+  {
+    "name": "Type 56 SKS",
+    "id": "type-56-sks",
+    "type": "Tactical Rig",
+    "weight": "0.35kg",
+    "grid_size": "3x3",
+    "sold_by": "Turncoat R.1",
+    "sell_price": "$21",
+    "buy_price": "$70",
+    "slots": "6",
+    "manufacturer": "Chinese Military",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Type_56_SKS_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152922",
+    "numeric_values": {
+      "weight": {
+        "value": 0.35,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "Universal Chest Bag",
     "id": "universal-chest-bag",
     "type": "Tactical Rig",
-    "weight": "0.300kg",
-    "sold_by": "Artisan R.1 Looting",
+    "weight": "0.3kg",
+    "grid_size": "2x3",
+    "sold_by": "Artisan R.1",
+    "sell_price": "$12",
+    "buy_price": "$40",
     "slots": "4",
-    "inventory": "4x1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Chest_Bag_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070313",
+    "manufacturer": "Changleedo",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Universal_Chest_Bag_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152908",
     "numeric_values": {
       "weight": {
         "value": 0.3,
         "unit": "kg"
       }
-    }
+    },
+    "inventory": "4x1"
   }
 ]

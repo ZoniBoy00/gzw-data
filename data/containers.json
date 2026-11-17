@@ -3,14 +3,14 @@
     "name": "Admin Desk",
     "id": "admin-desk",
     "type": "Container",
-    "weight": "38.600kg",
+    "weight": "38.6kg",
+    "grid_size": "4x4",
     "sold_by": "Artisan R.3",
-    "grid_size": "15x14",
+    "sell_price": "$26,844.3",
+    "buy_price": "$89,481",
     "slots": "210",
     "manufacturer": "Pelican Products",
-    "buy_price": "$89,481",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Admin_Desk_inspect.png/revision/latest?cb=20260331091140",
-    "sell_price": "$26,844.3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Admin_Desk_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183420",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -24,15 +24,14 @@
     "name": "Admin Pouch",
     "id": "admin-pouch",
     "type": "Container",
-    "weight": "0.180kg",
+    "weight": "0.18kg",
+    "grid_size": "2x1",
     "sold_by": "Artisan R.2",
-    "grid_size": "2x3",
+    "sell_price": "$22,764.3",
+    "buy_price": "$75,881",
     "slots": "6",
     "manufacturer": "Raptor Tactical",
-    "buy_price": "$75,881",
-    "restrictions": "Keys Intels Currency",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Admin_Pouch_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404034238",
-    "sell_price": "$22,764.3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Admin_Pouch_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183431",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -40,42 +39,43 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Keys Intels Currency",
     "inventory_layout_(x/y)": "2x3"
   },
   {
     "name": "First Aid Case",
     "id": "first-aid-case",
     "type": "Container",
-    "weight": "1.500kg",
+    "weight": "1.5kg",
+    "grid_size": "3x2",
     "sold_by": "Lab Rat R.2",
-    "grid_size": "6x5",
+    "sell_price": "$19,014",
+    "buy_price": "$63,380",
     "slots": "30",
     "manufacturer": "Nanuk",
-    "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/Med_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20250427173539",
-    "sell_price": "$19,014",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/First_Aid_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183441",
     "numeric_values": {
       "weight": {
         "value": 1.5,
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Medical items",
+    "sell_price_source": "gzwitems.com",
     "inventory_layout_(x/y)": "6x5"
   },
   {
     "name": "Hand Grenade Storage Box",
     "id": "hand-grenade-storage-box",
     "type": "Container",
-    "weight": "0.900kg",
+    "weight": "0.9kg",
+    "grid_size": "3x2",
     "sold_by": "Turncoat R.3",
-    "grid_size": "5x4",
+    "sell_price": "$22,635.6",
+    "buy_price": "$75,452",
     "slots": "20",
     "manufacturer": "German Army",
-    "buy_price": "$75,452",
-    "restrictions": "Can only holds Throwables",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Hand_Grenade_Storage_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404032855",
-    "sell_price": "$22,635.6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Hand_Grenade_Storage_Box_inspect.png/revision/latest/scale-to-width-down/267?cb=20261114183447",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -83,18 +83,28 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Throwables",
     "inventory_layout_(x/y)": "5x4"
   },
   {
     "name": "Hard Case First Aid Kit",
     "id": "hard-case-first-aid-kit",
     "type": "Container",
-    "sold_by": "Loot only",
-    "grid_size": "1x2",
-    "slots": "2",
-    "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/HCKit_inspect.png/revision/latest?cb=20250621182758",
+    "weight": "0.3kg",
+    "grid_size": "1x1",
+    "sold_by": "Lab Rat R.1",
     "sell_price": "$27",
+    "buy_price": "$90",
+    "slots": "2",
+    "manufacturer": "Philippine Medical Supplies",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/Hard_Case_First_Aid_Kit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183456",
+    "numeric_values": {
+      "weight": {
+        "value": 0.3,
+        "unit": "kg"
+      }
+    },
+    "restrictions": "Can only holds Medical items",
     "sell_price_source": "gzwitems.com",
     "inventory_layout_(x/y)": "1x2"
   },
@@ -102,15 +112,14 @@
     "name": "HARDE Case",
     "id": "harde-case",
     "type": "Container",
-    "weight": "4.900kg",
+    "weight": "4.9kg",
+    "grid_size": "7x3",
     "sold_by": "Gunny R.3",
-    "grid_size": "10x6",
+    "sell_price": "$23,036.4",
+    "buy_price": "$76,788",
     "slots": "60",
     "manufacturer": "Pelican Products",
-    "buy_price": "$76,788",
-    "restrictions": "Can only holds Weapons",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/HARDE_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505043322",
-    "sell_price": "$23,036.4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/HARDE_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183505",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -118,43 +127,43 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Weapons",
     "inventory_layout_(x/y)": "10x6"
   },
   {
     "name": "Injector Case",
     "id": "injector-case",
     "type": "Container",
-    "weight": "0.360kg",
+    "weight": "0.36kg",
+    "grid_size": "2x1",
     "sold_by": "Lab Rat R.4",
-    "grid_size": "3x3",
+    "sell_price": "$1,500",
+    "buy_price": "$5,000",
     "slots": "9",
     "manufacturer": "General West",
-    "buy_price": "$5,000",
-    "restrictions": "Medical#Stimulators",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Injector_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091421",
-    "sell_price": "$1,500",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Injector_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183516",
     "numeric_values": {
       "weight": {
         "value": 0.36,
         "unit": "kg"
       }
     },
+    "restrictions": "Medical#Stimulators",
+    "sell_price_source": "gzwitems.com",
     "inventory_layout_(x/y)": "3x3"
   },
   {
     "name": "IV Truncase",
     "id": "iv-truncase",
     "type": "Container",
-    "weight": "2.700kg",
+    "weight": "2.7kg",
+    "grid_size": "6x4",
     "sold_by": "Artisan R.2",
-    "grid_size": "9x7",
+    "sell_price": "$18,499.5",
+    "buy_price": "$61,665",
     "slots": "63",
     "manufacturer": "Plano Molding",
-    "buy_price": "$61,665",
-    "restrictions": "Can only holds Plate Carriers Belts Armor Vests Headwear Glasses Backpacks Tactical Rigs Headsets",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/IV_Truncase_inspect.png/revision/latest/scale-to-width-down/268?cb=20250612202955",
-    "sell_price": "$18,499.5",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/IV_Truncase_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183528",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -162,18 +171,21 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Plate Carriers Belts Armor Vests Headwear Glasses Backpacks Tactical Rigs Headsets",
     "inventory_layout_(x/y)": "9x7"
   },
   {
     "name": "Key Case",
     "id": "key-case",
     "type": "Container",
-    "weight": "0.020kg",
+    "weight": "0.02kg",
+    "grid_size": "2x1",
     "sold_by": "Artisan R.3",
-    "grid_size": "5x3",
-    "restrictions": "Can only holds Keys",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/Key_C_inspect.png/revision/latest?cb=20240518173747",
     "sell_price": "$1,804.5",
+    "buy_price": "$6,015",
+    "slots": "15",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Key_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183536",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -181,20 +193,21 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Keys",
     "inventory_layout_(x/y)": "5x3"
   },
   {
     "name": "Kombat Folder",
     "id": "kombat-folder",
     "type": "Container",
-    "weight": "0.420kg",
+    "weight": "0.42kg",
+    "grid_size": "2x2",
     "sold_by": "Artisan R.3",
-    "grid_size": "4x4",
+    "sell_price": "$22,626.9",
+    "buy_price": "$75,423",
     "slots": "16",
     "manufacturer": "Kombat UK",
-    "buy_price": "$75,423",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Kombat_Folder_inspect.png/revision/latest?cb=20260331091502",
-    "sell_price": "$22,626.9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Kombat_Folder_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183540",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -208,14 +221,14 @@
     "name": "Large Key Case",
     "id": "large-key-case",
     "type": "Container",
-    "weight": "0.170kg",
+    "weight": "0.17kg",
+    "grid_size": "3x1",
     "sold_by": "Artisan R.4",
-    "grid_size": "6x5",
-    "manufacturer": "General Local",
-    "buy_price": "$9,022",
-    "restrictions": "Keys",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/6x5_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250619195900",
     "sell_price": "$2,706.6",
+    "buy_price": "$9,022",
+    "slots": "30",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/Large_Key_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183547",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -223,28 +236,28 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Keys",
     "inventory_layout_(x/y)": "6x5"
   },
   {
     "name": "Large Safe",
     "id": "large-safe",
     "type": "Container",
-    "weight": "15.000kg",
-    "sold_by": "Collector R.4",
-    "grid_size": "9x12",
-    "slots": "108",
-    "manufacturer": "General West",
+    "weight": "15kg",
+    "grid_size": "3x4",
+    "sold_by": "Vulture R.4",
     "sell_price": "$31,668",
     "buy_price": "$105,560",
-    "restrictions": "Vices Jewellery Electronics Funds Evidence Military Equipment",
+    "slots": "108",
+    "manufacturer": "General West",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Large_Safe_inspect.png/revision/latest?cb=20260416205057",
-    "sold_by_source": "game-files",
     "numeric_values": {
       "weight": {
         "value": 15.0,
         "unit": "kg"
       }
     },
+    "restrictions": "Vices Jewellery Electronics Funds Evidence Military Equipment",
     "inventory_layout_(x/y)": "9x12"
   },
   {
@@ -252,14 +265,13 @@
     "id": "leather-key-holder",
     "type": "Container",
     "weight": "0.048kg",
+    "grid_size": "1x1",
     "sold_by": "Artisan R.2",
-    "grid_size": "3x2",
+    "sell_price": "$1,353.3",
+    "buy_price": "$4,511",
     "slots": "6",
     "manufacturer": "General Local",
-    "buy_price": "$4,511",
-    "restrictions": "Can only holds Keys",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Leather_Key_Holder_inspect.png/revision/latest?cb=20240509224936",
-    "sell_price": "$1,353.3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Leather_Key_Holder_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183551",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -267,21 +279,41 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Keys",
     "inventory_layout_(x/y)": "3x2"
+  },
+  {
+    "name": "Leather Wallet",
+    "id": "wallet",
+    "type": "Container",
+    "weight": "0.06kg",
+    "grid_size": "1x1",
+    "sold_by": "Artisan R.2",
+    "sell_price": "$1,372.8",
+    "buy_price": "$4,576",
+    "slots": "4",
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6e/Leather_Wallet_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183601",
+    "sell_price_source": "gzwitems.com",
+    "numeric_values": {
+      "weight": {
+        "value": 0.06,
+        "unit": "kg"
+      }
+    }
   },
   {
     "name": "Magazine Case",
     "id": "magazine-case",
     "type": "Container",
-    "weight": "2.860kg",
+    "weight": "2.86kg",
+    "grid_size": "3x2",
     "sold_by": "Gunny R.2",
-    "grid_size": "6x6",
+    "sell_price": "$20,716.2",
+    "buy_price": "$69,054",
     "slots": "36",
     "manufacturer": "Pelican Products",
-    "buy_price": "$69,054",
-    "restrictions": "Magazines",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/Magazine_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331091643",
-    "sell_price": "$20,716.2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/Magazine_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183608",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -289,43 +321,43 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Magazines",
     "inventory_layout_(x/y)": "6x6"
   },
   {
     "name": "Medical Box",
     "id": "medical-box",
     "type": "Container",
-    "weight": "4.700kg",
+    "weight": "4.7kg",
+    "grid_size": "4x3",
     "sold_by": "Lab Rat R.4",
-    "grid_size": "10x8",
+    "sell_price": "$27,882",
+    "buy_price": "$92,940",
     "slots": "80",
     "manufacturer": "B Medical Systems",
-    "buy_price": "$92,940",
-    "restrictions": "Medical",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Medical_Box_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132324",
-    "sell_price": "$27,882",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Medical_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183618",
     "numeric_values": {
       "weight": {
         "value": 4.7,
         "unit": "kg"
       }
     },
+    "restrictions": "Medical",
+    "sell_price_source": "gzwitems.com",
     "inventory_layout_(x/y)": "10x8"
   },
   {
     "name": "Metal Ammo Box",
     "id": "metal-ammo-box",
     "type": "Container",
-    "weight": "2.400kg",
+    "weight": "2.4kg",
+    "grid_size": "2x2",
     "sold_by": "Turncoat R.2",
-    "grid_size": "5x4",
+    "sell_price": "$18,083.4",
+    "buy_price": "$60,278",
     "slots": "20",
     "manufacturer": "US Army",
-    "buy_price": "$60,278",
-    "restrictions": "Can only holds Ammunition",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Metal_Ammo_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404032325",
-    "sell_price": "$18,083.4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Metal_Ammo_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183625",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -333,42 +365,43 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Ammunition",
     "inventory_layout_(x/y)": "5x4"
   },
   {
     "name": "Mini First Aid Kit",
     "id": "mini-first-aid-kit",
     "type": "Container",
-    "weight": "0.400kg",
+    "weight": "0.4kg",
+    "grid_size": "1x1",
     "sold_by": "Lab Rat R.2",
-    "grid_size": "3x1",
-    "slots": "3",
-    "manufacturer": "General west",
-    "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9f/M-FAK_inspect.png/revision/latest?cb=20250218093903",
     "sell_price": "$60",
-    "sell_price_source": "gzwitems.com",
+    "buy_price": "$200",
+    "slots": "3",
+    "manufacturer": "General West",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Mini_First_Aid_Kit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183634",
     "numeric_values": {
       "weight": {
         "value": 0.4,
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Medical items",
+    "sell_price_source": "gzwitems.com",
     "inventory_layout_(x/y)": "3x1"
   },
   {
     "name": "MM Ammo Box",
     "id": "mm-ammo-box",
     "type": "Container",
-    "weight": "0.450kg",
+    "weight": "0.45kg",
+    "grid_size": "3x2",
     "sold_by": "Turncoat R.4",
-    "grid_size": "7x6",
+    "sell_price": "$27,094.8",
+    "buy_price": "$90,316",
     "slots": "42",
     "manufacturer": "Plano Molding",
-    "buy_price": "$90,316",
-    "restrictions": "Can only holds Ammunition",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/MM_Ammo_Box_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132730",
-    "sell_price": "$27,094.8",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/41/MM_Ammo_Box_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183638",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -376,6 +409,7 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Ammunition",
     "inventory_layout_(x/y)": "7x6"
   },
   {
@@ -383,35 +417,35 @@
     "id": "mm24-case",
     "type": "Container",
     "weight": "28kg",
-    "sold_by": "Tasks reward only",
-    "grid_size": "12x10",
+    "grid_size": "7x5",
+    "sold_by": "Artisan R.4",
+    "sell_price": "$31,356",
+    "buy_price": "$104,520",
     "slots": "120",
     "manufacturer": "Pelican Products",
-    "restrictions": "Can only hold: Plate Carriers Belts Armor Vests Headwear Glasses Backpacks Tactical Rigs Headsets",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/MM24_Case_Inspect.png/revision/latest/scale-to-width-down/268?cb=20260525132939",
-    "sell_price": "$31,356",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/61/MM24_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183643",
     "numeric_values": {
       "weight": {
         "value": 28.0,
         "unit": "kg"
       }
     },
+    "restrictions": "Can only hold: Plate Carriers Belts Armor Vests Headwear Glasses Backpacks Tactical Rigs Headsets",
+    "sell_price_source": "gzwitems.com",
     "inventory_layout_(x/y)": "12x10"
   },
   {
     "name": "Mortar Round Crate",
     "id": "mortar-round-crate",
     "type": "Container",
-    "weight": "12.000kg",
+    "weight": "12kg",
+    "grid_size": "5x2",
     "sold_by": "Gunny R.3",
-    "grid_size": "5x3",
+    "sell_price": "$22,664.1",
+    "buy_price": "$75,547",
     "slots": "15",
     "manufacturer": "General East",
-    "buy_price": "$75,547",
-    "restrictions": "Magazines",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Mortar_Round_Crate_inspect.png/revision/latest/scale-to-width-down/267?cb=20260416205255",
-    "sell_price": "$22,664.1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Mortar_Round_Crate_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183651",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -419,21 +453,21 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Magazines",
     "inventory_layout_(x/y)": "5x3"
   },
   {
     "name": "Muxxum Rifle Case",
     "id": "muxxum-rifle-case",
     "type": "Container",
-    "weight": "6.200kg",
+    "weight": "6.2kg",
+    "grid_size": "8x3",
     "sold_by": "Gunny R.4",
-    "grid_size": "12x8",
+    "sell_price": "$31,630.5",
+    "buy_price": "$105,435",
     "slots": "96",
     "manufacturer": "Plano Molding",
-    "buy_price": "$105,435",
-    "restrictions": "Can only holds Weapons",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/Muxxum_Rifle_Case_inspect.png/revision/latest/scale-to-width-down/267?cb=20260404031307",
-    "sell_price": "$31,630.5",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/Muxxum_Rifle_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183702",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -441,21 +475,21 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Weapons",
     "inventory_layout_(x/y)": "12x8"
   },
   {
     "name": "Personal Cooler",
     "id": "personal-cooler",
     "type": "Container",
-    "weight": "0.820kg",
+    "weight": "0.82kg",
+    "grid_size": "4x3",
     "sold_by": "Artisan R.2",
-    "grid_size": "6x6",
+    "sell_price": "$18,071.1",
+    "buy_price": "$60,237",
     "slots": "36",
     "manufacturer": "Coleman",
-    "buy_price": "$60,237",
-    "restrictions": "Can only holds Provisions items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Personal_Cooler_inspect.png/revision/latest/scale-to-width-down/268?cb=20250218100135",
-    "sell_price": "$18,071.1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Personal_Cooler_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183711",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -463,83 +497,84 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Provisions items",
     "inventory_layout_(x/y)": "6x6"
   },
   {
     "name": "Quick Release First Aid Kit",
     "id": "quick-release-first-aid-kit",
     "type": "Container",
-    "weight": "0.550kg",
+    "weight": "0.3kg",
+    "grid_size": "1x2",
     "sold_by": "Lab Rat R.3",
-    "grid_size": "2x3",
+    "sell_price": "$96",
+    "buy_price": "$320",
     "slots": "6",
     "manufacturer": "ANA-Tactical",
-    "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/QRKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20240516232543",
-    "sell_price": "$96",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/Quick_Release_First_Aid_Kit_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183719",
     "numeric_values": {
       "weight": {
-        "value": 0.55,
+        "value": 0.3,
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Medical items",
+    "sell_price_source": "gzwitems.com",
     "inventory_layout_(x/y)": "2x3"
   },
   {
-    "name": "RIP-AWAY EMT POUCH",
+    "name": "Rip-Away EMT Pouch",
     "id": "rip-away-emt-pouch",
     "type": "Container",
-    "weight": "0.400kg",
+    "weight": "0.4kg",
+    "grid_size": "1x2",
     "sold_by": "Lab Rat R.4",
-    "grid_size": "3x3",
+    "sell_price": "$132",
+    "buy_price": "$440",
     "slots": "9",
     "manufacturer": "Condor Outdoor",
-    "restrictions": "Can only holds Medical items",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/EMT_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412135910",
-    "sell_price": "$132",
-    "sell_price_source": "gzwitems.com",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/Rip-Away_EMT_Pouch_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183721",
     "numeric_values": {
       "weight": {
         "value": 0.4,
         "unit": "kg"
       }
-    },
-    "inventory_layout_(x/y)": "3x3"
+    }
   },
   {
     "name": "Small Safe",
     "id": "small-safe",
     "type": "Container",
-    "weight": "3.000kg",
-    "sold_by": "Collector R.3",
-    "grid_size": "6x4",
-    "slots": "24",
-    "sell_price": "$22,652",
+    "weight": "3kg",
+    "grid_size": "3x2",
+    "sold_by": "Vulture R.3",
+    "sell_price": "$22,652.7",
     "buy_price": "$75,509",
-    "restrictions": "Vices Jewellery Electronics Funds Evidence Military Equipment",
+    "slots": "24",
+    "manufacturer": "General West",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Small_Safe_inspect.png/revision/latest/scale-to-width-down/268?cb=20260416204951",
-    "sold_by_source": "game-files",
+    "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
         "value": 3.0,
         "unit": "kg"
       }
     },
+    "restrictions": "Vices Jewellery Electronics Funds Evidence Military Equipment",
     "inventory_layout_(x/y)": "6x4"
   },
   {
     "name": "Tactical Wallet",
     "id": "tactical-wallet",
     "type": "Container",
-    "weight": "0.130kg",
+    "weight": "0.13kg",
+    "grid_size": "1x2",
     "sold_by": "Artisan R.4",
-    "grid_size": "4x3",
+    "sell_price": "$2,259.6",
+    "buy_price": "$7,532",
     "slots": "12",
     "manufacturer": "General West",
-    "buy_price": "$7,532",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Tactical_Wallet_inspect.png/revision/latest?cb=20260331091901",
-    "sell_price": "$2,259.6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Tactical_Wallet_inspect.png/revision/latest?cb=20261114183725",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -550,36 +585,17 @@
     "inventory_layout_(x/y)": "4x3"
   },
   {
-    "name": "Wallet",
-    "id": "wallet",
-    "type": "Container",
-    "weight": "0.060kg",
-    "sold_by": "Artisan R.2",
-    "grid_size": "2x2",
-    "slots": "4",
-    "buy_price": "$4,576",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Wallet_inspect.png/revision/latest?cb=20240506162636",
-    "numeric_values": {
-      "weight": {
-        "value": 0.06,
-        "unit": "kg"
-      }
-    },
-    "inventory_layout_(x/y)": "2x2"
-  },
-  {
     "name": "Weapon Parts Case",
     "id": "weapon-parts-case",
     "type": "Container",
-    "weight": "6.200kg",
+    "weight": "6.2kg",
+    "grid_size": "4x3",
     "sold_by": "Gunny R.2",
-    "grid_size": "7x6",
+    "sell_price": "$22,332.6",
+    "buy_price": "$74,442",
     "slots": "42",
     "manufacturer": "General West",
-    "buy_price": "$74,442",
-    "restrictions": "Can only holds Weapon Parts",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/Weapon_Parts_Case_icon.png/revision/latest/scale-to-width-down/48?cb=20260404030951",
-    "sell_price": "$22,332.6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Weapon_Parts_Case_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114183736",
     "sell_price_source": "gzwitems.com",
     "numeric_values": {
       "weight": {
@@ -587,6 +603,7 @@
         "unit": "kg"
       }
     },
+    "restrictions": "Can only holds Weapon Parts",
     "inventory_layout_(x/y)": "7x6"
   }
 ]
