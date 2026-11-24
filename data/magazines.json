@@ -417,6 +417,7 @@
     "size_change_horizontal": "???",
     "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/M590_Mag%2810_rnds%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614000956",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 0.94,
@@ -433,7 +434,8 @@
     "manufacturer": "???",
     "reload_speed": "??? %",
     "size_change_horizontal": "???",
-    "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug"
+    "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
+    "caliber": "12 Gauge"
   },
   {
     "name": "M700 7.62x51mm 10-Round Magazine",
@@ -503,7 +505,8 @@
     "manufacturer": "???",
     "reload_speed": "??? %",
     "size_change_horizontal": "???",
-    "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug"
+    "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
+    "caliber": "12 Gauge"
   },
   {
     "name": "M870 12ga 4-Round Cap",
@@ -513,6 +516,7 @@
     "sold_by": "Gunny R.1",
     "manufacturer": "General West",
     "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 0.1,
@@ -529,6 +533,7 @@
     "manufacturer": "Remington",
     "size_change_horizontal": "+2",
     "accepted_ammunition": "12GA FC 00 Buckshot 12GA 00 Buckshot 12GA Slug 12GA SST Sabot Slug",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 0.25,

@@ -363,18 +363,18 @@
     "type": "Round"
   },
   {
-    "name": "5.56x45mm HPBT (Gunny)",
-    "id": "gunny-ammo-5-56x45mm-hpbt",
-    "item": "5.56x45mm HPBT",
+    "name": "5.56x45mm FMJ (M193) (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-m193",
+    "item": "5.56x45mm FMJ (M193)",
     "vendor": "Gunny",
     "rank": 2,
     "category": "ammo",
     "type": "Round"
   },
   {
-    "name": "5.56x45mm M193 (Gunny)",
-    "id": "gunny-ammo-5-56x45mm-m193",
-    "item": "5.56x45mm M193",
+    "name": "5.56x45mm HPBT (Gunny)",
+    "id": "gunny-ammo-5-56x45mm-hpbt",
+    "item": "5.56x45mm HPBT",
     "vendor": "Gunny",
     "rank": 2,
     "category": "ammo",
@@ -864,6 +864,16 @@
     "type": "Collimator"
   },
   {
+    "name": "AK 308 Handguard (Turncoat)",
+    "id": "turncoat-handguards-ak-308-handguard",
+    "item": "AK 308 Handguard",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$765"
+  },
+  {
     "name": "AK 5.45x39mm 30-Round PMAG Magazine (Turncoat)",
     "id": "turncoat-magazines-ak-5-45x39mm-30-round-pmag-magazine",
     "item": "AK 5.45x39mm 30-Round PMAG Magazine",
@@ -925,10 +935,10 @@
     "id": "turncoat-handguards-ak-b10m-b19-handguard",
     "item": "AK B10M + B19 Handguard",
     "vendor": "Turncoat",
-    "rank": 2,
+    "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$167"
+    "buy_price": "$850"
   },
   {
     "name": "AK Buffer Tube Adapter (Artisan)",
@@ -939,6 +949,16 @@
     "category": "stock_adapters",
     "type": "Stock Adapter",
     "buy_price": "$68"
+  },
+  {
+    "name": "AK Handguard Romanian Dong (Turncoat)",
+    "id": "turncoat-handguards-ak-handguard-romanian-dong",
+    "item": "AK Handguard Romanian Dong",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$178.5"
   },
   {
     "name": "AK MOE Handguard (Artisan)",
@@ -958,16 +978,6 @@
     "category": "stocks",
     "type": "Stock",
     "buy_price": "$211"
-  },
-  {
-    "name": "AK Polymer Handguard with Picatinny Rail (Turncoat)",
-    "id": "turncoat-handguards-ak-polymer-handguard-with-picatinny-rail",
-    "item": "AK Polymer Handguard with Picatinny Rail",
-    "vendor": "Turncoat",
-    "rank": 1,
-    "category": "handguards",
-    "type": "Handguard",
-    "buy_price": "$89"
   },
   {
     "name": "AK Polymer Pistol Grip (Artisan)",
@@ -990,6 +1000,16 @@
     "buy_price": "$423"
   },
   {
+    "name": "AK Ratnik Handguard (Turncoat)",
+    "id": "turncoat-handguards-ak-ratnik-handguard",
+    "item": "AK Ratnik Handguard",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$1,020"
+  },
+  {
     "name": "AK Rear Iron Sight (Artisan)",
     "id": "artisan-rear-iron-sights-ak-rear-iron-sight",
     "item": "AK Rear Iron Sight",
@@ -1000,13 +1020,14 @@
     "buy_price": "$26"
   },
   {
-    "name": "AK RP-1 Charging Handle (Artisan)",
-    "id": "artisan-charging-handle-ak-rp-1-charging-handle",
-    "item": "AK RP-1 Charging Handle",
-    "vendor": "Artisan",
-    "rank": 3,
+    "name": "AK Slotted Charging Handle (Turncoat)",
+    "id": "turncoat-charging-handle-ak-slotted-charging-handle",
+    "item": "AK Slotted Charging Handle",
+    "vendor": "Turncoat",
+    "rank": 4,
     "category": "charging_handle",
-    "type": "Charging Handle"
+    "type": "Charging Handle",
+    "buy_price": "$210"
   },
   {
     "name": "AK Zhukov Stock (Artisan)",
@@ -1122,9 +1143,20 @@
     "id": "turncoat-handguards-ak-74-polymer-handguard",
     "item": "AK-74 Polymer Handguard",
     "vendor": "Turncoat",
-    "rank": null,
+    "rank": 2,
     "category": "handguards",
-    "type": "Handguard"
+    "type": "Handguard",
+    "buy_price": "$204"
+  },
+  {
+    "name": "AK-74 Wooden Handguard (Turncoat)",
+    "id": "turncoat-handguards-ak-74-wooden-handguard",
+    "item": "AK-74 Wooden Handguard",
+    "vendor": "Turncoat",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$136"
   },
   {
     "name": "AK-74M (Turncoat)",
@@ -1236,14 +1268,14 @@
     "buy_price": "$13"
   },
   {
-    "name": "AKM Wooden Handguard (Artisan)",
-    "id": "artisan-handguards-akm-wooden-handguard",
+    "name": "AKM Wooden Handguard (Turncoat)",
+    "id": "turncoat-handguards-akm-wooden-handguard",
     "item": "AKM Wooden Handguard",
-    "vendor": "Artisan",
-    "rank": 1,
+    "vendor": "Turncoat",
+    "rank": 2,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$59"
+    "buy_price": "$136"
   },
   {
     "name": "AKM Zhukov Adapter (Artisan)",
@@ -1349,10 +1381,10 @@
     "id": "turncoat-handguards-aks-74u-mlok-handguard",
     "item": "AKS-74U Mlok Handguard",
     "vendor": "Turncoat",
-    "rank": 2,
+    "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$84"
+    "buy_price": "$391"
   },
   {
     "name": "AKS-74U Muzzle Brake (Turncoat)",
@@ -1369,10 +1401,10 @@
     "id": "turncoat-handguards-aks-74u-quad-rail-handguard",
     "item": "AKS-74U Quad-Rail Handguard",
     "vendor": "Turncoat",
-    "rank": 1,
+    "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$50"
+    "buy_price": "$476"
   },
   {
     "name": "AKS-74U Rear sight (Turncoat)",
@@ -1392,7 +1424,7 @@
     "rank": 1,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$33"
+    "buy_price": "$136"
   },
   {
     "name": "ALICE (Handshake)",
@@ -1491,6 +1523,16 @@
     "type": "Drink"
   },
   {
+    "name": "AR-15 Ambidextrous Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-ar-15-ambidextrous-charging-handle",
+    "item": "AR-15 Ambidextrous Charging Handle",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$272"
+  },
+  {
     "name": "AR-15 Archangel Low-Profile Buttstock (Gunny)",
     "id": "gunny-stocks-ar-15-archangel-low-profile-buttstock",
     "item": "AR-15 Archangel Low-Profile Buttstock",
@@ -1565,7 +1607,8 @@
     "vendor": "Gunny",
     "rank": 3,
     "category": "charging_handle",
-    "type": "Charging Handle"
+    "type": "Charging Handle",
+    "buy_price": "$195.5"
   },
   {
     "name": "AR-15 JPGS-10D Gas Block (Gunny)",
@@ -1592,9 +1635,10 @@
     "id": "gunny-handguards-ar-15-moe-m-lok-carbine-handguard",
     "item": "AR-15 MOE M-LOK Carbine Handguard",
     "vendor": "Gunny",
-    "rank": 1,
+    "rank": 2,
     "category": "handguards",
-    "type": "Handguard"
+    "type": "Handguard",
+    "buy_price": "$561"
   },
   {
     "name": "AR-15 Supreme Charging Handle (Gunny)",
@@ -1604,7 +1648,7 @@
     "rank": 4,
     "category": "charging_handle",
     "type": "Charging Handle",
-    "buy_price": "$166"
+    "buy_price": "$234.6"
   },
   {
     "name": "AR15 MOE Stock (Gunny)",
@@ -1666,6 +1710,16 @@
     "type": "Magazine"
   },
   {
+    "name": "AUG M-LOK Handguard (Vulture)",
+    "id": "vulture-handguards-aug-m-lok-handguard",
+    "item": "AUG M-LOK Handguard",
+    "vendor": "Vulture",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$650"
+  },
+  {
     "name": "AUG Vertical Foregrip (Vulture)",
     "id": "vulture-foregrips-aug-vertical-foregrip",
     "item": "AUG Vertical Foregrip",
@@ -1676,16 +1730,6 @@
     "buy_price": "$140"
   },
   {
-    "name": "B&T BT-21343 HK MP5SD Tri-Rail Handguard (Gunny)",
-    "id": "gunny-handguards-b-t-bt-21343-hk-mp5sd-tri-rail-handguard",
-    "item": "B&T BT-21343 HK MP5SD Tri-Rail Handguard",
-    "vendor": "Gunny",
-    "rank": 4,
-    "category": "handguards",
-    "type": "Handguard",
-    "buy_price": "$481"
-  },
-  {
     "name": "B&T HK MP5 TL-99A1 3 Rail Handguard (Gunny)",
     "id": "gunny-handguards-b-t-hk-mp5-tl-99a1-3-rail-handguard",
     "item": "B&T HK MP5 TL-99A1 3 Rail Handguard",
@@ -1693,7 +1737,7 @@
     "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$345"
+    "buy_price": "$646"
   },
   {
     "name": "Back-Up 3 Front Iron Sight (Gunny)",
@@ -1793,6 +1837,16 @@
     "buy_price": "$650"
   },
   {
+    "name": "Benelli M4 Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-benelli-m4-charging-handle",
+    "item": "Benelli M4 Charging Handle",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$180"
+  },
+  {
     "name": "Benelli M4 Dummy Magazine Extension (Gunny)",
     "id": "gunny-auxiliary-benelli-m4-dummy-magazine-extension",
     "item": "Benelli M4 Dummy Magazine Extension",
@@ -1801,6 +1855,36 @@
     "category": "auxiliary",
     "type": "Auxiliary",
     "buy_price": "$120"
+  },
+  {
+    "name": "Benelli M4 Handguard (Gunny)",
+    "id": "gunny-handguards-benelli-m4-handguard",
+    "item": "Benelli M4 Handguard",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$380"
+  },
+  {
+    "name": "Benelli M4 M-LOK Handguard (Gunny)",
+    "id": "gunny-handguards-benelli-m4-m-lok-handguard",
+    "item": "Benelli M4 M-LOK Handguard",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$980"
+  },
+  {
+    "name": "Benelli M4 Quad Rail Handguard (Gunny)",
+    "id": "gunny-handguards-benelli-m4-quad-rail-handguard",
+    "item": "Benelli M4 Quad Rail Handguard",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$845"
   },
   {
     "name": "Berg Bar Cookie Chocolate (Lab Rat)",
@@ -2197,7 +2281,8 @@
     "vendor": "Gunny",
     "rank": 1,
     "category": "handguards",
-    "type": "Handguard"
+    "type": "Handguard",
+    "buy_price": "$170"
   },
   {
     "name": "CQ A1 Charging Handle (Gunny)",
@@ -2206,7 +2291,8 @@
     "vendor": "Gunny",
     "rank": 1,
     "category": "charging_handle",
-    "type": "Charging Handle"
+    "type": "Charging Handle",
+    "buy_price": "$117.3"
   },
   {
     "name": "CQ A1 Upper Receiver (Gunny)",
@@ -2236,6 +2322,46 @@
     "category": "gas_blocks",
     "type": "Gas Block",
     "buy_price": "$125.8"
+  },
+  {
+    "name": "CRC 1U004A Handguard (Turncoat)",
+    "id": "turncoat-handguards-crc-1u004a-handguard",
+    "item": "CRC 1U004A Handguard",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$922"
+  },
+  {
+    "name": "CRC 1U020A Handguard (Turncoat)",
+    "id": "turncoat-handguards-crc-1u020a-handguard",
+    "item": "CRC 1U020A Handguard",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$845"
+  },
+  {
+    "name": "CRC 1U020B Handguard (Turncoat)",
+    "id": "turncoat-handguards-crc-1u020b-handguard",
+    "item": "CRC 1U020B Handguard",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$1,150"
+  },
+  {
+    "name": "CRC 1U040 Handguard (Turncoat)",
+    "id": "turncoat-handguards-crc-1u040-handguard",
+    "item": "CRC 1U040 Handguard",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$920"
   },
   {
     "name": "CRC M-LOK Foregrip (Turncoat)",
@@ -2357,14 +2483,24 @@
     "buy_price": "$232.9"
   },
   {
-    "name": "DD RIS II 12 (Gunny)",
-    "id": "gunny-handguards-dd-ris-ii-12",
-    "item": "DD RIS II 12",
+    "name": "DD RIS II 12 FSP (Gunny)",
+    "id": "gunny-handguards-dd-ris-ii-12-fsp",
+    "item": "DD RIS II 12 FSP",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$1,445"
+  },
+  {
+    "name": "DD RIS II 9.5 (MilSpec) (Gunny)",
+    "id": "gunny-handguards-dd-ris-ii-9-5-milspec",
+    "item": "DD RIS II 9.5 (MilSpec)",
     "vendor": "Gunny",
     "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$504"
+    "buy_price": "$1,360"
   },
   {
     "name": "DD Vertical Foregrip (MILSPEC) (Gunny)",
@@ -2434,6 +2570,16 @@
     "category": "muzzle_devices",
     "type": "Muzzle Device",
     "buy_price": "$117"
+  },
+  {
+    "name": "EMA X5 Aluminum 5-rail MP5 (Gunny)",
+    "id": "gunny-handguards-ema-x5-aluminum-5-rail-mp5",
+    "item": "EMA X5 Aluminum 5-rail MP5",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$850"
   },
   {
     "name": "Emergency Suture Kit (Lab Rat)",
@@ -2506,13 +2652,24 @@
     "buy_price": "$75"
   },
   {
+    "name": "F-1 Firearms C7M-9 Handguard (Gunny)",
+    "id": "gunny-handguards-f-1-firearms-c7m-9-handguard",
+    "item": "F-1 Firearms C7M-9 Handguard",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$850"
+  },
+  {
     "name": "F1 Charging Handle (Gunny)",
     "id": "gunny-charging-handle-f1-charging-handle",
     "item": "F1 Charging Handle",
     "vendor": "Gunny",
     "rank": 2,
     "category": "charging_handle",
-    "type": "Charging Handle"
+    "type": "Charging Handle",
+    "buy_price": "$190.4"
   },
   {
     "name": "FAST MT (Multicam) (Handshake)",
@@ -2613,6 +2770,56 @@
     "type": "Rear Iron Sight"
   },
   {
+    "name": "G3 Cocking Handle (Artisan)",
+    "id": "artisan-charging-handle-g3-cocking-handle",
+    "item": "G3 Cocking Handle",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$50"
+  },
+  {
+    "name": "G3 Extended Rifle M-LOK Handguard (Artisan)",
+    "id": "artisan-handguards-g3-extended-rifle-m-lok-handguard",
+    "item": "G3 Extended Rifle M-LOK Handguard",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$1,100"
+  },
+  {
+    "name": "G3 Handguard (Artisan)",
+    "id": "artisan-handguards-g3-handguard",
+    "item": "G3 Handguard",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$590"
+  },
+  {
+    "name": "G3 M-LOK Handguard (Artisan)",
+    "id": "artisan-handguards-g3-m-lok-handguard",
+    "item": "G3 M-LOK Handguard",
+    "vendor": "Artisan",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$880"
+  },
+  {
+    "name": "G3 Wooden Handguard (Artisan)",
+    "id": "artisan-handguards-g3-wooden-handguard",
+    "item": "G3 Wooden Handguard",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$290"
+  },
+  {
     "name": "G36 Barrel - 18.9\" (Vulture)",
     "id": "vulture-barrels-g36-barrel-18-9",
     "item": "G36 Barrel - 18.9\"",
@@ -2621,6 +2828,26 @@
     "category": "barrels",
     "type": "Barrel",
     "buy_price": "$440"
+  },
+  {
+    "name": "G36 Handguard (Vulture)",
+    "id": "vulture-handguards-g36-handguard",
+    "item": "G36 Handguard",
+    "vendor": "Vulture",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$476"
+  },
+  {
+    "name": "G36C Handguard (Vulture)",
+    "id": "vulture-handguards-g36c-handguard",
+    "item": "G36C Handguard",
+    "vendor": "Vulture",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$510"
   },
   {
     "name": "Gatorz Delta (Handshake)",
@@ -2934,7 +3161,8 @@
     "vendor": "Gunny",
     "rank": 1,
     "category": "charging_handle",
-    "type": "Charging Handle"
+    "type": "Charging Handle",
+    "buy_price": "$134.3"
   },
   {
     "name": "HK MP5 Front Sight (Gunny)",
@@ -2953,6 +3181,26 @@
     "rank": 1,
     "category": "rear_iron_sights",
     "type": "Rear Iron Sight"
+  },
+  {
+    "name": "HK UMP Extended Handguard (Artisan)",
+    "id": "artisan-handguards-hk-ump-extended-handguard",
+    "item": "HK UMP Extended Handguard",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$620"
+  },
+  {
+    "name": "HK USC Extended Handguard (Artisan)",
+    "id": "artisan-handguards-hk-usc-extended-handguard",
+    "item": "HK USC Extended Handguard",
+    "vendor": "Artisan",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$420"
   },
   {
     "name": "HS507C X2 Reflex Sight (Banshee)",
@@ -3042,6 +3290,16 @@
     "category": "backpacks",
     "type": "Backpack",
     "buy_price": "$150"
+  },
+  {
+    "name": "KAC URX 6 11.5\" (Gunny)",
+    "id": "gunny-handguards-kac-urx-6-11-5",
+    "item": "KAC URX 6 11.5\"",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$1,530"
   },
   {
     "name": "Kangaroo Tactical Rig (Big) (Turncoat)",
@@ -3509,6 +3767,26 @@
     "buy_price": "$680"
   },
   {
+    "name": "M16A1 Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-m16a1-charging-handle",
+    "item": "M16A1 Charging Handle",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$117.3"
+  },
+  {
+    "name": "M16A1 Handguard (Gunny)",
+    "id": "gunny-handguards-m16a1-handguard",
+    "item": "M16A1 Handguard",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$306"
+  },
+  {
     "name": "M16A1 Standard Gas Block (Gunny)",
     "id": "gunny-gas-blocks-m16a1-standard-gas-block",
     "item": "M16A1 Standard Gas Block",
@@ -3589,6 +3867,26 @@
     "buy_price": "$1,360"
   },
   {
+    "name": "M1A Composite Handguard (Banshee)",
+    "id": "banshee-handguards-m1a-composite-handguard",
+    "item": "M1A Composite Handguard",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$510"
+  },
+  {
+    "name": "M1A Upper Handguard Walnut (Banshee)",
+    "id": "banshee-handguards-m1a-upper-handguard-walnut",
+    "item": "M1A Upper Handguard Walnut",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$306"
+  },
+  {
     "name": "M26 (Gunny)",
     "id": "gunny-throwables-m26",
     "item": "M26",
@@ -3608,13 +3906,24 @@
     "type": "Buffer Tube"
   },
   {
+    "name": "M4 Carbine Handguard (Gunny)",
+    "id": "gunny-handguards-m4-carbine-handguard",
+    "item": "M4 Carbine Handguard",
+    "vendor": "Gunny",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$374"
+  },
+  {
     "name": "M4 RAS (Gunny)",
     "id": "gunny-handguards-m4-ras",
     "item": "M4 RAS",
     "vendor": "Gunny",
     "rank": 2,
     "category": "handguards",
-    "type": "Handguard"
+    "type": "Handguard",
+    "buy_price": "$680"
   },
   {
     "name": "M4A1 Standard Gas Block (Gunny)",
@@ -3732,6 +4041,16 @@
     "category": "stocks",
     "type": "Stock",
     "buy_price": "$852"
+  },
+  {
+    "name": "M700 MODX Handguard (Gunny)",
+    "id": "gunny-handguards-m700-modx-handguard",
+    "item": "M700 MODX Handguard",
+    "vendor": "Gunny",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$850"
   },
   {
     "name": "M700 Stock (Banshee)",
@@ -3874,7 +4193,7 @@
     "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$83"
+    "buy_price": "$340"
   },
   {
     "name": "M870 Picatinny Quad Rail (Gunny)",
@@ -3909,10 +4228,10 @@
     "id": "gunny-handguards-m870-voa-handguard",
     "item": "M870 VOA Handguard",
     "vendor": "Gunny",
-    "rank": 4,
+    "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$100"
+    "buy_price": "$544"
   },
   {
     "name": "M870 Walnut Forend (Gunny)",
@@ -3922,7 +4241,7 @@
     "rank": 1,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$33"
+    "buy_price": "$153"
   },
   {
     "name": "M933 120mm HE Cartridge (Low Range) (Gunny)",
@@ -4198,6 +4517,16 @@
     "category": "containers",
     "type": "Container",
     "buy_price": "$200"
+  },
+  {
+    "name": "Mk16 13.5\" (DDC) (Gunny)",
+    "id": "gunny-handguards-mk16-13-5-ddc",
+    "item": "Mk16 13.5\" (DDC)",
+    "vendor": "Gunny",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$1,054"
   },
   {
     "name": "MM Ammo Box (Turncoat)",
@@ -4497,7 +4826,8 @@
     "vendor": "Gunny",
     "rank": 1,
     "category": "handguards",
-    "type": "Handguard"
+    "type": "Handguard",
+    "buy_price": "$323"
   },
   {
     "name": "MP5/G3 Low Profile Mount (Gunny)",
@@ -5219,6 +5549,46 @@
     "buy_price": "$493"
   },
   {
+    "name": "Sa vz. 58 Expert Handguard (Banshee)",
+    "id": "banshee-handguards-sa-vz-58-expert-handguard",
+    "item": "Sa vz. 58 Expert Handguard",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$680"
+  },
+  {
+    "name": "Sa vz. 58 FAB Handguard (Banshee)",
+    "id": "banshee-handguards-sa-vz-58-fab-handguard",
+    "item": "Sa vz. 58 FAB Handguard",
+    "vendor": "Banshee",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$510"
+  },
+  {
+    "name": "Sa vz. 58 Polymer Handguard (Banshee)",
+    "id": "banshee-handguards-sa-vz-58-polymer-handguard",
+    "item": "Sa vz. 58 Polymer Handguard",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$272"
+  },
+  {
+    "name": "Sa vz. 58 Wooden Handguard (Banshee)",
+    "id": "banshee-handguards-sa-vz-58-wooden-handguard",
+    "item": "Sa vz. 58 Wooden Handguard",
+    "vendor": "Banshee",
+    "rank": 2,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$153"
+  },
+  {
     "name": "Salvo 12 Suppressor (Gunny)",
     "id": "gunny-suppressors-salvo-12-suppressor",
     "item": "Salvo 12 Suppressor",
@@ -5229,23 +5599,14 @@
     "buy_price": "$2,390"
   },
   {
-    "name": "SCH 5.56 Charging Handle (DDC) (Gunny)",
-    "id": "gunny-charging-handle-sch-5-56-charging-handle-ddc",
-    "item": "SCH 5.56 Charging Handle (DDC)",
-    "vendor": "Gunny",
-    "rank": 3,
-    "category": "charging_handle",
-    "type": "Charging Handle",
-    "buy_price": "$232"
-  },
-  {
     "name": "SCH 5.56 Charging Handle (Gunny)",
     "id": "gunny-charging-handle-sch-5-56-charging-handle",
     "item": "SCH 5.56 Charging Handle",
     "vendor": "Gunny",
     "rank": 3,
     "category": "charging_handle",
-    "type": "Charging Handle"
+    "type": "Charging Handle",
+    "buy_price": "$232.9"
   },
   {
     "name": "Schmeisser AK 7.62x39 60-round Magazine (Artisan)",
@@ -5315,7 +5676,17 @@
     "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$434"
+    "buy_price": "$850"
+  },
+  {
+    "name": "SIG MCX 12\" SD Handguard (Banshee)",
+    "id": "banshee-handguards-sig-mcx-12-sd-handguard",
+    "item": "SIG MCX 12\" SD Handguard",
+    "vendor": "Banshee",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$1,156"
   },
   {
     "name": "SIG MCX 16\" Handguard (Banshee)",
@@ -5325,7 +5696,7 @@
     "rank": 4,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$438"
+    "buy_price": "$1,224"
   },
   {
     "name": "SIG MCX 8\" Handguard (Banshee)",
@@ -5335,7 +5706,7 @@
     "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$365"
+    "buy_price": "$935"
   },
   {
     "name": "SIG MCX Barrel - 16\" (Banshee)",
@@ -5375,7 +5746,7 @@
     "rank": 3,
     "category": "charging_handle",
     "type": "Charging Handle",
-    "buy_price": "$162"
+    "buy_price": "$212.5"
   },
   {
     "name": "SIG MCX Gas Block (Banshee)",
@@ -5738,6 +6109,16 @@
     "type": "Magazine"
   },
   {
+    "name": "Standard GI Charging Handle (Gunny)",
+    "id": "gunny-charging-handle-standard-gi-charging-handle",
+    "item": "Standard GI Charging Handle",
+    "vendor": "Gunny",
+    "rank": 1,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$117.3"
+  },
+  {
     "name": "Steyr AUG Barrel - 14.5\" (Vulture)",
     "id": "vulture-barrels-steyr-aug-barrel-14-5",
     "item": "Steyr AUG Barrel - 14.5\"",
@@ -5806,6 +6187,16 @@
     "buy_price": "$1,360"
   },
   {
+    "name": "SVD Chassis MK1 Handguard (Turncoat)",
+    "id": "turncoat-handguards-svd-chassis-mk1-handguard",
+    "item": "SVD Chassis MK1 Handguard",
+    "vendor": "Turncoat",
+    "rank": 4,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$1,445"
+  },
+  {
     "name": "SVD Dragunov (Turncoat)",
     "id": "turncoat-weapons-svd-dragunov",
     "item": "SVD Dragunov",
@@ -5846,14 +6237,14 @@
     "buy_price": "$68"
   },
   {
-    "name": "SVD Polymer Handguard (Artisan)",
-    "id": "artisan-handguards-svd-polymer-handguard",
+    "name": "SVD Polymer Handguard (Turncoat)",
+    "id": "turncoat-handguards-svd-polymer-handguard",
     "item": "SVD Polymer Handguard",
-    "vendor": "Artisan",
-    "rank": 4,
+    "vendor": "Turncoat",
+    "rank": 3,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$555"
+    "buy_price": "$595"
   },
   {
     "name": "SVD Polymer Stock with Grip (Artisan)",
@@ -5874,6 +6265,16 @@
     "category": "auxiliary",
     "type": "Auxiliary",
     "buy_price": "$107"
+  },
+  {
+    "name": "SVD Wooden Handguard (Turncoat)",
+    "id": "turncoat-handguards-svd-wooden-handguard",
+    "item": "SVD Wooden Handguard",
+    "vendor": "Turncoat",
+    "rank": 3,
+    "category": "handguards",
+    "type": "Handguard",
+    "buy_price": "$510"
   },
   {
     "name": "TacTec Chest Rig (Handshake)",
@@ -6203,6 +6604,16 @@
     "buy_price": "$284"
   },
   {
+    "name": "Vz. 61 Charging Knobs (Artisan)",
+    "id": "artisan-charging-handle-vz-61-charging-knobs",
+    "item": "Vz. 61 Charging Knobs",
+    "vendor": "Artisan",
+    "rank": 1,
+    "category": "charging_handle",
+    "type": "Charging Handle",
+    "buy_price": "$8.5"
+  },
+  {
     "name": "Weapon Parts Case (Gunny)",
     "id": "gunny-containers-weapon-parts-case",
     "item": "Weapon Parts Case",
@@ -6259,26 +6670,7 @@
     "rank": 4,
     "category": "handguards",
     "type": "Handguard",
-    "buy_price": "$508"
-  },
-  {
-    "name": "X7M-15 Handguard (Gunny)",
-    "id": "gunny-handguards-x7m-15-handguard",
-    "item": "X7M-15 Handguard",
-    "vendor": "Gunny",
-    "rank": 4,
-    "category": "handguards",
-    "type": "Handguard",
-    "buy_price": "$508"
-  },
-  {
-    "name": "X7M-7 Handguard (Gunny)",
-    "id": "gunny-handguards-x7m-7-handguard",
-    "item": "X7M-7 Handguard",
-    "vendor": "Gunny",
-    "rank": 4,
-    "category": "handguards",
-    "type": "Handguard"
+    "buy_price": "$1,275"
   },
   {
     "name": "XM177E2 Moderator Flash Hider (Gunny)",

@@ -111,6 +111,16 @@
     "objectives": "Deliver the Range & Rifle magazine to Gunny Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
+    "name": "Chameleon - G3 (ZH)",
+    "id": "chameleon---g3-zh",
+    "vendor": "Artisan",
+    "task_type": "Side Task",
+    "location": "Northern Reach",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Artisan is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Artisan Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
+  },
+  {
     "name": "Chameleon - M14 (BH)",
     "id": "chameleon---m14-bh",
     "vendor": "Banshee",
@@ -575,6 +585,25 @@
     "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
   },
   {
+    "name": "Market Research III",
+    "id": "market-research-iii",
+    "vendor": "Vulture",
+    "location": "[Blue Lagoon]]",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
+    "name": "Market Research IX",
+    "id": "market-research-ix",
+    "vendor": "Vulture",
+    "task_type": "Contract",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
     "name": "Market Research VI",
     "id": "market-research-vi",
     "vendor": "Vulture",
@@ -588,6 +617,16 @@
     "id": "market-research-vii",
     "vendor": "Vulture",
     "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
+    "name": "Market Research VIII",
+    "id": "market-research-viii",
+    "vendor": "Vulture",
+    "task_type": "Contract",
+    "location": "Sawmill",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
     "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
     "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"

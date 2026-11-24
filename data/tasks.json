@@ -250,6 +250,16 @@
     "objectives": "Deliver the Range & Rifle magazine to Gunny Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
   },
   {
+    "name": "Chameleon - G3 (ZH)",
+    "id": "chameleon---g3-zh",
+    "vendor": "Artisan",
+    "task_type": "Side Task",
+    "location": "Northern Reach",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322",
+    "briefing": "Artisan is looking to expand his selection of weapons and needs the Range & Rifle magazine to do so. Secure the periodical and deliver it to him.",
+    "objectives": "Deliver the Range & Rifle magazine to Artisan Pick up the Range & Rifle magazine Pick up the Range & Rifle magazine"
+  },
+  {
     "name": "Chameleon - M14 (BH)",
     "id": "chameleon---m14-bh",
     "vendor": "Banshee",
@@ -809,9 +819,10 @@
     "name": "Hide And Seek",
     "id": "hide-and-seek",
     "vendor": "Gunny",
+    "task_type": "Main Task",
     "location": "Tiger Bay",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358",
-    "briefing": "The LAF in Tiger Bay seems to be better equipped than we expected. The intel we've received from our sources indicates that there is a warehouse somewhere in the northern part of the area used to store their arsenal and heavy equipment. We know that much, but we need to pinpoint exactly what they have in stock and keep it under surveillance. Based on past experience, it's highly unlikely they'll have anything particularly advanced, but armor is still armor. I don't want to crawl out of bed one day and find a couple of T-55s parked in front of our base. That'd be one hell of a wake-up call. Find their warehouse, identify the hardware, and mark it. I'll have the trackers sent to your locker. Once you're done, we can adjust our plans based on what we learn. The LAF in Tiger Bay seems to be better equipped than we expected. The intel we've received from our sources indicates that there is a warehouse somewhere in the northern part of the area used to store their arsenal and heavy equipment. We know that much, but we need to pinpoint exactly what they have in stock and keep it under surveillance. Based on past experience, it's highly unlikely they'll have anything particularly advanced, but armor is still armor. I don't want to crawl out of bed one day and find a couple of T-55s parked in front of our base. That'd be one hell of a wake-up call. Find their warehouse, identify the hardware, and mark it. I'll have the trackers sent to your locker. Once you're done, we can adjust our plans based on what we learn.",
+    "briefing": "Investigate LAF Activity in Tiger Bay and locate a warehouse suspected of storing weapons and heavy equipment. Identify key assets on site, mark them for tracking and await further instructions.",
     "objectives": "Locate the LAF warehouse in Tiger Bay and identify the military reserves Mark a vehicle Mark a weapons cache Mark a vehicle Mark a weapons cache Find and report all the LAF weapon caches in Tiger Bay Central Locate the first cache Locate the second cache Locate the first cache Locate the second cache Gather intel from the LAF Hideout in Tiger Bay Central Gather intel from a laptop in the comms room Gather intel from a laptop in the makeshift operating room Gather intel from and inventory list Gather intel from a laptop in the comms room Gather intel from a laptop in the makeshift operating room Gather intel from and inventory list"
   },
   {
@@ -1256,6 +1267,25 @@
     "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
   },
   {
+    "name": "Market Research III",
+    "id": "market-research-iii",
+    "vendor": "Vulture",
+    "location": "[Blue Lagoon]]",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
+    "name": "Market Research IX",
+    "id": "market-research-ix",
+    "vendor": "Vulture",
+    "task_type": "Contract",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
     "name": "Market Research VI",
     "id": "market-research-vi",
     "vendor": "Vulture",
@@ -1269,6 +1299,16 @@
     "id": "market-research-vii",
     "vendor": "Vulture",
     "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
+    "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
+    "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
+  },
+  {
+    "name": "Market Research VIII",
+    "id": "market-research-viii",
+    "vendor": "Vulture",
+    "task_type": "Contract",
+    "location": "Sawmill",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/Vulture_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094321",
     "briefing": "Vulture needs product samples from hidden facilities scattered across Lamang. Secure a box of samples and bring it to him.",
     "objectives": "Secure the box of samples and report back to Vulture Locate the box of samples Locate the box of samples"
@@ -2076,11 +2116,11 @@
     "name": "The Trickster",
     "id": "the-trickster",
     "vendor": "Lab Rat",
-    "faction": "LRI",
-    "location": "Tiger Bay",
+    "task_type": "Contract",
+    "location": "Ban Pa",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249",
-    "briefing": "Oh my God! After discovering the horrible fate of the squad ambushed near the bridge, I was so shocked I completely forgot to check on the civilian they were carrying supplies for! What if the murderers got him too? I’d never forgive myself. Could you please check if he’s okay? His name is Somsak Pornnarai, and he lives in a house on the road to Tiger Bay, southwest of the bridge where you found our colleagues. You should pass a lake on your way there. I just hope he’s safe… Oh my God! After discovering the horrible fate of the squad ambushed near the bridge, I was so shocked I completely forgot to check on the civilian they were carrying supplies for! What if the murderers got him too? I’d never forgive myself. Could you please check if he’s okay? His name is Somsak Pornnarai, and he lives in a house on the road to Tiger Bay, southwest of the bridge where you found our colleagues. You should pass a lake on your way there. I just hope he’s safe…",
-    "objectives": "Find out what happened to Somsak Pornnarai"
+    "briefing": "Following the incident involving the murdered squad providing aid, it is crucial to verify the safety of the last civilian they assisted. Investigate what happened to the civilian and report your findings to Lab Rat.",
+    "objectives": "Find out what happened to Somsak Pornnarai Locate the building in the northern outskirts of Tiger Bay where Somsak was last seen"
   },
   {
     "name": "The Value of Sharing",
@@ -2140,9 +2180,10 @@
     "name": "Troll Bridge",
     "id": "troll-bridge",
     "vendor": "Handshake",
+    "task_type": "Contract",
     "location": "Tiger Bay",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222",
-    "briefing": "Hey, man, we have an urgent matter to attend to. Our scouts spotted something suspicious under a bridge west of Tiger Bay but didn’t have time to investigate further, making excuses about a more critical task Gunny had assigned them. Anyway, from their description, it sounds like they stumbled upon a mined bridge. Looks like someone here is raising the stakes. I want you to check it out. Confirm that the bridge is mined, and I’ll send a specialist to deactivate the charges. Now hurry up! Man, this has got to be one of the most infuriating things I’ve encountered in this fucking country. They want to fuck with us like this? We’ll catch those bastards and shove those \"explosives\" so far down their throats they’ll shit bricks!",
+    "briefing": "Scouts have identified a potentially mined bridge near Tiger Bay. Move to the location, assess the area and report your findings to Handshake.",
     "objectives": "Investigate the potentially mined bridge west of Tiger Bay"
   },
   {

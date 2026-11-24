@@ -16,8 +16,7 @@
         "value": 2.1,
         "unit": "kg"
       }
-    },
-    "inventory": "4x4"
+    }
   },
   {
     "name": "6Sh104 (Coyote)",
@@ -72,8 +71,7 @@
         "value": 0.95,
         "unit": "kg"
       }
-    },
-    "inventory": "4x2"
+    }
   },
   {
     "name": "Biker Chest Rig",
@@ -92,8 +90,7 @@
         "value": 0.35,
         "unit": "kg"
       }
-    },
-    "inventory": "2x3"
+    }
   },
   {
     "name": "Broker's Training Mini Rig",
@@ -111,8 +108,7 @@
         "value": 0.7,
         "unit": "kg"
       }
-    },
-    "inventory": "3x3"
+    }
   },
   {
     "name": "Chaonai's Biker Chest Rig",
@@ -311,8 +307,7 @@
         "value": 0.78,
         "unit": "kg"
       }
-    },
-    "inventory": "4x3"
+    }
   },
   {
     "name": "Small Rig",
@@ -330,8 +325,7 @@
         "value": 0.4,
         "unit": "kg"
       }
-    },
-    "inventory": "2x2"
+    }
   },
   {
     "name": "TacTec Chest Rig",
@@ -350,8 +344,7 @@
         "value": 0.55,
         "unit": "kg"
       }
-    },
-    "inventory": "5x2"
+    }
   },
   {
     "name": "Training Mini Rig (Big)",
@@ -408,8 +401,7 @@
         "value": 0.4,
         "unit": "kg"
       }
-    },
-    "inventory": "3x2"
+    }
   },
   {
     "name": "Type 56 SKS",
@@ -447,7 +439,6 @@
         "value": 0.3,
         "unit": "kg"
       }
-    },
-    "inventory": "4x1"
+    }
   }
 ]

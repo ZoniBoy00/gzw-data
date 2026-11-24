@@ -85,7 +85,6 @@
         "unit": "kg"
       }
     },
-    "inventory": "3x3",
     "protection_rating": "P3"
   },
   {
@@ -131,7 +130,6 @@
         "unit": "kg"
       }
     },
-    "inventory": "5x2",
     "protection_rating": "R1"
   },
   {
@@ -168,7 +166,6 @@
         "unit": "m"
       }
     },
-    "inventory": "3x3",
     "protection_rating": "R1"
   },
   {
@@ -194,8 +191,7 @@
         "value": 4.0,
         "unit": "m"
       }
-    },
-    "inventory": "3x3"
+    }
   },
   {
     "name": "CZ 4M Lancer (UNLRA)",
@@ -221,7 +217,6 @@
         "unit": "m"
       }
     },
-    "inventory": "3x3",
     "protection_rating": "R1"
   },
   {
@@ -268,7 +263,6 @@
         "unit": "kg"
       }
     },
-    "inventory": "4x2",
     "protection_rating": "R1"
   },
   {
@@ -290,8 +284,7 @@
         "value": 4.7,
         "unit": "kg"
       }
-    },
-    "inventory": "4x2"
+    }
   },
   {
     "name": "M2 Plate Carrier (EMR)",
@@ -356,7 +349,6 @@
         "unit": "kg"
       }
     },
-    "inventory": "4x2",
     "protection_rating": "P3"
   },
   {
@@ -446,7 +438,6 @@
         "unit": "kg"
       }
     },
-    "inventory": "3x4",
     "protection_rating": "R3"
   },
   {
@@ -470,7 +461,6 @@
         "unit": "kg"
       }
     },
-    "inventory": "4x4",
     "protection_rating": "R3"
   },
   {
@@ -603,7 +593,6 @@
         "unit": "kg"
       }
     },
-    "inventory": "3x3",
     "protection_rating": "R3"
   }
 ]

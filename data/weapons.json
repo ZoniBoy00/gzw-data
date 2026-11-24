@@ -12,6 +12,8 @@
     "fire_rate": "700 RPM",
     "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/AK-12_inspect.png/revision/latest/scale-to-width-down/268?cb=20250602231732",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.45x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -29,9 +31,7 @@
         "value": 700.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single/Full-auto",
-    "caliber": "5.45x39mm"
+    }
   },
   {
     "name": "AK-15",
@@ -46,6 +46,8 @@
     "fire_rate": "700 RPM",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/AK-15_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155725",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -63,9 +65,7 @@
         "value": 700.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "7.62x39mm"
+    }
   },
   {
     "name": "AK-19",
@@ -80,6 +80,8 @@
     "fire_rate": "700 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/AK-19_inspect.png/revision/latest/scale-to-width-down/268?cb=20250605225258",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -97,9 +99,7 @@
         "value": 700.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single/Auto",
-    "caliber": "5.56x45mm"
+    }
   },
   {
     "name": "AK-308",
@@ -114,6 +114,8 @@
     "fire_rate": "700 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/AK-308_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617154126",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 2.7,
@@ -131,8 +133,7 @@
         "value": 700.0,
         "unit": "rpm"
       }
-    },
-    "caliber": "7.62x51mm"
+    }
   },
   {
     "name": "AK-308 (Hunter Team)",
@@ -146,6 +147,8 @@
     "ergonomics": "+5 %",
     "fire_rate": "700 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 2.7,
@@ -178,6 +181,8 @@
     "fire_rate": "650 RPM",
     "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/AK-74M_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617235259",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.45x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -195,9 +200,7 @@
         "value": 650.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "5.45x39mm"
+    }
   },
   {
     "name": "AK-74N",
@@ -212,6 +215,8 @@
     "fire_rate": "650 RPM",
     "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/AK-74N_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155544",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.45x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -229,9 +234,7 @@
         "value": 650.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "5.45x39mm"
+    }
   },
   {
     "name": "AKM",
@@ -246,6 +249,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/AKM_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617155444",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.0,
@@ -263,9 +268,7 @@
         "value": 600.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "7.62x39mm"
+    }
   },
   {
     "name": "AKMN",
@@ -279,6 +282,8 @@
     "ergonomics": "+4 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -297,8 +302,6 @@
         "unit": "rpm"
       }
     },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "7.62x39mm",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/AKM_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617155444"
   },
   {
@@ -313,6 +316,8 @@
     "ergonomics": "+5 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -345,6 +350,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/AKMSN_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155359",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.2,
@@ -362,9 +369,7 @@
         "value": 600.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "7.62x39mm"
+    }
   },
   {
     "name": "AKS-74U",
@@ -379,6 +384,8 @@
     "fire_rate": "650 RPM",
     "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/AKS-74U_inspect.png/revision/latest/scale-to-width-down/267?cb=20250324154314",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.45x39mm",
     "numeric_values": {
       "weight": {
         "value": 1.7,
@@ -396,9 +403,7 @@
         "value": 650.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "5.45x39mm"
+    }
   },
   {
     "name": "Alien",
@@ -413,6 +418,8 @@
     "fire_rate": "700 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Alien_inspect.png/revision/latest/scale-to-width-down/268?cb=20260406035818",
+    "fire_mode": "Single",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.57,
@@ -443,6 +450,8 @@
     "ergonomics": "+20 %",
     "fire_rate": "700 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "fire_mode": "Single",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.57,
@@ -473,6 +482,8 @@
     "accuracy": "0 MOA",
     "fire_rate": "300 RPM",
     "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "fire_mode": "Single",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 0.767,
@@ -500,6 +511,8 @@
     "ergonomics": "+2 %",
     "fire_rate": "300 RPM",
     "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "fire_mode": "Single",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 0.767,
@@ -529,6 +542,8 @@
     "accuracy": "0 MOA",
     "fire_rate": "300 RPM",
     "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "fire_mode": "Single",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 0.767,
@@ -555,6 +570,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "fire_mode": "Single",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -586,6 +603,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "fire_mode": "Single",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.231,
@@ -618,6 +637,8 @@
     "fire_rate": "650 RPM",
     "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Buran%27s_AK-74N_inspect.png/revision/latest/scale-to-width-down/267?cb=20260606044029",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.45x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.1,
@@ -635,9 +656,7 @@
         "value": 650.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "5.45x39mm"
+    }
   },
   {
     "name": "Chaonai's Type 51",
@@ -650,6 +669,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm Pst 7.62x25mm PT",
+    "fire_mode": "Single",
+    "caliber": "7.62x25mm",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -681,6 +702,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm Pst 7.62x25mm PT",
+    "fire_mode": "Single",
+    "caliber": "7.62x25mm",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -713,6 +736,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Colt_1911_inspect.png/revision/latest/scale-to-width-down/267?cb=20250603001636",
+    "fire_mode": "Single",
+    "caliber": ".45 ACP",
     "numeric_values": {
       "weight": {
         "value": 0.231,
@@ -730,9 +755,7 @@
         "value": 600.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": ".45 ACP"
+    }
   },
   {
     "name": "Colt 1911 Commander",
@@ -747,6 +770,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Colt_1911_Commander_inspect.png/revision/latest/scale-to-width-down/268?cb=20250618010637",
+    "fire_mode": "Single",
+    "caliber": ".45 ACP",
     "numeric_values": {
       "weight": {
         "value": 0.17,
@@ -779,6 +804,8 @@
     "fire_rate": "800 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/CQ_A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20251105171848",
+    "fire_mode": "Single",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.6,
@@ -796,9 +823,7 @@
         "value": 800.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": "5.56x45mm"
+    }
   },
   {
     "name": "DDM4",
@@ -813,6 +838,8 @@
     "fire_rate": "800 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/DDM4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250613225202",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -830,8 +857,7 @@
         "value": 800.0,
         "unit": "rpm"
       }
-    },
-    "caliber": "5.56x45mm NATO"
+    }
   },
   {
     "name": "DDM4 (Black)",
@@ -844,6 +870,8 @@
     "ergonomics": "+8 %",
     "fire_rate": "800 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -875,6 +903,8 @@
     "ergonomics": "+9 %",
     "fire_rate": "800 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -906,6 +936,8 @@
     "ergonomics": "+8 %",
     "fire_rate": "1000 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 1.5,
@@ -938,6 +970,8 @@
     "fire_rate": "650 RPM",
     "accepted_ammunition": "5.45x39mm BP (7N22) 5.45x39mm BS (7N24) 5.45x39mm BT (7BT4) 5.45x39mm FMJ 5.45x39mm HP 5.45x39mm PP (7N10) 5.45x39mm PS (7N6) 5.45x39mm US (7U1) 5.45x39mm Wolf",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Firebrand%27s_AKS-74U_inspect.png/revision/latest/scale-to-width-down/268?cb=20260512115450",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.45x39mm",
     "numeric_values": {
       "weight": {
         "value": 1.7,
@@ -955,9 +989,7 @@
         "value": 650.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full Auto",
-    "caliber": "5.45x39mm"
+    }
   },
   {
     "name": "G3",
@@ -970,6 +1002,8 @@
     "accuracy": "0 MOA",
     "fire_rate": "500 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -997,6 +1031,8 @@
     "ergonomics": "+2 %",
     "fire_rate": "500 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -1029,6 +1065,8 @@
     "fire_rate": "750 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/G36_inspect.png/revision/latest/scale-to-width-down/268?cb=20261110204919",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -1061,6 +1099,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/Glock_17_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115145",
+    "fire_mode": "Single",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.231,
@@ -1078,9 +1118,7 @@
         "value": 600.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": "9x19mm"
+    }
   },
   {
     "name": "Glock 18C",
@@ -1094,6 +1132,8 @@
     "ergonomics": "+14 %",
     "fire_rate": "1200 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "fire_mode": "Single/Auto",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.24,
@@ -1125,6 +1165,8 @@
     "ergonomics": "+14 %",
     "fire_rate": "1200 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "fire_mode": "Single/Auto",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.24,
@@ -1155,6 +1197,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "fire_mode": "Single",
+    "caliber": ".45 ACP",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -1187,6 +1231,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/Grin%27s_Colt_1911_Commander_inspect.png/revision/latest/scale-to-width-down/268?cb=20260512044104",
+    "fire_mode": "Single",
+    "caliber": ".45 ACP",
     "numeric_values": {
       "weight": {
         "value": 0.454,
@@ -1204,9 +1250,7 @@
         "value": 600.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": ".45 ACP"
+    }
   },
   {
     "name": "Kaptei's Glock 17",
@@ -1220,6 +1264,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "fire_mode": "Single",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.231,
@@ -1252,6 +1298,8 @@
     "fire_rate": "800 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/L403A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260525043357",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -1269,9 +1317,7 @@
         "value": 800.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single/Auto",
-    "caliber": "5.56x45mm"
+    }
   },
   {
     "name": "L403A1 (Serpent Guard)",
@@ -1285,6 +1331,8 @@
     "ergonomics": "+15 %",
     "fire_rate": "800 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -1316,6 +1364,8 @@
     "ergonomics": "+6 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
+    "fire_mode": "Single",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -1346,6 +1396,8 @@
     "accuracy": "0 MOA",
     "fire_rate": "700 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 0.91,
@@ -1373,6 +1425,8 @@
     "ergonomics": "+2 %",
     "fire_rate": "700 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 0.91,
@@ -1405,6 +1459,8 @@
     "fire_rate": "800 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/M16A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260525042725",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.65,
@@ -1437,6 +1493,8 @@
     "fire_rate": "700 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/M1A_inspect.png/revision/latest/scale-to-width-down/268?cb=20260412223432",
+    "fire_mode": "Single",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 0.9,
@@ -1469,6 +1527,8 @@
     "fire_rate": "800 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/M4A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617155019",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 0.65,
@@ -1486,8 +1546,7 @@
         "value": 800.0,
         "unit": "rpm"
       }
-    },
-    "caliber": "5.56x45mm NATO"
+    }
   },
   {
     "name": "M700",
@@ -1501,6 +1560,8 @@
     "fire_rate": "30 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/M700_inspect.png/revision/latest/scale-to-width-down/268?cb=20240513214530",
+    "fire_mode": "Single",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -1514,8 +1575,7 @@
         "value": 30.0,
         "unit": "rpm"
       }
-    },
-    "caliber": "7.62x51mm"
+    }
   },
   {
     "name": "M700 (Gray Company)",
@@ -1529,6 +1589,8 @@
     "ergonomics": "+2 %",
     "fire_rate": "30 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "fire_mode": "Single",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -1561,6 +1623,8 @@
     "fire_rate": "300 RPM",
     "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/db/M870_inspect.png/revision/latest/scale-to-width-down/267?cb=20250329022139",
+    "fire_mode": "Single",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 1.1,
@@ -1578,9 +1642,7 @@
         "value": 300.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": "12 Gauge"
+    }
   },
   {
     "name": "M9A1",
@@ -1595,6 +1657,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bc/M9A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250527013326",
+    "fire_mode": "Single",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.231,
@@ -1627,6 +1691,8 @@
     "fire_rate": "20 RPM",
     "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Mosin-Nagant_inspect.png/revision/latest/scale-to-width-down/266?cb=20250618000700",
+    "fire_mode": "Single",
+    "caliber": "7.62x54R",
     "numeric_values": {
       "weight": {
         "value": 0.9,
@@ -1644,9 +1710,7 @@
         "value": 20.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": "7.62x54mm R"
+    }
   },
   {
     "name": "Mosin-Nagant (Sniper)",
@@ -1661,6 +1725,8 @@
     "fire_rate": "20 RPM",
     "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/Mosin-Nagant_%28Sniper%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20250620012557",
+    "fire_mode": "Single",
+    "caliber": "7.62x54R",
     "numeric_values": {
       "weight": {
         "value": 0.9,
@@ -1678,8 +1744,7 @@
         "value": 20.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single"
+    }
   },
   {
     "name": "Mossberg 590",
@@ -1693,6 +1758,8 @@
     "fire_rate": "300 RPM",
     "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Mossberg_590_inspect.png/revision/latest/scale-to-width-down/268?cb=20250329030452",
+    "fire_mode": "Single",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 1.1,
@@ -1710,9 +1777,7 @@
         "value": 300.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": "12 Gauge"
+    }
   },
   {
     "name": "Mossberg 590 (Raven Team)",
@@ -1725,6 +1790,8 @@
     "accuracy": "0 MOA",
     "fire_rate": "300 RPM",
     "accepted_ammunition": "12ga 00 Buckshot 12ga FC 00 Buckshot 12ga Slug 12ga SST Sabot Slug",
+    "fire_mode": "Single",
+    "caliber": "12 Gauge",
     "numeric_values": {
       "weight": {
         "value": 1.1,
@@ -1753,6 +1820,8 @@
     "fire_rate": "800 RPM",
     "accepted_ammunition": "9x19mm FMJ 9x19mm HP 9x19mm Libra Snail 9x19mm Tracer 9x19mm Xtreme Penetrator +P",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/MP5_inspect.png/revision/latest/scale-to-width-down/267?cb=20250620012946",
+    "fire_mode": "Single/Auto",
+    "caliber": "9x19mm",
     "numeric_values": {
       "weight": {
         "value": 0.74,
@@ -1770,9 +1839,7 @@
         "value": 800.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single/Full-Auto",
-    "caliber": "9x19mm"
+    }
   },
   {
     "name": "MP7",
@@ -1813,6 +1880,8 @@
     "ergonomics": "+16 %",
     "fire_rate": "950 RPM",
     "accepted_ammunition": "4.6x30mm Action SX 4.6x30mm AP SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX 4.6x30mm V-max",
+    "fire_mode": "Single/Auto",
+    "caliber": "4.6x30mm",
     "numeric_values": {
       "weight": {
         "value": 1.6,
@@ -1830,9 +1899,7 @@
         "value": 950.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single/Full-Auto",
-    "caliber": "4.6x30mm"
+    }
   },
   {
     "name": "MP7A2",
@@ -1846,6 +1913,8 @@
     "ergonomics": "+16 %",
     "fire_rate": "950 RPM",
     "accepted_ammunition": "4.6x30mm Action SX 4.6x30mm AP SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX 4.6x30mm V-max",
+    "fire_mode": "Single/Auto",
+    "caliber": "4.6x30mm",
     "numeric_values": {
       "weight": {
         "value": 1.55,
@@ -1863,9 +1932,7 @@
         "value": 950.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single/Full-Auto",
-    "caliber": "4.6x30mm"
+    }
   },
   {
     "name": "MP7A2 (Sentinel Company)",
@@ -1879,6 +1946,8 @@
     "ergonomics": "+18 %",
     "fire_rate": "950 RPM",
     "accepted_ammunition": "4.6x30mm Action SX 4.6x30mm AP SX 4.6x30mm FMJ SX 4.6x30mm Subsonic SX 4.6x30mm V-max",
+    "fire_mode": "Single/Auto",
+    "caliber": "4.6x30mm",
     "numeric_values": {
       "weight": {
         "value": 1.55,
@@ -1910,6 +1979,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm Pst 7.62x25mm PT",
+    "fire_mode": "Single",
+    "caliber": "7.62x25mm",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -1950,6 +2021,8 @@
     "fire_rate": "800 RPM",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Sa_vz._58_inspect.png/revision/latest/scale-to-width-down/267?cb=20260602022249",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x39mm",
     "numeric_values": {
       "weight": {
         "value": 0.75,
@@ -1967,9 +2040,7 @@
         "value": 800.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single/Full-auto",
-    "caliber": "7.62x39mm"
+    }
   },
   {
     "name": "Sa vz. 58 (Blackwood Division)",
@@ -1983,6 +2054,8 @@
     "ergonomics": "+6 %",
     "fire_rate": "800 RPM",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.62x39mm",
     "numeric_values": {
       "weight": {
         "value": 0.75,
@@ -2015,6 +2088,8 @@
     "fire_rate": "800 RPM",
     "accepted_ammunition": ".300 AAC Blackout AP .300 AAC Blackout CQ .300 AAC Blackout FMJ .300 AAC Blackout Subsonic .300 AAC Blackout V-MAX",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/SIG_MCX_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617154913",
+    "fire_mode": "Single/Auto",
+    "caliber": ".300 AAC Blackout",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -2032,9 +2107,7 @@
         "value": 800.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single / Full-Auto",
-    "caliber": ".300 AAC Blackout"
+    }
   },
   {
     "name": "SIG MCX (FDE)",
@@ -2047,6 +2120,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "800 RPM",
     "accepted_ammunition": ".300 AAC Blackout AP .300 AAC Blackout CQ .300 AAC Blackout FMJ .300 AAC Blackout Subsonic .300 AAC Blackout V-MAX",
+    "fire_mode": "Single/Auto",
+    "caliber": ".300 AAC Blackout",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -2078,6 +2153,8 @@
     "ergonomics": "+12 %",
     "fire_rate": "800 RPM",
     "accepted_ammunition": ".300 AAC Blackout AP .300 AAC Blackout CQ .300 AAC Blackout FMJ .300 AAC Blackout Subsonic .300 AAC Blackout V-MAX",
+    "fire_mode": "Single/Auto",
+    "caliber": ".300 AAC Blackout",
     "numeric_values": {
       "weight": {
         "value": 0.8,
@@ -2110,6 +2187,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x39mm BP (7N23) 7.62x39mm FMJ 7.62x39mm PP (7N27) 7.62x39mm PS (57-N-231C) 7.62x39mm SP 7.62x39mm Tracer (57-N-231P) 7.62x39mm US",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/SKS_inspect.png/revision/latest/scale-to-width-down/266?cb=20250618000429",
+    "fire_mode": "Single",
+    "caliber": "7.62x39mm",
     "numeric_values": {
       "weight": {
         "value": 2.63,
@@ -2127,9 +2206,7 @@
         "value": 600.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": "7.62x39mm"
+    }
   },
   {
     "name": "Steyr AUG",
@@ -2143,6 +2220,8 @@
     "ergonomics": "+8 %",
     "fire_rate": "720 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 1.76,
@@ -2161,8 +2240,6 @@
         "unit": "rpm"
       }
     },
-    "fire_mode": "Single/Auto",
-    "caliber": "5.56x45mm NATO",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/AUG_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261105132551"
   },
   {
@@ -2177,6 +2254,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "720 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 1.46,
@@ -2195,8 +2274,6 @@
         "unit": "rpm"
       }
     },
-    "fire_mode": "Single/Auto",
-    "caliber": "5.56x45mm NATO",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/AUG_A3_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261105141007"
   },
   {
@@ -2211,6 +2288,8 @@
     "ergonomics": "+12 %",
     "fire_rate": "720 RPM",
     "accepted_ammunition": "5.56x45mm AP (M855) 5.56x45mm AP (M855A1) 5.56x45mm AP (M995) 5.56x45mm FMJ 5.56x45mm FMJ (M193) 5.56x45mm HPBT 5.56x45mm SP 5.56x45mm Tracer (M856) 5.56x45mm Tracer (M856A1)",
+    "fire_mode": "Single/Auto",
+    "caliber": "5.56x45mm",
     "numeric_values": {
       "weight": {
         "value": 1.46,
@@ -2242,6 +2321,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/SVD_Dragunov_inspect.png/revision/latest/scale-to-width-down/268?cb=20250527011855",
+    "fire_mode": "Single",
+    "caliber": "7.62x54R",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -2269,6 +2350,8 @@
     "ergonomics": "+2 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x54R AP (7N13) 7.62x54R LPS (57-N-323S) 7.62x54R Sniper Round (7N1) 7.62x54R Tracer (T-46M)",
+    "fire_mode": "Single",
+    "caliber": "7.62x54R",
     "numeric_values": {
       "weight": {
         "value": 0.7,
@@ -2301,6 +2384,8 @@
     "fire_rate": "600 RPM",
     "accepted_ammunition": "7.62x25mm FMJ 7.62x25mm Pst 7.62x25mm PT",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Type_51_inspect.png/revision/latest/scale-to-width-down/267?cb=20250617154811",
+    "fire_mode": "Single",
+    "caliber": "7.62x25mm",
     "numeric_values": {
       "weight": {
         "value": 0.3,
@@ -2318,9 +2403,7 @@
         "value": 600.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single",
-    "caliber": "7.62x25mm"
+    }
   },
   {
     "name": "UMP45",
@@ -2334,6 +2417,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "fire_mode": "Single/Auto",
+    "caliber": ".45 ACP",
     "numeric_values": {
       "weight": {
         "value": 0.45,
@@ -2352,8 +2437,6 @@
         "unit": "rpm"
       }
     },
-    "fire_mode": "Single/Full-Auto",
-    "caliber": ".45 ACP",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/UMP45_Inspect.png/revision/latest/scale-to-width-down/268?cb=20261106171335"
   },
   {
@@ -2376,6 +2459,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "600 RPM",
     "accepted_ammunition": ".45 ACP AP .45 ACP FMJ .45 ACP Hydra-Shok .45 ACP JHP +P",
+    "fire_mode": "Single",
+    "caliber": ".45 ACP",
     "numeric_values": {
       "weight": {
         "value": 0.454,
@@ -2406,6 +2491,8 @@
     "ergonomics": "+6 %",
     "fire_rate": "800 RPM",
     "accepted_ammunition": "7.65 Browning FMJ 7.65 Browning JHP 7.65 Browning Xtreme Defender",
+    "fire_mode": "Single/Auto",
+    "caliber": "7.65 Browning",
     "numeric_values": {
       "weight": {
         "value": 0.9,
@@ -2423,9 +2510,7 @@
         "value": 800.0,
         "unit": "rpm"
       }
-    },
-    "fire_mode": "Single/Auto",
-    "caliber": "7.65mm Browning"
+    }
   },
   {
     "name": "Yen's M700",
@@ -2439,6 +2524,8 @@
     "ergonomics": "+10 %",
     "fire_rate": "30 RPM",
     "accepted_ammunition": "7.62x51mm AP (M61) 7.62x51mm FMJ (M80) 7.62x51mm FMJ (M80A1) 7.62x51mm HPBT 7.62x51mm Tracer (M62)",
+    "fire_mode": "Single",
+    "caliber": "7.62x51mm",
     "numeric_values": {
       "weight": {
         "value": 0.8,

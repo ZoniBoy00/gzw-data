@@ -3,23 +3,49 @@
     "name": "AK 308 Handguard",
     "id": "ak-308-handguard",
     "type": "Handguard",
-    "weight": "0.120 kg",
-    "sold_by": "Loot only",
-    "manufacturer": "Kalashnikov Concern",
-    "recoil_control": "+4 %",
-    "weapon_handling": "+2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/Ratnik_308_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305211931",
+    "weight": "0.12 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$765",
+    "manufacturer": "Kalashnikov concern",
+    "recoil_control": "+8 %",
+    "ergonomics": "+4 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/AK_308_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305211931",
     "numeric_values": {
       "weight": {
         "value": 0.12,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 4.0,
+        "value": 8.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": 2.0,
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "+2 %"
+  },
+  {
+    "name": "AK 308 Handguard (Hunter Team)",
+    "id": "ak-308-handguard-hunter-team",
+    "type": "Handguard",
+    "weight": "0.12 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Kalashnikov concern",
+    "recoil_control": "+6 %",
+    "ergonomics": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 6.0,
         "unit": "%"
       }
     }
@@ -28,27 +54,32 @@
     "name": "AK B10M + B19 Handguard",
     "id": "ak-b10m-+-b19-handguard",
     "type": "Handguard",
-    "weight": "0.270 kg",
-    "sold_by": "Turncoat R.2",
-    "buy_price": "$167",
+    "weight": "0.27 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$850",
     "manufacturer": "Zenitco",
-    "recoil_control": "+6 %",
-    "weapon_handling": "-4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/B10M_B19_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213439",
+    "recoil_control": "+8 %",
+    "ergonomics": "+2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/AK_B10M_%2B_B19_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213439",
     "numeric_values": {
       "weight": {
         "value": 0.27,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 6.0,
+        "value": 8.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -4.0,
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-4 %"
+  },
+  {
+    "name": "AK B10M + B19 Handguard (Golden Khaki)",
+    "id": "ak-b10m-+-b19-handguard-golden-khaki"
   },
   {
     "name": "AK B30 + B31S Handguard",
@@ -58,8 +89,8 @@
     "sold_by": "Loot only",
     "manufacturer": "Zenitco",
     "recoil_control": "+6 %",
-    "weapon_handling": "-6 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/B30_B31S_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727202123",
+    "ergonomics": "+4 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/AK_B30_%2B_B31S_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727202123",
     "numeric_values": {
       "weight": {
         "value": 0.386,
@@ -69,11 +100,16 @@
         "value": 6.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -6.0,
+      "ergonomics": {
+        "value": 4.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-6 %"
+  },
+  {
+    "name": "AK B30 + B31S Handguard (Golden Khaki)",
+    "id": "ak-b30-+-b31s-handguard-golden-khaki"
   },
   {
     "name": "AK Handguard \"Romanian Dong\"",
@@ -123,6 +159,55 @@
       },
       "weapon_handling": {
         "value": -2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AK Handguard Romanian Dong",
+    "id": "ak-handguard-romanian-dong",
+    "type": "Handguard",
+    "weight": "0.25 kg",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$178.5",
+    "manufacturer": "General East",
+    "recoil_control": "+4 %",
+    "ergonomics": "-2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.25,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AK Handguard Romanian Shark",
+    "id": "ak-handguard-romanian-shark",
+    "type": "Handguard",
+    "weight": "0.245 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "General East",
+    "recoil_control": "-2 %",
+    "ergonomics": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.245,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": -2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 4.0,
         "unit": "%"
       }
     }
@@ -178,56 +263,81 @@
     }
   },
   {
+    "name": "AK MOE Handguard (Jackal Company)",
+    "id": "ak-moe-handguard-jackal-company",
+    "type": "Handguard",
+    "weight": "0.221 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Magpul",
+    "recoil_control": "+5 %",
+    "ergonomics": "+1 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.221,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
     "name": "AK Polymer Handguard with Picatinny Rail",
     "id": "ak-polymer-handguard-with-picatinny-rail",
     "type": "Handguard",
-    "weight": "0.200 kg",
-    "sold_by": "Turncoat R.1",
-    "buy_price": "$89",
+    "weight": "0.2 kg",
+    "sold_by": "Loot only",
     "manufacturer": "Kalashnikov concern",
-    "recoil_control": "+2 %",
-    "weapon_handling": "-4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/AK_RIS_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305211631",
+    "recoil_control": "+3 %",
+    "ergonomics": "+1 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/AK_Polymer_Handguard_with_Picatinny_Rail_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305211631",
     "numeric_values": {
       "weight": {
         "value": 0.2,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 2.0,
+        "value": 3.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -4.0,
+      "ergonomics": {
+        "value": 1.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-4 %"
   },
   {
     "name": "AK Ratnik Handguard",
     "id": "ak-ratnik-handguard",
     "type": "Handguard",
-    "weight": "0.120 kg",
-    "sold_by": "Artisan R.3 Turncoat R.2",
-    "buy_price": "$406",
-    "manufacturer": "Kalashnikov Concern",
-    "recoil_control": "+4 %",
-    "weapon_handling": "+2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Ratnik_Short_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615190853",
+    "weight": "0.12 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$1,020",
+    "manufacturer": "Kalashnikov concern",
+    "recoil_control": "+7 %",
+    "ergonomics": "+9 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/AK_Ratnik_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615190853",
     "numeric_values": {
       "weight": {
         "value": 0.12,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 4.0,
+        "value": 7.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": 2.0,
+      "ergonomics": {
+        "value": 9.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "+2 %"
   },
   {
     "name": "AK Ratnik Handguard Long",
@@ -236,79 +346,154 @@
     "weight": "0.235 kg",
     "sold_by": "Loot only",
     "manufacturer": "Kalashnikov concern",
-    "recoil_control": "+6 %",
-    "weapon_handling": "+4 %",
+    "recoil_control": "+12 %",
+    "ergonomics": "+5 %",
     "numeric_values": {
       "weight": {
         "value": 0.235,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 6.0,
+        "value": 12.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": 4.0,
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "+4 %"
+  },
+  {
+    "name": "AK Rotor M-LOK Handguard",
+    "id": "ak-rotor-m-lok-handguard",
+    "type": "Handguard",
+    "weight": "0.55 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Rotor 43",
+    "recoil_control": "+12 %",
+    "ergonomics": "+2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.55,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
     }
   },
   {
+    "name": "AK-12 Sport-12U Handguard",
+    "id": "ak-12-sport-12u-handguard",
+    "type": "Handguard",
+    "weight": "0.315 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Zenitco",
+    "recoil_control": "+8 %",
+    "ergonomics": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.315,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AK-12 Sport-12U Handguard (FDE)",
+    "id": "ak-12-sport-12u-handguard-fde"
+  },
+  {
     "name": "AK-74 Polymer Handguard",
     "id": "ak-74-polymer-handguard",
     "type": "Handguard",
-    "weight": "0.250 kg",
-    "sold_by": "Turncoat",
-    "manufacturer": "Kalashnikov Concern",
-    "recoil_control": "+4.0%",
-    "weapon_handling": "+6.0%",
-    "size_change_horizontal": "???",
+    "weight": "0.25 kg",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$204",
+    "manufacturer": "Kalashnikov concern",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3f/AK-74_Polymer_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305205246",
     "numeric_values": {
       "weight": {
         "value": 0.25,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 4.0,
+        "value": 2.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": 6.0,
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
     },
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/AK_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305205517"
+    "weapon_handling": "+6.0%",
+    "size_change_horizontal": "???"
   },
   {
     "name": "AK-74 Wooden Handguard",
     "id": "ak-74-wooden-handguard",
     "type": "Handguard",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "???%",
-    "weapon_handling": "???%",
-    "size_change_horizontal": "???",
+    "weight": "0.221 kg",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$136",
+    "manufacturer": "Kalashnikov concern",
+    "recoil_control": "+1 %",
+    "ergonomics": "+1 %",
     "numeric_values": {
       "weight": {
         "value": 0.221,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "???%",
+    "size_change_horizontal": "???"
   },
   {
     "name": "AKM Wooden Handguard",
     "id": "akm-wooden-handguard",
     "type": "Handguard",
     "weight": "0.221 kg",
-    "sold_by": "Artisan R.1",
-    "buy_price": "$59",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$136",
     "manufacturer": "Kalashnikov concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/AKM_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305210348",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d1/AKM_Wooden_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305210348",
     "numeric_values": {
       "weight": {
         "value": 0.221,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
       }
     }
   },
@@ -316,19 +501,24 @@
     "name": "AKS-74U Mlok Handguard",
     "id": "aks-74u-mlok-handguard",
     "type": "Handguard",
-    "weight": "0.110 kg",
-    "sold_by": "Turncoat R.2",
-    "buy_price": "$84",
+    "weight": "0.11 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$391",
     "manufacturer": "DLG Tactical",
-    "recoil_control": "+4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/AKS-74U_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212105",
+    "recoil_control": "+3 %",
+    "ergonomics": "+7 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/AKS-74U_Mlok_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212105",
     "numeric_values": {
       "weight": {
         "value": 0.11,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 4.0,
+        "value": 3.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
         "unit": "%"
       }
     }
@@ -337,41 +527,52 @@
     "name": "AKS-74U Quad-Rail Handguard",
     "id": "aks-74u-quad-rail-handguard",
     "type": "Handguard",
-    "weight": "0.200 kg",
-    "sold_by": "Turncoat R.1",
-    "buy_price": "$50",
-    "manufacturer": "F.A.B",
-    "recoil_control": "+2 %",
-    "weapon_handling": "-2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/AKS-74U_Quad_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212951",
+    "weight": "0.2 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$476",
+    "manufacturer": "F.A.B.",
+    "recoil_control": "+7 %",
+    "ergonomics": "+3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/AKS-74U_Quad-Rail_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305212951",
     "numeric_values": {
       "weight": {
         "value": 0.2,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 2.0,
+        "value": 7.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -2.0,
+      "ergonomics": {
+        "value": 3.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-2 %"
   },
   {
     "name": "AKS-74U Wooden handguard",
     "id": "aks-74u-wooden-handguard",
     "type": "Handguard",
-    "weight": "0.150 kg",
+    "weight": "0.15 kg",
     "sold_by": "Turncoat R.1",
-    "buy_price": "$33",
+    "buy_price": "$136",
     "manufacturer": "Kalashnikov concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/AKS-74U_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213106",
+    "recoil_control": "+1 %",
+    "ergonomics": "+1 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/74/AKS-74U_Wooden_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305213106",
     "numeric_values": {
       "weight": {
         "value": 0.15,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
       }
     }
   },
@@ -380,16 +581,22 @@
     "id": "ar-15-moe-m-lok-carbine-handguard",
     "type": "Handguard",
     "weight": "0.184 kg",
-    "sold_by": "Gunny R.1",
+    "sold_by": "Gunny R.2",
+    "buy_price": "$561",
     "manufacturer": "Magpul",
+    "recoil_control": "+4 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Moe_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015937",
     "numeric_values": {
       "weight": {
         "value": 0.184,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
       }
-    }
+    },
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/Moe_MLOK_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015937"
   },
   {
     "name": "AR-15 MOE M-LOK Carbine Handguard (FDE)",
@@ -407,30 +614,110 @@
     }
   },
   {
+    "name": "AR-15 MOE M-LOK Carbine Handguard (Olive)",
+    "id": "ar-15-moe-m-lok-carbine-handguard-olive"
+  },
+  {
+    "name": "AUG M-LOK Handguard",
+    "id": "aug-m-lok-handguard",
+    "type": "Handguard",
+    "weight": "0.142 kg",
+    "sold_by": "Vulture R.3",
+    "buy_price": "$650",
+    "manufacturer": "Clawgear",
+    "recoil_control": "+2 %",
+    "ergonomics": "+8 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.142,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AUG M-LOK Top Rail Handguard - 16\"",
+    "id": "aug-m-lok-top-rail-handguard---16\"",
+    "type": "Handguard",
+    "weight": "0.317 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Underworld Arms",
+    "recoil_control": "+8 %",
+    "ergonomics": "+2 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.317,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AUG M-LOK Top Rail Handguard - 20\"",
+    "id": "aug-m-lok-top-rail-handguard---20\"",
+    "type": "Handguard",
+    "weight": "0.323 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Underworld Arms",
+    "recoil_control": "+12 %",
+    "ergonomics": "+2 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.323,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
     "name": "B&T BT-21343 HK MP5SD Tri-Rail Handguard",
     "id": "b&t-bt-21343-hk-mp5sd-tri-rail-handguard",
     "type": "Handguard",
     "weight": "0.357 kg",
-    "sold_by": "Gunny R.4",
-    "buy_price": "$481",
+    "sold_by": "Loot only",
     "manufacturer": "B&T",
-    "recoil_control": "+1 %",
-    "weapon_handling": "-1 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/BT-21343_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021507",
+    "recoil_control": "+10 %",
+    "ergonomics": "+4 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/B%26T_BT-21343_HK_MP5SD_Tri-Rail_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021507",
     "numeric_values": {
       "weight": {
         "value": 0.357,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 1.0,
+        "value": 10.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -1.0,
+      "ergonomics": {
+        "value": 4.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-1 %"
   },
   {
     "name": "B&T HK MP5 TL-99A1 3 Rail Handguard",
@@ -438,42 +725,164 @@
     "type": "Handguard",
     "weight": "0.253 kg",
     "sold_by": "Gunny R.3",
-    "buy_price": "$345",
+    "buy_price": "$646",
     "manufacturer": "B&T",
-    "recoil_control": "+1.0%",
-    "weapon_handling": "-1.0%",
-    "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/TL-99A1_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306020419",
+    "recoil_control": "+6 %",
+    "ergonomics": "+4 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/B%26T_HK_MP5_TL-99A1_3_Rail_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306020419",
     "numeric_values": {
       "weight": {
         "value": 0.253,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 1.0,
+        "value": 6.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -1.0,
+      "ergonomics": {
+        "value": 4.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-1.0%",
+    "size_change_horizontal": "???"
   },
   {
     "name": "Benelli M4 Handguard",
     "id": "benelli-m4-handguard",
     "type": "Handguard",
-    "weight": "0.022 kg",
+    "weight": "0.1 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$380",
     "manufacturer": "Benelli",
-    "reload_speed": "+3 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/M1014_HG_Inspect.png/revision/latest?cb=20261031205028",
+    "recoil_control": "+5 %",
+    "ergonomics": "+5 %",
     "numeric_values": {
       "weight": {
-        "value": 0.022,
+        "value": 0.1,
         "unit": "kg"
       },
-      "reload_speed": {
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    },
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/M1014_HG_Inspect.png/revision/latest?cb=20261031205028"
+  },
+  {
+    "name": "Benelli M4 M-LOK Handguard",
+    "id": "benelli-m4-m-lok-handguard",
+    "type": "Handguard",
+    "weight": "0.246 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$980",
+    "manufacturer": "Midwest Gun Works",
+    "recoil_control": "+2 %",
+    "ergonomics": "+12 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.246,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 M-LOK Handguard (FDE)",
+    "id": "benelli-m4-m-lok-handguard-fde"
+  },
+  {
+    "name": "Benelli M4 M-LOK Handguard (Riot Echo)",
+    "id": "benelli-m4-m-lok-handguard-riot-echo",
+    "type": "Handguard",
+    "weight": "0.246 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Midwest Gun Works",
+    "recoil_control": "+3 %",
+    "ergonomics": "+14 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.246,
+        "unit": "kg"
+      },
+      "recoil_control": {
         "value": 3.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 14.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 M-LOK Handguard (Silver)",
+    "id": "benelli-m4-m-lok-handguard-silver"
+  },
+  {
+    "name": "Benelli M4 Quad Rail Handguard",
+    "id": "benelli-m4-quad-rail-handguard",
+    "type": "Handguard",
+    "weight": "0.64 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$845",
+    "manufacturer": "Benelli",
+    "recoil_control": "+12 %",
+    "ergonomics": "+2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.64,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 Quad Rail Handguard (FDE)",
+    "id": "benelli-m4-quad-rail-handguard-fde"
+  },
+  {
+    "name": "Benelli M4 Quad Rail Handguard (Silver)",
+    "id": "benelli-m4-quad-rail-handguard-silver"
+  },
+  {
+    "name": "Buran's AK-74 Wooden Handguard",
+    "id": "burans-ak-74-wooden-handguard",
+    "type": "Handguard",
+    "weight": "0.221 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "EGMT",
+    "recoil_control": "+7 %",
+    "ergonomics": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.221,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 7.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
         "unit": "%"
       }
     }
@@ -484,70 +893,257 @@
     "type": "Handguard",
     "weight": "0.323 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$170",
     "manufacturer": "Norinco",
-    "recoil_control": "-1 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/CQ_A1_CAR_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614171006",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/CQ_A1_Carbine_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614171006",
     "numeric_values": {
       "weight": {
         "value": 0.323,
         "unit": "kg"
+      }
+    },
+    "recoil_control": "-1 %"
+  },
+  {
+    "name": "CRC 1U004A Handguard",
+    "id": "crc-1u004a-handguard",
+    "type": "Handguard",
+    "weight": "0.39 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$922",
+    "manufacturer": "КРУК \"Crook\"",
+    "recoil_control": "+8 %",
+    "ergonomics": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.39,
+        "unit": "kg"
       },
       "recoil_control": {
-        "value": -1.0,
+        "value": 8.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 6.0,
         "unit": "%"
       }
     }
+  },
+  {
+    "name": "CRC 1U004A Handguard (FDE)",
+    "id": "crc-1u004a-handguard-fde"
+  },
+  {
+    "name": "CRC 1U004A Handguard (Green)",
+    "id": "crc-1u004a-handguard-green"
+  },
+  {
+    "name": "CRC 1U004B Handguard",
+    "id": "crc-1u004b-handguard",
+    "type": "Handguard",
+    "weight": "0.42 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "КРУК \"Crook\"",
+    "recoil_control": "+10 %",
+    "ergonomics": "+4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.42,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "CRC 1U004B Handguard (FDE)",
+    "id": "crc-1u004b-handguard-fde"
+  },
+  {
+    "name": "CRC 1U004B Handguard (Green)",
+    "id": "crc-1u004b-handguard-green"
+  },
+  {
+    "name": "CRC 1U020A Handguard",
+    "id": "crc-1u020a-handguard",
+    "type": "Handguard",
+    "weight": "0.33 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$845",
+    "manufacturer": "КРУК \"Crook\"",
+    "recoil_control": "+7 %",
+    "ergonomics": "+7 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.33,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 7.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "CRC 1U020A Handguard (FDE)",
+    "id": "crc-1u020a-handguard-fde"
+  },
+  {
+    "name": "CRC 1U020A Handguard (Green)",
+    "id": "crc-1u020a-handguard-green"
+  },
+  {
+    "name": "CRC 1U020B Handguard",
+    "id": "crc-1u020b-handguard",
+    "type": "Handguard",
+    "weight": "0.36 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$1,150",
+    "manufacturer": "КРУК \"Crook\"",
+    "recoil_control": "+9 %",
+    "ergonomics": "+5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.36,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 9.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "CRC 1U020B Handguard (FDE)",
+    "id": "crc-1u020b-handguard-fde"
+  },
+  {
+    "name": "CRC 1U020B Handguard (Green)",
+    "id": "crc-1u020b-handguard-green"
+  },
+  {
+    "name": "CRC 1U040 Handguard",
+    "id": "crc-1u040-handguard",
+    "type": "Handguard",
+    "weight": "0.232 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$920",
+    "manufacturer": "КРУК \"Crook\"",
+    "recoil_control": "+2 %",
+    "ergonomics": "+12 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.232,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "CRC 1U040 Handguard (FDE)",
+    "id": "crc-1u040-handguard-fde"
+  },
+  {
+    "name": "CRC 1U040 Handguard (Green)",
+    "id": "crc-1u040-handguard-green"
   },
   {
     "name": "DD RIS II 12",
     "id": "dd-ris-ii-12",
     "type": "Handguard",
     "weight": "0.501 kg",
-    "sold_by": "Gunny R.3",
-    "buy_price": "$504",
+    "sold_by": "Loot only",
     "manufacturer": "Daniel Defense",
-    "recoil_control": "+12 %",
-    "weapon_handling": "-8 %",
+    "recoil_control": "+10 %",
+    "ergonomics": "+4 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/RIS_II_12_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305214050",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/DD_RIS_II_12_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305214050",
     "numeric_values": {
       "weight": {
         "value": 0.501,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 12.0,
+        "value": 10.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -8.0,
+      "ergonomics": {
+        "value": 4.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-8 %"
   },
   {
     "name": "DD RIS II 12 (MilSpec)",
     "id": "dd-ris-ii-12-milspec",
     "type": "Handguard",
     "weight": "0.501 kg",
-    "sold_by": "???",
+    "sold_by": "Loot only",
     "manufacturer": "Daniel Defense",
-    "recoil_control": "+12 %",
-    "weapon_handling": "-8 %",
+    "recoil_control": "+10 %",
+    "ergonomics": "+4 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/RIS_II_12_FDE_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509151153",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/DD_RIS_II_12_%28MilSpec%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509151153",
     "numeric_values": {
       "weight": {
         "value": 0.501,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 12.0,
+        "value": 10.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -8.0,
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "-8 %"
+  },
+  {
+    "name": "DD RIS II 12 (Phantom Lance)",
+    "id": "dd-ris-ii-12-phantom-lance",
+    "type": "Handguard",
+    "weight": "0.485 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Daniel Defense",
+    "recoil_control": "+10 %",
+    "ergonomics": "+4 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.485,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 4.0,
         "unit": "%"
       }
     }
@@ -557,12 +1153,13 @@
     "id": "dd-ris-ii-12-fsp",
     "type": "Handguard",
     "weight": "0.485 kg",
-    "sold_by": "Loot only",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$1,445",
     "manufacturer": "Daniel Defense",
     "recoil_control": "+12 %",
-    "weapon_handling": "-8 %",
+    "ergonomics": "+2 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/RIS_II_12_FSP_inspect.png/revision/latest/scale-to-width-down/267?cb=20260305214252",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/DD_RIS_II_12_FSP_inspect.png/revision/latest/scale-to-width-down/267?cb=20260305214252",
     "numeric_values": {
       "weight": {
         "value": 0.485,
@@ -572,23 +1169,24 @@
         "value": 12.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -8.0,
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-8 %"
   },
   {
     "name": "DD RIS II 9.5",
     "id": "dd-ris-ii-9.5",
     "type": "Handguard",
-    "weight": "0.400 kg",
-    "sold_by": "???",
+    "weight": "0.4 kg",
+    "sold_by": "Loot only",
     "manufacturer": "Daniel Defense",
     "recoil_control": "+8 %",
-    "weapon_handling": "-6 %",
+    "ergonomics": "+6 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/RIS_II_9.5_inspect.png/revision/latest/scale-to-width-down/267?cb=20260305214446",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/DD_RIS_II_9.5_inspect.png/revision/latest/scale-to-width-down/267?cb=20260305214446",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -598,23 +1196,25 @@
         "value": 8.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -6.0,
+      "ergonomics": {
+        "value": 6.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-6 %"
   },
   {
     "name": "DD RIS II 9.5 (MilSpec)",
     "id": "dd-ris-ii-9.5-milspec",
     "type": "Handguard",
-    "weight": "0.400 kg",
-    "sold_by": "Loot only",
+    "weight": "0.4 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$1,360",
     "manufacturer": "Daniel Defense",
     "recoil_control": "+8 %",
-    "weapon_handling": "-6 %",
+    "ergonomics": "+6 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/56/RIS_II_9.5_FDE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305214554",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/DD_RIS_II_9.5_%28MilSpec%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305214554",
     "numeric_values": {
       "weight": {
         "value": 0.4,
@@ -624,34 +1224,665 @@
         "value": 8.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -6.0,
+      "ergonomics": {
+        "value": 6.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-6 %"
   },
   {
     "name": "EMA X5 Aluminum 5-rail MP5",
     "id": "ema-x5-aluminum-5-rail-mp5",
     "type": "Handguard",
-    "weight": "0.280 kg",
-    "sold_by": "Loot only",
+    "weight": "0.28 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$850",
     "manufacturer": "General West",
-    "recoil_control": "+2.0%",
-    "weapon_handling": "-2.0%",
-    "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/MP5_X5_inspect.png/revision/latest/scale-to-width-down/267?cb=20260306020748",
+    "recoil_control": "+12 %",
+    "ergonomics": "+2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/EMA_X5_Aluminum_5-rail_MP5_inspect.png/revision/latest/scale-to-width-down/267?cb=20260306020748",
     "numeric_values": {
       "weight": {
         "value": 0.28,
         "unit": "kg"
       },
       "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "-2.0%",
+    "size_change_horizontal": "???"
+  },
+  {
+    "name": "F-1 Firearms C7M-14 Handguard",
+    "id": "f-1-firearms-c7m-14-handguard",
+    "type": "Handguard",
+    "weight": "0.428 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "F1-Firearms",
+    "recoil_control": "+3 %",
+    "ergonomics": "+7 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 0.428,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "F-1 Firearms C7M-9 Handguard",
+    "id": "f-1-firearms-c7m-9-handguard",
+    "type": "Handguard",
+    "weight": "0.348 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$850",
+    "manufacturer": "F1-Firearms",
+    "recoil_control": "+2 %",
+    "ergonomics": "+8 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.348,
+        "unit": "kg"
+      },
+      "recoil_control": {
         "value": 2.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -2.0,
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Firebrand's AKS-74U Wooden Handguard",
+    "id": "firebrands-aks-74u-wooden-handguard",
+    "type": "Handguard",
+    "weight": "0.15 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Kalashnikov concern",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.15,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Extended Rifle M-LOK Handguard",
+    "id": "g3-extended-rifle-m-lok-handguard",
+    "type": "Handguard",
+    "weight": "0.303 kg",
+    "sold_by": "Artisan R.4",
+    "buy_price": "$1,100",
+    "manufacturer": "Magpul",
+    "recoil_control": "+7 %",
+    "ergonomics": "+7 %",
+    "size_change_horizontal": "+3",
+    "numeric_values": {
+      "weight": {
+        "value": 0.303,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 7.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Extended Rifle M-LOK Handguard (FDE)",
+    "id": "g3-extended-rifle-m-lok-handguard-fde"
+  },
+  {
+    "name": "G3 Extended Rifle M-LOK Handguard (Green)",
+    "id": "g3-extended-rifle-m-lok-handguard-green"
+  },
+  {
+    "name": "G3 Handguard",
+    "id": "g3-handguard",
+    "type": "Handguard",
+    "weight": "0.32 kg",
+    "sold_by": "Artisan R.3",
+    "buy_price": "$590",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+5 %",
+    "ergonomics": "+5 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.32,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Handguard (Black)",
+    "id": "g3-handguard-black"
+  },
+  {
+    "name": "G3 M-LOK Handguard",
+    "id": "g3-m-lok-handguard",
+    "type": "Handguard",
+    "weight": "0.243 kg",
+    "sold_by": "Artisan R.4",
+    "buy_price": "$880",
+    "manufacturer": "Magpul",
+    "recoil_control": "+4 %",
+    "ergonomics": "+10 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.243,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 M-LOK Handguard (FDE)",
+    "id": "g3-m-lok-handguard-fde"
+  },
+  {
+    "name": "G3 M-LOK Handguard (Green)",
+    "id": "g3-m-lok-handguard-green"
+  },
+  {
+    "name": "G3 M-LOK Handguard (Zero Hour)",
+    "id": "g3-m-lok-handguard-zero-hour",
+    "type": "Handguard",
+    "weight": "0.243 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Magpul",
+    "recoil_control": "+5 %",
+    "ergonomics": "+11 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.243,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 11.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Wide Handguard",
+    "id": "g3-wide-handguard",
+    "type": "Handguard",
+    "weight": "0.223 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+4 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.223,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Wooden Handguard",
+    "id": "g3-wooden-handguard",
+    "type": "Handguard",
+    "weight": "0.395 kg",
+    "sold_by": "Artisan R.3",
+    "buy_price": "$290",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+1 %",
+    "ergonomics": "+1 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.395,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 1.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 1.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3-RS Handguard",
+    "id": "g3-rs-handguard",
+    "type": "Handguard",
+    "weight": "0.326 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "F.A.B.",
+    "recoil_control": "+10 %",
+    "ergonomics": "+4 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.326,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 10.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3-RS Handguard (FDE)",
+    "id": "g3-rs-handguard-fde"
+  },
+  {
+    "name": "G36 Handguard",
+    "id": "g36-handguard",
+    "type": "Handguard",
+    "weight": "0.38 kg",
+    "sold_by": "Vulture R.1",
+    "buy_price": "$476",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.38,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G36C Handguard",
+    "id": "g36c-handguard",
+    "type": "Handguard",
+    "weight": "0.23 kg",
+    "sold_by": "Vulture R.2",
+    "buy_price": "$510",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+2 %",
+    "ergonomics": "+8 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.23,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G36C Handguard (FDE)",
+    "id": "g36c-handguard-fde"
+  },
+  {
+    "name": "G36C Handguard (RAL8K)",
+    "id": "g36c-handguard-ral8k",
+    "type": "Handguard",
+    "weight": "0.23 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+2 %",
+    "ergonomics": "+8 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.23,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G36K Handguard",
+    "id": "g36k-handguard",
+    "type": "Handguard",
+    "weight": "0.28 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+5 %",
+    "ergonomics": "+5 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.28,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G36K Handguard (FDE)",
+    "id": "g36k-handguard-fde"
+  },
+  {
+    "name": "HK UMP Extended Handguard",
+    "id": "hk-ump-extended-handguard",
+    "type": "Handguard",
+    "weight": "0.135 kg",
+    "sold_by": "Artisan R.3",
+    "buy_price": "$620",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+8 %",
+    "ergonomics": "+2 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.135,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "HK UMP Extended Handguard (FDE)",
+    "id": "hk-ump-extended-handguard-fde"
+  },
+  {
+    "name": "HK USC Extended Handguard",
+    "id": "hk-usc-extended-handguard",
+    "type": "Handguard",
+    "weight": "0.135 kg",
+    "sold_by": "Artisan R.3",
+    "buy_price": "$420",
+    "manufacturer": "Heckler & Koch",
+    "recoil_control": "+6 %",
+    "ergonomics": "+4 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.135,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "HK USC Extended Handguard (FDE)",
+    "id": "hk-usc-extended-handguard-fde"
+  },
+  {
+    "name": "KAC URX 6 11.5\"",
+    "id": "kac-urx-6-11.5\"",
+    "type": "Handguard",
+    "weight": "0.379 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$1,530",
+    "manufacturer": "KAC",
+    "recoil_control": "+3 %",
+    "ergonomics": "+11 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.379,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 11.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "KAC URX 6 11.5\" (Serpent Guard)",
+    "id": "kac-urx-6-11.5\"-serpent-guard",
+    "type": "Handguard",
+    "weight": "0.379 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "KAC",
+    "recoil_control": "+3 %",
+    "ergonomics": "+11 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.379,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 3.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 11.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M16A1 Handguard",
+    "id": "m16a1-handguard",
+    "type": "Handguard",
+    "weight": "0.453 kg",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$306",
+    "manufacturer": "COLT",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.453,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M1A Composite Handguard",
+    "id": "m1a-composite-handguard",
+    "type": "Handguard",
+    "weight": "0.071 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$510",
+    "manufacturer": "Springfield",
+    "recoil_control": "+7 %",
+    "ergonomics": "+3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.071,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 7.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 3.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M1A Composite Handguard (Black Hawk)",
+    "id": "m1a-composite-handguard-black-hawk",
+    "type": "Handguard",
+    "weight": "0.075 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Springfield",
+    "recoil_control": "+6 %",
+    "ergonomics": "+6 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.075,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 6.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M1A Composite Handguard (FDE)",
+    "id": "m1a-composite-handguard-fde"
+  },
+  {
+    "name": "M1A Composite Handguard (Olive)",
+    "id": "m1a-composite-handguard-olive"
+  },
+  {
+    "name": "M1A Upper Handguard Walnut",
+    "id": "m1a-upper-handguard-walnut",
+    "type": "Handguard",
+    "weight": "0.057 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$306",
+    "manufacturer": "General West",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.057,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M4 Carbine Handguard",
+    "id": "m4-carbine-handguard",
+    "type": "Handguard",
+    "weight": "0.323 kg",
+    "sold_by": "Gunny R.2",
+    "buy_price": "$374",
+    "manufacturer": "COLT",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
+    "size_change_horizontal": "+1",
+    "numeric_values": {
+      "weight": {
+        "value": 0.323,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
     }
@@ -662,9 +1893,10 @@
     "type": "Handguard",
     "weight": "0.252 kg",
     "sold_by": "Gunny R.2",
+    "buy_price": "$680",
     "manufacturer": "KAC",
-    "recoil_control": "+4 %",
-    "weapon_handling": "-4 %",
+    "recoil_control": "+3 %",
+    "ergonomics": "+1 %",
     "size_change_horizontal": "+1",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/M4_RAS_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015141",
     "numeric_values": {
@@ -673,52 +1905,82 @@
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 4.0,
+        "value": 3.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -4.0,
+      "ergonomics": {
+        "value": 1.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-4 %"
   },
   {
     "name": "M590 Forend",
     "id": "m590-forend",
     "type": "Handguard",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "???%",
-    "weapon_handling": "???%",
-    "size_change_horizontal": "???",
+    "weight": "0.212 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Mossberg",
     "numeric_values": {
       "weight": {
         "value": 0.212,
         "unit": "kg"
       }
-    }
+    },
+    "recoil_control": "???%",
+    "weapon_handling": "???%",
+    "size_change_horizontal": "???"
   },
   {
     "name": "M590 MOE Forend",
     "id": "m590-moe-forend",
     "type": "Handguard",
     "weight": "0.171 kg",
-    "sold_by": "Loot Only",
+    "sold_by": "Loot only",
     "manufacturer": "Magpul",
-    "recoil_control": "+4.0 %",
-    "weapon_handling": "+6.0 %",
+    "recoil_control": "+8 %",
+    "ergonomics": "+2 %",
     "numeric_values": {
       "weight": {
         "value": 0.171,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 4.0,
+        "value": 8.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": 6.0,
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "+6.0 %"
+  },
+  {
+    "name": "M590 MOE Forend (FDE)",
+    "id": "m590-moe-forend-fde"
+  },
+  {
+    "name": "M590 MOE Forend (Raven Team)",
+    "id": "m590-moe-forend-raven-team",
+    "type": "Handguard",
+    "weight": "0.171 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Magpul",
+    "recoil_control": "+8 %",
+    "ergonomics": "+2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.171,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
     }
@@ -727,18 +1989,22 @@
     "name": "M590 Tri-Rail Forend",
     "id": "m590-tri-rail-forend",
     "type": "Handguard",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "???%",
-    "weapon_handling": "???%",
-    "size_change_horizontal": "???",
+    "weight": "0.223 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Mossberg",
+    "recoil_control": "+4 %",
     "numeric_values": {
       "weight": {
         "value": 0.223,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "???%",
+    "size_change_horizontal": "???"
   },
   {
     "name": "M700 MOD*X Handguard",
@@ -763,6 +2029,32 @@
       },
       "weapon_handling": {
         "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M700 MODX Handguard",
+    "id": "m700-modx-handguard",
+    "type": "Handguard",
+    "weight": "0.369 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$850",
+    "manufacturer": "General West",
+    "recoil_control": "+12 %",
+    "ergonomics": "+2 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.369,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 12.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
     }
@@ -798,26 +2090,27 @@
     "type": "Handguard",
     "weight": "0.179 kg",
     "sold_by": "Gunny R.3",
-    "buy_price": "$83",
+    "buy_price": "$340",
     "manufacturer": "Magpul",
-    "recoil_control": "+4.0%",
-    "weapon_handling": "+6.0%",
-    "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/M870_MOE_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022121",
+    "recoil_control": "+8 %",
+    "ergonomics": "+2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/M870_MOE_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022121",
     "numeric_values": {
       "weight": {
         "value": 0.179,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 4.0,
+        "value": 8.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": 6.0,
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "+6.0%",
+    "size_change_horizontal": "???"
   },
   {
     "name": "M870 MOE Handguard (FDE)",
@@ -848,36 +2141,41 @@
     "id": "m870-voa-handguard",
     "type": "Handguard",
     "weight": "0.289 kg",
-    "sold_by": "Gunny R.4",
-    "buy_price": "$100",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$544",
     "manufacturer": "General West",
-    "recoil_control": "+6 %",
-    "weapon_handling": "+6 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/39/M870_VOA_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022602",
+    "recoil_control": "+7 %",
+    "ergonomics": "+7 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/M870_VOA_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022602",
     "numeric_values": {
       "weight": {
         "value": 0.289,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 6.0,
+        "value": 7.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": 6.0,
+      "ergonomics": {
+        "value": 7.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "+6 %"
+  },
+  {
+    "name": "M870 VOA Handguard (FDE)",
+    "id": "m870-voa-handguard-fde"
   },
   {
     "name": "M870 Walnut Forend",
     "id": "m870-walnut-forend",
     "type": "Handguard",
-    "weight": "0.310 kg",
+    "weight": "0.31 kg",
     "sold_by": "Gunny R.1",
-    "buy_price": "$33",
+    "buy_price": "$153",
     "manufacturer": "Remington",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/M870_Walnut_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022713",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/M870_Walnut_Forend_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306022713",
     "numeric_values": {
       "weight": {
         "value": 0.31,
@@ -891,11 +2189,11 @@
     "type": "Handguard",
     "weight": "0.379 kg",
     "sold_by": "Loot only",
-    "manufacturer": "Geissele Automaics",
+    "manufacturer": "Geissele Automatics",
     "recoil_control": "+8 %",
-    "weapon_handling": "-4 %",
+    "ergonomics": "+2 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/MK16_13.5_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014715",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Mk16_13.5%22_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014715",
     "numeric_values": {
       "weight": {
         "value": 0.379,
@@ -905,23 +2203,25 @@
         "value": 8.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -4.0,
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-4 %"
   },
   {
     "name": "Mk16 13.5\" (DDC)",
     "id": "mk16-13.5\"-ddc",
     "type": "Handguard",
     "weight": "0.379 kg",
-    "sold_by": "Loot only",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$1,054",
     "manufacturer": "Geissele Automatics",
     "recoil_control": "+8 %",
-    "weapon_handling": "-4 %",
+    "ergonomics": "+2 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/29/MK16_13.5_DDC_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015006",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b7/Mk16_13.5%22_%28DDC%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015006",
     "numeric_values": {
       "weight": {
         "value": 0.379,
@@ -931,39 +2231,53 @@
         "value": 8.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -4.0,
+      "ergonomics": {
+        "value": 2.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-4 %"
   },
   {
     "name": "MP5 Wide Forearm",
     "id": "mp5-wide-forearm",
     "type": "Handguard",
-    "weight": "0.140 kg",
+    "weight": "0.14 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$323",
     "manufacturer": "Heckler & Koch",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
     "numeric_values": {
       "weight": {
         "value": 0.14,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
       }
     }
+  },
+  {
+    "name": "MP5 Wide Forearm (Green)",
+    "id": "mp5-wide-forearm-green"
   },
   {
     "name": "MP5SD Forearm",
     "id": "mp5sd-forearm",
     "type": "Handguard",
-    "slot": "MP5SD HG",
-    "weight": "0.170 kg",
-    "grid_size": "2x1",
+    "weight": "0.17 kg",
     "sold_by": "Gunny R.2",
     "buy_price": "$476",
     "manufacturer": "Heckler & Koch",
-    "recoil_control": "+1.0%",
-    "ergonomics": "+3.0%",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/MP5SD%28Handguard%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021720",
+    "recoil_control": "+1 %",
+    "ergonomics": "+3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/MP5SD_Forearm_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306021720",
     "numeric_values": {
       "weight": {
         "value": 0.17,
@@ -980,44 +2294,186 @@
     }
   },
   {
+    "name": "Sa vz. 58 Expert Handguard",
+    "id": "sa-vz.-58-expert-handguard",
+    "type": "Handguard",
+    "weight": "0.41 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$680",
+    "manufacturer": "Gunexpert",
+    "recoil_control": "+8 %",
+    "ergonomics": "+2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.41,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Sa vz. 58 Expert Handguard (Blackwood Division)",
+    "id": "sa-vz.-58-expert-handguard-blackwood-division"
+  },
+  {
+    "name": "Sa vz. 58 FAB Handguard",
+    "id": "sa-vz.-58-fab-handguard",
+    "type": "Handguard",
+    "weight": "0.183 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$510",
+    "manufacturer": "F.A.B.",
+    "recoil_control": "+2 %",
+    "ergonomics": "+8 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.183,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Sa vz. 58 FAB Handguard (FDE)",
+    "id": "sa-vz.-58-fab-handguard-fde"
+  },
+  {
+    "name": "Sa vz. 58 Polymer Handguard",
+    "id": "sa-vz.-58-polymer-handguard",
+    "type": "Handguard",
+    "weight": "0.1 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$272",
+    "manufacturer": "Czech Small Arms, s.r.o.",
+    "recoil_control": "+2 %",
+    "ergonomics": "+2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.1,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Sa vz. 58 Wooden Handguard",
+    "id": "sa-vz.-58-wooden-handguard",
+    "type": "Handguard",
+    "weight": "0.215 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$153",
+    "manufacturer": "CZ",
+    "numeric_values": {
+      "weight": {
+        "value": 0.215,
+        "unit": "kg"
+      }
+    }
+  },
+  {
     "name": "SIG MCX 10\" Handguard",
     "id": "sig-mcx-10\"-handguard",
     "type": "Handguard",
     "weight": "0.204 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$434",
+    "buy_price": "$850",
     "manufacturer": "SIG Sauer",
-    "recoil_control": "+1 %",
+    "recoil_control": "+4 %",
+    "ergonomics": "+6 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/MCX_10_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023302",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/75/SIG_MCX_10%22_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023302",
     "numeric_values": {
       "weight": {
         "value": 0.204,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 1.0,
+        "value": 4.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 6.0,
         "unit": "%"
       }
     }
+  },
+  {
+    "name": "SIG MCX 10\" Handguard (FDE)",
+    "id": "sig-mcx-10\"-handguard-fde"
   },
   {
     "name": "SIG MCX 12\" SD Handguard",
     "id": "sig-mcx-12\"-sd-handguard",
     "type": "Handguard",
     "weight": "0.247 kg",
-    "sold_by": "Loot only",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$1,156",
     "manufacturer": "SIG Sauer",
-    "recoil_control": "+1.0%",
-    "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dc/MCX_12_SD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023503",
+    "recoil_control": "+4 %",
+    "ergonomics": "+10 %",
+    "size_change_horizontal": "+2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/SIG_MCX_12%22_SD_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023503",
     "numeric_values": {
       "weight": {
         "value": 0.247,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 1.0,
+        "value": 4.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "SIG MCX 12\" SD Handguard (FDE)",
+    "id": "sig-mcx-12\"-sd-handguard-fde"
+  },
+  {
+    "name": "SIG MCX 12\" SD Handguard (Ghost Nomad)",
+    "id": "sig-mcx-12\"-sd-handguard-ghost-nomad",
+    "type": "Handguard",
+    "weight": "0.247 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "SIG Sauer",
+    "recoil_control": "+5 %",
+    "ergonomics": "+11 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.247,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 11.0,
         "unit": "%"
       }
     }
@@ -1028,51 +2484,110 @@
     "type": "Handguard",
     "weight": "0.312 kg",
     "sold_by": "Banshee R.4",
-    "buy_price": "$438",
+    "buy_price": "$1,224",
     "manufacturer": "SIG Sauer",
-    "recoil_control": "+2 %",
+    "recoil_control": "+6 %",
+    "ergonomics": "+8 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/MCX_16_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023608",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/SIG_MCX_16%22_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023608",
     "numeric_values": {
       "weight": {
         "value": 0.312,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 2.0,
+        "value": 6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
         "unit": "%"
       }
     }
   },
   {
+    "name": "SIG MCX 16\" Handguard (FDE)",
+    "id": "sig-mcx-16\"-handguard-fde"
+  },
+  {
     "name": "SIG MCX 8\" Handguard",
     "id": "sig-mcx-8\"-handguard",
     "type": "Handguard",
-    "weight": "0.180 kg",
+    "weight": "0.18 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$365",
+    "buy_price": "$935",
     "manufacturer": "SIG Sauer",
+    "recoil_control": "+2 %",
+    "ergonomics": "+8 %",
     "size_change_horizontal": "+1",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/MCX_8_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614024546",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/SIG_MCX_8%22_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614024546",
     "numeric_values": {
       "weight": {
         "value": 0.18,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
       }
     }
+  },
+  {
+    "name": "SIG MCX 8\" Handguard (FDE)",
+    "id": "sig-mcx-8\"-handguard-fde"
   },
   {
     "name": "SVD Chassis MK1 Handguard",
     "id": "svd-chassis-mk1-handguard",
     "type": "Handguard",
-    "weight": "0.800 kg",
+    "weight": "0.8 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$1,445",
     "manufacturer": "Sureshot Armament",
-    "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/SVD_MK1_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023033",
+    "recoil_control": "+7 %",
+    "ergonomics": "+7 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/SVD_Chassis_MK1_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023033",
     "numeric_values": {
       "weight": {
         "value": 0.8,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 7.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 7.0,
+        "unit": "%"
+      }
+    },
+    "size_change_horizontal": "???"
+  },
+  {
+    "name": "SVD Chassis MK1 Handguard (Silent Watch)",
+    "id": "svd-chassis-mk1-handguard-silent-watch",
+    "type": "Handguard",
+    "weight": "0.8 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Sureshot Armament",
+    "recoil_control": "+8 %",
+    "ergonomics": "+8 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 8.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
       }
     }
   },
@@ -1080,15 +2595,25 @@
     "name": "SVD Polymer Handguard",
     "id": "svd-polymer-handguard",
     "type": "Handguard",
-    "weight": "0.300 kg",
-    "sold_by": "Artisan R.4",
-    "buy_price": "$555",
+    "weight": "0.3 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$595",
     "manufacturer": "Kalashnikov concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/SVD_Poly_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023939",
+    "recoil_control": "+5 %",
+    "ergonomics": "+5 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/SVD_Polymer_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023939",
     "numeric_values": {
       "weight": {
         "value": 0.3,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
       }
     }
   },
@@ -1096,14 +2621,25 @@
     "name": "SVD Wooden Handguard",
     "id": "svd-wooden-handguard",
     "type": "Handguard",
-    "weight": "0.350 kg",
-    "sold_by": "Loot only",
+    "weight": "0.35 kg",
+    "sold_by": "Turncoat R.3",
+    "buy_price": "$510",
     "manufacturer": "Kalashnikov concern",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/SVD_Wood_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023837",
+    "recoil_control": "+5 %",
+    "ergonomics": "+5 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/SVD_Wooden_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306023837",
     "numeric_values": {
       "weight": {
         "value": 0.35,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 5.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 5.0,
+        "unit": "%"
       }
     }
   },
@@ -1114,19 +2650,24 @@
     "weight": "0.454 kg",
     "sold_by": "Loot only",
     "manufacturer": "F.A.B.",
-    "recoil_control": "+1.0%",
-    "size_change_horizontal": "???",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/VFR-SVD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014244",
+    "recoil_control": "+10 %",
+    "ergonomics": "+4 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/VFR-SVD_F.A.B._Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014244",
     "numeric_values": {
       "weight": {
         "value": 0.454,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 1.0,
+        "value": 10.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 4.0,
         "unit": "%"
       }
-    }
+    },
+    "size_change_horizontal": "???"
   },
   {
     "name": "X7M-13 Handguard",
@@ -1134,129 +2675,158 @@
     "type": "Handguard",
     "weight": "0.379 kg",
     "sold_by": "Gunny R.4",
-    "buy_price": "$508",
+    "buy_price": "$1,275",
     "manufacturer": "F1-Firearms",
-    "recoil_control": "+8 %",
-    "weapon_handling": "-4 %",
+    "recoil_control": "+4 %",
+    "ergonomics": "+10 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/X7M-13_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306010628",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/X7M-13_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306010628",
     "numeric_values": {
       "weight": {
         "value": 0.379,
         "unit": "kg"
       },
       "recoil_control": {
-        "value": 8.0,
+        "value": 4.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -4.0,
+      "ergonomics": {
+        "value": 10.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-4 %"
   },
   {
     "name": "X7M-13 Handguard (Gray)",
     "id": "x7m-13-handguard-gray",
     "type": "Handguard",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "???%",
-    "weapon_handling": "???%",
-    "size_change_horizontal": "???",
+    "weight": "0.379 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "F1-Firearms",
+    "recoil_control": "+4 %",
+    "ergonomics": "+10 %",
+    "size_change_horizontal": "+2",
     "numeric_values": {
       "weight": {
         "value": 0.379,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 4.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 10.0,
+        "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "???%"
   },
   {
     "name": "X7M-15 Handguard",
     "id": "x7m-15-handguard",
     "type": "Handguard",
     "weight": "0.413 kg",
-    "sold_by": "Gunny R.4",
-    "buy_price": "$508",
-    "manufacturer": "F1-Firearms",
-    "recoil_control": "+10 %",
-    "weapon_handling": "-6 %",
-    "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/X7M-15_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014014",
-    "numeric_values": {
-      "weight": {
-        "value": 0.413,
-        "unit": "kg"
-      },
-      "recoil_control": {
-        "value": 10.0,
-        "unit": "%"
-      },
-      "weapon_handling": {
-        "value": -6.0,
-        "unit": "%"
-      }
-    }
-  },
-  {
-    "name": "X7M-15 Handguard (Gray)",
-    "id": "x7m-15-handguard-gray",
-    "type": "Handguard",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "???%",
-    "weapon_handling": "???%",
-    "size_change_horizontal": "???",
-    "numeric_values": {
-      "weight": {
-        "value": 0.413,
-        "unit": "kg"
-      }
-    }
-  },
-  {
-    "name": "X7M-7 Handguard",
-    "id": "x7m-7-handguard",
-    "type": "Handguard",
-    "weight": "0.295 kg",
-    "sold_by": "Gunny R.4",
+    "sold_by": "Loot only",
     "manufacturer": "F1-Firearms",
     "recoil_control": "+6 %",
-    "weapon_handling": "-2 %",
+    "ergonomics": "+8 %",
     "size_change_horizontal": "+2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/X7M-7_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014135",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/X7M-15_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014014",
     "numeric_values": {
       "weight": {
-        "value": 0.295,
+        "value": 0.413,
         "unit": "kg"
       },
       "recoil_control": {
         "value": 6.0,
         "unit": "%"
       },
-      "weapon_handling": {
-        "value": -2.0,
+      "ergonomics": {
+        "value": 8.0,
         "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "-6 %"
+  },
+  {
+    "name": "X7M-15 Handguard (Gray)",
+    "id": "x7m-15-handguard-gray",
+    "type": "Handguard",
+    "weight": "0.413 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "F1-Firearms",
+    "recoil_control": "+6 %",
+    "ergonomics": "+8 %",
+    "size_change_horizontal": "+2",
+    "numeric_values": {
+      "weight": {
+        "value": 0.413,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 6.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 8.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "???%"
+  },
+  {
+    "name": "X7M-7 Handguard",
+    "id": "x7m-7-handguard",
+    "type": "Handguard",
+    "weight": "0.295 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "F1-Firearms",
+    "recoil_control": "+2 %",
+    "ergonomics": "+12 %",
+    "size_change_horizontal": "+1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/X7M-7_Handguard_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306014135",
+    "numeric_values": {
+      "weight": {
+        "value": 0.295,
+        "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
+      }
+    },
+    "weapon_handling": "-2 %"
   },
   {
     "name": "X7M-7 Handguard (Gray)",
     "id": "x7m-7-handguard-gray",
     "type": "Handguard",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "recoil_control": "???%",
-    "weapon_handling": "???%",
-    "size_change_horizontal": "???",
+    "weight": "0.295 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "F1-Firearms",
+    "recoil_control": "+2 %",
+    "ergonomics": "+12 %",
+    "size_change_horizontal": "+1",
     "numeric_values": {
       "weight": {
         "value": 0.295,
         "unit": "kg"
+      },
+      "recoil_control": {
+        "value": 2.0,
+        "unit": "%"
+      },
+      "ergonomics": {
+        "value": 12.0,
+        "unit": "%"
       }
-    }
+    },
+    "weapon_handling": "???%"
   }
 ]
