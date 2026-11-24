@@ -1,12 +1,12 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-11-17T13:53:38.462440Z",
+  "generatedAt": "2026-11-24T12:34:42.339789Z",
   "source": "gzw-scraper",
   "datasets": {
     "ammo": {
       "file": "ammo.json",
       "records": 81,
-      "sha256": "f529ecdcefc1be1e26885a7d0dccc05d3187e5ca8b91ceb63116858f85c4b216"
+      "sha256": "5a01a0cb6b42f6f9255e461502da0aa9bc180c579f331b364318b8ab43d039f4"
     },
     "apparel_items": {
       "file": "apparel_items.json",
@@ -60,8 +60,8 @@
     },
     "charging_handle": {
       "file": "charging_handle.json",
-      "records": 11,
-      "sha256": "26bc3534ac5e750d4cd53d198c907e6434b35ef47c4bf299c66d3a381bd03ab1"
+      "records": 34,
+      "sha256": "9db8570ee77f45ff95bf3bbd878307d25c594581b2ebaf217c27a6a3965e4bd5"
     },
     "cleanup": {
       "file": "cleanup.json",
@@ -80,8 +80,8 @@
     },
     "contract": {
       "file": "contract.json",
-      "records": 34,
-      "sha256": "edebe87cdd0a36de648af8157dca9c226463553da12b5b4210f725cfda051953"
+      "records": 40,
+      "sha256": "1515a8868df53e6c717a727bbcc52130e70c94eee77901c1fe73c9414defaa72"
     },
     "contracts": {
       "file": "contracts.json",
@@ -96,7 +96,7 @@
     "disassembly_material": {
       "file": "disassembly_material.json",
       "records": 15,
-      "sha256": "ba312c31de67a583178377caf6d340f403bbfc3afbe625b68e01995c9b82ebea"
+      "sha256": "b8659feb42b884913eada3fb72d0153cb32a1b63b015e6fe4a2c66272702b3c2"
     },
     "disassembly_recipes": {
       "file": "disassembly_recipes.json",
@@ -156,7 +156,7 @@
     "foregrips": {
       "file": "foregrips.json",
       "records": 54,
-      "sha256": "6543fe9723b7c6a73eb488ce8354a71296ab2893a99890ae091f83e107587504"
+      "sha256": "413acb1e95fbf1c3207065db3b1c6a23fcee8527d147a68daa2b242376331bc4"
     },
     "front_iron_sights": {
       "file": "front_iron_sights.json",
@@ -176,7 +176,7 @@
     "gas_blocks": {
       "file": "gas_blocks.json",
       "records": 17,
-      "sha256": "3d962084bf6a1e054bddf1ca5840d4dbf26010252278855997c221f871f8089a"
+      "sha256": "0f62da1ee57eca41f3c80ba7d0ca820d5e66addc3578dec98efba14e1ef5c3a5"
     },
     "gear": {
       "file": "gear.json",
@@ -205,8 +205,8 @@
     },
     "handguards": {
       "file": "handguards.json",
-      "records": 56,
-      "sha256": "82deb982239f2ef6c80cd7c3b6dd92766b69961c8ba9c445e1e50bf666e78391"
+      "records": 145,
+      "sha256": "9af3b136308b8619f183e0d9db13e0dc7111e84102ed9bc39b2d82b8a455f8d3"
     },
     "hat": {
       "file": "hat.json",
@@ -271,12 +271,12 @@
     "keys": {
       "file": "keys.json",
       "records": 126,
-      "sha256": "3125a084c2139ca93c6e9c2ac96f3bf539627579c7a3f85e5e72eee6d594e9e4"
+      "sha256": "a51f28c4b1a7cd1dcddd9b4b2f1694227a42800561545a805c1ca6e15c04b7a6"
     },
     "laboratory_supplies": {
       "file": "laboratory_supplies.json",
       "records": 17,
-      "sha256": "92c8386976312c0a7f02b488765c02344b6031cc6735a210cfd77f4cf94be8ee"
+      "sha256": "fde298cf05f1cd9b19081202b42711187c8181f254e05efe3cc32b15bf4e3aa7"
     },
     "lockboxes": {
       "file": "lockboxes.json",
@@ -301,7 +301,7 @@
     "magazines": {
       "file": "magazines.json",
       "records": 51,
-      "sha256": "c32783fdbb7e25a58ed54da21be58efbcb7e76670c188e0fb1357f3c84f9ce58"
+      "sha256": "d4cf4cd08d36fab33fb335517966227980b219b05cab6a9865fb984d3533eb2c"
     },
     "main_task": {
       "file": "main_task.json",
@@ -361,7 +361,7 @@
     "plate_carriers": {
       "file": "plate_carriers.json",
       "records": 27,
-      "sha256": "32356a50dad656c4a44e0f38b78ab44193a3ad49a598deaae449c2bd955947e6"
+      "sha256": "daa0b2dec493d8ef0bb956c2c40ce2f57abd33f06ac7f551277482049fa9ae7d"
     },
     "production_material": {
       "file": "production_material.json",
@@ -401,7 +401,7 @@
     "rigs": {
       "file": "rigs.json",
       "records": 24,
-      "sha256": "5333956f5677ca96ce115689caa3d14f1822b15b8258c9fe7bb66da97c8d714e"
+      "sha256": "adb118659cb5693eae2c986c702217710e9c65a3286343988e92ddff9c60b560"
     },
     "scopes": {
       "file": "scopes.json",
@@ -415,8 +415,8 @@
     },
     "side_task": {
       "file": "side_task.json",
-      "records": 102,
-      "sha256": "670205d69e3f36f6084fa592e0ce9617ce491e374cb0c5dba34cce70e6571cc3"
+      "records": 106,
+      "sha256": "24f05d548572912f85e878902dc99f9d6c6ed0dd1a84e3840a1000b30d1bc100"
     },
     "slides": {
       "file": "slides.json",
@@ -465,8 +465,8 @@
     },
     "tasks": {
       "file": "tasks.json",
-      "records": 267,
-      "sha256": "0dc55a7ca74a7f960cafe524176cd9e239215b7444bdbaab53c69cd8efe78772"
+      "records": 271,
+      "sha256": "ce01cea64cc419ad51b4af3435bc0ffafa05a87b77da087c30adb94fc46a0337"
     },
     "throwables": {
       "file": "throwables.json",
@@ -505,8 +505,8 @@
     },
     "vendor_stock": {
       "file": "vendor_stock.json",
-      "records": 649,
-      "sha256": "fcc0149f328a6e9618a5c3d94adb8ef7dfb726ee3b86c3f034324c016cb36f03"
+      "records": 687,
+      "sha256": "0b3f062be253393767e7ef8efa25587596d3a9250fbd35d66abef149d6858232"
     },
     "vendors": {
       "file": "vendors.json",
@@ -531,7 +531,7 @@
     "weapons": {
       "file": "weapons.json",
       "records": 79,
-      "sha256": "335076fc858c691c29f75da11193a75797cb80c1328a262835dfd5cf130da8e3"
+      "sha256": "c899bb0d7d8da609dfbd3e401a80ea0161637ec2da08ab7fa02b05240040190a"
     },
     "workshop_supplies": {
       "file": "workshop_supplies.json",

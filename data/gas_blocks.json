@@ -17,8 +17,7 @@
         "value": 5.0,
         "unit": "%"
       }
-    },
-    "buy_price_source": "game-files"
+    }
   },
   {
     "name": "AKM Gas Tube",
@@ -38,8 +37,7 @@
         "value": 5.0,
         "unit": "%"
       }
-    },
-    "buy_price_source": "game-files"
+    }
   },
   {
     "name": "AKM Gas Tube (Jackal Company)",
@@ -78,8 +76,7 @@
         "value": 5.0,
         "unit": "%"
       }
-    },
-    "buy_price_source": "game-files"
+    }
   },
   {
     "name": "AKS-74U Gas Tube Mount",
@@ -279,8 +276,7 @@
         "value": 7.0,
         "unit": "%"
       }
-    },
-    "buy_price_source": "game-files"
+    }
   },
   {
     "name": "Ratnik Gas Tube (Hunter Team)",
@@ -320,8 +316,7 @@
         "value": 7.0,
         "unit": "%"
       }
-    },
-    "buy_price_source": "game-files"
+    }
   },
   {
     "name": "SIG MCX Gas Block (Ghost Nomad)",

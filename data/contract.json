@@ -1,5 +1,55 @@
 [
   {
+    "name": "Bad Batch",
+    "id": "bad-batch",
+    "vendor": "Banshee",
+    "task_type": "Contract",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to quietly interfere with drug production across Lamang. Disrupt the operation without drawing attention.",
+    "objectives": "Sabotage the drug production at the marked location"
+  },
+  {
+    "name": "Bad Batch II",
+    "id": "bad-batch-ii",
+    "vendor": "Banshee",
+    "task_type": "Contract",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to quietly interfere with drug production across Lamang. Disrupt the operation without drawing attention.",
+    "objectives": "Sabotage the drug production at the marked location"
+  },
+  {
+    "name": "Bad Batch V",
+    "id": "bad-batch-v",
+    "vendor": "Banshee",
+    "task_type": "Contract",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to quietly interfere with drug production across Lamang. Disrupt the operation without drawing attention.",
+    "objectives": "Sabotage the drug production at the marked location"
+  },
+  {
+    "name": "Bad Batch VI",
+    "id": "bad-batch-vi",
+    "vendor": "Banshee",
+    "task_type": "Contract",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to quietly interfere with drug production across Lamang. Disrupt the operation without drawing attention.",
+    "objectives": "Sabotage the drug production at the marked location"
+  },
+  {
+    "name": "Bad Batch VII",
+    "id": "bad-batch-vii",
+    "vendor": "Banshee",
+    "task_type": "Contract",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to quietly interfere with drug production across Lamang. Disrupt the operation without drawing attention.",
+    "objectives": "Sabotage the drug production at the marked location"
+  },
+  {
     "name": "Bad Idea",
     "id": "bad-idea",
     "vendor": "Handshake",
@@ -128,7 +178,18 @@
     "name": "Controlled Delivery V",
     "id": "controlled-delivery-v",
     "vendor": "Banshee",
+    "task_type": "Contract",
     "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
+    "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
+    "objectives": "Plant a GPS Tracker on a drug shipment"
+  },
+  {
+    "name": "Controlled Delivery VI",
+    "id": "controlled-delivery-vi",
+    "vendor": "Banshee",
+    "task_type": "Contract",
+    "location": "Hunter's Paradise",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
     "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",
     "objectives": "Plant a GPS Tracker on a drug shipment"
@@ -137,6 +198,7 @@
     "name": "Controlled Delivery VII",
     "id": "controlled-delivery-vii",
     "vendor": "Banshee",
+    "task_type": "Contract",
     "location": "Tiger Bay",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342",
     "briefing": "Banshee wants to trace the distribution of drugs across Lamang. Find the shipment at the marked site and plant a tracking device on it.",

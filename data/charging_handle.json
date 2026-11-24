@@ -4,17 +4,122 @@
     "id": "ak-rp-1-charging-handle",
     "type": "Charging Handle",
     "weight": "0.017 kg",
-    "sold_by": "Artisan R.3",
+    "sold_by": "Loot only",
     "manufacturer": "Zenitco",
-    "reload_speed": "+6 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/91/RP1_Ch_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617011308",
+    "reload_speed": "-3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/AK_RP-1_Charging_Handle_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617011308",
     "numeric_values": {
       "weight": {
         "value": 0.017,
         "unit": "kg"
       },
       "reload_speed": {
-        "value": 6.0,
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AK RP-1 Charging Handle (Hunter Team)",
+    "id": "ak-rp-1-charging-handle-hunter-team",
+    "type": "Charging Handle",
+    "weight": "0.017 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Zenitco",
+    "reload_speed": "-4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.017,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AK RP-1 Charging Handle (Jackal Company)",
+    "id": "ak-rp-1-charging-handle-jackal-company",
+    "type": "Charging Handle",
+    "weight": "0.017 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Zenitco",
+    "reload_speed": "-4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.017,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AK Slotted Charging Handle",
+    "id": "ak-slotted-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.014 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$210",
+    "manufacturer": "GPN",
+    "reload_speed": "-5 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.014,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -5.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AK Slotted Charging Handle (FDE)",
+    "id": "ak-slotted-charging-handle-fde"
+  },
+  {
+    "name": "AK Slotted Charging Handle (Green)",
+    "id": "ak-slotted-charging-handle-green"
+  },
+  {
+    "name": "AR-15 Ambidextrous Charging Handle",
+    "id": "ar-15-ambidextrous-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.042 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$272",
+    "manufacturer": "KAC",
+    "reload_speed": "-4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.042,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AR-15 Ambidextrous Charging Handle (Serpent Guard)",
+    "id": "ar-15-ambidextrous-charging-handle-serpent-guard",
+    "type": "Charging Handle",
+    "weight": "0.042 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "KAC",
+    "reload_speed": "-4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.042,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
         "unit": "%"
       }
     }
@@ -25,16 +130,17 @@
     "type": "Charging Handle",
     "weight": "0.036 kg",
     "sold_by": "Gunny R.3",
+    "buy_price": "$195.5",
     "manufacturer": "Daniel Defense",
-    "reload_speed": "+4 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/GripNRip_Ch_inspect.png/revision/latest/scale-to-width-down/267?cb=20250613224642",
+    "reload_speed": "-3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a3/AR-15_GRIP-N-RIP_Charging_Handle_inspect.png/revision/latest/scale-to-width-down/267?cb=20250613224642",
     "numeric_values": {
       "weight": {
         "value": 0.036,
         "unit": "kg"
       },
       "reload_speed": {
-        "value": 4.0,
+        "value": -3.0,
         "unit": "%"
       }
     }
@@ -43,18 +149,145 @@
     "name": "AR-15 Supreme Charging Handle",
     "id": "ar-15-supreme-charging-handle",
     "type": "Charging Handle",
-    "weight": "0.030 kg",
+    "weight": "0.03 kg",
     "sold_by": "Gunny R.4",
-    "buy_price": "$166",
+    "buy_price": "$234.6",
     "manufacturer": "Antreg",
-    "reload_speed": "+6.0 %",
+    "reload_speed": "-4 %",
     "numeric_values": {
       "weight": {
         "value": 0.03,
         "unit": "kg"
       },
       "reload_speed": {
-        "value": 6.0,
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AR-15 Supreme Charging Handle (Phantom Lance)",
+    "id": "ar-15-supreme-charging-handle-phantom-lance",
+    "type": "Charging Handle",
+    "weight": "0.03 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Antreg",
+    "reload_speed": "-4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.03,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AUG Charging Handle",
+    "id": "aug-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.016 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Steyr Arms",
+    "reload_speed": "-2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.016,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AUG Charging Handle (Black)",
+    "id": "aug-charging-handle-black"
+  },
+  {
+    "name": "AUG Charging Handle (Desert Storm)",
+    "id": "aug-charging-handle-desert-storm",
+    "type": "Charging Handle",
+    "weight": "0.016 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Steyr Arms",
+    "reload_speed": "-3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.016,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "AUG Charging Handle (Tan)",
+    "id": "aug-charging-handle-tan"
+  },
+  {
+    "name": "AUG Charging Handle (White)",
+    "id": "aug-charging-handle-white"
+  },
+  {
+    "name": "Benelli M4 Charging Handle",
+    "id": "benelli-m4-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.022 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$180",
+    "manufacturer": "Benelli",
+    "reload_speed": "-3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.022,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 Tactical Charging Handle",
+    "id": "benelli-m4-tactical-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.045 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Benelli",
+    "reload_speed": "-3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "Benelli M4 Tactical Charging Handle (Riot Echo)",
+    "id": "benelli-m4-tactical-charging-handle-riot-echo",
+    "type": "Charging Handle",
+    "weight": "0.045 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Benelli",
+    "reload_speed": "-4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.045,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
         "unit": "%"
       }
     }
@@ -65,9 +298,10 @@
     "type": "Charging Handle",
     "weight": "0.028 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$117.3",
     "manufacturer": "Norinco",
     "reload_speed": "-2 %",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/CQ_A1_Ch_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614172556",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/92/CQ_A1_Charging_Handle_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614172556",
     "numeric_values": {
       "weight": {
         "value": 0.028,
@@ -85,15 +319,59 @@
     "type": "Charging Handle",
     "weight": "0.027 kg",
     "sold_by": "Gunny R.2",
-    "manufacturer": "F1-firearms",
-    "reload_speed": "+2.0 %",
+    "buy_price": "$190.4",
+    "manufacturer": "F1-Firearms",
+    "reload_speed": "-2 %",
     "numeric_values": {
       "weight": {
         "value": 0.027,
         "unit": "kg"
       },
       "reload_speed": {
-        "value": 2.0,
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Cocking Handle",
+    "id": "g3-cocking-handle",
+    "type": "Charging Handle",
+    "weight": "0.12 kg",
+    "sold_by": "Artisan R.3",
+    "buy_price": "$50",
+    "manufacturer": "Heckler & Koch",
+    "reload_speed": "-2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "G3 Cocking Handle (Black)",
+    "id": "g3-cocking-handle-black"
+  },
+  {
+    "name": "G3 Cocking Handle (Zero Hour)",
+    "id": "g3-cocking-handle-zero-hour",
+    "type": "Charging Handle",
+    "weight": "0.12 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "reload_speed": "-3 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.12,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -3.0,
         "unit": "%"
       }
     }
@@ -102,13 +380,39 @@
     "name": "HK MP5 Cocking Handle",
     "id": "hk-mp5-cocking-handle",
     "type": "Charging Handle",
-    "weight": "0.120 kg",
+    "weight": "0.12 kg",
     "sold_by": "Gunny R.1",
+    "buy_price": "$134.3",
     "manufacturer": "Heckler & Koch",
+    "reload_speed": "-2 %",
     "numeric_values": {
       "weight": {
         "value": 0.12,
         "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "M16A1 Charging Handle",
+    "id": "m16a1-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.028 kg",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$117.3",
+    "manufacturer": "COLT",
+    "reload_speed": "-2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.028,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -2.0,
+        "unit": "%"
       }
     }
   },
@@ -116,17 +420,18 @@
     "name": "SCH 5.56 Charging Handle",
     "id": "sch-5.56-charging-handle",
     "type": "Charging Handle",
-    "weight": "0.080 kg",
+    "weight": "0.08 kg",
     "sold_by": "Gunny R.3",
+    "buy_price": "$232.9",
     "manufacturer": "Geissele Automatics",
-    "reload_speed": "+4.0 %",
+    "reload_speed": "-3 %",
     "numeric_values": {
       "weight": {
         "value": 0.08,
         "unit": "kg"
       },
       "reload_speed": {
-        "value": 4.0,
+        "value": -3.0,
         "unit": "%"
       }
     }
@@ -135,14 +440,17 @@
     "name": "SCH 5.56 Charging Handle (DDC)",
     "id": "sch-5.56-charging-handle-ddc",
     "type": "Charging Handle",
-    "weight": "0,080 kg",
-    "sold_by": "Gunny R.3",
-    "buy_price": "$232",
+    "weight": "0.08 kg",
+    "sold_by": "Loot only",
     "manufacturer": "Geissele Automatics",
-    "reload_speed": "+3.0 %",
+    "reload_speed": "-3 %",
     "numeric_values": {
+      "weight": {
+        "value": 0.08,
+        "unit": "kg"
+      },
       "reload_speed": {
-        "value": 3.0,
+        "value": -3.0,
         "unit": "%"
       }
     }
@@ -153,13 +461,37 @@
     "type": "Charging Handle",
     "weight": "0.031 kg",
     "sold_by": "Banshee R.3",
-    "buy_price": "$162",
+    "buy_price": "$212.5",
     "manufacturer": "SIG Sauer",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/MCX_Ch_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614022933",
+    "reload_speed": "-3 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/SIG_MCX_Charging_Handle_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614022933",
     "numeric_values": {
       "weight": {
         "value": 0.031,
         "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -3.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "SIG MCX Charging Handle (Ghost Nomad)",
+    "id": "sig-mcx-charging-handle-ghost-nomad",
+    "type": "Charging Handle",
+    "weight": "0.031 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "SIG Sauer",
+    "reload_speed": "-4 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.031,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -4.0,
+        "unit": "%"
       }
     }
   },
@@ -168,29 +500,59 @@
     "id": "standard-gi-charging-handle",
     "type": "Charging Handle",
     "weight": "0.028 kg",
-    "sold_by": "Loot only",
-    "manufacturer": "Colt",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6b/GI_M4_Ch_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135422",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$117.3",
+    "manufacturer": "COLT",
+    "reload_speed": "-2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Standard_GI_Charging_Handle_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135422",
     "numeric_values": {
       "weight": {
         "value": 0.028,
         "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -2.0,
+        "unit": "%"
       }
     }
+  },
+  {
+    "name": "UMP Charging Handle",
+    "id": "ump-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.016 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Heckler & Koch",
+    "reload_speed": "-2 %",
+    "numeric_values": {
+      "weight": {
+        "value": 0.016,
+        "unit": "kg"
+      },
+      "reload_speed": {
+        "value": -2.0,
+        "unit": "%"
+      }
+    }
+  },
+  {
+    "name": "UMP Charging Handle (FDE)",
+    "id": "ump-charging-handle-fde"
   },
   {
     "name": "Vz. 61 Charging Knobs",
     "id": "vz.-61-charging-knobs",
     "type": "Charging Handle",
-    "weight": "??? kg",
-    "sold_by": "???",
-    "manufacturer": "???",
-    "reload_speed": "+??? %",
+    "weight": "0.012 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$8.5",
+    "manufacturer": "CZ",
     "numeric_values": {
       "weight": {
         "value": 0.012,
         "unit": "kg"
       }
-    }
+    },
+    "reload_speed": "+??? %"
   }
 ]

@@ -25,13 +25,13 @@
           "presentCount": 40,
           "optional": true,
           "nullable": false,
-          "example": "+100 %"
+          "example": "+15 %"
         },
         "grid_size": {
           "types": [
             "string"
           ],
-          "presentCount": 57,
+          "presentCount": 56,
           "optional": true,
           "nullable": false,
           "example": "1x1"
@@ -90,19 +90,19 @@
           "nullable": false,
           "example": {
             "weight": {
-              "value": 0.0105,
+              "value": 0.012,
               "unit": "kg"
             },
             "muzzle_velocity": {
-              "value": 860.0,
+              "value": 1006.0,
               "unit": "m/s"
             },
             "accuracy_modifier": {
-              "value": -1.0,
+              "value": -2.0,
               "unit": "%"
             },
             "durability_modifier": {
-              "value": 100.0,
+              "value": 15.0,
               "unit": "%"
             }
           }
@@ -111,7 +111,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 66,
+          "presentCount": 67,
           "optional": true,
           "nullable": false,
           "example": "$0.1"
@@ -120,7 +120,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 66,
+          "presentCount": 67,
           "optional": true,
           "nullable": false,
           "example": "gzwitems.com"
@@ -143,15 +143,6 @@
           "nullable": false,
           "example": "NIJ 0"
         },
-        "stopped_by_armor_class_source": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 40,
-          "optional": true,
-          "nullable": false,
-          "example": "game-files"
-        },
         "type": {
           "types": [
             "string"
@@ -171,7 +162,7 @@
           "example": "0.007kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": ".222 Remington",
@@ -183,7 +174,7 @@
         },
         {
           "title": ".222 Remington HP",
-          "revisionId": 28078
+          "revisionId": 29119
         },
         {
           "title": ".222 Remington SP",
@@ -191,7 +182,7 @@
         },
         {
           "title": ".222 Remington VMax",
-          "revisionId": 28080
+          "revisionId": 29120
         },
         {
           "title": ".300 AAC Blackout",
@@ -199,11 +190,11 @@
         },
         {
           "title": ".300 AAC Blackout AP",
-          "revisionId": 28130
+          "revisionId": 29121
         },
         {
           "title": ".300 AAC Blackout CQ",
-          "revisionId": 28131
+          "revisionId": 29122
         },
         {
           "title": ".300 AAC Blackout FMJ",
@@ -215,7 +206,7 @@
         },
         {
           "title": ".300 AAC Blackout V-MAX",
-          "revisionId": 28133
+          "revisionId": 29123
         },
         {
           "title": ".45 ACP",
@@ -223,7 +214,7 @@
         },
         {
           "title": ".45 ACP AP",
-          "revisionId": 28064
+          "revisionId": 29117
         },
         {
           "title": ".45 ACP FMJ",
@@ -231,7 +222,7 @@
         },
         {
           "title": ".45 ACP Hydra-Shok",
-          "revisionId": 28070
+          "revisionId": 29118
         },
         {
           "title": ".45 ACP JHP +P",
@@ -259,19 +250,19 @@
         },
         {
           "title": "12ga 00 Buckshot",
-          "revisionId": 28432
+          "revisionId": 29154
         },
         {
           "title": "12ga FC 00 Buckshot",
-          "revisionId": 28433
+          "revisionId": 29155
         },
         {
           "title": "12ga SST Sabot Slug",
-          "revisionId": 28435
+          "revisionId": 29157
         },
         {
           "title": "12ga Slug",
-          "revisionId": 28434
+          "revisionId": 29156
         },
         {
           "title": "4.6x30mm",
@@ -279,7 +270,7 @@
         },
         {
           "title": "4.6x30mm AP SX",
-          "revisionId": 28136
+          "revisionId": 29124
         },
         {
           "title": "4.6x30mm Action SX",
@@ -295,7 +286,7 @@
         },
         {
           "title": "4.6x30mm V-max",
-          "revisionId": 28145
+          "revisionId": 29125
         },
         {
           "title": "5.45x39mm",
@@ -303,31 +294,31 @@
         },
         {
           "title": "5.45x39mm BP (7N22)",
-          "revisionId": 28179
+          "revisionId": 29126
         },
         {
           "title": "5.45x39mm BS (7N24)",
-          "revisionId": 28180
+          "revisionId": 29127
         },
         {
           "title": "5.45x39mm BT (7BT4)",
-          "revisionId": 28181
+          "revisionId": 29128
         },
         {
           "title": "5.45x39mm FMJ",
-          "revisionId": 28183
+          "revisionId": 29129
         },
         {
           "title": "5.45x39mm HP",
-          "revisionId": 28184
+          "revisionId": 29130
         },
         {
           "title": "5.45x39mm PP (7N10)",
-          "revisionId": 28185
+          "revisionId": 29131
         },
         {
           "title": "5.45x39mm PS (7N6)",
-          "revisionId": 28187
+          "revisionId": 29132
         },
         {
           "title": "5.45x39mm US (7U1)",
@@ -343,23 +334,27 @@
         },
         {
           "title": "5.56x45mm AP (M855)",
-          "revisionId": 28225
+          "revisionId": 29133
         },
         {
           "title": "5.56x45mm AP (M855A1)",
-          "revisionId": 28227
+          "revisionId": 29134
         },
         {
           "title": "5.56x45mm AP (M995)",
-          "revisionId": 28229
+          "revisionId": 29135
         },
         {
           "title": "5.56x45mm FMJ",
           "revisionId": 28233
         },
         {
+          "title": "5.56x45mm FMJ (M193)",
+          "revisionId": 29136
+        },
+        {
           "title": "5.56x45mm HPBT",
-          "revisionId": 28235
+          "revisionId": 29137
         },
         {
           "title": "5.56x45mm M193",
@@ -375,11 +370,11 @@
         },
         {
           "title": "5.56x45mm Tracer (M856)",
-          "revisionId": 28239
+          "revisionId": 29138
         },
         {
           "title": "5.56x45mm Tracer (M856A1)",
-          "revisionId": 28240
+          "revisionId": 29139
         },
         {
           "title": "7.62x25mm",
@@ -399,7 +394,7 @@
         },
         {
           "title": "7.62x25mm Pst",
-          "revisionId": 28276
+          "revisionId": 29140
         },
         {
           "title": "7.62x39 BZ (57-BZ-231)",
@@ -411,7 +406,7 @@
         },
         {
           "title": "7.62x39mm BP (7N23)",
-          "revisionId": 28293
+          "revisionId": 29141
         },
         {
           "title": "7.62x39mm FMJ",
@@ -419,11 +414,11 @@
         },
         {
           "title": "7.62x39mm PP (7N27)",
-          "revisionId": 28295
+          "revisionId": 29142
         },
         {
           "title": "7.62x39mm PS (57-N-231C)",
-          "revisionId": 28296
+          "revisionId": 29143
         },
         {
           "title": "7.62x39mm SP",
@@ -439,7 +434,7 @@
         },
         {
           "title": "7.62x51mm AP (M61)",
-          "revisionId": 28323
+          "revisionId": 29144
         },
         {
           "title": "7.62x51mm FMJ (M80)",
@@ -447,11 +442,11 @@
         },
         {
           "title": "7.62x51mm FMJ (M80A1)",
-          "revisionId": 28326
+          "revisionId": 29145
         },
         {
           "title": "7.62x51mm HPBT",
-          "revisionId": 28327
+          "revisionId": 29146
         },
         {
           "title": "7.62x51mm NATO",
@@ -463,19 +458,19 @@
         },
         {
           "title": "7.62x54R AP (7N13)",
-          "revisionId": 28356
+          "revisionId": 29147
         },
         {
           "title": "7.62x54R LPS (57-N-323S)",
-          "revisionId": 28357
+          "revisionId": 29148
         },
         {
           "title": "7.62x54R Sniper Round (7N1)",
-          "revisionId": 28358
+          "revisionId": 29149
         },
         {
           "title": "7.62x54R Tracer (T-46M)",
-          "revisionId": 28359
+          "revisionId": 29150
         },
         {
           "title": "7.62x54mm R",
@@ -491,7 +486,7 @@
         },
         {
           "title": "7.65 Browning Xtreme Defender",
-          "revisionId": 28373
+          "revisionId": 29151
         },
         {
           "title": "7.65mm Browning",
@@ -511,7 +506,7 @@
         },
         {
           "title": "9x19mm Libra Snail",
-          "revisionId": 28398
+          "revisionId": 29152
         },
         {
           "title": "9x19mm Tracer",
@@ -519,7 +514,7 @@
         },
         {
           "title": "9x19mm Xtreme Penetrator +P",
-          "revisionId": 28401
+          "revisionId": 29153
         },
         {
           "title": "9x19mm Xtreme Penetrator P+",
@@ -578,7 +573,7 @@
           "example": "/"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Apparel",
@@ -678,7 +673,7 @@
           "example": "0.016 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Alien Magwell Standard",
@@ -845,7 +840,7 @@
           "example": "0.072kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "6Sh118 Ratnik V2",
@@ -1084,7 +1079,7 @@
           "example": "0.06 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AR-15 Barrel - 10.5\"",
@@ -1535,7 +1530,7 @@
           "example": "0.25kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Belt Bag",
@@ -1713,7 +1708,7 @@
           "example": "0.530kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "M1050 LRF Rangefinder",
@@ -1766,7 +1761,7 @@
           "example": "AKU - Conero GTX"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AKU - Conero GTX",
@@ -1863,7 +1858,7 @@
           "example": "Bloudhound needs to be killed for Final Liberation task."
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Bloodhound",
@@ -2004,7 +1999,7 @@
           "example": "0.108 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "CQ A1 Buffer Tube",
@@ -2121,7 +2116,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Analog Indicator",
@@ -2233,7 +2228,7 @@
         },
         {
           "title": "Oscilloscope",
-          "revisionId": 27244
+          "revisionId": 29088
         },
         {
           "title": "PC Fan",
@@ -2312,22 +2307,22 @@
     {
       "name": "charging_handle",
       "file": "charging_handle.json",
-      "itemCount": 11,
+      "itemCount": 34,
       "fields": {
         "buy_price": {
           "types": [
             "string"
           ],
-          "presentCount": 3,
+          "presentCount": 14,
           "optional": true,
           "nullable": false,
-          "example": "$162"
+          "example": "$117.3"
         },
         "id": {
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 34,
           "optional": false,
           "nullable": false,
           "example": "ak-rp-1-charging-handle"
@@ -2339,36 +2334,36 @@
           "presentCount": 5,
           "optional": true,
           "nullable": false,
-          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/CQ_A1_Ch_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614172556"
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/AK_RP-1_Charging_Handle_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617011308"
         },
         "manufacturer": {
           "types": [
             "string"
           ],
-          "presentCount": 11,
-          "optional": false,
+          "presentCount": 27,
+          "optional": true,
           "nullable": false,
-          "example": "???"
+          "example": "Antreg"
         },
         "name": {
           "types": [
             "string"
           ],
-          "presentCount": 11,
+          "presentCount": 34,
           "optional": false,
           "nullable": false,
-          "example": "AK RP-1 Charging Handle"
+          "example": "AK RP-1 Charging Handle (Hunter Team)"
         },
         "numeric_values": {
           "types": [
             "object"
           ],
-          "presentCount": 11,
-          "optional": false,
+          "presentCount": 27,
+          "optional": true,
           "nullable": false,
           "example": {
             "weight": {
-              "value": 0.028,
+              "value": 0.016,
               "unit": "kg"
             },
             "reload_speed": {
@@ -2381,26 +2376,26 @@
           "types": [
             "string"
           ],
-          "presentCount": 8,
+          "presentCount": 27,
           "optional": true,
           "nullable": false,
-          "example": "+2.0 %"
+          "example": "+??? %"
         },
         "sold_by": {
           "types": [
             "string"
           ],
-          "presentCount": 11,
-          "optional": false,
+          "presentCount": 27,
+          "optional": true,
           "nullable": false,
-          "example": "???"
+          "example": "Artisan R.1"
         },
         "type": {
           "types": [
             "string"
           ],
-          "presentCount": 11,
-          "optional": false,
+          "presentCount": 27,
+          "optional": true,
           "nullable": false,
           "example": "Charging Handle"
         },
@@ -2408,57 +2403,149 @@
           "types": [
             "string"
           ],
-          "presentCount": 11,
-          "optional": false,
+          "presentCount": 27,
+          "optional": true,
           "nullable": false,
-          "example": "0,080 kg"
+          "example": "0.012 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AK RP-1 Charging Handle",
-          "revisionId": 18710
+          "revisionId": 29371
+        },
+        {
+          "title": "AK RP-1 Charging Handle (Hunter Team)",
+          "revisionId": 29368
+        },
+        {
+          "title": "AK RP-1 Charging Handle (Jackal Company)",
+          "revisionId": 29369
+        },
+        {
+          "title": "AK Slotted Charging Handle",
+          "revisionId": 29374
+        },
+        {
+          "title": "AK Slotted Charging Handle (FDE)",
+          "revisionId": 29372
+        },
+        {
+          "title": "AK Slotted Charging Handle (Green)",
+          "revisionId": 29373
+        },
+        {
+          "title": "AR-15 Ambidextrous Charging Handle",
+          "revisionId": 29376
+        },
+        {
+          "title": "AR-15 Ambidextrous Charging Handle (Serpent Guard)",
+          "revisionId": 29375
         },
         {
           "title": "AR-15 GRIP-N-RIP Charging Handle",
-          "revisionId": 18554
+          "revisionId": 29378
         },
         {
           "title": "AR-15 Supreme Charging Handle",
-          "revisionId": 18557
+          "revisionId": 29380
+        },
+        {
+          "title": "AR-15 Supreme Charging Handle (Phantom Lance)",
+          "revisionId": 29379
+        },
+        {
+          "title": "AUG Charging Handle",
+          "revisionId": 29385
+        },
+        {
+          "title": "AUG Charging Handle (Black)",
+          "revisionId": 29381
+        },
+        {
+          "title": "AUG Charging Handle (Desert Storm)",
+          "revisionId": 29382
+        },
+        {
+          "title": "AUG Charging Handle (Tan)",
+          "revisionId": 29383
+        },
+        {
+          "title": "AUG Charging Handle (White)",
+          "revisionId": 29384
+        },
+        {
+          "title": "Benelli M4 Charging Handle",
+          "revisionId": 29386
+        },
+        {
+          "title": "Benelli M4 Tactical Charging Handle",
+          "revisionId": 29388
+        },
+        {
+          "title": "Benelli M4 Tactical Charging Handle (Riot Echo)",
+          "revisionId": 29387
         },
         {
           "title": "CQ A1 Charging Handle",
-          "revisionId": 18550
+          "revisionId": 29390
         },
         {
           "title": "F1 Charging Handle",
-          "revisionId": 18553
+          "revisionId": 29391
+        },
+        {
+          "title": "G3 Cocking Handle",
+          "revisionId": 29394
+        },
+        {
+          "title": "G3 Cocking Handle (Black)",
+          "revisionId": 29392
+        },
+        {
+          "title": "G3 Cocking Handle (Zero Hour)",
+          "revisionId": 29393
         },
         {
           "title": "HK MP5 Cocking Handle",
-          "revisionId": 17930
+          "revisionId": 29395
+        },
+        {
+          "title": "M16A1 Charging Handle",
+          "revisionId": 29396
         },
         {
           "title": "SCH 5.56 Charging Handle",
-          "revisionId": 18555
+          "revisionId": 29398
         },
         {
           "title": "SCH 5.56 Charging Handle (DDC)",
-          "revisionId": 23745
+          "revisionId": 29397
         },
         {
           "title": "SIG MCX Charging Handle",
-          "revisionId": 18682
+          "revisionId": 29401
+        },
+        {
+          "title": "SIG MCX Charging Handle (Ghost Nomad)",
+          "revisionId": 29399
         },
         {
           "title": "Standard GI Charging Handle",
-          "revisionId": 18552
+          "revisionId": 29403
+        },
+        {
+          "title": "UMP Charging Handle",
+          "revisionId": 29405
+        },
+        {
+          "title": "UMP Charging Handle (FDE)",
+          "revisionId": 29404
         },
         {
           "title": "Vz. 61 Charging Knobs",
-          "revisionId": 16029
+          "revisionId": 29406
         }
       ]
     },
@@ -2576,7 +2663,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Cache Report IX",
@@ -2719,7 +2806,7 @@
           "example": ".318 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "503CU Micro Sight",
@@ -2949,7 +3036,7 @@
           "example": "0.02kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Admin Desk",
@@ -3076,7 +3163,7 @@
     {
       "name": "contract",
       "file": "contract.json",
-      "itemCount": 34,
+      "itemCount": 40,
       "fields": {
         "alternate": {
           "types": [
@@ -3091,7 +3178,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 34,
+          "presentCount": 40,
           "optional": false,
           "nullable": false,
           "example": "A local woman assisting Lab Rat needs help getting home safely. Locate her and assess the situation."
@@ -3100,16 +3187,16 @@
           "types": [
             "string"
           ],
-          "presentCount": 34,
+          "presentCount": 40,
           "optional": false,
           "nullable": false,
-          "example": "bad-idea"
+          "example": "bad-batch"
         },
         "image": {
           "types": [
             "string"
           ],
-          "presentCount": 34,
+          "presentCount": 40,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
@@ -3118,7 +3205,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 34,
+          "presentCount": 40,
           "optional": false,
           "nullable": false,
           "example": "Ban Pa"
@@ -3127,16 +3214,16 @@
           "types": [
             "string"
           ],
-          "presentCount": 34,
+          "presentCount": 40,
           "optional": false,
           "nullable": false,
-          "example": "Bad Idea"
+          "example": "Bad Batch II"
         },
         "objectives": {
           "types": [
             "string"
           ],
-          "presentCount": 33,
+          "presentCount": 39,
           "optional": true,
           "nullable": false,
           "example": "Bring the intel from the Ban Pa House of Prayer to Handshake/Artisan. Find intel regarding the Ban Pa cult. Locate the Bizarre Statue."
@@ -3145,7 +3232,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 2,
+          "presentCount": 10,
           "optional": true,
           "nullable": false,
           "example": "Contract"
@@ -3154,21 +3241,41 @@
           "types": [
             "string"
           ],
-          "presentCount": 34,
+          "presentCount": 40,
           "optional": false,
           "nullable": false,
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
+        {
+          "title": "Bad Batch",
+          "revisionId": 29106
+        },
+        {
+          "title": "Bad Batch II",
+          "revisionId": 29111
+        },
+        {
+          "title": "Bad Batch V",
+          "revisionId": 29448
+        },
+        {
+          "title": "Bad Batch VI",
+          "revisionId": 29454
+        },
+        {
+          "title": "Bad Batch VII",
+          "revisionId": 29445
+        },
         {
           "title": "Bad Idea",
           "revisionId": 24014
         },
         {
           "title": "Breadcrumbs",
-          "revisionId": 20868
+          "revisionId": 29089
         },
         {
           "title": "Cache Report",
@@ -3212,23 +3319,27 @@
         },
         {
           "title": "Controlled Delivery",
-          "revisionId": 27640
+          "revisionId": 29417
         },
         {
           "title": "Controlled Delivery II",
-          "revisionId": 25656
+          "revisionId": 29418
         },
         {
           "title": "Controlled Delivery V",
-          "revisionId": 27203
+          "revisionId": 29456
+        },
+        {
+          "title": "Controlled Delivery VI",
+          "revisionId": 29460
         },
         {
           "title": "Controlled Delivery VII",
-          "revisionId": 27937
+          "revisionId": 29431
         },
         {
           "title": "Controlled Delivery VIII",
-          "revisionId": 27383
+          "revisionId": 29423
         },
         {
           "title": "Deep Waters",
@@ -3264,7 +3375,7 @@
         },
         {
           "title": "Repossession IX",
-          "revisionId": 24682
+          "revisionId": 29346
         },
         {
           "title": "Repossession V",
@@ -3351,7 +3462,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Cache Report II",
@@ -3468,7 +3579,7 @@
           "example": "0.01kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Aniline",
@@ -3640,7 +3751,7 @@
           "example": "0.72kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Artillery Ballistic Calculator",
@@ -3656,7 +3767,7 @@
         },
         {
           "title": "Chemical Munitions Container",
-          "revisionId": 26887
+          "revisionId": 29367
         },
         {
           "title": "Counter IED/Jammer Unit",
@@ -3775,11 +3886,11 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Hideout",
-          "revisionId": 27704
+          "revisionId": 29413
         }
       ]
     },
@@ -3978,7 +4089,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Aques Water 1.5 l",
@@ -4360,7 +4471,7 @@
           "example": "0.05kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AI Targeting Module",
@@ -4528,7 +4639,7 @@
           "example": "0.05kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Army Intel",
@@ -4635,7 +4746,7 @@
           "example": "LAF Commanders"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Experience",
@@ -4715,7 +4826,7 @@
           "example": 0
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Experience",
@@ -4954,7 +5065,7 @@
           "example": "0.015kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Balaclava (Black)",
@@ -5044,7 +5155,7 @@
           "example": "Bandits"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Bandits",
@@ -5262,7 +5373,7 @@
           "example": "0.01kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "1 Shot Energy Chews",
@@ -5454,15 +5565,6 @@
           "nullable": false,
           "example": "Foregrip"
         },
-        "weapon_handling": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 18,
-          "optional": true,
-          "nullable": false,
-          "example": "+12 %"
-        },
         "weight": {
           "types": [
             "string"
@@ -5473,7 +5575,7 @@
           "example": "0.017 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "A3 M-LOK Tactical Foregrip",
@@ -5820,7 +5922,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Back-Up 3 Front Iron Sight",
@@ -5980,7 +6082,7 @@
           "example": "0.005kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Black Credit Card",
@@ -6042,7 +6144,7 @@
           "example": "Experience"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Experience",
@@ -6103,15 +6205,6 @@
           "optional": true,
           "nullable": false,
           "example": "$125.8"
-        },
-        "buy_price_source": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 5,
-          "optional": true,
-          "nullable": false,
-          "example": "game-files"
         },
         "id": {
           "types": [
@@ -6204,11 +6297,11 @@
           "example": "0.045 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AK-74 Gas Tube",
-          "revisionId": 29037
+          "revisionId": 29159
         },
         {
           "title": "AKM Gas Tube",
@@ -6309,7 +6402,7 @@
           "example": "Armor Vests"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AMP12",
@@ -6553,7 +6646,7 @@
           "example": "0.024kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Aviator (Black)",
@@ -6678,7 +6771,7 @@
           "example": "5.11 - Competition Shooting"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "5.11 - Competition Shooting",
@@ -6763,7 +6856,7 @@
           "example": "Crafts"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Crafts",
@@ -6854,7 +6947,7 @@
           "example": "1kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Advanced Hacking Tool",
@@ -6873,43 +6966,34 @@
     {
       "name": "handguards",
       "file": "handguards.json",
-      "itemCount": 56,
+      "itemCount": 145,
       "fields": {
         "buy_price": {
           "types": [
             "string"
           ],
-          "presentCount": 21,
+          "presentCount": 59,
           "optional": true,
           "nullable": false,
-          "example": "$100"
+          "example": "$1,020"
         },
         "ergonomics": {
           "types": [
             "string"
           ],
-          "presentCount": 1,
+          "presentCount": 91,
           "optional": true,
           "nullable": false,
-          "example": "+3.0%"
-        },
-        "grid_size": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": true,
-          "nullable": false,
-          "example": "2x1"
+          "example": "+1 %"
         },
         "id": {
           "types": [
             "string"
           ],
-          "presentCount": 56,
+          "presentCount": 145,
           "optional": false,
           "nullable": false,
-          "example": "ak-308-handguard"
+          "example": "ak-12-sport-12u-handguard"
         },
         "image": {
           "types": [
@@ -6918,44 +7002,44 @@
           "presentCount": 45,
           "optional": true,
           "nullable": false,
-          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/AKM_Wood_inspect.png/revision/latest/scale-to-width-down/268?cb=20260305210348"
+          "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/MODX_HG_inspect.png/revision/latest/scale-to-width-down/268?cb=20260306015318"
         },
         "manufacturer": {
           "types": [
             "string"
           ],
-          "presentCount": 56,
-          "optional": false,
+          "presentCount": 106,
+          "optional": true,
           "nullable": false,
-          "example": "???"
+          "example": "B&T"
         },
         "name": {
           "types": [
             "string"
           ],
-          "presentCount": 56,
+          "presentCount": 145,
           "optional": false,
           "nullable": false,
-          "example": "AK 308 Handguard"
+          "example": "AK 308 Handguard (Hunter Team)"
         },
         "numeric_values": {
           "types": [
             "object"
           ],
-          "presentCount": 56,
-          "optional": false,
+          "presentCount": 106,
+          "optional": true,
           "nullable": false,
           "example": {
             "weight": {
-              "value": 0.17,
+              "value": 0.25,
               "unit": "kg"
             },
             "recoil_control": {
-              "value": 1.0,
+              "value": 4.0,
               "unit": "%"
             },
             "ergonomics": {
-              "value": 3.0,
+              "value": -2.0,
               "unit": "%"
             }
           }
@@ -6964,53 +7048,35 @@
           "types": [
             "string"
           ],
-          "presentCount": 45,
+          "presentCount": 103,
           "optional": true,
           "nullable": false,
           "example": "+1 %"
-        },
-        "reload_speed": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": true,
-          "nullable": false,
-          "example": "+3 %"
         },
         "size_change_horizontal": {
           "types": [
             "string"
           ],
-          "presentCount": 33,
+          "presentCount": 58,
           "optional": true,
           "nullable": false,
           "example": "+1"
-        },
-        "slot": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 1,
-          "optional": true,
-          "nullable": false,
-          "example": "MP5SD HG"
         },
         "sold_by": {
           "types": [
             "string"
           ],
-          "presentCount": 54,
+          "presentCount": 106,
           "optional": true,
           "nullable": false,
-          "example": "???"
+          "example": "Artisan R.2"
         },
         "type": {
           "types": [
             "string"
           ],
-          "presentCount": 56,
-          "optional": false,
+          "presentCount": 106,
+          "optional": true,
           "nullable": false,
           "example": "Handguard"
         },
@@ -7027,25 +7093,37 @@
           "types": [
             "string"
           ],
-          "presentCount": 56,
-          "optional": false,
+          "presentCount": 106,
+          "optional": true,
           "nullable": false,
-          "example": "0.022 kg"
+          "example": "0.057 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AK 308 Handguard",
-          "revisionId": 18711
+          "revisionId": 29165
+        },
+        {
+          "title": "AK 308 Handguard (Hunter Team)",
+          "revisionId": 29160
         },
         {
           "title": "AK B10M + B19 Handguard",
-          "revisionId": 18690
+          "revisionId": 29164
+        },
+        {
+          "title": "AK B10M + B19 Handguard (Golden Khaki)",
+          "revisionId": 29338
         },
         {
           "title": "AK B30 + B31S Handguard",
-          "revisionId": 16752
+          "revisionId": 29168
+        },
+        {
+          "title": "AK B30 + B31S Handguard (Golden Khaki)",
+          "revisionId": 29339
         },
         {
           "title": "AK Handguard \"Romanian Dong\"",
@@ -7056,212 +7134,552 @@
           "revisionId": 18728
         },
         {
+          "title": "AK Handguard Romanian Dong",
+          "revisionId": 29169
+        },
+        {
+          "title": "AK Handguard Romanian Shark",
+          "revisionId": 29170
+        },
+        {
           "title": "AK MOE Handguard",
           "revisionId": 18149
         },
         {
           "title": "AK MOE Handguard (FDE)",
-          "revisionId": 18599
+          "revisionId": 29340
+        },
+        {
+          "title": "AK MOE Handguard (Jackal Company)",
+          "revisionId": 29172
         },
         {
           "title": "AK Polymer Handguard with Picatinny Rail",
-          "revisionId": 18206
+          "revisionId": 29174
         },
         {
           "title": "AK Ratnik Handguard",
-          "revisionId": 18689
+          "revisionId": 29177
         },
         {
           "title": "AK Ratnik Handguard Long",
-          "revisionId": 18588
+          "revisionId": 29175
+        },
+        {
+          "title": "AK Rotor M-LOK Handguard",
+          "revisionId": 29178
+        },
+        {
+          "title": "AK-12 Sport-12U Handguard",
+          "revisionId": 29180
+        },
+        {
+          "title": "AK-12 Sport-12U Handguard (FDE)",
+          "revisionId": 29341
         },
         {
           "title": "AK-74 Polymer Handguard",
-          "revisionId": 18549
+          "revisionId": 29181
         },
         {
           "title": "AK-74 Wooden Handguard",
-          "revisionId": 15850
+          "revisionId": 29182
         },
         {
           "title": "AKM Wooden Handguard",
-          "revisionId": 18562
+          "revisionId": 29184
         },
         {
           "title": "AKS-74U Mlok Handguard",
-          "revisionId": 18219
+          "revisionId": 29186
         },
         {
           "title": "AKS-74U Quad-Rail Handguard",
-          "revisionId": 18692
+          "revisionId": 29188
         },
         {
           "title": "AKS-74U Wooden handguard",
-          "revisionId": 18208
+          "revisionId": 29190
         },
         {
           "title": "AR-15 MOE M-LOK Carbine Handguard",
-          "revisionId": 18515
+          "revisionId": 29192
         },
         {
           "title": "AR-15 MOE M-LOK Carbine Handguard (FDE)",
-          "revisionId": 18506
+          "revisionId": 29342
         },
         {
           "title": "AR-15 MOE M-LOK Carbine Handguard (Olive)",
-          "revisionId": 18503
+          "revisionId": 29343
+        },
+        {
+          "title": "AUG M-LOK Handguard",
+          "revisionId": 29193
+        },
+        {
+          "title": "AUG M-LOK Top Rail Handguard - 16\"",
+          "revisionId": 29194
+        },
+        {
+          "title": "AUG M-LOK Top Rail Handguard - 20\"",
+          "revisionId": 29195
         },
         {
           "title": "B&T BT-21343 HK MP5SD Tri-Rail Handguard",
-          "revisionId": 18438
+          "revisionId": 29197
         },
         {
           "title": "B&T HK MP5 TL-99A1 3 Rail Handguard",
-          "revisionId": 18633
+          "revisionId": 29199
         },
         {
           "title": "Benelli M4 Handguard",
-          "revisionId": 25627
+          "revisionId": 29200
+        },
+        {
+          "title": "Benelli M4 M-LOK Handguard",
+          "revisionId": 29204
+        },
+        {
+          "title": "Benelli M4 M-LOK Handguard (FDE)",
+          "revisionId": 29201
+        },
+        {
+          "title": "Benelli M4 M-LOK Handguard (Riot Echo)",
+          "revisionId": 29202
+        },
+        {
+          "title": "Benelli M4 M-LOK Handguard (Silver)",
+          "revisionId": 29203
+        },
+        {
+          "title": "Benelli M4 Quad Rail Handguard",
+          "revisionId": 29207
+        },
+        {
+          "title": "Benelli M4 Quad Rail Handguard (FDE)",
+          "revisionId": 29205
+        },
+        {
+          "title": "Benelli M4 Quad Rail Handguard (Silver)",
+          "revisionId": 29206
+        },
+        {
+          "title": "Buran's AK-74 Wooden Handguard",
+          "revisionId": 29208
         },
         {
           "title": "CQ A1 Carbine Handguard",
-          "revisionId": 18497
+          "revisionId": 29210
+        },
+        {
+          "title": "CRC 1U004A Handguard",
+          "revisionId": 29213
+        },
+        {
+          "title": "CRC 1U004A Handguard (FDE)",
+          "revisionId": 29211
+        },
+        {
+          "title": "CRC 1U004A Handguard (Green)",
+          "revisionId": 29212
+        },
+        {
+          "title": "CRC 1U004B Handguard",
+          "revisionId": 29216
+        },
+        {
+          "title": "CRC 1U004B Handguard (FDE)",
+          "revisionId": 29214
+        },
+        {
+          "title": "CRC 1U004B Handguard (Green)",
+          "revisionId": 29215
+        },
+        {
+          "title": "CRC 1U020A Handguard",
+          "revisionId": 29219
+        },
+        {
+          "title": "CRC 1U020A Handguard (FDE)",
+          "revisionId": 29217
+        },
+        {
+          "title": "CRC 1U020A Handguard (Green)",
+          "revisionId": 29218
+        },
+        {
+          "title": "CRC 1U020B Handguard",
+          "revisionId": 29222
+        },
+        {
+          "title": "CRC 1U020B Handguard (FDE)",
+          "revisionId": 29220
+        },
+        {
+          "title": "CRC 1U020B Handguard (Green)",
+          "revisionId": 29221
+        },
+        {
+          "title": "CRC 1U040 Handguard",
+          "revisionId": 29225
+        },
+        {
+          "title": "CRC 1U040 Handguard (FDE)",
+          "revisionId": 29223
+        },
+        {
+          "title": "CRC 1U040 Handguard (Green)",
+          "revisionId": 29224
         },
         {
           "title": "DD RIS II 12",
-          "revisionId": 18508
+          "revisionId": 29236
         },
         {
           "title": "DD RIS II 12 (MilSpec)",
-          "revisionId": 18510
+          "revisionId": 29231
+        },
+        {
+          "title": "DD RIS II 12 (Phantom Lance)",
+          "revisionId": 29232
         },
         {
           "title": "DD RIS II 12 FSP",
-          "revisionId": 18509
+          "revisionId": 29234
         },
         {
           "title": "DD RIS II 9.5",
-          "revisionId": 18512
+          "revisionId": 29229
         },
         {
           "title": "DD RIS II 9.5 (MilSpec)",
-          "revisionId": 18514
+          "revisionId": 29227
         },
         {
           "title": "EMA X5 Aluminum 5-rail MP5",
-          "revisionId": 18634
+          "revisionId": 29238
+        },
+        {
+          "title": "F-1 Firearms C7M-14 Handguard",
+          "revisionId": 29240
+        },
+        {
+          "title": "F-1 Firearms C7M-9 Handguard",
+          "revisionId": 29239
+        },
+        {
+          "title": "Firebrand's AKS-74U Wooden Handguard",
+          "revisionId": 29241
+        },
+        {
+          "title": "G3 Extended Rifle M-LOK Handguard",
+          "revisionId": 29244
+        },
+        {
+          "title": "G3 Extended Rifle M-LOK Handguard (FDE)",
+          "revisionId": 29242
+        },
+        {
+          "title": "G3 Extended Rifle M-LOK Handguard (Green)",
+          "revisionId": 29243
+        },
+        {
+          "title": "G3 Handguard",
+          "revisionId": 29246
+        },
+        {
+          "title": "G3 Handguard (Black)",
+          "revisionId": 29245
+        },
+        {
+          "title": "G3 M-LOK Handguard",
+          "revisionId": 29250
+        },
+        {
+          "title": "G3 M-LOK Handguard (FDE)",
+          "revisionId": 29247
+        },
+        {
+          "title": "G3 M-LOK Handguard (Green)",
+          "revisionId": 29248
+        },
+        {
+          "title": "G3 M-LOK Handguard (Zero Hour)",
+          "revisionId": 29249
+        },
+        {
+          "title": "G3 Wide Handguard",
+          "revisionId": 29251
+        },
+        {
+          "title": "G3 Wooden Handguard",
+          "revisionId": 29252
+        },
+        {
+          "title": "G3-RS Handguard",
+          "revisionId": 29254
+        },
+        {
+          "title": "G3-RS Handguard (FDE)",
+          "revisionId": 29253
+        },
+        {
+          "title": "G36 Handguard",
+          "revisionId": 29256
+        },
+        {
+          "title": "G36C Handguard",
+          "revisionId": 29259
+        },
+        {
+          "title": "G36C Handguard (FDE)",
+          "revisionId": 29257
+        },
+        {
+          "title": "G36C Handguard (RAL8K)",
+          "revisionId": 29258
+        },
+        {
+          "title": "G36K Handguard",
+          "revisionId": 29261
+        },
+        {
+          "title": "G36K Handguard (FDE)",
+          "revisionId": 29260
+        },
+        {
+          "title": "HK UMP Extended Handguard",
+          "revisionId": 29263
+        },
+        {
+          "title": "HK UMP Extended Handguard (FDE)",
+          "revisionId": 29262
+        },
+        {
+          "title": "HK USC Extended Handguard",
+          "revisionId": 29265
+        },
+        {
+          "title": "HK USC Extended Handguard (FDE)",
+          "revisionId": 29264
+        },
+        {
+          "title": "KAC URX 6 11.5\"",
+          "revisionId": 29268
+        },
+        {
+          "title": "KAC URX 6 11.5\" (Serpent Guard)",
+          "revisionId": 29267
+        },
+        {
+          "title": "M16A1 Handguard",
+          "revisionId": 29276
+        },
+        {
+          "title": "M1A Composite Handguard",
+          "revisionId": 29272
+        },
+        {
+          "title": "M1A Composite Handguard (Black Hawk)",
+          "revisionId": 29269
+        },
+        {
+          "title": "M1A Composite Handguard (FDE)",
+          "revisionId": 29270
+        },
+        {
+          "title": "M1A Composite Handguard (Olive)",
+          "revisionId": 29271
+        },
+        {
+          "title": "M1A Upper Handguard Walnut",
+          "revisionId": 29273
+        },
+        {
+          "title": "M4 Carbine Handguard",
+          "revisionId": 29274
         },
         {
           "title": "M4 RAS",
-          "revisionId": 18499
+          "revisionId": 29275
         },
         {
           "title": "M590 Forend",
-          "revisionId": 15896
+          "revisionId": 29277
         },
         {
           "title": "M590 MOE Forend",
-          "revisionId": 18894
+          "revisionId": 29280
+        },
+        {
+          "title": "M590 MOE Forend (FDE)",
+          "revisionId": 29278
+        },
+        {
+          "title": "M590 MOE Forend (Raven Team)",
+          "revisionId": 29279
         },
         {
           "title": "M590 Tri-Rail Forend",
-          "revisionId": 15898
+          "revisionId": 29281
         },
         {
           "title": "M700 MOD*X Handguard",
           "revisionId": 18627
         },
         {
+          "title": "M700 MODX Handguard",
+          "revisionId": 29282
+        },
+        {
           "title": "M870 Forend (OD Green)",
-          "revisionId": 17975
+          "revisionId": 29283
         },
         {
           "title": "M870 MOE Handguard",
-          "revisionId": 18640
+          "revisionId": 29286
         },
         {
           "title": "M870 MOE Handguard (FDE)",
-          "revisionId": 18425
+          "revisionId": 29284
         },
         {
           "title": "M870 VOA Handguard",
-          "revisionId": 18066
+          "revisionId": 29289
+        },
+        {
+          "title": "M870 VOA Handguard (FDE)",
+          "revisionId": 29287
         },
         {
           "title": "M870 Walnut Forend",
-          "revisionId": 18643
+          "revisionId": 29291
         },
         {
           "title": "MP5 Wide Forearm",
-          "revisionId": 17934
+          "revisionId": 29297
+        },
+        {
+          "title": "MP5 Wide Forearm (Green)",
+          "revisionId": 29296
         },
         {
           "title": "MP5SD Forearm",
-          "revisionId": 21962
+          "revisionId": 29298
         },
         {
           "title": "Mk16 13.5\"",
-          "revisionId": 18623
+          "revisionId": 29295
         },
         {
           "title": "Mk16 13.5\" (DDC)",
-          "revisionId": 18624
+          "revisionId": 29293
         },
         {
           "title": "SIG MCX 10\" Handguard",
-          "revisionId": 18368
+          "revisionId": 29316
+        },
+        {
+          "title": "SIG MCX 10\" Handguard (FDE)",
+          "revisionId": 29310
         },
         {
           "title": "SIG MCX 12\" SD Handguard",
-          "revisionId": 18648
+          "revisionId": 29315
+        },
+        {
+          "title": "SIG MCX 12\" SD Handguard (FDE)",
+          "revisionId": 29312
+        },
+        {
+          "title": "SIG MCX 12\" SD Handguard (Ghost Nomad)",
+          "revisionId": 29313
         },
         {
           "title": "SIG MCX 16\" Handguard",
-          "revisionId": 18396
+          "revisionId": 29319
+        },
+        {
+          "title": "SIG MCX 16\" Handguard (FDE)",
+          "revisionId": 29317
         },
         {
           "title": "SIG MCX 8\" Handguard",
-          "revisionId": 18369
+          "revisionId": 29309
+        },
+        {
+          "title": "SIG MCX 8\" Handguard (FDE)",
+          "revisionId": 29307
         },
         {
           "title": "SVD Chassis MK1 Handguard",
-          "revisionId": 18645
+          "revisionId": 29322
+        },
+        {
+          "title": "SVD Chassis MK1 Handguard (Silent Watch)",
+          "revisionId": 29320
         },
         {
           "title": "SVD Polymer Handguard",
-          "revisionId": 18192
+          "revisionId": 29324
         },
         {
           "title": "SVD Wooden Handguard",
-          "revisionId": 18600
+          "revisionId": 29326
+        },
+        {
+          "title": "Sa vz. 58 Expert Handguard",
+          "revisionId": 29300
+        },
+        {
+          "title": "Sa vz. 58 Expert Handguard (Blackwood Division)",
+          "revisionId": 29299
+        },
+        {
+          "title": "Sa vz. 58 FAB Handguard",
+          "revisionId": 29303
+        },
+        {
+          "title": "Sa vz. 58 FAB Handguard (FDE)",
+          "revisionId": 29302
+        },
+        {
+          "title": "Sa vz. 58 Polymer Handguard",
+          "revisionId": 29304
+        },
+        {
+          "title": "Sa vz. 58 Wooden Handguard",
+          "revisionId": 29305
         },
         {
           "title": "VFR-SVD F.A.B. Handguard",
-          "revisionId": 18621
+          "revisionId": 29328
         },
         {
           "title": "X7M-13 Handguard",
-          "revisionId": 18519
+          "revisionId": 29334
         },
         {
           "title": "X7M-13 Handguard (Gray)",
-          "revisionId": 18520
+          "revisionId": 29332
         },
         {
           "title": "X7M-15 Handguard",
-          "revisionId": 18521
+          "revisionId": 29337
         },
         {
           "title": "X7M-15 Handguard (Gray)",
-          "revisionId": 18522
+          "revisionId": 29335
         },
         {
           "title": "X7M-7 Handguard",
-          "revisionId": 18517
+          "revisionId": 29331
         },
         {
           "title": "X7M-7 Handguard (Gray)",
-          "revisionId": 18518
+          "revisionId": 29329
         }
       ]
     },
@@ -7388,7 +7806,7 @@
           "example": "0.06kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Backwards Baseball Cap (Blue)",
@@ -7678,7 +8096,7 @@
           "example": "0.16kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "3M Comtac II",
@@ -7840,7 +8258,7 @@
           "example": "0.060kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "L4 G24 Helmet NVG Mount",
@@ -7997,7 +8415,7 @@
           "example": "0.110kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "6B47 Ratnik",
@@ -8297,7 +8715,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "At Doom's Gate",
@@ -8371,11 +8789,11 @@
           "example": "Hideout"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Hideout",
-          "revisionId": 27704
+          "revisionId": 29413
         }
       ]
     },
@@ -8466,11 +8884,11 @@
           "example": "Electronics Workshop"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Hideout",
-          "revisionId": 27704
+          "revisionId": 29413
         }
       ]
     },
@@ -8575,7 +8993,7 @@
           "example": "0.013kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Aramid Cloth",
@@ -8754,7 +9172,7 @@
           "example": "0.1 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "George's love letter",
@@ -8910,7 +9328,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Advanced Tracking Tag",
@@ -9018,7 +9436,7 @@
           "example": "0.01kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Dark Pearl Necklace",
@@ -9195,7 +9613,7 @@
           "example": "0.010kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Fort Narith HQ Reception Storage Key Card",
@@ -9368,7 +9786,7 @@
           "example": "0.010 Kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "A102 Key",
@@ -9764,7 +10182,7 @@
         },
         {
           "title": "Small Marketplace House Key",
-          "revisionId": 11427
+          "revisionId": 29474
         },
         {
           "title": "Sunset Chalet Cottage Key",
@@ -9977,7 +10395,7 @@
           "example": "0.030kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "10% Morphine Solution",
@@ -10025,7 +10443,7 @@
         },
         {
           "title": "Sarin Canister",
-          "revisionId": 26065
+          "revisionId": 29412
         },
         {
           "title": "Stabilized Morphine Sulfate Liquid",
@@ -10185,7 +10603,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "SafeLock Protected Ruck Case",
@@ -10261,7 +10679,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Ammo Box (Container)",
@@ -10481,7 +10899,7 @@
           "example": "Loot container"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Loot Box",
@@ -10602,7 +11020,7 @@
           "example": "0.004"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Loot",
@@ -10637,8 +11055,8 @@
           "types": [
             "string"
           ],
-          "presentCount": 46,
-          "optional": true,
+          "presentCount": 51,
+          "optional": false,
           "nullable": false,
           "example": ".300 BLK / 5.56x45mm 5.56x45mm NATO .300 AAC Blackout"
         },
@@ -10751,7 +11169,7 @@
           "example": "0.048 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "1911 .45ACP 15-Round Extended Magazine",
@@ -11046,7 +11464,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "A Walk in the Park",
@@ -11122,7 +11540,7 @@
         },
         {
           "title": "Rat's Nest",
-          "revisionId": 19056
+          "revisionId": 29466
         },
         {
           "title": "Reclamation",
@@ -11420,7 +11838,7 @@
           "example": "0.03kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "ARF Trauma Bandage 4",
@@ -11672,7 +12090,7 @@
           "example": "0.004kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AN/PYQ-10",
@@ -11853,7 +12271,7 @@
           "example": "0.061kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Aramid Cloth",
@@ -11996,7 +12414,7 @@
           "example": "13.650kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "M933 120mm HE Cartridge (High Range)",
@@ -12104,7 +12522,7 @@
           "example": "0.006 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "1911 Grip Scope Mount",
@@ -12434,7 +12852,7 @@
           "example": "0.030 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "3 Prong Flash Hider",
@@ -12678,7 +13096,7 @@
           "example": "Intel"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Newspaper - 10 Years of Independent Lamang",
@@ -12991,7 +13409,7 @@
           "example": "0.338kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AN/PVS-14 Night Vision Device",
@@ -13048,7 +13466,7 @@
           "example": "Paper"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Shift Roster",
@@ -13205,7 +13623,7 @@
           "example": "0.055 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "A2 Pistol Grip",
@@ -13363,15 +13781,6 @@
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/M2_Plate_Carrier_%28Olive_Green%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261106201627"
         },
-        "inventory": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 11,
-          "optional": true,
-          "nullable": false,
-          "example": "3x3"
-        },
         "manufacturer": {
           "types": [
             "string"
@@ -13481,7 +13890,7 @@
           "example": "10.5kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "6B45 Ratnik",
@@ -13698,7 +14107,7 @@
           "example": "0.05kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Acetic Anhydride",
@@ -13937,7 +14346,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Provisions",
@@ -14019,7 +14428,7 @@
           "example": "0.100kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "NB Research Notes",
@@ -14154,7 +14563,7 @@
           "example": "0.021 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AK Rear Iron Sight",
@@ -14307,7 +14716,7 @@
           "example": "1"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Ban Pa",
@@ -14541,7 +14950,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Aques Water 1 l",
@@ -14819,7 +15228,7 @@
           "example": "1.500kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Equipment Repair Essentials Kit",
@@ -14887,15 +15296,6 @@
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/Kangaroo_Tactical_Rig_%28Big%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20261114152925"
-        },
-        "inventory": {
-          "types": [
-            "string"
-          ],
-          "presentCount": 9,
-          "optional": true,
-          "nullable": false,
-          "example": "2x2"
         },
         "manufacturer": {
           "types": [
@@ -14975,7 +15375,7 @@
           "example": "0.2kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "6Sh104",
@@ -15233,7 +15633,7 @@
           "example": "0.292 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "ACOG TA01NSN 4x32 Assault Scope",
@@ -15318,7 +15718,7 @@
           "example": "Clawgear - Combat Operator (Black)"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Clawgear - Combat Operator",
@@ -15405,7 +15805,7 @@
     {
       "name": "side_task",
       "file": "side_task.json",
-      "itemCount": 102,
+      "itemCount": 106,
       "fields": {
         "alternate": {
           "types": [
@@ -15420,7 +15820,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 102,
+          "presentCount": 106,
           "optional": false,
           "nullable": false,
           "example": "A Lamtel office located south of the mall in Tiger Bay has been linked to multiple digital fraud cases. Your task is to get inside, find a functioning terminal, and pull whatever records you can. While you're in there, keep your eyes open for anything that feels off, and find out what was really happening there. — Banshee — Banshee"
@@ -15438,7 +15838,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 102,
+          "presentCount": 106,
           "optional": false,
           "nullable": false,
           "example": "a-shot-in-the-dark"
@@ -15447,7 +15847,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 102,
+          "presentCount": 106,
           "optional": false,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
@@ -15456,7 +15856,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 101,
+          "presentCount": 105,
           "optional": true,
           "nullable": false,
           "example": "Ban Pa"
@@ -15465,7 +15865,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 102,
+          "presentCount": 106,
           "optional": false,
           "nullable": false,
           "example": "A Shot in the Dark"
@@ -15474,7 +15874,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 98,
+          "presentCount": 102,
           "optional": true,
           "nullable": false,
           "example": "Bring the soil samples to Lab Rat Collect soil samples from the epicenter in Phousai Village Collect soil samples from the epicenter in Phousai Village Bring the tissue samples to Lab Rat Collect samples from the corpses in Phousai Village Collect samples from the corpses in Phousai Village Bring the LAF intel to Lab Rat Collect any LAF intel in Phousai Village Collect any LAF intel in Phousai Village"
@@ -15483,22 +15883,22 @@
           "types": [
             "string"
           ],
-          "presentCount": 1,
+          "presentCount": 4,
           "optional": true,
           "nullable": false,
-          "example": "Side Task"
+          "example": "Contract"
         },
         "vendor": {
           "types": [
             "string"
           ],
-          "presentCount": 102,
+          "presentCount": 106,
           "optional": false,
           "nullable": false,
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -15542,11 +15942,15 @@
         },
         {
           "title": "Chameleon - AKMN (JC)",
-          "revisionId": 21283
+          "revisionId": 29476
         },
         {
           "title": "Chameleon - DDM4 (PL)",
           "revisionId": 21279
+        },
+        {
+          "title": "Chameleon - G3 (ZH)",
+          "revisionId": 29483
         },
         {
           "title": "Chameleon - M14 (BH)",
@@ -15570,7 +15974,7 @@
         },
         {
           "title": "Chameleon - SVD Dragunov (SW)",
-          "revisionId": 23477
+          "revisionId": 29478
         },
         {
           "title": "Crash",
@@ -15598,7 +16002,7 @@
         },
         {
           "title": "Double Agent",
-          "revisionId": 25066
+          "revisionId": 29470
         },
         {
           "title": "Draw No Bet",
@@ -15757,12 +16161,24 @@
           "revisionId": 27933
         },
         {
+          "title": "Market Research III",
+          "revisionId": 29114
+        },
+        {
+          "title": "Market Research IX",
+          "revisionId": 29113
+        },
+        {
           "title": "Market Research VI",
           "revisionId": 27934
         },
         {
           "title": "Market Research VII",
-          "revisionId": 27897
+          "revisionId": 29094
+        },
+        {
+          "title": "Market Research VIII",
+          "revisionId": 29115
         },
         {
           "title": "Market Research XIV",
@@ -16032,7 +16448,7 @@
           "example": "0.280 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "1911 Commander Slide",
@@ -16135,7 +16551,7 @@
           "example": "Gunny"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Binary Choir",
@@ -16350,7 +16766,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Box of IDs",
@@ -16675,7 +17091,7 @@
           "example": "0.090 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AK Buffer Tube Adapter",
@@ -16864,7 +17280,7 @@
           "example": "0.087 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AK MOE Stock",
@@ -17289,7 +17705,7 @@
           "example": ".476 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "762-SD Suppressor",
@@ -17499,7 +17915,7 @@
           "example": "0.032 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "ADE Advanced Red Laser",
@@ -17593,7 +18009,7 @@
           "example": "Letter From Beyond"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Letter From Beyond",
@@ -17741,7 +18157,7 @@
           "example": "game-files"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Appeal to the Rebels",
@@ -18172,7 +18588,7 @@
     {
       "name": "tasks",
       "file": "tasks.json",
-      "itemCount": 267,
+      "itemCount": 271,
       "fields": {
         "alternate": {
           "types": [
@@ -18187,7 +18603,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 264,
+          "presentCount": 268,
           "optional": true,
           "nullable": false,
           "example": "A Lamtel office located south of the mall in Tiger Bay has been linked to multiple digital fraud cases. Your task is to get inside, find a functioning terminal, and pull whatever records you can. While you're in there, keep your eyes open for anything that feels off, and find out what was really happening there. — Banshee — Banshee"
@@ -18196,7 +18612,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 6,
+          "presentCount": 5,
           "optional": true,
           "nullable": false,
           "example": "CSI"
@@ -18214,7 +18630,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 267,
+          "presentCount": 271,
           "optional": false,
           "nullable": false,
           "example": "a-shot-in-the-dark"
@@ -18223,7 +18639,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 266,
+          "presentCount": 270,
           "optional": true,
           "nullable": false,
           "example": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
@@ -18232,7 +18648,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 256,
+          "presentCount": 260,
           "optional": true,
           "nullable": false,
           "example": "Ban Pa Region"
@@ -18241,7 +18657,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 267,
+          "presentCount": 271,
           "optional": false,
           "nullable": false,
           "example": "A Shot in the Dark"
@@ -18250,7 +18666,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 221,
+          "presentCount": 225,
           "optional": true,
           "nullable": false,
           "example": "Ascertain the state of all official entrances into Fort Narith Check the barracks entrance Check the main entrance Check the fuel supply entrance Check the airfield back entrance Check the barracks entrance Check the main entrance Check the fuel supply entrance Check the airfield back entrance"
@@ -18259,7 +18675,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 9,
+          "presentCount": 15,
           "optional": true,
           "nullable": false,
           "example": "Contract"
@@ -18268,7 +18684,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 265,
+          "presentCount": 269,
           "optional": true,
           "nullable": false,
           "example": "Artisan"
@@ -18283,7 +18699,7 @@
           "example": "Rank 2"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "A Shot in the Dark",
@@ -18387,11 +18803,15 @@
         },
         {
           "title": "Chameleon - AKMN (JC)",
-          "revisionId": 21283
+          "revisionId": 29476
         },
         {
           "title": "Chameleon - DDM4 (PL)",
           "revisionId": 21279
+        },
+        {
+          "title": "Chameleon - G3 (ZH)",
+          "revisionId": 29483
         },
         {
           "title": "Chameleon - M14 (BH)",
@@ -18415,7 +18835,7 @@
         },
         {
           "title": "Chameleon - SVD Dragunov (SW)",
-          "revisionId": 23477
+          "revisionId": 29478
         },
         {
           "title": "Covert Research",
@@ -18463,7 +18883,7 @@
         },
         {
           "title": "Distant Voice",
-          "revisionId": 27853
+          "revisionId": 29158
         },
         {
           "title": "Domesticated Rat",
@@ -18475,7 +18895,7 @@
         },
         {
           "title": "Double Agent",
-          "revisionId": 25066
+          "revisionId": 29470
         },
         {
           "title": "Double Exposure",
@@ -18643,7 +19063,7 @@
         },
         {
           "title": "Hide And Seek",
-          "revisionId": 24299
+          "revisionId": 29408
         },
         {
           "title": "Hoarder",
@@ -18846,12 +19266,24 @@
           "revisionId": 27933
         },
         {
+          "title": "Market Research III",
+          "revisionId": 29114
+        },
+        {
+          "title": "Market Research IX",
+          "revisionId": 29113
+        },
+        {
           "title": "Market Research VI",
           "revisionId": 27934
         },
         {
           "title": "Market Research VII",
-          "revisionId": 27897
+          "revisionId": 29094
+        },
+        {
+          "title": "Market Research VIII",
+          "revisionId": 29115
         },
         {
           "title": "Market Research XIV",
@@ -19019,7 +19451,7 @@
         },
         {
           "title": "Rat's Nest",
-          "revisionId": 19056
+          "revisionId": 29466
         },
         {
           "title": "Rebel Scum",
@@ -19211,7 +19643,7 @@
         },
         {
           "title": "The Trickster",
-          "revisionId": 21057
+          "revisionId": 29112
         },
         {
           "title": "The Value of Sharing",
@@ -19239,7 +19671,7 @@
         },
         {
           "title": "Troll Bridge",
-          "revisionId": 24480
+          "revisionId": 29353
         },
         {
           "title": "True Grit",
@@ -19664,7 +20096,7 @@
           "example": "gzwitems.com"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Box of Supplies",
@@ -19733,7 +20165,7 @@
           "example": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
@@ -20298,7 +20730,7 @@
           "example": "1.270kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "B Krogan",
@@ -20451,7 +20883,7 @@
           "example": "0.104 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AK Ratnik Dust Cover",
@@ -20589,7 +21021,7 @@
           "example": "0.0001kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Dollars",
@@ -20600,13 +21032,13 @@
     {
       "name": "vendor_stock",
       "file": "vendor_stock.json",
-      "itemCount": 649,
+      "itemCount": 687,
       "fields": {
         "buy_price": {
           "types": [
             "string"
           ],
-          "presentCount": 475,
+          "presentCount": 525,
           "optional": true,
           "nullable": false,
           "example": "$1,000"
@@ -20615,7 +21047,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 649,
+          "presentCount": 687,
           "optional": false,
           "nullable": false,
           "example": "ammo"
@@ -20624,7 +21056,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 649,
+          "presentCount": 687,
           "optional": false,
           "nullable": false,
           "example": "artisan-ammo-222-remington-fmj"
@@ -20633,7 +21065,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 649,
+          "presentCount": 687,
           "optional": false,
           "nullable": false,
           "example": ".222 Remington FMJ"
@@ -20642,7 +21074,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 649,
+          "presentCount": 687,
           "optional": false,
           "nullable": false,
           "example": ".222 Remington FMJ (Artisan)"
@@ -20652,7 +21084,7 @@
             "null",
             "number"
           ],
-          "presentCount": 649,
+          "presentCount": 687,
           "optional": false,
           "nullable": true,
           "example": 1
@@ -20661,7 +21093,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 643,
+          "presentCount": 681,
           "optional": true,
           "nullable": false,
           "example": "Armor Vest"
@@ -20670,13 +21102,13 @@
           "types": [
             "string"
           ],
-          "presentCount": 649,
+          "presentCount": 687,
           "optional": false,
           "nullable": false,
           "example": "Artisan"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z"
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z"
     },
     {
       "name": "vendors",
@@ -20738,7 +21170,7 @@
           "example": "Any."
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Artisan",
@@ -20915,7 +21347,7 @@
           "example": "1.85kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "6B23-1 (Digital)",
@@ -21147,7 +21579,7 @@
           "example": "0.02kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Allanach Single Malt Scotch - 40y",
@@ -21335,7 +21767,7 @@
           "types": [
             "string"
           ],
-          "presentCount": 36,
+          "presentCount": 78,
           "optional": true,
           "nullable": false,
           "example": ".222 Remington"
@@ -21353,10 +21785,10 @@
           "types": [
             "string"
           ],
-          "presentCount": 32,
+          "presentCount": 77,
           "optional": true,
           "nullable": false,
-          "example": "Single / Full Auto"
+          "example": "Single"
         },
         "fire_rate": {
           "types": [
@@ -21466,7 +21898,7 @@
           "example": "0.17 kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "AK-12",
@@ -21923,7 +22355,7 @@
           "example": "0.122kg"
         }
       },
-      "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
+      "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
       "sourcePages": [
         {
           "title": "Acumulator Drill",
@@ -21992,6 +22424,6 @@
       ]
     }
   ],
-  "lastScrapedAt": "2026-11-17T13:53:38.298604Z",
-  "lastFullScrapeAt": "2026-11-17T13:53:38.298604Z"
+  "lastScrapedAt": "2026-11-24T12:34:42.204908Z",
+  "lastFullScrapeAt": "2026-11-24T12:34:42.204908Z"
 }

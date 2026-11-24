@@ -47,8 +47,7 @@
         "value": 20.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "+4 %"
+    }
   },
   {
     "name": "AFG-2 (FDE)",
@@ -58,7 +57,6 @@
     "sold_by": "Loot only",
     "manufacturer": "Magpul",
     "recoil_control": "+18 %",
-    "weapon_handling": "+4 %",
     "numeric_values": {
       "weight": {
         "value": 0.072,
@@ -408,8 +406,7 @@
         "value": 13.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "+12 %"
+    }
   },
   {
     "name": "DD Vertical Foregrip (MILSPEC)",
@@ -434,8 +431,7 @@
         "value": 13.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "+12 %"
+    }
   },
   {
     "name": "GPN Long Foregrip",
@@ -525,8 +521,7 @@
         "value": 5.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "+4.0 %"
+    }
   },
   {
     "name": "M-LOK AFG (FDE)",
@@ -536,7 +531,6 @@
     "sold_by": "???",
     "manufacturer": "???",
     "recoil_control": "+???? %",
-    "weapon_handling": "+???? %",
     "ergonomics": "+???? %",
     "numeric_values": {
       "weight": {
@@ -588,7 +582,6 @@
         "unit": "%"
       }
     },
-    "weapon_handling": "+5 %",
     "ergonomics": "+5 %"
   },
   {
@@ -661,8 +654,7 @@
         "value": 5.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "-5 %"
+    }
   },
   {
     "name": "RK-1",
@@ -687,8 +679,7 @@
         "value": 16.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "-6 %"
+    }
   },
   {
     "name": "RK-2",
@@ -709,8 +700,7 @@
         "unit": "%"
       }
     },
-    "recoil_control": "+???? %",
-    "weapon_handling": "+???? %"
+    "recoil_control": "+???? %"
   },
   {
     "name": "RK-4",
@@ -734,8 +724,7 @@
         "value": 2.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "+???? %"
+    }
   },
   {
     "name": "RK-4 (Silent Watch)",
@@ -784,8 +773,7 @@
         "value": 3.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "-5 %"
+    }
   },
   {
     "name": "RK-6",
@@ -806,8 +794,7 @@
         "unit": "%"
       }
     },
-    "recoil_control": "+13 %",
-    "weapon_handling": "+2 %"
+    "recoil_control": "+13 %"
   },
   {
     "name": "RVG",
@@ -833,8 +820,7 @@
         "value": 2.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "-6 %"
+    }
   },
   {
     "name": "RVG (FDE)",
@@ -844,7 +830,6 @@
     "sold_by": "Gunny R.3",
     "manufacturer": "???",
     "recoil_control": "+12 %",
-    "weapon_handling": "-6 %",
     "ergonomics": "-6 %",
     "numeric_values": {
       "weight": {
@@ -912,8 +897,7 @@
         "value": 4.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "+2 %"
+    }
   },
   {
     "name": "Ultra Slim M-LOK MT-FGM01X Foregrip",
@@ -938,8 +922,7 @@
         "value": 13.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "+???? %"
+    }
   },
   {
     "name": "UltraSlim Angled Foregrip",
@@ -964,8 +947,7 @@
         "value": 2.0,
         "unit": "%"
       }
-    },
-    "weapon_handling": "+3 %"
+    }
   },
   {
     "name": "UltraSlim Angled Foregrip (Zero Hour)",
